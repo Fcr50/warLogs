@@ -2,7 +2,8 @@ name: Update War Data
 
 on:
   schedule:
-    - cron: '0 9 * * *'  # 6h horário de Brasília (UTC-3) = 9h UTC
+    - cron: '0 9 * * *'   # 6h horário de Brasília (UTC-3) = 9h UTC
+    - cron: '0 21 * * *'  # 18h horário de Brasília — captura guerras que terminam no dia
   workflow_dispatch:      # permite rodar manualmente
 
 jobs:

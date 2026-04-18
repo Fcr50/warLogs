@@ -26,39 +26,25 @@ function saveData(data) {
   writeFileSync(DATA_PATH, JSON.stringify(data, null, 2));
 }
 
-async function main() {
-  const war = await fetchCurrentWar();
+function buildWarRecord(war) {
+  const clanStars = war.clan.stars ?? 0;
+  const oppStars = war.opponent.stars ?? 0;
+  const result = war.state === 'warEnded'
+    ? (clanStars > oppStars ? 'win' : clanStars < oppStars ? 'loss' : 'tie')
+    : 'inProgress';
 
-  if (war.state === 'notInWar') {
-    console.log('Clan not in war.');
-    return;
-  }
-
-  if (war.state !== 'warEnded') {
-    console.log(`War state is "${war.state}", skipping save.`);
-    return;
-  }
-
-  const data = loadData();
-
-  const alreadySaved = data.wars.some(w => w.endTime === war.endTime);
-  if (alreadySaved) {
-    console.log('War already saved.');
-    return;
-  }
-
-  const warRecord = {
+  return {
     endTime: war.endTime,
-    result: war.clan.stars > war.opponent.stars ? 'win'
-          : war.clan.stars < war.opponent.stars ? 'loss' : 'tie',
+    state: war.state,
+    result,
     opponent: {
       name: war.opponent.name,
       tag: war.opponent.tag,
-      stars: war.opponent.stars,
+      stars: oppStars,
       destructionPercentage: war.opponent.destructionPercentage,
     },
     clan: {
-      stars: war.clan.stars,
+      stars: clanStars,
       destructionPercentage: war.clan.destructionPercentage,
     },
     members: war.clan.members.map(m => ({
@@ -70,15 +56,39 @@ async function main() {
         destructionPercentage: a.destructionPercentage,
         order: a.order,
       })),
-      missedAttacks: (war.teamSize <= 15 ? 1 : 2) - (m.attacks || []).length,
+      missedAttacks: war.state === 'warEnded'
+        ? (war.teamSize <= 15 ? 1 : 2) - (m.attacks || []).length
+        : 0,
     })),
   };
+}
 
-  data.wars.unshift(warRecord);
-  data.wars = data.wars.slice(0, 50);
+async function main() {
+  const war = await fetchCurrentWar();
+
+  if (war.state === 'notInWar') {
+    console.log('Clan not in war.');
+    return;
+  }
+
+  const data = loadData();
+  const existingIndex = data.wars.findIndex(w => w.endTime === war.endTime);
+  const warRecord = buildWarRecord(war);
+
+  if (existingIndex !== -1) {
+    if (data.wars[existingIndex].state === 'warEnded' && war.state !== 'warEnded') {
+      console.log('Already saved as finished, skipping.');
+      return;
+    }
+    data.wars[existingIndex] = warRecord;
+    console.log(`Updated war vs ${war.opponent.name} (${warRecord.result})`);
+  } else {
+    data.wars.unshift(warRecord);
+    data.wars = data.wars.slice(0, 50);
+    console.log(`Saved war vs ${war.opponent.name} (${warRecord.result})`);
+  }
 
   saveData(data);
-  console.log(`Saved war vs ${war.opponent.name} (${warRecord.result})`);
 }
 
 main().catch(err => {

@@ -2,7 +2,14 @@
   "permissions": {
     "allow": [
       "WebFetch(domain:developer.clashofclans.com)",
-      "Bash(curl *)"
+      "Bash(curl *)",
+      "Bash(npm install *)",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\('state:', d.get\\('state'\\)\\); print\\('opponent:', d.get\\('opponent',{}\\).get\\('name',''\\)\\)\")",
+      "Bash(python3 -c ' *)",
+      "Bash(COC_TOKEN=\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6IjcxMzBlMWE1LTk2ZTctNGFjNC1hZDMwLWE0NjkyNGJkMzM5NSIsImlhdCI6MTc3NjU1NDUyNywic3ViIjoiZGV2ZWxvcGVyLzM1M2ViNDQ4LTRmMGYtOWIyOC1kODNkLTllNzA1MTA5YTRkZSIsInNjb3BlcyI6WyJjbGFzaCJdLCJsaW1pdHMiOlt7InRpZXIiOiJkZXZlbG9wZXIvc2lsdmVyIiwidHlwZSI6InRocm90dGxpbmcifSx7ImNpZHJzIjpbIjE3OS4xODMuMjMuMTU0Il0sInR5cGUiOiJjbGllbnQifV19.o0D4etq-VEHgJRAORGQQv6RBQgJELBlPkv_jiIsMnUqcYYWC-7mlDlP9rxu-AeMIWEPMMJ6mBjM4_8tWpWt5kg\" npm run *)",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git commit *)"
     ]
   }
 }
