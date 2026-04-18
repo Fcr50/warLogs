@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brazil Society - War Logs</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header>
+    <div>
+      <h1>⚔️ Brazil Society — War Logs</h1>
+      <div class="subtitle">Últimas 10 guerras · Desempenho por membro</div>
+    </div>
+  </header>
+
+  <div class="controls">
+    <label>Filtrar por CV:</label>
+    <select id="filter-th">
+      <option value="all">Todos os CVs</option>
+    </select>
+
+    <label>Buscar membro:</label>
+    <input type="text" id="filter-search" placeholder="Nome do membro..." />
+  </div>
+
+  <div class="stats-bar">
+    <div class="stat-item">
+      <span class="value" id="stat-wars">—</span>
+      <span class="label">Guerras</span>
+    </div>
+    <div class="stat-item">
+      <span class="value" id="stat-wins">—</span>
+      <span class="label">Vitórias</span>
+    </div>
+    <div class="stat-item">
+      <span class="value" id="stat-stars">—</span>
+      <span class="label">Estrelas</span>
+    </div>
+    <div class="stat-item">
+      <span class="value" id="stat-missed">—</span>
+      <span class="label">Ataques Perdidos</span>
+    </div>
+    <div class="stat-item">
+      <span class="value" id="stat-members">—</span>
+      <span class="label">Membros</span>
+    </div>
+  </div>
+
+  <div class="table-wrapper">
+    <table>
+      <thead>
+        <tr>
+          <th data-sort="name">Membro</th>
+          <th data-sort="townhallLevel">CV</th>
+          <th data-sort="totalStars" class="sorted-desc">⭐ Total</th>
+          <th data-sort="avgStars">Média/Ataque</th>
+          <th data-sort="totalAttacks">Ataques</th>
+          <th data-sort="totalMissed">Perdidos</th>
+          <th>Histórico (últimas guerras →)</th>
+        </tr>
+      </thead>
+      <tbody id="tbody">
+        <tr>
+          <td colspan="7" class="no-data">Carregando dados...</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="last-updated" id="last-updated"></div>
+
+  <script src="js/app.js" type="module"></script>
+</body>
+</html>
