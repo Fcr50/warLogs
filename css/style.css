@@ -1060,8 +1060,10 @@ tbody tr:nth-child(3) .rank-pos { color: #cd7f32; }
 /* ═══════════════════════════════════════
    ATTACK STATS MODAL
 ═══════════════════════════════════════ */
-.rank-row { cursor: pointer; transition: background var(--t-fast); }
-.rank-row:hover { background: var(--bg-raised); }
+.rank-row,
+.war-row { cursor: pointer; transition: background var(--t-fast); }
+.rank-row:hover,
+.war-row:hover { background: var(--bg-raised); }
 
 .modal-backdrop {
   position: fixed;

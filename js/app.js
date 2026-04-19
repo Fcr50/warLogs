@@ -1,3 +1,5 @@
+import { openAttackStatsModal } from './attack-modal.js';
+
 const DATA_URL = './data/wars.json';
 const MAX_WARS = 10;
 
@@ -159,7 +161,7 @@ function renderTable(members, wars) {
     const isLazy = lazySet.has(m.tag);
 
     return `
-      <tr class="${isLazy ? 'row-lazy' : ''}">
+      <tr class="war-row${isLazy ? ' row-lazy' : ''}" data-tag="${m.tag}">
         <td>
           <div class="member-name">${m.name}</div>
           <div class="member-tag">${m.tag}</div>
@@ -179,6 +181,14 @@ function renderTable(members, wars) {
       </tr>
     `;
   }).join('');
+
+  tbody.querySelectorAll('.war-row').forEach(row => {
+    row.addEventListener('click', () => {
+      const tag = row.dataset.tag;
+      const member = members.find(x => x.tag === tag);
+      if (member) openAttackStatsModal(member, wars);
+    });
+  });
 }
 
 function renderThFilter(members) {
