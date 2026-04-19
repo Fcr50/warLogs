@@ -42,12 +42,19 @@ async function main() {
   for (const member of members) {
     try {
       const player = await fetchPlayer(member.tag);
+      const league = player.leagueTier || player.league || null;
       players.push({
         tag: player.tag,
         name: player.name,
         townhallLevel: player.townHallLevel,
         expLevel: player.expLevel,
         trophies: player.trophies,
+        builderBaseTrophies: player.builderBaseTrophies ?? 0,
+        role: member.role,
+        league: league ? {
+          name: league.name,
+          iconUrl: league.iconUrls?.small || null,
+        } : null,
         heroes: (player.heroes || [])
           .filter(h => HOME_HEROES.has(h.name))
           .map(h => ({ name: h.name, level: h.level, maxLevel: h.maxLevel })),

@@ -331,6 +331,77 @@ tbody td {
   margin-top: 1px;
 }
 
+/* ── Ranking ── */
+.rank-pos {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #f5a623;
+  width: 36px;
+  text-align: center;
+}
+
+.exp-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  background: #0f3460;
+  color: #aaa;
+  border: 1px solid #2a2a4a;
+}
+
+.trophy-cell {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.trophy-value {
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+.trophy-bar-wrap {
+  background: #2a2a4a;
+  border-radius: 3px;
+  height: 5px;
+  width: 120px;
+  overflow: hidden;
+}
+
+.trophy-bar {
+  height: 100%;
+  background: #f5a623;
+  border-radius: 3px;
+}
+
+.league-wrap {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.league-icon {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  vertical-align: middle;
+}
+
+.league-name {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.78rem;
+  color: #aaa;
+}
+
+.league-none {
+  color: #555;
+  font-size: 0.8rem;
+}
+
 @media (max-width: 600px) {
   header, .controls, .stats-bar, .table-wrapper {
     padding: 16px;

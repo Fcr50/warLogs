@@ -194,17 +194,21 @@ function setupSort() {
   });
 }
 
-function setupTabs(onPlayersFirst) {
-  let playersLoaded = false;
+function setupTabs(onPlayersFirst, onRankingFirst) {
+  const loaded = { players: false, ranking: false };
   document.querySelectorAll('.tab-btn').forEach(btn => {
     btn.addEventListener('click', () => {
       document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
       document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
       btn.classList.add('active');
       document.getElementById(`${btn.dataset.tab}-tab`).classList.add('active');
-      if (btn.dataset.tab === 'players' && !playersLoaded) {
-        playersLoaded = true;
+      if (btn.dataset.tab === 'players' && !loaded.players) {
+        loaded.players = true;
         onPlayersFirst();
+      }
+      if (btn.dataset.tab === 'ranking' && !loaded.ranking) {
+        loaded.ranking = true;
+        window._playersData.then(data => onRankingFirst(data.players || []));
       }
     });
   });
@@ -212,6 +216,7 @@ function setupTabs(onPlayersFirst) {
 
 async function init() {
   const { initPlayers } = await import('./players.js');
+  const { initRanking } = await import('./ranking.js');
 
   const wars = await loadData();
   window._wars = wars;
@@ -232,7 +237,8 @@ async function init() {
     setupSort();
   }
 
-  setupTabs(initPlayers);
+  window._playersData = fetch('./data/players.json').then(r => r.json());
+  setupTabs(initPlayers, initRanking);
 }
 
 init();

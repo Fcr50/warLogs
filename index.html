@@ -18,6 +18,7 @@
   <nav class="tabs">
     <button class="tab-btn active" data-tab="wars">⚔️ Guerras</button>
     <button class="tab-btn" data-tab="players">🛡️ Jogadores</button>
+    <button class="tab-btn" data-tab="ranking">🏆 Ranking</button>
   </nav>
 
   <!-- ABA GUERRAS -->
@@ -124,6 +125,51 @@
     </div>
 
     <div class="last-updated" id="players-updated"></div>
+  </div>
+
+  <!-- ABA RANKING -->
+  <div id="ranking-tab" class="tab-content">
+    <div class="controls">
+      <label>Filtrar por CV:</label>
+      <select id="filter-r-th">
+        <option value="all">Todos os CVs</option>
+      </select>
+      <label>Buscar membro:</label>
+      <input type="text" id="filter-r-search" placeholder="Nome do membro..." />
+    </div>
+
+    <div class="stats-bar">
+      <div class="stat-item">
+        <span class="value" id="stat-r-members">—</span>
+        <span class="label">Membros</span>
+      </div>
+      <div class="stat-item">
+        <span class="value" id="stat-r-max">—</span>
+        <span class="label">Maior Troféu</span>
+      </div>
+      <div class="stat-item">
+        <span class="value" id="stat-r-avg">—</span>
+        <span class="label">Média de Troféus</span>
+      </div>
+    </div>
+
+    <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th data-sort="name">Membro</th>
+            <th data-sort="townhallLevel">CV</th>
+            <th data-sort="expLevel">Exp</th>
+            <th data-sort="trophies" class="sorted-desc">🏆 Troféus</th>
+            <th data-sort="builderBaseTrophies">⚙️ Builder Base</th>
+          </tr>
+        </thead>
+        <tbody id="ranking-tbody">
+          <tr><td colspan="6" class="no-data">Carregando dados...</td></tr>
+        </tbody>
+      </table>
+    </div>
   </div>
 
   <script src="js/app.js" type="module"></script>
