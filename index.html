@@ -10,66 +10,121 @@
 
   <header>
     <div>
-      <h1>⚔️ Brazil Society — War Logs</h1>
-      <div class="subtitle">Últimas 10 guerras · Desempenho por membro</div>
+      <h1>⚔️ Brazil Society</h1>
+      <div class="subtitle">Estatísticas do clã</div>
     </div>
   </header>
 
-  <div class="controls">
-    <label>Filtrar por CV:</label>
-    <select id="filter-th">
-      <option value="all">Todos os CVs</option>
-    </select>
+  <nav class="tabs">
+    <button class="tab-btn active" data-tab="wars">⚔️ Guerras</button>
+    <button class="tab-btn" data-tab="players">🛡️ Jogadores</button>
+  </nav>
 
-    <label>Buscar membro:</label>
-    <input type="text" id="filter-search" placeholder="Nome do membro..." />
+  <!-- ABA GUERRAS -->
+  <div id="wars-tab" class="tab-content active">
+    <div class="controls">
+      <label>Filtrar por CV:</label>
+      <select id="filter-th">
+        <option value="all">Todos os CVs</option>
+      </select>
+      <label>Buscar membro:</label>
+      <input type="text" id="filter-search" placeholder="Nome do membro..." />
+    </div>
+
+    <div class="stats-bar">
+      <div class="stat-item">
+        <span class="value" id="stat-wars">—</span>
+        <span class="label">Guerras</span>
+      </div>
+      <div class="stat-item">
+        <span class="value" id="stat-wins">—</span>
+        <span class="label">Vitórias</span>
+      </div>
+      <div class="stat-item">
+        <span class="value" id="stat-stars">—</span>
+        <span class="label">Estrelas</span>
+      </div>
+      <div class="stat-item">
+        <span class="value" id="stat-missed">—</span>
+        <span class="label">Ataques Perdidos</span>
+      </div>
+      <div class="stat-item">
+        <span class="value" id="stat-members">—</span>
+        <span class="label">Membros</span>
+      </div>
+    </div>
+
+    <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr>
+            <th data-sort="name">Membro</th>
+            <th data-sort="townhallLevel">CV</th>
+            <th data-sort="totalStars" class="sorted-desc">⭐ Total</th>
+            <th data-sort="avgStars">Média/Ataque</th>
+            <th data-sort="totalAttacks">Ataques</th>
+            <th data-sort="totalMissed">Perdidos</th>
+            <th>Histórico (últimas guerras →)</th>
+          </tr>
+        </thead>
+        <tbody id="tbody">
+          <tr><td colspan="7" class="no-data">Carregando dados...</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="last-updated" id="last-updated"></div>
   </div>
 
-  <div class="stats-bar">
-    <div class="stat-item">
-      <span class="value" id="stat-wars">—</span>
-      <span class="label">Guerras</span>
+  <!-- ABA JOGADORES -->
+  <div id="players-tab" class="tab-content">
+    <div class="controls">
+      <label>Filtrar por CV:</label>
+      <select id="filter-p-th">
+        <option value="all">Todos os CVs</option>
+      </select>
+      <label>Buscar membro:</label>
+      <input type="text" id="filter-p-search" placeholder="Nome do membro..." />
     </div>
-    <div class="stat-item">
-      <span class="value" id="stat-wins">—</span>
-      <span class="label">Vitórias</span>
-    </div>
-    <div class="stat-item">
-      <span class="value" id="stat-stars">—</span>
-      <span class="label">Estrelas</span>
-    </div>
-    <div class="stat-item">
-      <span class="value" id="stat-missed">—</span>
-      <span class="label">Ataques Perdidos</span>
-    </div>
-    <div class="stat-item">
-      <span class="value" id="stat-members">—</span>
-      <span class="label">Membros</span>
-    </div>
-  </div>
 
-  <div class="table-wrapper">
-    <table>
-      <thead>
-        <tr>
-          <th data-sort="name">Membro</th>
-          <th data-sort="townhallLevel">CV</th>
-          <th data-sort="totalStars" class="sorted-desc">⭐ Total</th>
-          <th data-sort="avgStars">Média/Ataque</th>
-          <th data-sort="totalAttacks">Ataques</th>
-          <th data-sort="totalMissed">Perdidos</th>
-          <th>Histórico (últimas guerras →)</th>
-        </tr>
-      </thead>
-      <tbody id="tbody">
-        <tr>
-          <td colspan="7" class="no-data">Carregando dados...</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
+    <div class="stats-bar">
+      <div class="stat-item">
+        <span class="value" id="stat-p-members">—</span>
+        <span class="label">Membros</span>
+      </div>
+      <div class="stat-item">
+        <span class="value" id="stat-p-bk">—</span>
+        <span class="label">Média BK</span>
+      </div>
+      <div class="stat-item">
+        <span class="value" id="stat-p-aq">—</span>
+        <span class="label">Média AQ</span>
+      </div>
+    </div>
 
-  <div class="last-updated" id="last-updated"></div>
+    <div class="table-wrapper">
+      <table id="players-table">
+        <thead>
+          <tr>
+            <th data-sort="name">Membro</th>
+            <th data-sort="townhallLevel">CV</th>
+            <th data-sort="Barbarian King">BK</th>
+            <th data-sort="Archer Queen">AQ</th>
+            <th data-sort="Grand Warden">GW</th>
+            <th data-sort="Royal Champion">RC</th>
+            <th data-sort="Minion Prince">MP</th>
+            <th data-sort="Dragon Duke">DD</th>
+            <th>Equipamentos</th>
+          </tr>
+        </thead>
+        <tbody id="players-tbody">
+          <tr><td colspan="9" class="no-data">Carregando dados...</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="last-updated" id="players-updated"></div>
+  </div>
 
   <script src="js/app.js" type="module"></script>
 </body>

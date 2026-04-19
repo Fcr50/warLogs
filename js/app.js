@@ -178,7 +178,7 @@ function render(members, wars) {
 }
 
 function setupSort() {
-  document.querySelectorAll('thead th[data-sort]').forEach(th => {
+  document.querySelectorAll('#wars-tab thead th[data-sort]').forEach(th => {
     th.addEventListener('click', () => {
       const key = th.dataset.sort;
       if (sortKey === key) {
@@ -187,14 +187,32 @@ function setupSort() {
         sortKey = key;
         sortDir = 'desc';
       }
-      document.querySelectorAll('thead th').forEach(t => t.classList.remove('sorted-asc', 'sorted-desc'));
+      document.querySelectorAll('#wars-tab thead th').forEach(t => t.classList.remove('sorted-asc', 'sorted-desc'));
       th.classList.add(sortDir === 'asc' ? 'sorted-asc' : 'sorted-desc');
       render(allMembers, window._wars);
     });
   });
 }
 
+function setupTabs(onPlayersFirst) {
+  let playersLoaded = false;
+  document.querySelectorAll('.tab-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+      btn.classList.add('active');
+      document.getElementById(`${btn.dataset.tab}-tab`).classList.add('active');
+      if (btn.dataset.tab === 'players' && !playersLoaded) {
+        playersLoaded = true;
+        onPlayersFirst();
+      }
+    });
+  });
+}
+
 async function init() {
+  const { initPlayers } = await import('./players.js');
+
   const wars = await loadData();
   window._wars = wars;
   allMembers = buildMembers(wars);
@@ -204,19 +222,17 @@ async function init() {
   if (wars.length === 0) {
     document.getElementById('tbody').innerHTML =
       `<tr><td colspan="7" class="no-data">Nenhuma guerra registrada ainda. O GitHub Actions irá coletar os dados automaticamente.</td></tr>`;
-    return;
+  } else {
+    const lastWar = wars[0];
+    document.getElementById('last-updated').textContent =
+      `Última guerra registrada: ${lastWar.endTime?.replace('T', ' ').slice(0, 16)} UTC`;
+    render(allMembers, wars);
+    document.getElementById('filter-th').addEventListener('change', () => render(allMembers, wars));
+    document.getElementById('filter-search').addEventListener('input', () => render(allMembers, wars));
+    setupSort();
   }
 
-  const lastWar = wars[0];
-  document.getElementById('last-updated').textContent =
-    `Última guerra registrada: ${lastWar.endTime?.replace('T', ' ').slice(0, 16)} UTC`;
-
-  render(allMembers, wars);
-
-  document.getElementById('filter-th').addEventListener('change', () => render(allMembers, wars));
-  document.getElementById('filter-search').addEventListener('input', () => render(allMembers, wars));
-
-  setupSort();
+  setupTabs(initPlayers);
 }
 
 init();

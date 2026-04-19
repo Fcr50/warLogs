@@ -30,10 +30,15 @@ jobs:
           COC_TOKEN: ${{ secrets.COC_TOKEN }}
         run: npm run fetch
 
+      - name: Fetch player data
+        env:
+          COC_TOKEN: ${{ secrets.COC_TOKEN }}
+        run: npm run fetch-players
+
       - name: Commit updated data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/wars.json
-          git diff --staged --quiet || git commit -m "chore: update war data $(date -u +'%Y-%m-%d')"
+          git add data/wars.json data/players.json
+          git diff --staged --quiet || git commit -m "chore: update war and player data $(date -u +'%Y-%m-%d')"
           git push origin master

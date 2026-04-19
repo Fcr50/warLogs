@@ -238,9 +238,103 @@ tbody td {
   text-align: right;
 }
 
+/* ── Tabs ── */
+.tabs {
+  background: #16213e;
+  display: flex;
+  gap: 4px;
+  padding: 0 32px;
+  border-bottom: 2px solid #2a2a4a;
+}
+
+.tab-btn {
+  background: none;
+  border: none;
+  color: #aaa;
+  padding: 14px 24px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  border-bottom: 3px solid transparent;
+  margin-bottom: -2px;
+  transition: color 0.15s;
+}
+
+.tab-btn:hover { color: #fff; }
+.tab-btn.active { color: #f5a623; border-bottom-color: #f5a623; }
+
+.tab-content { display: none; }
+.tab-content.active { display: block; }
+
+/* ── Hero badges ── */
+.hero-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 24px;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.hero-max  { background: #27ae60; color: #fff; }
+.hero-high { background: #2980b9; color: #fff; }
+.hero-mid  { background: #f39c12; color: #fff; }
+.hero-low  { background: #e74c3c; color: #fff; }
+.hero-none { background: #2a2a2a; color: #555; }
+
+/* ── Equipment grid ── */
+.eq-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  max-width: 340px;
+}
+
+.eq-item {
+  width: 72px;
+  cursor: default;
+}
+
+.eq-name {
+  font-size: 0.6rem;
+  color: #aaa;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 2px;
+}
+
+.eq-bar-wrap {
+  background: #2a2a4a;
+  border-radius: 3px;
+  height: 5px;
+  overflow: hidden;
+}
+
+.eq-bar {
+  height: 100%;
+  border-radius: 3px;
+  transition: width 0.3s;
+}
+
+.eq-max  { background: #f5a623; }
+.eq-high { background: #27ae60; }
+.eq-mid  { background: #2980b9; }
+.eq-low  { background: #e74c3c; }
+
+.eq-level {
+  font-size: 0.6rem;
+  color: #888;
+  text-align: right;
+  margin-top: 1px;
+}
+
 @media (max-width: 600px) {
   header, .controls, .stats-bar, .table-wrapper {
     padding: 16px;
   }
   header h1 { font-size: 1.2rem; }
+  .tabs { padding: 0 16px; }
 }
