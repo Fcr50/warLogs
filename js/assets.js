@@ -38,8 +38,7 @@ export const EQUIPMENT_IMAGES = {
   'Giant Gauntlet':    `${COC}/equipment/giant-gauntlet.png`,
   'Spiky Ball':        `${DC}/1234940460070600804.png${SZ}`,
   'Stick Horse':       `${DC}/1470414517191180319.png${SZ}`,
-  'Haste Vial':        `${COC}/equipment/haste-vial.png`,
-  'Fire Heart':        `${DC}/1483040001116602420.png${SZ}`,
+  'Snake Bracelet':    `${COC}/equipment/snake-armor.png`,
   // Archer Queen
   'Archer Puppet':     `${COC}/equipment/archer-crown.png`,
   'Invisibility Vial': `${COC}/equipment/royal-cloak.png`,
@@ -47,8 +46,7 @@ export const EQUIPMENT_IMAGES = {
   'Healer Puppet':     `${COC}/equipment/healer-jar.png`,
   'Frozen Arrow':      `${COC}/equipment/frozen-arrow.png`,
   'Action Figure':     `${DC}/1401438960294690867.png${SZ}`,
-  'Meteor Staff':      `${DC}/1436061197077315586.png${SZ}`,
-  'Frost Flake':       `${DC}/1447958238816374919.png${SZ}`,
+  'Magic Mirror':      `${COC}/equipment/magic-mirror.png`,
   // Grand Warden
   'Eternal Tome':      `${COC}/equipment/eternal-tome.png`,
   'Life Gem':          `${COC}/equipment/life-gem.png`,
@@ -57,21 +55,24 @@ export const EQUIPMENT_IMAGES = {
   'Lavaloon Puppet':   `${COC}/equipment/gw-lavaloon-puppet.png`,
   'Fireball':          `${COC}/equipment/fire-in-a-can.png`,
   'Heroic Torch':      `${COC}/equipment/heroic-torch.png`,
-  'Dark Crown':        `${DC}/1401438986366484602.png${SZ}`,
   // Royal Champion
   'Seeking Shield':    `${COC}/equipment/seeking-shield.png`,
   'Royal Gem':         `${COC}/equipment/protective-cloak.png`,
   'Hog Rider Puppet':  `${COC}/equipment/hog-rider-puppet.png`,
   'Rocket Spear':      `${DC}/1223332521358528695.png${SZ}`,
-  'Magic Mirror':      `${COC}/equipment/magic-mirror.png`,
   'Electro Boots':     `${COC}/equipment/electro-boots.png`,
-  'Snake Bracelet':    `${COC}/equipment/snake-armor.png`,
-  'Rocket Backpack':   `${DC}/1493662588695740659.png${SZ}`,
+  'Haste Vial':        `${COC}/equipment/haste-vial.png`,
+  'Frost Flake':       `${DC}/1447958238816374919.png${SZ}`,
   // Minion Prince
   'Dark Orb':          `${DC}/1310574234543587358.png${SZ}`,
   'Henchmen Puppet':   `${COC}/equipment/mp-minion-bros.png`,
   'Noble Iron':        `${DC}/1354122575965454347.png${SZ}`,
   'Metal Pants':       `${DC}/1341345439626039337.png${SZ}`,
+  'Meteor Staff':      `${DC}/1436061197077315586.png${SZ}`,
+  'Dark Crown':        `${DC}/1401438986366484602.png${SZ}`,
+  // Dragon Duke
+  'Fire Heart':        `${DC}/1483040001116602420.png${SZ}`,
+  'Rocket Backpack':   `${DC}/1493662588695740659.png${SZ}`,
   'Stun Blaster':      `${DC}/1483040038789841040.png${SZ}`,
   'Flame Blower':      `${DC}/1493665431611904221.png${SZ}`,
 };
