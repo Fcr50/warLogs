@@ -80,23 +80,23 @@ export const EQUIPMENT_IMAGES = {
 export const HERO_EQUIPMENT_MAP = {
   'Barbarian King': [
     'Barbarian Puppet', 'Rage Vial', 'Earthquake Boots', 'Vampstache',
-    'Giant Gauntlet', 'Spiky Ball', 'Stick Horse', 'Haste Vial', 'Fire Heart',
+    'Giant Gauntlet', 'Spiky Ball', 'Stick Horse', 'Snake Bracelet',
   ],
   'Archer Queen': [
     'Archer Puppet', 'Invisibility Vial', 'Giant Arrow', 'Healer Puppet',
-    'Frozen Arrow', 'Action Figure', 'Meteor Staff', 'Frost Flake',
+    'Frozen Arrow', 'Action Figure', 'Magic Mirror',
   ],
   'Grand Warden': [
     'Eternal Tome', 'Life Gem', 'Healing Tome', 'Rage Gem',
-    'Lavaloon Puppet', 'Fireball', 'Heroic Torch', 'Dark Crown',
+    'Lavaloon Puppet', 'Fireball', 'Heroic Torch',
   ],
   'Royal Champion': [
     'Seeking Shield', 'Royal Gem', 'Hog Rider Puppet', 'Rocket Spear',
-    'Magic Mirror', 'Electro Boots', 'Snake Bracelet', 'Rocket Backpack',
+    'Electro Boots', 'Haste Vial', 'Frost Flake',
   ],
   'Minion Prince': [
     'Dark Orb', 'Henchmen Puppet', 'Noble Iron', 'Metal Pants',
-    'Stun Blaster', 'Flame Blower',
+    'Meteor Staff', 'Dark Crown',
   ],
-  'Dragon Duke': [],
+  'Dragon Duke': ['Fire Heart', 'Rocket Backpack', 'Stun Blaster', 'Flame Blower'],
 };
