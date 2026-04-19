@@ -115,7 +115,14 @@ function heroCard(player, heroName) {
 function renderPlayersTable(players) {
   const tbody = document.getElementById('players-tbody');
   if (!players.length) {
-    tbody.innerHTML = `<tr><td colspan="2" class="no-data">Nenhum jogador encontrado.</td></tr>`;
+    tbody.innerHTML = `
+      <tr><td colspan="2">
+        <div class="empty-state">
+          <div class="empty-state-icon">🔍</div>
+          <div class="empty-state-title">Nenhum jogador encontrado</div>
+          <div class="empty-state-desc">Ajuste o filtro de CV ou a busca para ver resultados.</div>
+        </div>
+      </td></tr>`;
     return;
   }
 
@@ -211,8 +218,14 @@ export async function initPlayers() {
   }
 
   if (!allPlayers.length) {
-    document.getElementById('players-tbody').innerHTML =
-      `<tr><td colspan="2" class="no-data">Nenhum dado disponível ainda.</td></tr>`;
+    document.getElementById('players-tbody').innerHTML = `
+      <tr><td colspan="2">
+        <div class="empty-state">
+          <div class="empty-state-icon">🛡️</div>
+          <div class="empty-state-title">Nenhum dado disponível ainda</div>
+          <div class="empty-state-desc">Os heróis serão exibidos assim que os jogadores forem sincronizados.</div>
+        </div>
+      </td></tr>`;
     return;
   }
 

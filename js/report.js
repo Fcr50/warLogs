@@ -6,7 +6,12 @@ export function initReport(wars) {
   );
 
   if (!warsWithData.length) {
-    container.innerHTML = `<div class="no-data" style="padding:60px">Nenhum dado de relatório disponível ainda.</div>`;
+    container.innerHTML = `
+      <div class="empty-state">
+        <div class="empty-state-icon">📋</div>
+        <div class="empty-state-title">Nenhum relatório disponível</div>
+        <div class="empty-state-desc">O relatório começa a ser montado assim que a primeira guerra do clã for registrada.</div>
+      </div>`;
     return;
   }
 

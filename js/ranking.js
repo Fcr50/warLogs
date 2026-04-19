@@ -29,7 +29,14 @@ function trophyBar(value, max) {
 function renderRankingTable(players) {
   const tbody = document.getElementById('ranking-tbody');
   if (players.length === 0) {
-    tbody.innerHTML = `<tr><td colspan="7" class="no-data">Nenhum jogador encontrado.</td></tr>`;
+    tbody.innerHTML = `
+      <tr><td colspan="6">
+        <div class="empty-state">
+          <div class="empty-state-icon">🔍</div>
+          <div class="empty-state-title">Nenhum jogador encontrado</div>
+          <div class="empty-state-desc">Ajuste o filtro de CV ou a busca para ver resultados.</div>
+        </div>
+      </td></tr>`;
     return;
   }
 
@@ -129,8 +136,14 @@ export async function initRanking(players) {
   allRanking = players;
 
   if (!allRanking.length) {
-    document.getElementById('ranking-tbody').innerHTML =
-      `<tr><td colspan="7" class="no-data">Nenhum dado disponível ainda.</td></tr>`;
+    document.getElementById('ranking-tbody').innerHTML = `
+      <tr><td colspan="6">
+        <div class="empty-state">
+          <div class="empty-state-icon">🏆</div>
+          <div class="empty-state-title">Nenhum dado disponível ainda</div>
+          <div class="empty-state-desc">O ranking será exibido assim que os jogadores forem sincronizados.</div>
+        </div>
+      </td></tr>`;
     return;
   }
 

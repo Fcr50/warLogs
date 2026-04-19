@@ -6,14 +6,24 @@ export async function initAbsences() {
     const res = await fetch('./data/absences.json');
     data = await res.json();
   } catch {
-    container.innerHTML = `<div class="no-data" style="padding:60px">Erro ao carregar dados.</div>`;
+    container.innerHTML = `
+      <div class="empty-state">
+        <div class="empty-state-icon">⚠️</div>
+        <div class="empty-state-title">Erro ao carregar dados</div>
+        <div class="empty-state-desc">Não foi possível ler <code>absences.json</code>. Tente recarregar a página.</div>
+      </div>`;
     return;
   }
 
   const absent = data.absent || [];
 
   if (absent.length === 0) {
-    container.innerHTML = `<div class="no-data" style="padding:60px">Nenhum membro ausente nas últimas guerras.</div>`;
+    container.innerHTML = `
+      <div class="empty-state">
+        <div class="empty-state-icon">✅</div>
+        <div class="empty-state-title">Todos presentes!</div>
+        <div class="empty-state-desc">Nenhum membro do clã ficou de fora das últimas guerras.</div>
+      </div>`;
     return;
   }
 

@@ -123,7 +123,14 @@ function renderTable(members, wars) {
   const totalWars = Math.min(wars.length, MAX_WARS);
 
   if (members.length === 0) {
-    tbody.innerHTML = `<tr><td colspan="7" class="no-data">Nenhum membro encontrado.</td></tr>`;
+    tbody.innerHTML = `
+      <tr><td colspan="7">
+        <div class="empty-state">
+          <div class="empty-state-icon">🔍</div>
+          <div class="empty-state-title">Nenhum membro encontrado</div>
+          <div class="empty-state-desc">Ajuste o filtro de CV ou a busca para ver resultados.</div>
+        </div>
+      </td></tr>`;
     return;
   }
 
@@ -258,9 +265,19 @@ async function init() {
 
   renderThFilter(allMembers);
 
+  if (wars[0]?.result === 'inProgress') {
+    document.getElementById('live-war-badge').hidden = false;
+  }
+
   if (wars.length === 0) {
-    document.getElementById('tbody').innerHTML =
-      `<tr><td colspan="7" class="no-data">Nenhuma guerra registrada ainda. O GitHub Actions irá coletar os dados automaticamente.</td></tr>`;
+    document.getElementById('tbody').innerHTML = `
+      <tr><td colspan="7">
+        <div class="empty-state">
+          <div class="empty-state-icon">⚔️</div>
+          <div class="empty-state-title">Nenhuma guerra registrada ainda</div>
+          <div class="empty-state-desc">Os dados serão coletados automaticamente assim que a primeira guerra do clã for sincronizada.</div>
+        </div>
+      </td></tr>`;
   } else {
     const lastWar = wars[0];
     document.getElementById('last-updated').textContent =

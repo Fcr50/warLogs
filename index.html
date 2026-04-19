@@ -13,7 +13,7 @@
 
   <header>
     <div>
-      <h1>⚔️ Brazil Society</h1>
+      <h1>⚔️ Brazil Society <span id="live-war-badge" class="live-badge" hidden>🔴 Guerra ativa</span></h1>
       <div class="subtitle">Estatísticas do clã</div>
     </div>
   </header>
@@ -47,7 +47,7 @@
         <span class="value" id="stat-wins">—</span>
         <span class="label">Vitórias</span>
       </div>
-      <div class="stat-item">
+      <div class="stat-item stat-primary">
         <span class="value" id="stat-stars">—</span>
         <span class="label">Estrelas</span>
       </div>
@@ -75,7 +75,11 @@
           </tr>
         </thead>
         <tbody id="tbody">
-          <tr><td colspan="7" class="no-data">Carregando dados...</td></tr>
+          <tr class="skeleton-row"><td colspan="7"><div class="skeleton-box skel-lg"></div><div class="skeleton-box skel-sm"></div></td></tr>
+          <tr class="skeleton-row"><td colspan="7"><div class="skeleton-box skel-lg"></div><div class="skeleton-box skel-sm"></div></td></tr>
+          <tr class="skeleton-row"><td colspan="7"><div class="skeleton-box skel-lg"></div><div class="skeleton-box skel-sm"></div></td></tr>
+          <tr class="skeleton-row"><td colspan="7"><div class="skeleton-box skel-lg"></div><div class="skeleton-box skel-sm"></div></td></tr>
+          <tr class="skeleton-row"><td colspan="7"><div class="skeleton-box skel-lg"></div><div class="skeleton-box skel-sm"></div></td></tr>
         </tbody>
       </table>
     </div>
@@ -95,7 +99,7 @@
     </div>
 
     <div class="stats-bar">
-      <div class="stat-item">
+      <div class="stat-item stat-primary">
         <span class="value" id="stat-p-members">—</span>
         <span class="label">Membros</span>
       </div>
@@ -118,7 +122,9 @@
           </tr>
         </thead>
         <tbody id="players-tbody">
-          <tr><td colspan="2" class="no-data">Carregando dados...</td></tr>
+          <tr class="skeleton-row"><td colspan="2"><div class="skeleton-box skel-lg"></div><div class="skeleton-box skel-sm"></div></td></tr>
+          <tr class="skeleton-row"><td colspan="2"><div class="skeleton-box skel-lg"></div><div class="skeleton-box skel-sm"></div></td></tr>
+          <tr class="skeleton-row"><td colspan="2"><div class="skeleton-box skel-lg"></div><div class="skeleton-box skel-sm"></div></td></tr>
         </tbody>
       </table>
     </div>
@@ -142,7 +148,7 @@
         <span class="value" id="stat-r-members">—</span>
         <span class="label">Membros</span>
       </div>
-      <div class="stat-item">
+      <div class="stat-item stat-primary">
         <span class="value" id="stat-r-max">—</span>
         <span class="label">Maior Troféu</span>
       </div>
@@ -165,7 +171,11 @@
           </tr>
         </thead>
         <tbody id="ranking-tbody">
-          <tr><td colspan="6" class="no-data">Carregando dados...</td></tr>
+          <tr class="skeleton-row"><td colspan="6"><div class="skeleton-box skel-lg"></div><div class="skeleton-box skel-sm"></div></td></tr>
+          <tr class="skeleton-row"><td colspan="6"><div class="skeleton-box skel-lg"></div><div class="skeleton-box skel-sm"></div></td></tr>
+          <tr class="skeleton-row"><td colspan="6"><div class="skeleton-box skel-lg"></div><div class="skeleton-box skel-sm"></div></td></tr>
+          <tr class="skeleton-row"><td colspan="6"><div class="skeleton-box skel-lg"></div><div class="skeleton-box skel-sm"></div></td></tr>
+          <tr class="skeleton-row"><td colspan="6"><div class="skeleton-box skel-lg"></div><div class="skeleton-box skel-sm"></div></td></tr>
         </tbody>
       </table>
     </div>
@@ -176,7 +186,10 @@
     <div class="report-description">
       Membros que <strong>não fizeram nenhum ataque nas primeiras 6 horas</strong> de cada guerra (quando ainda restavam 18h).
     </div>
-    <div id="report-list"><div class="no-data" style="padding:60px">Carregando...</div></div>
+    <div id="report-list">
+      <div class="skeleton-card"><div class="skeleton-box skel-md"></div><div class="skeleton-box skel-lg"></div></div>
+      <div class="skeleton-card"><div class="skeleton-box skel-md"></div><div class="skeleton-box skel-lg"></div></div>
+    </div>
   </div>
 
   <!-- ABA AUSENTES -->
@@ -184,7 +197,12 @@
     <div class="report-description">
       Membros do clã que <strong>não foram selecionados para a guerra</strong>, com contagem de guerras consecutivas ausentes. Atualizado no início de cada guerra.
     </div>
-    <div id="absences-list"><div class="no-data" style="padding:60px">Carregando...</div></div>
+    <div id="absences-list">
+      <div class="skeleton-wrap">
+        <div class="skeleton-card"><div class="skeleton-box skel-md"></div><div class="skeleton-box skel-lg"></div></div>
+        <div class="skeleton-card"><div class="skeleton-box skel-md"></div><div class="skeleton-box skel-lg"></div></div>
+      </div>
+    </div>
   </div>
 
   <script src="js/app.js" type="module"></script>
