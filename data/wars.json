@@ -11,7 +11,7 @@
         "name": "Dindons de feu",
         "tag": "#PUUC2P8C",
         "stars": 77,
-        "destructionPercentage": 91.76667
+        "destructionPercentage": 92.3
       },
       "clan": {
         "stars": 90,
@@ -125,7 +125,18 @@
           "tag": "#2QL0VR9GU",
           "name": "Marcola",
           "townhallLevel": 18,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 87
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 96,
+              "order": 89
+            }
+          ],
           "missedAttacks": 0
         },
         {
