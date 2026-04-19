@@ -18,8 +18,9 @@ export function initReport(wars) {
     const resultLabel = war.result === 'win' ? 'Vitória' : war.result === 'loss' ? 'Derrota' : war.result === 'tie' ? 'Empate' : 'Em andamento';
     const lazy = war.sixHourNonAttackers;
 
+    const isLive = war.result === 'inProgress';
     const membersHtml = lazy.length === 0
-      ? `<span class="report-all-ok">✅ Todos atacaram nas primeiras 6 horas</span>`
+      ? `<span class="report-all-ok">✅ ${isLive ? 'Todos já atacaram!' : 'Todos atacaram nas primeiras 6 horas'}</span>`
       : lazy.map(m => `
           <div class="report-member">
             <span class="th-badge">CV${m.townhallLevel}</span>
@@ -32,7 +33,8 @@ export function initReport(wars) {
           <div class="report-date">📅 ${date}</div>
           <div class="report-vs">vs <strong>${war.opponent.name}</strong></div>
           <span class="report-result ${resultClass}">${resultLabel}</span>
-          ${lazy.length > 0 ? `<span class="report-lazy-count">⚠️ ${lazy.length} sem ataque nas 6h</span>` : ''}
+          ${isLive ? '<span class="report-live">🔴 Ao vivo</span>' : ''}
+          ${lazy.length > 0 ? `<span class="report-lazy-count">⚠️ ${lazy.length} sem ataque${isLive ? '' : ' nas 6h'}</span>` : ''}
         </div>
         <div class="report-members">${membersHtml}</div>
       </div>`;

@@ -218,8 +218,8 @@ function renderSixHourAlert(wars) {
     </div>`;
 }
 
-function setupTabs(onPlayersFirst, onRankingFirst, onReportFirst) {
-  const loaded = { players: false, ranking: false, report: false };
+function setupTabs(onPlayersFirst, onRankingFirst, onReportFirst, onAbsencesFirst) {
+  const loaded = { players: false, ranking: false, report: false, absences: false };
   document.querySelectorAll('.tab-btn').forEach(btn => {
     btn.addEventListener('click', () => {
       document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
@@ -238,14 +238,19 @@ function setupTabs(onPlayersFirst, onRankingFirst, onReportFirst) {
         loaded.report = true;
         onReportFirst();
       }
+      if (btn.dataset.tab === 'absences' && !loaded.absences) {
+        loaded.absences = true;
+        onAbsencesFirst();
+      }
     });
   });
 }
 
 async function init() {
-  const { initPlayers } = await import('./players.js');
-  const { initRanking }  = await import('./ranking.js');
-  const { initReport }   = await import('./report.js');
+  const { initPlayers }   = await import('./players.js');
+  const { initRanking }   = await import('./ranking.js');
+  const { initReport }    = await import('./report.js');
+  const { initAbsences }  = await import('./absences.js');
 
   const wars = await loadData();
   window._wars = wars;
@@ -268,7 +273,7 @@ async function init() {
   }
 
   window._playersData = fetch('./data/players.json').then(r => r.json());
-  setupTabs(initPlayers, initRanking, () => initReport(wars));
+  setupTabs(initPlayers, initRanking, () => initReport(wars), initAbsences);
 }
 
 init();

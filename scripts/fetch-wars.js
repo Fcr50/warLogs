@@ -4,10 +4,11 @@ import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const DATA_PATH = join(__dirname, '../data/wars.json');
-const CLAN_TAG = '%232GYGRQPG2';
-const API_BASE = 'https://api.clashofclans.com/v1';
-const TOKEN = process.env.COC_TOKEN;
+const DATA_PATH     = join(__dirname, '../data/wars.json');
+const ABSENCES_PATH = join(__dirname, '../data/absences.json');
+const CLAN_TAG  = '%232GYGRQPG2';
+const API_BASE  = 'https://api.clashofclans.com/v1';
+const TOKEN     = process.env.COC_TOKEN;
 
 const headers = { Authorization: `Bearer ${TOKEN}` };
 
@@ -17,17 +18,32 @@ async function fetchCurrentWar() {
   return res.json();
 }
 
+async function fetchClanMembers() {
+  const res = await fetch(`${API_BASE}/clans/${CLAN_TAG}/members`, { headers });
+  if (!res.ok) throw new Error(`API error (members): ${res.status}`);
+  const data = await res.json();
+  return data.items || [];
+}
+
 function loadData() {
   if (!existsSync(DATA_PATH)) return { wars: [] };
   return JSON.parse(readFileSync(DATA_PATH, 'utf-8'));
+}
+
+function loadAbsences() {
+  if (!existsSync(ABSENCES_PATH)) return { absent: [] };
+  return JSON.parse(readFileSync(ABSENCES_PATH, 'utf-8'));
 }
 
 function saveData(data) {
   writeFileSync(DATA_PATH, JSON.stringify(data, null, 2));
 }
 
+function saveAbsences(data) {
+  writeFileSync(ABSENCES_PATH, JSON.stringify(data, null, 2));
+}
+
 function parseWarTime(timeStr) {
-  // Format: 20260419T190928.000Z
   return new Date(timeStr.replace(
     /^(\d{4})(\d{2})(\d{2})T(\d{2})(\d{2})(\d{2})/,
     '$1-$2-$3T$4:$5:$6'
@@ -35,16 +51,37 @@ function parseWarTime(timeStr) {
 }
 
 function getSixHourNonAttackers(war) {
-  const endTime   = parseWarTime(war.endTime);
-  const startTime = new Date(endTime - 24 * 60 * 60 * 1000);
-  const sixHourMark = new Date(startTime.getTime() + 6 * 60 * 60 * 1000);
-  const now = new Date();
-
-  if (now < sixHourMark) return null; // 6h mark not reached yet
-
   return war.clan.members
     .filter(m => !m.attacks || m.attacks.length === 0)
     .map(m => ({ tag: m.tag, name: m.name, townhallLevel: m.townhallLevel }));
+}
+
+async function updateAbsences(war) {
+  const clanMembers  = await fetchClanMembers();
+  const warMemberTags = new Set(war.clan.members.map(m => m.tag));
+
+  const absences = loadAbsences();
+  const absentMap = {};
+  for (const a of absences.absent) absentMap[a.tag] = a;
+
+  const newAbsent = [];
+
+  for (const member of clanMembers) {
+    if (warMemberTags.has(member.tag)) continue; // in war → skip
+
+    const prev = absentMap[member.tag];
+    newAbsent.push({
+      tag:                  member.tag,
+      name:                 member.name,
+      townhallLevel:        member.townHallLevel,
+      consecutiveAbsences:  prev ? prev.consecutiveAbsences + 1 : 1,
+    });
+  }
+
+  saveAbsences({ updatedAt: new Date().toISOString(), absent: newAbsent });
+
+  const names = newAbsent.map(m => `${m.name}(${m.consecutiveAbsences})`).join(', ');
+  console.log(`Absences updated: ${names || 'none'}`);
 }
 
 function buildWarRecord(war, existingRecord) {
@@ -54,14 +91,19 @@ function buildWarRecord(war, existingRecord) {
     ? (clanStars > oppStars ? 'win' : clanStars < oppStars ? 'loss' : 'tie')
     : 'inProgress';
 
-  // Preserve existing sixHourNonAttackers if already captured
-  let sixHourNonAttackers = existingRecord?.sixHourNonAttackers ?? null;
-  if (!sixHourNonAttackers) {
-    sixHourNonAttackers = getSixHourNonAttackers(war);
-  }
+  const endTime        = parseWarTime(war.endTime);
+  const startTime      = new Date(endTime - 24 * 60 * 60 * 1000);
+  const sixHourTenMark = new Date(startTime.getTime() + (6 * 60 + 10) * 60 * 1000);
+  const now            = new Date();
 
-  const endTime   = parseWarTime(war.endTime);
-  const startTime = new Date(endTime - 24 * 60 * 60 * 1000);
+  let sixHourNonAttackers;
+  if (now >= sixHourTenMark && existingRecord?.sixHourNonAttackers != null) {
+    sixHourNonAttackers = existingRecord.sixHourNonAttackers;
+  } else if (war.state === 'inWar' || war.state === 'warEnded') {
+    sixHourNonAttackers = getSixHourNonAttackers(war);
+  } else {
+    sixHourNonAttackers = null;
+  }
 
   return {
     endTime: war.endTime,
@@ -69,9 +111,10 @@ function buildWarRecord(war, existingRecord) {
     state: war.state,
     result,
     teamSize: war.teamSize,
+    absencesRecorded: existingRecord?.absencesRecorded ?? false,
     opponent: {
       name: war.opponent.name,
-      tag: war.opponent.tag,
+      tag:  war.opponent.tag,
       stars: oppStars,
       destructionPercentage: war.opponent.destructionPercentage,
     },
@@ -81,7 +124,7 @@ function buildWarRecord(war, existingRecord) {
     },
     sixHourNonAttackers,
     members: war.clan.members.map(m => ({
-      tag: m.tag,
+      tag:  m.tag,
       name: m.name,
       townhallLevel: m.townhallLevel,
       attacks: (m.attacks || []).map(a => ({
@@ -105,9 +148,15 @@ async function main() {
   }
 
   const data = loadData();
-  const existingIndex = data.wars.findIndex(w => w.endTime === war.endTime);
+  const existingIndex  = data.wars.findIndex(w => w.endTime === war.endTime);
   const existingRecord = existingIndex !== -1 ? data.wars[existingIndex] : null;
-  const warRecord = buildWarRecord(war, existingRecord);
+  const warRecord      = buildWarRecord(war, existingRecord);
+
+  // Record absences once when war starts (inWar state, first detection)
+  if (war.state === 'inWar' && !warRecord.absencesRecorded) {
+    await updateAbsences(war);
+    warRecord.absencesRecorded = true;
+  }
 
   if (existingIndex !== -1) {
     if (existingRecord.state === 'warEnded' && war.state !== 'warEnded') {

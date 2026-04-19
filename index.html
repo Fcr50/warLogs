@@ -4,6 +4,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Brazil Society - War Logs</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
@@ -20,6 +23,7 @@
     <button class="tab-btn" data-tab="players">🛡️ Heróis</button>
     <button class="tab-btn" data-tab="ranking">🏆 Ranking</button>
     <button class="tab-btn" data-tab="report">📋 Relatório 6h</button>
+    <button class="tab-btn" data-tab="absences">🚫 Ausentes</button>
   </nav>
 
   <!-- ABA GUERRAS -->
@@ -173,6 +177,14 @@
       Membros que <strong>não fizeram nenhum ataque nas primeiras 6 horas</strong> de cada guerra (quando ainda restavam 18h).
     </div>
     <div id="report-list"><div class="no-data" style="padding:60px">Carregando...</div></div>
+  </div>
+
+  <!-- ABA AUSENTES -->
+  <div id="absences-tab" class="tab-content">
+    <div class="report-description">
+      Membros do clã que <strong>não foram selecionados para a guerra</strong>, com contagem de guerras consecutivas ausentes. Atualizado no início de cada guerra.
+    </div>
+    <div id="absences-list"><div class="no-data" style="padding:60px">Carregando...</div></div>
   </div>
 
   <script src="js/app.js" type="module"></script>
