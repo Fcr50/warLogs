@@ -50,8 +50,20 @@ jobs:
         run: npm run fetch-players
 
       - name: Commit updated data
+        env:
+          RUN_NUMBER: ${{ github.run_number }}
         run: |
           git config user.name "Fernando"
           git config user.email "fernandoribeiro.com@gmail.com"
           git add data/wars.json data/players.json data/absences.json
-          git diff --staged --quiet || (git commit -m "auto update $(date -u '+%Y-%m-%dT%H:%M')Z" && git push origin HEAD:main)
+          if git diff --staged --quiet; then
+            echo "No data changes, skipping commit."
+            exit 0
+          fi
+          git commit -m "auto update $(date -u '+%Y-%m-%dT%H:%M')Z"
+          if [ $((RUN_NUMBER % 3)) -eq 0 ]; then
+            git push origin HEAD:main
+            echo "Pushed to main (Vercel deploy triggered)"
+          else
+            echo "Skipping main push (run $RUN_NUMBER, next deploy at run $((RUN_NUMBER + 3 - RUN_NUMBER % 3)))"
+          fi
