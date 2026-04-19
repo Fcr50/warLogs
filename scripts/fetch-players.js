@@ -61,12 +61,11 @@ async function main() {
             name: h.name,
             level: h.level,
             maxLevel: h.maxLevel,
-            equipment: (h.equipment || []).map(e => ({
-              name: e.name,
-              level: e.level,
-              maxLevel: e.maxLevel,
-            })),
+            equipped: (h.equipment || []).map(e => e.name),
           })),
+        allEquipment: (player.heroEquipment || [])
+          .filter(e => e.village === 'home')
+          .map(e => ({ name: e.name, level: e.level, maxLevel: e.maxLevel })),
       });
       process.stdout.write(`  ✓ ${player.name}\n`);
     } catch (err) {

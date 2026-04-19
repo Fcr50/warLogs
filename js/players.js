@@ -1,14 +1,10 @@
-import { HERO_IMAGES, HERO_COLORS, HERO_SHORT, EQUIPMENT_IMAGES } from './assets.js';
+import { HERO_IMAGES, HERO_COLORS, HERO_SHORT, EQUIPMENT_IMAGES, HERO_EQUIPMENT_MAP } from './assets.js';
 
 const PLAYERS_URL = './data/players.json';
 
 const HERO_ORDER = [
-  'Barbarian King',
-  'Archer Queen',
-  'Grand Warden',
-  'Royal Champion',
-  'Minion Prince',
-  'Dragon Duke',
+  'Barbarian King', 'Archer Queen', 'Grand Warden',
+  'Royal Champion', 'Minion Prince', 'Dragon Duke',
 ];
 
 let allPlayers = [];
@@ -21,7 +17,6 @@ async function loadPlayers() {
 }
 
 function heroLvClass(hero) {
-  if (!hero) return '';
   const pct = hero.level / hero.maxLevel;
   if (pct >= 1)    return 'hlv-max';
   if (pct >= 0.75) return 'hlv-high';
@@ -36,71 +31,91 @@ function eqLvClass(eq) {
   return 'elv-low';
 }
 
-function heroFallback(heroName) {
-  const color = HERO_COLORS[heroName] || '#555';
-  const short = HERO_SHORT[heroName] || '?';
-  return `data-hero-fallback="${short}" data-hero-color="${color}"`;
+function buildEqMap(player) {
+  const map = {};
+  for (const e of (player.allEquipment || [])) map[e.name] = e;
+  return map;
 }
 
-function heroCell(player, heroName) {
-  const hero = player.heroes.find(h => h.name === heroName);
-  const color = HERO_COLORS[heroName] || '#555';
-  const short = HERO_SHORT[heroName] || '?';
+function heroCard(player, heroName) {
+  const hero   = player.heroes.find(h => h.name === heroName);
+  const color  = HERO_COLORS[heroName] || '#555';
+  const short  = HERO_SHORT[heroName]  || '?';
+  const imgUrl = HERO_IMAGES[heroName];
+  const eqMap  = buildEqMap(player);
+  const equippedNames = new Set(hero?.equipped || []);
+  const staticList    = HERO_EQUIPMENT_MAP[heroName] || [];
 
-  if (!hero) {
-    return `
-      <td class="hero-cell">
-        <div class="hero-col hero-absent">
-          <div class="hero-placeholder" style="background:${color}22;border:2px dashed ${color}44">
-            <span style="color:${color}66">${short}</span>
-          </div>
-          <span class="hero-lv-none">—</span>
-        </div>
-      </td>`;
+  // Build display list: equipped items first (always correct), then static map items not already shown
+  const shown = new Set();
+  const displayList = [];
+  for (const name of equippedNames) {
+    shown.add(name);
+    displayList.push({ name, isEquipped: true });
+  }
+  for (const name of staticList) {
+    if (!shown.has(name)) {
+      shown.add(name);
+      displayList.push({ name, isEquipped: false });
+    }
   }
 
-  const imgUrl = HERO_IMAGES[heroName];
-  const lvCls  = heroLvClass(hero);
-
-  const imgHtml = imgUrl
-    ? `<img class="hero-img" src="${imgUrl}"
-          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"
-          alt="${heroName}" />
-       <div class="hero-placeholder" style="display:none;background:${color}33;border:2px solid ${color}66">
-         <span style="color:${color}">${short}</span>
+  const heroImgHtml = imgUrl
+    ? `<img class="hc-hero-img" src="${imgUrl}"
+           onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"
+           alt="${heroName}" />
+       <div class="hc-hero-placeholder" style="display:none;background:${color}33;border:2px solid ${color}">
+         <span>${short}</span>
        </div>`
-    : `<div class="hero-placeholder" style="background:${color}33;border:2px solid ${color}66">
-         <span style="color:${color}">${short}</span>
+    : `<div class="hc-hero-placeholder" style="background:${color}33;border:2px solid ${color}">
+         <span>${short}</span>
        </div>`;
 
-  const eqHtml = (hero.equipment || []).map(eq => {
-    const eqImg = EQUIPMENT_IMAGES[eq.name];
-    const elv   = eqLvClass(eq);
-    const imgEl = eqImg
-      ? `<img class="eq-img" src="${eqImg}" alt="${eq.name}" title="${eq.name}"
+  const lvHtml = hero
+    ? `<span class="hc-hero-lv ${heroLvClass(hero)}">Lv ${hero.level}</span>`
+    : `<span class="hc-hero-lv hlv-none">—</span>`;
+
+  const eqHtml = displayList.map(({ name: eqName, isEquipped }) => {
+    const owned  = eqMap[eqName];
+    const eqImg  = EQUIPMENT_IMAGES[eqName];
+    const imgEl  = eqImg
+      ? `<img class="hc-eq-img" src="${eqImg}" alt="${eqName}"
               onerror="this.style.display='none'" />`
-      : `<div class="eq-img-placeholder" title="${eq.name}">⚙️</div>`;
-    return `
-      <div class="eq-slot" title="${eq.name} Lv${eq.level}/${eq.maxLevel}">
+      : `<div class="hc-eq-img hc-eq-missing">?</div>`;
+
+    if (!owned) {
+      return `<div class="hc-eq-slot hc-eq-unowned" title="${eqName} (não possui)">
         ${imgEl}
-        <span class="eq-lv ${elv}">${eq.level}</span>
+        <span class="hc-eq-lv elv-none">—</span>
       </div>`;
+    }
+
+    const lvCls = eqLvClass(owned);
+    return `<div class="hc-eq-slot${isEquipped ? ' hc-eq-equipped' : ''}"
+                 title="${eqName} Lv${owned.level}/${owned.maxLevel}${isEquipped ? ' ✦ Equipado' : ''}">
+      ${imgEl}
+      <span class="hc-eq-lv ${lvCls}">${owned.level}</span>
+    </div>`;
   }).join('');
 
+  const absent = !hero;
   return `
-    <td class="hero-cell">
-      <div class="hero-col">
-        ${imgHtml}
-        <span class="hero-lv ${lvCls}">Lv ${hero.level}</span>
-        <div class="hero-eq-row">${eqHtml}</div>
+    <div class="hero-card${absent ? ' hero-card-absent' : ''}">
+      <div class="hc-header">
+        ${heroImgHtml}
+        <div class="hc-info">
+          <span class="hc-name">${short}</span>
+          ${lvHtml}
+        </div>
       </div>
-    </td>`;
+      <div class="hc-eq-grid">${eqHtml}</div>
+    </div>`;
 }
 
 function renderPlayersTable(players) {
   const tbody = document.getElementById('players-tbody');
-  if (players.length === 0) {
-    tbody.innerHTML = `<tr><td colspan="${2 + HERO_ORDER.length}" class="no-data">Nenhum jogador encontrado.</td></tr>`;
+  if (!players.length) {
+    tbody.innerHTML = `<tr><td colspan="2" class="no-data">Nenhum jogador encontrado.</td></tr>`;
     return;
   }
 
@@ -111,16 +126,20 @@ function renderPlayersTable(players) {
         <div class="member-tag">${p.tag}</div>
         <span class="th-badge">CV${p.townhallLevel}</span>
       </td>
-      ${HERO_ORDER.map(h => heroCell(p, h)).join('')}
+      <td class="heroes-cell">
+        <div class="heroes-row">
+          ${HERO_ORDER.map(h => heroCard(p, h)).join('')}
+        </div>
+      </td>
     </tr>
   `).join('');
 }
 
 function filterPlayers(players, th, search) {
   return players.filter(p => {
-    const thMatch = th === 'all' || p.townhallLevel === parseInt(th);
-    const searchMatch = !search || p.name.toLowerCase().includes(search.toLowerCase());
-    return thMatch && searchMatch;
+    const thMatch  = th === 'all' || p.townhallLevel === parseInt(th);
+    const nameMatch = !search || p.name.toLowerCase().includes(search.toLowerCase());
+    return thMatch && nameMatch;
   });
 }
 
@@ -134,8 +153,7 @@ function sortPlayers(players) {
       va = a[playerSortKey];
       vb = b[playerSortKey];
     }
-    if (typeof va === 'string') va = va.toLowerCase();
-    if (typeof vb === 'string') vb = vb.toLowerCase();
+    if (typeof va === 'string') { va = va.toLowerCase(); vb = vb.toLowerCase(); }
     if (va < vb) return playerSortDir === 'asc' ? -1 : 1;
     if (va > vb) return playerSortDir === 'asc' ? 1 : -1;
     return 0;
@@ -143,17 +161,15 @@ function sortPlayers(players) {
 }
 
 function renderPlayersStats(players) {
-  const withBK = players.filter(p => p.heroes.find(h => h.name === 'Barbarian King'));
-  const withAQ = players.filter(p => p.heroes.find(h => h.name === 'Archer Queen'));
-  const avgBK  = withBK.length
-    ? (withBK.reduce((s, p) => s + p.heroes.find(h => h.name === 'Barbarian King').level, 0) / withBK.length).toFixed(1)
-    : '—';
-  const avgAQ  = withAQ.length
-    ? (withAQ.reduce((s, p) => s + p.heroes.find(h => h.name === 'Archer Queen').level, 0) / withAQ.length).toFixed(1)
-    : '—';
+  const avg = (heroName) => {
+    const with_ = players.filter(p => p.heroes.find(h => h.name === heroName));
+    if (!with_.length) return '—';
+    const sum = with_.reduce((s, p) => s + p.heroes.find(h => h.name === heroName).level, 0);
+    return (sum / with_.length).toFixed(1);
+  };
   document.getElementById('stat-p-members').textContent = players.length;
-  document.getElementById('stat-p-bk').textContent = avgBK;
-  document.getElementById('stat-p-aq').textContent = avgAQ;
+  document.getElementById('stat-p-bk').textContent = avg('Barbarian King');
+  document.getElementById('stat-p-aq').textContent = avg('Archer Queen');
 }
 
 function renderPlayersThFilter(players) {
@@ -168,21 +184,16 @@ function renderPlayers() {
   const th     = document.getElementById('filter-p-th').value;
   const search = document.getElementById('filter-p-search').value;
   const filtered = filterPlayers(allPlayers, th, search);
-  const sorted   = sortPlayers(filtered);
-  renderPlayersStats(sorted);
-  renderPlayersTable(sorted);
+  renderPlayersStats(filtered);
+  renderPlayersTable(sortPlayers(filtered));
 }
 
 function setupPlayersSort() {
   document.querySelectorAll('#players-tab thead th[data-sort]').forEach(th => {
     th.addEventListener('click', () => {
       const key = th.dataset.sort;
-      if (playerSortKey === key) {
-        playerSortDir = playerSortDir === 'desc' ? 'asc' : 'desc';
-      } else {
-        playerSortKey = key;
-        playerSortDir = 'desc';
-      }
+      playerSortDir = (playerSortKey === key && playerSortDir === 'desc') ? 'asc' : 'desc';
+      playerSortKey = key;
       document.querySelectorAll('#players-tab thead th').forEach(t => t.classList.remove('sorted-asc', 'sorted-desc'));
       th.classList.add(playerSortDir === 'asc' ? 'sorted-asc' : 'sorted-desc');
       renderPlayers();
@@ -201,14 +212,13 @@ export async function initPlayers() {
 
   if (!allPlayers.length) {
     document.getElementById('players-tbody').innerHTML =
-      `<tr><td colspan="${2 + HERO_ORDER.length}" class="no-data">Nenhum dado disponível ainda.</td></tr>`;
+      `<tr><td colspan="2" class="no-data">Nenhum dado disponível ainda.</td></tr>`;
     return;
   }
 
   renderPlayersThFilter(allPlayers);
   renderPlayers();
   setupPlayersSort();
-
   document.getElementById('filter-p-th').addEventListener('change', renderPlayers);
   document.getElementById('filter-p-search').addEventListener('input', renderPlayers);
 }

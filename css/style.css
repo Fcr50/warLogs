@@ -333,105 +333,144 @@ tbody td {
 
 /* ── Heroes tab ── */
 .player-info-cell {
-  min-width: 140px;
-}
-
-.hero-cell {
+  min-width: 130px;
   vertical-align: top;
-  padding: 10px 8px !important;
-  min-width: 110px;
 }
 
-.hero-col {
+.heroes-cell {
+  padding: 8px 4px !important;
+}
+
+.heroes-row {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+/* Hero card */
+.hero-card {
+  background: #0f1a2e;
+  border: 1px solid #2a2a4a;
+  border-radius: 10px;
+  padding: 8px;
+  min-width: 130px;
   display: flex;
   flex-direction: column;
+  gap: 6px;
+}
+
+.hero-card-absent {
+  opacity: 0.25;
+}
+
+.hc-header {
+  display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 8px;
 }
 
-.hero-absent {
-  opacity: 0.3;
-}
-
-.hero-img {
-  width: 56px;
-  height: 56px;
+.hc-hero-img {
+  width: 40px;
+  height: 40px;
   object-fit: contain;
-  border-radius: 8px;
-  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.5));
+  border-radius: 6px;
+  filter: drop-shadow(0 1px 3px rgba(0,0,0,0.6));
 }
 
-.hero-placeholder {
-  width: 56px;
-  height: 56px;
-  border-radius: 8px;
+.hc-hero-placeholder {
+  width: 40px;
+  height: 40px;
+  border-radius: 6px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   font-weight: 700;
 }
 
-.hero-lv {
+.hc-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.hc-name {
+  font-size: 0.7rem;
+  color: #aaa;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.hc-hero-lv {
   font-size: 0.75rem;
   font-weight: 700;
   padding: 1px 7px;
-  border-radius: 10px;
+  border-radius: 8px;
+  display: inline-block;
 }
 
-.hero-lv-none { font-size: 0.8rem; color: #444; }
-
+.hlv-none { color: #444; font-size: 0.8rem; }
 .hlv-max  { background: #27ae60; color: #fff; }
 .hlv-high { background: #2980b9; color: #fff; }
-.hlv-mid  { background: #f39c12; color: #fff; }
+.hlv-mid  { background: #f39c12; color: #1a1a2e; }
 .hlv-low  { background: #e74c3c; color: #fff; }
 
-.hero-eq-row {
+/* Equipment grid inside card */
+.hc-eq-grid {
   display: flex;
-  gap: 4px;
   flex-wrap: wrap;
-  justify-content: center;
-  max-width: 100px;
+  gap: 4px;
 }
 
-.eq-slot {
+.hc-eq-slot {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1px;
+  gap: 2px;
   cursor: default;
+  border-radius: 6px;
+  padding: 2px;
+  border: 2px solid transparent;
+  transition: border-color 0.1s;
 }
 
-.eq-img {
-  width: 34px;
-  height: 34px;
+.hc-eq-equipped {
+  border-color: #3498db;
+  background: rgba(52, 152, 219, 0.1);
+}
+
+.hc-eq-unowned {
+  opacity: 0.2;
+}
+
+.hc-eq-img {
+  width: 36px;
+  height: 36px;
   object-fit: contain;
   border-radius: 5px;
-  background: #0f1a2e;
-  padding: 2px;
 }
 
-.eq-img-placeholder {
-  width: 34px;
-  height: 34px;
+.hc-eq-missing {
+  background: #1a2540;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1rem;
-  background: #0f1a2e;
-  border-radius: 5px;
+  font-size: 0.75rem;
+  color: #555;
 }
 
-.eq-lv {
-  font-size: 0.6rem;
+.hc-eq-lv {
+  font-size: 0.62rem;
   font-weight: 700;
-  padding: 0px 4px;
-  border-radius: 6px;
+  padding: 1px 5px;
+  border-radius: 8px;
 }
 
+.elv-none { color: #444; }
 .elv-max  { background: #f5a623; color: #1a1a2e; }
 .elv-high { background: #27ae60; color: #fff; }
-.elv-low  { background: #555;    color: #ccc; }
+.elv-low  { background: #3a3a5a; color: #aaa; }
 
 /* ── Ranking ── */
 .rank-pos {

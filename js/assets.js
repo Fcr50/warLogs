@@ -1,12 +1,14 @@
-const CDN = 'https://coc.guide/static/imgs';
+const COC = 'https://coc.guide/static/imgs';
+const DC  = 'https://cdn.discordapp.com/emojis';
+const SZ  = '?size=64';
 
 export const HERO_IMAGES = {
-  'Barbarian King':  `${CDN}/hero/barbarian-king.png`,
-  'Archer Queen':    `${CDN}/hero/archer-queen.png`,
-  'Grand Warden':    `${CDN}/hero/grand-warden.png`,
-  'Royal Champion':  `${CDN}/hero/royal-champion.png`,
-  'Minion Prince':   null,
-  'Dragon Duke':     null,
+  'Barbarian King': `${COC}/hero/barbarian-king.png`,
+  'Archer Queen':   `${COC}/hero/archer-queen.png`,
+  'Grand Warden':   `${COC}/hero/grand-warden.png`,
+  'Royal Champion': `${COC}/hero/royal-champion.png`,
+  'Minion Prince':  null,
+  'Dragon Duke':    null,
 };
 
 export const HERO_COLORS = {
@@ -27,33 +29,74 @@ export const HERO_SHORT = {
   'Dragon Duke':    'DD',
 };
 
-const EQ = `${CDN}/equipment`;
-
 export const EQUIPMENT_IMAGES = {
-  'Rage Gem':          `${EQ}/angry-tome.png`,
-  'Archer Puppet':     `${EQ}/archer-crown.png`,
-  'Barbarian Puppet':  `${EQ}/barbarian-crown.png`,
-  'Earthquake Boots':  `${EQ}/earthquake-boots.png`,
-  'Electro Boots':     `${EQ}/electro-boots.png`,
-  'Eternal Tome':      `${EQ}/eternal-tome.png`,
-  'Fireball':          `${EQ}/fire-in-a-can.png`,
-  'Frozen Arrow':      `${EQ}/frozen-arrow.png`,
-  'Lavaloon Puppet':   `${EQ}/gw-lavaloon-puppet.png`,
-  'Giant Gauntlet':    `${EQ}/giant-gauntlet.png`,
-  'Haste Vial':        `${EQ}/haste-vial.png`,
-  'Healer Puppet':     `${EQ}/healer-jar.png`,
-  'Healing Tome':      `${EQ}/healing-tome.png`,
-  'Heroic Torch':      `${EQ}/heroic-torch.png`,
-  'Hog Rider Puppet':  `${EQ}/hog-rider-puppet.png`,
-  'Rage Vial':         `${EQ}/iron-fist.png`,
-  'Life Gem':          `${EQ}/life-gem.png`,
-  'Dark Orb':          `${EQ}/mp-dark-orb.png`,
-  'Henchmen Puppet':   `${EQ}/mp-minion-bros.png`,
-  'Magic Mirror':      `${EQ}/magic-mirror.png`,
-  'Giant Arrow':       `${EQ}/piercing-arrow.png`,
-  'Royal Gem':         `${EQ}/protective-cloak.png`,
-  'Invisibility Vial': `${EQ}/royal-cloak.png`,
-  'Seeking Shield':    `${EQ}/seeking-shield.png`,
-  'Snake Bracelet':    `${EQ}/snake-armor.png`,
-  'Vampstache':        `${EQ}/vampstache.png`,
+  // Barbarian King
+  'Barbarian Puppet':  `${COC}/equipment/barbarian-crown.png`,
+  'Rage Vial':         `${COC}/equipment/iron-fist.png`,
+  'Earthquake Boots':  `${COC}/equipment/earthquake-boots.png`,
+  'Vampstache':        `${COC}/equipment/vampstache.png`,
+  'Giant Gauntlet':    `${COC}/equipment/giant-gauntlet.png`,
+  'Spiky Ball':        `${DC}/1234940460070600804.png${SZ}`,
+  'Stick Horse':       `${DC}/1470414517191180319.png${SZ}`,
+  'Haste Vial':        `${COC}/equipment/haste-vial.png`,
+  'Fire Heart':        `${DC}/1483040001116602420.png${SZ}`,
+  // Archer Queen
+  'Archer Puppet':     `${COC}/equipment/archer-crown.png`,
+  'Invisibility Vial': `${COC}/equipment/royal-cloak.png`,
+  'Giant Arrow':       `${COC}/equipment/piercing-arrow.png`,
+  'Healer Puppet':     `${COC}/equipment/healer-jar.png`,
+  'Frozen Arrow':      `${COC}/equipment/frozen-arrow.png`,
+  'Action Figure':     `${DC}/1401438960294690867.png${SZ}`,
+  'Meteor Staff':      `${DC}/1436061197077315586.png${SZ}`,
+  'Frost Flake':       `${DC}/1447958238816374919.png${SZ}`,
+  // Grand Warden
+  'Eternal Tome':      `${COC}/equipment/eternal-tome.png`,
+  'Life Gem':          `${COC}/equipment/life-gem.png`,
+  'Healing Tome':      `${COC}/equipment/healing-tome.png`,
+  'Rage Gem':          `${COC}/equipment/angry-tome.png`,
+  'Lavaloon Puppet':   `${COC}/equipment/gw-lavaloon-puppet.png`,
+  'Fireball':          `${COC}/equipment/fire-in-a-can.png`,
+  'Heroic Torch':      `${COC}/equipment/heroic-torch.png`,
+  'Dark Crown':        `${DC}/1401438986366484602.png${SZ}`,
+  // Royal Champion
+  'Seeking Shield':    `${COC}/equipment/seeking-shield.png`,
+  'Royal Gem':         `${COC}/equipment/protective-cloak.png`,
+  'Hog Rider Puppet':  `${COC}/equipment/hog-rider-puppet.png`,
+  'Rocket Spear':      `${DC}/1223332521358528695.png${SZ}`,
+  'Magic Mirror':      `${COC}/equipment/magic-mirror.png`,
+  'Electro Boots':     `${COC}/equipment/electro-boots.png`,
+  'Snake Bracelet':    `${COC}/equipment/snake-armor.png`,
+  'Rocket Backpack':   `${DC}/1493662588695740659.png${SZ}`,
+  // Minion Prince
+  'Dark Orb':          `${DC}/1310574234543587358.png${SZ}`,
+  'Henchmen Puppet':   `${COC}/equipment/mp-minion-bros.png`,
+  'Noble Iron':        `${DC}/1354122575965454347.png${SZ}`,
+  'Metal Pants':       `${DC}/1341345439626039337.png${SZ}`,
+  'Stun Blaster':      `${DC}/1483040038789841040.png${SZ}`,
+  'Flame Blower':      `${DC}/1493665431611904221.png${SZ}`,
+};
+
+// Which equipment belongs to each hero (for grouping in the UI)
+export const HERO_EQUIPMENT_MAP = {
+  'Barbarian King': [
+    'Barbarian Puppet', 'Rage Vial', 'Earthquake Boots', 'Vampstache',
+    'Giant Gauntlet', 'Spiky Ball', 'Stick Horse', 'Haste Vial', 'Fire Heart',
+  ],
+  'Archer Queen': [
+    'Archer Puppet', 'Invisibility Vial', 'Giant Arrow', 'Healer Puppet',
+    'Frozen Arrow', 'Action Figure', 'Meteor Staff', 'Frost Flake',
+  ],
+  'Grand Warden': [
+    'Eternal Tome', 'Life Gem', 'Healing Tome', 'Rage Gem',
+    'Lavaloon Puppet', 'Fireball', 'Heroic Torch', 'Dark Crown',
+  ],
+  'Royal Champion': [
+    'Seeking Shield', 'Royal Gem', 'Hog Rider Puppet', 'Rocket Spear',
+    'Magic Mirror', 'Electro Boots', 'Snake Bracelet', 'Rocket Backpack',
+  ],
+  'Minion Prince': [
+    'Dark Orb', 'Henchmen Puppet', 'Noble Iron', 'Metal Pants',
+    'Stun Blaster', 'Flame Blower',
+  ],
+  'Dragon Duke': [],
 };
