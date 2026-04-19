@@ -727,6 +727,17 @@ tbody tr:nth-child(3) .rank-pos { color: #cd7f32; }
 .report-member:hover { background: rgba(248,81,73,.2); }
 .report-member-name  { color: var(--text-primary); }
 
+.report-member-recovered {
+  background: var(--success-dim);
+  border-color: rgba(63,185,80,.25);
+}
+.report-member-recovered:hover { background: rgba(63,185,80,.2); }
+.report-member-check {
+  color: var(--success);
+  font-weight: 700;
+  font-size: var(--text-sm);
+}
+
 /* ═══════════════════════════════════════
    ABSENCES TAB
 ═══════════════════════════════════════ */

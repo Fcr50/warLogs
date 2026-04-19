@@ -24,13 +24,18 @@ export function initReport(wars) {
     const lazy = war.sixHourNonAttackers;
 
     const isLive = war.result === 'inProgress';
+    const attacksByTag = new Map((war.members || []).map(m => [m.tag, (m.attacks || []).length]));
     const membersHtml = lazy.length === 0
       ? `<span class="report-all-ok">✅ ${isLive ? 'Todos já atacaram!' : 'Todos atacaram nas primeiras 6 horas'}</span>`
-      : lazy.map(m => `
-          <div class="report-member">
+      : lazy.map(m => {
+          const recovered = (attacksByTag.get(m.tag) || 0) > 0;
+          return `
+          <div class="report-member${recovered ? ' report-member-recovered' : ''}" title="${recovered ? 'Atacou após as 6h iniciais' : 'Sem ataque registrado'}">
             <span class="th-badge">CV${m.townhallLevel}</span>
             <span class="report-member-name">${m.name}</span>
-          </div>`).join('');
+            ${recovered ? '<span class="report-member-check">✓</span>' : ''}
+          </div>`;
+        }).join('');
 
     return `
       <div class="report-card${lazy.length > 0 ? ' report-card-bad' : ''}">
