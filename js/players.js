@@ -1,3 +1,5 @@
+import { HERO_IMAGES, HERO_COLORS, HERO_SHORT, EQUIPMENT_IMAGES } from './assets.js';
+
 const PLAYERS_URL = './data/players.json';
 
 const HERO_ORDER = [
@@ -9,15 +11,6 @@ const HERO_ORDER = [
   'Dragon Duke',
 ];
 
-const HERO_SHORT = {
-  'Barbarian King': 'BK',
-  'Archer Queen': 'AQ',
-  'Grand Warden': 'GW',
-  'Royal Champion': 'RC',
-  'Minion Prince': 'MP',
-  'Dragon Duke': 'DD',
-};
-
 let allPlayers = [];
 let playerSortKey = 'townhallLevel';
 let playerSortDir = 'desc';
@@ -27,56 +20,100 @@ async function loadPlayers() {
   return res.json();
 }
 
-function getHeroLevel(player, heroName) {
-  const h = player.heroes.find(h => h.name === heroName);
-  return h || null;
-}
-
-function heroBadge(hero) {
-  if (!hero) return `<span class="hero-badge hero-none">—</span>`;
+function heroLvClass(hero) {
+  if (!hero) return '';
   const pct = hero.level / hero.maxLevel;
-  const cls = pct >= 1 ? 'hero-max' : pct >= 0.75 ? 'hero-high' : pct >= 0.5 ? 'hero-mid' : 'hero-low';
-  return `<span class="hero-badge ${cls}" title="${hero.name} lv${hero.level}/${hero.maxLevel}">${hero.level}</span>`;
+  if (pct >= 1)    return 'hlv-max';
+  if (pct >= 0.75) return 'hlv-high';
+  if (pct >= 0.5)  return 'hlv-mid';
+  return 'hlv-low';
 }
 
-function equipmentBar(eq) {
-  const pct = Math.round((eq.level / eq.maxLevel) * 100);
-  const cls = pct >= 100 ? 'eq-max' : pct >= 75 ? 'eq-high' : pct >= 50 ? 'eq-mid' : 'eq-low';
+function eqLvClass(eq) {
+  const pct = eq.level / eq.maxLevel;
+  if (pct >= 1)    return 'elv-max';
+  if (pct >= 0.75) return 'elv-high';
+  return 'elv-low';
+}
+
+function heroFallback(heroName) {
+  const color = HERO_COLORS[heroName] || '#555';
+  const short = HERO_SHORT[heroName] || '?';
+  return `data-hero-fallback="${short}" data-hero-color="${color}"`;
+}
+
+function heroCell(player, heroName) {
+  const hero = player.heroes.find(h => h.name === heroName);
+  const color = HERO_COLORS[heroName] || '#555';
+  const short = HERO_SHORT[heroName] || '?';
+
+  if (!hero) {
+    return `
+      <td class="hero-cell">
+        <div class="hero-col hero-absent">
+          <div class="hero-placeholder" style="background:${color}22;border:2px dashed ${color}44">
+            <span style="color:${color}66">${short}</span>
+          </div>
+          <span class="hero-lv-none">—</span>
+        </div>
+      </td>`;
+  }
+
+  const imgUrl = HERO_IMAGES[heroName];
+  const lvCls  = heroLvClass(hero);
+
+  const imgHtml = imgUrl
+    ? `<img class="hero-img" src="${imgUrl}"
+          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"
+          alt="${heroName}" />
+       <div class="hero-placeholder" style="display:none;background:${color}33;border:2px solid ${color}66">
+         <span style="color:${color}">${short}</span>
+       </div>`
+    : `<div class="hero-placeholder" style="background:${color}33;border:2px solid ${color}66">
+         <span style="color:${color}">${short}</span>
+       </div>`;
+
+  const eqHtml = (hero.equipment || []).map(eq => {
+    const eqImg = EQUIPMENT_IMAGES[eq.name];
+    const elv   = eqLvClass(eq);
+    const imgEl = eqImg
+      ? `<img class="eq-img" src="${eqImg}" alt="${eq.name}" title="${eq.name}"
+              onerror="this.style.display='none'" />`
+      : `<div class="eq-img-placeholder" title="${eq.name}">⚙️</div>`;
+    return `
+      <div class="eq-slot" title="${eq.name} Lv${eq.level}/${eq.maxLevel}">
+        ${imgEl}
+        <span class="eq-lv ${elv}">${eq.level}</span>
+      </div>`;
+  }).join('');
+
   return `
-    <div class="eq-item" title="${eq.name} lv${eq.level}/${eq.maxLevel}">
-      <div class="eq-name">${eq.name}</div>
-      <div class="eq-bar-wrap">
-        <div class="eq-bar ${cls}" style="width:${pct}%"></div>
+    <td class="hero-cell">
+      <div class="hero-col">
+        ${imgHtml}
+        <span class="hero-lv ${lvCls}">Lv ${hero.level}</span>
+        <div class="hero-eq-row">${eqHtml}</div>
       </div>
-      <div class="eq-level">${eq.level}/${eq.maxLevel}</div>
-    </div>
-  `;
+    </td>`;
 }
 
 function renderPlayersTable(players) {
   const tbody = document.getElementById('players-tbody');
-
   if (players.length === 0) {
-    tbody.innerHTML = `<tr><td colspan="9" class="no-data">Nenhum jogador encontrado.</td></tr>`;
+    tbody.innerHTML = `<tr><td colspan="${2 + HERO_ORDER.length}" class="no-data">Nenhum jogador encontrado.</td></tr>`;
     return;
   }
 
-  tbody.innerHTML = players.map(p => {
-    const heroes = HERO_ORDER.map(h => heroBadge(getHeroLevel(p, h))).join('');
-    const equipment = p.equipment.map(e => equipmentBar(e)).join('');
-
-    return `
-      <tr>
-        <td>
-          <div class="member-name">${p.name}</div>
-          <div class="member-tag">${p.tag}</div>
-        </td>
-        <td><span class="th-badge">CV${p.townhallLevel}</span></td>
-        ${HERO_ORDER.map(h => `<td>${heroBadge(getHeroLevel(p, h))}</td>`).join('')}
-        <td><div class="eq-grid">${equipment}</div></td>
-      </tr>
-    `;
-  }).join('');
+  tbody.innerHTML = players.map(p => `
+    <tr>
+      <td class="player-info-cell">
+        <div class="member-name">${p.name}</div>
+        <div class="member-tag">${p.tag}</div>
+        <span class="th-badge">CV${p.townhallLevel}</span>
+      </td>
+      ${HERO_ORDER.map(h => heroCell(p, h)).join('')}
+    </tr>
+  `).join('');
 }
 
 function filterPlayers(players, th, search) {
@@ -106,33 +143,32 @@ function sortPlayers(players) {
 }
 
 function renderPlayersStats(players) {
-  const avgBK = avg(players, 'Barbarian King');
-  const avgAQ = avg(players, 'Archer Queen');
+  const withBK = players.filter(p => p.heroes.find(h => h.name === 'Barbarian King'));
+  const withAQ = players.filter(p => p.heroes.find(h => h.name === 'Archer Queen'));
+  const avgBK  = withBK.length
+    ? (withBK.reduce((s, p) => s + p.heroes.find(h => h.name === 'Barbarian King').level, 0) / withBK.length).toFixed(1)
+    : '—';
+  const avgAQ  = withAQ.length
+    ? (withAQ.reduce((s, p) => s + p.heroes.find(h => h.name === 'Archer Queen').level, 0) / withAQ.length).toFixed(1)
+    : '—';
   document.getElementById('stat-p-members').textContent = players.length;
   document.getElementById('stat-p-bk').textContent = avgBK;
   document.getElementById('stat-p-aq').textContent = avgAQ;
 }
 
-function avg(players, heroName) {
-  const withHero = players.filter(p => p.heroes.find(h => h.name === heroName));
-  if (!withHero.length) return '—';
-  const sum = withHero.reduce((s, p) => s + p.heroes.find(h => h.name === heroName).level, 0);
-  return (sum / withHero.length).toFixed(1);
-}
-
 function renderPlayersThFilter(players) {
-  const select = document.getElementById('filter-p-th');
-  const levels = [...new Set(players.map(p => p.townhallLevel))].sort((a, b) => b - a);
+  const select  = document.getElementById('filter-p-th');
+  const levels  = [...new Set(players.map(p => p.townhallLevel))].sort((a, b) => b - a);
   const current = select.value;
   select.innerHTML = `<option value="all">Todos os CVs</option>` +
     levels.map(lv => `<option value="${lv}" ${current == lv ? 'selected' : ''}>CV ${lv}</option>`).join('');
 }
 
 function renderPlayers() {
-  const th = document.getElementById('filter-p-th').value;
+  const th     = document.getElementById('filter-p-th').value;
   const search = document.getElementById('filter-p-search').value;
   const filtered = filterPlayers(allPlayers, th, search);
-  const sorted = sortPlayers(filtered);
+  const sorted   = sortPlayers(filtered);
   renderPlayersStats(sorted);
   renderPlayersTable(sorted);
 }
@@ -163,9 +199,9 @@ export async function initPlayers() {
       `Atualizado em: ${new Date(data.updatedAt).toLocaleString('pt-BR')}`;
   }
 
-  if (allPlayers.length === 0) {
+  if (!allPlayers.length) {
     document.getElementById('players-tbody').innerHTML =
-      `<tr><td colspan="9" class="no-data">Nenhum dado disponível ainda.</td></tr>`;
+      `<tr><td colspan="${2 + HERO_ORDER.length}" class="no-data">Nenhum dado disponível ainda.</td></tr>`;
     return;
   }
 

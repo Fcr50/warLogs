@@ -331,6 +331,108 @@ tbody td {
   margin-top: 1px;
 }
 
+/* ── Heroes tab ── */
+.player-info-cell {
+  min-width: 140px;
+}
+
+.hero-cell {
+  vertical-align: top;
+  padding: 10px 8px !important;
+  min-width: 110px;
+}
+
+.hero-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.hero-absent {
+  opacity: 0.3;
+}
+
+.hero-img {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+  border-radius: 8px;
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.5));
+}
+
+.hero-placeholder {
+  width: 56px;
+  height: 56px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.hero-lv {
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 1px 7px;
+  border-radius: 10px;
+}
+
+.hero-lv-none { font-size: 0.8rem; color: #444; }
+
+.hlv-max  { background: #27ae60; color: #fff; }
+.hlv-high { background: #2980b9; color: #fff; }
+.hlv-mid  { background: #f39c12; color: #fff; }
+.hlv-low  { background: #e74c3c; color: #fff; }
+
+.hero-eq-row {
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 100px;
+}
+
+.eq-slot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1px;
+  cursor: default;
+}
+
+.eq-img {
+  width: 34px;
+  height: 34px;
+  object-fit: contain;
+  border-radius: 5px;
+  background: #0f1a2e;
+  padding: 2px;
+}
+
+.eq-img-placeholder {
+  width: 34px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  background: #0f1a2e;
+  border-radius: 5px;
+}
+
+.eq-lv {
+  font-size: 0.6rem;
+  font-weight: 700;
+  padding: 0px 4px;
+  border-radius: 6px;
+}
+
+.elv-max  { background: #f5a623; color: #1a1a2e; }
+.elv-high { background: #27ae60; color: #fff; }
+.elv-low  { background: #555;    color: #ccc; }
+
 /* ── Ranking ── */
 .rank-pos {
   font-size: 1rem;

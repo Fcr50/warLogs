@@ -56,10 +56,17 @@ async function main() {
           iconUrl: league.iconUrls?.small || null,
         } : null,
         heroes: (player.heroes || [])
-          .filter(h => HOME_HEROES.has(h.name))
-          .map(h => ({ name: h.name, level: h.level, maxLevel: h.maxLevel })),
-        equipment: (player.heroEquipment || [])
-          .map(e => ({ name: e.name, level: e.level, maxLevel: e.maxLevel })),
+          .filter(h => HOME_HEROES.has(h.name) && h.village === 'home')
+          .map(h => ({
+            name: h.name,
+            level: h.level,
+            maxLevel: h.maxLevel,
+            equipment: (h.equipment || []).map(e => ({
+              name: e.name,
+              level: e.level,
+              maxLevel: e.maxLevel,
+            })),
+          })),
       });
       process.stdout.write(`  ✓ ${player.name}\n`);
     } catch (err) {
