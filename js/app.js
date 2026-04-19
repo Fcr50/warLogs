@@ -15,6 +15,7 @@ function buildMembers(wars) {
   const map = {};
 
   wars.slice(0, MAX_WARS).forEach((war, warIndex) => {
+    const lazyTags = new Set((war.sixHourNonAttackers || []).map(x => x.tag));
     war.members.forEach(m => {
       if (!map[m.tag]) {
         map[m.tag] = {
@@ -33,6 +34,7 @@ function buildMembers(wars) {
         attacks,
         stars,
         missed: m.missedAttacks || 0,
+        lazy: lazyTags.has(m.tag),
       });
     });
   });
@@ -48,7 +50,8 @@ function buildMembers(wars) {
       return m.warSlots.find(w => w.warIndex === i) || null;
     });
 
-    return { ...m, totalStars, totalAttacks, totalMissed, avgStars, slots, warsParticipated: participated.length };
+    const lazyCount = participated.filter(w => w.lazy).length;
+    return { ...m, totalStars, totalAttacks, totalMissed, avgStars, lazyCount, slots, warsParticipated: participated.length };
   });
 }
 
@@ -71,6 +74,11 @@ function sortMembers(members) {
     if (typeof vb === 'string') vb = vb.toLowerCase();
     if (va < vb) return sortDir === 'asc' ? -1 : 1;
     if (va > vb) return sortDir === 'asc' ? 1 : -1;
+    // Tiebreakers when sorting by stars
+    if (sortKey === 'totalStars') {
+      if (b.avgStars !== a.avgStars) return b.avgStars - a.avgStars;
+      return a.lazyCount - b.lazyCount;
+    }
     return 0;
   });
 }
