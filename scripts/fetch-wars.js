@@ -26,17 +26,49 @@ function saveData(data) {
   writeFileSync(DATA_PATH, JSON.stringify(data, null, 2));
 }
 
-function buildWarRecord(war) {
+function parseWarTime(timeStr) {
+  // Format: 20260419T190928.000Z
+  return new Date(timeStr.replace(
+    /^(\d{4})(\d{2})(\d{2})T(\d{2})(\d{2})(\d{2})/,
+    '$1-$2-$3T$4:$5:$6'
+  ));
+}
+
+function getSixHourNonAttackers(war) {
+  const endTime   = parseWarTime(war.endTime);
+  const startTime = new Date(endTime - 24 * 60 * 60 * 1000);
+  const sixHourMark = new Date(startTime.getTime() + 6 * 60 * 60 * 1000);
+  const now = new Date();
+
+  if (now < sixHourMark) return null; // 6h mark not reached yet
+
+  return war.clan.members
+    .filter(m => !m.attacks || m.attacks.length === 0)
+    .map(m => ({ tag: m.tag, name: m.name, townhallLevel: m.townhallLevel }));
+}
+
+function buildWarRecord(war, existingRecord) {
   const clanStars = war.clan.stars ?? 0;
-  const oppStars = war.opponent.stars ?? 0;
-  const result = war.state === 'warEnded'
+  const oppStars  = war.opponent.stars ?? 0;
+  const result    = war.state === 'warEnded'
     ? (clanStars > oppStars ? 'win' : clanStars < oppStars ? 'loss' : 'tie')
     : 'inProgress';
 
+  // Preserve existing sixHourNonAttackers if already captured
+  let sixHourNonAttackers = existingRecord?.sixHourNonAttackers ?? null;
+  if (!sixHourNonAttackers) {
+    sixHourNonAttackers = getSixHourNonAttackers(war);
+  }
+
+  const endTime   = parseWarTime(war.endTime);
+  const startTime = new Date(endTime - 24 * 60 * 60 * 1000);
+
   return {
     endTime: war.endTime,
+    startTime: startTime.toISOString(),
     state: war.state,
     result,
+    teamSize: war.teamSize,
     opponent: {
       name: war.opponent.name,
       tag: war.opponent.tag,
@@ -47,6 +79,7 @@ function buildWarRecord(war) {
       stars: clanStars,
       destructionPercentage: war.clan.destructionPercentage,
     },
+    sixHourNonAttackers,
     members: war.clan.members.map(m => ({
       tag: m.tag,
       name: m.name,
@@ -73,10 +106,11 @@ async function main() {
 
   const data = loadData();
   const existingIndex = data.wars.findIndex(w => w.endTime === war.endTime);
-  const warRecord = buildWarRecord(war);
+  const existingRecord = existingIndex !== -1 ? data.wars[existingIndex] : null;
+  const warRecord = buildWarRecord(war, existingRecord);
 
   if (existingIndex !== -1) {
-    if (data.wars[existingIndex].state === 'warEnded' && war.state !== 'warEnded') {
+    if (existingRecord.state === 'warEnded' && war.state !== 'warEnded') {
       console.log('Already saved as finished, skipping.');
       return;
     }
@@ -86,6 +120,10 @@ async function main() {
     data.wars.unshift(warRecord);
     data.wars = data.wars.slice(0, 50);
     console.log(`Saved war vs ${war.opponent.name} (${warRecord.result})`);
+  }
+
+  if (warRecord.sixHourNonAttackers) {
+    console.log(`6h non-attackers: ${warRecord.sixHourNonAttackers.map(m => m.name).join(', ') || 'none'}`);
   }
 
   saveData(data);

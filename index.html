@@ -19,10 +19,12 @@
     <button class="tab-btn active" data-tab="wars">⚔️ Guerras</button>
     <button class="tab-btn" data-tab="players">🛡️ Heróis</button>
     <button class="tab-btn" data-tab="ranking">🏆 Ranking</button>
+    <button class="tab-btn" data-tab="report">📋 Relatório 6h</button>
   </nav>
 
   <!-- ABA GUERRAS -->
   <div id="wars-tab" class="tab-content active">
+    <div id="six-hour-alert" style="display:none"></div>
     <div class="controls">
       <label>Filtrar por CV:</label>
       <select id="filter-th">
@@ -163,6 +165,14 @@
         </tbody>
       </table>
     </div>
+  </div>
+
+  <!-- ABA RELATÓRIO 6H -->
+  <div id="report-tab" class="tab-content">
+    <div class="report-description">
+      Membros que <strong>não fizeram nenhum ataque nas primeiras 6 horas</strong> de cada guerra (quando ainda restavam 18h).
+    </div>
+    <div id="report-list"><div class="no-data" style="padding:60px">Carregando...</div></div>
   </div>
 
   <script src="js/app.js" type="module"></script>

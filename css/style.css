@@ -472,6 +472,138 @@ tbody td {
 .elv-high { background: #27ae60; color: #fff; }
 .elv-low  { background: #3a3a5a; color: #aaa; }
 
+/* ── 6h Alert & lazy rows ── */
+.six-hour-alert {
+  background: #4a1010;
+  border-left: 4px solid #e74c3c;
+  padding: 14px 24px;
+  margin: 0;
+}
+
+.alert-title {
+  font-weight: 700;
+  color: #e74c3c;
+  margin-bottom: 10px;
+  font-size: 0.95rem;
+}
+
+.alert-members {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.alert-member {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: #5a1515;
+  border: 1px solid #e74c3c55;
+  border-radius: 8px;
+  padding: 4px 10px;
+  font-size: 0.85rem;
+}
+
+.row-lazy {
+  background: rgba(231, 76, 60, 0.12) !important;
+  border-left: 3px solid #e74c3c;
+}
+
+.row-lazy:hover {
+  background: rgba(231, 76, 60, 0.2) !important;
+}
+
+.lazy-badge {
+  display: inline-block;
+  font-size: 0.7rem;
+  color: #e74c3c;
+  margin-top: 2px;
+}
+
+/* ── Report tab ── */
+.report-description {
+  padding: 16px 32px;
+  color: #aaa;
+  font-size: 0.9rem;
+  background: #16213e;
+  border-bottom: 1px solid #2a2a4a;
+}
+
+.report-description strong { color: #f5a623; }
+
+#report-list {
+  padding: 20px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.report-card {
+  background: #16213e;
+  border: 1px solid #2a2a4a;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.report-card-bad {
+  border-color: #e74c3c55;
+}
+
+.report-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 12px 20px;
+  background: #0f1a2e;
+  flex-wrap: wrap;
+}
+
+.report-date { color: #aaa; font-size: 0.85rem; }
+.report-vs   { font-size: 0.9rem; color: #e0e0e0; }
+
+.report-result {
+  padding: 2px 10px;
+  border-radius: 10px;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.res-win  { background: #27ae60; color: #fff; }
+.res-loss { background: #e74c3c; color: #fff; }
+.res-tie  { background: #f39c12; color: #1a1a2e; }
+
+.report-lazy-count {
+  font-size: 0.8rem;
+  color: #e74c3c;
+  font-weight: 700;
+  margin-left: auto;
+}
+
+.report-members {
+  padding: 12px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.report-all-ok {
+  color: #27ae60;
+  font-size: 0.9rem;
+}
+
+.report-member {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: #1a2540;
+  border: 1px solid #e74c3c44;
+  border-radius: 8px;
+  padding: 4px 12px;
+  font-size: 0.85rem;
+}
+
+.report-member-name { color: #e0e0e0; }
+
 /* ── Ranking ── */
 .rank-pos {
   font-size: 1rem;

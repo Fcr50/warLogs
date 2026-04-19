@@ -127,6 +127,10 @@ function renderTable(members, wars) {
     return;
   }
 
+  const lazySet = new Set(
+    (wars[0]?.sixHourNonAttackers || []).map(m => m.tag)
+  );
+
   tbody.innerHTML = members.map(m => {
     const dots = m.slots.slice(0, totalWars).map((slot, i) => {
       const cls = dotClass(slot);
@@ -135,14 +139,16 @@ function renderTable(members, wars) {
       return `<div class="war-dot ${cls}" title="${title}">${label}</div>`;
     }).join('');
 
-    const avg = m.avgStars.toFixed(2);
+    const avg    = m.avgStars.toFixed(2);
     const avgCls = avgClass(m.avgStars);
+    const isLazy = lazySet.has(m.tag);
 
     return `
-      <tr>
+      <tr class="${isLazy ? 'row-lazy' : ''}">
         <td>
           <div class="member-name">${m.name}</div>
           <div class="member-tag">${m.tag}</div>
+          ${isLazy ? '<span class="lazy-badge">⚠️ Sem ataque nas 6h</span>' : ''}
         </td>
         <td><span class="th-badge">CV${m.townhallLevel}</span></td>
         <td>
@@ -194,8 +200,26 @@ function setupSort() {
   });
 }
 
-function setupTabs(onPlayersFirst, onRankingFirst) {
-  const loaded = { players: false, ranking: false };
+function renderSixHourAlert(wars) {
+  const alert = document.getElementById('six-hour-alert');
+  const current = wars[0];
+  if (!current || !current.sixHourNonAttackers || current.sixHourNonAttackers.length === 0) {
+    alert.style.display = 'none';
+    return;
+  }
+  const names = current.sixHourNonAttackers.map(m =>
+    `<span class="alert-member"><span class="th-badge">CV${m.townhallLevel}</span> ${m.name}</span>`
+  ).join('');
+  alert.style.display = 'block';
+  alert.innerHTML = `
+    <div class="six-hour-alert">
+      <div class="alert-title">⚠️ Sem ataque nas primeiras 6 horas — Guerra vs ${current.opponent.name}</div>
+      <div class="alert-members">${names}</div>
+    </div>`;
+}
+
+function setupTabs(onPlayersFirst, onRankingFirst, onReportFirst) {
+  const loaded = { players: false, ranking: false, report: false };
   document.querySelectorAll('.tab-btn').forEach(btn => {
     btn.addEventListener('click', () => {
       document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
@@ -210,13 +234,18 @@ function setupTabs(onPlayersFirst, onRankingFirst) {
         loaded.ranking = true;
         window._playersData.then(data => onRankingFirst(data.players || []));
       }
+      if (btn.dataset.tab === 'report' && !loaded.report) {
+        loaded.report = true;
+        onReportFirst();
+      }
     });
   });
 }
 
 async function init() {
   const { initPlayers } = await import('./players.js');
-  const { initRanking } = await import('./ranking.js');
+  const { initRanking }  = await import('./ranking.js');
+  const { initReport }   = await import('./report.js');
 
   const wars = await loadData();
   window._wars = wars;
@@ -231,6 +260,7 @@ async function init() {
     const lastWar = wars[0];
     document.getElementById('last-updated').textContent =
       `Última guerra registrada: ${lastWar.endTime?.replace('T', ' ').slice(0, 16)} UTC`;
+    renderSixHourAlert(wars);
     render(allMembers, wars);
     document.getElementById('filter-th').addEventListener('change', () => render(allMembers, wars));
     document.getElementById('filter-search').addEventListener('input', () => render(allMembers, wars));
@@ -238,7 +268,7 @@ async function init() {
   }
 
   window._playersData = fetch('./data/players.json').then(r => r.json());
-  setupTabs(initPlayers, initRanking);
+  setupTabs(initPlayers, initRanking, () => initReport(wars));
 }
 
 init();
