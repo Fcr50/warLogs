@@ -10,27 +10,17 @@
       "opponent": {
         "name": "Slåsskamp",
         "tag": "#PLCVUPG8",
-        "stars": 8,
-        "destructionPercentage": 11.08
+        "stars": 17,
+        "destructionPercentage": 26.2
       },
       "clan": {
-        "stars": 8,
-        "destructionPercentage": 11.84
+        "stars": 13,
+        "destructionPercentage": 19.64
       },
       "sixHourNonAttackers": [
         {
-          "tag": "#2LY0P2L9U",
-          "name": "LucasHG9",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#QQC8P9C9R",
           "name": "Gs.prieto",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#2QL0VR9GU",
-          "name": "Marcola",
           "townhallLevel": 18
         },
         {
@@ -104,11 +94,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#GQU9Y0CQ8",
-          "name": "Scok♤",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#YVYCCQU08",
           "name": "Frenético",
           "townhallLevel": 18
@@ -134,7 +119,13 @@
           "tag": "#2LY0P2L9U",
           "name": "LucasHG9",
           "townhallLevel": 18,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 12
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -148,7 +139,13 @@
           "tag": "#2QL0VR9GU",
           "name": "Marcola",
           "townhallLevel": 18,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 95,
+              "order": 14
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -292,7 +289,13 @@
           "tag": "#GQU9Y0CQ8",
           "name": "Scok♤",
           "townhallLevel": 18,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 92,
+              "order": 10
+            }
+          ],
           "missedAttacks": 0
         },
         {
