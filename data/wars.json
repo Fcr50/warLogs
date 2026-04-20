@@ -14,8 +14,8 @@
         "destructionPercentage": 26.2
       },
       "clan": {
-        "stars": 17,
-        "destructionPercentage": 23.28
+        "stars": 20,
+        "destructionPercentage": 27.72
       },
       "sixHourNonAttackers": [
         {
@@ -84,11 +84,6 @@
           "townhallLevel": 15
         },
         {
-          "tag": "#LYJG0L8G",
-          "name": "GLADIADOR!!!",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#YVYCCQU08",
           "name": "Frenético",
           "townhallLevel": 18
@@ -119,6 +114,11 @@
               "stars": 3,
               "destructionPercentage": 100,
               "order": 12
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 18
             }
           ],
           "missedAttacks": 0
@@ -288,7 +288,13 @@
           "tag": "#LYJG0L8G",
           "name": "GLADIADOR!!!",
           "townhallLevel": 18,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 93,
+              "order": 19
+            }
+          ],
           "missedAttacks": 0
         },
         {
