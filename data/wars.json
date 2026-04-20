@@ -10,19 +10,14 @@
       "opponent": {
         "name": "Slåsskamp",
         "tag": "#PLCVUPG8",
-        "stars": 21,
-        "destructionPercentage": 33.2
+        "stars": 24,
+        "destructionPercentage": 37.2
       },
       "clan": {
-        "stars": 26,
-        "destructionPercentage": 35.72
+        "stars": 34,
+        "destructionPercentage": 47.12
       },
       "sixHourNonAttackers": [
-        {
-          "tag": "#QQC8P9C9R",
-          "name": "Gs.prieto",
-          "townhallLevel": 18
-        },
         {
           "tag": "#8YJYY92GC",
           "name": "RussiaN",
@@ -31,11 +26,6 @@
         {
           "tag": "#2GP2JUU2",
           "name": "Gustavo Lázaro",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QGQJGURCL",
-          "name": "SAFONOV",
           "townhallLevel": 18
         },
         {
@@ -84,11 +74,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#QJVQVRPU",
-          "name": "Frnnn",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#PPPUQPVJY",
           "name": "Rodrigo",
           "townhallLevel": 18
@@ -117,7 +102,13 @@
           "tag": "#QQC8P9C9R",
           "name": "Gs.prieto",
           "townhallLevel": 18,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 85,
+              "order": 27
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -169,7 +160,13 @@
           "tag": "#QGQJGURCL",
           "name": "SAFONOV",
           "townhallLevel": 18,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 28
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -327,7 +324,13 @@
           "tag": "#QJVQVRPU",
           "name": "Frnnn",
           "townhallLevel": 18,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 25
+            }
+          ],
           "missedAttacks": 0
         },
         {
