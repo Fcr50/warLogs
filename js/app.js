@@ -1,12 +1,13 @@
 import { openAttackStatsModal } from './attack-modal.js';
 
 const DATA_URL = './data/wars.json';
-const TIERS_URL = './data/cwl-ranking.json';
+const STATS_URL = './data/cwl-ranking.json';
 const MAX_WARS = 10;
 const TIER_ICONS = { S: '🟣', A: '🔵', B: '🟢', C: '🔴', F: '⚫' };
 
 export function tierBadgeHtml(tag) {
-  const tier = (window._tiersByTag || {})[tag];
+  const entry = (window._statsByTag || {})[tag];
+  const tier = entry && entry.tier;
   if (!tier) return '';
   const icon = TIER_ICONS[tier] || '';
   return `<span class="tier-badge tier-${tier.toLowerCase()}">${icon} ${tier}</span>`;
@@ -22,12 +23,12 @@ async function loadData() {
   return data.wars || [];
 }
 
-async function loadTiers() {
+async function loadStats() {
   try {
-    const res = await fetch(TIERS_URL, { cache: 'no-store' });
+    const res = await fetch(STATS_URL, { cache: 'no-store' });
     if (!res.ok) return {};
     const data = await res.json();
-    return data.tiersByTag || {};
+    return data.statsByTag || {};
   } catch {
     return {};
   }
@@ -372,10 +373,15 @@ async function init() {
   const { initReport }    = await import('./report.js');
   const { initAbsences }  = await import('./absences.js');
 
-  const [wars, tiersByTag] = await Promise.all([loadData(), loadTiers()]);
+  const playersDataPromise = fetch('./data/players.json').then(r => r.json());
+  window._playersData = playersDataPromise;
+  const [wars, statsByTag, playersData] = await Promise.all([loadData(), loadStats(), playersDataPromise]);
   window._wars = wars;
-  window._tiersByTag = tiersByTag;
+  window._statsByTag = statsByTag;
   allMembers = buildMembers(wars);
+
+  const { initOverview } = await import('./overview.js');
+  initOverview(playersData.players || [], statsByTag);
 
   renderThFilter(allMembers);
 
@@ -402,8 +408,6 @@ async function init() {
     document.getElementById('filter-search').addEventListener('input', () => render(allMembers, wars));
     setupSort();
   }
-
-  window._playersData = fetch('./data/players.json').then(r => r.json());
 
   setupSecretTrigger();
 

@@ -228,6 +228,24 @@ export function computeAllTiers(wars, players) {
   return map;
 }
 
+export function computeAllStats(wars, players) {
+  const relevantWars = wars.filter(w => w.state === 'warEnded' || w.state === 'inWar');
+  const map = {};
+  players.forEach(p => {
+    const d = computePlayerScore(p, relevantWars);
+    map[p.tag] = {
+      tier: capTierByTh(d.tier, p.townhallLevel),
+      score: d.score,
+      avgStars: d.avgStars,
+      totalStars: d.totalStars,
+      totalAttacks: d.totalAttacks,
+      warsInRoster: d.warsInRoster,
+      totalMissed: d.totalMissed,
+    };
+  });
+  return map;
+}
+
 export function computeCwlRanking(wars, players) {
   const relevantWars = wars.filter(w => w.state === 'warEnded' || w.state === 'inWar');
   const completedWars = relevantWars.filter(w => w.state === 'warEnded');

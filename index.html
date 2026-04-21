@@ -19,7 +19,8 @@
   </header>
 
   <nav class="tabs">
-    <button class="tab-btn active" data-tab="wars">⚔️ Guerras</button>
+    <button class="tab-btn active" data-tab="overview">📊 Geral</button>
+    <button class="tab-btn" data-tab="wars">⚔️ Guerras</button>
     <button class="tab-btn" data-tab="players">🛡️ Heróis</button>
     <button class="tab-btn" data-tab="ranking">🏆 Ranking</button>
     <button class="tab-btn" data-tab="report">📋 Relatório 6h</button>
@@ -27,8 +28,56 @@
     <button class="tab-btn" data-tab="cwl" id="cwl-tab-btn" hidden>🏅 Top CV18</button>
   </nav>
 
+  <!-- ABA GERAL -->
+  <div id="overview-tab" class="tab-content active">
+    <div class="controls">
+      <label>Filtrar por CV:</label>
+      <select id="filter-o-th">
+        <option value="all">Todos os CVs</option>
+      </select>
+      <label>Buscar membro:</label>
+      <input type="text" id="filter-o-search" placeholder="Nome do membro..." />
+    </div>
+
+    <div class="stats-bar">
+      <div class="stat-item stat-primary">
+        <span class="value" id="stat-o-members">—</span>
+        <span class="label">Membros</span>
+      </div>
+      <div class="stat-item">
+        <span class="value" id="stat-o-active">—</span>
+        <span class="label">Com ataques</span>
+      </div>
+      <div class="stat-item">
+        <span class="value" id="stat-o-trophies">—</span>
+        <span class="label">Média de Troféus</span>
+      </div>
+    </div>
+
+    <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Membro</th>
+            <th>Tier</th>
+            <th>CV</th>
+            <th>Média ★/guerra</th>
+            <th>Guerras</th>
+            <th>🏆 Troféus</th>
+          </tr>
+        </thead>
+        <tbody id="overview-tbody">
+          <tr class="skeleton-row"><td colspan="7"><div class="skeleton-box skel-lg"></div><div class="skeleton-box skel-sm"></div></td></tr>
+          <tr class="skeleton-row"><td colspan="7"><div class="skeleton-box skel-lg"></div><div class="skeleton-box skel-sm"></div></td></tr>
+          <tr class="skeleton-row"><td colspan="7"><div class="skeleton-box skel-lg"></div><div class="skeleton-box skel-sm"></div></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
   <!-- ABA GUERRAS -->
-  <div id="wars-tab" class="tab-content active">
+  <div id="wars-tab" class="tab-content">
     <div id="six-hour-alert" style="display:none"></div>
     <div class="controls">
       <label>Filtrar por CV:</label>
