@@ -13,7 +13,7 @@
 
   <header>
     <div>
-      <h1>⚔️ Brazil Society <span id="live-war-badge" class="live-badge" hidden>🔴 Guerra ativa</span></h1>
+      <h1><span id="secret-trigger" aria-hidden="true">⚔️</span> Brazil Society <span id="live-war-badge" class="live-badge" hidden>🔴 Guerra ativa</span></h1>
       <div class="subtitle">Estatísticas do clã</div>
     </div>
   </header>
@@ -24,6 +24,7 @@
     <button class="tab-btn" data-tab="ranking">🏆 Ranking</button>
     <button class="tab-btn" data-tab="report">📋 Relatório 6h</button>
     <button class="tab-btn" data-tab="absences">🚫 Ausentes</button>
+    <button class="tab-btn" data-tab="cwl" id="cwl-tab-btn" hidden>🏅 Top 20 CWL</button>
   </nav>
 
   <!-- ABA GUERRAS -->
@@ -203,6 +204,11 @@
         <div class="skeleton-card"><div class="skeleton-box skel-md"></div><div class="skeleton-box skel-lg"></div></div>
       </div>
     </div>
+  </div>
+
+  <!-- ABA TOP 20 CWL (oculta) -->
+  <div id="cwl-tab" class="tab-content">
+    <div id="cwl-content"></div>
   </div>
 
   <script defer src="/_vercel/insights/script.js"></script>

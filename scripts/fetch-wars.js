@@ -105,6 +105,26 @@ function buildWarRecord(war, existingRecord) {
     sixHourNonAttackers = null;
   }
 
+  // Build a lookup of opponent positions so we can attach defender mapPosition
+  // and compute defenses received per clan member.
+  const opponentPositions = {};
+  (war.opponent.members || []).forEach(o => {
+    opponentPositions[o.tag] = o.mapPosition;
+  });
+
+  const defensesByClanTag = {};
+  (war.opponent.members || []).forEach(o => {
+    (o.attacks || []).forEach(a => {
+      if (!defensesByClanTag[a.defenderTag]) defensesByClanTag[a.defenderTag] = [];
+      defensesByClanTag[a.defenderTag].push({
+        stars: a.stars,
+        destructionPercentage: a.destructionPercentage,
+        attackerTag: a.attackerTag,
+        attackerMapPosition: opponentPositions[a.attackerTag] ?? null,
+      });
+    });
+  });
+
   return {
     endTime: war.endTime,
     startTime: startTime.toISOString(),
@@ -117,6 +137,10 @@ function buildWarRecord(war, existingRecord) {
       tag:  war.opponent.tag,
       stars: oppStars,
       destructionPercentage: war.opponent.destructionPercentage,
+      members: (war.opponent.members || []).map(o => ({
+        tag: o.tag,
+        mapPosition: o.mapPosition,
+      })),
     },
     clan: {
       stars: clanStars,
@@ -127,11 +151,14 @@ function buildWarRecord(war, existingRecord) {
       tag:  m.tag,
       name: m.name,
       townhallLevel: m.townhallLevel,
+      mapPosition: m.mapPosition,
       attacks: (m.attacks || []).map(a => ({
         stars: a.stars,
         destructionPercentage: a.destructionPercentage,
         order: a.order,
+        defenderTag: a.defenderTag,
       })),
+      defensesReceived: defensesByClanTag[m.tag] || [],
       missedAttacks: war.state === 'warEnded'
         ? (war.teamSize <= 15 ? 1 : 2) - (m.attacks || []).length
         : 0,

@@ -243,8 +243,8 @@ function renderSixHourAlert(wars) {
     </div>`;
 }
 
-function setupTabs(onPlayersFirst, onRankingFirst, onReportFirst, onAbsencesFirst) {
-  const loaded = { players: false, ranking: false, report: false, absences: false };
+function setupTabs(onPlayersFirst, onRankingFirst, onReportFirst, onAbsencesFirst, onCwlFirst) {
+  const loaded = { players: false, ranking: false, report: false, absences: false, cwl: false };
   document.querySelectorAll('.tab-btn').forEach(btn => {
     btn.addEventListener('click', () => {
       document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
@@ -267,7 +267,37 @@ function setupTabs(onPlayersFirst, onRankingFirst, onReportFirst, onAbsencesFirs
         loaded.absences = true;
         onAbsencesFirst();
       }
+      if (btn.dataset.tab === 'cwl' && !loaded.cwl) {
+        loaded.cwl = true;
+        onCwlFirst();
+      }
     });
+  });
+}
+
+function setupSecretTrigger() {
+  const trigger = document.getElementById('secret-trigger');
+  const tabBtn = document.getElementById('cwl-tab-btn');
+  if (!trigger || !tabBtn) return;
+
+  if (sessionStorage.getItem('cwl_revealed') === '1') {
+    tabBtn.hidden = false;
+  }
+
+  let count = 0;
+  let timer;
+  trigger.addEventListener('click', () => {
+    if (!tabBtn.hidden) return;
+    count++;
+    clearTimeout(timer);
+    timer = setTimeout(() => { count = 0; }, 3000);
+    if (count >= 10) {
+      count = 0;
+      tabBtn.hidden = false;
+      sessionStorage.setItem('cwl_revealed', '1');
+      tabBtn.classList.add('tab-reveal');
+      setTimeout(() => tabBtn.classList.remove('tab-reveal'), 1200);
+    }
   });
 }
 
@@ -308,7 +338,16 @@ async function init() {
   }
 
   window._playersData = fetch('./data/players.json').then(r => r.json());
-  setupTabs(initPlayers, initRanking, () => initReport(wars), initAbsences);
+
+  setupSecretTrigger();
+
+  const onCwlFirst = async () => {
+    const { initCwl } = await import('./cwl.js');
+    const playersData = await window._playersData;
+    initCwl(wars, playersData.players || []);
+  };
+
+  setupTabs(initPlayers, initRanking, () => initReport(wars), initAbsences, onCwlFirst);
 }
 
 init();
