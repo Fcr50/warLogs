@@ -3,15 +3,15 @@
     {
       "endTime": "20260421T201107.000Z",
       "startTime": "2026-04-20T20:11:07.000Z",
-      "state": "inWar",
-      "result": "inProgress",
+      "state": "warEnded",
+      "result": "win",
       "teamSize": 25,
       "absencesRecorded": true,
       "opponent": {
         "name": "Slåsskamp",
         "tag": "#PLCVUPG8",
-        "stars": 68,
-        "destructionPercentage": 95.88,
+        "stars": 69,
+        "destructionPercentage": 96.2,
         "members": [
           {
             "tag": "#YJ2VCVGY",
@@ -350,6 +350,12 @@
               "attackerMapPosition": 2
             },
             {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#VUQU982J",
+              "attackerMapPosition": 11
+            },
+            {
               "stars": 2,
               "destructionPercentage": 92,
               "attackerTag": "#9GUPJLLPP",
@@ -419,7 +425,7 @@
               "attackerMapPosition": 23
             }
           ],
-          "missedAttacks": 0
+          "missedAttacks": 2
         },
         {
           "tag": "#R82JG8Q2",
@@ -626,9 +632,15 @@
               "destructionPercentage": 96,
               "attackerTag": "#2QQ9JC9LY",
               "attackerMapPosition": 20
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 74,
+              "attackerTag": "#LP88VVJ8Q",
+              "attackerMapPosition": 17
             }
           ],
-          "missedAttacks": 0
+          "missedAttacks": 1
         },
         {
           "tag": "#P9C0LVLU2",
@@ -882,6 +894,12 @@
               "destructionPercentage": 88,
               "attackerTag": "#8CPPQ2VL",
               "attackerMapPosition": 22
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 74,
+              "attackerTag": "#LP88VVJ8Q",
+              "attackerMapPosition": 17
             },
             {
               "stars": 2,
