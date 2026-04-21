@@ -3,7 +3,7 @@ set -e
 
 export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"
 
-cd /Users/Trabalho/Desktop/COC
+cd /Users/fernando/Desktop/COC
 
 export COC_EMAIL="fernandoribeiro.com@gmail.com"
 export COC_PASSWORD="binho922004"
