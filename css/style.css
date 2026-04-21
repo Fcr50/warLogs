@@ -392,6 +392,10 @@ tbody td {
 .dot-0      { background: var(--bg-overlay); color: var(--text-muted); }
 .dot-missed { background: var(--bg-raised); color: var(--text-muted); border: 1px dashed var(--border); }
 .dot-nowar  { background: transparent; color: var(--text-muted); border: 1px solid var(--border-subtle); }
+.dot-recovered {
+  outline: 2px dashed var(--warning);
+  outline-offset: 1px;
+}
 
 /* ═══════════════════════════════════════
    MISC
@@ -459,6 +463,19 @@ tbody td {
   color: var(--danger);
   margin-top: 2px;
   font-weight: 600;
+}
+.lazy-badge-recovered {
+  color: var(--success);
+}
+
+.member-cell {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--sp-3);
+}
+.member-info {
+  min-width: 0;
 }
 
 /* ═══════════════════════════════════════
@@ -1179,6 +1196,10 @@ tbody tr:nth-child(3) .rank-pos { color: #cd7f32; }
   cursor: default;
   user-select: none;
   -webkit-user-select: none;
+  touch-action: manipulation;
+  display: inline-block;
+  padding: 4px 6px;
+  margin: -4px -6px;
 }
 
 @keyframes tab-reveal-pulse {

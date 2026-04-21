@@ -1,7 +1,16 @@
 import { openAttackStatsModal } from './attack-modal.js';
 
 const DATA_URL = './data/wars.json';
+const TIERS_URL = './data/cwl-ranking.json';
 const MAX_WARS = 10;
+const TIER_ICONS = { S: '🟣', A: '🔵', B: '🟢', C: '🔴', F: '⚫' };
+
+export function tierBadgeHtml(tag) {
+  const tier = (window._tiersByTag || {})[tag];
+  if (!tier) return '';
+  const icon = TIER_ICONS[tier] || '';
+  return `<span class="tier-badge tier-${tier.toLowerCase()}">${icon} ${tier}</span>`;
+}
 
 let allMembers = [];
 let sortKey = 'totalStars';
@@ -11,6 +20,17 @@ async function loadData() {
   const res = await fetch(DATA_URL);
   const data = await res.json();
   return data.wars || [];
+}
+
+async function loadTiers() {
+  try {
+    const res = await fetch(TIERS_URL, { cache: 'no-store' });
+    if (!res.ok) return {};
+    const data = await res.json();
+    return data.tiersByTag || {};
+  } catch {
+    return {};
+  }
 }
 
 function buildMembers(wars) {
@@ -89,10 +109,13 @@ function dotClass(slot) {
   if (!slot) return 'dot-nowar';
   if (slot.attacks.length === 0) return 'dot-missed';
   const stars = slot.stars;
-  if (stars >= 3) return 'dot-3';
-  if (stars === 2) return 'dot-2';
-  if (stars === 1) return 'dot-1';
-  return 'dot-0';
+  let base;
+  if (stars >= 3) base = 'dot-3';
+  else if (stars === 2) base = 'dot-2';
+  else if (stars === 1) base = 'dot-1';
+  else base = 'dot-0';
+  if (slot.lazy) base += ' dot-recovered';
+  return base;
 }
 
 function dotLabel(slot) {
@@ -106,7 +129,8 @@ function dotTitle(slot, warIndex, wars) {
   if (slot.attacks.length === 0) return 'Ataque perdido';
   const war = wars[warIndex];
   const result = war ? `vs ${war.opponent.name} (${war.result})` : '';
-  return `${slot.stars}⭐ ${result}`;
+  const suffix = slot.lazy ? ' · atacou após as 6h' : '';
+  return `${slot.stars}⭐ ${result}${suffix}`;
 }
 
 function avgClass(avg) {
@@ -159,13 +183,26 @@ function renderTable(members, wars) {
     const avg    = m.avgStars.toFixed(2);
     const avgCls = avgClass(m.avgStars);
     const isLazy = lazySet.has(m.tag);
+    const currentSlot = m.slots[0];
+    const recoveredCurrent = isLazy && currentSlot && currentSlot.attacks.length > 0;
+    const lazyBadge = isLazy
+      ? (recoveredCurrent
+          ? '<span class="lazy-badge lazy-badge-recovered">✅ Atacou após as 6h</span>'
+          : '<span class="lazy-badge">⚠️ Sem ataque nas 6h</span>')
+      : '';
+    const rowCls = isLazy && !recoveredCurrent ? ' row-lazy' : '';
 
     return `
-      <tr class="war-row${isLazy ? ' row-lazy' : ''}" data-tag="${m.tag}">
+      <tr class="war-row${rowCls}" data-tag="${m.tag}">
         <td>
-          <div class="member-name">${m.name}</div>
-          <div class="member-tag">${m.tag}</div>
-          ${isLazy ? '<span class="lazy-badge">⚠️ Sem ataque nas 6h</span>' : ''}
+          <div class="member-cell">
+            <div class="member-info">
+              <div class="member-name">${m.name}</div>
+              <div class="member-tag">${m.tag}</div>
+              ${lazyBadge}
+            </div>
+            ${tierBadgeHtml(m.tag)}
+          </div>
         </td>
         <td><span class="th-badge">CV${m.townhallLevel}</span></td>
         <td>
@@ -284,21 +321,44 @@ function setupSecretTrigger() {
     tabBtn.hidden = false;
   }
 
+  const reveal = () => {
+    if (!tabBtn.hidden) return;
+    tabBtn.hidden = false;
+    sessionStorage.setItem('cwl_revealed', '1');
+    tabBtn.classList.add('tab-reveal');
+    setTimeout(() => tabBtn.classList.remove('tab-reveal'), 1200);
+  };
+
   let count = 0;
-  let timer;
+  let countTimer;
   trigger.addEventListener('click', () => {
     if (!tabBtn.hidden) return;
     count++;
-    clearTimeout(timer);
-    timer = setTimeout(() => { count = 0; }, 3000);
+    clearTimeout(countTimer);
+    countTimer = setTimeout(() => { count = 0; }, 3000);
     if (count >= 10) {
       count = 0;
-      tabBtn.hidden = false;
-      sessionStorage.setItem('cwl_revealed', '1');
-      tabBtn.classList.add('tab-reveal');
-      setTimeout(() => tabBtn.classList.remove('tab-reveal'), 1200);
+      reveal();
     }
   });
+
+  let holdTimer = null;
+  const startHold = e => {
+    if (!tabBtn.hidden) return;
+    if (e.type === 'touchstart') e.preventDefault();
+    clearTimeout(holdTimer);
+    holdTimer = setTimeout(reveal, 1200);
+  };
+  const cancelHold = () => {
+    clearTimeout(holdTimer);
+    holdTimer = null;
+  };
+  trigger.addEventListener('touchstart', startHold, { passive: false });
+  trigger.addEventListener('touchend', cancelHold);
+  trigger.addEventListener('touchcancel', cancelHold);
+  trigger.addEventListener('mousedown', startHold);
+  trigger.addEventListener('mouseup', cancelHold);
+  trigger.addEventListener('mouseleave', cancelHold);
 }
 
 async function init() {
@@ -307,8 +367,9 @@ async function init() {
   const { initReport }    = await import('./report.js');
   const { initAbsences }  = await import('./absences.js');
 
-  const wars = await loadData();
+  const [wars, tiersByTag] = await Promise.all([loadData(), loadTiers()]);
   window._wars = wars;
+  window._tiersByTag = tiersByTag;
   allMembers = buildMembers(wars);
 
   renderThFilter(allMembers);

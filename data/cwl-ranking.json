@@ -1,12 +1,48 @@
 {
-  "generatedAt": "2026-04-21T15:57:28.855Z",
+  "generatedAt": "2026-04-21T19:06:57.957Z",
   "totalWars": 1,
   "liveWar": {
     "opponentName": "Slåsskamp",
-    "totalAttacksDone": 43,
+    "totalAttacksDone": 46,
     "totalAttacksExpected": 50
   },
   "ranking": [
+    {
+      "player": {
+        "tag": "#PLU2VCLG",
+        "name": "Phoenix",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.3593414864864863,
+        "rawScore": 3.370487837837838,
+        "confidence": 0.7,
+        "tier": "S",
+        "attackScore": 3.542567567567567,
+        "defenseScore": 0,
+        "reliability": 1,
+        "formScore": 3.5,
+        "warsInRoster": 2,
+        "attacksUsed": 4,
+        "attacksAvailable": 4,
+        "avgDestruction": 100,
+        "totalAttacks": 4,
+        "totalStars": 12,
+        "count3Stars": 4,
+        "avgStars": 3,
+        "threeStarRate": 1,
+        "totalMissed": 0,
+        "avgPositionDiff": -4.5,
+        "hasAnyDefense": false,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.56,
+          "defense": 0,
+          "reliability": 0.3067,
+          "form": 0.1333
+        }
+      }
+    },
     {
       "player": {
         "tag": "#2LY0P2L9U",
@@ -33,42 +69,6 @@
         "threeStarRate": 1,
         "totalMissed": 0,
         "avgPositionDiff": 0.5,
-        "hasAnyDefense": false,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.56,
-          "defense": 0,
-          "reliability": 0.3067,
-          "form": 0.1333
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#PLU2VCLG",
-        "name": "Phoenix",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.3426549999999993,
-        "rawScore": 3.3466499999999995,
-        "confidence": 0.7,
-        "tier": "S",
-        "attackScore": 3.4999999999999996,
-        "defenseScore": 0,
-        "reliability": 1,
-        "formScore": 3.5,
-        "warsInRoster": 2,
-        "attacksUsed": 3,
-        "attacksAvailable": 4,
-        "avgDestruction": 100,
-        "totalAttacks": 3,
-        "totalStars": 9,
-        "count3Stars": 3,
-        "avgStars": 3,
-        "threeStarRate": 1,
-        "totalMissed": 0,
-        "avgPositionDiff": 0,
         "hasAnyDefense": false,
         "hadTh17": false,
         "weights": {
@@ -923,5 +923,45 @@
         "townhallLevel": 18
       }
     }
-  ]
+  ],
+  "tiersByTag": {
+    "#P9C0LVLU2": "S",
+    "#QGQJGURCL": "A",
+    "#8CJ8YJY0P": "A",
+    "#2QL0VR9GU": "B",
+    "#2LY0P2L9U": "S",
+    "#QQC8P9C9R": "A",
+    "#GJ2LQVQJ": "A",
+    "#YPVQVU982": "A",
+    "#QJVQVRPU": "A",
+    "#22C820V9L": "A",
+    "#PLU2VCLG": "S",
+    "#29LP0VJV0": "C",
+    "#QR8R9QUV8": "B",
+    "#80LUCC9YV": "C",
+    "#2R89QJL9Q": "B",
+    "#PPPUQPVJY": "B",
+    "#L8RG2PV0G": "S",
+    "#2GP2JUU2": "C",
+    "#2Q2ULRCUV": "C",
+    "#LYJG0L8G": "C",
+    "#R82JG8Q2": "C",
+    "#YVYCCQU08": "B",
+    "#QQULJG9": "F",
+    "#GQU9Y0CQ8": "A",
+    "#2QP9JGYVG": "F",
+    "#2LGC8PGRY": "B",
+    "#LUR09RUP2": "F",
+    "#VPPQ8VLV": "A",
+    "#GGVCRYP8P": "A",
+    "#8YJYY92GC": "C",
+    "#JPVGQP8V": "F",
+    "#QJLQLUURY": "B",
+    "#GRVUL9PPR": "F",
+    "#RC82GPG": "F",
+    "#LR2U2PRP2": "F",
+    "#Q8PRP98QG": "B",
+    "#GU2PP98GU": "F",
+    "#GVRVR82YU": "F"
+  }
 }

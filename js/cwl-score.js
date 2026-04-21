@@ -209,6 +209,25 @@ export function computePlayerScore(player, wars) {
   };
 }
 
+export function capTierByTh(tier, th) {
+  if (tier === 'F') return 'F';
+  const order = ['S', 'A', 'B', 'C'];
+  const cur = order.indexOf(tier);
+  if (cur === -1) return tier;
+  const min = th >= 18 ? 0 : th >= 15 ? 1 : 2;
+  return order[Math.max(cur, min)];
+}
+
+export function computeAllTiers(wars, players) {
+  const relevantWars = wars.filter(w => w.state === 'warEnded' || w.state === 'inWar');
+  const map = {};
+  players.forEach(p => {
+    const d = computePlayerScore(p, relevantWars);
+    map[p.tag] = capTierByTh(d.tier, p.townhallLevel);
+  });
+  return map;
+}
+
 export function computeCwlRanking(wars, players) {
   const relevantWars = wars.filter(w => w.state === 'warEnded' || w.state === 'inWar');
   const completedWars = relevantWars.filter(w => w.state === 'warEnded');

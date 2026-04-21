@@ -1,4 +1,5 @@
 import { openAttackStatsModal } from './attack-modal.js';
+import { tierBadgeHtml } from './app.js';
 
 let allRanking = [];
 let rankSortKey = 'trophies';
@@ -49,8 +50,13 @@ function renderRankingTable(players) {
     <tr class="rank-row" data-tag="${p.tag}">
       <td class="rank-pos">${i + 1}</td>
       <td>
-        <div class="member-name">${p.name}</div>
-        <div class="member-tag">${ROLE_LABEL[p.role] || p.role}</div>
+        <div class="member-cell">
+          <div class="member-info">
+            <div class="member-name">${p.name}</div>
+            <div class="member-tag">${ROLE_LABEL[p.role] || p.role}</div>
+          </div>
+          ${tierBadgeHtml(p.tag)}
+        </div>
       </td>
       <td><span class="th-badge">CV${p.townhallLevel}</span></td>
       <td><span class="exp-badge">Lv ${p.expLevel}</span></td>

@@ -1,7 +1,7 @@
 import { readFileSync, writeFileSync, existsSync } from 'fs';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
-import { computeCwlRanking } from '../js/cwl-score.js';
+import { computeCwlRanking, computeAllTiers } from '../js/cwl-score.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const WARS_PATH    = join(__dirname, '../data/wars.json');
@@ -21,6 +21,7 @@ function main() {
   const players = playersData.players || [];
 
   const { ranking, noDataList, totalWars, liveWar } = computeCwlRanking(wars, players);
+  const tiersByTag = computeAllTiers(wars, players);
 
   const slimPlayer = p => ({ tag: p.tag, name: p.name, townhallLevel: p.townhallLevel });
 
@@ -30,6 +31,7 @@ function main() {
     liveWar,
     ranking: ranking.map(({ player, data }) => ({ player: slimPlayer(player), data })),
     noDataList: noDataList.map(({ player }) => ({ player: slimPlayer(player) })),
+    tiersByTag,
   };
 
   writeFileSync(OUT_PATH, JSON.stringify(output, null, 2));
