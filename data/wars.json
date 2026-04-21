@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 63,
-        "destructionPercentage": 84
+        "stars": 65,
+        "destructionPercentage": 87.4
       },
       "sixHourNonAttackers": [
         {
@@ -133,11 +133,6 @@
         {
           "tag": "#YVYCCQU08",
           "name": "Frenético",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#PPPUQPVJY",
-          "name": "Rodrigo",
           "townhallLevel": 18
         }
       ],
@@ -646,7 +641,14 @@
           "name": "Rodrigo",
           "townhallLevel": 18,
           "mapPosition": 16,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 85,
+              "order": 43,
+              "defenderTag": "#2PG9JJRY"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         }
