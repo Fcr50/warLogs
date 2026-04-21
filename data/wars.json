@@ -625,7 +625,20 @@
           "name": "Frenético",
           "townhallLevel": 18,
           "mapPosition": 17,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 50,
+              "defenderTag": "#2RLY2LR2"
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 99,
+              "order": 51,
+              "defenderTag": "#R9G29VJV"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
