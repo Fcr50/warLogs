@@ -343,8 +343,7 @@ async function init() {
 
   const onCwlFirst = async () => {
     const { initCwl } = await import('./cwl.js');
-    const playersData = await window._playersData;
-    initCwl(wars, playersData.players || []);
+    initCwl();
   };
 
   setupTabs(initPlayers, initRanking, () => initReport(wars), initAbsences, onCwlFirst);

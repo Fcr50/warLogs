@@ -1,16 +1,6 @@
 const CWL_PASS = 'bs50cwl';
-const DECAY = 0.85;
-const UNUSED_PENALTY = -1.5;
-const DIVE_THRESHOLD = 5;
-const WEIGHTS_FULL = { attack: 0.42, defense: 0.25, reliability: 0.23, form: 0.10 };
-const WEIGHTS_NO_DEFENSE = { attack: 0.56, defense: 0, reliability: 0.3067, form: 0.1333 };
 
-let cachedWars = [];
-let cachedPlayers = [];
-
-export function initCwl(wars, players) {
-  cachedWars = wars || [];
-  cachedPlayers = players || [];
+export function initCwl() {
   if (sessionStorage.getItem('cwl_auth') === '1') {
     renderCwl();
   } else {
@@ -58,11 +48,50 @@ function renderPasswordGate() {
   setTimeout(() => input.focus(), 80);
 }
 
-function renderCwl() {
+async function loadRanking() {
+  try {
+    const res = await fetch('./data/cwl-ranking.json', { cache: 'no-store' });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    return await res.json();
+  } catch (err) {
+    console.warn('[cwl] pre-computed ranking unavailable, falling back to runtime compute', err);
+    const [{ computeCwlRanking }, warsRes, playersRes] = await Promise.all([
+      import('./cwl-score.js'),
+      fetch('./data/wars.json').then(r => r.json()),
+      fetch('./data/players.json').then(r => r.json()),
+    ]);
+    const result = computeCwlRanking(warsRes.wars || [], playersRes.players || []);
+    return {
+      generatedAt: null,
+      totalWars: result.totalWars,
+      liveWar: result.liveWar,
+      ranking: result.ranking,
+      noDataList: result.noDataList.map(({ player }) => ({ player })),
+    };
+  }
+}
+
+async function renderCwl() {
   const container = document.getElementById('cwl-content');
-  const { ranking, noDataList, totalWars } = computeCwlRanking(cachedWars, cachedPlayers);
+  container.innerHTML = `
+    <div class="cwl-loading">
+      <div class="skeleton-card"><div class="skeleton-box skel-md"></div><div class="skeleton-box skel-lg"></div></div>
+      <div class="skeleton-card"><div class="skeleton-box skel-md"></div><div class="skeleton-box skel-lg"></div></div>
+    </div>
+  `;
+
+  const { generatedAt, totalWars, liveWar, ranking, noDataList } = await loadRanking();
 
   let html = '';
+
+  if (liveWar) {
+    html += `
+      <div class="cwl-live-banner">
+        <span class="cwl-live-dot">🔴</span>
+        <span>Inclui guerra em andamento vs <strong>${escapeHtml(liveWar.opponentName || '?')}</strong> — ${liveWar.totalAttacksDone}/${liveWar.totalAttacksExpected} ataques feitos</span>
+      </div>
+    `;
+  }
 
   html += `
     <div class="cwl-header">
@@ -118,8 +147,8 @@ function renderCwl() {
         <div class="cwl-no-data-list">
           ${noDataList.map(({ player }) => `
             <div class="cwl-no-data-item">
-              <span class="member-name">${player.name}</span>
-              <span class="member-tag">${player.tag}</span>
+              <span class="member-name">${escapeHtml(player.name)}</span>
+              <span class="member-tag">${escapeHtml(player.tag)}</span>
             </div>
           `).join('')}
         </div>
@@ -127,7 +156,7 @@ function renderCwl() {
     `;
   }
 
-  const obs = buildObservations(ranking, cachedWars);
+  const obs = buildObservations(ranking);
   if (obs.length > 0) {
     html += `
       <div class="cwl-observations">
@@ -135,6 +164,13 @@ function renderCwl() {
         <ul>${obs.map(o => `<li>${o}</li>`).join('')}</ul>
       </div>
     `;
+  }
+
+  if (generatedAt) {
+    const d = new Date(generatedAt);
+    const hh = String(d.getHours()).padStart(2, '0');
+    const mm = String(d.getMinutes()).padStart(2, '0');
+    html += `<div class="last-updated">Atualizado em ${hh}:${mm}</div>`;
   }
 
   container.innerHTML = html;
@@ -156,11 +192,11 @@ function renderRow(entry, index) {
   const th17Tag = data.hadTh17 ? ' <span class="cwl-th17-tag" title="Recém-TH18: guerras em TH17 com peso 0.4">↑17→18</span>' : '';
 
   return `
-    <tr class="cwl-row cwl-row-${status}" data-tag="${player.tag}">
+    <tr class="cwl-row cwl-row-${status}" data-tag="${escapeHtml(player.tag)}">
       <td class="cwl-pos">${index + 1}</td>
       <td>
-        <div class="member-name">${player.name}${th17Tag}</div>
-        <div class="member-tag">${player.tag}</div>
+        <div class="member-name">${escapeHtml(player.name)}${th17Tag}</div>
+        <div class="member-tag">${escapeHtml(player.tag)}</div>
       </td>
       <td class="cwl-score-cell"><strong>${data.score.toFixed(2)}</strong></td>
       <td>${data.attackScore.toFixed(2)}</td>
@@ -175,16 +211,16 @@ function renderRow(entry, index) {
   `;
 }
 
-function buildObservations(ranking, wars) {
+function buildObservations(ranking) {
   const obs = [];
   const lowSample = ranking.filter(r => r.data.warsInRoster < 3);
   if (lowSample.length > 0) {
-    const names = lowSample.map(r => r.player.name).join(', ');
+    const names = lowSample.map(r => escapeHtml(r.player.name)).join(', ');
     obs.push(`Amostra pequena (&lt;3 guerras): ${names}. Scores podem oscilar conforme novas guerras.`);
   }
   const newTh18 = ranking.filter(r => r.data.hadTh17);
   if (newTh18.length > 0) {
-    const names = newTh18.map(r => r.player.name).join(', ');
+    const names = newTh18.map(r => escapeHtml(r.player.name)).join(', ');
     obs.push(`Recém-TH18 (guerras em TH17 contam com peso 0.4): ${names}.`);
   }
   const noDefenseData = ranking.filter(r => !r.data.hasAnyDefense);
@@ -196,176 +232,10 @@ function buildObservations(ranking, wars) {
   return obs;
 }
 
-function computeCwlRanking(wars, players) {
-  const completedWars = wars.filter(w => w.state === 'warEnded');
-  const eligible = players.filter(p => p.townhallLevel === 18);
-
-  const ranking = [];
-  const noDataList = [];
-
-  eligible.forEach(player => {
-    const data = computePlayerScore(player, completedWars);
-    if (data.totalAttacks === 0) {
-      noDataList.push({ player, data });
-    } else {
-      ranking.push({ player, data });
-    }
-  });
-
-  ranking.sort((a, b) => {
-    if (b.data.score !== a.data.score) return b.data.score - a.data.score;
-    if (b.data.avgDestruction !== a.data.avgDestruction) return b.data.avgDestruction - a.data.avgDestruction;
-    if (b.data.attacksUsed !== a.data.attacksUsed) return b.data.attacksUsed - a.data.attacksUsed;
-    return a.data.avgPositionDiff - b.data.avgPositionDiff;
-  });
-
-  return { ranking, noDataList, totalWars: completedWars.length };
-}
-
-function computePlayerScore(player, wars) {
-  const attackScores = [];
-  const defenseScores = [];
-  const recentAttackScores = [];
-  const positionDiffs = [];
-
-  let attacksUsed = 0;
-  let attacksAvailable = 0;
-  let warsInRoster = 0;
-  let totalDestruction = 0;
-  let totalAttacks = 0;
-  let hasAnyDefense = false;
-  let hadTh17 = false;
-
-  wars.forEach((war, warIdx) => {
-    const member = (war.members || []).find(m => m.tag === player.tag);
-    if (!member) return;
-
-    warsInRoster++;
-    const attacksPerMember = war.teamSize <= 15 ? 1 : 2;
-    const attacks = member.attacks || [];
-    attacksUsed += attacks.length;
-    attacksAvailable += attacksPerMember;
-
-    const isTh17Adjusted = member.townhallLevel === 17 && player.townhallLevel === 18;
-    if (isTh17Adjusted) hadTh17 = true;
-    const th17Factor = isTh17Adjusted ? 0.4 : 1;
-    const decay = Math.pow(DECAY, warIdx);
-    const weight = decay * th17Factor;
-
-    let warAttackTotal = 0;
-
-    attacks.forEach(a => {
-      const stars = Math.max(0, Math.min(3, a.stars));
-      const dest = a.destructionPercentage ?? 0;
-      const base = attackBasePoints(stars, dest);
-
-      let posMult = 1;
-      const attackerPos = member.mapPosition;
-      let defenderPos = null;
-      if (a.defenderTag && war.opponent && Array.isArray(war.opponent.members)) {
-        const opp = war.opponent.members.find(x => x.tag === a.defenderTag);
-        if (opp && opp.mapPosition != null) defenderPos = opp.mapPosition;
-      }
-      if (attackerPos != null && defenderPos != null) {
-        // Convenção CoC: mapPosition 1 = topo/mais forte. diff > 0 = mergulho
-        // (defensor está abaixo do atacante no mapa). Mergulho até DIVE_THRESHOLD
-        // posições conta como espelho; acima disso, penaliza só o excesso.
-        const diff = defenderPos - attackerPos;
-        positionDiffs.push(diff);
-        if (diff <= 0) {
-          posMult = 1 + Math.abs(diff) * 0.005;
-        } else if (diff <= DIVE_THRESHOLD) {
-          posMult = 1;
-        } else {
-          posMult = 1 - (diff - DIVE_THRESHOLD) * 0.005;
-        }
-      }
-
-      warAttackTotal += base * posMult;
-      totalDestruction += dest;
-      totalAttacks++;
-    });
-
-    const missed = Math.max(0, attacksPerMember - attacks.length);
-    warAttackTotal += missed * UNUSED_PENALTY;
-
-    const warAttackAvg = warAttackTotal / attacksPerMember;
-    attackScores.push({ score: warAttackAvg, weight });
-
-    if (warIdx < 2 && attacks.length > 0) {
-      const recentAvg = attacks.reduce((s, a) => {
-        const stars = Math.max(0, Math.min(3, a.stars));
-        const dest = a.destructionPercentage ?? 0;
-        return s + attackBasePoints(stars, dest);
-      }, 0) / attacks.length;
-      recentAttackScores.push(recentAvg);
-    }
-
-    const defenses = member.defensesReceived;
-    if (defenses && defenses.length > 0) {
-      hasAnyDefense = true;
-      const worst = defenses.reduce((w, d) => {
-        if (d.stars > w.stars) return d;
-        if (d.stars === w.stars && d.destructionPercentage > w.destructionPercentage) return d;
-        return w;
-      });
-      const scoreWorst = (3 - worst.stars) + (1 - (worst.destructionPercentage ?? 0) / 100);
-      const avgStars = defenses.reduce((s, d) => s + d.stars, 0) / defenses.length;
-      const scoreAvg = 3 - avgStars;
-      const defScore = 0.7 * scoreWorst + 0.3 * scoreAvg;
-      defenseScores.push({ score: defScore, weight });
-    }
-  });
-
-  const attackScore = weightedMean(attackScores);
-  const defenseScore = weightedMean(defenseScores);
-  const totalWarsWindow = wars.length || 1;
-  const reliability = attacksAvailable > 0
-    ? 0.6 * (attacksUsed / attacksAvailable) + 0.4 * (warsInRoster / totalWarsWindow)
-    : 0;
-  const formScore = recentAttackScores.length > 0
-    ? recentAttackScores.reduce((s, x) => s + x, 0) / recentAttackScores.length
-    : 0;
-
-  const weights = hasAnyDefense ? WEIGHTS_FULL : WEIGHTS_NO_DEFENSE;
-  const finalScore = weights.attack * attackScore
-    + weights.defense * defenseScore
-    + weights.reliability * reliability * 3
-    + weights.form * formScore;
-
-  return {
-    score: finalScore,
-    attackScore,
-    defenseScore,
-    reliability,
-    formScore,
-    warsInRoster,
-    attacksUsed,
-    attacksAvailable,
-    avgDestruction: totalAttacks > 0 ? totalDestruction / totalAttacks : 0,
-    totalAttacks,
-    avgPositionDiff: positionDiffs.length > 0
-      ? positionDiffs.reduce((s, d) => s + d, 0) / positionDiffs.length
-      : 0,
-    hasAnyDefense,
-    hadTh17,
-    weights,
-  };
-}
-
-function attackBasePoints(stars, dest) {
-  if (stars === 3) return 3.5;
-  const bands = [0, 50, 50];
-  const band = bands[stars];
-  const bonus = Math.max(0, Math.min(0.5, ((dest - band) / 50) * 0.5));
-  return stars + bonus;
-}
-
-function weightedMean(arr) {
-  if (arr.length === 0) return 0;
-  const wSum = arr.reduce((s, x) => s + x.weight, 0);
-  if (wSum === 0) return 0;
-  return arr.reduce((s, x) => s + x.score * x.weight, 0) / wSum;
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, c => ({
+    '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;',
+  }[c]));
 }
 
 function openBreakdownModal(player, data) {
@@ -378,10 +248,10 @@ function openBreakdownModal(player, data) {
     <div class="modal-card" role="dialog" aria-modal="true">
       <button class="modal-close" aria-label="Fechar">×</button>
       <div class="modal-header">
-        <div class="modal-title">${player.name}</div>
+        <div class="modal-title">${escapeHtml(player.name)}</div>
         <div class="modal-subtitle">
           <span class="th-badge">CV${player.townhallLevel}</span>
-          <span class="modal-tag">${player.tag}</span>
+          <span class="modal-tag">${escapeHtml(player.tag)}</span>
         </div>
       </div>
       <div class="modal-meta">Score final: <strong>${data.score.toFixed(2)}</strong></div>

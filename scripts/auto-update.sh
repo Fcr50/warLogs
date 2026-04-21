@@ -13,6 +13,7 @@ echo "Token renovado para IP atual"
 
 node scripts/fetch-wars.js
 node scripts/fetch-players.js
+node scripts/compute-cwl.js
 
-git add data/wars.json data/players.json data/absences.json
+git add data/wars.json data/players.json data/absences.json data/cwl-ranking.json
 git diff --staged --quiet || (git commit -m "auto update $(date -u '+%Y-%m-%dT%H:%M')Z" && git push origin HEAD:master)

@@ -1292,6 +1292,27 @@ tbody tr:nth-child(3) .rank-pos { color: #cd7f32; }
   font-weight: 500;
   margin-bottom: var(--sp-4);
 }
+.cwl-live-banner {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  background: var(--info-dim);
+  border: 1px solid rgba(56,139,253,.3);
+  color: var(--info);
+  padding: var(--sp-3) var(--sp-4);
+  border-radius: var(--r-md);
+  font-size: var(--text-sm);
+  font-weight: 500;
+  margin-bottom: var(--sp-4);
+}
+.cwl-live-banner .cwl-live-dot {
+  display: inline-block;
+  animation: cwl-live-pulse 1.6s ease-in-out infinite;
+}
+@keyframes cwl-live-pulse {
+  0%, 100% { opacity: 1; }
+  50%      { opacity: 0.45; }
+}
 
 /* CWL table */
 .cwl-table .cwl-row { cursor: pointer; transition: background var(--t-fast); }
