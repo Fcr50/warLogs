@@ -120,6 +120,7 @@ async function renderCwl() {
             <tr>
               <th>#</th>
               <th>Membro</th>
+              <th>Tier</th>
               <th>Score</th>
               <th>Ataque</th>
               <th>Defesa</th>
@@ -167,12 +168,20 @@ async function renderCwl() {
   });
 }
 
+const TIER_ICONS = { S: '🟣', A: '🔵', B: '🟢', C: '🔴', F: '⚫' };
+
+function tierBadge(tier) {
+  const icon = TIER_ICONS[tier] || '';
+  return `<span class="tier-badge tier-${tier.toLowerCase()}">${icon} ${tier}</span>`;
+}
+
 function renderRow(entry, index) {
   const { player, data } = entry;
   const status = index < 15 ? 'convocado' : 'reserva';
   const statusLabel = index < 15 ? 'Convocado' : 'Reserva';
   const noData = !data || data.totalAttacks === 0;
   const th17Tag = !noData && data.hadTh17 ? ' <span class="cwl-th17-tag" title="Recém-TH18: guerras em TH17 com peso 0.4">↑17→18</span>' : '';
+  const tier = data?.tier || 'F';
 
   if (noData) {
     return `
@@ -182,6 +191,7 @@ function renderRow(entry, index) {
           <div class="member-name">${escapeHtml(player.name)}</div>
           <div class="member-tag">${escapeHtml(player.tag)}</div>
         </td>
+        <td>${tierBadge(tier)}</td>
         <td class="cwl-score-cell">—</td>
         <td>—</td>
         <td>—</td>
@@ -204,6 +214,7 @@ function renderRow(entry, index) {
         <div class="member-name">${escapeHtml(player.name)}${th17Tag}</div>
         <div class="member-tag">${escapeHtml(player.tag)}</div>
       </td>
+      <td>${tierBadge(tier)}</td>
       <td class="cwl-score-cell"><strong>${data.score.toFixed(2)}</strong></td>
       <td>${data.attackScore.toFixed(2)}</td>
       <td>${defenseCell}</td>
@@ -250,6 +261,9 @@ function openBreakdownModal(player, data) {
   backdrop.id = 'cwl-breakdown-modal';
   backdrop.className = 'modal-backdrop';
   const defenseVal = data.hasAnyDefense ? data.defenseScore.toFixed(2) : '<em>sem dados</em>';
+  const tier = data.tier || 'F';
+  const rawScore = typeof data.rawScore === 'number' ? data.rawScore : data.score;
+  const confidence = typeof data.confidence === 'number' ? data.confidence : 1;
   backdrop.innerHTML = `
     <div class="modal-card" role="dialog" aria-modal="true">
       <button class="modal-close" aria-label="Fechar">×</button>
@@ -262,6 +276,10 @@ function openBreakdownModal(player, data) {
       </div>
       <div class="modal-meta">Score final: <strong>${data.score.toFixed(2)}</strong></div>
       <div class="score-breakdown">
+        <div class="breakdown-row"><span>Tier</span><span>${tierBadge(tier)}</span></div>
+        <div class="breakdown-row"><span>Score bruto</span><span>${rawScore.toFixed(2)}</span></div>
+        <div class="breakdown-row"><span>Confiança</span><span>${confidence.toFixed(2)} <em>(${data.warsInRoster} guerra${data.warsInRoster !== 1 ? 's' : ''})</em></span></div>
+        <div class="breakdown-sep"></div>
         <div class="breakdown-row"><span>Ataque <em>(${(data.weights.attack * 100).toFixed(1)}%)</em></span><span>${data.attackScore.toFixed(2)}</span></div>
         <div class="breakdown-row"><span>Defesa <em>(${(data.weights.defense * 100).toFixed(1)}%)</em></span><span>${defenseVal}</span></div>
         <div class="breakdown-row"><span>Confiabilidade ×3 <em>(${(data.weights.reliability * 100).toFixed(1)}%)</em></span><span>${(data.reliability * 3).toFixed(2)}</span></div>

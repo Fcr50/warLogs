@@ -1,68 +1,12 @@
 {
-  "generatedAt": "2026-04-21T14:40:16.096Z",
+  "generatedAt": "2026-04-21T15:57:28.855Z",
   "totalWars": 1,
   "liveWar": {
     "opponentName": "Slåsskamp",
-    "totalAttacksDone": 38,
+    "totalAttacksDone": 43,
     "totalAttacksExpected": 50
   },
   "ranking": [
-    {
-      "player": {
-        "tag": "#22C820V9L",
-        "name": "Alflen",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 3.3466500000000003,
-        "attackScore": 3.5,
-        "defenseScore": 0,
-        "reliability": 1,
-        "formScore": 3.5,
-        "warsInRoster": 1,
-        "attacksUsed": 2,
-        "attacksAvailable": 2,
-        "avgDestruction": 100,
-        "totalAttacks": 2,
-        "avgPositionDiff": 0,
-        "hasAnyDefense": false,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.56,
-          "defense": 0,
-          "reliability": 0.3067,
-          "form": 0.1333
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#P9C0LVLU2",
-        "name": "VINGADOR⚡",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 3.3466499999999995,
-        "attackScore": 3.4999999999999996,
-        "defenseScore": 0,
-        "reliability": 1,
-        "formScore": 3.5,
-        "warsInRoster": 2,
-        "attacksUsed": 4,
-        "attacksAvailable": 4,
-        "avgDestruction": 100,
-        "totalAttacks": 4,
-        "avgPositionDiff": 0.5,
-        "hasAnyDefense": false,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.56,
-          "defense": 0,
-          "reliability": 0.3067,
-          "form": 0.1333
-        }
-      }
-    },
     {
       "player": {
         "tag": "#2LY0P2L9U",
@@ -70,7 +14,10 @@
         "townhallLevel": 18
       },
       "data": {
-        "score": 3.3466499999999995,
+        "score": 2.3426549999999993,
+        "rawScore": 3.3466499999999995,
+        "confidence": 0.7,
+        "tier": "S",
         "attackScore": 3.4999999999999996,
         "defenseScore": 0,
         "reliability": 1,
@@ -80,6 +27,11 @@
         "attacksAvailable": 4,
         "avgDestruction": 100,
         "totalAttacks": 4,
+        "totalStars": 12,
+        "count3Stars": 4,
+        "avgStars": 3,
+        "threeStarRate": 1,
+        "totalMissed": 0,
         "avgPositionDiff": 0.5,
         "hasAnyDefense": false,
         "hadTh17": false,
@@ -98,7 +50,10 @@
         "townhallLevel": 18
       },
       "data": {
-        "score": 3.3466499999999995,
+        "score": 2.3426549999999993,
+        "rawScore": 3.3466499999999995,
+        "confidence": 0.7,
+        "tier": "S",
         "attackScore": 3.4999999999999996,
         "defenseScore": 0,
         "reliability": 1,
@@ -108,63 +63,12 @@
         "attacksAvailable": 4,
         "avgDestruction": 100,
         "totalAttacks": 3,
+        "totalStars": 9,
+        "count3Stars": 3,
+        "avgStars": 3,
+        "threeStarRate": 1,
+        "totalMissed": 0,
         "avgPositionDiff": 0,
-        "hasAnyDefense": false,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.56,
-          "defense": 0,
-          "reliability": 0.3067,
-          "form": 0.1333
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#QJVQVRPU",
-        "name": "Frnnn",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 3.141839763513513,
-        "attackScore": 3.202702702702702,
-        "defenseScore": 0,
-        "reliability": 1,
-        "formScore": 3.2125,
-        "warsInRoster": 2,
-        "attacksUsed": 4,
-        "attacksAvailable": 4,
-        "avgDestruction": 96.25,
-        "totalAttacks": 4,
-        "avgPositionDiff": 6,
-        "hasAnyDefense": false,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.56,
-          "defense": 0,
-          "reliability": 0.3067,
-          "form": 0.1333
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#QQC8P9C9R",
-        "name": "Gs.prieto",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 3.134272195945946,
-        "attackScore": 3.189189189189189,
-        "defenseScore": 0,
-        "reliability": 1,
-        "formScore": 3.2125,
-        "warsInRoster": 2,
-        "attacksUsed": 4,
-        "attacksAvailable": 4,
-        "avgDestruction": 96.25,
-        "totalAttacks": 4,
-        "avgPositionDiff": 2.5,
         "hasAnyDefense": false,
         "hadTh17": false,
         "weights": {
@@ -182,17 +86,133 @@
         "townhallLevel": 18
       },
       "data": {
-        "score": 3.05375,
-        "attackScore": 3.4999999999999996,
+        "score": 2.1501398648648644,
+        "rawScore": 3.071628378378378,
+        "confidence": 0.7,
+        "tier": "S",
+        "attackScore": 3.542567567567567,
         "defenseScore": 2.175,
         "reliability": 1,
         "formScore": 3.5,
         "warsInRoster": 2,
-        "attacksUsed": 3,
+        "attacksUsed": 4,
         "attacksAvailable": 4,
         "avgDestruction": 100,
-        "totalAttacks": 3,
-        "avgPositionDiff": 0,
+        "totalAttacks": 4,
+        "totalStars": 12,
+        "count3Stars": 4,
+        "avgStars": 3,
+        "threeStarRate": 1,
+        "totalMissed": 0,
+        "avgPositionDiff": -4.5,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#P9C0LVLU2",
+        "name": "VINGADOR⚡",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 1.9418,
+        "rawScore": 2.774,
+        "confidence": 0.7,
+        "tier": "S",
+        "attackScore": 3.4999999999999996,
+        "defenseScore": 1.056,
+        "reliability": 1,
+        "formScore": 3.5,
+        "warsInRoster": 2,
+        "attacksUsed": 4,
+        "attacksAvailable": 4,
+        "avgDestruction": 100,
+        "totalAttacks": 4,
+        "totalStars": 12,
+        "count3Stars": 4,
+        "avgStars": 3,
+        "threeStarRate": 1,
+        "totalMissed": 0,
+        "avgPositionDiff": 0.5,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#GJ2LQVQJ",
+        "name": "Fer",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 1.9132277027027025,
+        "rawScore": 2.7331824324324323,
+        "confidence": 0.7,
+        "tier": "A",
+        "attackScore": 3.223648648648648,
+        "defenseScore": 1.4609999999999999,
+        "reliability": 1,
+        "formScore": 3.24,
+        "warsInRoster": 2,
+        "attacksUsed": 4,
+        "attacksAvailable": 4,
+        "avgDestruction": 99,
+        "totalAttacks": 4,
+        "totalStars": 11,
+        "count3Stars": 3,
+        "avgStars": 2.75,
+        "threeStarRate": 0.75,
+        "totalMissed": 0,
+        "avgPositionDiff": -0.5,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#QJVQVRPU",
+        "name": "Frnnn",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 1.8281445945945942,
+        "rawScore": 2.611635135135135,
+        "confidence": 0.7,
+        "tier": "A",
+        "attackScore": 3.202702702702702,
+        "defenseScore": 1.021,
+        "reliability": 1,
+        "formScore": 3.2125,
+        "warsInRoster": 2,
+        "attacksUsed": 4,
+        "attacksAvailable": 4,
+        "avgDestruction": 96.25,
+        "totalAttacks": 4,
+        "totalStars": 11,
+        "count3Stars": 3,
+        "avgStars": 2.75,
+        "threeStarRate": 0.75,
+        "totalMissed": 0,
+        "avgPositionDiff": 6,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -210,16 +230,168 @@
         "townhallLevel": 18
       },
       "data": {
-        "score": 2.9584020000000004,
-        "attackScore": 2.9400000000000004,
+        "score": 1.797963243243243,
+        "rawScore": 2.568518918918919,
+        "confidence": 0.7,
+        "tier": "B",
+        "attackScore": 3.0958783783783783,
+        "defenseScore": 1.1260000000000001,
+        "reliability": 1,
+        "formScore": 2.9675000000000002,
+        "warsInRoster": 2,
+        "attacksUsed": 4,
+        "attacksAvailable": 4,
+        "avgDestruction": 96.75,
+        "totalAttacks": 4,
+        "totalStars": 10,
+        "count3Stars": 2,
+        "avgStars": 2.5,
+        "threeStarRate": 0.5,
+        "totalMissed": 0,
+        "avgPositionDiff": -15.5,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#QGQJGURCL",
+        "name": "SAFONOV",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 1.7632148648648647,
+        "rawScore": 2.5188783783783784,
+        "confidence": 0.7,
+        "tier": "A",
+        "attackScore": 3.0175675675675673,
+        "defenseScore": 1.056,
+        "reliability": 1,
+        "formScore": 2.975,
+        "warsInRoster": 2,
+        "attacksUsed": 4,
+        "attacksAvailable": 4,
+        "avgDestruction": 97.5,
+        "totalAttacks": 4,
+        "totalStars": 10,
+        "count3Stars": 3,
+        "avgStars": 2.5,
+        "threeStarRate": 0.75,
+        "totalMissed": 0,
+        "avgPositionDiff": 0.5,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#8CJ8YJY0P",
+        "name": "ChrolloLucilfer",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 1.7187364864864865,
+        "rawScore": 2.455337837837838,
+        "confidence": 0.7,
+        "tier": "A",
+        "attackScore": 2.9067567567567565,
+        "defenseScore": 1.028,
+        "reliability": 1,
+        "formScore": 2.875,
+        "warsInRoster": 2,
+        "attacksUsed": 4,
+        "attacksAvailable": 4,
+        "avgDestruction": 81,
+        "totalAttacks": 4,
+        "totalStars": 10,
+        "count3Stars": 3,
+        "avgStars": 2.5,
+        "threeStarRate": 0.75,
+        "totalMissed": 0,
+        "avgPositionDiff": 4.5,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#GQU9Y0CQ8",
+        "name": "Scok♤",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 1.6965427027027025,
+        "rawScore": 2.423632432432432,
+        "confidence": 0.7,
+        "tier": "A",
+        "attackScore": 3.358648648648648,
         "defenseScore": 0,
         "reliability": 1,
-        "formScore": 2.94,
+        "formScore": 3.23,
         "warsInRoster": 2,
-        "attacksUsed": 2,
+        "attacksUsed": 4,
         "attacksAvailable": 4,
-        "avgDestruction": 94,
+        "avgDestruction": 98,
+        "totalAttacks": 4,
+        "totalStars": 11,
+        "count3Stars": 3,
+        "avgStars": 2.75,
+        "threeStarRate": 0.75,
+        "totalMissed": 0,
+        "avgPositionDiff": -19,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#22C820V9L",
+        "name": "Alflen",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 1.6733250000000002,
+        "rawScore": 3.3466500000000003,
+        "confidence": 0.5,
+        "tier": "A",
+        "attackScore": 3.5,
+        "defenseScore": 0,
+        "reliability": 1,
+        "formScore": 3.5,
+        "warsInRoster": 1,
+        "attacksUsed": 2,
+        "attacksAvailable": 2,
+        "avgDestruction": 100,
         "totalAttacks": 2,
+        "totalStars": 6,
+        "count3Stars": 2,
+        "avgStars": 3,
+        "threeStarRate": 1,
+        "totalMissed": 0,
         "avgPositionDiff": 0,
         "hasAnyDefense": false,
         "hadTh17": false,
@@ -233,12 +405,87 @@
     },
     {
       "player": {
+        "tag": "#QQC8P9C9R",
+        "name": "Gs.prieto",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 1.6454966216216216,
+        "rawScore": 2.3507094594594595,
+        "confidence": 0.7,
+        "tier": "A",
+        "attackScore": 3.189189189189189,
+        "defenseScore": 0,
+        "reliability": 1,
+        "formScore": 3.2125,
+        "warsInRoster": 2,
+        "attacksUsed": 4,
+        "attacksAvailable": 4,
+        "avgDestruction": 96.25,
+        "totalAttacks": 4,
+        "totalStars": 11,
+        "count3Stars": 3,
+        "avgStars": 2.75,
+        "threeStarRate": 0.75,
+        "totalMissed": 0,
+        "avgPositionDiff": 2.5,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#2QL0VR9GU",
+        "name": "Marcola",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 1.5695314864864867,
+        "rawScore": 2.242187837837838,
+        "confidence": 0.7,
+        "tier": "B",
+        "attackScore": 2.9867567567567566,
+        "defenseScore": 0,
+        "reliability": 1,
+        "formScore": 2.9775,
+        "warsInRoster": 2,
+        "attacksUsed": 4,
+        "attacksAvailable": 4,
+        "avgDestruction": 97.75,
+        "totalAttacks": 4,
+        "totalStars": 10,
+        "count3Stars": 2,
+        "avgStars": 2.5,
+        "threeStarRate": 0.5,
+        "totalMissed": 0,
+        "avgPositionDiff": -1,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#PPPUQPVJY",
         "name": "Rodrigo",
         "townhallLevel": 18
       },
       "data": {
-        "score": 2.942208790540541,
+        "score": 1.544658783783784,
+        "rawScore": 2.2066554054054057,
+        "confidence": 0.7,
+        "tier": "B",
         "attackScore": 2.9081081081081086,
         "defenseScore": 0,
         "reliability": 1,
@@ -248,42 +495,91 @@
         "attacksAvailable": 4,
         "avgDestruction": 95.25,
         "totalAttacks": 4,
+        "totalStars": 10,
+        "count3Stars": 2,
+        "avgStars": 2.5,
+        "threeStarRate": 0.5,
+        "totalMissed": 0,
         "avgPositionDiff": 0.5,
-        "hasAnyDefense": false,
+        "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
-          "attack": 0.56,
-          "defense": 0,
-          "reliability": 0.3067,
-          "form": 0.1333
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
         }
       }
     },
     {
       "player": {
-        "tag": "#8CJ8YJY0P",
-        "name": "ChrolloLucilfer",
+        "tag": "#YPVQVU982",
+        "name": "亗 ＨＡＤＥＳ_０７ 亗",
         "townhallLevel": 18
       },
       "data": {
-        "score": 2.9311212837837837,
-        "attackScore": 2.9067567567567565,
+        "score": 1.5398108108108106,
+        "rawScore": 2.1997297297297296,
+        "confidence": 0.7,
+        "tier": "A",
+        "attackScore": 2.8945945945945946,
         "defenseScore": 0,
         "reliability": 1,
-        "formScore": 2.875,
+        "formScore": 2.94,
         "warsInRoster": 2,
-        "attacksUsed": 4,
+        "attacksUsed": 3,
         "attacksAvailable": 4,
-        "avgDestruction": 81,
-        "totalAttacks": 4,
-        "avgPositionDiff": 4.5,
-        "hasAnyDefense": false,
+        "avgDestruction": 96,
+        "totalAttacks": 3,
+        "totalStars": 8,
+        "count3Stars": 2,
+        "avgStars": 2.6666666666666665,
+        "threeStarRate": 0.6666666666666666,
+        "totalMissed": 0,
+        "avgPositionDiff": 0,
+        "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
-          "attack": 0.56,
-          "defense": 0,
-          "reliability": 0.3067,
-          "form": 0.1333
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#2Q2ULRCUV",
+        "name": "Aflen",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 1.5116972972972973,
+        "rawScore": 2.1595675675675676,
+        "confidence": 0.7,
+        "tier": "C",
+        "attackScore": 2.351351351351351,
+        "defenseScore": 1.028,
+        "reliability": 1,
+        "formScore": 2.25,
+        "warsInRoster": 2,
+        "attacksUsed": 3,
+        "attacksAvailable": 4,
+        "avgDestruction": 53.666666666666664,
+        "totalAttacks": 3,
+        "totalStars": 5,
+        "count3Stars": 1,
+        "avgStars": 1.6666666666666667,
+        "threeStarRate": 0.3333333333333333,
+        "totalMissed": 0,
+        "avgPositionDiff": 0,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
         }
       }
     },
@@ -294,7 +590,10 @@
         "townhallLevel": 18
       },
       "data": {
-        "score": 2.8440075,
+        "score": 1.42200375,
+        "rawScore": 2.8440075,
+        "confidence": 0.5,
+        "tier": "B",
         "attackScore": 2.775,
         "defenseScore": 0,
         "reliability": 1,
@@ -304,6 +603,11 @@
         "attacksAvailable": 2,
         "avgDestruction": 77.5,
         "totalAttacks": 2,
+        "totalStars": 5,
+        "count3Stars": 1,
+        "avgStars": 2.5,
+        "threeStarRate": 0.5,
+        "totalMissed": 0,
         "avgPositionDiff": 0,
         "hasAnyDefense": false,
         "hadTh17": false,
@@ -322,7 +626,10 @@
         "townhallLevel": 18
       },
       "data": {
-        "score": 2.8405410000000004,
+        "score": 1.4202705000000002,
+        "rawScore": 2.8405410000000004,
+        "confidence": 0.5,
+        "tier": "B",
         "attackScore": 2.77,
         "defenseScore": 0,
         "reliability": 1,
@@ -332,6 +639,11 @@
         "attacksAvailable": 2,
         "avgDestruction": 77,
         "totalAttacks": 2,
+        "totalStars": 5,
+        "count3Stars": 1,
+        "avgStars": 2.5,
+        "threeStarRate": 0.5,
+        "totalMissed": 0,
         "avgPositionDiff": 0,
         "hasAnyDefense": false,
         "hadTh17": false,
@@ -340,34 +652,6 @@
           "defense": 0,
           "reliability": 0.3067,
           "form": 0.1333
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#GJ2LQVQJ",
-        "name": "Fer",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.7331824324324323,
-        "attackScore": 3.223648648648648,
-        "defenseScore": 1.4609999999999999,
-        "reliability": 1,
-        "formScore": 3.24,
-        "warsInRoster": 2,
-        "attacksUsed": 4,
-        "attacksAvailable": 4,
-        "avgDestruction": 99,
-        "totalAttacks": 4,
-        "avgPositionDiff": -0.5,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
         }
       }
     },
@@ -378,7 +662,10 @@
         "townhallLevel": 18
       },
       "data": {
-        "score": 2.5915542499999997,
+        "score": 1.3605549999999997,
+        "rawScore": 1.9436499999999999,
+        "confidence": 0.7,
+        "tier": "C",
         "attackScore": 2.4199999999999995,
         "defenseScore": 0,
         "reliability": 1,
@@ -388,203 +675,12 @@
         "attacksAvailable": 4,
         "avgDestruction": 87.25,
         "totalAttacks": 4,
+        "totalStars": 8,
+        "count3Stars": 1,
+        "avgStars": 2,
+        "threeStarRate": 0.25,
+        "totalMissed": 0,
         "avgPositionDiff": -0.5,
-        "hasAnyDefense": false,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.56,
-          "defense": 0,
-          "reliability": 0.3067,
-          "form": 0.1333
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#QGQJGURCL",
-        "name": "SAFONOV",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.5188783783783784,
-        "attackScore": 3.0175675675675673,
-        "defenseScore": 1.056,
-        "reliability": 1,
-        "formScore": 2.975,
-        "warsInRoster": 2,
-        "attacksUsed": 4,
-        "attacksAvailable": 4,
-        "avgDestruction": 97.5,
-        "totalAttacks": 4,
-        "avgPositionDiff": 0.5,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#GQU9Y0CQ8",
-        "name": "Scok♤",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.423632432432432,
-        "attackScore": 3.358648648648648,
-        "defenseScore": 0,
-        "reliability": 1,
-        "formScore": 3.23,
-        "warsInRoster": 2,
-        "attacksUsed": 4,
-        "attacksAvailable": 4,
-        "avgDestruction": 98,
-        "totalAttacks": 4,
-        "avgPositionDiff": -19,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#2QL0VR9GU",
-        "name": "Marcola",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.242187837837838,
-        "attackScore": 2.9867567567567566,
-        "defenseScore": 0,
-        "reliability": 1,
-        "formScore": 2.9775,
-        "warsInRoster": 2,
-        "attacksUsed": 4,
-        "attacksAvailable": 4,
-        "avgDestruction": 97.75,
-        "totalAttacks": 4,
-        "avgPositionDiff": -1,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#YPVQVU982",
-        "name": "亗 ＨＡＤＥＳ_０７ 亗",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.1997297297297296,
-        "attackScore": 2.8945945945945946,
-        "defenseScore": 0,
-        "reliability": 1,
-        "formScore": 2.94,
-        "warsInRoster": 2,
-        "attacksUsed": 3,
-        "attacksAvailable": 4,
-        "avgDestruction": 96,
-        "totalAttacks": 3,
-        "avgPositionDiff": 0,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#R82JG8Q2",
-        "name": "DEFÉOGLORIOSO",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.1705942364864863,
-        "attackScore": 1.8122972972972968,
-        "defenseScore": 0,
-        "reliability": 1,
-        "formScore": 1.7674999999999998,
-        "warsInRoster": 2,
-        "attacksUsed": 3,
-        "attacksAvailable": 4,
-        "avgDestruction": 75,
-        "totalAttacks": 3,
-        "avgPositionDiff": 0,
-        "hasAnyDefense": false,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.56,
-          "defense": 0,
-          "reliability": 0.3067,
-          "form": 0.1333
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#29LP0VJV0",
-        "name": "Warlord Raivon",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.16804,
-        "attackScore": 1.8,
-        "defenseScore": 0,
-        "reliability": 1,
-        "formScore": 1.8,
-        "warsInRoster": 1,
-        "attacksUsed": 2,
-        "attacksAvailable": 2,
-        "avgDestruction": 80,
-        "totalAttacks": 2,
-        "avgPositionDiff": 0,
-        "hasAnyDefense": false,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.56,
-          "defense": 0,
-          "reliability": 0.3067,
-          "form": 0.1333
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#2Q2ULRCUV",
-        "name": "Aflen",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.1595675675675676,
-        "attackScore": 2.351351351351351,
-        "defenseScore": 1.028,
-        "reliability": 1,
-        "formScore": 2.25,
-        "warsInRoster": 2,
-        "attacksUsed": 3,
-        "attacksAvailable": 4,
-        "avgDestruction": 53.666666666666664,
-        "totalAttacks": 3,
-        "avgPositionDiff": 0,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -602,7 +698,10 @@
         "townhallLevel": 18
       },
       "data": {
-        "score": 1.8782705405405404,
+        "score": 1.3147893783783782,
+        "rawScore": 1.8782705405405404,
+        "confidence": 0.7,
+        "tier": "C",
         "attackScore": 2.279810810810811,
         "defenseScore": 0,
         "reliability": 1,
@@ -612,6 +711,11 @@
         "attacksAvailable": 4,
         "avgDestruction": 80.75,
         "totalAttacks": 4,
+        "totalStars": 8,
+        "count3Stars": 0,
+        "avgStars": 2,
+        "threeStarRate": 0,
+        "totalMissed": 0,
         "avgPositionDiff": 7,
         "hasAnyDefense": true,
         "hadTh17": false,
@@ -625,22 +729,66 @@
     },
     {
       "player": {
-        "tag": "#LYJG0L8G",
-        "name": "GLADIADOR!!!",
+        "tag": "#R82JG8Q2",
+        "name": "DEFÉOGLORIOSO",
         "townhallLevel": 18
       },
       "data": {
-        "score": 1.6916520000000004,
-        "attackScore": 2.4400000000000004,
+        "score": 1.156039216216216,
+        "rawScore": 1.6514845945945944,
+        "confidence": 0.7,
+        "tier": "C",
+        "attackScore": 1.8588918918918915,
         "defenseScore": 0,
-        "reliability": 0,
-        "formScore": 2.4400000000000004,
+        "reliability": 1,
+        "formScore": 1.8074999999999999,
+        "warsInRoster": 2,
+        "attacksUsed": 4,
+        "attacksAvailable": 4,
+        "avgDestruction": 80.75,
+        "totalAttacks": 4,
+        "totalStars": 6,
+        "count3Stars": 0,
+        "avgStars": 1.5,
+        "threeStarRate": 0,
+        "totalMissed": 0,
+        "avgPositionDiff": -0.5,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#29LP0VJV0",
+        "name": "Warlord Raivon",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 1.08402,
+        "rawScore": 2.16804,
+        "confidence": 0.5,
+        "tier": "C",
+        "attackScore": 1.8,
+        "defenseScore": 0,
+        "reliability": 1,
+        "formScore": 1.8,
         "warsInRoster": 1,
         "attacksUsed": 2,
         "attacksAvailable": 2,
-        "avgDestruction": 94,
+        "avgDestruction": 80,
         "totalAttacks": 2,
-        "avgPositionDiff": 0.5,
+        "totalStars": 3,
+        "count3Stars": 0,
+        "avgStars": 1.5,
+        "threeStarRate": 0,
+        "totalMissed": 0,
+        "avgPositionDiff": 0,
         "hasAnyDefense": false,
         "hadTh17": false,
         "weights": {
@@ -653,12 +801,51 @@
     },
     {
       "player": {
+        "tag": "#LYJG0L8G",
+        "name": "GLADIADOR!!!",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 0.7979,
+        "rawScore": 1.5958,
+        "confidence": 0.5,
+        "tier": "C",
+        "attackScore": 2.4400000000000004,
+        "defenseScore": 1.308,
+        "reliability": 0,
+        "formScore": 2.4400000000000004,
+        "warsInRoster": 1,
+        "attacksUsed": 2,
+        "attacksAvailable": 2,
+        "avgDestruction": 94,
+        "totalAttacks": 2,
+        "totalStars": 4,
+        "count3Stars": 0,
+        "avgStars": 2,
+        "threeStarRate": 0,
+        "totalMissed": 0,
+        "avgPositionDiff": 0.5,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#QQULJG9",
         "name": "david",
         "townhallLevel": 18
       },
       "data": {
         "score": 0,
+        "rawScore": 0,
+        "confidence": 0,
+        "tier": "F",
         "attackScore": 0,
         "defenseScore": 0,
         "reliability": 0,
@@ -668,6 +855,11 @@
         "attacksAvailable": 0,
         "avgDestruction": 0,
         "totalAttacks": 0,
+        "totalStars": 0,
+        "count3Stars": 0,
+        "avgStars": 0,
+        "threeStarRate": 0,
+        "totalMissed": 0,
         "avgPositionDiff": 0,
         "hasAnyDefense": false,
         "hadTh17": false,
@@ -686,7 +878,10 @@
         "townhallLevel": 18
       },
       "data": {
-        "score": -0.4719600000000001,
+        "score": -0.23598000000000005,
+        "rawScore": -0.4719600000000001,
+        "confidence": 0.5,
+        "tier": "F",
         "attackScore": -1.5,
         "defenseScore": 0,
         "reliability": 0.4,
@@ -696,6 +891,11 @@
         "attacksAvailable": 2,
         "avgDestruction": 0,
         "totalAttacks": 0,
+        "totalStars": 0,
+        "count3Stars": 0,
+        "avgStars": 0,
+        "threeStarRate": 0,
+        "totalMissed": 2,
         "avgPositionDiff": 0,
         "hasAnyDefense": false,
         "hadTh17": false,

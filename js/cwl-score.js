@@ -33,6 +33,9 @@ export function computePlayerScore(player, wars) {
   let warsInRosterCompleted = 0;
   let totalDestruction = 0;
   let totalAttacks = 0;
+  let totalStars = 0;
+  let count3Stars = 0;
+  let totalMissed = 0;
   let hasAnyDefense = false;
   let hadTh17 = false;
 
@@ -88,6 +91,8 @@ export function computePlayerScore(player, wars) {
 
       warAttackTotal += base * posMult;
       totalDestruction += dest;
+      totalStars += stars;
+      if (stars === 3) count3Stars++;
       totalAttacks++;
     });
 
@@ -100,6 +105,7 @@ export function computePlayerScore(player, wars) {
       }
     } else {
       const missed = Math.max(0, attacksPerMember - attacks.length);
+      totalMissed += missed;
       warAttackTotal += missed * UNUSED_PENALTY;
       warAttackAvg = warAttackTotal / attacksPerMember;
     }
@@ -145,13 +151,41 @@ export function computePlayerScore(player, wars) {
     : 0;
 
   const weights = hasAnyDefense ? WEIGHTS_FULL : WEIGHTS_NO_DEFENSE;
-  const finalScore = weights.attack * attackScore
+  const rawScore = weights.attack * attackScore
     + weights.defense * defenseScore
     + weights.reliability * reliability * 3
     + weights.form * formScore;
 
+  let confidence;
+  if (warsInRoster >= 6)      confidence = 1.0;
+  else if (warsInRoster >= 4) confidence = 0.85;
+  else if (warsInRoster >= 2) confidence = 0.7;
+  else if (warsInRoster >= 1) confidence = 0.5;
+  else                        confidence = 0;
+
+  const finalScore = rawScore * confidence;
+
+  const avgStars = totalAttacks > 0 ? totalStars / totalAttacks : 0;
+  const threeStarRate = totalAttacks > 0 ? count3Stars / totalAttacks : 0;
+
+  let tier;
+  if (totalAttacks === 0) {
+    tier = 'F';
+  } else {
+    const tierScore = avgStars * 0.5 + threeStarRate * 3 * 0.3 + reliability * 3 * 0.2;
+    if (tierScore >= 2.8)      tier = 'S';
+    else if (tierScore >= 2.5) tier = 'A';
+    else if (tierScore >= 2.2) tier = 'B';
+    else                       tier = 'C';
+    if (confidence < 0.7 && tier === 'S') tier = 'A';
+    if (confidence < 0.5 && (tier === 'S' || tier === 'A')) tier = 'B';
+  }
+
   return {
     score: finalScore,
+    rawScore,
+    confidence,
+    tier,
     attackScore,
     defenseScore,
     reliability,
@@ -161,6 +195,11 @@ export function computePlayerScore(player, wars) {
     attacksAvailable,
     avgDestruction: totalAttacks > 0 ? totalDestruction / totalAttacks : 0,
     totalAttacks,
+    totalStars,
+    count3Stars,
+    avgStars,
+    threeStarRate,
+    totalMissed,
     avgPositionDiff: positionDiffs.length > 0
       ? positionDiffs.reduce((s, d) => s + d, 0) / positionDiffs.length
       : 0,
@@ -185,9 +224,9 @@ export function computeCwlRanking(wars, players) {
     const bHas = b.data.totalAttacks > 0;
     if (aHas !== bHas) return bHas - aHas;
     if (b.data.score !== a.data.score) return b.data.score - a.data.score;
-    if (b.data.avgDestruction !== a.data.avgDestruction) return b.data.avgDestruction - a.data.avgDestruction;
-    if (b.data.attacksUsed !== a.data.attacksUsed) return b.data.attacksUsed - a.data.attacksUsed;
-    return a.data.avgPositionDiff - b.data.avgPositionDiff;
+    if (b.data.totalStars !== a.data.totalStars) return b.data.totalStars - a.data.totalStars;
+    if (b.data.avgStars !== a.data.avgStars) return b.data.avgStars - a.data.avgStars;
+    return a.data.totalMissed - b.data.totalMissed;
   });
 
   const ranking = entries;
