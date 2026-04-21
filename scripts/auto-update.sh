@@ -16,4 +16,4 @@ node scripts/fetch-players.js
 node scripts/compute-cwl.js
 
 git add data/wars.json data/players.json data/absences.json data/cwl-ranking.json
-git diff --staged --quiet || (git commit -m "auto update $(date -u '+%Y-%m-%dT%H:%M')Z" && git push origin HEAD:master)
+git diff --staged --quiet || (git commit -m "auto update $(date -u '+%Y-%m-%dT%H:%M')Z" && git push origin HEAD:main)
