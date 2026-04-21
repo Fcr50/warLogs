@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 56,
-        "destructionPercentage": 75.2
+        "stars": 59,
+        "destructionPercentage": 79.2
       },
       "sixHourNonAttackers": [
         {
@@ -133,11 +133,6 @@
         {
           "tag": "#PLU2VCLG",
           "name": "Phoenix",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#2Q2ULRCUV",
-          "name": "Aflen",
           "townhallLevel": 18
         },
         {
@@ -461,7 +456,14 @@
           "name": "Aflen",
           "townhallLevel": 18,
           "mapPosition": 18,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 39,
+              "defenderTag": "#82GY9PPY8"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 2,
