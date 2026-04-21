@@ -269,9 +269,14 @@ function renderSixHourAlert(wars) {
     alert.style.display = 'none';
     return;
   }
-  const names = current.sixHourNonAttackers.map(m =>
-    `<span class="alert-member"><span class="th-badge">CV${m.townhallLevel}</span> ${m.name}</span>`
-  ).join('');
+  const attacksByTag = new Map((current.members || []).map(m => [m.tag, (m.attacks || []).length]));
+  const names = current.sixHourNonAttackers.map(m => {
+    const recovered = (attacksByTag.get(m.tag) || 0) > 0;
+    const cls = recovered ? 'alert-member alert-member-recovered' : 'alert-member';
+    const check = recovered ? ' <span class="alert-member-check">✓</span>' : '';
+    const title = recovered ? 'Atacou após as 6h iniciais' : 'Sem ataque registrado';
+    return `<span class="${cls}" title="${title}"><span class="th-badge">CV${m.townhallLevel}</span> ${m.name}${check}</span>`;
+  }).join('');
   alert.style.display = 'block';
   alert.innerHTML = `
     <div class="six-hour-alert">

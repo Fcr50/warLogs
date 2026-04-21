@@ -453,6 +453,14 @@ tbody td {
   font-size: var(--text-sm);
   font-weight: 500;
 }
+.alert-member-recovered {
+  background: var(--success-dim);
+  border-color: rgba(63,185,80,.3);
+}
+.alert-member-check {
+  color: var(--success);
+  font-weight: 700;
+}
 
 .row-lazy { background: rgba(248,81,73,.06) !important; box-shadow: inset 3px 0 0 var(--danger); }
 .row-lazy:hover { background: rgba(248,81,73,.11) !important; }
