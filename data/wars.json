@@ -10,8 +10,8 @@
       "opponent": {
         "name": "Slåsskamp",
         "tag": "#PLCVUPG8",
-        "stars": 49,
-        "destructionPercentage": 74.48,
+        "stars": 52,
+        "destructionPercentage": 78.48,
         "members": [
           {
             "tag": "#YJ2VCVGY",
@@ -320,6 +320,12 @@
           "defensesReceived": [
             {
               "stars": 2,
+              "destructionPercentage": 76,
+              "attackerTag": "#R9G29VJV",
+              "attackerMapPosition": 2
+            },
+            {
+              "stars": 2,
               "destructionPercentage": 92,
               "attackerTag": "#9GUPJLLPP",
               "attackerMapPosition": 9
@@ -391,7 +397,14 @@
               "defenderTag": "#29Q8G09GP"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#R9G29VJV",
+              "attackerMapPosition": 2
+            }
+          ],
           "missedAttacks": 0
         },
         {
