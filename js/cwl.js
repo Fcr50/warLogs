@@ -95,8 +95,8 @@ async function renderCwl() {
 
   html += `
     <div class="cwl-header">
-      <h2 class="cwl-title">🏅 Top 20 CWL — Ranking de performance</h2>
-      <div class="cwl-meta">${totalWars} guerra${totalWars !== 1 ? 's' : ''} completa${totalWars !== 1 ? 's' : ''} analisada${totalWars !== 1 ? 's' : ''} · ${ranking.length} TH18 com dados</div>
+      <h2 class="cwl-title">🏅 Top CV18 — Ranking de performance</h2>
+      <div class="cwl-meta">${totalWars} guerra${totalWars !== 1 ? 's' : ''} completa${totalWars !== 1 ? 's' : ''} analisada${totalWars !== 1 ? 's' : ''} · ${ranking.length} CV18 listados</div>
     </div>
   `;
 
@@ -113,7 +113,6 @@ async function renderCwl() {
       </div>
     `;
   } else {
-    const top20 = ranking.slice(0, 20);
     html += `
       <div class="table-wrapper">
         <table class="cwl-table">
@@ -133,25 +132,9 @@ async function renderCwl() {
             </tr>
           </thead>
           <tbody>
-            ${top20.map((entry, i) => renderRow(entry, i)).join('')}
+            ${ranking.map((entry, i) => renderRow(entry, i)).join('')}
           </tbody>
         </table>
-      </div>
-    `;
-  }
-
-  if (noDataList.length > 0) {
-    html += `
-      <div class="cwl-no-data-section">
-        <h3 class="cwl-subtitle">TH18 sem dados suficientes</h3>
-        <div class="cwl-no-data-list">
-          ${noDataList.map(({ player }) => `
-            <div class="cwl-no-data-item">
-              <span class="member-name">${escapeHtml(player.name)}</span>
-              <span class="member-tag">${escapeHtml(player.tag)}</span>
-            </div>
-          `).join('')}
-        </div>
       </div>
     `;
   }
@@ -175,11 +158,11 @@ async function renderCwl() {
 
   container.innerHTML = html;
 
-  container.querySelectorAll('.cwl-row').forEach(row => {
+  container.querySelectorAll('.cwl-row:not(.cwl-row-no-data)').forEach(row => {
     row.addEventListener('click', () => {
       const tag = row.dataset.tag;
       const entry = ranking.find(r => r.player.tag === tag);
-      if (entry) openBreakdownModal(entry.player, entry.data);
+      if (entry && entry.data && entry.data.totalAttacks > 0) openBreakdownModal(entry.player, entry.data);
     });
   });
 }
@@ -188,8 +171,31 @@ function renderRow(entry, index) {
   const { player, data } = entry;
   const status = index < 15 ? 'convocado' : 'reserva';
   const statusLabel = index < 15 ? 'Convocado' : 'Reserva';
+  const noData = !data || data.totalAttacks === 0;
+  const th17Tag = !noData && data.hadTh17 ? ' <span class="cwl-th17-tag" title="Recém-TH18: guerras em TH17 com peso 0.4">↑17→18</span>' : '';
+
+  if (noData) {
+    return `
+      <tr class="cwl-row cwl-row-${status} cwl-row-no-data" data-tag="${escapeHtml(player.tag)}">
+        <td class="cwl-pos">${index + 1}</td>
+        <td>
+          <div class="member-name">${escapeHtml(player.name)}</div>
+          <div class="member-tag">${escapeHtml(player.tag)}</div>
+        </td>
+        <td class="cwl-score-cell">—</td>
+        <td>—</td>
+        <td>—</td>
+        <td>—</td>
+        <td>—</td>
+        <td>—</td>
+        <td>—</td>
+        <td>—</td>
+        <td><span class="cwl-status-badge cwl-status-${status}">${statusLabel}</span></td>
+      </tr>
+    `;
+  }
+
   const defenseCell = data.hasAnyDefense ? data.defenseScore.toFixed(2) : '—';
-  const th17Tag = data.hadTh17 ? ' <span class="cwl-th17-tag" title="Recém-TH18: guerras em TH17 com peso 0.4">↑17→18</span>' : '';
 
   return `
     <tr class="cwl-row cwl-row-${status}" data-tag="${escapeHtml(player.tag)}">

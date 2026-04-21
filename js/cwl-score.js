@@ -28,6 +28,9 @@ export function computePlayerScore(player, wars) {
   let attacksUsed = 0;
   let attacksAvailable = 0;
   let warsInRoster = 0;
+  let attacksUsedCompleted = 0;
+  let attacksAvailableCompleted = 0;
+  let warsInRosterCompleted = 0;
   let totalDestruction = 0;
   let totalAttacks = 0;
   let hasAnyDefense = false;
@@ -41,10 +44,14 @@ export function computePlayerScore(player, wars) {
     const attacksPerMember = war.teamSize <= 15 ? 1 : 2;
     const attacks = member.attacks || [];
 
+    warsInRoster++;
+    attacksUsed += attacks.length;
+    attacksAvailable += attacksPerMember;
+
     if (!isLive) {
-      warsInRoster++;
-      attacksUsed += attacks.length;
-      attacksAvailable += attacksPerMember;
+      warsInRosterCompleted++;
+      attacksUsedCompleted += attacks.length;
+      attacksAvailableCompleted += attacksPerMember;
     }
 
     const isTh17Adjusted = member.townhallLevel === 17 && player.townhallLevel === 18;
@@ -130,8 +137,8 @@ export function computePlayerScore(player, wars) {
   const defenseScore = weightedMean(defenseScores);
   const completedWars = wars.filter(w => w.state !== 'inWar');
   const totalWarsWindow = completedWars.length || 1;
-  const reliability = attacksAvailable > 0
-    ? 0.6 * (attacksUsed / attacksAvailable) + 0.4 * (warsInRoster / totalWarsWindow)
+  const reliability = attacksAvailableCompleted > 0
+    ? 0.6 * (attacksUsedCompleted / attacksAvailableCompleted) + 0.4 * (warsInRosterCompleted / totalWarsWindow)
     : 0;
   const formScore = recentAttackScores.length > 0
     ? recentAttackScores.reduce((s, x) => s + x, 0) / recentAttackScores.length
@@ -168,24 +175,23 @@ export function computeCwlRanking(wars, players) {
   const completedWars = relevantWars.filter(w => w.state === 'warEnded');
   const eligible = players.filter(p => p.townhallLevel === 18);
 
-  const ranking = [];
-  const noDataList = [];
+  const entries = eligible.map(player => ({
+    player,
+    data: computePlayerScore(player, relevantWars),
+  }));
 
-  eligible.forEach(player => {
-    const data = computePlayerScore(player, relevantWars);
-    if (data.totalAttacks === 0) {
-      noDataList.push({ player, data });
-    } else {
-      ranking.push({ player, data });
-    }
-  });
-
-  ranking.sort((a, b) => {
+  entries.sort((a, b) => {
+    const aHas = a.data.totalAttacks > 0;
+    const bHas = b.data.totalAttacks > 0;
+    if (aHas !== bHas) return bHas - aHas;
     if (b.data.score !== a.data.score) return b.data.score - a.data.score;
     if (b.data.avgDestruction !== a.data.avgDestruction) return b.data.avgDestruction - a.data.avgDestruction;
     if (b.data.attacksUsed !== a.data.attacksUsed) return b.data.attacksUsed - a.data.attacksUsed;
     return a.data.avgPositionDiff - b.data.avgPositionDiff;
   });
+
+  const ranking = entries;
+  const noDataList = entries.filter(e => e.data.totalAttacks === 0);
 
   const live = relevantWars.find(w => w.state === 'inWar');
   let liveWar = null;
