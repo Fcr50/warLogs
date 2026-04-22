@@ -5,8 +5,9 @@ export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"
 
 cd /Users/fernando/Desktop/COC
 
-export COC_EMAIL="fernandoribeiro.com@gmail.com"
-export COC_PASSWORD="binho922004"
+set -a
+source /Users/fernando/Desktop/COC/.env
+set +a
 
 export COC_TOKEN=$(node scripts/refresh-token.js)
 echo "Token renovado para IP atual"
