@@ -10,8 +10,8 @@
       "opponent": {
         "name": "Free State",
         "tag": "#2RQ00UGPC",
-        "stars": 10,
-        "destructionPercentage": 14.76,
+        "stars": 20,
+        "destructionPercentage": 30.28,
         "members": [
           {
             "tag": "#V9G8C9QJ",
@@ -360,7 +360,14 @@
           "townhallLevel": 18,
           "mapPosition": 17,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 1,
+              "destructionPercentage": 88,
+              "attackerTag": "#LU9CR0QV0",
+              "attackerMapPosition": 14
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -396,7 +403,14 @@
           "townhallLevel": 18,
           "mapPosition": 2,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#80QU2ULU",
+              "attackerMapPosition": 8
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -430,7 +444,14 @@
           "townhallLevel": 18,
           "mapPosition": 1,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#80QU2ULU",
+              "attackerMapPosition": 8
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -439,7 +460,14 @@
           "townhallLevel": 18,
           "mapPosition": 3,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#P0QCY0C2",
+              "attackerMapPosition": 2
+            }
+          ],
           "missedAttacks": 0
         },
         {
