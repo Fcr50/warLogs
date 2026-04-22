@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 42,
-        "destructionPercentage": 56
+        "stars": 50,
+        "destructionPercentage": 67.08
       },
       "sixHourNonAttackers": [
         {
@@ -138,21 +138,6 @@
         {
           "tag": "#PLU2VCLG",
           "name": "Phoenix",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#22C820V9L",
-          "name": "Alflen",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#80LUCC9YV",
-          "name": "Lobo ®",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#2Q2ULRCUV",
-          "name": "Aflen",
           "townhallLevel": 18
         },
         {
@@ -400,7 +385,14 @@
           "name": "Alflen",
           "townhallLevel": 18,
           "mapPosition": 11,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 29,
+              "defenderTag": "#2LR0UUVR8"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -425,7 +417,14 @@
           "name": "Lobo ®",
           "townhallLevel": 18,
           "mapPosition": 2,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 31,
+              "defenderTag": "#P0QCY0C2"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -457,7 +456,14 @@
           "name": "Aflen",
           "townhallLevel": 18,
           "mapPosition": 20,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 77,
+              "order": 30,
+              "defenderTag": "#JRPG08"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
