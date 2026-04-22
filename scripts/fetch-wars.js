@@ -5,6 +5,7 @@ import { dirname, join } from 'path';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DATA_PATH     = join(__dirname, '../data/wars.json');
+const ARCHIVE_PATH  = join(__dirname, '../data/wars-archive.json');
 const ABSENCES_PATH = join(__dirname, '../data/absences.json');
 const CLAN_TAG  = '%232GYGRQPG2';
 const API_BASE  = 'https://api.clashofclans.com/v1';
@@ -194,7 +195,16 @@ async function main() {
     console.log(`Updated war vs ${war.opponent.name} (${warRecord.result})`);
   } else {
     data.wars.unshift(warRecord);
-    data.wars = data.wars.slice(0, 50);
+    if (data.wars.length > 50) {
+      const overflow = data.wars.slice(50);
+      const archive = existsSync(ARCHIVE_PATH)
+        ? JSON.parse(readFileSync(ARCHIVE_PATH, 'utf-8'))
+        : { wars: [] };
+      archive.wars.unshift(...overflow);
+      writeFileSync(ARCHIVE_PATH, JSON.stringify(archive, null, 2));
+      data.wars = data.wars.slice(0, 50);
+      console.log(`Archived ${overflow.length} war(s) to wars-archive.json`);
+    }
     console.log(`Saved war vs ${war.opponent.name} (${warRecord.result})`);
   }
 
