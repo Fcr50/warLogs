@@ -116,15 +116,10 @@
         ]
       },
       "clan": {
-        "stars": 3,
-        "destructionPercentage": 4
+        "stars": 14,
+        "destructionPercentage": 19.68
       },
       "sixHourNonAttackers": [
-        {
-          "tag": "#2LY0P2L9U",
-          "name": "LucasHG9",
-          "townhallLevel": 18
-        },
         {
           "tag": "#QQC8P9C9R",
           "name": "Gs.prieto",
@@ -148,11 +143,6 @@
         {
           "tag": "#8CJ8YJY0P",
           "name": "ChrolloLucilfer",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#2GP2JUU2",
-          "name": "Gustavo Lázaro",
           "townhallLevel": 18
         },
         {
@@ -191,11 +181,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#GGVCRYP8P",
-          "name": "gui",
-          "townhallLevel": 17
-        },
-        {
           "tag": "#2Q2ULRCUV",
           "name": "Aflen",
           "townhallLevel": 18
@@ -226,11 +211,6 @@
           "townhallLevel": 17
         },
         {
-          "tag": "#YVYCCQU08",
-          "name": "Frenético",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#QJVQVRPU",
           "name": "Frnnn",
           "townhallLevel": 18
@@ -247,7 +227,14 @@
           "name": "LucasHG9",
           "townhallLevel": 18,
           "mapPosition": 12,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 2,
+              "defenderTag": "#29JJG8YJJ"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -301,7 +288,14 @@
           "name": "Gustavo Lázaro",
           "townhallLevel": 18,
           "mapPosition": 15,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 92,
+              "order": 4,
+              "defenderTag": "#8QVLJ2CYP"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -389,7 +383,14 @@
           "name": "gui",
           "townhallLevel": 17,
           "mapPosition": 22,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 5,
+              "defenderTag": "#Q0V82VQLP"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -452,7 +453,14 @@
           "name": "Frenético",
           "townhallLevel": 18,
           "mapPosition": 19,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 3,
+              "defenderTag": "#PGJCPYU2Q"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
