@@ -176,11 +176,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#GQU9Y0CQ8",
-          "name": "Scok♤",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#QJVQVRPU",
           "name": "Frnnn",
           "townhallLevel": 18
@@ -503,7 +498,14 @@
           "name": "Scok♤",
           "townhallLevel": 18,
           "mapPosition": 25,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 1,
+              "destructionPercentage": 80,
+              "order": 24,
+              "defenderTag": "#9CU9P8988"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
