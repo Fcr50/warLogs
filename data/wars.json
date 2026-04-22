@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 50,
-        "destructionPercentage": 67.08
+        "stars": 53,
+        "destructionPercentage": 71.08
       },
       "sixHourNonAttackers": [
         {
@@ -148,11 +148,6 @@
         {
           "tag": "#LYJG0L8G",
           "name": "GLADIADOR!!!",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QJVQVRPU",
-          "name": "Frnnn",
           "townhallLevel": 18
         },
         {
@@ -581,7 +576,14 @@
           "name": "Frnnn",
           "townhallLevel": 18,
           "mapPosition": 5,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 32,
+              "defenderTag": "#2P8UJR2PU"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
