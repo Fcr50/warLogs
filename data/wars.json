@@ -10,8 +10,8 @@
       "opponent": {
         "name": "Free State",
         "tag": "#2RQ00UGPC",
-        "stars": 26,
-        "destructionPercentage": 38.28,
+        "stars": 29,
+        "destructionPercentage": 42.28,
         "members": [
           {
             "tag": "#V9G8C9QJ",
@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 17,
-        "destructionPercentage": 23.96
+        "stars": 26,
+        "destructionPercentage": 35.96
       },
       "sixHourNonAttackers": [
         {
@@ -136,11 +136,6 @@
           "townhallLevel": 17
         },
         {
-          "tag": "#8CJ8YJY0P",
-          "name": "ChrolloLucilfer",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#QGQJGURCL",
           "name": "SAFONOV",
           "townhallLevel": 18
@@ -148,11 +143,6 @@
         {
           "tag": "#R82JG8Q2",
           "name": "DEFÉOGLORIOSO",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#L8RG2PV0G",
-          "name": "joaoaoaoao",
           "townhallLevel": 18
         },
         {
@@ -164,11 +154,6 @@
           "tag": "#22C820V9L",
           "name": "Alflen",
           "townhallLevel": 18
-        },
-        {
-          "tag": "#VPPQ8VLV",
-          "name": "GABRIEL LOBATO",
-          "townhallLevel": 17
         },
         {
           "tag": "#80LUCC9YV",
@@ -295,8 +280,22 @@
           "name": "ChrolloLucilfer",
           "townhallLevel": 18,
           "mapPosition": 6,
-          "attacks": [],
-          "defensesReceived": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 20,
+              "defenderTag": "#8VCG2VJ0P"
+            }
+          ],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#2GP8CUY82",
+              "attackerMapPosition": 3
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -368,7 +367,14 @@
           "name": "joaoaoaoao",
           "townhallLevel": 18,
           "mapPosition": 17,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 19,
+              "defenderTag": "#892YUUCLY"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 1,
@@ -402,7 +408,14 @@
           "name": "GABRIEL LOBATO",
           "townhallLevel": 17,
           "mapPosition": 21,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 21,
+              "defenderTag": "#G09VLLU8C"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
