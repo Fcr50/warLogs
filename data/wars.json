@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 26,
-        "destructionPercentage": 35.96
+        "stars": 32,
+        "destructionPercentage": 43.96
       },
       "sixHourNonAttackers": [
         {
@@ -166,11 +166,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#P9C0LVLU2",
-          "name": "VINGADOR⚡",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#YPVQVU982",
           "name": "亗 ＨＡＤＥＳ_０７ 亗",
           "townhallLevel": 18
@@ -184,11 +179,6 @@
           "tag": "#GQU9Y0CQ8",
           "name": "Scok♤",
           "townhallLevel": 18
-        },
-        {
-          "tag": "#2LGC8PGRY",
-          "name": "lucas r.",
-          "townhallLevel": 17
         },
         {
           "tag": "#QJVQVRPU",
@@ -465,7 +455,14 @@
           "name": "VINGADOR⚡",
           "townhallLevel": 18,
           "mapPosition": 1,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 22,
+              "defenderTag": "#UVVQQGP"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -515,7 +512,14 @@
           "name": "lucas r.",
           "townhallLevel": 17,
           "mapPosition": 23,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 23,
+              "defenderTag": "#U2G0V2CU"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
