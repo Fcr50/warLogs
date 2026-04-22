@@ -10,8 +10,8 @@
       "opponent": {
         "name": "Free State",
         "tag": "#2RQ00UGPC",
-        "stars": 20,
-        "destructionPercentage": 30.28,
+        "stars": 26,
+        "destructionPercentage": 38.28,
         "members": [
           {
             "tag": "#V9G8C9QJ",
@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 15,
-        "destructionPercentage": 20
+        "stars": 17,
+        "destructionPercentage": 23.96
       },
       "sixHourNonAttackers": [
         {
@@ -128,11 +128,6 @@
         {
           "tag": "#2R89QJL9Q",
           "name": "Hisoka",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#2QL0VR9GU",
-          "name": "Marcola",
           "townhallLevel": 18
         },
         {
@@ -268,7 +263,14 @@
           "name": "Marcola",
           "townhallLevel": 18,
           "mapPosition": 7,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 99,
+              "order": 16,
+              "defenderTag": "#9CU9P8988"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -335,7 +337,14 @@
               "defenderTag": "#V9G8C9QJ"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#P0QCY0C2",
+              "attackerMapPosition": 2
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -532,7 +541,14 @@
           "townhallLevel": 18,
           "mapPosition": 5,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#2GP8CUY82",
+              "attackerMapPosition": 3
+            }
+          ],
           "missedAttacks": 0
         },
         {
