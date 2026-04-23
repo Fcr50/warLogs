@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 53,
-        "destructionPercentage": 71.08
+        "stars": 56,
+        "destructionPercentage": 75.08
       },
       "sixHourNonAttackers": [
         {
@@ -133,11 +133,6 @@
         {
           "tag": "#R82JG8Q2",
           "name": "DEFÉOGLORIOSO",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#PLU2VCLG",
-          "name": "Phoenix",
           "townhallLevel": 18
         },
         {
@@ -283,6 +278,12 @@
               "destructionPercentage": 92,
               "order": 4,
               "defenderTag": "#8QVLJ2CYP"
+            },
+            {
+              "stars": 1,
+              "destructionPercentage": 91,
+              "order": 34,
+              "defenderTag": "#JRPG08"
             }
           ],
           "defensesReceived": [],
@@ -371,7 +372,14 @@
           "name": "Phoenix",
           "townhallLevel": 18,
           "mapPosition": 10,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 33,
+              "defenderTag": "#PQ9RRQQ2"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
