@@ -116,28 +116,13 @@
         ]
       },
       "clan": {
-        "stars": 62,
-        "destructionPercentage": 83.08
+        "stars": 70,
+        "destructionPercentage": 95.48
       },
       "sixHourNonAttackers": [
         {
-          "tag": "#2R89QJL9Q",
-          "name": "Hisoka",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#R82JG8Q2",
           "name": "DEFÉOGLORIOSO",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#YPVQVU982",
-          "name": "亗 ＨＡＤＥＳ_０７ 亗",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#PPPUQPVJY",
-          "name": "Rodrigo",
           "townhallLevel": 18
         }
       ],
@@ -185,7 +170,14 @@
           "name": "Hisoka",
           "townhallLevel": 18,
           "mapPosition": 16,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 40,
+              "defenderTag": "#C0C90CPV"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -495,7 +487,14 @@
           "name": "亗 ＨＡＤＥＳ_０７ 亗",
           "townhallLevel": 18,
           "mapPosition": 3,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 39,
+              "defenderTag": "#2GP8CUY82"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -611,7 +610,20 @@
           "name": "Rodrigo",
           "townhallLevel": 18,
           "mapPosition": 18,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 1,
+              "destructionPercentage": 87,
+              "order": 37,
+              "defenderTag": "#QYG89VC0U"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 38,
+              "defenderTag": "#JRPG08"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         }
