@@ -10,8 +10,8 @@
       "opponent": {
         "name": "Free State",
         "tag": "#2RQ00UGPC",
-        "stars": 29,
-        "destructionPercentage": 42.28,
+        "stars": 34,
+        "destructionPercentage": 50.16,
         "members": [
           {
             "tag": "#V9G8C9QJ",
@@ -207,7 +207,14 @@
               "defenderTag": "#9CU9P8988"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#UVVQQGP",
+              "attackerMapPosition": 1
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -297,7 +304,14 @@
               "defenderTag": "#80QU2ULU"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 97,
+              "attackerTag": "#UVVQQGP",
+              "attackerMapPosition": 1
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -544,6 +558,12 @@
               "destructionPercentage": 80,
               "order": 24,
               "defenderTag": "#9CU9P8988"
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 76,
+              "order": 45,
+              "defenderTag": "#LU9CR0QV0"
             }
           ],
           "defensesReceived": [],
