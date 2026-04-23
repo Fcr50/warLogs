@@ -23,6 +23,16 @@ async function loadData() {
   return data.wars || [];
 }
 
+// 🔥 NOVO: stats calculado dinamicamente
+async function loadStats(wars, players) {
+  try {
+    return computeAllStats(wars, players);
+  } catch (e) {
+    console.error('Erro ao calcular stats:', e);
+    return {};
+  }
+}
+
 function buildMembers(wars) {
   const map = {};
 
@@ -56,7 +66,6 @@ function buildMembers(wars) {
 
   return Object.values(map).map(m => {
     const participated = m.warSlots.filter(w => w.participated);
-
     const totalStars = participated.reduce((s, w) => s + w.stars, 0);
     const totalAttacks = participated.reduce((s, w) => s + w.attacks.length, 0);
     const totalMissed = participated.reduce((s, w) => s + w.missed, 0);
@@ -109,20 +118,49 @@ function render(members, wars) {
   renderTable(sorted, wars);
 }
 
-async function init() {
-  const playersData = await fetch('./data/players.json').then(r => r.json());
-  window._playersData = playersData;
+const POLL_INTERVAL_MS = 3 * 60 * 1000;
 
-  const wars = await loadData();
+function startWarPolling() {
+  const interval = setInterval(async () => {
+    if (document.visibilityState === 'hidden') return;
+
+    try {
+      const freshWars = await loadData();
+      const players = (await window._playersData).players || [];
+
+      const freshStats = await loadStats(freshWars, players);
+
+      window._wars = freshWars;
+      window._statsByTag = freshStats;
+
+      allMembers = buildMembers(freshWars);
+      render(allMembers, freshWars);
+
+    } catch (e) {
+      console.error('War poll error:', e);
+    }
+  }, POLL_INTERVAL_MS);
+}
+
+async function init() {
+  const playersDataPromise = fetch('./data/players.json').then(r => r.json());
+  window._playersData = playersDataPromise;
+
+  const [wars, playersData] = await Promise.all([loadData(), playersDataPromise]);
+
   window._wars = wars;
 
-  // 🔥 CALCULA STATS EM TEMPO REAL
-  const stats = computeAllStats(wars, playersData.players || []);
-  window._statsByTag = stats;
+  // 🔥 CALCULO REAL
+  const statsByTag = await loadStats(wars, playersData.players || []);
+  window._statsByTag = statsByTag;
 
   allMembers = buildMembers(wars);
 
   render(allMembers, wars);
+
+  if (wars[0]?.result === 'inProgress') {
+    startWarPolling();
+  }
 }
 
 init();
