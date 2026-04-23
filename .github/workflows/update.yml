@@ -49,13 +49,16 @@ jobs:
           COC_TOKEN: ${{ steps.token.outputs.token }}
         run: npm run fetch-players
 
+      - name: Compute CWL ranking
+        run: npm run compute-cwl
+
       - name: Commit updated data
         env:
           RUN_NUMBER: ${{ github.run_number }}
         run: |
           git config user.name "Fernando"
           git config user.email "fernandoribeiro.com@gmail.com"
-          git add data/wars.json data/players.json data/absences.json
+          git add data/wars.json data/players.json data/absences.json data/cwl-ranking.json
           if git diff --staged --quiet; then
             echo "No data changes, skipping commit."
             exit 0

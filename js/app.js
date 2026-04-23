@@ -367,6 +367,37 @@ function setupSecretTrigger() {
   trigger.addEventListener('mouseleave', cancelHold);
 }
 
+const POLL_INTERVAL_MS = 3 * 60 * 1000;
+
+function startWarPolling() {
+  const interval = setInterval(async () => {
+    if (document.visibilityState === 'hidden') return;
+    try {
+      const [freshWars, freshStats] = await Promise.all([loadData(), loadStats()]);
+      window._wars = freshWars;
+      window._statsByTag = freshStats;
+      allMembers = buildMembers(freshWars);
+      renderSixHourAlert(freshWars);
+      render(allMembers, freshWars);
+      const lastWar = freshWars[0];
+      if (lastWar) {
+        document.getElementById('last-updated').textContent =
+          `Última guerra registrada: ${lastWar.endTime?.replace('T', ' ').slice(0, 16)} UTC`;
+      }
+      if (sessionStorage.getItem('cwl_auth') === '1') {
+        const { renderCwl } = await import('./cwl.js');
+        renderCwl();
+      }
+      if (!lastWar || lastWar.state !== 'inWar') {
+        clearInterval(interval);
+        document.getElementById('live-war-badge').hidden = true;
+      }
+    } catch (e) {
+      console.error('War poll error:', e);
+    }
+  }, POLL_INTERVAL_MS);
+}
+
 async function init() {
   const { initPlayers }   = await import('./players.js');
   const { initRanking }   = await import('./ranking.js');
@@ -387,6 +418,7 @@ async function init() {
 
   if (wars[0]?.result === 'inProgress') {
     document.getElementById('live-war-badge').hidden = false;
+    startWarPolling();
   }
 
   if (wars.length === 0) {
@@ -404,8 +436,8 @@ async function init() {
       `Última guerra registrada: ${lastWar.endTime?.replace('T', ' ').slice(0, 16)} UTC`;
     renderSixHourAlert(wars);
     render(allMembers, wars);
-    document.getElementById('filter-th').addEventListener('change', () => render(allMembers, wars));
-    document.getElementById('filter-search').addEventListener('input', () => render(allMembers, wars));
+    document.getElementById('filter-th').addEventListener('change', () => render(allMembers, window._wars));
+    document.getElementById('filter-search').addEventListener('input', () => render(allMembers, window._wars));
     setupSort();
   }
 

@@ -71,7 +71,7 @@ async function loadRanking() {
   }
 }
 
-async function renderCwl() {
+export async function renderCwl() {
   const container = document.getElementById('cwl-content');
   container.innerHTML = `
     <div class="cwl-loading">
