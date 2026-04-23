@@ -163,8 +163,10 @@ export function computeAllStats(wars, players) {
 
   const temp = [];
 
+  // 1. Calcula score para TODOS os players do clã
   players.forEach(p => {
     const d = computePlayerScore(p, relevantWars);
+
     temp.push({
       tag: p.tag,
       th: p.townhallLevel,
@@ -173,30 +175,35 @@ export function computeAllStats(wars, players) {
     });
   });
 
+  // 2. Ordena por score (maior → menor)
   temp.sort((a, b) => b.score - a.score);
 
   const total = temp.length;
 
+  // 3. Aplica percentil com base no TOTAL DO CLÃ
   temp.forEach((entry, index) => {
-    const percentile = index / total;
+    const percentile = (index + 1) / total;
 
     let tier;
 
+    // 🔴 Regra absoluta: sem ataque = F
     if (entry.data.totalAttacks === 0) {
       tier = 'F';
-    } else if (percentile < 0.10) {
+    } else if (percentile <= 0.10) {
       tier = 'S';
-    } else if (percentile < 0.30) {
+    } else if (percentile <= 0.30) {
       tier = 'A';
-    } else if (percentile < 0.60) {
+    } else if (percentile <= 0.60) {
       tier = 'B';
     } else {
       tier = 'C';
     }
 
+    // mantém limite por TH
     entry.tier = capTierByTh(tier, entry.th);
   });
 
+  // 4. Retorna no formato esperado
   const map = {};
 
   temp.forEach(entry => {
