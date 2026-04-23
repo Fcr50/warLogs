@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-23T19:35:20.086Z",
+  "generatedAt": "2026-04-23T19:50:19.590Z",
   "totalWars": 2,
   "liveWar": {
     "opponentName": "Free State",
@@ -14,12 +14,12 @@
         "townhallLevel": 18
       },
       "data": {
-        "score": 1.8688675675675674,
-        "rawScore": 2.669810810810811,
+        "score": 1.8783270270270271,
+        "rawScore": 2.6833243243243246,
         "confidence": 0.7,
         "tier": "S",
         "attackScore": 3.5000000000000004,
-        "defenseScore": 0.6392432432432431,
+        "defenseScore": 0.6932972972972973,
         "reliability": 1,
         "formScore": 3.5,
         "warsInRoster": 3,
@@ -117,6 +117,42 @@
     },
     {
       "player": {
+        "tag": "#QJVQVRPU",
+        "name": "Frnnn",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 1.7360106177606176,
+        "rawScore": 2.480015168229454,
+        "confidence": 0.7,
+        "tier": "A",
+        "attackScore": 3.291059280855199,
+        "defenseScore": 0.23108108108108105,
+        "reliability": 1,
+        "formScore": 3.5,
+        "warsInRoster": 3,
+        "attacksUsed": 6,
+        "attacksAvailable": 6,
+        "avgDestruction": 97.5,
+        "totalAttacks": 6,
+        "totalStars": 17,
+        "count3Stars": 5,
+        "avgStars": 2.8333333333333335,
+        "threeStarRate": 0.8333333333333334,
+        "totalMissed": 0,
+        "avgPositionDiff": 6.25,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#GJ2LQVQJ",
         "name": "Fer",
         "townhallLevel": 18
@@ -141,42 +177,6 @@
         "threeStarRate": 0.8333333333333334,
         "totalMissed": 0,
         "avgPositionDiff": -1,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#QJVQVRPU",
-        "name": "Frnnn",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 1.7076322393822394,
-        "rawScore": 2.4394746276889134,
-        "confidence": 0.7,
-        "tier": "A",
-        "attackScore": 3.291059280855199,
-        "defenseScore": 0.06891891891891892,
-        "reliability": 1,
-        "formScore": 3.5,
-        "warsInRoster": 3,
-        "attacksUsed": 6,
-        "attacksAvailable": 6,
-        "avgDestruction": 97.5,
-        "totalAttacks": 6,
-        "totalStars": 17,
-        "count3Stars": 5,
-        "avgStars": 2.8333333333333335,
-        "threeStarRate": 0.8333333333333334,
-        "totalMissed": 0,
-        "avgPositionDiff": 6.25,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -980,7 +980,7 @@
       "totalMissed": 0
     },
     "#GJ2LQVQJ": {
-      "tier": "S",
+      "tier": "A",
       "score": 1.7283181467181463,
       "avgStars": 2.8333333333333335,
       "totalStars": 17,
@@ -990,7 +990,7 @@
     },
     "#P9C0LVLU2": {
       "tier": "S",
-      "score": 1.8688675675675674,
+      "score": 1.8783270270270271,
       "avgStars": 3,
       "totalStars": 18,
       "totalAttacks": 6,
@@ -1034,8 +1034,8 @@
       "totalMissed": 0
     },
     "#QJVQVRPU": {
-      "tier": "A",
-      "score": 1.7076322393822394,
+      "tier": "S",
+      "score": 1.7360106177606176,
       "avgStars": 2.8333333333333335,
       "totalStars": 17,
       "totalAttacks": 6,
