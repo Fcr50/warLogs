@@ -221,14 +221,29 @@ export function capTierByTh(tier, th) {
 function assignPercentileTiers(entries) {
   const withAttacks = entries.filter(e => e.data.totalAttacks > 0);
   withAttacks.sort((a, b) => b.data.score - a.data.score);
-  withAttacks.forEach((entry, i) => {
+
+  // Top-4 CV18 by score get S; non-CV18 in top positions don't consume an S slot
+  let sCount = 0;
+  const promoted = new Set();
+  for (const entry of withAttacks) {
+    if (sCount >= 4) break;
+    if (entry.th >= 18) {
+      entry.tier = 'S';
+      promoted.add(entry);
+      sCount++;
+    }
+  }
+
+  // Remaining players: next 8 → A, next 16 → B, rest → C (capTierByTh applies floor by TH)
+  const rest = withAttacks.filter(e => !promoted.has(e));
+  rest.forEach((entry, i) => {
     let tier;
-    if (i < 4)       tier = 'S';
-    else if (i < 12) tier = 'A';
-    else if (i < 28) tier = 'B';
+    if (i < 8)       tier = 'A';
+    else if (i < 24) tier = 'B';
     else             tier = 'C';
     entry.tier = capTierByTh(tier, entry.th);
   });
+
   entries.filter(e => e.data.totalAttacks === 0).forEach(e => { e.tier = 'F'; });
 }
 
