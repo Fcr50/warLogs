@@ -23,10 +23,11 @@ async function loadData() {
   return data.wars || [];
 }
 
-// 🔥 NOVO: stats calculado dinamicamente
-async function loadStats(wars, players) {
+// 🔥 NOVO: usa computeAllStats mas respeita players carregados
+async function loadStats(wars, playersPromise) {
   try {
-    return computeAllStats(wars, players);
+    const playersData = await playersPromise;
+    return computeAllStats(wars, playersData.players || []);
   } catch (e) {
     console.error('Erro ao calcular stats:', e);
     return {};
@@ -66,6 +67,7 @@ function buildMembers(wars) {
 
   return Object.values(map).map(m => {
     const participated = m.warSlots.filter(w => w.participated);
+
     const totalStars = participated.reduce((s, w) => s + w.stars, 0);
     const totalAttacks = participated.reduce((s, w) => s + w.attacks.length, 0);
     const totalMissed = participated.reduce((s, w) => s + w.missed, 0);
@@ -126,9 +128,7 @@ function startWarPolling() {
 
     try {
       const freshWars = await loadData();
-      const players = (await window._playersData).players || [];
-
-      const freshStats = await loadStats(freshWars, players);
+      const freshStats = await loadStats(freshWars, window._playersData);
 
       window._wars = freshWars;
       window._statsByTag = freshStats;
@@ -146,12 +146,15 @@ async function init() {
   const playersDataPromise = fetch('./data/players.json').then(r => r.json());
   window._playersData = playersDataPromise;
 
-  const [wars, playersData] = await Promise.all([loadData(), playersDataPromise]);
+  const [wars, playersData] = await Promise.all([
+    loadData(),
+    playersDataPromise
+  ]);
 
   window._wars = wars;
 
-  // 🔥 CALCULO REAL
-  const statsByTag = await loadStats(wars, playersData.players || []);
+  // 🔥 CALCULO CORRETO (APÓS PLAYERS)
+  const statsByTag = await loadStats(wars, playersDataPromise);
   window._statsByTag = statsByTag;
 
   allMembers = buildMembers(wars);
