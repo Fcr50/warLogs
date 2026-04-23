@@ -1,4 +1,5 @@
 import { openAttackStatsModal } from './attack-modal.js';
+import { initOverview } from './overview.js';
 
 const DATA_URL = './data/wars.json';
 const STATS_URL = './data/cwl-ranking.json';
@@ -166,6 +167,7 @@ async function init() {
 
   allMembers = buildMembers(wars);
 
+  initOverview(playersData.players || [], statsByTag);
   render(allMembers, wars);
 }
 
