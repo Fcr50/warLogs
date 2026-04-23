@@ -221,14 +221,12 @@ export function capTierByTh(tier, th) {
 function assignPercentileTiers(entries) {
   const withAttacks = entries.filter(e => e.data.totalAttacks > 0);
   withAttacks.sort((a, b) => b.data.score - a.data.score);
-  const total = withAttacks.length;
   withAttacks.forEach((entry, i) => {
-    const pct = i / total;
     let tier;
-    if (pct < 0.10)      tier = 'S';
-    else if (pct < 0.30) tier = 'A';
-    else if (pct < 0.60) tier = 'B';
-    else                 tier = 'C';
+    if (i < 4)       tier = 'S';
+    else if (i < 12) tier = 'A';
+    else if (i < 28) tier = 'B';
+    else             tier = 'C';
     entry.tier = capTierByTh(tier, entry.th);
   });
   entries.filter(e => e.data.totalAttacks === 0).forEach(e => { e.tier = 'F'; });
