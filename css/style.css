@@ -1428,6 +1428,15 @@ tbody tr:nth-child(3) .rank-pos { color: #cd7f32; }
   border-color: rgba(139, 148, 158, 0.3);
 }
 
+.tier-change {
+  font-size: 10px;
+  font-weight: 700;
+  margin-left: 3px;
+  vertical-align: middle;
+}
+.tier-up   { color: var(--success); }
+.tier-down { color: var(--danger); }
+
 /* CWL no-data + observations */
 .cwl-no-data-section {
   margin-top: var(--sp-6);

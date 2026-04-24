@@ -18,6 +18,14 @@ function getStats(tag) {
   return statsMap[tag] || { tier: 'F', score: 0, avgStars: 0, totalStars: 0, totalAttacks: 0, warsInRoster: 0, totalMissed: 0 };
 }
 
+const TIER_ORDER = ['S', 'A', 'B', 'C', 'F'];
+
+function tierChangeBadge(s) {
+  if (!s.prevTier || s.prevTier === s.tier) return '';
+  const up = TIER_ORDER.indexOf(s.tier) < TIER_ORDER.indexOf(s.prevTier);
+  return `<span class="tier-change ${up ? 'tier-up' : 'tier-down'}" title="era ${s.prevTier}">${up ? '▲' : '▼'}</span>`;
+}
+
 function renderThFilter() {
   const select = document.getElementById('filter-o-th');
   const levels = [...new Set(allPlayers.map(p => p.townhallLevel))].sort((a, b) => b - a);
@@ -80,7 +88,7 @@ function renderTable() {
           <div class="member-name">${escapeHtml(p.name)}</div>
           <div class="member-tag">${escapeHtml(p.tag)}</div>
         </td>
-        <td>${tierBadgeHtml(p.tag)}</td>
+        <td>${tierBadgeHtml(p.tag)}${tierChangeBadge(s)}</td>
         <td><span class="th-badge">CV${p.townhallLevel}</span></td>
         <td>${starsPerWar}</td>
         <td>${s.warsInRoster}</td>

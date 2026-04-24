@@ -16,12 +16,21 @@ function loadJson(path, fallback) {
 function main() {
   const warsData    = loadJson(WARS_PATH,    { wars: [] });
   const playersData = loadJson(PLAYERS_PATH, { players: [] });
+  const prevData    = loadJson(OUT_PATH,     { statsByTag: {} });
+  const prevTiers   = Object.fromEntries(
+    Object.entries(prevData.statsByTag || {}).map(([tag, e]) => [tag, e.tier])
+  );
 
   const wars    = warsData.wars    || [];
   const players = playersData.players || [];
 
   const { ranking, noDataList, totalWars, liveWar } = computeCwlRanking(wars, players);
   const statsByTag = computeAllStats(wars, players);
+
+  for (const [tag, entry] of Object.entries(statsByTag)) {
+    const prev = prevTiers[tag];
+    if (prev && prev !== entry.tier) entry.prevTier = prev;
+  }
 
   const slimPlayer = p => ({ tag: p.tag, name: p.name, townhallLevel: p.townhallLevel });
 
