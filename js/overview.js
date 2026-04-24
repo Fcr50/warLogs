@@ -18,12 +18,11 @@ function getStats(tag) {
   return statsMap[tag] || { tier: 'F', score: 0, avgStars: 0, totalStars: 0, totalAttacks: 0, warsInRoster: 0, totalMissed: 0 };
 }
 
-const TIER_ORDER = ['S', 'A', 'B', 'C', 'F'];
-
-function tierChangeBadge(s) {
-  if (!s.prevTier || s.prevTier === s.tier) return '';
-  const up = TIER_ORDER.indexOf(s.tier) < TIER_ORDER.indexOf(s.prevTier);
-  return `<span class="tier-change ${up ? 'tier-up' : 'tier-down'}" title="era ${s.prevTier}">${up ? '▲' : '▼'}</span>`;
+function rankChangeBadge(s) {
+  if (s.prevRank == null || s.rank == null) return '';
+  if (s.prevRank > s.rank)  return `<span class="rank-change rank-up"   title="era #${s.prevRank}">🔺</span>`;
+  if (s.prevRank < s.rank)  return `<span class="rank-change rank-down"  title="era #${s.prevRank}">🔻</span>`;
+  return `<span class="rank-change rank-same" title="mesma posição">➖</span>`;
 }
 
 function renderThFilter() {
@@ -79,7 +78,7 @@ function renderTable() {
 
   tbody.innerHTML = sorted.map((p, i) => {
     const s = getStats(p.tag);
-    const starsPerWar = s.warsInRoster > 0 ? (s.totalStars / s.warsInRoster).toFixed(2) : '—';
+    const scoreDisplay = s.totalAttacks > 0 ? s.normalizedScore.toFixed(1) : '—';
     const trophies = (p.trophies ?? 0).toLocaleString('pt-BR');
     return `
       <tr class="overview-row" data-tag="${p.tag}">
@@ -88,9 +87,9 @@ function renderTable() {
           <div class="member-name">${escapeHtml(p.name)}</div>
           <div class="member-tag">${escapeHtml(p.tag)}</div>
         </td>
-        <td>${tierBadgeHtml(p.tag)}${tierChangeBadge(s)}</td>
+        <td>${tierBadgeHtml(p.tag)}${rankChangeBadge(s)}</td>
         <td><span class="th-badge">CV${p.townhallLevel}</span></td>
-        <td>${starsPerWar}</td>
+        <td>${scoreDisplay}</td>
         <td>${s.warsInRoster}</td>
         <td>🏆 ${trophies}</td>
       </tr>

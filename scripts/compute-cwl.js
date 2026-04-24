@@ -17,9 +17,12 @@ function main() {
   const warsData    = loadJson(WARS_PATH,    { wars: [] });
   const playersData = loadJson(PLAYERS_PATH, { players: [] });
   const prevData    = loadJson(OUT_PATH,     { statsByTag: {} });
-  const prevTiers   = Object.fromEntries(
-    Object.entries(prevData.statsByTag || {}).map(([tag, e]) => [tag, e.tier])
-  );
+
+  // Capture previous ranks from last run
+  const prevRanks = {};
+  Object.entries(prevData.statsByTag || {})
+    .filter(([, e]) => e.rank != null)
+    .forEach(([tag, e]) => { prevRanks[tag] = e.rank; });
 
   const wars    = warsData.wars    || [];
   const players = playersData.players || [];
@@ -27,9 +30,24 @@ function main() {
   const { ranking, noDataList, totalWars, liveWar } = computeCwlRanking(wars, players);
   const statsByTag = computeAllStats(wars, players);
 
+  // Assign rank and prevRank
+  const sorted = Object.entries(statsByTag)
+    .filter(([, e]) => e.totalAttacks > 0)
+    .sort((a, b) => b[1].score - a[1].score);
+  sorted.forEach(([tag], i) => {
+    statsByTag[tag].rank = i + 1;
+    if (prevRanks[tag] != null) statsByTag[tag].prevRank = prevRanks[tag];
+  });
+
+  // Normalized score 0-100 (min-max among players with attacks)
+  const scores = sorted.map(([, e]) => e.score);
+  const minScore = scores.length ? Math.min(...scores) : 0;
+  const maxScore = scores.length ? Math.max(...scores) : 1;
+  const range = maxScore - minScore || 1;
   for (const [tag, entry] of Object.entries(statsByTag)) {
-    const prev = prevTiers[tag];
-    if (prev && prev !== entry.tier) entry.prevTier = prev;
+    entry.normalizedScore = entry.totalAttacks > 0
+      ? Math.round(((entry.score - minScore) / range) * 10000) / 100
+      : 0;
   }
 
   const slimPlayer = p => ({ tag: p.tag, name: p.name, townhallLevel: p.townhallLevel });

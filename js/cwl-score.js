@@ -234,12 +234,12 @@ function assignPercentileTiers(entries) {
     }
   }
 
-  // Remaining players: next 8 → A, next 16 → B, rest → C (capTierByTh applies floor by TH)
+  // Remaining players: next 10 → A, next 15 → B, rest → C (capTierByTh applies floor by TH)
   const rest = withAttacks.filter(e => !promoted.has(e));
   rest.forEach((entry, i) => {
     let tier;
-    if (i < 8)       tier = 'A';
-    else if (i < 24) tier = 'B';
+    if (i < 10)      tier = 'A';
+    else if (i < 25) tier = 'B';
     else             tier = 'C';
     entry.tier = capTierByTh(tier, entry.th);
   });
