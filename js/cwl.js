@@ -2,6 +2,15 @@ import { tierBadgeHtml } from './app.js';
 
 const CWL_PASS = 'bs50cwl';
 
+function rankChangeBadge(tag) {
+  const s = (window._statsByTag || {})[tag];
+  if (!s || s.prevRank == null || s.rank == null) return '';
+  const diff = s.prevRank - s.rank;
+  if (diff > 0) return `<span class="rank-change rank-up"   title="era #${s.prevRank}">🔺${diff}</span>`;
+  if (diff < 0) return `<span class="rank-change rank-down" title="era #${s.prevRank}">🔻${Math.abs(diff)}</span>`;
+  return `<span class="rank-change rank-same" title="mesma posição">➖</span>`;
+}
+
 let cwlSortMode = 'score';
 let cwlRanking  = [];
 
@@ -230,7 +239,7 @@ function renderRow(entry, index) {
           <div class="member-name">${escapeHtml(player.name)}</div>
           <div class="member-tag">${escapeHtml(player.tag)}</div>
         </td>
-        <td>${tierBadgeHtml(player.tag)}</td>
+        <td>${tierBadgeHtml(player.tag)}${rankChangeBadge(player.tag)}</td>
         <td class="cwl-score-cell">—</td>
         <td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td>
         <td><span class="cwl-status-badge cwl-status-${status}">${statusLabel}</span></td>
