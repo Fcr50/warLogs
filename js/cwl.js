@@ -256,7 +256,7 @@ function renderRow(entry, index) {
         <div class="member-name">${escapeHtml(player.name)}${th17Tag}</div>
         <div class="member-tag">${escapeHtml(player.tag)}</div>
       </td>
-      <td>${tierBadgeHtml(player.tag)}</td>
+      <td>${tierBadgeHtml(player.tag)}${rankChangeBadge(player.tag)}</td>
       <td class="cwl-score-cell"><strong>${data.score.toFixed(2)}</strong></td>
       <td>${data.attackScore.toFixed(2)}</td>
       <td>${defenseCell}</td>
