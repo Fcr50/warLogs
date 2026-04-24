@@ -10,8 +10,8 @@
       "opponent": {
         "name": "...HELL FOLLOWS",
         "tag": "#2CVJP29Y",
-        "stars": 0,
-        "destructionPercentage": 0,
+        "stars": 3,
+        "destructionPercentage": 4,
         "members": [
           {
             "tag": "#ULCP28LV",
@@ -116,15 +116,10 @@
         ]
       },
       "clan": {
-        "stars": 5,
-        "destructionPercentage": 7.72
+        "stars": 10,
+        "destructionPercentage": 15.48
       },
       "sixHourNonAttackers": [
-        {
-          "tag": "#2LY0P2L9U",
-          "name": "LucasHG9",
-          "townhallLevel": 18
-        },
         {
           "tag": "#QQC8P9C9R",
           "name": "Gs.prieto",
@@ -153,11 +148,6 @@
         {
           "tag": "#QGQJGURCL",
           "name": "SAFONOV",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#GJ2LQVQJ",
-          "name": "Fer",
           "townhallLevel": 18
         },
         {
@@ -237,7 +227,14 @@
           "name": "LucasHG9",
           "townhallLevel": 18,
           "mapPosition": 12,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 94,
+              "order": 5,
+              "defenderTag": "#9YPCCL00Q"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -316,7 +313,14 @@
           "name": "Fer",
           "townhallLevel": 18,
           "mapPosition": 4,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 4,
+              "defenderTag": "#GQJ98V00"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -362,7 +366,14 @@
           "townhallLevel": 17,
           "mapPosition": 21,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#QYC8GGUQ",
+              "attackerMapPosition": 23
+            }
+          ],
           "missedAttacks": 0
         },
         {
