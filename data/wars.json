@@ -10,8 +10,8 @@
       "opponent": {
         "name": "...HELL FOLLOWS",
         "tag": "#2CVJP29Y",
-        "stars": 3,
-        "destructionPercentage": 4,
+        "stars": 6,
+        "destructionPercentage": 8,
         "members": [
           {
             "tag": "#ULCP28LV",
@@ -116,18 +116,13 @@
         ]
       },
       "clan": {
-        "stars": 16,
-        "destructionPercentage": 23.48
+        "stars": 19,
+        "destructionPercentage": 27.6
       },
       "sixHourNonAttackers": [
         {
           "tag": "#QQC8P9C9R",
           "name": "Gs.prieto",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#2R89QJL9Q",
-          "name": "Hisoka",
           "townhallLevel": 18
         },
         {
@@ -242,7 +237,14 @@
           "name": "Hisoka",
           "townhallLevel": 18,
           "mapPosition": 16,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 87,
+              "order": 11,
+              "defenderTag": "#CL8R9J8L"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -257,6 +259,12 @@
               "destructionPercentage": 100,
               "order": 8,
               "defenderTag": "#29LL828Q"
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 96,
+              "order": 10,
+              "defenderTag": "#PC802LPCL"
             }
           ],
           "defensesReceived": [],
@@ -404,7 +412,14 @@
               "defenderTag": "#PURLPYQL"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#QYC8GGUQ",
+              "attackerMapPosition": 23
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -470,6 +485,12 @@
               "destructionPercentage": 100,
               "order": 7,
               "defenderTag": "#2Y29YGVV0"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 12,
+              "defenderTag": "#CL8R9J8L"
             }
           ],
           "defensesReceived": [],
