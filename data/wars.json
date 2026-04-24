@@ -10,8 +10,8 @@
       "opponent": {
         "name": "...HELL FOLLOWS",
         "tag": "#2CVJP29Y",
-        "stars": 14,
-        "destructionPercentage": 19.4,
+        "stars": 18,
+        "destructionPercentage": 25.36,
         "members": [
           {
             "tag": "#ULCP28LV",
@@ -116,20 +116,10 @@
         ]
       },
       "clan": {
-        "stars": 42,
-        "destructionPercentage": 58.44
+        "stars": 46,
+        "destructionPercentage": 65.24
       },
       "sixHourNonAttackers": [
-        {
-          "tag": "#QGQJGURCL",
-          "name": "SAFONOV",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#R82JG8Q2",
-          "name": "DEFÉOGLORIOSO",
-          "townhallLevel": 18
-        },
         {
           "tag": "#PLU2VCLG",
           "name": "Phoenix",
@@ -302,7 +292,14 @@
           "name": "SAFONOV",
           "townhallLevel": 18,
           "mapPosition": 8,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 76,
+              "order": 29,
+              "defenderTag": "#VV9QQU8R"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -327,7 +324,14 @@
           "name": "DEFÉOGLORIOSO",
           "townhallLevel": 18,
           "mapPosition": 15,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 94,
+              "order": 28,
+              "defenderTag": "#PVY2PV9J0"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -387,7 +391,14 @@
           "townhallLevel": 18,
           "mapPosition": 19,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 69,
+              "attackerTag": "#2Y29YGVV0",
+              "attackerMapPosition": 18
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -435,7 +446,14 @@
           "townhallLevel": 18,
           "mapPosition": 20,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 80,
+              "attackerTag": "#2Y29YGVV0",
+              "attackerMapPosition": 18
+            }
+          ],
           "missedAttacks": 0
         },
         {
