@@ -39,14 +39,11 @@ function main() {
     if (prevRanks[tag] != null) statsByTag[tag].prevRank = prevRanks[tag];
   });
 
-  // Normalized score 0-100 (min-max among players with attacks)
-  const scores = sorted.map(([, e]) => e.score);
-  const minScore = scores.length ? Math.min(...scores) : 0;
-  const maxScore = scores.length ? Math.max(...scores) : 1;
-  const range = maxScore - minScore || 1;
-  for (const [tag, entry] of Object.entries(statsByTag)) {
+  // Normalized score 0-100 based on theoretical maximum (~3.5)
+  const MAX_SCORE = 3.5;
+  for (const [, entry] of Object.entries(statsByTag)) {
     entry.normalizedScore = entry.totalAttacks > 0
-      ? Math.round(((entry.score - minScore) / range) * 10000) / 100
+      ? Math.round(Math.min(entry.score / MAX_SCORE, 1) * 10000) / 100
       : 0;
   }
 
