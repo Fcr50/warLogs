@@ -20,8 +20,9 @@ function getStats(tag) {
 
 function rankChangeBadge(s) {
   if (s.prevRank == null || s.rank == null) return '';
-  if (s.prevRank > s.rank)  return `<span class="rank-change rank-up"   title="era #${s.prevRank}">🔺</span>`;
-  if (s.prevRank < s.rank)  return `<span class="rank-change rank-down"  title="era #${s.prevRank}">🔻</span>`;
+  const diff = s.prevRank - s.rank;
+  if (diff > 0) return `<span class="rank-change rank-up"   title="era #${s.prevRank}">🔺${diff}</span>`;
+  if (diff < 0) return `<span class="rank-change rank-down" title="era #${s.prevRank}">🔻${Math.abs(diff)}</span>`;
   return `<span class="rank-change rank-same" title="mesma posição">➖</span>`;
 }
 
