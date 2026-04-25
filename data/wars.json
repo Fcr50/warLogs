@@ -10,8 +10,8 @@
       "opponent": {
         "name": "...HELL FOLLOWS",
         "tag": "#2CVJP29Y",
-        "stars": 49,
-        "destructionPercentage": 67.92,
+        "stars": 58,
+        "destructionPercentage": 79.92,
         "members": [
           {
             "tag": "#ULCP28LV",
@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 60,
-        "destructionPercentage": 83.12
+        "stars": 66,
+        "destructionPercentage": 91.08
       },
       "sixHourNonAttackers": [
         {
@@ -163,9 +163,22 @@
               "destructionPercentage": 94,
               "order": 5,
               "defenderTag": "#9YPCCL00Q"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 52,
+              "defenderTag": "#2GJ9Y9VUY"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#2UUYRCGL2",
+              "attackerMapPosition": 14
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -210,7 +223,14 @@
               "defenderTag": "#PC802LPCL"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#CL8R9J8L",
+              "attackerMapPosition": 16
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -422,7 +442,14 @@
           "townhallLevel": 18,
           "mapPosition": 11,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#2RPJLLG9U",
+              "attackerMapPosition": 19
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -446,7 +473,20 @@
           "name": "Warlord Raivon",
           "townhallLevel": 18,
           "mapPosition": 19,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 98,
+              "order": 53,
+              "defenderTag": "#2RPJLLG9U"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 56,
+              "defenderTag": "#LGJQYUYC9"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 2,
