@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-25T18:50:21.032Z",
+  "generatedAt": "2026-04-25T19:05:25.522Z",
   "totalWars": 3,
   "liveWar": {
     "opponentName": "...HELL FOLLOWS",
@@ -873,6 +873,42 @@
     },
     {
       "player": {
+        "tag": "#Y299L8UV",
+        "name": "Zen'oh",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 0,
+        "rawScore": 0,
+        "confidence": 0,
+        "tier": "F",
+        "attackScore": 0,
+        "defenseScore": 0,
+        "reliability": 0,
+        "formScore": 0,
+        "warsInRoster": 0,
+        "attacksUsed": 0,
+        "attacksAvailable": 0,
+        "avgDestruction": 0,
+        "totalAttacks": 0,
+        "totalStars": 0,
+        "count3Stars": 0,
+        "avgStars": 0,
+        "threeStarRate": 0,
+        "totalMissed": 0,
+        "avgPositionDiff": 0,
+        "hasAnyDefense": false,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.56,
+          "defense": 0,
+          "reliability": 0.3067,
+          "form": 0.1333
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#LV98Q8PYY",
         "name": "Vinicius",
         "townhallLevel": 18
@@ -983,6 +1019,13 @@
   "noDataList": [
     {
       "player": {
+        "tag": "#Y299L8UV",
+        "name": "Zen'oh",
+        "townhallLevel": 18
+      }
+    },
+    {
+      "player": {
         "tag": "#LV98Q8PYY",
         "name": "Vinicius",
         "townhallLevel": 18
@@ -1052,6 +1095,16 @@
       "prevRank": 11,
       "normalizedScore": 55.3
     },
+    "#Y299L8UV": {
+      "tier": "F",
+      "score": 0,
+      "avgStars": 0,
+      "totalStars": 0,
+      "totalAttacks": 0,
+      "warsInRoster": 0,
+      "totalMissed": 0,
+      "normalizedScore": 0
+    },
     "#22C820V9L": {
       "tier": "B",
       "score": 1.5514432640142806,
@@ -1088,18 +1141,6 @@
       "prevRank": 15,
       "normalizedScore": 52.43
     },
-    "#QQC8P9C9R": {
-      "tier": "A",
-      "score": 1.954629792567822,
-      "avgStars": 2.625,
-      "totalStars": 21,
-      "totalAttacks": 8,
-      "warsInRoster": 4,
-      "totalMissed": 0,
-      "rank": 8,
-      "prevRank": 8,
-      "normalizedScore": 55.85
-    },
     "#8CJ8YJY0P": {
       "tier": "A",
       "score": 1.8726730691092357,
@@ -1111,6 +1152,18 @@
       "rank": 14,
       "prevRank": 14,
       "normalizedScore": 53.5
+    },
+    "#QQC8P9C9R": {
+      "tier": "A",
+      "score": 1.954629792567822,
+      "avgStars": 2.625,
+      "totalStars": 21,
+      "totalAttacks": 8,
+      "warsInRoster": 4,
+      "totalMissed": 0,
+      "rank": 8,
+      "prevRank": 8,
+      "normalizedScore": 55.85
     },
     "#QJVQVRPU": {
       "tier": "S",
