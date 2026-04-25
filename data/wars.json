@@ -10,8 +10,8 @@
       "opponent": {
         "name": "...HELL FOLLOWS",
         "tag": "#2CVJP29Y",
-        "stars": 35,
-        "destructionPercentage": 49.04,
+        "stars": 38,
+        "destructionPercentage": 53.04,
         "members": [
           {
             "tag": "#ULCP28LV",
@@ -315,7 +315,14 @@
               "defenderTag": "#VV9QQU8R"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#VV9QQU8R",
+              "attackerMapPosition": 8
+            }
+          ],
           "missedAttacks": 0
         },
         {
