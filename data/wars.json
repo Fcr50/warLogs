@@ -116,15 +116,10 @@
         ]
       },
       "clan": {
-        "stars": 57,
-        "destructionPercentage": 77.8
+        "stars": 60,
+        "destructionPercentage": 81.8
       },
       "sixHourNonAttackers": [
-        {
-          "tag": "#2QL0VR9GU",
-          "name": "Marcola",
-          "townhallLevel": 18
-        },
         {
           "tag": "#R82JG8Q2",
           "name": "DEFÉOGLORIOSO",
@@ -205,7 +200,14 @@
           "name": "Marcola",
           "townhallLevel": 18,
           "mapPosition": 6,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 29,
+              "defenderTag": "#8VU92RGQ2"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
