@@ -116,15 +116,10 @@
         ]
       },
       "clan": {
-        "stars": 5,
-        "destructionPercentage": 6.96
+        "stars": 12,
+        "destructionPercentage": 16
       },
       "sixHourNonAttackers": [
-        {
-          "tag": "#2LY0P2L9U",
-          "name": "LucasHG9",
-          "townhallLevel": 18
-        },
         {
           "tag": "#QQC8P9C9R",
           "name": "Gs.prieto",
@@ -201,11 +196,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#YPVQVU982",
-          "name": "亗 ＨＡＤＥＳ_０７ 亗",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#Q8PRP98QG",
           "name": "LUCIFENIX_07⚡️",
           "townhallLevel": 15
@@ -242,7 +232,14 @@
           "name": "LucasHG9",
           "townhallLevel": 18,
           "mapPosition": 11,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 4,
+              "defenderTag": "#UQVR2UJ0"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -302,6 +299,12 @@
               "destructionPercentage": 100,
               "order": 2,
               "defenderTag": "#LLP90CR8"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 3,
+              "defenderTag": "#2QJR9ULVQ"
             }
           ],
           "defensesReceived": [],
@@ -418,7 +421,14 @@
           "name": "亗 ＨＡＤＥＳ_０７ 亗",
           "townhallLevel": 18,
           "mapPosition": 3,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 5,
+              "defenderTag": "#2L2JVU0V"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
