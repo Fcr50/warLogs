@@ -10,8 +10,8 @@
       "opponent": {
         "name": "Love'n'War",
         "tag": "#P8V88RU",
-        "stars": 0,
-        "destructionPercentage": 0,
+        "stars": 3,
+        "destructionPercentage": 4,
         "members": [
           {
             "tag": "#R82J0C2Q",
@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 12,
-        "destructionPercentage": 16
+        "stars": 32,
+        "destructionPercentage": 43.92
       },
       "sixHourNonAttackers": [
         {
@@ -126,33 +126,13 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#2R89QJL9Q",
-          "name": "Hisoka",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#2QL0VR9GU",
           "name": "Marcola",
           "townhallLevel": 18
         },
         {
-          "tag": "#8YJYY92GC",
-          "name": "RussiaN",
-          "townhallLevel": 17
-        },
-        {
-          "tag": "#8CJ8YJY0P",
-          "name": "ChrolloLucilfer",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#QGQJGURCL",
           "name": "SAFONOV",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#GJ2LQVQJ",
-          "name": "Fer",
           "townhallLevel": 18
         },
         {
@@ -176,11 +156,6 @@
           "townhallLevel": 17
         },
         {
-          "tag": "#80LUCC9YV",
-          "name": "Lobo ®",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#GGVCRYP8P",
           "name": "gui",
           "townhallLevel": 17
@@ -194,11 +169,6 @@
           "tag": "#P9C0LVLU2",
           "name": "VINGADOR⚡",
           "townhallLevel": 18
-        },
-        {
-          "tag": "#Q8PRP98QG",
-          "name": "LUCIFENIX_07⚡️",
-          "townhallLevel": 15
         },
         {
           "tag": "#LYJG0L8G",
@@ -257,7 +227,14 @@
           "name": "Hisoka",
           "townhallLevel": 18,
           "mapPosition": 16,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 98,
+              "order": 6,
+              "defenderTag": "#C020PCR2"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -275,7 +252,20 @@
           "name": "RussiaN",
           "townhallLevel": 17,
           "mapPosition": 22,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 9,
+              "defenderTag": "#88QUVRG9"
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 77,
+              "order": 13,
+              "defenderTag": "#C020PCR2"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -284,7 +274,14 @@
           "name": "ChrolloLucilfer",
           "townhallLevel": 18,
           "mapPosition": 7,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 14,
+              "defenderTag": "#2000LQUQJ"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -324,7 +321,14 @@
           "name": "Fer",
           "townhallLevel": 18,
           "mapPosition": 4,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 11,
+              "defenderTag": "#GL09QRJU"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -377,7 +381,14 @@
           "townhallLevel": 17,
           "mapPosition": 19,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#PU2QP8QP",
+              "attackerMapPosition": 19
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -385,7 +396,14 @@
           "name": "Lobo ®",
           "townhallLevel": 18,
           "mapPosition": 2,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 7,
+              "defenderTag": "#L82PG9LR"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -437,7 +455,20 @@
           "name": "LUCIFENIX_07⚡️",
           "townhallLevel": 15,
           "mapPosition": 25,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 8,
+              "defenderTag": "#9PLGJ8QYP"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 10,
+              "defenderTag": "#9Y9V88QRY"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
