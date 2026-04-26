@@ -10,8 +10,8 @@
       "opponent": {
         "name": "Love'n'War",
         "tag": "#P8V88RU",
-        "stars": 8,
-        "destructionPercentage": 11.44,
+        "stars": 11,
+        "destructionPercentage": 15.44,
         "members": [
           {
             "tag": "#R82J0C2Q",
@@ -116,18 +116,13 @@
         ]
       },
       "clan": {
-        "stars": 35,
-        "destructionPercentage": 49.72
+        "stars": 38,
+        "destructionPercentage": 53.72
       },
       "sixHourNonAttackers": [
         {
           "tag": "#2QL0VR9GU",
           "name": "Marcola",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QGQJGURCL",
-          "name": "SAFONOV",
           "townhallLevel": 18
         },
         {
@@ -316,7 +311,14 @@
           "name": "SAFONOV",
           "townhallLevel": 18,
           "mapPosition": 8,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 20,
+              "defenderTag": "#QYRUCR282"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -507,7 +509,14 @@
           "townhallLevel": 18,
           "mapPosition": 23,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#88VJG0CL9",
+              "attackerMapPosition": 23
+            }
+          ],
           "missedAttacks": 0
         },
         {
