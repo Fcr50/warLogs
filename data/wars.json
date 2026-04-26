@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 41,
-        "destructionPercentage": 57.72
+        "stars": 48,
+        "destructionPercentage": 65.8
       },
       "sixHourNonAttackers": [
         {
@@ -136,11 +136,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#22C820V9L",
-          "name": "Alflen",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#VPPQ8VLV",
           "name": "GABRIEL LOBATO",
           "townhallLevel": 17
@@ -149,11 +144,6 @@
           "tag": "#GGVCRYP8P",
           "name": "gui",
           "townhallLevel": 17
-        },
-        {
-          "tag": "#2Q2ULRCUV",
-          "name": "Aflen",
-          "townhallLevel": 18
         },
         {
           "tag": "#LYJG0L8G",
@@ -372,7 +362,14 @@
           "name": "Alflen",
           "townhallLevel": 18,
           "mapPosition": 12,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 24,
+              "defenderTag": "#2GPLP8G82"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -422,7 +419,20 @@
           "name": "Aflen",
           "townhallLevel": 18,
           "mapPosition": 18,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 22,
+              "defenderTag": "#P9RR9JVYG"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 23,
+              "defenderTag": "#C020PCR2"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
