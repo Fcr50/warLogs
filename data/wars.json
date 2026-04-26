@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 0,
-        "destructionPercentage": 0
+        "stars": 5,
+        "destructionPercentage": 6.96
       },
       "sixHourNonAttackers": [
         {
@@ -151,11 +151,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#2GP2JUU2",
-          "name": "Gustavo Lázaro",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#QGQJGURCL",
           "name": "SAFONOV",
           "townhallLevel": 18
@@ -173,11 +168,6 @@
         {
           "tag": "#L8RG2PV0G",
           "name": "joaoaoaoao",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#PLU2VCLG",
-          "name": "Phoenix",
           "townhallLevel": 18
         },
         {
@@ -306,7 +296,14 @@
           "name": "Gustavo Lázaro",
           "townhallLevel": 18,
           "mapPosition": 14,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 2,
+              "defenderTag": "#LLP90CR8"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -351,7 +348,14 @@
           "name": "Phoenix",
           "townhallLevel": 18,
           "mapPosition": 10,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 74,
+              "order": 1,
+              "defenderTag": "#2QJR9ULVQ"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
