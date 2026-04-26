@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 48,
-        "destructionPercentage": 65.8
+        "stars": 53,
+        "destructionPercentage": 73.76
       },
       "sixHourNonAttackers": [
         {
@@ -134,11 +134,6 @@
           "tag": "#L8RG2PV0G",
           "name": "joaoaoaoao",
           "townhallLevel": 18
-        },
-        {
-          "tag": "#VPPQ8VLV",
-          "name": "GABRIEL LOBATO",
-          "townhallLevel": 17
         },
         {
           "tag": "#GGVCRYP8P",
@@ -158,11 +153,6 @@
         {
           "tag": "#LRC0U92LV",
           "name": "Dj_HenriqSP2",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QJVQVRPU",
-          "name": "Frnnn",
           "townhallLevel": 18
         }
       ],
@@ -378,7 +368,14 @@
           "name": "GABRIEL LOBATO",
           "townhallLevel": 17,
           "mapPosition": 19,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 99,
+              "order": 25,
+              "defenderTag": "#PU2QP8QP"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -536,7 +533,14 @@
           "name": "Frnnn",
           "townhallLevel": 18,
           "mapPosition": 5,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 26,
+              "defenderTag": "#YLGGJ98Y"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
