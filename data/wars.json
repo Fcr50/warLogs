@@ -10,8 +10,8 @@
       "opponent": {
         "name": "Love'n'War",
         "tag": "#P8V88RU",
-        "stars": 65,
-        "destructionPercentage": 87.44,
+        "stars": 69,
+        "destructionPercentage": 92,
         "members": [
           {
             "tag": "#R82J0C2Q",
@@ -274,6 +274,12 @@
               "destructionPercentage": 86,
               "attackerTag": "#88QUVRG9",
               "attackerMapPosition": 22
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#PU2QP8QP",
+              "attackerMapPosition": 19
             }
           ],
           "missedAttacks": 0
@@ -834,7 +840,14 @@
               "defenderTag": "#28CPY0VR8"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#G8G2UQR0",
+              "attackerMapPosition": 1
+            }
+          ],
           "missedAttacks": 0
         }
       ]
