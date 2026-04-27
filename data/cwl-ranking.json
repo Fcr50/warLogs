@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-27T14:50:21.215Z",
+  "generatedAt": "2026-04-27T15:05:29.187Z",
   "totalWars": 4,
   "liveWar": {
     "opponentName": "Love'n'War",
@@ -410,12 +410,12 @@
         "townhallLevel": 18
       },
       "data": {
-        "score": 2.1708816574082883,
-        "rawScore": 2.1708816574082883,
+        "score": 2.0959332008698666,
+        "rawScore": 2.0959332008698666,
         "confidence": 1,
         "tier": "C",
         "attackScore": 2.552968801601689,
-        "defenseScore": 0.49253904294231726,
+        "defenseScore": 0.1927452167886292,
         "reliability": 1,
         "formScore": 2.855,
         "warsInRoster": 6,
@@ -585,42 +585,6 @@
     },
     {
       "player": {
-        "tag": "#PLU2VCLG",
-        "name": "Phoenix",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 1.8687799585730231,
-        "rawScore": 1.8687799585730231,
-        "confidence": 1,
-        "tier": "B",
-        "attackScore": 2.1884957132945555,
-        "defenseScore": 0.30444703595724004,
-        "reliability": 0.85,
-        "formScore": 2.87,
-        "warsInRoster": 6,
-        "attacksUsed": 10,
-        "attacksAvailable": 12,
-        "avgDestruction": 91.2,
-        "totalAttacks": 10,
-        "totalStars": 26,
-        "count3Stars": 7,
-        "avgStars": 2.6,
-        "threeStarRate": 0.7,
-        "totalMissed": 2,
-        "avgPositionDiff": -1,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
         "tag": "#R82JG8Q2",
         "name": "DEFÉOGLORIOSO",
         "townhallLevel": 18
@@ -681,6 +645,42 @@
         "threeStarRate": 0.75,
         "totalMissed": 0,
         "avgPositionDiff": -6.166666666666667,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#PLU2VCLG",
+        "name": "Phoenix",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 1.8421547130156224,
+        "rawScore": 1.8421547130156224,
+        "confidence": 1,
+        "tier": "B",
+        "attackScore": 2.1884957132945555,
+        "defenseScore": 0.19794605372763624,
+        "reliability": 0.85,
+        "formScore": 2.87,
+        "warsInRoster": 6,
+        "attacksUsed": 10,
+        "attacksAvailable": 12,
+        "avgDestruction": 91.2,
+        "totalAttacks": 10,
+        "totalStars": 26,
+        "count3Stars": 7,
+        "avgStars": 2.6,
+        "threeStarRate": 0.7,
+        "totalMissed": 2,
+        "avgPositionDiff": -1,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1387,15 +1387,15 @@
     },
     "#PLU2VCLG": {
       "tier": "B",
-      "score": 1.8687799585730231,
+      "score": 1.8421547130156224,
       "avgStars": 2.6,
       "totalStars": 26,
       "totalAttacks": 10,
       "warsInRoster": 6,
       "totalMissed": 2,
-      "rank": 20,
+      "rank": 22,
       "prevRank": 20,
-      "normalizedScore": 53.39
+      "normalizedScore": 52.63
     },
     "#LJPQCQPYL": {
       "tier": "F",
@@ -1427,7 +1427,7 @@
       "totalAttacks": 8,
       "warsInRoster": 4,
       "totalMissed": 0,
-      "rank": 22,
+      "rank": 21,
       "prevRank": 22,
       "normalizedScore": 53.15
     },
@@ -1469,7 +1469,7 @@
     },
     "#80LUCC9YV": {
       "tier": "B",
-      "score": 2.1708816574082883,
+      "score": 2.0959332008698666,
       "avgStars": 2.1666666666666665,
       "totalStars": 26,
       "totalAttacks": 12,
@@ -1477,7 +1477,7 @@
       "totalMissed": 0,
       "rank": 15,
       "prevRank": 15,
-      "normalizedScore": 62.03
+      "normalizedScore": 59.88
     },
     "#QQULJG9": {
       "tier": "F",
@@ -1497,7 +1497,7 @@
       "totalAttacks": 10,
       "warsInRoster": 6,
       "totalMissed": 0,
-      "rank": 21,
+      "rank": 20,
       "prevRank": 21,
       "normalizedScore": 53.32
     },
