@@ -1,6 +1,732 @@
 {
   "wars": [
     {
+      "endTime": "20260427T230007.000Z",
+      "startTime": "2026-04-26T23:00:07.000Z",
+      "state": "inWar",
+      "result": "inProgress",
+      "teamSize": 25,
+      "absencesRecorded": true,
+      "opponent": {
+        "name": "Love'n'War",
+        "tag": "#P8V88RU",
+        "stars": 39,
+        "destructionPercentage": 54.36,
+        "members": [
+          {
+            "tag": "#R82J0C2Q",
+            "mapPosition": 17
+          },
+          {
+            "tag": "#2000LQUQJ",
+            "mapPosition": 7
+          },
+          {
+            "tag": "#28CPY0VR8",
+            "mapPosition": 20
+          },
+          {
+            "tag": "#2QJR9ULVQ",
+            "mapPosition": 10
+          },
+          {
+            "tag": "#L82PG9LR",
+            "mapPosition": 2
+          },
+          {
+            "tag": "#G8G2UQR0",
+            "mapPosition": 1
+          },
+          {
+            "tag": "#88QUVRG9",
+            "mapPosition": 22
+          },
+          {
+            "tag": "#9Y9V88QRY",
+            "mapPosition": 24
+          },
+          {
+            "tag": "#RPQVULP",
+            "mapPosition": 15
+          },
+          {
+            "tag": "#2L2JVU0V",
+            "mapPosition": 3
+          },
+          {
+            "tag": "#L8RCCLRR",
+            "mapPosition": 13
+          },
+          {
+            "tag": "#LLP90CR8",
+            "mapPosition": 14
+          },
+          {
+            "tag": "#YLGGJ98Y",
+            "mapPosition": 5
+          },
+          {
+            "tag": "#PU2QP8QP",
+            "mapPosition": 19
+          },
+          {
+            "tag": "#UQVR2UJ0",
+            "mapPosition": 11
+          },
+          {
+            "tag": "#C020PCR2",
+            "mapPosition": 16
+          },
+          {
+            "tag": "#8VU92RGQ2",
+            "mapPosition": 6
+          },
+          {
+            "tag": "#2GPLP8G82",
+            "mapPosition": 12
+          },
+          {
+            "tag": "#GL09QRJU",
+            "mapPosition": 4
+          },
+          {
+            "tag": "#9PLGJ8QYP",
+            "mapPosition": 25
+          },
+          {
+            "tag": "#2YV8UQ9CR",
+            "mapPosition": 21
+          },
+          {
+            "tag": "#RGC0PG2U",
+            "mapPosition": 9
+          },
+          {
+            "tag": "#P9RR9JVYG",
+            "mapPosition": 18
+          },
+          {
+            "tag": "#88VJG0CL9",
+            "mapPosition": 23
+          },
+          {
+            "tag": "#QYRUCR282",
+            "mapPosition": 8
+          }
+        ]
+      },
+      "clan": {
+        "stars": 75,
+        "destructionPercentage": 100
+      },
+      "sixHourNonAttackers": [
+        {
+          "tag": "#R82JG8Q2",
+          "name": "DEFÉOGLORIOSO",
+          "townhallLevel": 18
+        },
+        {
+          "tag": "#GQU9Y0CQ8",
+          "name": "Scok♤",
+          "townhallLevel": 18
+        }
+      ],
+      "members": [
+        {
+          "tag": "#2LY0P2L9U",
+          "name": "LucasHG9",
+          "townhallLevel": 18,
+          "mapPosition": 11,
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 4,
+              "defenderTag": "#UQVR2UJ0"
+            }
+          ],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 74,
+              "attackerTag": "#R82J0C2Q",
+              "attackerMapPosition": 17
+            },
+            {
+              "stars": 1,
+              "destructionPercentage": 58,
+              "attackerTag": "#UQVR2UJ0",
+              "attackerMapPosition": 11
+            }
+          ],
+          "missedAttacks": 0
+        },
+        {
+          "tag": "#QQC8P9C9R",
+          "name": "Gs.prieto",
+          "townhallLevel": 18,
+          "mapPosition": 9,
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 16,
+              "defenderTag": "#RGC0PG2U"
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 86,
+              "order": 54,
+              "defenderTag": "#G8G2UQR0"
+            }
+          ],
+          "defensesReceived": [],
+          "missedAttacks": 0
+        },
+        {
+          "tag": "#2R89QJL9Q",
+          "name": "Hisoka",
+          "townhallLevel": 18,
+          "mapPosition": 16,
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 98,
+              "order": 6,
+              "defenderTag": "#C020PCR2"
+            },
+            {
+              "stars": 1,
+              "destructionPercentage": 57,
+              "order": 38,
+              "defenderTag": "#G8G2UQR0"
+            }
+          ],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#C020PCR2",
+              "attackerMapPosition": 16
+            }
+          ],
+          "missedAttacks": 0
+        },
+        {
+          "tag": "#2QL0VR9GU",
+          "name": "Marcola",
+          "townhallLevel": 18,
+          "mapPosition": 6,
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 29,
+              "defenderTag": "#8VU92RGQ2"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 55,
+              "defenderTag": "#G8G2UQR0"
+            }
+          ],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#8VU92RGQ2",
+              "attackerMapPosition": 6
+            }
+          ],
+          "missedAttacks": 0
+        },
+        {
+          "tag": "#8YJYY92GC",
+          "name": "RussiaN",
+          "townhallLevel": 17,
+          "mapPosition": 22,
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 9,
+              "defenderTag": "#88QUVRG9"
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 77,
+              "order": 13,
+              "defenderTag": "#C020PCR2"
+            }
+          ],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 86,
+              "attackerTag": "#88QUVRG9",
+              "attackerMapPosition": 22
+            }
+          ],
+          "missedAttacks": 0
+        },
+        {
+          "tag": "#8CJ8YJY0P",
+          "name": "ChrolloLucilfer",
+          "townhallLevel": 18,
+          "mapPosition": 7,
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 14,
+              "defenderTag": "#2000LQUQJ"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 35,
+              "defenderTag": "#R82J0C2Q"
+            }
+          ],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#2000LQUQJ",
+              "attackerMapPosition": 7
+            }
+          ],
+          "missedAttacks": 0
+        },
+        {
+          "tag": "#2GP2JUU2",
+          "name": "Gustavo Lázaro",
+          "townhallLevel": 18,
+          "mapPosition": 14,
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 2,
+              "defenderTag": "#LLP90CR8"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 3,
+              "defenderTag": "#2QJR9ULVQ"
+            }
+          ],
+          "defensesReceived": [],
+          "missedAttacks": 0
+        },
+        {
+          "tag": "#QGQJGURCL",
+          "name": "SAFONOV",
+          "townhallLevel": 18,
+          "mapPosition": 8,
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 20,
+              "defenderTag": "#QYRUCR282"
+            }
+          ],
+          "defensesReceived": [],
+          "missedAttacks": 0
+        },
+        {
+          "tag": "#GJ2LQVQJ",
+          "name": "Fer",
+          "townhallLevel": 18,
+          "mapPosition": 4,
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 11,
+              "defenderTag": "#GL09QRJU"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 42,
+              "defenderTag": "#G8G2UQR0"
+            }
+          ],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#GL09QRJU",
+              "attackerMapPosition": 4
+            }
+          ],
+          "missedAttacks": 0
+        },
+        {
+          "tag": "#R82JG8Q2",
+          "name": "DEFÉOGLORIOSO",
+          "townhallLevel": 18,
+          "mapPosition": 15,
+          "attacks": [],
+          "defensesReceived": [],
+          "missedAttacks": 0
+        },
+        {
+          "tag": "#L8RG2PV0G",
+          "name": "joaoaoaoao",
+          "townhallLevel": 18,
+          "mapPosition": 17,
+          "attacks": [
+            {
+              "stars": 1,
+              "destructionPercentage": 50,
+              "order": 36,
+              "defenderTag": "#R82J0C2Q"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 37,
+              "defenderTag": "#UQVR2UJ0"
+            }
+          ],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 87,
+              "attackerTag": "#R82J0C2Q",
+              "attackerMapPosition": 17
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#C020PCR2",
+              "attackerMapPosition": 16
+            }
+          ],
+          "missedAttacks": 0
+        },
+        {
+          "tag": "#PLU2VCLG",
+          "name": "Phoenix",
+          "townhallLevel": 18,
+          "mapPosition": 10,
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 74,
+              "order": 1,
+              "defenderTag": "#2QJR9ULVQ"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 34,
+              "defenderTag": "#RPQVULP"
+            }
+          ],
+          "defensesReceived": [],
+          "missedAttacks": 0
+        },
+        {
+          "tag": "#22C820V9L",
+          "name": "Alflen",
+          "townhallLevel": 18,
+          "mapPosition": 12,
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 24,
+              "defenderTag": "#2GPLP8G82"
+            }
+          ],
+          "defensesReceived": [],
+          "missedAttacks": 0
+        },
+        {
+          "tag": "#VPPQ8VLV",
+          "name": "GABRIEL LOBATO",
+          "townhallLevel": 17,
+          "mapPosition": 19,
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 99,
+              "order": 25,
+              "defenderTag": "#PU2QP8QP"
+            }
+          ],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#PU2QP8QP",
+              "attackerMapPosition": 19
+            }
+          ],
+          "missedAttacks": 0
+        },
+        {
+          "tag": "#80LUCC9YV",
+          "name": "Lobo ®",
+          "townhallLevel": 18,
+          "mapPosition": 2,
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 7,
+              "defenderTag": "#L82PG9LR"
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 71,
+              "order": 39,
+              "defenderTag": "#2L2JVU0V"
+            }
+          ],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 99,
+              "attackerTag": "#L82PG9LR",
+              "attackerMapPosition": 2
+            }
+          ],
+          "missedAttacks": 0
+        },
+        {
+          "tag": "#GGVCRYP8P",
+          "name": "gui",
+          "townhallLevel": 17,
+          "mapPosition": 20,
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 32,
+              "defenderTag": "#28CPY0VR8"
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 79,
+              "order": 33,
+              "defenderTag": "#R82J0C2Q"
+            }
+          ],
+          "defensesReceived": [],
+          "missedAttacks": 0
+        },
+        {
+          "tag": "#2Q2ULRCUV",
+          "name": "Aflen",
+          "townhallLevel": 18,
+          "mapPosition": 18,
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 22,
+              "defenderTag": "#P9RR9JVYG"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 23,
+              "defenderTag": "#C020PCR2"
+            }
+          ],
+          "defensesReceived": [],
+          "missedAttacks": 0
+        },
+        {
+          "tag": "#P9C0LVLU2",
+          "name": "VINGADOR⚡",
+          "townhallLevel": 18,
+          "mapPosition": 1,
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 21,
+              "defenderTag": "#G8G2UQR0"
+            }
+          ],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#G8G2UQR0",
+              "attackerMapPosition": 1
+            }
+          ],
+          "missedAttacks": 0
+        },
+        {
+          "tag": "#YPVQVU982",
+          "name": "亗 ＨＡＤＥＳ_０７ 亗",
+          "townhallLevel": 18,
+          "mapPosition": 3,
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 5,
+              "defenderTag": "#2L2JVU0V"
+            }
+          ],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#2L2JVU0V",
+              "attackerMapPosition": 3
+            }
+          ],
+          "missedAttacks": 0
+        },
+        {
+          "tag": "#Q8PRP98QG",
+          "name": "LUCIFENIX_07⚡️",
+          "townhallLevel": 15,
+          "mapPosition": 25,
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 8,
+              "defenderTag": "#9PLGJ8QYP"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 10,
+              "defenderTag": "#9Y9V88QRY"
+            }
+          ],
+          "defensesReceived": [],
+          "missedAttacks": 0
+        },
+        {
+          "tag": "#LYJG0L8G",
+          "name": "GLADIADOR!!!",
+          "townhallLevel": 18,
+          "mapPosition": 13,
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 30,
+              "defenderTag": "#L8RCCLRR"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 31,
+              "defenderTag": "#2YV8UQ9CR"
+            }
+          ],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#L8RCCLRR",
+              "attackerMapPosition": 13
+            }
+          ],
+          "missedAttacks": 0
+        },
+        {
+          "tag": "#GQU9Y0CQ8",
+          "name": "Scok♤",
+          "townhallLevel": 18,
+          "mapPosition": 24,
+          "attacks": [],
+          "defensesReceived": [],
+          "missedAttacks": 0
+        },
+        {
+          "tag": "#LRC0U92LV",
+          "name": "Dj_HenriqSP2",
+          "townhallLevel": 18,
+          "mapPosition": 23,
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 27,
+              "defenderTag": "#PU2QP8QP"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 28,
+              "defenderTag": "#88VJG0CL9"
+            }
+          ],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#88VJG0CL9",
+              "attackerMapPosition": 23
+            }
+          ],
+          "missedAttacks": 0
+        },
+        {
+          "tag": "#QJVQVRPU",
+          "name": "Frnnn",
+          "townhallLevel": 18,
+          "mapPosition": 5,
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 26,
+              "defenderTag": "#YLGGJ98Y"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 40,
+              "defenderTag": "#G8G2UQR0"
+            }
+          ],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#UQVR2UJ0",
+              "attackerMapPosition": 11
+            }
+          ],
+          "missedAttacks": 0
+        },
+        {
+          "tag": "#LUR09RUP2",
+          "name": "andrei7zl",
+          "townhallLevel": 17,
+          "mapPosition": 21,
+          "attacks": [
+            {
+              "stars": 0,
+              "destructionPercentage": 45,
+              "order": 18,
+              "defenderTag": "#2YV8UQ9CR"
+            }
+          ],
+          "defensesReceived": [],
+          "missedAttacks": 0
+        }
+      ]
+    },
+    {
       "endTime": "20260427T201824.000Z",
       "startTime": "2026-04-26T20:18:24.000Z",
       "state": "inWar",
