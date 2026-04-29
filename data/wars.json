@@ -136,23 +136,13 @@
         ]
       },
       "clan": {
-        "stars": 0,
-        "destructionPercentage": 0
+        "stars": 9,
+        "destructionPercentage": 10
       },
       "sixHourNonAttackers": [
         {
           "tag": "#QR8R9QUV8",
           "name": "Dr.Hannibal",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#2LY0P2L9U",
-          "name": "LucasHG9",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QQC8P9C9R",
-          "name": "Gs.prieto",
           "townhallLevel": 18
         },
         {
@@ -193,11 +183,6 @@
         {
           "tag": "#2GP2JUU2",
           "name": "Gustavo Lázaro",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QGQJGURCL",
-          "name": "SAFONOV",
           "townhallLevel": 18
         },
         {
@@ -306,7 +291,14 @@
           "name": "LucasHG9",
           "townhallLevel": 18,
           "mapPosition": 11,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 1,
+              "defenderTag": "#CPL2Y9GJ"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -315,7 +307,14 @@
           "name": "Gs.prieto",
           "townhallLevel": 18,
           "mapPosition": 12,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 3,
+              "defenderTag": "#2UJVQRU20"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -396,7 +395,14 @@
           "name": "SAFONOV",
           "townhallLevel": 18,
           "mapPosition": 10,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 2,
+              "defenderTag": "#8RU9P2YG0"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
