@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 33,
-        "destructionPercentage": 36.666668
+        "stars": 36,
+        "destructionPercentage": 40
       },
       "sixHourNonAttackers": [
         {
@@ -163,11 +163,6 @@
         {
           "tag": "#GJ2LQVQJ",
           "name": "Fer",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#R82JG8Q2",
-          "name": "DEFÉOGLORIOSO",
           "townhallLevel": 18
         },
         {
@@ -438,7 +433,14 @@
           "name": "DEFÉOGLORIOSO",
           "townhallLevel": 18,
           "mapPosition": 17,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 15,
+              "defenderTag": "#9LYP8L9VL"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
