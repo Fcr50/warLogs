@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-29T20:20:39.248Z",
+  "generatedAt": "2026-04-29T20:35:27.174Z",
   "totalWars": 5,
   "liveWar": {
     "opponentName": "Menceyatos!!!!!",
@@ -729,42 +729,6 @@
     },
     {
       "player": {
-        "tag": "#QR8R9QUV8",
-        "name": "Dr.Hannibal",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 1.63206857999513,
-        "rawScore": 2.331526542850186,
-        "confidence": 0.7,
-        "tier": "C",
-        "attackScore": 2.478460790803903,
-        "defenseScore": 0,
-        "reliability": 0.6799999999999999,
-        "formScore": 2.385,
-        "warsInRoster": 2,
-        "attacksUsed": 4,
-        "attacksAvailable": 4,
-        "avgDestruction": 82.75,
-        "totalAttacks": 4,
-        "totalStars": 9,
-        "count3Stars": 2,
-        "avgStars": 2.25,
-        "threeStarRate": 0.5,
-        "totalMissed": 0,
-        "avgPositionDiff": 2,
-        "hasAnyDefense": false,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.56,
-          "defense": 0,
-          "reliability": 0.3067,
-          "form": 0.1333
-        }
-      }
-    },
-    {
-      "player": {
         "tag": "#29LP0VJV0",
         "name": "Warlord Raivon",
         "townhallLevel": 18
@@ -789,6 +753,42 @@
         "threeStarRate": 0.3333333333333333,
         "totalMissed": 0,
         "avgPositionDiff": 0.75,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#QR8R9QUV8",
+        "name": "Dr.Hannibal",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 1.2240574724963473,
+        "rawScore": 1.748653532137639,
+        "confidence": 0.7,
+        "tier": "C",
+        "attackScore": 2.478460790803903,
+        "defenseScore": 0,
+        "reliability": 0.6799999999999999,
+        "formScore": 2.385,
+        "warsInRoster": 2,
+        "attacksUsed": 4,
+        "attacksAvailable": 4,
+        "avgDestruction": 82.75,
+        "totalAttacks": 4,
+        "totalStars": 9,
+        "count3Stars": 2,
+        "avgStars": 2.25,
+        "threeStarRate": 0.5,
+        "totalMissed": 0,
+        "avgPositionDiff": 2,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1363,7 +1363,7 @@
       "warsInRoster": 8,
       "totalMissed": 0,
       "rank": 13,
-      "prevRank": 11,
+      "prevRank": 13,
       "normalizedScore": 66.07
     },
     "#QQC8P9C9R": {
@@ -1416,15 +1416,15 @@
     },
     "#QR8R9QUV8": {
       "tier": "B",
-      "score": 1.63206857999513,
+      "score": 1.2240574724963473,
       "avgStars": 2.25,
       "totalStars": 9,
       "totalAttacks": 4,
       "warsInRoster": 2,
       "totalMissed": 0,
-      "rank": 25,
+      "rank": 27,
       "prevRank": 25,
-      "normalizedScore": 46.63
+      "normalizedScore": 34.97
     },
     "#L8RG2PV0G": {
       "tier": "B",
@@ -1525,7 +1525,7 @@
       "warsInRoster": 8,
       "totalMissed": 1,
       "rank": 12,
-      "prevRank": 13,
+      "prevRank": 12,
       "normalizedScore": 66.18
     },
     "#8P9GUPPC": {
@@ -1558,7 +1558,7 @@
       "totalAttacks": 6,
       "warsInRoster": 3,
       "totalMissed": 0,
-      "rank": 27,
+      "rank": 26,
       "prevRank": 27,
       "normalizedScore": 36.76
     },
@@ -1605,7 +1605,7 @@
       "warsInRoster": 8,
       "totalMissed": 0,
       "rank": 11,
-      "prevRank": 12,
+      "prevRank": 11,
       "normalizedScore": 66.68
     },
     "#JPVGQP8V": {
@@ -1638,7 +1638,7 @@
       "totalAttacks": 6,
       "warsInRoster": 3,
       "totalMissed": 0,
-      "rank": 26,
+      "rank": 25,
       "prevRank": 26,
       "normalizedScore": 40.69
     },
