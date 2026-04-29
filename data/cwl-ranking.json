@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-29T19:05:22.259Z",
+  "generatedAt": "2026-04-29T19:20:27.280Z",
   "totalWars": 5,
   "liveWar": {
     "opponentName": "Menceyatos!!!!!",
@@ -141,6 +141,42 @@
         "threeStarRate": 0.8571428571428571,
         "totalMissed": 0,
         "avgPositionDiff": -0.9166666666666666,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#QQC8P9C9R",
+        "name": "Gs.prieto",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.4909396973066062,
+        "rawScore": 2.4909396973066062,
+        "confidence": 1,
+        "tier": "A",
+        "attackScore": 3.192684543150231,
+        "defenseScore": 0.5540487567340382,
+        "reliability": 1,
+        "formScore": 3.215,
+        "warsInRoster": 8,
+        "attacksUsed": 15,
+        "attacksAvailable": 16,
+        "avgDestruction": 95.46666666666667,
+        "totalAttacks": 15,
+        "totalStars": 40,
+        "count3Stars": 11,
+        "avgStars": 2.6666666666666665,
+        "threeStarRate": 0.7333333333333333,
+        "totalMissed": 0,
+        "avgPositionDiff": -1.9230769230769231,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -357,42 +393,6 @@
         "threeStarRate": 0.8125,
         "totalMissed": 0,
         "avgPositionDiff": 1,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#QQC8P9C9R",
-        "name": "Gs.prieto",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.359142022672214,
-        "rawScore": 2.359142022672214,
-        "confidence": 1,
-        "tier": "A",
-        "attackScore": 3.192684543150231,
-        "defenseScore": 0.026858058196468363,
-        "reliability": 1,
-        "formScore": 3.215,
-        "warsInRoster": 8,
-        "attacksUsed": 15,
-        "attacksAvailable": 16,
-        "avgDestruction": 95.46666666666667,
-        "totalAttacks": 15,
-        "totalStars": 40,
-        "count3Stars": 11,
-        "avgStars": 2.6666666666666665,
-        "threeStarRate": 0.7333333333333333,
-        "totalMissed": 0,
-        "avgPositionDiff": -1.9230769230769231,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1230,7 +1230,7 @@
       "totalAttacks": 14,
       "warsInRoster": 8,
       "totalMissed": 0,
-      "rank": 7,
+      "rank": 8,
       "prevRank": 7,
       "normalizedScore": 69.66
     },
@@ -1242,7 +1242,7 @@
       "totalAttacks": 16,
       "warsInRoster": 8,
       "totalMissed": 0,
-      "rank": 9,
+      "rank": 10,
       "prevRank": 9,
       "normalizedScore": 69.23
     },
@@ -1254,7 +1254,7 @@
       "totalAttacks": 15,
       "warsInRoster": 8,
       "totalMissed": 0,
-      "rank": 8,
+      "rank": 9,
       "prevRank": 8,
       "normalizedScore": 69.39
     },
@@ -1278,7 +1278,7 @@
       "totalAttacks": 16,
       "warsInRoster": 8,
       "totalMissed": 0,
-      "rank": 5,
+      "rank": 6,
       "prevRank": 5,
       "normalizedScore": 70.81
     },
@@ -1350,7 +1350,7 @@
       "totalAttacks": 16,
       "warsInRoster": 8,
       "totalMissed": 0,
-      "rank": 10,
+      "rank": 11,
       "prevRank": 10,
       "normalizedScore": 67.41
     },
@@ -1362,21 +1362,21 @@
       "totalAttacks": 14,
       "warsInRoster": 7,
       "totalMissed": 0,
-      "rank": 6,
+      "rank": 7,
       "prevRank": 6,
       "normalizedScore": 69.71
     },
     "#QQC8P9C9R": {
       "tier": "A",
-      "score": 2.359142022672214,
+      "score": 2.4909396973066062,
       "avgStars": 2.6666666666666665,
       "totalStars": 40,
       "totalAttacks": 15,
       "warsInRoster": 8,
       "totalMissed": 0,
-      "rank": 11,
+      "rank": 5,
       "prevRank": 11,
-      "normalizedScore": 67.4
+      "normalizedScore": 71.17
     },
     "#2LY0P2L9U": {
       "tier": "S",
