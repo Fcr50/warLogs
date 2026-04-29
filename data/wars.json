@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 38,
-        "destructionPercentage": 43.3
+        "stars": 41,
+        "destructionPercentage": 46.633335
       },
       "sixHourNonAttackers": [
         {
@@ -163,11 +163,6 @@
         {
           "tag": "#GJ2LQVQJ",
           "name": "Fer",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#PLU2VCLG",
-          "name": "Phoenix",
           "townhallLevel": 18
         },
         {
@@ -458,7 +453,14 @@
           "name": "Phoenix",
           "townhallLevel": 18,
           "mapPosition": 7,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 19,
+              "defenderTag": "#YG2Q292VU"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
