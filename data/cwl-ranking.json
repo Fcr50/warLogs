@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-29T18:20:30.714Z",
+  "generatedAt": "2026-04-29T18:35:26.292Z",
   "totalWars": 5,
   "liveWar": {
     "opponentName": "Menceyatos!!!!!",
@@ -86,12 +86,12 @@
         "townhallLevel": 18
       },
       "data": {
-        "score": 2.5128186131088075,
-        "rawScore": 2.5128186131088075,
+        "score": 2.51016458404519,
+        "rawScore": 2.51016458404519,
         "confidence": 1,
         "tier": "S",
         "attackScore": 3.478088631938603,
-        "defenseScore": 0.04808555077837575,
+        "defenseScore": 0.03746943452390633,
         "reliability": 1,
         "formScore": 3.5,
         "warsInRoster": 8,
@@ -873,42 +873,6 @@
     },
     {
       "player": {
-        "tag": "#Q9YY2PV0U",
-        "name": "NARUTO",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 0.9037117500000001,
-        "rawScore": 1.8074235000000003,
-        "confidence": 0.5,
-        "tier": "C",
-        "attackScore": 2.6479250000000003,
-        "defenseScore": 0,
-        "reliability": 0,
-        "formScore": 2.435,
-        "warsInRoster": 1,
-        "attacksUsed": 2,
-        "attacksAvailable": 2,
-        "avgDestruction": 93.5,
-        "totalAttacks": 2,
-        "totalStars": 4,
-        "count3Stars": 0,
-        "avgStars": 2,
-        "threeStarRate": 0,
-        "totalMissed": 0,
-        "avgPositionDiff": -17.5,
-        "hasAnyDefense": false,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.56,
-          "defense": 0,
-          "reliability": 0.3067,
-          "form": 0.1333
-        }
-      }
-    },
-    {
-      "player": {
         "tag": "#20JC0J9JR",
         "name": "BTV✯Robin Hood",
         "townhallLevel": 18
@@ -933,6 +897,42 @@
         "threeStarRate": 1,
         "totalMissed": 0,
         "avgPositionDiff": 22.5,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#Q9YY2PV0U",
+        "name": "NARUTO",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 0.8194392500000001,
+        "rawScore": 1.6388785000000001,
+        "confidence": 0.5,
+        "tier": "C",
+        "attackScore": 2.6479250000000003,
+        "defenseScore": 1.133,
+        "reliability": 0,
+        "formScore": 2.435,
+        "warsInRoster": 1,
+        "attacksUsed": 2,
+        "attacksAvailable": 2,
+        "avgDestruction": 93.5,
+        "totalAttacks": 2,
+        "totalStars": 4,
+        "count3Stars": 0,
+        "avgStars": 2,
+        "threeStarRate": 0,
+        "totalMissed": 0,
+        "avgPositionDiff": -17.5,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1200,7 +1200,7 @@
   "statsByTag": {
     "#GJ2LQVQJ": {
       "tier": "S",
-      "score": 2.5128186131088075,
+      "score": 2.51016458404519,
       "avgStars": 2.9375,
       "totalStars": 47,
       "totalAttacks": 16,
@@ -1208,7 +1208,7 @@
       "totalMissed": 0,
       "rank": 3,
       "prevRank": 3,
-      "normalizedScore": 71.79
+      "normalizedScore": 71.72
     },
     "#P9C0LVLU2": {
       "tier": "S",
@@ -1342,18 +1342,6 @@
       "prevRank": 23,
       "normalizedScore": 55.53
     },
-    "#LYJG0L8G": {
-      "tier": "A",
-      "score": 2.43985582140161,
-      "avgStars": 2.7857142857142856,
-      "totalStars": 39,
-      "totalAttacks": 14,
-      "warsInRoster": 7,
-      "totalMissed": 0,
-      "rank": 5,
-      "prevRank": 5,
-      "normalizedScore": 69.71
-    },
     "#QJVQVRPU": {
       "tier": "A",
       "score": 2.359397887520882,
@@ -1365,6 +1353,18 @@
       "rank": 10,
       "prevRank": 10,
       "normalizedScore": 67.41
+    },
+    "#LYJG0L8G": {
+      "tier": "A",
+      "score": 2.43985582140161,
+      "avgStars": 2.7857142857142856,
+      "totalStars": 39,
+      "totalAttacks": 14,
+      "warsInRoster": 7,
+      "totalMissed": 0,
+      "rank": 5,
+      "prevRank": 5,
+      "normalizedScore": 69.71
     },
     "#QQC8P9C9R": {
       "tier": "A",
@@ -1446,9 +1446,21 @@
       "totalAttacks": 2,
       "warsInRoster": 1,
       "totalMissed": 0,
-      "rank": 32,
+      "rank": 31,
       "prevRank": 32,
       "normalizedScore": 25.23
+    },
+    "#PPPUQPVJY": {
+      "tier": "B",
+      "score": 1.2066342857142858,
+      "avgStars": 2.3333333333333335,
+      "totalStars": 14,
+      "totalAttacks": 6,
+      "warsInRoster": 3,
+      "totalMissed": 0,
+      "rank": 28,
+      "prevRank": 28,
+      "normalizedScore": 34.48
     },
     "#22C820V9L": {
       "tier": "B",
@@ -1474,27 +1486,15 @@
     },
     "#Q9YY2PV0U": {
       "tier": "C",
-      "score": 0.9037117500000001,
+      "score": 0.8194392500000001,
       "avgStars": 2,
       "totalStars": 4,
       "totalAttacks": 2,
       "warsInRoster": 1,
       "totalMissed": 0,
-      "rank": 31,
+      "rank": 32,
       "prevRank": 31,
-      "normalizedScore": 25.82
-    },
-    "#PPPUQPVJY": {
-      "tier": "B",
-      "score": 1.2066342857142858,
-      "avgStars": 2.3333333333333335,
-      "totalStars": 14,
-      "totalAttacks": 6,
-      "warsInRoster": 3,
-      "totalMissed": 0,
-      "rank": 28,
-      "prevRank": 28,
-      "normalizedScore": 34.48
+      "normalizedScore": 23.41
     },
     "#LV98Q8PYY": {
       "tier": "F",
@@ -1584,18 +1584,6 @@
       "prevRank": 14,
       "normalizedScore": 65.76
     },
-    "#VPPQ8VLV": {
-      "tier": "A",
-      "score": 2.3337958358597106,
-      "avgStars": 2.7857142857142856,
-      "totalStars": 39,
-      "totalAttacks": 14,
-      "warsInRoster": 8,
-      "totalMissed": 0,
-      "rank": 12,
-      "prevRank": 12,
-      "normalizedScore": 66.68
-    },
     "#8YJYY92GC": {
       "tier": "B",
       "score": 2.2434166573476397,
@@ -1607,6 +1595,18 @@
       "rank": 15,
       "prevRank": 15,
       "normalizedScore": 64.1
+    },
+    "#VPPQ8VLV": {
+      "tier": "A",
+      "score": 2.3337958358597106,
+      "avgStars": 2.7857142857142856,
+      "totalStars": 39,
+      "totalAttacks": 14,
+      "warsInRoster": 8,
+      "totalMissed": 0,
+      "rank": 12,
+      "prevRank": 12,
+      "normalizedScore": 66.68
     },
     "#JPVGQP8V": {
       "tier": "F",
