@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 23,
-        "destructionPercentage": 26.633333
+        "stars": 33,
+        "destructionPercentage": 36.666668
       },
       "sixHourNonAttackers": [
         {
@@ -159,11 +159,6 @@
           "tag": "#8P9GUPPC",
           "name": "✨ MaxB13 ✨",
           "townhallLevel": 18
-        },
-        {
-          "tag": "#8YJYY92GC",
-          "name": "RussiaN",
-          "townhallLevel": 17
         },
         {
           "tag": "#GJ2LQVQJ",
@@ -201,11 +196,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#80LUCC9YV",
-          "name": "Lobo ®",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#GGVCRYP8P",
           "name": "gui",
           "townhallLevel": 17
@@ -229,11 +219,6 @@
           "tag": "#Q8PRP98QG",
           "name": "LUCIFENIX_07⚡️",
           "townhallLevel": 15
-        },
-        {
-          "tag": "#LYJG0L8G",
-          "name": "GLADIADOR!!!",
-          "townhallLevel": 18
         },
         {
           "tag": "#GQU9Y0CQ8",
@@ -306,6 +291,12 @@
               "destructionPercentage": 100,
               "order": 3,
               "defenderTag": "#2UJVQRU20"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 10,
+              "defenderTag": "#80U9CVJR"
             }
           ],
           "defensesReceived": [],
@@ -368,7 +359,14 @@
           "name": "RussiaN",
           "townhallLevel": 17,
           "mapPosition": 25,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 11,
+              "defenderTag": "#80LV0Q8VR"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -494,7 +492,14 @@
           "name": "Lobo ®",
           "townhallLevel": 18,
           "mapPosition": 4,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 13,
+              "defenderTag": "#RJLY9Q0Y"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -548,7 +553,14 @@
           "name": "GLADIADOR!!!",
           "townhallLevel": 18,
           "mapPosition": 15,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 12,
+              "defenderTag": "#YV00CP8VC"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
