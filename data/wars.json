@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 41,
-        "destructionPercentage": 46.633335
+        "stars": 48,
+        "destructionPercentage": 53.333332
       },
       "sixHourNonAttackers": [
         {
@@ -181,11 +181,6 @@
           "townhallLevel": 17
         },
         {
-          "tag": "#29LP0VJV0",
-          "name": "Warlord Raivon",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#GGVCRYP8P",
           "name": "gui",
           "townhallLevel": 17
@@ -209,11 +204,6 @@
           "tag": "#Q8PRP98QG",
           "name": "LUCIFENIX_07⚡️",
           "townhallLevel": 15
-        },
-        {
-          "tag": "#GQU9Y0CQ8",
-          "name": "Scok♤",
-          "townhallLevel": 18
         },
         {
           "tag": "#2LGC8PGRY",
@@ -459,6 +449,12 @@
               "destructionPercentage": 100,
               "order": 19,
               "defenderTag": "#YG2Q292VU"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 20,
+              "defenderTag": "#YC020J0RL"
             }
           ],
           "defensesReceived": [],
@@ -496,7 +492,20 @@
           "name": "Warlord Raivon",
           "townhallLevel": 18,
           "mapPosition": 21,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 21,
+              "defenderTag": "#Y98UUJ09"
+            },
+            {
+              "stars": 1,
+              "destructionPercentage": 96,
+              "order": 22,
+              "defenderTag": "#UJ8GVCP"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -582,7 +591,14 @@
           "name": "Scok♤",
           "townhallLevel": 18,
           "mapPosition": 29,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 23,
+              "defenderTag": "#UJ8GVCP"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
