@@ -10,8 +10,8 @@
       "opponent": {
         "name": "40 and over w",
         "tag": "#PGVLU00",
-        "stars": 48,
-        "destructionPercentage": 59.666668,
+        "stars": 51,
+        "destructionPercentage": 63,
         "members": [
           {
             "tag": "#U998J0YJ",
@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 47,
-        "destructionPercentage": 53.2
+        "stars": 49,
+        "destructionPercentage": 56.166668
       },
       "sixHourNonAttackers": [
         {
@@ -194,11 +194,6 @@
           "tag": "#8LL8J8UVG",
           "name": "NOT MOREIRA",
           "townhallLevel": 18
-        },
-        {
-          "tag": "#LUR09RUP2",
-          "name": "andrei7zl",
-          "townhallLevel": 17
         },
         {
           "tag": "#PPPUQPVJY",
@@ -636,7 +631,14 @@
               "defenderTag": "#82UPR9PL2"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#LGGU2QPG",
+              "attackerMapPosition": 14
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -740,7 +742,14 @@
           "name": "andrei7zl",
           "townhallLevel": 17,
           "mapPosition": 29,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 89,
+              "order": 48,
+              "defenderTag": "#8JPRRGLG0"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
