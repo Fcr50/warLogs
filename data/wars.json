@@ -10,8 +10,8 @@
       "opponent": {
         "name": "40 and over w",
         "tag": "#PGVLU00",
-        "stars": 67,
-        "destructionPercentage": 81.26667,
+        "stars": 70,
+        "destructionPercentage": 84.6,
         "members": [
           {
             "tag": "#U998J0YJ",
@@ -985,7 +985,14 @@
           "townhallLevel": 18,
           "mapPosition": 21,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#YQP0L02Y",
+              "attackerMapPosition": 10
+            }
+          ],
           "missedAttacks": 0
         }
       ]
