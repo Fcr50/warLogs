@@ -10,8 +10,8 @@
       "opponent": {
         "name": "40 and over w",
         "tag": "#PGVLU00",
-        "stars": 30,
-        "destructionPercentage": 35.8,
+        "stars": 31,
+        "destructionPercentage": 38.3,
         "members": [
           {
             "tag": "#U998J0YJ",
@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 26,
-        "destructionPercentage": 29.866667
+        "stars": 33,
+        "destructionPercentage": 39.266666
       },
       "sixHourNonAttackers": [
         {
@@ -158,11 +158,6 @@
         {
           "tag": "#8CJ8YJY0P",
           "name": "ChrolloLucilfer",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QGQJGURCL",
-          "name": "SAFONOV",
           "townhallLevel": 18
         },
         {
@@ -191,11 +186,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#VPPQ8VLV",
-          "name": "GABRIEL LOBATO",
-          "townhallLevel": 17
-        },
-        {
           "tag": "#29LP0VJV0",
           "name": "Warlord Raivon",
           "townhallLevel": 18
@@ -213,11 +203,6 @@
         {
           "tag": "#YPVQVU982",
           "name": "亗 ＨＡＤＥＳ_０７ 亗",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#LYJG0L8G",
-          "name": "GLADIADOR!!!",
           "townhallLevel": 18
         },
         {
@@ -382,7 +367,14 @@
           "name": "SAFONOV",
           "townhallLevel": 18,
           "mapPosition": 11,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 30,
+              "defenderTag": "#9VCJQP0Q"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -466,7 +458,14 @@
           "name": "GABRIEL LOBATO",
           "townhallLevel": 17,
           "mapPosition": 26,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 93,
+              "order": 32,
+              "defenderTag": "#9L0R9RGJ"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -567,7 +566,14 @@
           "name": "GLADIADOR!!!",
           "townhallLevel": 18,
           "mapPosition": 15,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 89,
+              "order": 29,
+              "defenderTag": "#82UPR9PL2"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -652,6 +658,12 @@
             }
           ],
           "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 99,
+              "attackerTag": "#2R98G8LJ2",
+              "attackerMapPosition": 2
+            },
             {
               "stars": 1,
               "destructionPercentage": 24,
