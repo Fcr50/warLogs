@@ -10,8 +10,8 @@
       "opponent": {
         "name": "40 and over w",
         "tag": "#PGVLU00",
-        "stars": 33,
-        "destructionPercentage": 40.466667,
+        "stars": 37,
+        "destructionPercentage": 46.566666,
         "members": [
           {
             "tag": "#U998J0YJ",
@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 37,
-        "destructionPercentage": 42.966667
+        "stars": 40,
+        "destructionPercentage": 46.3
       },
       "sixHourNonAttackers": [
         {
@@ -153,11 +153,6 @@
         {
           "tag": "#8P9GUPPC",
           "name": "✨ MaxB13 ✨",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#8CJ8YJY0P",
-          "name": "ChrolloLucilfer",
           "townhallLevel": 18
         },
         {
@@ -276,7 +271,14 @@
           "townhallLevel": 18,
           "mapPosition": 19,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 88,
+              "attackerTag": "#9LVGRPCY",
+              "attackerMapPosition": 19
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -331,7 +333,14 @@
           "name": "ChrolloLucilfer",
           "townhallLevel": 18,
           "mapPosition": 8,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 38,
+              "defenderTag": "#PUJ0QGUQ9"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 2,
@@ -468,7 +477,14 @@
               "defenderTag": "#9L0R9RGJ"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 95,
+              "attackerTag": "#9L0R9RGJ",
+              "attackerMapPosition": 26
+            }
+          ],
           "missedAttacks": 0
         },
         {
