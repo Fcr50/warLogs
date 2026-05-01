@@ -10,8 +10,8 @@
       "opponent": {
         "name": "40 and over w",
         "tag": "#PGVLU00",
-        "stars": 29,
-        "destructionPercentage": 35.666668,
+        "stars": 30,
+        "destructionPercentage": 35.8,
         "members": [
           {
             "tag": "#U998J0YJ",
@@ -136,15 +136,10 @@
         ]
       },
       "clan": {
-        "stars": 23,
-        "destructionPercentage": 26.533333
+        "stars": 26,
+        "destructionPercentage": 29.866667
       },
       "sixHourNonAttackers": [
-        {
-          "tag": "#QR8R9QUV8",
-          "name": "Dr.Hannibal",
-          "townhallLevel": 18
-        },
         {
           "tag": "#2LY0P2L9U",
           "name": "LucasHG9",
@@ -252,7 +247,14 @@
           "name": "Dr.Hannibal",
           "townhallLevel": 18,
           "mapPosition": 16,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 27,
+              "defenderTag": "#2L9QC0YCJ"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -545,6 +547,12 @@
           "mapPosition": 2,
           "attacks": [],
           "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 83,
+              "attackerTag": "#2Y00VQCL",
+              "attackerMapPosition": 1
+            },
             {
               "stars": 1,
               "destructionPercentage": 79,
