@@ -10,8 +10,8 @@
       "opponent": {
         "name": "40 and over w",
         "tag": "#PGVLU00",
-        "stars": 37,
-        "destructionPercentage": 46.566666,
+        "stars": 40,
+        "destructionPercentage": 50.333332,
         "members": [
           {
             "tag": "#U998J0YJ",
@@ -516,7 +516,14 @@
               "defenderTag": "#Q8LYPCRLU"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#Q8LYPCRLU",
+              "attackerMapPosition": 4
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -575,6 +582,12 @@
               "destructionPercentage": 79,
               "attackerTag": "#82JJ8UPUV",
               "attackerMapPosition": 13
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 96,
+              "attackerTag": "#Q8LYPCRLU",
+              "attackerMapPosition": 4
             }
           ],
           "missedAttacks": 0
@@ -732,6 +745,12 @@
               "destructionPercentage": 99,
               "attackerTag": "#L8PVUPCCQ",
               "attackerMapPosition": 24
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 95,
+              "attackerTag": "#9L0R9RGJ",
+              "attackerMapPosition": 26
             }
           ],
           "missedAttacks": 0
