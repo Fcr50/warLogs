@@ -10,8 +10,8 @@
       "opponent": {
         "name": "40 and over w",
         "tag": "#PGVLU00",
-        "stars": 40,
-        "destructionPercentage": 50.333332,
+        "stars": 48,
+        "destructionPercentage": 59.666668,
         "members": [
           {
             "tag": "#U998J0YJ",
@@ -136,15 +136,10 @@
         ]
       },
       "clan": {
-        "stars": 40,
-        "destructionPercentage": 46.3
+        "stars": 47,
+        "destructionPercentage": 53.2
       },
       "sixHourNonAttackers": [
-        {
-          "tag": "#2LY0P2L9U",
-          "name": "LucasHG9",
-          "townhallLevel": 18
-        },
         {
           "tag": "#2R89QJL9Q",
           "name": "Hisoka",
@@ -184,11 +179,6 @@
           "tag": "#29LP0VJV0",
           "name": "Warlord Raivon",
           "townhallLevel": 18
-        },
-        {
-          "tag": "#GGVCRYP8P",
-          "name": "gui",
-          "townhallLevel": 17
         },
         {
           "tag": "#P9C0LVLU2",
@@ -238,8 +228,22 @@
           "name": "LucasHG9",
           "townhallLevel": 18,
           "mapPosition": 12,
-          "attacks": [],
-          "defensesReceived": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 45,
+              "defenderTag": "#2Y0UYUP0L"
+            }
+          ],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#2L9QC0YCJ",
+              "attackerMapPosition": 16
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -370,7 +374,14 @@
               "defenderTag": "#PJUJUGCU"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 80,
+              "attackerTag": "#29G8GV0R",
+              "attackerMapPosition": 17
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -386,7 +397,14 @@
               "defenderTag": "#9VCJQP0Q"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#2L9QC0YCJ",
+              "attackerMapPosition": 16
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -531,7 +549,20 @@
           "name": "gui",
           "townhallLevel": 17,
           "mapPosition": 27,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 46,
+              "defenderTag": "#Q0JLG8YVU"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 47,
+              "defenderTag": "#9L0R9RGJ"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 2,
