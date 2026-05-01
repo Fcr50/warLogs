@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-05-01T21:35:18.041Z",
+  "generatedAt": "2026-05-01T21:50:15.544Z",
   "totalWars": 5,
   "liveWar": {
     "opponentName": "40 and over w",
-    "totalAttacksDone": 58,
+    "totalAttacksDone": 59,
     "totalAttacksExpected": 60
   },
   "ranking": [
@@ -621,42 +621,6 @@
     },
     {
       "player": {
-        "tag": "#PPPUQPVJY",
-        "name": "Rodrigo",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 1.465198775510204,
-        "rawScore": 1.7237632653061223,
-        "confidence": 0.85,
-        "tier": "C",
-        "attackScore": 2.724198250728863,
-        "defenseScore": 0,
-        "reliability": 0.84,
-        "formScore": 0,
-        "warsInRoster": 4,
-        "attacksUsed": 6,
-        "attacksAvailable": 8,
-        "avgDestruction": 94.66666666666667,
-        "totalAttacks": 6,
-        "totalStars": 14,
-        "count3Stars": 3,
-        "avgStars": 2.3333333333333335,
-        "threeStarRate": 0.5,
-        "totalMissed": 0,
-        "avgPositionDiff": 0.75,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
         "tag": "#QR8R9QUV8",
         "name": "Dr.Hannibal",
         "townhallLevel": 18
@@ -681,6 +645,42 @@
         "threeStarRate": 0.6666666666666666,
         "totalMissed": 0,
         "avgPositionDiff": 2.25,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#PPPUQPVJY",
+        "name": "Rodrigo",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 1.3923695128970544,
+        "rawScore": 1.6380817798788876,
+        "confidence": 0.85,
+        "tier": "C",
+        "attackScore": 2.167813761616399,
+        "defenseScore": 0,
+        "reliability": 0.84,
+        "formScore": 1.48,
+        "warsInRoster": 4,
+        "attacksUsed": 7,
+        "attacksAvailable": 8,
+        "avgDestruction": 95.14285714285714,
+        "totalAttacks": 7,
+        "totalStars": 15,
+        "count3Stars": 3,
+        "avgStars": 2.142857142857143,
+        "threeStarRate": 0.42857142857142855,
+        "totalMissed": 0,
+        "avgPositionDiff": -3.4,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -975,18 +975,6 @@
       "prevRank": 18,
       "normalizedScore": 49.69
     },
-    "#YPVQVU982": {
-      "tier": "A",
-      "score": 2.5086734728213664,
-      "avgStars": 2.8125,
-      "totalStars": 45,
-      "totalAttacks": 16,
-      "warsInRoster": 9,
-      "totalMissed": 0,
-      "rank": 7,
-      "prevRank": 7,
-      "normalizedScore": 71.68
-    },
     "#QQC8P9C9R": {
       "tier": "S",
       "score": 2.526338056407199,
@@ -998,6 +986,18 @@
       "rank": 4,
       "prevRank": 4,
       "normalizedScore": 72.18
+    },
+    "#YPVQVU982": {
+      "tier": "A",
+      "score": 2.5086734728213664,
+      "avgStars": 2.8125,
+      "totalStars": 45,
+      "totalAttacks": 16,
+      "warsInRoster": 9,
+      "totalMissed": 0,
+      "rank": 7,
+      "prevRank": 7,
+      "normalizedScore": 71.68
     },
     "#2GP2JUU2": {
       "tier": "A",
@@ -1155,15 +1155,15 @@
     },
     "#PPPUQPVJY": {
       "tier": "B",
-      "score": 1.465198775510204,
-      "avgStars": 2.3333333333333335,
-      "totalStars": 14,
-      "totalAttacks": 6,
+      "score": 1.3923695128970544,
+      "avgStars": 2.142857142857143,
+      "totalStars": 15,
+      "totalAttacks": 7,
       "warsInRoster": 4,
       "totalMissed": 0,
-      "rank": 20,
+      "rank": 22,
       "prevRank": 20,
-      "normalizedScore": 41.86
+      "normalizedScore": 39.78
     },
     "#20JC0J9JR": {
       "tier": "B",
@@ -1195,7 +1195,7 @@
       "totalAttacks": 6,
       "warsInRoster": 3,
       "totalMissed": 0,
-      "rank": 22,
+      "rank": 21,
       "prevRank": 22,
       "normalizedScore": 40.13
     },
@@ -1263,7 +1263,7 @@
       "totalAttacks": 6,
       "warsInRoster": 3,
       "totalMissed": 0,
-      "rank": 21,
+      "rank": 20,
       "prevRank": 21,
       "normalizedScore": 40.69
     },
