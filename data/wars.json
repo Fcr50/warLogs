@@ -10,8 +10,8 @@
       "opponent": {
         "name": "40 and over w",
         "tag": "#PGVLU00",
-        "stars": 72,
-        "destructionPercentage": 87.26667,
+        "stars": 75,
+        "destructionPercentage": 90.6,
         "members": [
           {
             "tag": "#U998J0YJ",
@@ -216,7 +216,14 @@
               "defenderTag": "#C09RY9GQ"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#8QGGJYVG",
+              "attackerMapPosition": 7
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -288,7 +295,20 @@
           "name": "Hisoka",
           "townhallLevel": 18,
           "mapPosition": 19,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 95,
+              "defenderTag": "#2Y00VQCL"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 96,
+              "defenderTag": "#2R98G8LJ2"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 2,
@@ -339,7 +359,20 @@
           "name": "✨ MaxB13 ✨",
           "townhallLevel": 18,
           "mapPosition": 23,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 99,
+              "order": 92,
+              "defenderTag": "#YQP0L02Y"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 94,
+              "defenderTag": "#9VCJQP0Q"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 2,
@@ -370,6 +403,12 @@
             }
           ],
           "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 80,
+              "attackerTag": "#U998J0YJ",
+              "attackerMapPosition": 25
+            },
             {
               "stars": 2,
               "destructionPercentage": 94,
