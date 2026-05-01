@@ -286,8 +286,8 @@ function renderSixHourAlert(wars) {
     </div>`;
 }
 
-function setupTabs(onPlayersFirst, onRankingFirst, onReportFirst, onAbsencesFirst, onCwlFirst) {
-  const loaded = { players: false, ranking: false, report: false, absences: false, cwl: false };
+function setupTabs(onPlayersFirst, onRankingFirst, onReportFirst, onAbsencesFirst, onCwlFirst, onLigaFirst) {
+  const loaded = { players: false, ranking: false, report: false, absences: false, cwl: false, liga: false };
   document.querySelectorAll('.tab-btn').forEach(btn => {
     btn.addEventListener('click', () => {
       document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
@@ -314,31 +314,42 @@ function setupTabs(onPlayersFirst, onRankingFirst, onReportFirst, onAbsencesFirs
         loaded.cwl = true;
         onCwlFirst();
       }
+      if (btn.dataset.tab === 'liga' && !loaded.liga) {
+        loaded.liga = true;
+        onLigaFirst();
+      }
     });
   });
 }
 
 function setupSecretTrigger() {
-  const trigger = document.getElementById('secret-trigger');
-  const tabBtn = document.getElementById('cwl-tab-btn');
-  if (!trigger || !tabBtn) return;
+  const trigger  = document.getElementById('secret-trigger');
+  const cwlBtn   = document.getElementById('cwl-tab-btn');
+  const ligaBtn  = document.getElementById('liga-tab-btn');
+  if (!trigger || !cwlBtn) return;
+
+  const secretBtns = [cwlBtn, ligaBtn].filter(Boolean);
 
   if (sessionStorage.getItem('cwl_revealed') === '1') {
-    tabBtn.hidden = false;
+    secretBtns.forEach(b => { b.hidden = false; });
   }
 
+  const allRevealed = () => secretBtns.every(b => !b.hidden);
+
   const reveal = () => {
-    if (!tabBtn.hidden) return;
-    tabBtn.hidden = false;
+    if (allRevealed()) return;
+    secretBtns.forEach(b => {
+      b.hidden = false;
+      b.classList.add('tab-reveal');
+      setTimeout(() => b.classList.remove('tab-reveal'), 1200);
+    });
     sessionStorage.setItem('cwl_revealed', '1');
-    tabBtn.classList.add('tab-reveal');
-    setTimeout(() => tabBtn.classList.remove('tab-reveal'), 1200);
   };
 
   let count = 0;
   let countTimer;
   trigger.addEventListener('click', () => {
-    if (!tabBtn.hidden) return;
+    if (allRevealed()) return;
     count++;
     clearTimeout(countTimer);
     countTimer = setTimeout(() => { count = 0; }, 3000);
@@ -350,7 +361,7 @@ function setupSecretTrigger() {
 
   let holdTimer = null;
   const startHold = e => {
-    if (!tabBtn.hidden) return;
+    if (allRevealed()) return;
     if (e.type === 'touchstart') e.preventDefault();
     clearTimeout(holdTimer);
     holdTimer = setTimeout(reveal, 1200);
@@ -416,7 +427,12 @@ async function init() {
     initCwl();
   };
 
-  setupTabs(initPlayers, initRanking, () => initReport(wars), initAbsences, onCwlFirst);
+  const onLigaFirst = async () => {
+    const { initLiga } = await import('./liga.js');
+    initLiga();
+  };
+
+  setupTabs(initPlayers, initRanking, () => initReport(wars), initAbsences, onCwlFirst, onLigaFirst);
 }
 
 init();

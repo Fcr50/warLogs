@@ -6,7 +6,8 @@
   "scripts": {
     "fetch": "node scripts/fetch-wars.js",
     "fetch-players": "node scripts/fetch-players.js",
-    "compute-cwl": "node scripts/compute-cwl.js"
+    "compute-cwl": "node scripts/compute-cwl.js",
+    "fetch-liga": "node scripts/fetch-liga.js"
   },
   "dependencies": {
     "node-fetch": "^3.3.2"
