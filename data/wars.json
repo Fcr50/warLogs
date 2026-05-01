@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 5,
-        "destructionPercentage": 6.1666665
+        "stars": 12,
+        "destructionPercentage": 13.333333
       },
       "sixHourNonAttackers": [
         {
@@ -221,11 +221,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#80LUCC9YV",
-          "name": "Lobo ®",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#GGVCRYP8P",
           "name": "gui",
           "townhallLevel": 17
@@ -248,11 +243,6 @@
         {
           "tag": "#8LL8J8UVG",
           "name": "NOT MOREIRA",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#YVYCCQU08",
-          "name": "Frenético",
           "townhallLevel": 18
         },
         {
@@ -458,7 +448,14 @@
           "name": "Lobo ®",
           "townhallLevel": 18,
           "mapPosition": 4,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 6,
+              "defenderTag": "#Q8LYPCRLU"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -528,7 +525,20 @@
           "name": "Frenético",
           "townhallLevel": 18,
           "mapPosition": 22,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 4,
+              "defenderTag": "#2P2JPVPC"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 5,
+              "defenderTag": "#CCQ8YJY9"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
