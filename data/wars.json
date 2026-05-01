@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 0,
-        "destructionPercentage": 0
+        "stars": 5,
+        "destructionPercentage": 6.1666665
       },
       "sixHourNonAttackers": [
         {
@@ -151,18 +151,8 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#QQC8P9C9R",
-          "name": "Gs.prieto",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#2R89QJL9Q",
           "name": "Hisoka",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#2QL0VR9GU",
-          "name": "Marcola",
           "townhallLevel": 18
         },
         {
@@ -261,11 +251,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#GQU9Y0CQ8",
-          "name": "Scok♤",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#YVYCCQU08",
           "name": "Frenético",
           "townhallLevel": 18
@@ -315,7 +300,14 @@
           "name": "Gs.prieto",
           "townhallLevel": 18,
           "mapPosition": 13,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 3,
+              "defenderTag": "#82JJ8UPUV"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -333,7 +325,14 @@
           "name": "Marcola",
           "townhallLevel": 18,
           "mapPosition": 9,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 85,
+              "order": 1,
+              "defenderTag": "#CCQ8YJY9"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -513,7 +512,14 @@
           "name": "Scok♤",
           "townhallLevel": 18,
           "mapPosition": 30,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 82,
+              "order": 2,
+              "defenderTag": "#CCQ8YJY9"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
