@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 33,
-        "destructionPercentage": 39.266666
+        "stars": 37,
+        "destructionPercentage": 42.966667
       },
       "sixHourNonAttackers": [
         {
@@ -214,11 +214,6 @@
           "tag": "#LUR09RUP2",
           "name": "andrei7zl",
           "townhallLevel": 17
-        },
-        {
-          "tag": "#QJLQLUURY",
-          "name": "NenemPJL",
-          "townhallLevel": 18
         },
         {
           "tag": "#PPPUQPVJY",
@@ -701,7 +696,20 @@
           "name": "NenemPJL",
           "townhallLevel": 18,
           "mapPosition": 25,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 34,
+              "defenderTag": "#U998J0YJ"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 35,
+              "defenderTag": "#82UPR9PL2"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 2,
