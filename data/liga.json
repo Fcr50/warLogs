@@ -1,6 +1,6 @@
 {
   "season": "2026-05",
-  "generatedAt": "2026-05-03T17:05:28.817Z",
+  "generatedAt": "2026-05-03T17:20:20.267Z",
   "state": "inWar",
   "rounds": [
     {
@@ -10,9 +10,9 @@
       "result": "inProgress",
       "opponentName": "REQ",
       "opponentTag": "#2LLL2LCGL",
-      "clanStars": 37,
+      "clanStars": 39,
       "opponentStars": 38,
-      "clanDestructionPct": 86.06666666666666,
+      "clanDestructionPct": 92.2,
       "teamSize": 15,
       "members": [
         {
@@ -56,7 +56,12 @@
           "name": "ChrolloLucilfer",
           "townhallLevel": 18,
           "mapPosition": 9,
-          "attack": null
+          "attack": {
+            "defenderTag": "#P2CYRRUY9",
+            "defenderMapPosition": 9,
+            "stars": 2,
+            "destructionPercentage": 92
+          }
         },
         {
           "tag": "#2GP2JUU2",
