@@ -1,6 +1,6 @@
 {
   "season": "2026-05",
-  "generatedAt": "2026-05-03T10:05:17.814Z",
+  "generatedAt": "2026-05-03T10:20:29.784Z",
   "state": "inWar",
   "rounds": [
     {
@@ -10,9 +10,9 @@
       "result": "inProgress",
       "opponentName": "REQ",
       "opponentTag": "#2LLL2LCGL",
-      "clanStars": 17,
+      "clanStars": 19,
       "opponentStars": 23,
-      "clanDestructionPct": 39.86666666666667,
+      "clanDestructionPct": 46.06666666666667,
       "teamSize": 15,
       "members": [
         {
@@ -122,7 +122,12 @@
           "name": "亗 ＨＡＤＥＳ_０７ 亗",
           "townhallLevel": 18,
           "mapPosition": 2,
-          "attack": null
+          "attack": {
+            "defenderTag": "#22LCCCJ8Q",
+            "defenderMapPosition": 2,
+            "stars": 2,
+            "destructionPercentage": 93
+          }
         },
         {
           "tag": "#LYJG0L8G",
