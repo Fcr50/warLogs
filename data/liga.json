@@ -1,6 +1,6 @@
 {
   "season": "2026-05",
-  "generatedAt": "2026-05-03T03:05:13.302Z",
+  "generatedAt": "2026-05-03T03:20:22.909Z",
   "state": "inWar",
   "rounds": [
     {
@@ -10,9 +10,9 @@
       "result": "inProgress",
       "opponentName": "REQ",
       "opponentTag": "#2LLL2LCGL",
-      "clanStars": 3,
+      "clanStars": 6,
       "opponentStars": 0,
-      "clanDestructionPct": 6.666666666666667,
+      "clanDestructionPct": 13.333333333333334,
       "teamSize": 15,
       "members": [
         {
@@ -88,7 +88,12 @@
           "name": "Lobo ®",
           "townhallLevel": 18,
           "mapPosition": 3,
-          "attack": null
+          "attack": {
+            "defenderTag": "#290G0Y08Y",
+            "defenderMapPosition": 3,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#P9C0LVLU2",
