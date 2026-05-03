@@ -1,6 +1,6 @@
 {
   "season": "2026-05",
-  "generatedAt": "2026-05-03T12:05:18.697Z",
+  "generatedAt": "2026-05-03T12:20:17.547Z",
   "state": "inWar",
   "rounds": [
     {
@@ -10,9 +10,9 @@
       "result": "inProgress",
       "opponentName": "REQ",
       "opponentTag": "#2LLL2LCGL",
-      "clanStars": 28,
+      "clanStars": 31,
       "opponentStars": 29,
-      "clanDestructionPct": 66.06666666666666,
+      "clanDestructionPct": 72.73333333333333,
       "teamSize": 15,
       "members": [
         {
@@ -63,7 +63,12 @@
           "name": "Gustavo Lázaro",
           "townhallLevel": 18,
           "mapPosition": 18,
-          "attack": null
+          "attack": {
+            "defenderTag": "#JLCLLVPC",
+            "defenderMapPosition": 14,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#QGQJGURCL",
