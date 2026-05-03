@@ -1,6 +1,6 @@
 {
   "season": "2026-05",
-  "generatedAt": "2026-05-03T17:35:21.634Z",
+  "generatedAt": "2026-05-03T17:50:20.767Z",
   "state": "inWar",
   "rounds": [
     {
@@ -10,9 +10,9 @@
       "result": "inProgress",
       "opponentName": "REQ",
       "opponentTag": "#2LLL2LCGL",
-      "clanStars": 39,
+      "clanStars": 42,
       "opponentStars": 38,
-      "clanDestructionPct": 92.2,
+      "clanDestructionPct": 98.86666666666666,
       "teamSize": 15,
       "members": [
         {
@@ -116,7 +116,12 @@
           "name": "Alflen",
           "townhallLevel": 18,
           "mapPosition": 14,
-          "attack": null
+          "attack": {
+            "defenderTag": "#9GPGCJ8V",
+            "defenderMapPosition": 13,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#80LUCC9YV",
