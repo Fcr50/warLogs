@@ -1,6 +1,6 @@
 {
   "season": "2026-05",
-  "generatedAt": "2026-05-03T10:35:18.579Z",
+  "generatedAt": "2026-05-03T10:50:17.024Z",
   "state": "inWar",
   "rounds": [
     {
@@ -10,9 +10,9 @@
       "result": "inProgress",
       "opponentName": "REQ",
       "opponentTag": "#2LLL2LCGL",
-      "clanStars": 22,
+      "clanStars": 25,
       "opponentStars": 29,
-      "clanDestructionPct": 52.733333333333334,
+      "clanDestructionPct": 59.4,
       "teamSize": 15,
       "members": [
         {
@@ -120,7 +120,12 @@
           "name": "VINGADOR⚡",
           "townhallLevel": 18,
           "mapPosition": 1,
-          "attack": null
+          "attack": {
+            "defenderTag": "#P8VCGQG",
+            "defenderMapPosition": 1,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#YPVQVU982",
