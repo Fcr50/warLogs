@@ -1,6 +1,6 @@
 {
   "season": "2026-05",
-  "generatedAt": "2026-05-03T08:05:20.917Z",
+  "generatedAt": "2026-05-03T08:20:23.106Z",
   "state": "inWar",
   "rounds": [
     {
@@ -10,9 +10,9 @@
       "result": "inProgress",
       "opponentName": "REQ",
       "opponentTag": "#2LLL2LCGL",
-      "clanStars": 15,
+      "clanStars": 17,
       "opponentStars": 15,
-      "clanDestructionPct": 33.333333333333336,
+      "clanDestructionPct": 39.86666666666667,
       "teamSize": 15,
       "members": [
         {
@@ -34,7 +34,12 @@
           "name": "Marcola",
           "townhallLevel": 18,
           "mapPosition": 7,
-          "attack": null
+          "attack": {
+            "defenderTag": "#P99VGVQC",
+            "defenderMapPosition": 7,
+            "stars": 2,
+            "destructionPercentage": 98
+          }
         },
         {
           "tag": "#8CJ8YJY0P",
