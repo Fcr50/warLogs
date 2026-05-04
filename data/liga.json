@@ -1,6 +1,6 @@
 {
   "season": "2026-05",
-  "generatedAt": "2026-05-04T10:50:26.104Z",
+  "generatedAt": "2026-05-04T11:05:21.069Z",
   "state": "inWar",
   "rounds": [
     {
@@ -204,9 +204,9 @@
       "result": "inProgress",
       "opponentName": "India",
       "opponentTag": "#JQQYUGG",
-      "clanStars": 6,
+      "clanStars": 9,
       "opponentStars": 12,
-      "clanDestructionPct": 13.333333333333334,
+      "clanDestructionPct": 20,
       "teamSize": 15,
       "members": [
         {
@@ -247,7 +247,12 @@
           "name": "Gustavo Lázaro",
           "townhallLevel": 18,
           "mapPosition": 18,
-          "attack": null
+          "attack": {
+            "defenderTag": "#8Y28Y88R0",
+            "defenderMapPosition": 19,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#QGQJGURCL",
