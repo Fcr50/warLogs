@@ -1,6 +1,6 @@
 {
   "season": "2026-05",
-  "generatedAt": "2026-05-04T04:05:19.725Z",
+  "generatedAt": "2026-05-04T04:20:15.499Z",
   "state": "inWar",
   "rounds": [
     {
@@ -204,9 +204,9 @@
       "result": "inProgress",
       "opponentName": "India",
       "opponentTag": "#JQQYUGG",
-      "clanStars": 0,
+      "clanStars": 3,
       "opponentStars": 9,
-      "clanDestructionPct": 0,
+      "clanDestructionPct": 6.666666666666667,
       "teamSize": 15,
       "members": [
         {
@@ -249,7 +249,12 @@
           "name": "SAFONOV",
           "townhallLevel": 18,
           "mapPosition": 11,
-          "attack": null
+          "attack": {
+            "defenderTag": "#P88UJUJQ2",
+            "defenderMapPosition": 11,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#GJ2LQVQJ",
