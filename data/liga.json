@@ -1,6 +1,6 @@
 {
   "season": "2026-05",
-  "generatedAt": "2026-05-04T17:05:16.535Z",
+  "generatedAt": "2026-05-04T17:20:17.182Z",
   "state": "inWar",
   "rounds": [
     {
@@ -204,9 +204,9 @@
       "result": "inProgress",
       "opponentName": "India",
       "opponentTag": "#JQQYUGG",
-      "clanStars": 35,
-      "opponentStars": 30,
-      "clanDestructionPct": 79.13333333333334,
+      "clanStars": 38,
+      "opponentStars": 33,
+      "clanDestructionPct": 85.8,
       "teamSize": 15,
       "members": [
         {
@@ -372,7 +372,12 @@
           "name": "Frnnn",
           "townhallLevel": 18,
           "mapPosition": 6,
-          "attack": null
+          "attack": {
+            "defenderTag": "#PUJYJRVG0",
+            "defenderMapPosition": 6,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         }
       ]
     },
