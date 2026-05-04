@@ -1,6 +1,6 @@
 {
   "season": "2026-05",
-  "generatedAt": "2026-05-04T14:05:15.985Z",
+  "generatedAt": "2026-05-04T14:20:18.055Z",
   "state": "inWar",
   "rounds": [
     {
@@ -204,9 +204,9 @@
       "result": "inProgress",
       "opponentName": "India",
       "opponentTag": "#JQQYUGG",
-      "clanStars": 21,
+      "clanStars": 23,
       "opponentStars": 25,
-      "clanDestructionPct": 46.666666666666664,
+      "clanDestructionPct": 52.46666666666667,
       "teamSize": 15,
       "members": [
         {
@@ -288,7 +288,12 @@
           "name": "Phoenix",
           "townhallLevel": 18,
           "mapPosition": 8,
-          "attack": null
+          "attack": {
+            "defenderTag": "#22U0RCP0R",
+            "defenderMapPosition": 8,
+            "stars": 2,
+            "destructionPercentage": 87
+          }
         },
         {
           "tag": "#22C820V9L",
