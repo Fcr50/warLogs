@@ -1,6 +1,6 @@
 {
   "season": "2026-05",
-  "generatedAt": "2026-05-04T14:20:18.055Z",
+  "generatedAt": "2026-05-04T14:35:25.154Z",
   "state": "inWar",
   "rounds": [
     {
@@ -204,9 +204,9 @@
       "result": "inProgress",
       "opponentName": "India",
       "opponentTag": "#JQQYUGG",
-      "clanStars": 23,
+      "clanStars": 26,
       "opponentStars": 25,
-      "clanDestructionPct": 52.46666666666667,
+      "clanDestructionPct": 59.13333333333333,
       "teamSize": 15,
       "members": [
         {
@@ -345,7 +345,12 @@
           "name": "Frenético",
           "townhallLevel": 18,
           "mapPosition": 24,
-          "attack": null
+          "attack": {
+            "defenderTag": "#PYJQR2Y0C",
+            "defenderMapPosition": 24,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#QJVQVRPU",
