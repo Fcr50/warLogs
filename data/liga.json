@@ -1,6 +1,6 @@
 {
   "season": "2026-05",
-  "generatedAt": "2026-05-04T16:20:27.456Z",
+  "generatedAt": "2026-05-04T16:35:16.044Z",
   "state": "inWar",
   "rounds": [
     {
@@ -204,9 +204,9 @@
       "result": "inProgress",
       "opponentName": "India",
       "opponentTag": "#JQQYUGG",
-      "clanStars": 32,
+      "clanStars": 35,
       "opponentStars": 30,
-      "clanDestructionPct": 72.46666666666667,
+      "clanDestructionPct": 79.13333333333334,
       "teamSize": 15,
       "members": [
         {
@@ -286,7 +286,12 @@
           "name": "Fer",
           "townhallLevel": 18,
           "mapPosition": 3,
-          "attack": null
+          "attack": {
+            "defenderTag": "#QC89URC28",
+            "defenderMapPosition": 4,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#PLU2VCLG",
