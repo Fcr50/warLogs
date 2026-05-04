@@ -1,6 +1,6 @@
 {
   "season": "2026-05",
-  "generatedAt": "2026-05-04T09:20:25.938Z",
+  "generatedAt": "2026-05-04T09:35:25.740Z",
   "state": "inWar",
   "rounds": [
     {
@@ -204,9 +204,9 @@
       "result": "inProgress",
       "opponentName": "India",
       "opponentTag": "#JQQYUGG",
-      "clanStars": 3,
+      "clanStars": 6,
       "opponentStars": 12,
-      "clanDestructionPct": 6.666666666666667,
+      "clanDestructionPct": 13.333333333333334,
       "teamSize": 15,
       "members": [
         {
@@ -214,7 +214,12 @@
           "name": "LucasHG9",
           "townhallLevel": 18,
           "mapPosition": 13,
-          "attack": null
+          "attack": {
+            "defenderTag": "#YCQU0CQ2Q",
+            "defenderMapPosition": 15,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#QQC8P9C9R",
