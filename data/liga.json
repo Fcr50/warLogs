@@ -1,6 +1,6 @@
 {
   "season": "2026-05",
-  "generatedAt": "2026-05-05T11:20:26.769Z",
+  "generatedAt": "2026-05-05T11:35:18.538Z",
   "state": "inWar",
   "rounds": [
     {
@@ -398,9 +398,9 @@
       "result": "inProgress",
       "opponentName": "INFINITY⚡ForceX",
       "opponentTag": "#2Y9Q9GCRP",
-      "clanStars": 33,
+      "clanStars": 36,
       "opponentStars": 4,
-      "clanDestructionPct": 73.33333333333333,
+      "clanDestructionPct": 80,
       "teamSize": 15,
       "members": [
         {
@@ -463,7 +463,12 @@
           "name": "SAFONOV",
           "townhallLevel": 18,
           "mapPosition": 11,
-          "attack": null
+          "attack": {
+            "defenderTag": "#GPVVCC8QR",
+            "defenderMapPosition": 9,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#GJ2LQVQJ",
