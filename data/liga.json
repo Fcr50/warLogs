@@ -1,6 +1,6 @@
 {
   "season": "2026-05",
-  "generatedAt": "2026-05-05T04:20:24.994Z",
+  "generatedAt": "2026-05-05T04:35:33.797Z",
   "state": "inWar",
   "rounds": [
     {
@@ -398,9 +398,9 @@
       "result": "inProgress",
       "opponentName": "INFINITY⚡ForceX",
       "opponentTag": "#2Y9Q9GCRP",
-      "clanStars": 15,
+      "clanStars": 18,
       "opponentStars": 0,
-      "clanDestructionPct": 33.333333333333336,
+      "clanDestructionPct": 40,
       "teamSize": 15,
       "members": [
         {
@@ -531,7 +531,12 @@
           "name": "Frnnn",
           "townhallLevel": 18,
           "mapPosition": 6,
-          "attack": null
+          "attack": {
+            "defenderTag": "#Q9JPV8Q2P",
+            "defenderMapPosition": 5,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         }
       ]
     },
