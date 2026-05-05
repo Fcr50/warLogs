@@ -1,6 +1,6 @@
 {
   "season": "2026-05",
-  "generatedAt": "2026-05-05T03:05:20.173Z",
+  "generatedAt": "2026-05-05T03:20:30.437Z",
   "state": "inWar",
   "rounds": [
     {
@@ -398,9 +398,9 @@
       "result": "inProgress",
       "opponentName": "INFINITY⚡ForceX",
       "opponentTag": "#2Y9Q9GCRP",
-      "clanStars": 12,
+      "clanStars": 15,
       "opponentStars": 0,
-      "clanDestructionPct": 26.666666666666668,
+      "clanDestructionPct": 33.333333333333336,
       "teamSize": 15,
       "members": [
         {
@@ -486,7 +486,12 @@
           "name": "Lobo ®",
           "townhallLevel": 18,
           "mapPosition": 4,
-          "attack": null
+          "attack": {
+            "defenderTag": "#YY2L2CYQY",
+            "defenderMapPosition": 4,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#P9C0LVLU2",
