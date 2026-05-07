@@ -1,6 +1,6 @@
 {
   "season": "2026-05",
-  "generatedAt": "2026-05-07T10:50:20.978Z",
+  "generatedAt": "2026-05-07T11:05:18.217Z",
   "state": "inWar",
   "rounds": [
     {
@@ -786,9 +786,9 @@
       "result": "inProgress",
       "opponentName": "NTV WAR",
       "opponentTag": "#2PV08Q9YU",
-      "clanStars": 26,
+      "clanStars": 29,
       "opponentStars": 38,
-      "clanDestructionPct": 59.266666666666666,
+      "clanDestructionPct": 65.93333333333334,
       "teamSize": 15,
       "members": [
         {
@@ -844,7 +844,12 @@
           "name": "Gustavo Lázaro",
           "townhallLevel": 18,
           "mapPosition": 16,
-          "attack": null
+          "attack": {
+            "defenderTag": "#UCGLQV8V",
+            "defenderMapPosition": 13,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#QGQJGURCL",
