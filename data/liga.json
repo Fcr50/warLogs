@@ -1,6 +1,6 @@
 {
   "season": "2026-05",
-  "generatedAt": "2026-05-07T04:50:25.689Z",
+  "generatedAt": "2026-05-07T05:05:28.815Z",
   "state": "inWar",
   "rounds": [
     {
@@ -786,9 +786,9 @@
       "result": "inProgress",
       "opponentName": "NTV WAR",
       "opponentTag": "#2PV08Q9YU",
-      "clanStars": 18,
+      "clanStars": 20,
       "opponentStars": 38,
-      "clanDestructionPct": 40,
+      "clanDestructionPct": 45.93333333333333,
       "teamSize": 15,
       "members": [
         {
@@ -924,7 +924,12 @@
           "name": "Frnnn",
           "townhallLevel": 18,
           "mapPosition": 6,
-          "attack": null
+          "attack": {
+            "defenderTag": "#C9J00LUL",
+            "defenderMapPosition": 5,
+            "stars": 2,
+            "destructionPercentage": 89
+          }
         }
       ]
     },
