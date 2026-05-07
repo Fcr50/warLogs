@@ -1,6 +1,6 @@
 {
   "season": "2026-05",
-  "generatedAt": "2026-05-07T07:05:16.535Z",
+  "generatedAt": "2026-05-07T07:20:27.927Z",
   "state": "inWar",
   "rounds": [
     {
@@ -786,9 +786,9 @@
       "result": "inProgress",
       "opponentName": "NTV WAR",
       "opponentTag": "#2PV08Q9YU",
-      "clanStars": 20,
+      "clanStars": 23,
       "opponentStars": 38,
-      "clanDestructionPct": 45.93333333333333,
+      "clanDestructionPct": 52.6,
       "teamSize": 15,
       "members": [
         {
@@ -803,7 +803,12 @@
           "name": "Gs.prieto",
           "townhallLevel": 18,
           "mapPosition": 13,
-          "attack": null
+          "attack": {
+            "defenderTag": "#RCGQCVCJ",
+            "defenderMapPosition": 11,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#2QL0VR9GU",
