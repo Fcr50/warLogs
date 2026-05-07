@@ -1,6 +1,6 @@
 {
   "season": "2026-05",
-  "generatedAt": "2026-05-07T02:50:20.211Z",
+  "generatedAt": "2026-05-07T03:05:15.329Z",
   "state": "inWar",
   "rounds": [
     {
@@ -588,8 +588,8 @@
     {
       "round": 4,
       "warTag": "#8Q9020QG8",
-      "state": "inWar",
-      "result": "inProgress",
+      "state": "warEnded",
+      "result": "tie",
       "opponentName": "لا نتشابهہ 》♡",
       "opponentTag": "#2RQVPJRYQ",
       "clanStars": 42,
@@ -782,13 +782,13 @@
     {
       "round": 5,
       "warTag": "#8Q980VJ88",
-      "state": "preparation",
+      "state": "inWar",
       "result": "inProgress",
       "opponentName": "NTV WAR",
       "opponentTag": "#2PV08Q9YU",
-      "clanStars": 0,
+      "clanStars": 3,
       "opponentStars": 0,
-      "clanDestructionPct": 0,
+      "clanDestructionPct": 6.666666666666667,
       "teamSize": 15,
       "members": [
         {
@@ -810,7 +810,12 @@
           "name": "Marcola",
           "townhallLevel": 18,
           "mapPosition": 8,
-          "attack": null
+          "attack": {
+            "defenderTag": "#2JLJ2V99Y",
+            "defenderMapPosition": 7,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#8CJ8YJY0P",
@@ -898,7 +903,125 @@
         }
       ]
     },
-    null,
+    {
+      "round": 6,
+      "warTag": "#8Q99VJ2GJ",
+      "state": "preparation",
+      "result": "inProgress",
+      "opponentName": "HELLO VIET NAM",
+      "opponentTag": "#2GV8RUV9V",
+      "clanStars": 0,
+      "opponentStars": 0,
+      "clanDestructionPct": 0,
+      "teamSize": 15,
+      "members": [
+        {
+          "tag": "#2LY0P2L9U",
+          "name": "LucasHG9",
+          "townhallLevel": 18,
+          "mapPosition": 13,
+          "attack": null
+        },
+        {
+          "tag": "#QQC8P9C9R",
+          "name": "Gs.prieto",
+          "townhallLevel": 18,
+          "mapPosition": 14,
+          "attack": null
+        },
+        {
+          "tag": "#2QL0VR9GU",
+          "name": "Marcola",
+          "townhallLevel": 18,
+          "mapPosition": 7,
+          "attack": null
+        },
+        {
+          "tag": "#8CJ8YJY0P",
+          "name": "ChrolloLucilfer",
+          "townhallLevel": 18,
+          "mapPosition": 9,
+          "attack": null
+        },
+        {
+          "tag": "#2GP2JUU2",
+          "name": "Gustavo Lázaro",
+          "townhallLevel": 18,
+          "mapPosition": 16,
+          "attack": null
+        },
+        {
+          "tag": "#QGQJGURCL",
+          "name": "SAFONOV",
+          "townhallLevel": 18,
+          "mapPosition": 10,
+          "attack": null
+        },
+        {
+          "tag": "#GJ2LQVQJ",
+          "name": "Fer",
+          "townhallLevel": 18,
+          "mapPosition": 4,
+          "attack": null
+        },
+        {
+          "tag": "#PLU2VCLG",
+          "name": "Phoenix",
+          "townhallLevel": 18,
+          "mapPosition": 8,
+          "attack": null
+        },
+        {
+          "tag": "#22C820V9L",
+          "name": "Alflen",
+          "townhallLevel": 18,
+          "mapPosition": 12,
+          "attack": null
+        },
+        {
+          "tag": "#80LUCC9YV",
+          "name": "Lobo ®",
+          "townhallLevel": 18,
+          "mapPosition": 3,
+          "attack": null
+        },
+        {
+          "tag": "#P9C0LVLU2",
+          "name": "VINGADOR⚡",
+          "townhallLevel": 18,
+          "mapPosition": 1,
+          "attack": null
+        },
+        {
+          "tag": "#YPVQVU982",
+          "name": "亗 ＨＡＤＥＳ_０７ 亗",
+          "townhallLevel": 18,
+          "mapPosition": 2,
+          "attack": null
+        },
+        {
+          "tag": "#LYJG0L8G",
+          "name": "GLADIADOR!!!",
+          "townhallLevel": 18,
+          "mapPosition": 19,
+          "attack": null
+        },
+        {
+          "tag": "#YVYCCQU08",
+          "name": "Frenético",
+          "townhallLevel": 18,
+          "mapPosition": 24,
+          "attack": null
+        },
+        {
+          "tag": "#QJVQVRPU",
+          "name": "Frnnn",
+          "townhallLevel": 18,
+          "mapPosition": 6,
+          "attack": null
+        }
+      ]
+    },
     null
   ]
 }
