@@ -1,6 +1,6 @@
 {
   "season": "2026-05",
-  "generatedAt": "2026-05-07T08:20:23.580Z",
+  "generatedAt": "2026-05-07T08:35:27.903Z",
   "state": "inWar",
   "rounds": [
     {
@@ -786,9 +786,9 @@
       "result": "inProgress",
       "opponentName": "NTV WAR",
       "opponentTag": "#2PV08Q9YU",
-      "clanStars": 23,
+      "clanStars": 26,
       "opponentStars": 38,
-      "clanDestructionPct": 52.6,
+      "clanDestructionPct": 59.266666666666666,
       "teamSize": 15,
       "members": [
         {
@@ -796,7 +796,12 @@
           "name": "LucasHG9",
           "townhallLevel": 18,
           "mapPosition": 12,
-          "attack": null
+          "attack": {
+            "defenderTag": "#VJJ9UPRJ",
+            "defenderMapPosition": 10,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#QQC8P9C9R",
