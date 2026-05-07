@@ -1,6 +1,6 @@
 {
   "season": "2026-05",
-  "generatedAt": "2026-05-07T14:35:31.116Z",
+  "generatedAt": "2026-05-07T14:50:24.295Z",
   "state": "inWar",
   "rounds": [
     {
@@ -786,9 +786,9 @@
       "result": "inProgress",
       "opponentName": "NTV WAR",
       "opponentTag": "#2PV08Q9YU",
-      "clanStars": 32,
+      "clanStars": 35,
       "opponentStars": 38,
-      "clanDestructionPct": 72.6,
+      "clanDestructionPct": 79.26666666666667,
       "teamSize": 15,
       "members": [
         {
@@ -937,7 +937,12 @@
           "name": "Frenético",
           "townhallLevel": 18,
           "mapPosition": 24,
-          "attack": null
+          "attack": {
+            "defenderTag": "#Y8VY289U",
+            "defenderMapPosition": 15,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#QJVQVRPU",
