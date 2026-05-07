@@ -1,6 +1,6 @@
 {
   "season": "2026-05",
-  "generatedAt": "2026-05-07T04:05:20.507Z",
+  "generatedAt": "2026-05-07T04:20:19.678Z",
   "state": "inWar",
   "rounds": [
     {
@@ -786,9 +786,9 @@
       "result": "inProgress",
       "opponentName": "NTV WAR",
       "opponentTag": "#2PV08Q9YU",
-      "clanStars": 12,
-      "opponentStars": 35,
-      "clanDestructionPct": 26.666666666666668,
+      "clanStars": 15,
+      "opponentStars": 38,
+      "clanDestructionPct": 33.333333333333336,
       "teamSize": 15,
       "members": [
         {
@@ -865,7 +865,12 @@
           "name": "Phoenix",
           "townhallLevel": 18,
           "mapPosition": 7,
-          "attack": null
+          "attack": {
+            "defenderTag": "#2Q2JYV2PG",
+            "defenderMapPosition": 6,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#22C820V9L",
