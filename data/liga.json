@@ -1,6 +1,6 @@
 {
   "season": "2026-05",
-  "generatedAt": "2026-05-07T16:05:23.444Z",
+  "generatedAt": "2026-05-07T16:20:16.099Z",
   "state": "inWar",
   "rounds": [
     {
@@ -786,9 +786,9 @@
       "result": "inProgress",
       "opponentName": "NTV WAR",
       "opponentTag": "#2PV08Q9YU",
-      "clanStars": 35,
+      "clanStars": 38,
       "opponentStars": 38,
-      "clanDestructionPct": 79.26666666666667,
+      "clanDestructionPct": 85.93333333333334,
       "teamSize": 15,
       "members": [
         {
@@ -930,7 +930,12 @@
           "name": "GLADIADOR!!!",
           "townhallLevel": 18,
           "mapPosition": 19,
-          "attack": null
+          "attack": {
+            "defenderTag": "#92PUPGJGY",
+            "defenderMapPosition": 14,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#YVYCCQU08",
