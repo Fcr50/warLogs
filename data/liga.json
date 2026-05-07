@@ -1,6 +1,6 @@
 {
   "season": "2026-05",
-  "generatedAt": "2026-05-07T19:05:24.108Z",
+  "generatedAt": "2026-05-07T19:20:22.441Z",
   "state": "inWar",
   "rounds": [
     {
@@ -786,9 +786,9 @@
       "result": "inProgress",
       "opponentName": "NTV WAR",
       "opponentTag": "#2PV08Q9YU",
-      "clanStars": 38,
+      "clanStars": 41,
       "opponentStars": 38,
-      "clanDestructionPct": 85.93333333333334,
+      "clanDestructionPct": 92.6,
       "teamSize": 15,
       "members": [
         {
@@ -892,7 +892,12 @@
           "name": "Alflen",
           "townhallLevel": 18,
           "mapPosition": 14,
-          "attack": null
+          "attack": {
+            "defenderTag": "#PURGCCYQ",
+            "defenderMapPosition": 12,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#80LUCC9YV",
