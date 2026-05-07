@@ -1,6 +1,6 @@
 {
   "season": "2026-05",
-  "generatedAt": "2026-05-07T03:50:26.718Z",
+  "generatedAt": "2026-05-07T04:05:20.507Z",
   "state": "inWar",
   "rounds": [
     {
@@ -786,9 +786,9 @@
       "result": "inProgress",
       "opponentName": "NTV WAR",
       "opponentTag": "#2PV08Q9YU",
-      "clanStars": 9,
-      "opponentStars": 18,
-      "clanDestructionPct": 20,
+      "clanStars": 12,
+      "opponentStars": 35,
+      "clanDestructionPct": 26.666666666666668,
       "teamSize": 15,
       "members": [
         {
@@ -841,7 +841,12 @@
           "name": "SAFONOV",
           "townhallLevel": 18,
           "mapPosition": 10,
-          "attack": null
+          "attack": {
+            "defenderTag": "#YCY0LP2V",
+            "defenderMapPosition": 9,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#GJ2LQVQJ",
