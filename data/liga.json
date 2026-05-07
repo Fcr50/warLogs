@@ -1,6 +1,6 @@
 {
   "season": "2026-05",
-  "generatedAt": "2026-05-07T03:05:15.329Z",
+  "generatedAt": "2026-05-07T03:20:23.688Z",
   "state": "inWar",
   "rounds": [
     {
@@ -786,9 +786,9 @@
       "result": "inProgress",
       "opponentName": "NTV WAR",
       "opponentTag": "#2PV08Q9YU",
-      "clanStars": 3,
-      "opponentStars": 0,
-      "clanDestructionPct": 6.666666666666667,
+      "clanStars": 9,
+      "opponentStars": 3,
+      "clanDestructionPct": 20,
       "teamSize": 15,
       "members": [
         {
@@ -822,7 +822,12 @@
           "name": "ChrolloLucilfer",
           "townhallLevel": 18,
           "mapPosition": 9,
-          "attack": null
+          "attack": {
+            "defenderTag": "#R829VQPG",
+            "defenderMapPosition": 8,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#2GP2JUU2",
@@ -843,7 +848,12 @@
           "name": "Fer",
           "townhallLevel": 18,
           "mapPosition": 4,
-          "attack": null
+          "attack": {
+            "defenderTag": "#2LGGGRPP2",
+            "defenderMapPosition": 4,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#PLU2VCLG",
