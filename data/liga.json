@@ -1,6 +1,6 @@
 {
   "season": "2026-05",
-  "generatedAt": "2026-05-08T15:50:23.909Z",
+  "generatedAt": "2026-05-08T16:05:17.851Z",
   "state": "inWar",
   "rounds": [
     {
@@ -980,9 +980,9 @@
       "result": "inProgress",
       "opponentName": "HELLO VIET NAM",
       "opponentTag": "#2GV8RUV9V",
-      "clanStars": 42,
-      "opponentStars": 29,
-      "clanDestructionPct": 93.33333333333333,
+      "clanStars": 45,
+      "opponentStars": 32,
+      "clanDestructionPct": 100,
       "teamSize": 15,
       "members": [
         {
@@ -1098,7 +1098,12 @@
           "name": "Alflen",
           "townhallLevel": 18,
           "mapPosition": 12,
-          "attack": null
+          "attack": {
+            "defenderTag": "#2GQVQ2009",
+            "defenderMapPosition": 9,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#80LUCC9YV",
