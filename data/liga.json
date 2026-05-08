@@ -1,6 +1,6 @@
 {
   "season": "2026-05",
-  "generatedAt": "2026-05-08T10:05:22.475Z",
+  "generatedAt": "2026-05-08T10:20:19.823Z",
   "state": "inWar",
   "rounds": [
     {
@@ -980,9 +980,9 @@
       "result": "inProgress",
       "opponentName": "HELLO VIET NAM",
       "opponentTag": "#2GV8RUV9V",
-      "clanStars": 18,
+      "clanStars": 24,
       "opponentStars": 12,
-      "clanDestructionPct": 40,
+      "clanDestructionPct": 53.333333333333336,
       "teamSize": 15,
       "members": [
         {
@@ -990,7 +990,12 @@
           "name": "LucasHG9",
           "townhallLevel": 18,
           "mapPosition": 13,
-          "attack": null
+          "attack": {
+            "defenderTag": "#8Q0C82RLQ",
+            "defenderMapPosition": 10,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#QQC8P9C9R",
@@ -1018,7 +1023,12 @@
           "name": "Gustavo Lázaro",
           "townhallLevel": 18,
           "mapPosition": 16,
-          "attack": null
+          "attack": {
+            "defenderTag": "#9R2VCJCUU",
+            "defenderMapPosition": 12,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#QGQJGURCL",
