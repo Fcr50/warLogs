@@ -1,6 +1,6 @@
 {
   "season": "2026-05",
-  "generatedAt": "2026-05-08T03:35:13.850Z",
+  "generatedAt": "2026-05-08T03:50:27.196Z",
   "state": "inWar",
   "rounds": [
     {
@@ -782,8 +782,8 @@
     {
       "round": 5,
       "warTag": "#8Q980VJ88",
-      "state": "inWar",
-      "result": "inProgress",
+      "state": "warEnded",
+      "result": "win",
       "opponentName": "NTV WAR",
       "opponentTag": "#2PV08Q9YU",
       "clanStars": 44,
@@ -980,9 +980,9 @@
       "result": "inProgress",
       "opponentName": "HELLO VIET NAM",
       "opponentTag": "#2GV8RUV9V",
-      "clanStars": 0,
+      "clanStars": 6,
       "opponentStars": 0,
-      "clanDestructionPct": 0,
+      "clanDestructionPct": 13.333333333333334,
       "teamSize": 15,
       "members": [
         {
@@ -1032,7 +1032,12 @@
           "name": "Fer",
           "townhallLevel": 18,
           "mapPosition": 4,
-          "attack": null
+          "attack": {
+            "defenderTag": "#Q0UV0PQCY",
+            "defenderMapPosition": 4,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#L8RG2PV0G",
@@ -1067,7 +1072,12 @@
           "name": "VINGADOR⚡",
           "townhallLevel": 18,
           "mapPosition": 1,
-          "attack": null
+          "attack": {
+            "defenderTag": "#LLR0CGVY",
+            "defenderMapPosition": 1,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#YPVQVU982",
