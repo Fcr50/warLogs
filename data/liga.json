@@ -1,6 +1,6 @@
 {
   "season": "2026-05",
-  "generatedAt": "2026-05-09T11:45:16.880Z",
+  "generatedAt": "2026-05-09T12:00:22.477Z",
   "state": "inWar",
   "rounds": [
     {
@@ -1174,9 +1174,9 @@
       "result": "inProgress",
       "opponentName": "Blood Hounds",
       "opponentTag": "#2C8JG8YUR",
-      "clanStars": 21,
+      "clanStars": 24,
       "opponentStars": 18,
-      "clanDestructionPct": 52.733333333333334,
+      "clanDestructionPct": 59.4,
       "teamSize": 15,
       "members": [
         {
@@ -1227,7 +1227,12 @@
           "name": "Gustavo Lázaro",
           "townhallLevel": 18,
           "mapPosition": 16,
-          "attack": null
+          "attack": {
+            "defenderTag": "#290Y00GG",
+            "defenderMapPosition": 14,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#QGQJGURCL",
