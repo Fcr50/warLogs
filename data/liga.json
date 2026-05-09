@@ -1,6 +1,6 @@
 {
   "season": "2026-05",
-  "generatedAt": "2026-05-09T05:15:24.588Z",
+  "generatedAt": "2026-05-09T05:30:25.613Z",
   "state": "inWar",
   "rounds": [
     {
@@ -1174,9 +1174,9 @@
       "result": "inProgress",
       "opponentName": "Blood Hounds",
       "opponentTag": "#2C8JG8YUR",
-      "clanStars": 1,
+      "clanStars": 4,
       "opponentStars": 9,
-      "clanDestructionPct": 6.4,
+      "clanDestructionPct": 13.066666666666666,
       "teamSize": 15,
       "members": [
         {
@@ -1226,7 +1226,12 @@
           "name": "Fer",
           "townhallLevel": 18,
           "mapPosition": 4,
-          "attack": null
+          "attack": {
+            "defenderTag": "#JUG8RULP",
+            "defenderMapPosition": 5,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#L8RG2PV0G",
