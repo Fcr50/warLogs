@@ -1,6 +1,6 @@
 {
   "season": "2026-05",
-  "generatedAt": "2026-05-09T04:30:24.902Z",
+  "generatedAt": "2026-05-09T04:45:15.931Z",
   "state": "inWar",
   "rounds": [
     {
@@ -1174,9 +1174,9 @@
       "result": "inProgress",
       "opponentName": "Blood Hounds",
       "opponentTag": "#2C8JG8YUR",
-      "clanStars": 0,
+      "clanStars": 1,
       "opponentStars": 0,
-      "clanDestructionPct": 0,
+      "clanDestructionPct": 6.4,
       "teamSize": 15,
       "members": [
         {
@@ -1282,7 +1282,12 @@
           "name": "Frenético",
           "townhallLevel": 18,
           "mapPosition": 24,
-          "attack": null
+          "attack": {
+            "defenderTag": "#GPU9JPR99",
+            "defenderMapPosition": 18,
+            "stars": 1,
+            "destructionPercentage": 96
+          }
         }
       ]
     }
