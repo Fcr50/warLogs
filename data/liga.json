@@ -1,6 +1,6 @@
 {
   "season": "2026-05",
-  "generatedAt": "2026-05-09T21:15:23.982Z",
+  "generatedAt": "2026-05-09T21:30:17.291Z",
   "state": "inWar",
   "rounds": [
     {
@@ -1174,9 +1174,9 @@
       "result": "inProgress",
       "opponentName": "Blood Hounds",
       "opponentTag": "#2C8JG8YUR",
-      "clanStars": 39,
-      "opponentStars": 30,
-      "clanDestructionPct": 92.73333333333333,
+      "clanStars": 42,
+      "opponentStars": 33,
+      "clanDestructionPct": 99.4,
       "teamSize": 15,
       "members": [
         {
@@ -1280,7 +1280,12 @@
           "name": "Phoenix",
           "townhallLevel": 18,
           "mapPosition": 8,
-          "attack": null
+          "attack": {
+            "defenderTag": "#CQQRPRLC",
+            "defenderMapPosition": 7,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#22C820V9L",
