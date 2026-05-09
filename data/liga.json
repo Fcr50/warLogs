@@ -1,6 +1,6 @@
 {
   "season": "2026-05",
-  "generatedAt": "2026-05-09T16:15:15.048Z",
+  "generatedAt": "2026-05-09T16:30:20.477Z",
   "state": "inWar",
   "rounds": [
     {
@@ -1174,9 +1174,9 @@
       "result": "inProgress",
       "opponentName": "Blood Hounds",
       "opponentTag": "#2C8JG8YUR",
-      "clanStars": 36,
+      "clanStars": 39,
       "opponentStars": 24,
-      "clanDestructionPct": 86.06666666666666,
+      "clanDestructionPct": 92.73333333333333,
       "teamSize": 15,
       "members": [
         {
@@ -1244,7 +1244,12 @@
           "name": "SAFONOV",
           "townhallLevel": 18,
           "mapPosition": 9,
-          "attack": null
+          "attack": {
+            "defenderTag": "#C92008QG",
+            "defenderMapPosition": 8,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#GJ2LQVQJ",
