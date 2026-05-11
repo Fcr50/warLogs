@@ -10,8 +10,8 @@
       "opponent": {
         "name": "ESEN YAYLA",
         "tag": "#LVYVR92V",
-        "stars": 4,
-        "destructionPercentage": 5.4666667,
+        "stars": 6,
+        "destructionPercentage": 8.166667,
         "members": [
           {
             "tag": "#8VLR2GRQC",
@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 39,
-        "destructionPercentage": 43.333332
+        "stars": 42,
+        "destructionPercentage": 46.666668
       },
       "sixHourNonAttackers": [
         {
@@ -168,11 +168,6 @@
         {
           "tag": "#2GP2JUU2",
           "name": "Gustavo Lázaro",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QGQJGURCL",
-          "name": "SAFONOV",
           "townhallLevel": 18
         },
         {
@@ -340,8 +335,22 @@
           "name": "SAFONOV",
           "townhallLevel": 18,
           "mapPosition": 10,
-          "attacks": [],
-          "defensesReceived": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 19,
+              "defenderTag": "#Y9J9RQ9JR"
+            }
+          ],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 81,
+              "attackerTag": "#Y9J9RQ9JR",
+              "attackerMapPosition": 10
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -577,6 +586,12 @@
           "mapPosition": 6,
           "attacks": [],
           "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 76,
+              "attackerTag": "#Y9J9RQ9JR",
+              "attackerMapPosition": 10
+            },
             {
               "stars": 2,
               "destructionPercentage": 76,
