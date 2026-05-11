@@ -10,8 +10,8 @@
       "opponent": {
         "name": "ESEN YAYLA",
         "tag": "#LVYVR92V",
-        "stars": 2,
-        "destructionPercentage": 2.5333333,
+        "stars": 4,
+        "destructionPercentage": 5.4666667,
         "members": [
           {
             "tag": "#8VLR2GRQC",
@@ -136,23 +136,13 @@
         ]
       },
       "clan": {
-        "stars": 13,
-        "destructionPercentage": 16.4
+        "stars": 33,
+        "destructionPercentage": 36.666668
       },
       "sixHourNonAttackers": [
         {
           "tag": "#QR8R9QUV8",
           "name": "Dr.Hannibal",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#2LY0P2L9U",
-          "name": "LucasHG9",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#2R89QJL9Q",
-          "name": "Hisoka",
           "townhallLevel": 18
         },
         {
@@ -191,21 +181,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#L8RG2PV0G",
-          "name": "joaoaoaoao",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#22C820V9L",
-          "name": "Alflen",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#LJPQCQPYL",
-          "name": "NOTJUN1OR",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#VPPQ8VLV",
           "name": "GABRIEL LOBATO",
           "townhallLevel": 17
@@ -224,11 +199,6 @@
           "tag": "#GGVCRYP8P",
           "name": "gui",
           "townhallLevel": 17
-        },
-        {
-          "tag": "#2Q2ULRCUV",
-          "name": "Aflen",
-          "townhallLevel": 18
         },
         {
           "tag": "#P9C0LVLU2",
@@ -281,7 +251,14 @@
           "name": "LucasHG9",
           "townhallLevel": 18,
           "mapPosition": 11,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 9,
+              "defenderTag": "#LUCRRU9L"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -306,7 +283,20 @@
           "name": "Hisoka",
           "townhallLevel": 18,
           "mapPosition": 18,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 8,
+              "defenderTag": "#29902C02L"
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 94,
+              "order": 12,
+              "defenderTag": "#2RLV08JVP"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -378,7 +368,14 @@
           "name": "joaoaoaoao",
           "townhallLevel": 18,
           "mapPosition": 19,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 13,
+              "defenderTag": "#LC0C8GG08"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -395,7 +392,14 @@
               "defenderTag": "#29902C02L"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 88,
+              "attackerTag": "#29902C02L",
+              "attackerMapPosition": 7
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -425,7 +429,14 @@
           "name": "Alflen",
           "townhallLevel": 18,
           "mapPosition": 12,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 14,
+              "defenderTag": "#2GLCJPPQ0"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -434,7 +445,20 @@
           "name": "NOTJUN1OR",
           "townhallLevel": 18,
           "mapPosition": 13,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 15,
+              "defenderTag": "#P2P2GY802"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 16,
+              "defenderTag": "#2RLV08JVP"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -479,7 +503,14 @@
           "name": "Aflen",
           "townhallLevel": 18,
           "mapPosition": 24,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 10,
+              "defenderTag": "#PU08PVCG2"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
