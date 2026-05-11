@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 56,
-        "destructionPercentage": 63.233334
+        "stars": 62,
+        "destructionPercentage": 69.9
       },
       "sixHourNonAttackers": [
         {
@@ -161,18 +161,8 @@
           "townhallLevel": 17
         },
         {
-          "tag": "#29LP0VJV0",
-          "name": "Warlord Raivon",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#80LUCC9YV",
           "name": "Lobo ®",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#P9C0LVLU2",
-          "name": "VINGADOR⚡",
           "townhallLevel": 18
         },
         {
@@ -399,6 +389,12 @@
               "destructionPercentage": 92,
               "order": 5,
               "defenderTag": "#29902C02L"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 31,
+              "defenderTag": "#8YY9CGGQQ"
             }
           ],
           "defensesReceived": [
@@ -485,7 +481,14 @@
           "name": "Warlord Raivon",
           "townhallLevel": 18,
           "mapPosition": 22,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 98,
+              "order": 30,
+              "defenderTag": "#8YY9CGGQQ"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -535,7 +538,14 @@
           "name": "VINGADOR⚡",
           "townhallLevel": 18,
           "mapPosition": 1,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 29,
+              "defenderTag": "#202U9R9GP"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
