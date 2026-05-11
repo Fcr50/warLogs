@@ -10,8 +10,8 @@
       "opponent": {
         "name": "ESEN YAYLA",
         "tag": "#LVYVR92V",
-        "stars": 9,
-        "destructionPercentage": 11.5,
+        "stars": 12,
+        "destructionPercentage": 14.833333,
         "members": [
           {
             "tag": "#8VLR2GRQC",
@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 45,
-        "destructionPercentage": 50
+        "stars": 50,
+        "destructionPercentage": 56.566666
       },
       "sixHourNonAttackers": [
         {
@@ -149,11 +149,6 @@
           "tag": "#2QL0VR9GU",
           "name": "Marcola",
           "townhallLevel": 18
-        },
-        {
-          "tag": "#RC82GPG",
-          "name": "tonton",
-          "townhallLevel": 17
         },
         {
           "tag": "#8CJ8YJY0P",
@@ -204,11 +199,6 @@
           "tag": "#QJVQVRPU",
           "name": "Frnnn",
           "townhallLevel": 18
-        },
-        {
-          "tag": "#LUR09RUP2",
-          "name": "andrei7zl",
-          "townhallLevel": 17
         },
         {
           "tag": "#PPPUQPVJY",
@@ -302,7 +292,14 @@
               "defenderTag": "#P2LUR2YJ9"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#9LLYJGGVP",
+              "attackerMapPosition": 29
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -310,7 +307,14 @@
           "name": "tonton",
           "townhallLevel": 17,
           "mapPosition": 29,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 97,
+              "order": 26,
+              "defenderTag": "#9LLYJGGVP"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -615,7 +619,14 @@
           "name": "andrei7zl",
           "townhallLevel": 17,
           "mapPosition": 30,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 25,
+              "defenderTag": "#9UJG0R088"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
