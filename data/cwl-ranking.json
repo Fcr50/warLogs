@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-12T19:15:28.893Z",
+  "generatedAt": "2026-05-12T19:30:22.456Z",
   "totalWars": 6,
   "liveWar": {
     "opponentName": "ESEN YAYLA",
@@ -477,6 +477,42 @@
     },
     {
       "player": {
+        "tag": "#L8RG2PV0G",
+        "name": "joaoaoaoao",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.2143750278359287,
+        "rawScore": 2.2143750278359287,
+        "confidence": 1,
+        "tier": "B",
+        "attackScore": 2.7058755409468565,
+        "defenseScore": 0.39162920255299594,
+        "reliability": 1,
+        "formScore": 2.9,
+        "warsInRoster": 9,
+        "attacksUsed": 18,
+        "attacksAvailable": 18,
+        "avgDestruction": 88.55555555555556,
+        "totalAttacks": 18,
+        "totalStars": 42,
+        "count3Stars": 12,
+        "avgStars": 2.3333333333333335,
+        "threeStarRate": 0.6666666666666666,
+        "totalMissed": 0,
+        "avgPositionDiff": -3.4375,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#2R89QJL9Q",
         "name": "Hisoka",
         "townhallLevel": 18
@@ -501,42 +537,6 @@
         "threeStarRate": 0.4444444444444444,
         "totalMissed": 0,
         "avgPositionDiff": -4.9375,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#L8RG2PV0G",
-        "name": "joaoaoaoao",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.1634662143082894,
-        "rawScore": 2.1634662143082894,
-        "confidence": 1,
-        "tier": "B",
-        "attackScore": 2.7058755409468565,
-        "defenseScore": 0.18799394844243886,
-        "reliability": 1,
-        "formScore": 2.9,
-        "warsInRoster": 9,
-        "attacksUsed": 18,
-        "attacksAvailable": 18,
-        "avgDestruction": 88.55555555555556,
-        "totalAttacks": 18,
-        "totalStars": 42,
-        "count3Stars": 12,
-        "avgStars": 2.3333333333333335,
-        "threeStarRate": 0.6666666666666666,
-        "totalMissed": 0,
-        "avgPositionDiff": -3.4375,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -698,12 +698,12 @@
         "townhallLevel": 18
       },
       "data": {
-        "score": 1.846656847796167,
-        "rawScore": 2.1725374679954905,
+        "score": 1.9415529115546786,
+        "rawScore": 2.284179895946681,
         "confidence": 0.85,
         "tier": "B",
         "attackScore": 3.0358034952273583,
-        "defenseScore": 0,
+        "defenseScore": 0.4465697118047621,
         "reliability": 0.8666666666666667,
         "formScore": 2.995,
         "warsInRoster": 5,
@@ -1427,7 +1427,7 @@
       "totalAttacks": 18,
       "warsInRoster": 9,
       "totalMissed": 0,
-      "rank": 16,
+      "rank": 17,
       "prevRank": 16,
       "normalizedScore": 63.24
     },
@@ -1457,15 +1457,15 @@
     },
     "#L8RG2PV0G": {
       "tier": "B",
-      "score": 2.1634662143082894,
+      "score": 2.2143750278359287,
       "avgStars": 2.3333333333333335,
       "totalStars": 42,
       "totalAttacks": 18,
       "warsInRoster": 9,
       "totalMissed": 0,
-      "rank": 18,
+      "rank": 16,
       "prevRank": 18,
-      "normalizedScore": 61.81
+      "normalizedScore": 63.27
     },
     "#QJLQLUURY": {
       "tier": "B",
@@ -1645,7 +1645,7 @@
     },
     "#PPPUQPVJY": {
       "tier": "B",
-      "score": 1.846656847796167,
+      "score": 1.9415529115546786,
       "avgStars": 2.4,
       "totalStars": 24,
       "totalAttacks": 10,
@@ -1653,7 +1653,7 @@
       "totalMissed": 0,
       "rank": 23,
       "prevRank": 23,
-      "normalizedScore": 52.76
+      "normalizedScore": 55.47
     },
     "#LRC0U92LV": {
       "tier": "B",
@@ -1787,7 +1787,7 @@
       "totalAttacks": 20,
       "warsInRoster": 10,
       "totalMissed": 0,
-      "rank": 17,
+      "rank": 18,
       "prevRank": 17,
       "normalizedScore": 62.53
     },
