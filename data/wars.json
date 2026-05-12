@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 72,
-        "destructionPercentage": 80
+        "stars": 75,
+        "destructionPercentage": 83.333336
       },
       "sixHourNonAttackers": [
         {
@@ -149,11 +149,6 @@
           "tag": "#GJ2LQVQJ",
           "name": "Fer",
           "townhallLevel": 18
-        },
-        {
-          "tag": "#VPPQ8VLV",
-          "name": "GABRIEL LOBATO",
-          "townhallLevel": 17
         },
         {
           "tag": "#2LGC8PGRY",
@@ -481,7 +476,14 @@
           "name": "GABRIEL LOBATO",
           "townhallLevel": 17,
           "mapPosition": 25,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 38,
+              "defenderTag": "#GUPCPYGG"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 2,
