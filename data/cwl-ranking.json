@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-05-12T01:45:19.607Z",
+  "generatedAt": "2026-05-12T02:00:27.131Z",
   "totalWars": 6,
   "liveWar": {
     "opponentName": "ESEN YAYLA",
-    "totalAttacksDone": 31,
+    "totalAttacksDone": 32,
     "totalAttacksExpected": 60
   },
   "ranking": [
@@ -266,25 +266,25 @@
         "townhallLevel": 18
       },
       "data": {
-        "score": 2.44714869763238,
-        "rawScore": 2.44714869763238,
+        "score": 2.462021943503217,
+        "rawScore": 2.462021943503217,
         "confidence": 1,
         "tier": "A",
-        "attackScore": 3.3103954849301154,
+        "attackScore": 3.3458079750987744,
         "defenseScore": 0.0671303758469268,
         "reliability": 1,
         "formScore": 3.5,
         "warsInRoster": 10,
-        "attacksUsed": 18,
+        "attacksUsed": 19,
         "attacksAvailable": 20,
-        "avgDestruction": 93.11111111111111,
-        "totalAttacks": 18,
-        "totalStars": 50,
-        "count3Stars": 15,
-        "avgStars": 2.7777777777777777,
-        "threeStarRate": 0.8333333333333334,
+        "avgDestruction": 93.47368421052632,
+        "totalAttacks": 19,
+        "totalStars": 53,
+        "count3Stars": 16,
+        "avgStars": 2.789473684210526,
+        "threeStarRate": 0.8421052631578947,
         "totalMissed": 0,
-        "avgPositionDiff": 3.125,
+        "avgPositionDiff": 2.9411764705882355,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1125,6 +1125,42 @@
     },
     {
       "player": {
+        "tag": "#8VCUUPPJP",
+        "name": "Satsugai",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 0,
+        "rawScore": 0,
+        "confidence": 0,
+        "tier": "F",
+        "attackScore": 0,
+        "defenseScore": 0,
+        "reliability": 0,
+        "formScore": 0,
+        "warsInRoster": 0,
+        "attacksUsed": 0,
+        "attacksAvailable": 0,
+        "avgDestruction": 0,
+        "totalAttacks": 0,
+        "totalStars": 0,
+        "count3Stars": 0,
+        "avgStars": 0,
+        "threeStarRate": 0,
+        "totalMissed": 0,
+        "avgPositionDiff": 0,
+        "hasAnyDefense": false,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.56,
+          "defense": 0,
+          "reliability": 0.3067,
+          "form": 0.1333
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#QQULJG9",
         "name": "david",
         "townhallLevel": 18
@@ -1172,6 +1208,13 @@
       "player": {
         "tag": "#LV98Q8PYY",
         "name": "Vinicius",
+        "townhallLevel": 18
+      }
+    },
+    {
+      "player": {
+        "tag": "#8VCUUPPJP",
+        "name": "Satsugai",
         "townhallLevel": 18
       }
     },
@@ -1234,15 +1277,15 @@
     },
     "#8CJ8YJY0P": {
       "tier": "A",
-      "score": 2.44714869763238,
-      "avgStars": 2.7777777777777777,
-      "totalStars": 50,
-      "totalAttacks": 18,
+      "score": 2.462021943503217,
+      "avgStars": 2.789473684210526,
+      "totalStars": 53,
+      "totalAttacks": 19,
       "warsInRoster": 10,
       "totalMissed": 0,
       "rank": 8,
       "prevRank": 8,
-      "normalizedScore": 69.92
+      "normalizedScore": 70.34
     },
     "#2R89QJL9Q": {
       "tier": "B",
@@ -1455,6 +1498,16 @@
       "rank": 20,
       "prevRank": 20,
       "normalizedScore": 61.32
+    },
+    "#8VCUUPPJP": {
+      "tier": "F",
+      "score": 0,
+      "avgStars": 0,
+      "totalStars": 0,
+      "totalAttacks": 0,
+      "warsInRoster": 0,
+      "totalMissed": 0,
+      "normalizedScore": 0
     },
     "#20JC0J9JR": {
       "tier": "C",
