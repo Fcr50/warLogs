@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-12T18:30:27.876Z",
+  "generatedAt": "2026-05-12T18:45:25.148Z",
   "totalWars": 6,
   "liveWar": {
     "opponentName": "ESEN YAYLA",
@@ -153,6 +153,42 @@
     },
     {
       "player": {
+        "tag": "#2GP2JUU2",
+        "name": "Gustavo Lázaro",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.529386403949165,
+        "rawScore": 2.529386403949165,
+        "confidence": 1,
+        "tier": "A",
+        "attackScore": 3.249081356638861,
+        "defenseScore": 0.49908893664337217,
+        "reliability": 1,
+        "formScore": 3.5,
+        "warsInRoster": 10,
+        "attacksUsed": 20,
+        "attacksAvailable": 20,
+        "avgDestruction": 96.55,
+        "totalAttacks": 20,
+        "totalStars": 52,
+        "count3Stars": 14,
+        "avgStars": 2.6,
+        "threeStarRate": 0.7,
+        "totalMissed": 0,
+        "avgPositionDiff": -0.5,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#YVYCCQU08",
         "name": "Frenético",
         "townhallLevel": 18
@@ -213,42 +249,6 @@
         "threeStarRate": 0.95,
         "totalMissed": 0,
         "avgPositionDiff": -1,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#2GP2JUU2",
-        "name": "Gustavo Lázaro",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.4875003163850287,
-        "rawScore": 2.4875003163850287,
-        "confidence": 1,
-        "tier": "A",
-        "attackScore": 3.249081356638861,
-        "defenseScore": 0.3315445863868281,
-        "reliability": 1,
-        "formScore": 3.5,
-        "warsInRoster": 10,
-        "attacksUsed": 20,
-        "attacksAvailable": 20,
-        "avgDestruction": 96.55,
-        "totalAttacks": 20,
-        "totalStars": 52,
-        "count3Stars": 14,
-        "avgStars": 2.6,
-        "threeStarRate": 0.7,
-        "totalMissed": 0,
-        "avgPositionDiff": -0.5,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1393,7 +1393,7 @@
       "totalAttacks": 12,
       "warsInRoster": 6,
       "totalMissed": 0,
-      "rank": 5,
+      "rank": 6,
       "prevRank": 5,
       "normalizedScore": 72.11
     },
@@ -1539,15 +1539,15 @@
     },
     "#2GP2JUU2": {
       "tier": "A",
-      "score": 2.4875003163850287,
+      "score": 2.529386403949165,
       "avgStars": 2.6,
       "totalStars": 52,
       "totalAttacks": 20,
       "warsInRoster": 10,
       "totalMissed": 0,
-      "rank": 7,
+      "rank": 5,
       "prevRank": 7,
-      "normalizedScore": 71.07
+      "normalizedScore": 72.27
     },
     "#80LUCC9YV": {
       "tier": "B",
@@ -1569,7 +1569,7 @@
       "totalAttacks": 20,
       "warsInRoster": 10,
       "totalMissed": 0,
-      "rank": 6,
+      "rank": 7,
       "prevRank": 6,
       "normalizedScore": 71.84
     },
