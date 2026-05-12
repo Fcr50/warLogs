@@ -10,8 +10,8 @@
       "opponent": {
         "name": "ESEN YAYLA",
         "tag": "#LVYVR92V",
-        "stars": 17,
-        "destructionPercentage": 20.666666,
+        "stars": 20,
+        "destructionPercentage": 24,
         "members": [
           {
             "tag": "#8VLR2GRQC",
@@ -577,7 +577,14 @@
               "defenderTag": "#202U9R9GP"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#QJR9GVQPL",
+              "attackerMapPosition": 2
+            }
+          ],
           "missedAttacks": 0
         },
         {
