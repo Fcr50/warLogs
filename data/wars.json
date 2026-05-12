@@ -136,15 +136,10 @@
         ]
       },
       "clan": {
-        "stars": 62,
-        "destructionPercentage": 69.9
+        "stars": 71,
+        "destructionPercentage": 79.9
       },
       "sixHourNonAttackers": [
-        {
-          "tag": "#QR8R9QUV8",
-          "name": "Dr.Hannibal",
-          "townhallLevel": 18
-        },
         {
           "tag": "#8CJ8YJY0P",
           "name": "ChrolloLucilfer",
@@ -159,11 +154,6 @@
           "tag": "#VPPQ8VLV",
           "name": "GABRIEL LOBATO",
           "townhallLevel": 17
-        },
-        {
-          "tag": "#80LUCC9YV",
-          "name": "Lobo ®",
-          "townhallLevel": 18
         },
         {
           "tag": "#2LGC8PGRY",
@@ -192,7 +182,14 @@
           "name": "Dr.Hannibal",
           "townhallLevel": 18,
           "mapPosition": 17,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 34,
+              "defenderTag": "#QJURVJP2R"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -341,6 +338,12 @@
               "destructionPercentage": 100,
               "order": 19,
               "defenderTag": "#Y9J9RQ9JR"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 35,
+              "defenderTag": "#28PLGG0U9"
             }
           ],
           "defensesReceived": [
@@ -504,7 +507,14 @@
           "name": "Lobo ®",
           "townhallLevel": 18,
           "mapPosition": 2,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 36,
+              "defenderTag": "#QJR9GVQPL"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
