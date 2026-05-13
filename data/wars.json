@@ -156,8 +156,8 @@
         ]
       },
       "clan": {
-        "stars": 29,
-        "destructionPercentage": 28.457144
+        "stars": 35,
+        "destructionPercentage": 34.17143
       },
       "sixHourNonAttackers": [
         {
@@ -216,11 +216,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#L8RG2PV0G",
-          "name": "joaoaoaoao",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#PLU2VCLG",
           "name": "Phoenix",
           "townhallLevel": 18
@@ -228,11 +223,6 @@
         {
           "tag": "#20JC0J9JR",
           "name": "BTV✯Robin Hood",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#22C820V9L",
-          "name": "Alflen",
           "townhallLevel": 18
         },
         {
@@ -501,7 +491,14 @@
           "name": "joaoaoaoao",
           "townhallLevel": 18,
           "mapPosition": 23,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 14,
+              "defenderTag": "#GYRUGGUG2"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -528,7 +525,14 @@
           "name": "Alflen",
           "townhallLevel": 18,
           "mapPosition": 13,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 15,
+              "defenderTag": "#QPGJQVQ"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
