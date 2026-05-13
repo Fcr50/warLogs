@@ -156,8 +156,8 @@
         ]
       },
       "clan": {
-        "stars": 48,
-        "destructionPercentage": 45.714287
+        "stars": 56,
+        "destructionPercentage": 53.37143
       },
       "sixHourNonAttackers": [
         {
@@ -183,16 +183,6 @@
         {
           "tag": "#8P9GUPPC",
           "name": "✨ MaxB13 ✨",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#RC82GPG",
-          "name": "tonton",
-          "townhallLevel": 17
-        },
-        {
-          "tag": "#LQQRGJ8VU",
-          "name": "i-Vinni",
           "townhallLevel": 18
         },
         {
@@ -249,11 +239,6 @@
           "tag": "#LUR09RUP2",
           "name": "andrei7zl",
           "townhallLevel": 17
-        },
-        {
-          "tag": "#PPPUQPVJY",
-          "name": "Rodrigo",
-          "townhallLevel": 18
         }
       ],
       "members": [
@@ -394,7 +379,14 @@
           "name": "tonton",
           "townhallLevel": 17,
           "mapPosition": 33,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 61,
+              "order": 23,
+              "defenderTag": "#8L2PRCLLQ"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -448,7 +440,14 @@
           "name": "i-Vinni",
           "townhallLevel": 18,
           "mapPosition": 28,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 68,
+              "order": 22,
+              "defenderTag": "#PC8JJU9V9"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -588,6 +587,12 @@
               "destructionPercentage": 100,
               "order": 9,
               "defenderTag": "#QQGJCP988"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 24,
+              "defenderTag": "#8L2PRCLLQ"
             }
           ],
           "defensesReceived": [],
@@ -707,7 +712,14 @@
           "name": "Rodrigo",
           "townhallLevel": 18,
           "mapPosition": 25,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 21,
+              "defenderTag": "#PCUYRV22"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         }
