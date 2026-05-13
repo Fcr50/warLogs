@@ -10,8 +10,8 @@
       "opponent": {
         "name": "♣ASSAULTZ♣",
         "tag": "#2YCCGYP2J",
-        "stars": 6,
-        "destructionPercentage": 5.714286,
+        "stars": 9,
+        "destructionPercentage": 8.571428,
         "members": [
           {
             "tag": "#LC8YP8UVJ",
@@ -156,8 +156,8 @@
         ]
       },
       "clan": {
-        "stars": 24,
-        "destructionPercentage": 22.857143
+        "stars": 27,
+        "destructionPercentage": 25.714285
       },
       "sixHourNonAttackers": [
         {
@@ -278,11 +278,6 @@
         {
           "tag": "#GQU9Y0CQ8",
           "name": "Scok♤",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QJVQVRPU",
-          "name": "Frnnn",
           "townhallLevel": 18
         },
         {
@@ -559,7 +554,14 @@
           "townhallLevel": 18,
           "mapPosition": 2,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#LC8YP8UVJ",
+              "attackerMapPosition": 8
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -660,7 +662,14 @@
           "name": "Frnnn",
           "townhallLevel": 18,
           "mapPosition": 6,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 12,
+              "defenderTag": "#8QGL00VLU"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
