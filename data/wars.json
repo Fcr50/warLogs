@@ -10,8 +10,8 @@
       "opponent": {
         "name": "♣ASSAULTZ♣",
         "tag": "#2YCCGYP2J",
-        "stars": 3,
-        "destructionPercentage": 2.857143,
+        "stars": 6,
+        "destructionPercentage": 5.714286,
         "members": [
           {
             "tag": "#LC8YP8UVJ",
@@ -371,7 +371,14 @@
           "townhallLevel": 18,
           "mapPosition": 8,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#LC8YP8UVJ",
+              "attackerMapPosition": 8
+            }
+          ],
           "missedAttacks": 0
         },
         {
