@@ -10,8 +10,8 @@
       "opponent": {
         "name": "♣ASSAULTZ♣",
         "tag": "#2YCCGYP2J",
-        "stars": 0,
-        "destructionPercentage": 0,
+        "stars": 3,
+        "destructionPercentage": 2.857143,
         "members": [
           {
             "tag": "#LC8YP8UVJ",
@@ -156,8 +156,8 @@
         ]
       },
       "clan": {
-        "stars": 12,
-        "destructionPercentage": 11.428572
+        "stars": 18,
+        "destructionPercentage": 17.142857
       },
       "sixHourNonAttackers": [
         {
@@ -216,11 +216,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#QGQJGURCL",
-          "name": "SAFONOV",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#GJ2LQVQJ",
           "name": "Fer",
           "townhallLevel": 18
@@ -273,11 +268,6 @@
         {
           "tag": "#2Q2ULRCUV",
           "name": "Aflen",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#P9C0LVLU2",
-          "name": "VINGADOR⚡",
           "townhallLevel": 18
         },
         {
@@ -427,7 +417,14 @@
           "townhallLevel": 17,
           "mapPosition": 33,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#8L2PRCLLQ",
+              "attackerMapPosition": 33
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -469,7 +466,14 @@
           "name": "SAFONOV",
           "townhallLevel": 18,
           "mapPosition": 10,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 6,
+              "defenderTag": "#8RRRYL9UP"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -577,7 +581,14 @@
           "name": "VINGADOR⚡",
           "townhallLevel": 18,
           "mapPosition": 1,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 5,
+              "defenderTag": "#GRRCLGQQG"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
