@@ -156,15 +156,10 @@
         ]
       },
       "clan": {
-        "stars": 44,
-        "destructionPercentage": 42.74286
+        "stars": 48,
+        "destructionPercentage": 45.714287
       },
       "sixHourNonAttackers": [
-        {
-          "tag": "#QQC8P9C9R",
-          "name": "Gs.prieto",
-          "townhallLevel": 18
-        },
         {
           "tag": "#2R89QJL9Q",
           "name": "Hisoka",
@@ -315,7 +310,14 @@
           "name": "Gs.prieto",
           "townhallLevel": 18,
           "mapPosition": 16,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 20,
+              "defenderTag": "#YGCRCJ2G"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -430,6 +432,12 @@
               "destructionPercentage": 100,
               "order": 8,
               "defenderTag": "#RQ0LLVP"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 19,
+              "defenderTag": "#VJU0PLLU"
             }
           ],
           "defensesReceived": [],
