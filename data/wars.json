@@ -156,15 +156,10 @@
         ]
       },
       "clan": {
-        "stars": 35,
-        "destructionPercentage": 34.17143
+        "stars": 44,
+        "destructionPercentage": 42.74286
       },
       "sixHourNonAttackers": [
-        {
-          "tag": "#QR8R9QUV8",
-          "name": "Dr.Hannibal",
-          "townhallLevel": 18
-        },
         {
           "tag": "#QQC8P9C9R",
           "name": "Gs.prieto",
@@ -236,16 +231,6 @@
           "townhallLevel": 17
         },
         {
-          "tag": "#80LUCC9YV",
-          "name": "Lobo ®",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#2Q2ULRCUV",
-          "name": "Aflen",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#YPVQVU982",
           "name": "亗 ＨＡＤＥＳ_０７ 亗",
           "townhallLevel": 18
@@ -298,7 +283,14 @@
           "name": "Dr.Hannibal",
           "townhallLevel": 18,
           "mapPosition": 19,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 16,
+              "defenderTag": "#QGCRR02J"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -559,7 +551,14 @@
           "name": "Lobo ®",
           "townhallLevel": 18,
           "mapPosition": 2,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 18,
+              "defenderTag": "#20Q9LUVV2"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -591,7 +590,14 @@
           "name": "Aflen",
           "townhallLevel": 18,
           "mapPosition": 29,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 17,
+              "defenderTag": "#GPJ29JVLV"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
