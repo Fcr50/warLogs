@@ -10,8 +10,8 @@
       "opponent": {
         "name": "♣ASSAULTZ♣",
         "tag": "#2YCCGYP2J",
-        "stars": 28,
-        "destructionPercentage": 27.857143,
+        "stars": 31,
+        "destructionPercentage": 30.714285,
         "members": [
           {
             "tag": "#LC8YP8UVJ",
@@ -156,8 +156,8 @@
         ]
       },
       "clan": {
-        "stars": 93,
-        "destructionPercentage": 88.57143
+        "stars": 96,
+        "destructionPercentage": 91.42857
       },
       "sixHourNonAttackers": [
         {
@@ -355,7 +355,14 @@
           "townhallLevel": 18,
           "mapPosition": 27,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#QQGJCP988",
+              "attackerMapPosition": 31
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -636,6 +643,12 @@
               "destructionPercentage": 100,
               "order": 18,
               "defenderTag": "#20Q9LUVV2"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 47,
+              "defenderTag": "#8GQ92QPJU"
             }
           ],
           "defensesReceived": [
