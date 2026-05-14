@@ -822,7 +822,20 @@
           "name": "NOTJUN1OR",
           "townhallLevel": 18,
           "mapPosition": 14,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 1,
+              "destructionPercentage": 65,
+              "order": 100,
+              "defenderTag": "#GRRCLGQQG"
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 73,
+              "order": 101,
+              "defenderTag": "#8RJ9CJR2"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -1077,6 +1090,12 @@
               "destructionPercentage": 100,
               "attackerTag": "#YRCJLCPU2",
               "attackerMapPosition": 34
+            },
+            {
+              "stars": 0,
+              "destructionPercentage": 9,
+              "attackerTag": "#Q28VRP0QV",
+              "attackerMapPosition": 35
             }
           ],
           "missedAttacks": 0
@@ -1158,6 +1177,12 @@
               "destructionPercentage": 100,
               "attackerTag": "#8GQ92QPJU",
               "attackerMapPosition": 27
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 99,
+              "attackerTag": "#Q28VRP0QV",
+              "attackerMapPosition": 35
             }
           ],
           "missedAttacks": 0
