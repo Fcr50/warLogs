@@ -355,7 +355,20 @@
           "name": "Hisoka",
           "townhallLevel": 18,
           "mapPosition": 21,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 114,
+              "defenderTag": "#GRRCLGQQG"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 115,
+              "defenderTag": "#20Q9LUVV2"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 2,
@@ -470,6 +483,12 @@
               "destructionPercentage": 100,
               "order": 111,
               "defenderTag": "#8QGL00VLU"
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 88,
+              "order": 112,
+              "defenderTag": "#VQ82QLG2"
             }
           ],
           "defensesReceived": [
@@ -1202,6 +1221,12 @@
               "destructionPercentage": 100,
               "order": 12,
               "defenderTag": "#8QGL00VLU"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 113,
+              "defenderTag": "#8RJ9CJR2"
             }
           ],
           "defensesReceived": [
