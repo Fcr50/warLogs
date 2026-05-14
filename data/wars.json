@@ -10,8 +10,8 @@
       "opponent": {
         "name": "♣ASSAULTZ♣",
         "tag": "#2YCCGYP2J",
-        "stars": 90,
-        "destructionPercentage": 89.91428,
+        "stars": 93,
+        "destructionPercentage": 92.77143,
         "members": [
           {
             "tag": "#LC8YP8UVJ",
@@ -537,7 +537,14 @@
               "defenderTag": "#VJU0PLLU"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#20Q9LUVV2",
+              "attackerMapPosition": 2
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -973,7 +980,20 @@
           "name": "Scok♤",
           "townhallLevel": 18,
           "mapPosition": 35,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 96,
+              "order": 83,
+              "defenderTag": "#VQ82QLG2"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 84,
+              "defenderTag": "#PVCPR0V9"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
