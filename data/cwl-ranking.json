@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-14T16:00:38.483Z",
+  "generatedAt": "2026-05-14T16:15:33.778Z",
   "totalWars": 6,
   "liveWar": {
     "opponentName": "♣ASSAULTZ♣",
@@ -1089,42 +1089,6 @@
     },
     {
       "player": {
-        "tag": "#2UR2Y9Q9J",
-        "name": "The King Leive",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 0.771825,
-        "rawScore": 1.54365,
-        "confidence": 0.5,
-        "tier": "C",
-        "attackScore": 2.4325,
-        "defenseScore": 1.128,
-        "reliability": 0,
-        "formScore": 2.4,
-        "warsInRoster": 1,
-        "attacksUsed": 2,
-        "attacksAvailable": 2,
-        "avgDestruction": 90,
-        "totalAttacks": 2,
-        "totalStars": 4,
-        "count3Stars": 1,
-        "avgStars": 2,
-        "threeStarRate": 0.5,
-        "totalMissed": 0,
-        "avgPositionDiff": -5,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
         "tag": "#LQQRGJ8VU",
         "name": "i-Vinni",
         "townhallLevel": 18
@@ -1149,6 +1113,42 @@
         "threeStarRate": 0,
         "totalMissed": 0,
         "avgPositionDiff": 0,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#2UR2Y9Q9J",
+        "name": "The King Leive",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 0.668325,
+        "rawScore": 1.33665,
+        "confidence": 0.5,
+        "tier": "C",
+        "attackScore": 2.4325,
+        "defenseScore": 0.3,
+        "reliability": 0,
+        "formScore": 2.4,
+        "warsInRoster": 1,
+        "attacksUsed": 2,
+        "attacksAvailable": 2,
+        "avgDestruction": 90,
+        "totalAttacks": 2,
+        "totalStars": 4,
+        "count3Stars": 1,
+        "avgStars": 2,
+        "threeStarRate": 0.5,
+        "totalMissed": 0,
+        "avgPositionDiff": -5,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1551,15 +1551,15 @@
     },
     "#2UR2Y9Q9J": {
       "tier": "C",
-      "score": 0.771825,
+      "score": 0.668325,
       "avgStars": 2,
       "totalStars": 4,
       "totalAttacks": 2,
       "warsInRoster": 1,
       "totalMissed": 0,
-      "rank": 37,
+      "rank": 38,
       "prevRank": 37,
-      "normalizedScore": 22.05
+      "normalizedScore": 19.09
     },
     "#QR8R9QUV8": {
       "tier": "B",
@@ -1675,7 +1675,7 @@
       "totalAttacks": 1,
       "warsInRoster": 1,
       "totalMissed": 0,
-      "rank": 38,
+      "rank": 37,
       "prevRank": 38,
       "normalizedScore": 20.29
     },
