@@ -10,8 +10,8 @@
       "opponent": {
         "name": "♣ASSAULTZ♣",
         "tag": "#2YCCGYP2J",
-        "stars": 15,
-        "destructionPercentage": 14.285714,
+        "stars": 17,
+        "destructionPercentage": 16.485714,
         "members": [
           {
             "tag": "#LC8YP8UVJ",
@@ -156,8 +156,8 @@
         ]
       },
       "clan": {
-        "stars": 59,
-        "destructionPercentage": 57.114285
+        "stars": 62,
+        "destructionPercentage": 59.971428
       },
       "sixHourNonAttackers": [
         {
@@ -213,11 +213,6 @@
         {
           "tag": "#YPVQVU982",
           "name": "亗 ＨＡＤＥＳ_０７ 亗",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#LYJG0L8G",
-          "name": "GLADIADOR!!!",
           "townhallLevel": 18
         },
         {
@@ -307,7 +302,14 @@
           "townhallLevel": 18,
           "mapPosition": 21,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 77,
+              "attackerTag": "#2P9P9PLGP",
+              "attackerMapPosition": 21
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -666,7 +668,14 @@
           "name": "GLADIADOR!!!",
           "townhallLevel": 18,
           "mapPosition": 20,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 30,
+              "defenderTag": "#QUQCQJ20"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
