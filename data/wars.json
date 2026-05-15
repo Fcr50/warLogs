@@ -156,8 +156,8 @@
         ]
       },
       "clan": {
-        "stars": 42,
-        "destructionPercentage": 40
+        "stars": 44,
+        "destructionPercentage": 42.657143
       },
       "sixHourNonAttackers": [
         {
@@ -199,11 +199,6 @@
           "tag": "#9UQYJYUCL",
           "name": "⚡mascote⚡",
           "townhallLevel": 17
-        },
-        {
-          "tag": "#L8RG2PV0G",
-          "name": "joaoaoaoao",
-          "townhallLevel": 18
         },
         {
           "tag": "#PLU2VCLG",
@@ -518,7 +513,14 @@
           "name": "joaoaoaoao",
           "townhallLevel": 18,
           "mapPosition": 23,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 93,
+              "order": 33,
+              "defenderTag": "#G8C880QU"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
