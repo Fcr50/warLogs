@@ -156,20 +156,10 @@
         ]
       },
       "clan": {
-        "stars": 36,
-        "destructionPercentage": 34.285713
+        "stars": 42,
+        "destructionPercentage": 40
       },
       "sixHourNonAttackers": [
-        {
-          "tag": "#8VCUUPPJP",
-          "name": "Satsugai",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QQC8P9C9R",
-          "name": "Gs.prieto",
-          "townhallLevel": 18
-        },
         {
           "tag": "#2R89QJL9Q",
           "name": "Hisoka",
@@ -282,7 +272,14 @@
           "name": "Satsugai",
           "townhallLevel": 18,
           "mapPosition": 22,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 31,
+              "defenderTag": "#QJ02U0RU0"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -329,7 +326,14 @@
           "name": "Gs.prieto",
           "townhallLevel": 18,
           "mapPosition": 16,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 32,
+              "defenderTag": "#20CLU0YUU"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 1,
