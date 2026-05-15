@@ -156,8 +156,8 @@
         ]
       },
       "clan": {
-        "stars": 20,
-        "destructionPercentage": 19.62857
+        "stars": 27,
+        "destructionPercentage": 25.714285
       },
       "sixHourNonAttackers": [
         {
@@ -251,11 +251,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#GGVCRYP8P",
-          "name": "gui",
-          "townhallLevel": 17
-        },
-        {
           "tag": "#2Q2ULRCUV",
           "name": "Aflen",
           "townhallLevel": 18
@@ -283,11 +278,6 @@
         {
           "tag": "#GQU9Y0CQ8",
           "name": "Scok♤",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#YVYCCQU08",
-          "name": "Frenético",
           "townhallLevel": 18
         },
         {
@@ -451,6 +441,12 @@
               "destructionPercentage": 100,
               "order": 24,
               "defenderTag": "#GYLUQY9QG"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 25,
+              "defenderTag": "#L99LYLLQ2"
             }
           ],
           "defensesReceived": [],
@@ -633,7 +629,14 @@
           "name": "gui",
           "townhallLevel": 17,
           "mapPosition": 30,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 26,
+              "defenderTag": "#2CJ9QR9LG"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -717,7 +720,14 @@
           "name": "Frenético",
           "townhallLevel": 18,
           "mapPosition": 25,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 27,
+              "defenderTag": "#YLQLCYUUC"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
