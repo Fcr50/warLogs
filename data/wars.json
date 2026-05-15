@@ -156,8 +156,8 @@
         ]
       },
       "clan": {
-        "stars": 12,
-        "destructionPercentage": 11.428572
+        "stars": 20,
+        "destructionPercentage": 19.62857
       },
       "sixHourNonAttackers": [
         {
@@ -183,16 +183,6 @@
         {
           "tag": "#Q9YY2PV0U",
           "name": "NARUTO",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#8CJ8YJY0P",
-          "name": "ChrolloLucilfer",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#2GP2JUU2",
-          "name": "Gustavo Lázaro",
           "townhallLevel": 18
         },
         {
@@ -306,11 +296,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#QJVQVRPU",
-          "name": "Frnnn",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#LUR09RUP2",
           "name": "andrei7zl",
           "townhallLevel": 17
@@ -353,6 +338,12 @@
               "destructionPercentage": 100,
               "order": 8,
               "defenderTag": "#9JU99JYQ9"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 22,
+              "defenderTag": "#CP2QGRU8"
             }
           ],
           "defensesReceived": [],
@@ -438,7 +429,14 @@
           "name": "ChrolloLucilfer",
           "townhallLevel": 18,
           "mapPosition": 8,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 1,
+              "destructionPercentage": 87,
+              "order": 21,
+              "defenderTag": "#CP2QGRU8"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -447,7 +445,14 @@
           "name": "Gustavo Lázaro",
           "townhallLevel": 18,
           "mapPosition": 17,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 24,
+              "defenderTag": "#GYLUQY9QG"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -737,7 +742,14 @@
           "name": "Frnnn",
           "townhallLevel": 18,
           "mapPosition": 6,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 87,
+              "order": 23,
+              "defenderTag": "#L99LYLLQ2"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 2,
