@@ -10,8 +10,8 @@
       "opponent": {
         "name": "#amc imperium",
         "tag": "#2QC90P0RC",
-        "stars": 82,
-        "destructionPercentage": 82.11429,
+        "stars": 88,
+        "destructionPercentage": 85.4,
         "members": [
           {
             "tag": "#PYC8QYJLQ",
@@ -260,6 +260,12 @@
               "destructionPercentage": 100,
               "order": 14,
               "defenderTag": "#LU289UVJU"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 101,
+              "defenderTag": "#VLGQPGCR"
             }
           ],
           "defensesReceived": [
@@ -407,7 +413,14 @@
               "defenderTag": "#VLGQPGCR"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#20CLU0YUU",
+              "attackerMapPosition": 16
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -551,6 +564,12 @@
           ],
           "defensesReceived": [
             {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#PCCLRV22G",
+              "attackerMapPosition": 7
+            },
+            {
               "stars": 2,
               "destructionPercentage": 99,
               "attackerTag": "#90JCUQPLL",
@@ -619,6 +638,12 @@
               "destructionPercentage": 86,
               "attackerTag": "#9GGVU2QC",
               "attackerMapPosition": 11
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#PCCLRV22G",
+              "attackerMapPosition": 7
             }
           ],
           "missedAttacks": 0
