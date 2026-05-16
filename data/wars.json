@@ -156,8 +156,8 @@
         ]
       },
       "clan": {
-        "stars": 69,
-        "destructionPercentage": 65.71429
+        "stars": 72,
+        "destructionPercentage": 68.57143
       },
       "sixHourNonAttackers": [
         {
@@ -473,7 +473,14 @@
           "name": "The King Leive",
           "townhallLevel": 18,
           "mapPosition": 11,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 48,
+              "defenderTag": "#9GGVU2QC"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 1,
