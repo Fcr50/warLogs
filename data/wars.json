@@ -10,8 +10,8 @@
       "opponent": {
         "name": "#amc imperium",
         "tag": "#2QC90P0RC",
-        "stars": 36,
-        "destructionPercentage": 36.45714,
+        "stars": 39,
+        "destructionPercentage": 39.314285,
         "members": [
           {
             "tag": "#PYC8QYJLQ",
@@ -624,7 +624,14 @@
           "townhallLevel": 17,
           "mapPosition": 29,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#QG0QC282Y",
+              "attackerMapPosition": 32
+            }
+          ],
           "missedAttacks": 0
         },
         {
