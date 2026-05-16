@@ -691,7 +691,14 @@
           "name": "⚡mascote⚡",
           "townhallLevel": 17,
           "mapPosition": 33,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 1,
+              "destructionPercentage": 50,
+              "order": 130,
+              "defenderTag": "#VLGQPGCR"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
