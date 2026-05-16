@@ -156,8 +156,8 @@
         ]
       },
       "clan": {
-        "stars": 54,
-        "destructionPercentage": 51.42857
+        "stars": 59,
+        "destructionPercentage": 57.114285
       },
       "sixHourNonAttackers": [
         {
@@ -191,11 +191,6 @@
           "townhallLevel": 17
         },
         {
-          "tag": "#PLU2VCLG",
-          "name": "Phoenix",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#20JC0J9JR",
           "name": "BTV✯Robin Hood",
           "townhallLevel": 18
@@ -223,11 +218,6 @@
         {
           "tag": "#YPVQVU982",
           "name": "亗 ＨＡＤＥＳ_０７ 亗",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#LYJG0L8G",
-          "name": "GLADIADOR!!!",
           "townhallLevel": 18
         },
         {
@@ -529,7 +519,14 @@
           "name": "Phoenix",
           "townhallLevel": 18,
           "mapPosition": 7,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 41,
+              "defenderTag": "#PCCLRV22G"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -704,7 +701,14 @@
           "name": "GLADIADOR!!!",
           "townhallLevel": 18,
           "mapPosition": 20,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 99,
+              "order": 40,
+              "defenderTag": "#JUPUCQCG"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
