@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-05-16T02:00:22.173Z",
+  "generatedAt": "2026-05-16T02:15:22.472Z",
   "totalWars": 7,
   "liveWar": {
     "opponentName": "#amc imperium",
-    "totalAttacksDone": 28,
+    "totalAttacksDone": 29,
     "totalAttacksExpected": 70
   },
   "ranking": [
@@ -369,6 +369,42 @@
     },
     {
       "player": {
+        "tag": "#GQU9Y0CQ8",
+        "name": "Scok♤",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.3667967666329375,
+        "rawScore": 2.3667967666329375,
+        "confidence": 1,
+        "tier": "C",
+        "attackScore": 2.984409635480199,
+        "defenseScore": 0.39737887892501744,
+        "reliability": 1,
+        "formScore": 3.24,
+        "warsInRoster": 11,
+        "attacksUsed": 20,
+        "attacksAvailable": 22,
+        "avgDestruction": 92.7,
+        "totalAttacks": 20,
+        "totalStars": 43,
+        "count3Stars": 8,
+        "avgStars": 2.15,
+        "threeStarRate": 0.4,
+        "totalMissed": 0,
+        "avgPositionDiff": -20,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#2R89QJL9Q",
         "name": "Hisoka",
         "townhallLevel": 18
@@ -393,42 +429,6 @@
         "threeStarRate": 0.5,
         "totalMissed": 0,
         "avgPositionDiff": -6.555555555555555,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#GQU9Y0CQ8",
-        "name": "Scok♤",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.3510758879800573,
-        "rawScore": 2.3510758879800573,
-        "confidence": 1,
-        "tier": "C",
-        "attackScore": 2.946978972020959,
-        "defenseScore": 0.39737887892501744,
-        "reliability": 1,
-        "formScore": 3.24,
-        "warsInRoster": 11,
-        "attacksUsed": 19,
-        "attacksAvailable": 22,
-        "avgDestruction": 92.3157894736842,
-        "totalAttacks": 19,
-        "totalStars": 40,
-        "count3Stars": 7,
-        "avgStars": 2.1052631578947367,
-        "threeStarRate": 0.3684210526315789,
-        "totalMissed": 0,
-        "avgPositionDiff": -19.294117647058822,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1498,7 +1498,7 @@
       "warsInRoster": 3,
       "totalMissed": 0,
       "rank": 38,
-      "prevRank": 37,
+      "prevRank": 38,
       "normalizedScore": 33.64
     },
     "#L8RG2PV0G": {
@@ -1521,7 +1521,7 @@
       "totalAttacks": 20,
       "warsInRoster": 11,
       "totalMissed": 0,
-      "rank": 12,
+      "rank": 13,
       "prevRank": 12,
       "normalizedScore": 67.31
     },
@@ -1575,15 +1575,15 @@
     },
     "#GQU9Y0CQ8": {
       "tier": "A",
-      "score": 2.3510758879800573,
-      "avgStars": 2.1052631578947367,
-      "totalStars": 40,
-      "totalAttacks": 19,
+      "score": 2.3667967666329375,
+      "avgStars": 2.15,
+      "totalStars": 43,
+      "totalAttacks": 20,
       "warsInRoster": 11,
       "totalMissed": 0,
-      "rank": 13,
+      "rank": 12,
       "prevRank": 13,
-      "normalizedScore": 67.17
+      "normalizedScore": 67.62
     },
     "#QJLQLUURY": {
       "tier": "C",
@@ -1688,7 +1688,7 @@
       "warsInRoster": 2,
       "totalMissed": 0,
       "rank": 37,
-      "prevRank": 38,
+      "prevRank": 37,
       "normalizedScore": 36.18
     },
     "#2QP9JGYVG": {
