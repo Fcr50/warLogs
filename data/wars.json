@@ -10,8 +10,8 @@
       "opponent": {
         "name": "#amc imperium",
         "tag": "#2QC90P0RC",
-        "stars": 70,
-        "destructionPercentage": 70.457146,
+        "stars": 72,
+        "destructionPercentage": 73.457146,
         "members": [
           {
             "tag": "#PYC8QYJLQ",
@@ -352,7 +352,20 @@
               "defenderTag": "#9JUQ2LQ9L"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 1,
+              "destructionPercentage": 96,
+              "attackerTag": "#2VR8R8GJJ",
+              "attackerMapPosition": 21
+            },
+            {
+              "stars": 1,
+              "destructionPercentage": 94,
+              "attackerTag": "#GYLUQY9QG",
+              "attackerMapPosition": 17
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -774,6 +787,12 @@
               "destructionPercentage": 91,
               "attackerTag": "#28GRL9UJR",
               "attackerMapPosition": 3
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#2VR8R8GJJ",
+              "attackerMapPosition": 21
             }
           ],
           "missedAttacks": 0
