@@ -156,8 +156,8 @@
         ]
       },
       "clan": {
-        "stars": 50,
-        "destructionPercentage": 47.942856
+        "stars": 53,
+        "destructionPercentage": 50.8
       },
       "sixHourNonAttackers": [
         {
@@ -214,11 +214,6 @@
           "tag": "#VPPQ8VLV",
           "name": "GABRIEL LOBATO",
           "townhallLevel": 17
-        },
-        {
-          "tag": "#29LP0VJV0",
-          "name": "Warlord Raivon",
-          "townhallLevel": 18
         },
         {
           "tag": "#2Q2ULRCUV",
@@ -600,7 +595,14 @@
           "name": "Warlord Raivon",
           "townhallLevel": 18,
           "mapPosition": 26,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 38,
+              "defenderTag": "#G0YLQYC99"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
