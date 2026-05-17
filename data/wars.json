@@ -156,8 +156,8 @@
         ]
       },
       "clan": {
-        "stars": 42,
-        "destructionPercentage": 40
+        "stars": 47,
+        "destructionPercentage": 45.142857
       },
       "sixHourNonAttackers": [
         {
@@ -199,11 +199,6 @@
           "tag": "#RC82GPG",
           "name": "tonton",
           "townhallLevel": 17
-        },
-        {
-          "tag": "#8CJ8YJY0P",
-          "name": "ChrolloLucilfer",
-          "townhallLevel": 18
         },
         {
           "tag": "#2GP2JUU2",
@@ -254,11 +249,6 @@
           "tag": "#GQU9Y0CQ8",
           "name": "Scok♤",
           "townhallLevel": 18
-        },
-        {
-          "tag": "#2LGC8PGRY",
-          "name": "lucas r.",
-          "townhallLevel": 17
         },
         {
           "tag": "#YVYCCQU08",
@@ -437,7 +427,14 @@
           "name": "ChrolloLucilfer",
           "townhallLevel": 18,
           "mapPosition": 7,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 37,
+              "defenderTag": "#VQQQ2C8"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -774,7 +771,14 @@
           "name": "lucas r.",
           "townhallLevel": 17,
           "mapPosition": 30,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 80,
+              "order": 36,
+              "defenderTag": "#LUJ2GUY9"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
