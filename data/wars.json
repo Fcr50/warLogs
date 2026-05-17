@@ -10,8 +10,8 @@
       "opponent": {
         "name": "No Way !!!!",
         "tag": "#2GGLVV2L",
-        "stars": 17,
-        "destructionPercentage": 18.085714,
+        "stars": 26,
+        "destructionPercentage": 28.62857,
         "members": [
           {
             "tag": "#LY0C2JUG",
@@ -156,15 +156,10 @@
         ]
       },
       "clan": {
-        "stars": 11,
-        "destructionPercentage": 10.657143
+        "stars": 27,
+        "destructionPercentage": 25.714285
       },
       "sixHourNonAttackers": [
-        {
-          "tag": "#8VCUUPPJP",
-          "name": "Satsugai",
-          "townhallLevel": 18
-        },
         {
           "tag": "#QR8R9QUV8",
           "name": "Dr.Hannibal",
@@ -221,11 +216,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#QGQJGURCL",
-          "name": "SAFONOV",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#2UR2Y9Q9J",
           "name": "The King Leive",
           "townhallLevel": 18
@@ -276,11 +266,6 @@
           "townhallLevel": 17
         },
         {
-          "tag": "#2Q2ULRCUV",
-          "name": "Aflen",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#P9C0LVLU2",
           "name": "VINGADOR⚡",
           "townhallLevel": 18
@@ -306,11 +291,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#LRC0U92LV",
-          "name": "Dj_HenriqSP2",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#QJVQVRPU",
           "name": "Frnnn",
           "townhallLevel": 18
@@ -322,7 +302,14 @@
           "name": "Satsugai",
           "townhallLevel": 18,
           "mapPosition": 20,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 20,
+              "defenderTag": "#U9LQGGVQ"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -355,7 +342,14 @@
               "defenderTag": "#LLJ8U2RG2"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 88,
+              "attackerTag": "#2008CQL2V",
+              "attackerMapPosition": 17
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -405,7 +399,14 @@
           "townhallLevel": 18,
           "mapPosition": 8,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 85,
+              "attackerTag": "#2CLQR22Q",
+              "attackerMapPosition": 10
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -476,7 +477,14 @@
           "name": "SAFONOV",
           "townhallLevel": 18,
           "mapPosition": 9,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 18,
+              "defenderTag": "#QV8CV88"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 2,
@@ -585,6 +593,12 @@
               "destructionPercentage": 77,
               "attackerTag": "#RRCRG0QL",
               "attackerMapPosition": 5
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 85,
+              "attackerTag": "#2CLQR22Q",
+              "attackerMapPosition": 10
             }
           ],
           "missedAttacks": 0
@@ -602,7 +616,14 @@
               "defenderTag": "#LY0C2JUG"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#LY0C2JUG",
+              "attackerMapPosition": 35
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -611,7 +632,14 @@
           "townhallLevel": 17,
           "mapPosition": 28,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 88,
+              "attackerTag": "#2UGPJR0RR",
+              "attackerMapPosition": 31
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -619,7 +647,20 @@
           "name": "Aflen",
           "townhallLevel": 18,
           "mapPosition": 26,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 16,
+              "defenderTag": "#YYL0PP29"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 19,
+              "defenderTag": "#YLCRPJR8L"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -696,7 +737,20 @@
           "name": "Dj_HenriqSP2",
           "townhallLevel": 18,
           "mapPosition": 33,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 17,
+              "defenderTag": "#LY0C2JUG"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 22,
+              "defenderTag": "#GC0QUJJ2"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
