@@ -10,8 +10,8 @@
       "opponent": {
         "name": "No Way !!!!",
         "tag": "#2GGLVV2L",
-        "stars": 34,
-        "destructionPercentage": 35.6,
+        "stars": 41,
+        "destructionPercentage": 41.74286,
         "members": [
           {
             "tag": "#LY0C2JUG",
@@ -156,8 +156,8 @@
         ]
       },
       "clan": {
-        "stars": 33,
-        "destructionPercentage": 31.428572
+        "stars": 42,
+        "destructionPercentage": 40
       },
       "sixHourNonAttackers": [
         {
@@ -236,11 +236,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#20JC0J9JR",
-          "name": "BTV✯Robin Hood",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#LJPQCQPYL",
           "name": "NOTJUN1OR",
           "townhallLevel": 18
@@ -251,19 +246,9 @@
           "townhallLevel": 17
         },
         {
-          "tag": "#80LUCC9YV",
-          "name": "Lobo ®",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#GGVCRYP8P",
           "name": "gui",
           "townhallLevel": 17
-        },
-        {
-          "tag": "#P9C0LVLU2",
-          "name": "VINGADOR⚡",
-          "townhallLevel": 18
         },
         {
           "tag": "#GQU9Y0CQ8",
@@ -335,6 +320,12 @@
           "defensesReceived": [
             {
               "stars": 2,
+              "destructionPercentage": 69,
+              "attackerTag": "#2LVCRYVU",
+              "attackerMapPosition": 21
+            },
+            {
+              "stars": 2,
               "destructionPercentage": 88,
               "attackerTag": "#2008CQL2V",
               "attackerMapPosition": 17
@@ -390,6 +381,12 @@
           "mapPosition": 8,
           "attacks": [],
           "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#2LVCRYVU",
+              "attackerMapPosition": 21
+            },
             {
               "stars": 2,
               "destructionPercentage": 85,
@@ -533,7 +530,14 @@
           "name": "BTV✯Robin Hood",
           "townhallLevel": 18,
           "mapPosition": 4,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 29,
+              "defenderTag": "#289L0QLQJ"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -559,7 +563,14 @@
           "townhallLevel": 18,
           "mapPosition": 12,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#LLJ8U2RG2",
+              "attackerMapPosition": 11
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -583,7 +594,14 @@
           "name": "Lobo ®",
           "townhallLevel": 18,
           "mapPosition": 2,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 34,
+              "defenderTag": "#GY2YCJ00"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -664,7 +682,14 @@
               "defenderTag": "#YLCRPJR8L"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#YLCRPJR8L",
+              "attackerMapPosition": 26
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -672,7 +697,14 @@
           "name": "VINGADOR⚡",
           "townhallLevel": 18,
           "mapPosition": 1,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 35,
+              "defenderTag": "#29LVC2Q"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
