@@ -10,8 +10,8 @@
       "opponent": {
         "name": "No Way !!!!",
         "tag": "#2GGLVV2L",
-        "stars": 26,
-        "destructionPercentage": 28.62857,
+        "stars": 34,
+        "destructionPercentage": 35.6,
         "members": [
           {
             "tag": "#LY0C2JUG",
@@ -156,8 +156,8 @@
         ]
       },
       "clan": {
-        "stars": 27,
-        "destructionPercentage": 25.714285
+        "stars": 33,
+        "destructionPercentage": 31.428572
       },
       "sixHourNonAttackers": [
         {
@@ -241,11 +241,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#22C820V9L",
-          "name": "Alflen",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#LJPQCQPYL",
           "name": "NOTJUN1OR",
           "townhallLevel": 18
@@ -268,11 +263,6 @@
         {
           "tag": "#P9C0LVLU2",
           "name": "VINGADOR⚡",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#YPVQVU982",
-          "name": "亗 ＨＡＤＥＳ_０７ 亗",
           "townhallLevel": 18
         },
         {
@@ -552,7 +542,14 @@
           "name": "Alflen",
           "townhallLevel": 18,
           "mapPosition": 13,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 25,
+              "defenderTag": "#2RGG08CV2"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -588,6 +585,12 @@
           "mapPosition": 2,
           "attacks": [],
           "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#2RGG08CV2",
+              "attackerMapPosition": 13
+            },
             {
               "stars": 2,
               "destructionPercentage": 77,
@@ -672,6 +675,12 @@
           "attacks": [],
           "defensesReceived": [
             {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#2RGG08CV2",
+              "attackerMapPosition": 13
+            },
+            {
               "stars": 1,
               "destructionPercentage": 70,
               "attackerTag": "#80GGLR2JC",
@@ -685,7 +694,14 @@
           "name": "亗 ＨＡＤＥＳ_０７ 亗",
           "townhallLevel": 18,
           "mapPosition": 3,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 24,
+              "defenderTag": "#CQYGGLRV"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -711,7 +727,14 @@
           "townhallLevel": 18,
           "mapPosition": 34,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#LY0C2JUG",
+              "attackerMapPosition": 35
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -760,7 +783,14 @@
           "townhallLevel": 18,
           "mapPosition": 5,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 99,
+              "attackerTag": "#LLJ8U2RG2",
+              "attackerMapPosition": 11
+            }
+          ],
           "missedAttacks": 0
         }
       ]
