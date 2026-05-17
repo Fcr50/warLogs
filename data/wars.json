@@ -156,8 +156,8 @@
         ]
       },
       "clan": {
-        "stars": 69,
-        "destructionPercentage": 66.34286
+        "stars": 72,
+        "destructionPercentage": 69.2
       },
       "sixHourNonAttackers": [
         {
@@ -194,11 +194,6 @@
           "tag": "#9UQYJYUCL",
           "name": "⚡mascote⚡",
           "townhallLevel": 17
-        },
-        {
-          "tag": "#PLU2VCLG",
-          "name": "Phoenix",
-          "townhallLevel": 18
         },
         {
           "tag": "#LJPQCQPYL",
@@ -560,7 +555,14 @@
           "name": "Phoenix",
           "townhallLevel": 18,
           "mapPosition": 6,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 56,
+              "defenderTag": "#8G8RJPVYV"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
