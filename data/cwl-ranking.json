@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-05-17T23:00:25.426Z",
+  "generatedAt": "2026-05-17T23:15:19.780Z",
   "totalWars": 8,
   "liveWar": {
     "opponentName": "No Way !!!!",
-    "totalAttacksDone": 28,
+    "totalAttacksDone": 29,
     "totalAttacksExpected": 70
   },
   "ranking": [
@@ -1125,42 +1125,6 @@
     },
     {
       "player": {
-        "tag": "#LQQRGJ8VU",
-        "name": "i-Vinni",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 1.0876431527027026,
-        "rawScore": 1.5537759324324325,
-        "confidence": 0.7,
-        "tier": "C",
-        "attackScore": 1.785229054054054,
-        "defenseScore": 0.5959189189189189,
-        "reliability": 0.7,
-        "formScore": 1.7200000000000002,
-        "warsInRoster": 3,
-        "attacksUsed": 4,
-        "attacksAvailable": 6,
-        "avgDestruction": 70.75,
-        "totalAttacks": 4,
-        "totalStars": 6,
-        "count3Stars": 0,
-        "avgStars": 1.5,
-        "threeStarRate": 0,
-        "totalMissed": 0,
-        "avgPositionDiff": -13,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
         "tag": "#8LL8J8UVG",
         "name": "NOT MOREIRA",
         "townhallLevel": 18
@@ -1185,6 +1149,42 @@
         "threeStarRate": 0.5,
         "totalMissed": 2,
         "avgPositionDiff": -8.5,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#LQQRGJ8VU",
+        "name": "i-Vinni",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 0.8562598322393821,
+        "rawScore": 1.223228331770546,
+        "confidence": 0.7,
+        "tier": "C",
+        "attackScore": 1.1767823858114674,
+        "defenseScore": 0.5959189189189189,
+        "reliability": 0.7,
+        "formScore": 0.9700000000000001,
+        "warsInRoster": 3,
+        "attacksUsed": 5,
+        "attacksAvailable": 6,
+        "avgDestruction": 61,
+        "totalAttacks": 5,
+        "totalStars": 6,
+        "count3Stars": 0,
+        "avgStars": 1.2,
+        "threeStarRate": 0,
+        "totalMissed": 0,
+        "avgPositionDiff": -10.4,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1653,7 +1653,7 @@
       "totalAttacks": 6,
       "warsInRoster": 4,
       "totalMissed": 2,
-      "rank": 38,
+      "rank": 37,
       "prevRank": 38,
       "normalizedScore": 25.16
     },
@@ -1695,15 +1695,15 @@
     },
     "#LQQRGJ8VU": {
       "tier": "C",
-      "score": 1.0876431527027026,
-      "avgStars": 1.5,
+      "score": 0.8562598322393821,
+      "avgStars": 1.2,
       "totalStars": 6,
-      "totalAttacks": 4,
+      "totalAttacks": 5,
       "warsInRoster": 3,
       "totalMissed": 0,
-      "rank": 37,
+      "rank": 39,
       "prevRank": 37,
-      "normalizedScore": 31.08
+      "normalizedScore": 24.46
     },
     "#LRC0U92LV": {
       "tier": "B",
@@ -1875,7 +1875,7 @@
       "totalAttacks": 4,
       "warsInRoster": 3,
       "totalMissed": 1,
-      "rank": 39,
+      "rank": 38,
       "prevRank": 39,
       "normalizedScore": 24.81
     },
