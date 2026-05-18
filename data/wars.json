@@ -342,7 +342,20 @@
           "name": "Hisoka",
           "townhallLevel": 18,
           "mapPosition": 19,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 86,
+              "order": 114,
+              "defenderTag": "#29LVC2Q"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 116,
+              "defenderTag": "#GY2YCJ00"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -816,6 +829,12 @@
             {
               "stars": 3,
               "destructionPercentage": 100,
+              "attackerTag": "#GC0QUJJ2",
+              "attackerMapPosition": 33
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
               "attackerTag": "#2UGPJR0RR",
               "attackerMapPosition": 31
             }
@@ -842,6 +861,12 @@
             }
           ],
           "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#8PCQR0RQ",
+              "attackerMapPosition": 8
+            },
             {
               "stars": 3,
               "destructionPercentage": 100,
@@ -984,6 +1009,12 @@
           "defensesReceived": [
             {
               "stars": 2,
+              "destructionPercentage": 97,
+              "attackerTag": "#YY989YRG",
+              "attackerMapPosition": 29
+            },
+            {
+              "stars": 2,
               "destructionPercentage": 60,
               "attackerTag": "#220LQQ9R0",
               "attackerMapPosition": 24
@@ -1044,6 +1075,12 @@
               "destructionPercentage": 100,
               "order": 24,
               "defenderTag": "#CQYGGLRV"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 119,
+              "defenderTag": "#29LVC2Q"
             }
           ],
           "defensesReceived": [
