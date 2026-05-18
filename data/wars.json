@@ -10,8 +10,8 @@
       "opponent": {
         "name": "No Way !!!!",
         "tag": "#2GGLVV2L",
-        "stars": 80,
-        "destructionPercentage": 81.34286,
+        "stars": 83,
+        "destructionPercentage": 84.2,
         "members": [
           {
             "tag": "#LY0C2JUG",
@@ -516,7 +516,14 @@
               "defenderTag": "#C0PRYCC8"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#VQQQ2C8",
+              "attackerMapPosition": 7
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -984,6 +991,12 @@
               "destructionPercentage": 80,
               "order": 36,
               "defenderTag": "#LUJ2GUY9"
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 65,
+              "order": 85,
+              "defenderTag": "#C0PRYCC8"
             }
           ],
           "defensesReceived": [],
