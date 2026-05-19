@@ -176,18 +176,13 @@
         ]
       },
       "clan": {
-        "stars": 33,
-        "destructionPercentage": 29.425
+        "stars": 46,
+        "destructionPercentage": 39.725
       },
       "sixHourNonAttackers": [
         {
           "tag": "#8VCUUPPJP",
           "name": "Satsugai",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#2LY0P2L9U",
-          "name": "LucasHG9",
           "townhallLevel": 18
         },
         {
@@ -266,11 +261,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#GGVCRYP8P",
-          "name": "gui",
-          "townhallLevel": 17
-        },
-        {
           "tag": "#2Q2ULRCUV",
           "name": "Aflen",
           "townhallLevel": 18
@@ -283,11 +273,6 @@
         {
           "tag": "#YVYCCQU08",
           "name": "Frenético",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#LRC0U92LV",
-          "name": "Dj_HenriqSP2",
           "townhallLevel": 18
         },
         {
@@ -367,7 +352,14 @@
           "name": "LucasHG9",
           "townhallLevel": 18,
           "mapPosition": 13,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 56,
+              "defenderTag": "#JPJU9CP"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -819,7 +811,20 @@
           "name": "gui",
           "townhallLevel": 17,
           "mapPosition": 34,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 58,
+              "defenderTag": "#VVRCR22"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 59,
+              "defenderTag": "#YJYUJ09L8"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -963,7 +968,20 @@
           "name": "Dj_HenriqSP2",
           "townhallLevel": 18,
           "mapPosition": 39,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 55,
+              "defenderTag": "#8J8L988L9"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 57,
+              "defenderTag": "#QCLVQV9UC"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
