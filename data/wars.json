@@ -176,8 +176,8 @@
         ]
       },
       "clan": {
-        "stars": 57,
-        "destructionPercentage": 47.5
+        "stars": 60,
+        "destructionPercentage": 50
       },
       "sixHourNonAttackers": [
         {
@@ -273,11 +273,6 @@
         {
           "tag": "#PPPUQPVJY",
           "name": "Rodrigo",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#2YCRQCUUG",
-          "name": "Diego ||",
           "townhallLevel": 18
         }
       ],
@@ -1080,7 +1075,14 @@
           "name": "Diego ||",
           "townhallLevel": 18,
           "mapPosition": 18,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 67,
+              "defenderTag": "#80RLL0UY9"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
