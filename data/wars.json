@@ -10,8 +10,8 @@
       "opponent": {
         "name": "#ASAB#",
         "tag": "#82CRPCJC",
-        "stars": 104,
-        "destructionPercentage": 88.5,
+        "stars": 108,
+        "destructionPercentage": 91.25,
         "members": [
           {
             "tag": "#2Y92080R",
@@ -272,6 +272,12 @@
               "destructionPercentage": 90,
               "attackerTag": "#QCLVQV9UC",
               "attackerMapPosition": 26
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#Y0RLL2PCJ",
+              "attackerMapPosition": 16
             },
             {
               "stars": 1,
@@ -717,7 +723,14 @@
               "defenderTag": "#LU28RYUV"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#Y0RLL2PCJ",
+              "attackerMapPosition": 16
+            }
+          ],
           "missedAttacks": 0
         },
         {
