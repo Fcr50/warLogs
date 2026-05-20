@@ -10,8 +10,8 @@
       "opponent": {
         "name": "#ASAB#",
         "tag": "#82CRPCJC",
-        "stars": 94,
-        "destructionPercentage": 80.9,
+        "stars": 97,
+        "destructionPercentage": 83.4,
         "members": [
           {
             "tag": "#2Y92080R",
@@ -176,8 +176,8 @@
         ]
       },
       "clan": {
-        "stars": 68,
-        "destructionPercentage": 57.05
+        "stars": 74,
+        "destructionPercentage": 62.175
       },
       "sixHourNonAttackers": [
         {
@@ -211,18 +211,8 @@
           "townhallLevel": 17
         },
         {
-          "tag": "#LQQRGJ8VU",
-          "name": "i-Vinni",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#GJ2LQVQJ",
           "name": "Fer",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#2UR2Y9Q9J",
-          "name": "The King Leive",
           "townhallLevel": 18
         },
         {
@@ -364,7 +354,14 @@
           "townhallLevel": 18,
           "mapPosition": 21,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#R0LCJC82",
+              "attackerMapPosition": 20
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -503,6 +500,12 @@
               "destructionPercentage": 97,
               "order": 45,
               "defenderTag": "#PL9QQ8998"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 71,
+              "defenderTag": "#P9Y9RG0JU"
             }
           ],
           "defensesReceived": [
@@ -520,7 +523,14 @@
           "name": "i-Vinni",
           "townhallLevel": 18,
           "mapPosition": 29,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 72,
+              "defenderTag": "#Q2C9QGR92"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 1,
@@ -610,7 +620,14 @@
           "name": "The King Leive",
           "townhallLevel": 18,
           "mapPosition": 11,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 87,
+              "order": 73,
+              "defenderTag": "#20CVQCL2C"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
