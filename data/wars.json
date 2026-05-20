@@ -176,8 +176,8 @@
         ]
       },
       "clan": {
-        "stars": 95,
-        "destructionPercentage": 79.875
+        "stars": 103,
+        "destructionPercentage": 87.275
       },
       "sixHourNonAttackers": [
         {
@@ -413,7 +413,20 @@
           "name": "NARUTO",
           "townhallLevel": 18,
           "mapPosition": 24,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 91,
+              "defenderTag": "#J8UVURUR"
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 96,
+              "order": 92,
+              "defenderTag": "#VQRUYQ9C"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -853,6 +866,12 @@
               "destructionPercentage": 100,
               "order": 16,
               "defenderTag": "#CQ2VLQQR"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 90,
+              "defenderTag": "#YG0LCUPP"
             }
           ],
           "defensesReceived": [
