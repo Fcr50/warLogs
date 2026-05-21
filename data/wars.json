@@ -10,8 +10,8 @@
       "opponent": {
         "name": "pilipino ofw",
         "tag": "#YY9ULGU9",
-        "stars": 4,
-        "destructionPercentage": 5.428571,
+        "stars": 7,
+        "destructionPercentage": 10.114285,
         "members": [
           {
             "tag": "#2CYJJVC8",
@@ -156,18 +156,13 @@
         ]
       },
       "clan": {
-        "stars": 27,
-        "destructionPercentage": 25.714285
+        "stars": 36,
+        "destructionPercentage": 34.285713
       },
       "sixHourNonAttackers": [
         {
           "tag": "#8VCUUPPJP",
           "name": "Satsugai",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QR8R9QUV8",
-          "name": "Dr.Hannibal",
           "townhallLevel": 18
         },
         {
@@ -224,16 +219,6 @@
           "tag": "#VPPQ8VLV",
           "name": "GABRIEL LOBATO",
           "townhallLevel": 17
-        },
-        {
-          "tag": "#80LUCC9YV",
-          "name": "Lobo ®",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#2Q2ULRCUV",
-          "name": "Aflen",
-          "townhallLevel": 18
         },
         {
           "tag": "#P9C0LVLU2",
@@ -306,7 +291,14 @@
           "name": "Dr.Hannibal",
           "townhallLevel": 18,
           "mapPosition": 17,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 17,
+              "defenderTag": "#2008VQ2VG"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -407,7 +399,14 @@
           "townhallLevel": 18,
           "mapPosition": 23,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 1,
+              "destructionPercentage": 81,
+              "attackerTag": "#8U80VP02Y",
+              "attackerMapPosition": 22
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -488,7 +487,14 @@
           "townhallLevel": 18,
           "mapPosition": 19,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 83,
+              "attackerTag": "#8LRC0UL28",
+              "attackerMapPosition": 19
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -539,7 +545,14 @@
           "name": "Lobo ®",
           "townhallLevel": 18,
           "mapPosition": 2,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 14,
+              "defenderTag": "#28LCRJ0QR"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -564,7 +577,14 @@
           "name": "Aflen",
           "townhallLevel": 18,
           "mapPosition": 25,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 15,
+              "defenderTag": "#C2VYJC0V"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
