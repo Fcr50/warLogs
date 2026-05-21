@@ -156,18 +156,13 @@
         ]
       },
       "clan": {
-        "stars": 36,
-        "destructionPercentage": 34.285713
+        "stars": 42,
+        "destructionPercentage": 40
       },
       "sixHourNonAttackers": [
         {
           "tag": "#8VCUUPPJP",
           "name": "Satsugai",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QQC8P9C9R",
-          "name": "Gs.prieto",
           "townhallLevel": 18
         },
         {
@@ -239,11 +234,6 @@
           "tag": "#GQU9Y0CQ8",
           "name": "Scok♤",
           "townhallLevel": 18
-        },
-        {
-          "tag": "#2LGC8PGRY",
-          "name": "lucas r.",
-          "townhallLevel": 17
         },
         {
           "tag": "#YVYCCQU08",
@@ -323,7 +313,14 @@
           "name": "Gs.prieto",
           "townhallLevel": 18,
           "mapPosition": 13,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 18,
+              "defenderTag": "#YJJLQP00"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -629,7 +626,14 @@
           "name": "lucas r.",
           "townhallLevel": 17,
           "mapPosition": 29,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 19,
+              "defenderTag": "#GU0C29QG"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
