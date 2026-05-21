@@ -10,8 +10,8 @@
       "opponent": {
         "name": "pilipino ofw",
         "tag": "#YY9ULGU9",
-        "stars": 0,
-        "destructionPercentage": 0,
+        "stars": 1,
+        "destructionPercentage": 2.5714285,
         "members": [
           {
             "tag": "#2CYJJVC8",
@@ -156,8 +156,8 @@
         ]
       },
       "clan": {
-        "stars": 15,
-        "destructionPercentage": 14.285714
+        "stars": 21,
+        "destructionPercentage": 20
       },
       "sixHourNonAttackers": [
         {
@@ -209,11 +209,6 @@
           "tag": "#GJ2LQVQJ",
           "name": "Fer",
           "townhallLevel": 18
-        },
-        {
-          "tag": "#9UQYJYUCL",
-          "name": "⚡mascote⚡",
-          "townhallLevel": 17
         },
         {
           "tag": "#L8RG2PV0G",
@@ -283,11 +278,6 @@
         {
           "tag": "#LRC0U92LV",
           "name": "Dj_HenriqSP2",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QJVQVRPU",
-          "name": "Frnnn",
           "townhallLevel": 18
         },
         {
@@ -477,7 +467,14 @@
           "name": "⚡mascote⚡",
           "townhallLevel": 17,
           "mapPosition": 32,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 7,
+              "defenderTag": "#22UP2YULC"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -628,7 +625,14 @@
           "name": "Frnnn",
           "townhallLevel": 18,
           "mapPosition": 6,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 9,
+              "defenderTag": "#YYRLGVRGP"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -638,7 +642,14 @@
           "townhallLevel": 17,
           "mapPosition": 31,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 1,
+              "destructionPercentage": 90,
+              "attackerTag": "#28Y0LR298",
+              "attackerMapPosition": 31
+            }
+          ],
           "missedAttacks": 0
         },
         {
