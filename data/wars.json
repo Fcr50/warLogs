@@ -156,8 +156,8 @@
         ]
       },
       "clan": {
-        "stars": 45,
-        "destructionPercentage": 42.857143
+        "stars": 50,
+        "destructionPercentage": 48.514286
       },
       "sixHourNonAttackers": [
         {
@@ -201,11 +201,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#PLU2VCLG",
-          "name": "Phoenix",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#20JC0J9JR",
           "name": "BTV✯Robin Hood",
           "townhallLevel": 18
@@ -239,11 +234,6 @@
           "tag": "#LRC0U92LV",
           "name": "Dj_HenriqSP2",
           "townhallLevel": 18
-        },
-        {
-          "tag": "#LUR09RUP2",
-          "name": "andrei7zl",
-          "townhallLevel": 17
         },
         {
           "tag": "#QJLQLUURY",
@@ -501,7 +491,14 @@
           "name": "Phoenix",
           "townhallLevel": 18,
           "mapPosition": 7,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 22,
+              "defenderTag": "#29LC89RPG"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -685,7 +682,14 @@
           "name": "andrei7zl",
           "townhallLevel": 17,
           "mapPosition": 31,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 98,
+              "order": 23,
+              "defenderTag": "#28Y0LR298"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 1,
