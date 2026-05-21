@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-05-21T21:00:28.350Z",
+  "generatedAt": "2026-05-21T21:15:23.075Z",
   "totalWars": 10,
   "liveWar": {
     "opponentName": "pilipino ofw",
-    "totalAttacksDone": 8,
+    "totalAttacksDone": 10,
     "totalAttacksExpected": 70
   },
   "ranking": [
@@ -86,25 +86,25 @@
         "townhallLevel": 18
       },
       "data": {
-        "score": 2.52686367260442,
-        "rawScore": 2.52686367260442,
+        "score": 2.5325392702343175,
+        "rawScore": 2.5325392702343175,
         "confidence": 1,
         "tier": "S",
-        "attackScore": 3.417780789984054,
+        "attackScore": 3.431294117674286,
         "defenseScore": 0.20558296324446795,
         "reliability": 1,
         "formScore": 3.5,
         "warsInRoster": 15,
-        "attacksUsed": 26,
+        "attacksUsed": 27,
         "attacksAvailable": 30,
-        "avgDestruction": 98.65384615384616,
-        "totalAttacks": 26,
-        "totalStars": 74,
-        "count3Stars": 23,
-        "avgStars": 2.8461538461538463,
-        "threeStarRate": 0.8846153846153846,
+        "avgDestruction": 98.70370370370371,
+        "totalAttacks": 27,
+        "totalStars": 77,
+        "count3Stars": 24,
+        "avgStars": 2.8518518518518516,
+        "threeStarRate": 0.8888888888888888,
         "totalMissed": 0,
-        "avgPositionDiff": -0.5416666666666666,
+        "avgPositionDiff": -0.52,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -873,6 +873,42 @@
     },
     {
       "player": {
+        "tag": "#22C820V9L",
+        "name": "Alflen",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 1.9397288091557474,
+        "rawScore": 1.9397288091557474,
+        "confidence": 1,
+        "tier": "A",
+        "attackScore": 2.449050351319239,
+        "defenseScore": 0.015810646406668127,
+        "reliability": 0.8075000000000001,
+        "formScore": 3.5,
+        "warsInRoster": 13,
+        "attacksUsed": 18,
+        "attacksAvailable": 26,
+        "avgDestruction": 91.22222222222223,
+        "totalAttacks": 18,
+        "totalStars": 49,
+        "count3Stars": 16,
+        "avgStars": 2.7222222222222223,
+        "threeStarRate": 0.8888888888888888,
+        "totalMissed": 3,
+        "avgPositionDiff": -0.3125,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#29LP0VJV0",
         "name": "Warlord Raivon",
         "townhallLevel": 18
@@ -897,42 +933,6 @@
         "threeStarRate": 0.35714285714285715,
         "totalMissed": 0,
         "avgPositionDiff": -5.583333333333333,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#22C820V9L",
-        "name": "Alflen",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 1.8362518569335222,
-        "rawScore": 1.8362518569335222,
-        "confidence": 1,
-        "tier": "A",
-        "attackScore": 2.2026766555520356,
-        "defenseScore": 0.015810646406668127,
-        "reliability": 0.8075000000000001,
-        "formScore": 3.5,
-        "warsInRoster": 13,
-        "attacksUsed": 17,
-        "attacksAvailable": 26,
-        "avgDestruction": 90.70588235294117,
-        "totalAttacks": 17,
-        "totalStars": 46,
-        "count3Stars": 15,
-        "avgStars": 2.7058823529411766,
-        "threeStarRate": 0.8823529411764706,
-        "totalMissed": 3,
-        "avgPositionDiff": -0.3333333333333333,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1397,7 +1397,7 @@
       "warsInRoster": 15,
       "totalMissed": 0,
       "rank": 12,
-      "prevRank": 11,
+      "prevRank": 12,
       "normalizedScore": 67.69
     },
     "#2QL0VR9GU": {
@@ -1462,15 +1462,15 @@
     },
     "#QGQJGURCL": {
       "tier": "S",
-      "score": 2.52686367260442,
-      "avgStars": 2.8461538461538463,
-      "totalStars": 74,
-      "totalAttacks": 26,
+      "score": 2.5325392702343175,
+      "avgStars": 2.8518518518518516,
+      "totalStars": 77,
+      "totalAttacks": 27,
       "warsInRoster": 15,
       "totalMissed": 0,
       "rank": 3,
       "prevRank": 3,
-      "normalizedScore": 72.2
+      "normalizedScore": 72.36
     },
     "#80LUCC9YV": {
       "tier": "A",
@@ -1493,7 +1493,7 @@
       "warsInRoster": 15,
       "totalMissed": 0,
       "rank": 11,
-      "prevRank": 13,
+      "prevRank": 11,
       "normalizedScore": 67.93
     },
     "#QR8R9QUV8": {
@@ -1556,15 +1556,15 @@
     },
     "#22C820V9L": {
       "tier": "B",
-      "score": 1.8362518569335222,
-      "avgStars": 2.7058823529411766,
-      "totalStars": 46,
-      "totalAttacks": 17,
+      "score": 1.9397288091557474,
+      "avgStars": 2.7222222222222223,
+      "totalStars": 49,
+      "totalAttacks": 18,
       "warsInRoster": 13,
       "totalMissed": 3,
-      "rank": 29,
+      "rank": 28,
       "prevRank": 29,
-      "normalizedScore": 52.46
+      "normalizedScore": 55.42
     },
     "#2GP2JUU2": {
       "tier": "B",
@@ -1586,7 +1586,7 @@
       "totalAttacks": 14,
       "warsInRoster": 7,
       "totalMissed": 0,
-      "rank": 28,
+      "rank": 29,
       "prevRank": 28,
       "normalizedScore": 52.97
     },
@@ -1623,7 +1623,7 @@
       "warsInRoster": 4,
       "totalMissed": 2,
       "rank": 40,
-      "prevRank": 39,
+      "prevRank": 40,
       "normalizedScore": 24.66
     },
     "#GJ2LQVQJ": {
@@ -1719,7 +1719,7 @@
       "warsInRoster": 8,
       "totalMissed": 0,
       "rank": 13,
-      "prevRank": 12,
+      "prevRank": 13,
       "normalizedScore": 67.1
     },
     "#2Q2ULRCUV": {
@@ -1871,7 +1871,7 @@
       "warsInRoster": 6,
       "totalMissed": 6,
       "rank": 39,
-      "prevRank": 40,
+      "prevRank": 39,
       "normalizedScore": 29.7
     },
     "#LUR09RUP2": {
