@@ -156,8 +156,8 @@
         ]
       },
       "clan": {
-        "stars": 63,
-        "destructionPercentage": 60
+        "stars": 65,
+        "destructionPercentage": 62.514286
       },
       "sixHourNonAttackers": [
         {
@@ -223,11 +223,6 @@
         {
           "tag": "#QJLQLUURY",
           "name": "NenemPJL",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#PPPUQPVJY",
-          "name": "Rodrigo",
           "townhallLevel": 18
         }
       ],
@@ -767,7 +762,14 @@
           "name": "Rodrigo",
           "townhallLevel": 18,
           "mapPosition": 21,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 88,
+              "order": 36,
+              "defenderTag": "#QQPUV8QU0"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },

@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-05-22T00:45:25.683Z",
+  "generatedAt": "2026-05-22T01:00:34.655Z",
   "totalWars": 10,
   "liveWar": {
     "opponentName": "pilipino ofw",
-    "totalAttacksDone": 24,
+    "totalAttacksDone": 25,
     "totalAttacksExpected": 70
   },
   "ranking": [
@@ -477,42 +477,6 @@
     },
     {
       "player": {
-        "tag": "#PPPUQPVJY",
-        "name": "Rodrigo",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.3486445339100257,
-        "rawScore": 2.3486445339100257,
-        "confidence": 1,
-        "tier": "B",
-        "attackScore": 3.261355244400839,
-        "defenseScore": 0.19710132504669312,
-        "reliability": 0.84,
-        "formScore": 3.5,
-        "warsInRoster": 8,
-        "attacksUsed": 14,
-        "attacksAvailable": 16,
-        "avgDestruction": 96.21428571428571,
-        "totalAttacks": 14,
-        "totalStars": 35,
-        "count3Stars": 9,
-        "avgStars": 2.5,
-        "threeStarRate": 0.6428571428571429,
-        "totalMissed": 0,
-        "avgPositionDiff": -7.5,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
         "tag": "#2GP2JUU2",
         "name": "Gustavo Lázaro",
         "townhallLevel": 18
@@ -717,6 +681,42 @@
         "threeStarRate": 0.7083333333333334,
         "totalMissed": 1,
         "avgPositionDiff": -8.090909090909092,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#PPPUQPVJY",
+        "name": "Rodrigo",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.188628716452694,
+        "rawScore": 2.188628716452694,
+        "confidence": 1,
+        "tier": "B",
+        "attackScore": 3.013698536169097,
+        "defenseScore": 0.19710132504669312,
+        "reliability": 0.84,
+        "formScore": 2.94,
+        "warsInRoster": 8,
+        "attacksUsed": 15,
+        "attacksAvailable": 16,
+        "avgDestruction": 95.66666666666667,
+        "totalAttacks": 15,
+        "totalStars": 37,
+        "count3Stars": 9,
+        "avgStars": 2.466666666666667,
+        "threeStarRate": 0.6,
+        "totalMissed": 0,
+        "avgPositionDiff": -6.923076923076923,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1420,7 +1420,7 @@
       "totalAttacks": 28,
       "warsInRoster": 15,
       "totalMissed": 0,
-      "rank": 18,
+      "rank": 17,
       "prevRank": 18,
       "normalizedScore": 65.89
     },
@@ -1456,7 +1456,7 @@
       "totalAttacks": 20,
       "warsInRoster": 11,
       "totalMissed": 0,
-      "rank": 20,
+      "rank": 19,
       "prevRank": 20,
       "normalizedScore": 64.76
     },
@@ -1528,7 +1528,7 @@
       "totalAttacks": 24,
       "warsInRoster": 14,
       "totalMissed": 0,
-      "rank": 17,
+      "rank": 16,
       "prevRank": 17,
       "normalizedScore": 66.76
     },
@@ -1586,7 +1586,7 @@
       "totalAttacks": 30,
       "warsInRoster": 15,
       "totalMissed": 0,
-      "rank": 16,
+      "rank": 15,
       "prevRank": 16,
       "normalizedScore": 66.99
     },
@@ -1634,7 +1634,7 @@
       "totalAttacks": 26,
       "warsInRoster": 14,
       "totalMissed": 0,
-      "rank": 19,
+      "rank": 18,
       "prevRank": 19,
       "normalizedScore": 65.47
     },
@@ -1712,15 +1712,15 @@
     },
     "#PPPUQPVJY": {
       "tier": "B",
-      "score": 2.3486445339100257,
-      "avgStars": 2.5,
-      "totalStars": 35,
-      "totalAttacks": 14,
+      "score": 2.188628716452694,
+      "avgStars": 2.466666666666667,
+      "totalStars": 37,
+      "totalAttacks": 15,
       "warsInRoster": 8,
       "totalMissed": 0,
-      "rank": 15,
+      "rank": 21,
       "prevRank": 15,
-      "normalizedScore": 67.1
+      "normalizedScore": 62.53
     },
     "#2Q2ULRCUV": {
       "tier": "B",
@@ -1730,7 +1730,7 @@
       "totalAttacks": 24,
       "warsInRoster": 14,
       "totalMissed": 1,
-      "rank": 21,
+      "rank": 20,
       "prevRank": 21,
       "normalizedScore": 64.48
     },
