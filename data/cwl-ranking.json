@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-05-22T19:30:23.608Z",
+  "generatedAt": "2026-05-22T19:45:20.849Z",
   "totalWars": 10,
   "liveWar": {
     "opponentName": "pilipino ofw",
-    "totalAttacksDone": 58,
+    "totalAttacksDone": 60,
     "totalAttacksExpected": 70
   },
   "ranking": [
@@ -1233,6 +1233,42 @@
     },
     {
       "player": {
+        "tag": "#QLGP0JGPJ",
+        "name": "igg2.0",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": -0.014808979591836668,
+        "rawScore": -0.021155685131195243,
+        "confidence": 0.7,
+        "tier": "C",
+        "attackScore": -0.48931000971817284,
+        "defenseScore": 0.11661807580174928,
+        "reliability": 0.08000000000000002,
+        "formScore": 1,
+        "warsInRoster": 3,
+        "attacksUsed": 2,
+        "attacksAvailable": 6,
+        "avgDestruction": 28,
+        "totalAttacks": 2,
+        "totalStars": 2,
+        "count3Stars": 0,
+        "avgStars": 1,
+        "threeStarRate": 0,
+        "totalMissed": 4,
+        "avgPositionDiff": -20,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#JPVGQP8V",
         "name": "♤Pluto♤",
         "townhallLevel": 18
@@ -1264,42 +1300,6 @@
           "defense": 0,
           "reliability": 0.3067,
           "form": 0.1333
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#QLGP0JGPJ",
-        "name": "igg2.0",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": -0.38195183673469385,
-        "rawScore": -0.5456454810495627,
-        "confidence": 0.7,
-        "tier": "F",
-        "attackScore": -1.5,
-        "defenseScore": 0.11661807580174928,
-        "reliability": 0.08000000000000002,
-        "formScore": 0,
-        "warsInRoster": 3,
-        "attacksUsed": 0,
-        "attacksAvailable": 6,
-        "avgDestruction": 0,
-        "totalAttacks": 0,
-        "totalStars": 0,
-        "count3Stars": 0,
-        "avgStars": 0,
-        "threeStarRate": 0,
-        "totalMissed": 4,
-        "avgPositionDiff": 0,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
         }
       }
     },
@@ -1345,13 +1345,6 @@
       "player": {
         "tag": "#JPVGQP8V",
         "name": "♤Pluto♤",
-        "townhallLevel": 18
-      }
-    },
-    {
-      "player": {
-        "tag": "#QLGP0JGPJ",
-        "name": "igg2.0",
         "townhallLevel": 18
       }
     },
@@ -1759,14 +1752,15 @@
       "normalizedScore": 57.9
     },
     "#QLGP0JGPJ": {
-      "tier": "F",
-      "score": -0.38195183673469385,
-      "avgStars": 0,
-      "totalStars": 0,
-      "totalAttacks": 0,
+      "tier": "C",
+      "score": -0.014808979591836668,
+      "avgStars": 1,
+      "totalStars": 2,
+      "totalAttacks": 2,
       "warsInRoster": 3,
       "totalMissed": 4,
-      "normalizedScore": 0
+      "rank": 44,
+      "normalizedScore": -0.42
     },
     "#LQQRGJ8VU": {
       "tier": "C",
