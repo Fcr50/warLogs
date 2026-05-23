@@ -156,23 +156,13 @@
         ]
       },
       "clan": {
-        "stars": 12,
-        "destructionPercentage": 11.428572
+        "stars": 30,
+        "destructionPercentage": 28.571428
       },
       "sixHourNonAttackers": [
         {
           "tag": "#8VCUUPPJP",
           "name": "Satsugai",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QR8R9QUV8",
-          "name": "Dr.Hannibal",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#2LY0P2L9U",
-          "name": "LucasHG9",
           "townhallLevel": 18
         },
         {
@@ -204,11 +194,6 @@
           "tag": "#RC82GPG",
           "name": "tonton",
           "townhallLevel": 17
-        },
-        {
-          "tag": "#8CJ8YJY0P",
-          "name": "ChrolloLucilfer",
-          "townhallLevel": 18
         },
         {
           "tag": "#2GP2JUU2",
@@ -291,23 +276,8 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#YVYCCQU08",
-          "name": "Frenético",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#LRC0U92LV",
           "name": "Dj_HenriqSP2",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QJVQVRPU",
-          "name": "Frnnn",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QJLQLUURY",
-          "name": "NenemPJL",
           "townhallLevel": 18
         },
         {
@@ -331,7 +301,14 @@
           "name": "Dr.Hannibal",
           "townhallLevel": 18,
           "mapPosition": 16,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 8,
+              "defenderTag": "#9VYVJ92GY"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -340,7 +317,14 @@
           "name": "LucasHG9",
           "townhallLevel": 18,
           "mapPosition": 10,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 9,
+              "defenderTag": "#8GRVGJ9GJ"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -403,7 +387,14 @@
           "name": "ChrolloLucilfer",
           "townhallLevel": 18,
           "mapPosition": 8,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 12,
+              "defenderTag": "#9R2UV9R22"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -627,7 +618,14 @@
           "name": "Frenético",
           "townhallLevel": 18,
           "mapPosition": 20,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 10,
+              "defenderTag": "#8G88QUCJR"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -652,7 +650,14 @@
           "name": "Frnnn",
           "townhallLevel": 18,
           "mapPosition": 6,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 7,
+              "defenderTag": "#CULPU0CC"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -661,7 +666,14 @@
           "name": "NenemPJL",
           "townhallLevel": 18,
           "mapPosition": 24,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 11,
+              "defenderTag": "#P0LJL8P00"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
