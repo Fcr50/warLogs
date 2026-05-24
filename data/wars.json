@@ -10,8 +10,8 @@
       "opponent": {
         "name": "SUBHRATA",
         "tag": "#2088LP88J",
-        "stars": 44,
-        "destructionPercentage": 45.74286,
+        "stars": 50,
+        "destructionPercentage": 53.085712,
         "members": [
           {
             "tag": "#PL9QLYRPU",
@@ -291,7 +291,14 @@
               "defenderTag": "#Y0QRLJ8LG"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 74,
+              "attackerTag": "#8GRVGJ9GJ",
+              "attackerMapPosition": 10
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -531,7 +538,14 @@
               "defenderTag": "#82UGRVL8C"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 89,
+              "attackerTag": "#PL9QLYRPU",
+              "attackerMapPosition": 2
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -615,7 +629,14 @@
           "townhallLevel": 18,
           "mapPosition": 5,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 94,
+              "attackerTag": "#PL9QLYRPU",
+              "attackerMapPosition": 2
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -623,7 +644,20 @@
           "name": "Alflen",
           "townhallLevel": 18,
           "mapPosition": 12,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 55,
+              "order": 63,
+              "defenderTag": "#90L0UV0GC"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 64,
+              "defenderTag": "#PL9QLYRPU"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -752,7 +786,20 @@
           "name": "Aflen",
           "townhallLevel": 18,
           "mapPosition": 25,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 62,
+              "order": 66,
+              "defenderTag": "#90L0UV0GC"
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 60,
+              "order": 69,
+              "defenderTag": "#PL9QLYRPU"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -767,6 +814,12 @@
               "destructionPercentage": 100,
               "order": 1,
               "defenderTag": "#90L0UV0GC"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 62,
+              "defenderTag": "#PL9QLYRPU"
             }
           ],
           "defensesReceived": [
