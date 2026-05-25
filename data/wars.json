@@ -10,8 +10,8 @@
       "opponent": {
         "name": "Persian Empire2",
         "tag": "#2JCY9VGQ2",
-        "stars": 72,
-        "destructionPercentage": 68.57143,
+        "stars": 86,
+        "destructionPercentage": 82.14286,
         "members": [
           {
             "tag": "#Q9GC9Q9LU",
@@ -156,8 +156,8 @@
         ]
       },
       "clan": {
-        "stars": 30,
-        "destructionPercentage": 28.571428
+        "stars": 36,
+        "destructionPercentage": 34.285713
       },
       "sixHourNonAttackers": [
         {
@@ -236,11 +236,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#80LUCC9YV",
-          "name": "Lobo ®",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#QJC8YGJ00",
           "name": "FANÁTICO",
           "townhallLevel": 15
@@ -249,11 +244,6 @@
           "tag": "#GGVCRYP8P",
           "name": "gui",
           "townhallLevel": 17
-        },
-        {
-          "tag": "#P9C0LVLU2",
-          "name": "VINGADOR⚡",
-          "townhallLevel": 18
         },
         {
           "tag": "#YPVQVU982",
@@ -430,7 +420,14 @@
           "townhallLevel": 18,
           "mapPosition": 23,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#2JUGQ0PV",
+              "attackerMapPosition": 19
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -439,7 +436,14 @@
           "townhallLevel": 18,
           "mapPosition": 25,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#LUYRUCLUR",
+              "attackerMapPosition": 28
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -448,7 +452,14 @@
           "townhallLevel": 18,
           "mapPosition": 26,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 75,
+              "attackerTag": "#Q9GC9Q9LU",
+              "attackerMapPosition": 30
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -457,7 +468,14 @@
           "townhallLevel": 17,
           "mapPosition": 31,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#2LQLUPUGJ",
+              "attackerMapPosition": 10
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -737,7 +755,14 @@
           "name": "Lobo ®",
           "townhallLevel": 18,
           "mapPosition": 2,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 43,
+              "defenderTag": "#9QJ20V92"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -778,7 +803,14 @@
           "name": "VINGADOR⚡",
           "townhallLevel": 18,
           "mapPosition": 1,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 45,
+              "defenderTag": "#2UCV9VRRR"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -842,7 +874,20 @@
           "townhallLevel": 18,
           "mapPosition": 24,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 70,
+              "attackerTag": "#LUYRUCLUR",
+              "attackerMapPosition": 28
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#8U2JQ9YVG",
+              "attackerMapPosition": 22
+            }
+          ],
           "missedAttacks": 0
         },
         {
