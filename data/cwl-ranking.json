@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-05-25T20:30:25.321Z",
+  "generatedAt": "2026-05-25T20:45:31.920Z",
   "totalWars": 12,
   "liveWar": {
     "opponentName": "Persian Empire2",
-    "totalAttacksDone": 5,
+    "totalAttacksDone": 6,
     "totalAttacksExpected": 70
   },
   "ranking": [
@@ -230,12 +230,12 @@
         "townhallLevel": 18
       },
       "data": {
-        "score": 2.521747590439542,
-        "rawScore": 2.521747590439542,
+        "score": 2.5173049739566564,
+        "rawScore": 2.5173049739566564,
         "confidence": 1,
         "tier": "S",
         "attackScore": 3.3734030346449235,
-        "defenseScore": 0.259673263554696,
+        "defenseScore": 0.24190279762315361,
         "reliability": 1,
         "formScore": 3.5,
         "warsInRoster": 17,
@@ -333,6 +333,42 @@
     },
     {
       "player": {
+        "tag": "#GJ2LQVQJ",
+        "name": "Fer",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.4943415571088337,
+        "rawScore": 2.4943415571088337,
+        "confidence": 1,
+        "tier": "A",
+        "attackScore": 3.312973276039367,
+        "defenseScore": 0.3435711246891971,
+        "reliability": 0.9666666666666667,
+        "formScore": 3.5,
+        "warsInRoster": 16,
+        "attacksUsed": 31,
+        "attacksAvailable": 32,
+        "avgDestruction": 98.96774193548387,
+        "totalAttacks": 31,
+        "totalStars": 89,
+        "count3Stars": 27,
+        "avgStars": 2.870967741935484,
+        "threeStarRate": 0.8709677419354839,
+        "totalMissed": 0,
+        "avgPositionDiff": -0.3448275862068966,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#QR8R9QUV8",
         "name": "Dr.Hannibal",
         "townhallLevel": 18
@@ -357,42 +393,6 @@
         "threeStarRate": 0.8,
         "totalMissed": 0,
         "avgPositionDiff": -3.9444444444444446,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#GJ2LQVQJ",
-        "name": "Fer",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.4777131032456796,
-        "rawScore": 2.4777131032456796,
-        "confidence": 1,
-        "tier": "A",
-        "attackScore": 3.2733817192223333,
-        "defenseScore": 0.3435711246891971,
-        "reliability": 0.9666666666666667,
-        "formScore": 3.5,
-        "warsInRoster": 16,
-        "attacksUsed": 30,
-        "attacksAvailable": 32,
-        "avgDestruction": 98.93333333333334,
-        "totalAttacks": 30,
-        "totalStars": 86,
-        "count3Stars": 26,
-        "avgStars": 2.8666666666666667,
-        "threeStarRate": 0.8666666666666667,
-        "totalMissed": 0,
-        "avgPositionDiff": -0.35714285714285715,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -842,12 +842,12 @@
         "townhallLevel": 18
       },
       "data": {
-        "score": 2.0665672148132312,
-        "rawScore": 2.0665672148132312,
+        "score": 1.9914658574513056,
+        "rawScore": 1.9914658574513056,
         "confidence": 1,
         "tier": "B",
         "attackScore": 2.555074041758658,
-        "defenseScore": 0.6947444690983806,
+        "defenseScore": 0.3943390396506773,
         "reliability": 0.975,
         "formScore": 1.47,
         "warsInRoster": 17,
@@ -1402,19 +1402,19 @@
   "statsByTag": {
     "#GJ2LQVQJ": {
       "tier": "A",
-      "score": 2.4777131032456796,
-      "avgStars": 2.8666666666666667,
-      "totalStars": 86,
-      "totalAttacks": 30,
+      "score": 2.4943415571088337,
+      "avgStars": 2.870967741935484,
+      "totalStars": 89,
+      "totalAttacks": 31,
       "warsInRoster": 16,
       "totalMissed": 0,
-      "rank": 12,
-      "prevRank": 9,
-      "normalizedScore": 70.79
+      "rank": 10,
+      "prevRank": 12,
+      "normalizedScore": 71.27
     },
     "#2QL0VR9GU": {
       "tier": "B",
-      "score": 2.0665672148132312,
+      "score": 1.9914658574513056,
       "avgStars": 2.466666666666667,
       "totalStars": 74,
       "totalAttacks": 30,
@@ -1422,7 +1422,7 @@
       "totalMissed": 1,
       "rank": 27,
       "prevRank": 27,
-      "normalizedScore": 59.04
+      "normalizedScore": 56.9
     },
     "#YPVQVU982": {
       "tier": "B",
@@ -1438,7 +1438,7 @@
     },
     "#8CJ8YJY0P": {
       "tier": "A",
-      "score": 2.521747590439542,
+      "score": 2.5173049739566564,
       "avgStars": 2.8181818181818183,
       "totalStars": 93,
       "totalAttacks": 33,
@@ -1446,7 +1446,7 @@
       "totalMissed": 0,
       "rank": 7,
       "prevRank": 7,
-      "normalizedScore": 72.05
+      "normalizedScore": 71.92
     },
     "#P9C0LVLU2": {
       "tier": "S",
@@ -1644,8 +1644,8 @@
       "totalAttacks": 20,
       "warsInRoster": 11,
       "totalMissed": 0,
-      "rank": 10,
-      "prevRank": 11,
+      "rank": 11,
+      "prevRank": 10,
       "normalizedScore": 71.21
     },
     "#G9Y2L9QJJ": {
@@ -1741,7 +1741,7 @@
       "warsInRoster": 7,
       "totalMissed": 2,
       "rank": 39,
-      "prevRank": 38,
+      "prevRank": 39,
       "normalizedScore": 35.42
     },
     "#PPPUQPVJY": {
@@ -1765,7 +1765,7 @@
       "warsInRoster": 15,
       "totalMissed": 0,
       "rank": 9,
-      "prevRank": 10,
+      "prevRank": 9,
       "normalizedScore": 71.31
     },
     "#QQULJG9": {
@@ -1870,8 +1870,8 @@
       "totalAttacks": 32,
       "warsInRoster": 17,
       "totalMissed": 0,
-      "rank": 11,
-      "prevRank": 12,
+      "rank": 12,
+      "prevRank": 11,
       "normalizedScore": 70.84
     },
     "#VPPQ8VLV": {
@@ -1907,7 +1907,7 @@
       "warsInRoster": 8,
       "totalMissed": 7,
       "rank": 38,
-      "prevRank": 39,
+      "prevRank": 38,
       "normalizedScore": 38.43
     },
     "#2LGC8PGRY": {

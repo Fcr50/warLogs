@@ -10,8 +10,8 @@
       "opponent": {
         "name": "Persian Empire2",
         "tag": "#2JCY9VGQ2",
-        "stars": 22,
-        "destructionPercentage": 22.22857,
+        "stars": 27,
+        "destructionPercentage": 25.714285,
         "members": [
           {
             "tag": "#Q9GC9Q9LU",
@@ -156,8 +156,8 @@
         ]
       },
       "clan": {
-        "stars": 15,
-        "destructionPercentage": 14.285714
+        "stars": 18,
+        "destructionPercentage": 17.142857
       },
       "sixHourNonAttackers": [
         {
@@ -223,11 +223,6 @@
         {
           "tag": "#G9Y2L9QJJ",
           "name": "Micael",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#GJ2LQVQJ",
-          "name": "Fer",
           "townhallLevel": 18
         },
         {
@@ -386,6 +381,12 @@
           "attacks": [],
           "defensesReceived": [
             {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#82QYVVU90",
+              "attackerMapPosition": 6
+            },
+            {
               "stars": 1,
               "destructionPercentage": 78,
               "attackerTag": "#8G2P98R2",
@@ -443,7 +444,20 @@
               "defenderTag": "#8PUGQLVJ8"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 91,
+              "attackerTag": "#82QYVVU90",
+              "attackerMapPosition": 6
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#2PP9QYRU0",
+              "attackerMapPosition": 24
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -494,7 +508,14 @@
           "name": "Fer",
           "townhallLevel": 18,
           "mapPosition": 4,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 18,
+              "defenderTag": "#2GQ90LQ00"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
