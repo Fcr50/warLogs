@@ -10,8 +10,8 @@
       "opponent": {
         "name": "Persian Empire2",
         "tag": "#2JCY9VGQ2",
-        "stars": 99,
-        "destructionPercentage": 94.28571,
+        "stars": 105,
+        "destructionPercentage": 100,
         "members": [
           {
             "tag": "#Q9GC9Q9LU",
@@ -156,8 +156,8 @@
         ]
       },
       "clan": {
-        "stars": 45,
-        "destructionPercentage": 42.857143
+        "stars": 48,
+        "destructionPercentage": 45.714287
       },
       "sixHourNonAttackers": [
         {
@@ -253,11 +253,6 @@
         {
           "tag": "#LRC0U92LV",
           "name": "Dj_HenriqSP2",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QJVQVRPU",
-          "name": "Frnnn",
           "townhallLevel": 18
         },
         {
@@ -817,7 +812,14 @@
           "townhallLevel": 15,
           "mapPosition": 35,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#LGPYUCJG8",
+              "attackerMapPosition": 7
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -910,7 +912,14 @@
           "townhallLevel": 18,
           "mapPosition": 34,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#LGPYUCJG8",
+              "attackerMapPosition": 7
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -956,7 +965,14 @@
           "name": "Frnnn",
           "townhallLevel": 18,
           "mapPosition": 6,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 61,
+              "defenderTag": "#82QYVVU90"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
