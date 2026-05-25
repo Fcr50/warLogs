@@ -10,8 +10,8 @@
       "opponent": {
         "name": "Persian Empire2",
         "tag": "#2JCY9VGQ2",
-        "stars": 9,
-        "destructionPercentage": 8.571428,
+        "stars": 22,
+        "destructionPercentage": 22.22857,
         "members": [
           {
             "tag": "#Q9GC9Q9LU",
@@ -156,8 +156,8 @@
         ]
       },
       "clan": {
-        "stars": 6,
-        "destructionPercentage": 5.714286
+        "stars": 15,
+        "destructionPercentage": 14.285714
       },
       "sixHourNonAttackers": [
         {
@@ -168,11 +168,6 @@
         {
           "tag": "#QR8R9QUV8",
           "name": "Dr.Hannibal",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#2LY0P2L9U",
-          "name": "LucasHG9",
           "townhallLevel": 18
         },
         {
@@ -234,11 +229,6 @@
           "tag": "#GJ2LQVQJ",
           "name": "Fer",
           "townhallLevel": 18
-        },
-        {
-          "tag": "#9UQYJYUCL",
-          "name": "⚡mascote⚡",
-          "townhallLevel": 17
         },
         {
           "tag": "#L8RG2PV0G",
@@ -350,7 +340,14 @@
           "name": "LucasHG9",
           "townhallLevel": 18,
           "mapPosition": 10,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 8,
+              "defenderTag": "#2LQLUPUGJ"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -387,7 +384,14 @@
           "townhallLevel": 18,
           "mapPosition": 9,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 1,
+              "destructionPercentage": 78,
+              "attackerTag": "#8G2P98R2",
+              "attackerMapPosition": 5
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -491,7 +495,14 @@
           "townhallLevel": 18,
           "mapPosition": 4,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#8YUCCVG0P",
+              "attackerMapPosition": 26
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -499,7 +510,20 @@
           "name": "⚡mascote⚡",
           "townhallLevel": 17,
           "mapPosition": 32,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 11,
+              "defenderTag": "#2J0G2URRU"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 13,
+              "defenderTag": "#9PV29LGPV"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -518,7 +542,20 @@
           "townhallLevel": 18,
           "mapPosition": 7,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#8YUCCVG0P",
+              "attackerMapPosition": 26
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 99,
+              "attackerTag": "#JGU0CQJV",
+              "attackerMapPosition": 16
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -527,7 +564,14 @@
           "townhallLevel": 18,
           "mapPosition": 5,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#JGU0CQJV",
+              "attackerMapPosition": 16
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -671,7 +715,14 @@
           "townhallLevel": 18,
           "mapPosition": 6,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#8G2P98R2",
+              "attackerMapPosition": 5
+            }
+          ],
           "missedAttacks": 0
         },
         {
