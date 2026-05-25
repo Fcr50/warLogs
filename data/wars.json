@@ -10,8 +10,8 @@
       "opponent": {
         "name": "Persian Empire2",
         "tag": "#2JCY9VGQ2",
-        "stars": 47,
-        "destructionPercentage": 45.6,
+        "stars": 54,
+        "destructionPercentage": 51.42857,
         "members": [
           {
             "tag": "#Q9GC9Q9LU",
@@ -156,8 +156,8 @@
         ]
       },
       "clan": {
-        "stars": 24,
-        "destructionPercentage": 22.857143
+        "stars": 27,
+        "destructionPercentage": 25.714285
       },
       "sixHourNonAttackers": [
         {
@@ -204,11 +204,6 @@
           "tag": "#8YJYY92GC",
           "name": "RussiaN",
           "townhallLevel": 17
-        },
-        {
-          "tag": "#LQQRGJ8VU",
-          "name": "i-Vinni",
-          "townhallLevel": 18
         },
         {
           "tag": "#G9Y2L9QJJ",
@@ -317,7 +312,14 @@
           "townhallLevel": 18,
           "mapPosition": 18,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#L2G0YL8GR",
+              "attackerMapPosition": 29
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -512,7 +514,14 @@
           "name": "i-Vinni",
           "townhallLevel": 18,
           "mapPosition": 27,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 32,
+              "defenderTag": "#YR0YQCUJ"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -758,7 +767,14 @@
           "townhallLevel": 18,
           "mapPosition": 17,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#LUG8PG2U8",
+              "attackerMapPosition": 15
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -816,6 +832,12 @@
               "destructionPercentage": 96,
               "attackerTag": "#2URP22GGJ",
               "attackerMapPosition": 9
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#LUG8PG2U8",
+              "attackerMapPosition": 15
             }
           ],
           "missedAttacks": 0
