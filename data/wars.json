@@ -10,8 +10,8 @@
       "opponent": {
         "name": "Persian Empire2",
         "tag": "#2JCY9VGQ2",
-        "stars": 86,
-        "destructionPercentage": 82.14286,
+        "stars": 94,
+        "destructionPercentage": 91,
         "members": [
           {
             "tag": "#Q9GC9Q9LU",
@@ -156,8 +156,8 @@
         ]
       },
       "clan": {
-        "stars": 36,
-        "destructionPercentage": 34.285713
+        "stars": 39,
+        "destructionPercentage": 37.142857
       },
       "sixHourNonAttackers": [
         {
@@ -199,11 +199,6 @@
           "tag": "#8P9GUPPC",
           "name": "✨ MaxB13 ✨",
           "townhallLevel": 18
-        },
-        {
-          "tag": "#8YJYY92GC",
-          "name": "RussiaN",
-          "townhallLevel": 17
         },
         {
           "tag": "#L8RG2PV0G",
@@ -458,6 +453,12 @@
               "destructionPercentage": 75,
               "attackerTag": "#Q9GC9Q9LU",
               "attackerMapPosition": 30
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#8U2JQ9YVG",
+              "attackerMapPosition": 22
             }
           ],
           "missedAttacks": 0
@@ -467,7 +468,14 @@
           "name": "RussiaN",
           "townhallLevel": 17,
           "mapPosition": 31,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 55,
+              "defenderTag": "#2YQLY00PP"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -549,7 +557,14 @@
               "defenderTag": "#YR0YQCUJ"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 1,
+              "destructionPercentage": 85,
+              "attackerTag": "#9QJ20V92",
+              "attackerMapPosition": 2
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -565,7 +580,14 @@
               "defenderTag": "#LUYRUCLUR"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#9QJ20V92",
+              "attackerMapPosition": 2
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -639,7 +661,14 @@
               "defenderTag": "#9PV29LGPV"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#2LQLUPUGJ",
+              "attackerMapPosition": 10
+            }
+          ],
           "missedAttacks": 0
         },
         {
