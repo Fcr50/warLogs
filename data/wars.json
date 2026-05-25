@@ -10,8 +10,8 @@
       "opponent": {
         "name": "Persian Empire2",
         "tag": "#2JCY9VGQ2",
-        "stars": 94,
-        "destructionPercentage": 91,
+        "stars": 99,
+        "destructionPercentage": 94.28571,
         "members": [
           {
             "tag": "#Q9GC9Q9LU",
@@ -156,8 +156,8 @@
         ]
       },
       "clan": {
-        "stars": 42,
-        "destructionPercentage": 40
+        "stars": 45,
+        "destructionPercentage": 42.857143
       },
       "sixHourNonAttackers": [
         {
@@ -229,11 +229,6 @@
           "tag": "#QJC8YGJ00",
           "name": "FANÁTICO",
           "townhallLevel": 15
-        },
-        {
-          "tag": "#GGVCRYP8P",
-          "name": "gui",
-          "townhallLevel": 17
         },
         {
           "tag": "#YPVQVU982",
@@ -561,6 +556,12 @@
           ],
           "defensesReceived": [
             {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#2CQQ00QG0",
+              "attackerMapPosition": 14
+            },
+            {
               "stars": 1,
               "destructionPercentage": 85,
               "attackerTag": "#9QJ20V92",
@@ -824,7 +825,14 @@
           "name": "gui",
           "townhallLevel": 17,
           "mapPosition": 30,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 59,
+              "defenderTag": "#Q9GC9Q9LU"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -933,7 +941,14 @@
           "townhallLevel": 18,
           "mapPosition": 33,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#2CQQ00QG0",
+              "attackerMapPosition": 14
+            }
+          ],
           "missedAttacks": 0
         },
         {
