@@ -10,8 +10,8 @@
       "opponent": {
         "name": "Persian Empire2",
         "tag": "#2JCY9VGQ2",
-        "stars": 41,
-        "destructionPercentage": 39.42857,
+        "stars": 47,
+        "destructionPercentage": 45.6,
         "members": [
           {
             "tag": "#Q9GC9Q9LU",
@@ -491,7 +491,20 @@
               "defenderTag": "#LUG8PG2U8"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#2URP22GGJ",
+              "attackerMapPosition": 9
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 94,
+              "attackerTag": "#29VC9YJRJ",
+              "attackerMapPosition": 18
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -531,6 +544,12 @@
               "destructionPercentage": 80,
               "attackerTag": "#YR0YQCUJ",
               "attackerMapPosition": 27
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#29VC9YJRJ",
+              "attackerMapPosition": 18
             }
           ],
           "missedAttacks": 0
@@ -791,7 +810,14 @@
           "townhallLevel": 18,
           "mapPosition": 16,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 96,
+              "attackerTag": "#2URP22GGJ",
+              "attackerMapPosition": 9
+            }
+          ],
           "missedAttacks": 0
         }
       ]
