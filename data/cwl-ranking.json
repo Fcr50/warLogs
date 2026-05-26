@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-05-26T15:05:22.372Z",
+  "generatedAt": "2026-05-26T15:20:24.548Z",
   "totalWars": 12,
   "liveWar": {
     "opponentName": "Persian Empire2",
-    "totalAttacksDone": 47,
+    "totalAttacksDone": 48,
     "totalAttacksExpected": 70
   },
   "ranking": [
@@ -441,6 +441,42 @@
     },
     {
       "player": {
+        "tag": "#LQQRGJ8VU",
+        "name": "i-Vinni",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.370165916668548,
+        "rawScore": 2.370165916668548,
+        "confidence": 1,
+        "tier": "C",
+        "attackScore": 3.1358119495809786,
+        "defenseScore": 0.6044995913781472,
+        "reliability": 0.8,
+        "formScore": 3.5,
+        "warsInRoster": 8,
+        "attacksUsed": 15,
+        "attacksAvailable": 16,
+        "avgDestruction": 85.66666666666667,
+        "totalAttacks": 15,
+        "totalStars": 34,
+        "count3Stars": 9,
+        "avgStars": 2.2666666666666666,
+        "threeStarRate": 0.6,
+        "totalMissed": 0,
+        "avgPositionDiff": -11.533333333333333,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#PLU2VCLG",
         "name": "Phoenix",
         "townhallLevel": 18
@@ -465,42 +501,6 @@
         "threeStarRate": 0.7941176470588235,
         "totalMissed": 2,
         "avgPositionDiff": -0.375,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#LQQRGJ8VU",
-        "name": "i-Vinni",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.3504651423236234,
-        "rawScore": 2.3504651423236234,
-        "confidence": 1,
-        "tier": "C",
-        "attackScore": 3.088905343997825,
-        "defenseScore": 0.6044995913781472,
-        "reliability": 0.8,
-        "formScore": 3.5,
-        "warsInRoster": 8,
-        "attacksUsed": 14,
-        "attacksAvailable": 16,
-        "avgDestruction": 84.64285714285714,
-        "totalAttacks": 14,
-        "totalStars": 31,
-        "count3Stars": 8,
-        "avgStars": 2.2142857142857144,
-        "threeStarRate": 0.5714285714285714,
-        "totalMissed": 0,
-        "avgPositionDiff": -10.5,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1547,8 +1547,8 @@
       "totalAttacks": 34,
       "warsInRoster": 18,
       "totalMissed": 2,
-      "rank": 13,
-      "prevRank": 14,
+      "rank": 14,
+      "prevRank": 13,
       "normalizedScore": 67.21
     },
     "#QGQJGURCL": {
@@ -1575,6 +1575,18 @@
       "prevRank": 4,
       "normalizedScore": 72.4
     },
+    "#YVYCCQU08": {
+      "tier": "A",
+      "score": 2.4989169324545775,
+      "avgStars": 2.730769230769231,
+      "totalStars": 71,
+      "totalAttacks": 26,
+      "warsInRoster": 14,
+      "totalMissed": 0,
+      "rank": 8,
+      "prevRank": 8,
+      "normalizedScore": 71.4
+    },
     "#QJVQVRPU": {
       "tier": "A",
       "score": 2.4449723586100447,
@@ -1599,18 +1611,6 @@
       "prevRank": 37,
       "normalizedScore": 42.98
     },
-    "#YVYCCQU08": {
-      "tier": "A",
-      "score": 2.4989169324545775,
-      "avgStars": 2.730769230769231,
-      "totalStars": 71,
-      "totalAttacks": 26,
-      "warsInRoster": 14,
-      "totalMissed": 0,
-      "rank": 8,
-      "prevRank": 8,
-      "normalizedScore": 71.4
-    },
     "#JPVGQP8V": {
       "tier": "F",
       "score": 0,
@@ -1620,6 +1620,18 @@
       "warsInRoster": 0,
       "totalMissed": 0,
       "normalizedScore": 0
+    },
+    "#QR8R9QUV8": {
+      "tier": "A",
+      "score": 2.478520071055837,
+      "avgStars": 2.782608695652174,
+      "totalStars": 64,
+      "totalAttacks": 23,
+      "warsInRoster": 12,
+      "totalMissed": 0,
+      "rank": 11,
+      "prevRank": 11,
+      "normalizedScore": 70.81
     },
     "#29LP0VJV0": {
       "tier": "B",
@@ -1654,18 +1666,6 @@
       "rank": 5,
       "prevRank": 5,
       "normalizedScore": 72.34
-    },
-    "#QR8R9QUV8": {
-      "tier": "A",
-      "score": 2.478520071055837,
-      "avgStars": 2.782608695652174,
-      "totalStars": 64,
-      "totalAttacks": 23,
-      "warsInRoster": 12,
-      "totalMissed": 0,
-      "rank": 11,
-      "prevRank": 11,
-      "normalizedScore": 70.81
     },
     "#22C820V9L": {
       "tier": "C",
@@ -1823,15 +1823,15 @@
     },
     "#LQQRGJ8VU": {
       "tier": "A",
-      "score": 2.3504651423236234,
-      "avgStars": 2.2142857142857144,
-      "totalStars": 31,
-      "totalAttacks": 14,
+      "score": 2.370165916668548,
+      "avgStars": 2.2666666666666666,
+      "totalStars": 34,
+      "totalAttacks": 15,
       "warsInRoster": 8,
       "totalMissed": 0,
-      "rank": 14,
-      "prevRank": 13,
-      "normalizedScore": 67.16
+      "rank": 13,
+      "prevRank": 14,
+      "normalizedScore": 67.72
     },
     "#QQULJG9": {
       "tier": "C",
@@ -1915,18 +1915,6 @@
       "prevRank": 18,
       "normalizedScore": 64.93
     },
-    "#LUR09RUP2": {
-      "tier": "C",
-      "score": 1.5420329977108471,
-      "avgStars": 1.8571428571428572,
-      "totalStars": 39,
-      "totalAttacks": 21,
-      "warsInRoster": 11,
-      "totalMissed": 0,
-      "rank": 33,
-      "prevRank": 33,
-      "normalizedScore": 44.06
-    },
     "#RC82GPG": {
       "tier": "C",
       "score": 1.4960058693807603,
@@ -1938,6 +1926,18 @@
       "rank": 38,
       "prevRank": 38,
       "normalizedScore": 42.74
+    },
+    "#LUR09RUP2": {
+      "tier": "C",
+      "score": 1.5420329977108471,
+      "avgStars": 1.8571428571428572,
+      "totalStars": 39,
+      "totalAttacks": 21,
+      "warsInRoster": 11,
+      "totalMissed": 0,
+      "rank": 33,
+      "prevRank": 33,
+      "normalizedScore": 44.06
     },
     "#GGVCRYP8P": {
       "tier": "B",
