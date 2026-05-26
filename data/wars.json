@@ -156,18 +156,13 @@
         ]
       },
       "clan": {
-        "stars": 51,
-        "destructionPercentage": 48.57143
+        "stars": 60,
+        "destructionPercentage": 57.142857
       },
       "sixHourNonAttackers": [
         {
           "tag": "#8VCUUPPJP",
           "name": "Satsugai",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QR8R9QUV8",
-          "name": "Dr.Hannibal",
           "townhallLevel": 18
         },
         {
@@ -216,11 +211,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#29LP0VJV0",
-          "name": "Warlord Raivon",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#QJC8YGJ00",
           "name": "FANÁTICO",
           "townhallLevel": 15
@@ -236,11 +226,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#GQU9Y0CQ8",
-          "name": "Scok♤",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#YVYCCQU08",
           "name": "Frenético",
           "townhallLevel": 18
@@ -248,11 +233,6 @@
         {
           "tag": "#LRC0U92LV",
           "name": "Dj_HenriqSP2",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#2YCRQCUUG",
-          "name": "Diego ||",
           "townhallLevel": 18
         }
       ],
@@ -278,7 +258,14 @@
           "name": "Dr.Hannibal",
           "townhallLevel": 18,
           "mapPosition": 18,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 65,
+              "defenderTag": "#29VC9YJRJ"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -774,7 +761,14 @@
           "name": "Warlord Raivon",
           "townhallLevel": 18,
           "mapPosition": 22,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 67,
+              "defenderTag": "#8U2JQ9YVG"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -913,7 +907,14 @@
           "name": "Scok♤",
           "townhallLevel": 18,
           "mapPosition": 34,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 68,
+              "defenderTag": "#JGU0CQJV"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -990,7 +991,14 @@
           "name": "Diego ||",
           "townhallLevel": 18,
           "mapPosition": 16,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 99,
+              "order": 66,
+              "defenderTag": "#JGU0CQJV"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 2,
