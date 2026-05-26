@@ -156,8 +156,8 @@
         ]
       },
       "clan": {
-        "stars": 60,
-        "destructionPercentage": 57.142857
+        "stars": 62,
+        "destructionPercentage": 59.857143
       },
       "sixHourNonAttackers": [
         {
@@ -193,11 +193,6 @@
         {
           "tag": "#L8RG2PV0G",
           "name": "joaoaoaoao",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#PLU2VCLG",
-          "name": "Phoenix",
           "townhallLevel": 18
         },
         {
@@ -684,7 +679,14 @@
           "name": "Phoenix",
           "townhallLevel": 18,
           "mapPosition": 7,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 95,
+              "order": 69,
+              "defenderTag": "#LGPYUCJG8"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,

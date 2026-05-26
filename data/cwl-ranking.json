@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-05-26T01:15:25.530Z",
+  "generatedAt": "2026-05-26T01:30:22.873Z",
   "totalWars": 12,
   "liveWar": {
     "opponentName": "Persian Empire2",
-    "totalAttacksDone": 22,
+    "totalAttacksDone": 23,
     "totalAttacksExpected": 70
   },
   "ranking": [
@@ -585,42 +585,6 @@
     },
     {
       "player": {
-        "tag": "#PLU2VCLG",
-        "name": "Phoenix",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.432762412839383,
-        "rawScore": 2.432762412839383,
-        "confidence": 1,
-        "tier": "A",
-        "attackScore": 3.2556471221300147,
-        "defenseScore": 0.23956248617910625,
-        "reliability": 0.95,
-        "formScore": 3.5,
-        "warsInRoster": 17,
-        "attacksUsed": 30,
-        "attacksAvailable": 34,
-        "avgDestruction": 95.93333333333334,
-        "totalAttacks": 30,
-        "totalStars": 83,
-        "count3Stars": 25,
-        "avgStars": 2.7666666666666666,
-        "threeStarRate": 0.8333333333333334,
-        "totalMissed": 2,
-        "avgPositionDiff": -0.14285714285714285,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
         "tag": "#LRC0U92LV",
         "name": "Dj_HenriqSP2",
         "townhallLevel": 18
@@ -645,6 +609,42 @@
         "threeStarRate": 0.9444444444444444,
         "totalMissed": 0,
         "avgPositionDiff": -5.5,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#PLU2VCLG",
+        "name": "Phoenix",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.3260874785874655,
+        "rawScore": 2.3260874785874655,
+        "confidence": 1,
+        "tier": "A",
+        "attackScore": 3.1266591834349744,
+        "defenseScore": 0.23956248617910625,
+        "reliability": 0.95,
+        "formScore": 2.975,
+        "warsInRoster": 17,
+        "attacksUsed": 31,
+        "attacksAvailable": 34,
+        "avgDestruction": 95.90322580645162,
+        "totalAttacks": 31,
+        "totalStars": 85,
+        "count3Stars": 25,
+        "avgStars": 2.7419354838709675,
+        "threeStarRate": 0.8064516129032258,
+        "totalMissed": 2,
+        "avgPositionDiff": -0.13793103448275862,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1508,6 +1508,18 @@
       "prevRank": 17,
       "normalizedScore": 69.8
     },
+    "#2GP2JUU2": {
+      "tier": "A",
+      "score": 2.5345849257542943,
+      "avgStars": 2.6666666666666665,
+      "totalStars": 88,
+      "totalAttacks": 33,
+      "warsInRoster": 17,
+      "totalMissed": 0,
+      "rank": 5,
+      "prevRank": 5,
+      "normalizedScore": 72.42
+    },
     "#QR8R9QUV8": {
       "tier": "A",
       "score": 2.478339944750766,
@@ -1544,17 +1556,17 @@
       "prevRank": 25,
       "normalizedScore": 59.46
     },
-    "#2GP2JUU2": {
-      "tier": "A",
-      "score": 2.5345849257542943,
-      "avgStars": 2.6666666666666665,
-      "totalStars": 88,
-      "totalAttacks": 33,
-      "warsInRoster": 17,
-      "totalMissed": 0,
-      "rank": 5,
-      "prevRank": 5,
-      "normalizedScore": 72.42
+    "#2YCRQCUUG": {
+      "tier": "C",
+      "score": 1.5047884858588634,
+      "avgStars": 2.3333333333333335,
+      "totalStars": 14,
+      "totalAttacks": 6,
+      "warsInRoster": 4,
+      "totalMissed": 1,
+      "rank": 37,
+      "prevRank": 37,
+      "normalizedScore": 42.99
     },
     "#29LP0VJV0": {
       "tier": "B",
@@ -1579,18 +1591,6 @@
       "rank": 33,
       "prevRank": 33,
       "normalizedScore": 46.21
-    },
-    "#2YCRQCUUG": {
-      "tier": "C",
-      "score": 1.5047884858588634,
-      "avgStars": 2.3333333333333335,
-      "totalStars": 14,
-      "totalAttacks": 6,
-      "warsInRoster": 4,
-      "totalMissed": 1,
-      "rank": 37,
-      "prevRank": 37,
-      "normalizedScore": 42.99
     },
     "#JPVGQP8V": {
       "tier": "F",
@@ -1698,15 +1698,15 @@
     },
     "#PLU2VCLG": {
       "tier": "B",
-      "score": 2.432762412839383,
-      "avgStars": 2.7666666666666666,
-      "totalStars": 83,
-      "totalAttacks": 30,
+      "score": 2.3260874785874655,
+      "avgStars": 2.7419354838709675,
+      "totalStars": 85,
+      "totalAttacks": 31,
       "warsInRoster": 17,
       "totalMissed": 2,
-      "rank": 18,
+      "rank": 19,
       "prevRank": 18,
-      "normalizedScore": 69.51
+      "normalizedScore": 66.46
     },
     "#YVYCCQU08": {
       "tier": "A",
@@ -1836,7 +1836,7 @@
       "totalAttacks": 18,
       "warsInRoster": 10,
       "totalMissed": 0,
-      "rank": 19,
+      "rank": 18,
       "prevRank": 19,
       "normalizedScore": 67.38
     },
