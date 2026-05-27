@@ -10,8 +10,8 @@
       "opponent": {
         "name": "Canadian Tundra",
         "tag": "#8PCVCUR2",
-        "stars": 33,
-        "destructionPercentage": 40.6,
+        "stars": 40,
+        "destructionPercentage": 50.433334,
         "members": [
           {
             "tag": "#U89PVPP0",
@@ -248,7 +248,14 @@
           "townhallLevel": 18,
           "mapPosition": 16,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 1,
+              "destructionPercentage": 82,
+              "attackerTag": "#8L8ULQG2",
+              "attackerMapPosition": 15
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -410,6 +417,12 @@
           "attacks": [],
           "defensesReceived": [
             {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#VQCYYUP",
+              "attackerMapPosition": 26
+            },
+            {
               "stars": 2,
               "destructionPercentage": 83,
               "attackerTag": "#GLQCJGQ9J",
@@ -471,7 +484,14 @@
           "townhallLevel": 18,
           "mapPosition": 5,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 96,
+              "attackerTag": "#99CU829G",
+              "attackerMapPosition": 10
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -676,7 +696,14 @@
           "townhallLevel": 18,
           "mapPosition": 14,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#PCV8GPC",
+              "attackerMapPosition": 7
+            }
+          ],
           "missedAttacks": 0
         }
       ]
