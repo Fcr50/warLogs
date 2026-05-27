@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 38,
-        "destructionPercentage": 43.066666
+        "stars": 44,
+        "destructionPercentage": 49.733334
       },
       "sixHourNonAttackers": [
         {
@@ -153,11 +153,6 @@
         {
           "tag": "#G9Y2L9QJJ",
           "name": "Micael",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#GJ2LQVQJ",
-          "name": "Fer",
           "townhallLevel": 18
         },
         {
@@ -179,11 +174,6 @@
           "tag": "#VPPQ8VLV",
           "name": "GABRIEL LOBATO",
           "townhallLevel": 17
-        },
-        {
-          "tag": "#29LP0VJV0",
-          "name": "Warlord Raivon",
-          "townhallLevel": 18
         },
         {
           "tag": "#2Q2ULRCUV",
@@ -455,7 +445,14 @@
           "name": "Fer",
           "townhallLevel": 18,
           "mapPosition": 4,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 36,
+              "defenderTag": "#2GJPVLUJ"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 2,
@@ -543,7 +540,14 @@
           "name": "Warlord Raivon",
           "townhallLevel": 18,
           "mapPosition": 18,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 37,
+              "defenderTag": "#LGPP0Y9CQ"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
