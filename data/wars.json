@@ -10,8 +10,8 @@
       "opponent": {
         "name": "Canadian Tundra",
         "tag": "#8PCVCUR2",
-        "stars": 2,
-        "destructionPercentage": 2.8333333,
+        "stars": 5,
+        "destructionPercentage": 6.1666665,
         "members": [
           {
             "tag": "#U89PVPP0",
@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 0,
-        "destructionPercentage": 0
+        "stars": 3,
+        "destructionPercentage": 3.3333333
       },
       "sixHourNonAttackers": [
         {
@@ -163,11 +163,6 @@
         {
           "tag": "#2QL0VR9GU",
           "name": "Marcola",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#8CJ8YJY0P",
-          "name": "ChrolloLucilfer",
           "townhallLevel": 18
         },
         {
@@ -342,7 +337,14 @@
           "name": "ChrolloLucilfer",
           "townhallLevel": 18,
           "mapPosition": 7,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 3,
+              "defenderTag": "#PCV8GPC"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -460,7 +462,14 @@
           "townhallLevel": 18,
           "mapPosition": 2,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#9J0C0G9V",
+              "attackerMapPosition": 2
+            }
+          ],
           "missedAttacks": 0
         },
         {
