@@ -10,8 +10,8 @@
       "opponent": {
         "name": "Canadian Tundra",
         "tag": "#8PCVCUR2",
-        "stars": 10,
-        "destructionPercentage": 12.266666,
+        "stars": 16,
+        "destructionPercentage": 18.933332,
         "members": [
           {
             "tag": "#U89PVPP0",
@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 12,
-        "destructionPercentage": 13.333333
+        "stars": 18,
+        "destructionPercentage": 20
       },
       "sixHourNonAttackers": [
         {
@@ -216,11 +216,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#GGVCRYP8P",
-          "name": "gui",
-          "townhallLevel": 17
-        },
-        {
           "tag": "#2Q2ULRCUV",
           "name": "Aflen",
           "townhallLevel": 18
@@ -248,11 +243,6 @@
         {
           "tag": "#YVYCCQU08",
           "name": "Frenético",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QJVQVRPU",
-          "name": "Frnnn",
           "townhallLevel": 18
         },
         {
@@ -362,7 +352,14 @@
           "townhallLevel": 18,
           "mapPosition": 21,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#89UQPUPU",
+              "attackerMapPosition": 1
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -387,7 +384,14 @@
               "defenderTag": "#99CU829G"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#99CU829G",
+              "attackerMapPosition": 10
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -490,7 +494,14 @@
           "name": "gui",
           "townhallLevel": 17,
           "mapPosition": 25,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 11,
+              "defenderTag": "#2CUUQR9"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -567,7 +578,14 @@
           "name": "Frnnn",
           "townhallLevel": 18,
           "mapPosition": 6,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 9,
+              "defenderTag": "#Y9YV2JPP"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
