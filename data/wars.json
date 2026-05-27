@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 3,
-        "destructionPercentage": 3.3333333
+        "stars": 6,
+        "destructionPercentage": 6.6666665
       },
       "sixHourNonAttackers": [
         {
@@ -163,11 +163,6 @@
         {
           "tag": "#2QL0VR9GU",
           "name": "Marcola",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#2GP2JUU2",
-          "name": "Gustavo Lázaro",
           "townhallLevel": 18
         },
         {
@@ -353,7 +348,14 @@
           "name": "Gustavo Lázaro",
           "townhallLevel": 18,
           "mapPosition": 13,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 4,
+              "defenderTag": "#Y0JUVGUG8"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
