@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-28T03:10:27.428Z",
+  "generatedAt": "2026-05-28T03:25:24.457Z",
   "totalWars": 13,
   "liveWar": {
     "opponentName": "Canadian Tundra",
@@ -117,6 +117,42 @@
     },
     {
       "player": {
+        "tag": "#QQC8P9C9R",
+        "name": "Gs.prieto",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.5716085040831547,
+        "rawScore": 2.5716085040831547,
+        "confidence": 1,
+        "tier": "A",
+        "attackScore": 3.3221559933454192,
+        "defenseScore": 0.5452119475123128,
+        "reliability": 1,
+        "formScore": 3.5,
+        "warsInRoster": 19,
+        "attacksUsed": 36,
+        "attacksAvailable": 38,
+        "avgDestruction": 97.58333333333333,
+        "totalAttacks": 36,
+        "totalStars": 99,
+        "count3Stars": 29,
+        "avgStars": 2.75,
+        "threeStarRate": 0.8055555555555556,
+        "totalMissed": 0,
+        "avgPositionDiff": 0.5,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#YVYCCQU08",
         "name": "Frenético",
         "townhallLevel": 18
@@ -213,42 +249,6 @@
         "threeStarRate": 0.7777777777777778,
         "totalMissed": 0,
         "avgPositionDiff": 0.7647058823529411,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#QQC8P9C9R",
-        "name": "Gs.prieto",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.545736349888748,
-        "rawScore": 2.545736349888748,
-        "confidence": 1,
-        "tier": "A",
-        "attackScore": 3.3221559933454192,
-        "defenseScore": 0.4417233307346861,
-        "reliability": 1,
-        "formScore": 3.5,
-        "warsInRoster": 19,
-        "attacksUsed": 36,
-        "attacksAvailable": 38,
-        "avgDestruction": 97.58333333333333,
-        "totalAttacks": 36,
-        "totalStars": 99,
-        "count3Stars": 29,
-        "avgStars": 2.75,
-        "threeStarRate": 0.8055555555555556,
-        "totalMissed": 0,
-        "avgPositionDiff": 0.5,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1432,7 +1432,7 @@
       "totalAttacks": 36,
       "warsInRoster": 19,
       "totalMissed": 0,
-      "rank": 6,
+      "rank": 7,
       "prevRank": 6,
       "normalizedScore": 72.79
     },
@@ -1480,19 +1480,19 @@
       "totalAttacks": 36,
       "warsInRoster": 19,
       "totalMissed": 0,
-      "rank": 5,
+      "rank": 6,
       "prevRank": 5,
       "normalizedScore": 73.03
     },
     "#YVYCCQU08": {
-      "tier": "S",
+      "tier": "A",
       "score": 2.5651553909355935,
       "avgStars": 2.75,
       "totalStars": 77,
       "totalAttacks": 28,
       "warsInRoster": 15,
       "totalMissed": 0,
-      "rank": 4,
+      "rank": 5,
       "prevRank": 4,
       "normalizedScore": 73.29
     },
@@ -1627,16 +1627,16 @@
       "normalizedScore": 0
     },
     "#QQC8P9C9R": {
-      "tier": "A",
-      "score": 2.545736349888748,
+      "tier": "S",
+      "score": 2.5716085040831547,
       "avgStars": 2.75,
       "totalStars": 99,
       "totalAttacks": 36,
       "warsInRoster": 19,
       "totalMissed": 0,
-      "rank": 7,
+      "rank": 4,
       "prevRank": 7,
-      "normalizedScore": 72.74
+      "normalizedScore": 73.47
     },
     "#22C820V9L": {
       "tier": "C",
