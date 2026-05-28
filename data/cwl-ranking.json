@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-05-27T23:55:18.354Z",
+  "generatedAt": "2026-05-28T00:10:21.332Z",
   "totalWars": 13,
   "liveWar": {
     "opponentName": "Canadian Tundra",
-    "totalAttacksDone": 16,
+    "totalAttacksDone": 17,
     "totalAttacksExpected": 60
   },
   "ranking": [
@@ -369,6 +369,42 @@
     },
     {
       "player": {
+        "tag": "#QR8R9QUV8",
+        "name": "Dr.Hannibal",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.489151345244331,
+        "rawScore": 2.489151345244331,
+        "confidence": 1,
+        "tier": "A",
+        "attackScore": 3.4596155075603963,
+        "defenseScore": 0.3241436359681644,
+        "reliability": 0.8769230769230769,
+        "formScore": 3.5,
+        "warsInRoster": 13,
+        "attacksUsed": 24,
+        "attacksAvailable": 26,
+        "avgDestruction": 95.41666666666667,
+        "totalAttacks": 24,
+        "totalStars": 67,
+        "count3Stars": 20,
+        "avgStars": 2.7916666666666665,
+        "threeStarRate": 0.8333333333333334,
+        "totalMissed": 0,
+        "avgPositionDiff": -4,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#G9Y2L9QJJ",
         "name": "Micael",
         "townhallLevel": 18
@@ -393,42 +429,6 @@
         "threeStarRate": 1,
         "totalMissed": 0,
         "avgPositionDiff": -8.88888888888889,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#QR8R9QUV8",
-        "name": "Dr.Hannibal",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.48559699413276,
-        "rawScore": 2.48559699413276,
-        "confidence": 1,
-        "tier": "A",
-        "attackScore": 3.4511527668185615,
-        "defenseScore": 0.3241436359681644,
-        "reliability": 0.8769230769230769,
-        "formScore": 3.5,
-        "warsInRoster": 13,
-        "attacksUsed": 23,
-        "attacksAvailable": 26,
-        "avgDestruction": 95.21739130434783,
-        "totalAttacks": 23,
-        "totalStars": 64,
-        "count3Stars": 19,
-        "avgStars": 2.782608695652174,
-        "threeStarRate": 0.8260869565217391,
-        "totalMissed": 0,
-        "avgPositionDiff": -4.190476190476191,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1570,15 +1570,15 @@
     },
     "#QR8R9QUV8": {
       "tier": "A",
-      "score": 2.48559699413276,
-      "avgStars": 2.782608695652174,
-      "totalStars": 64,
-      "totalAttacks": 23,
+      "score": 2.489151345244331,
+      "avgStars": 2.7916666666666665,
+      "totalStars": 67,
+      "totalAttacks": 24,
       "warsInRoster": 13,
       "totalMissed": 0,
-      "rank": 12,
+      "rank": 11,
       "prevRank": 12,
-      "normalizedScore": 71.02
+      "normalizedScore": 71.12
     },
     "#L8RG2PV0G": {
       "tier": "B",
@@ -1670,7 +1670,7 @@
       "totalAttacks": 9,
       "warsInRoster": 6,
       "totalMissed": 0,
-      "rank": 11,
+      "rank": 12,
       "prevRank": 11,
       "normalizedScore": 71.05
     },
