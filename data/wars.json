@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 47,
-        "destructionPercentage": 53.066666
+        "stars": 50,
+        "destructionPercentage": 56.4
       },
       "sixHourNonAttackers": [
         {
@@ -164,11 +164,6 @@
           "tag": "#22C820V9L",
           "name": "Alflen",
           "townhallLevel": 18
-        },
-        {
-          "tag": "#VPPQ8VLV",
-          "name": "GABRIEL LOBATO",
-          "townhallLevel": 17
         },
         {
           "tag": "#2Q2ULRCUV",
@@ -533,7 +528,14 @@
           "name": "GABRIEL LOBATO",
           "townhallLevel": 17,
           "mapPosition": 24,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 39,
+              "defenderTag": "#JVGPJ2JR"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
