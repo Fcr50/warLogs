@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-05-28T19:25:23.690Z",
+  "generatedAt": "2026-05-28T19:40:26.005Z",
   "totalWars": 13,
   "liveWar": {
     "opponentName": "Canadian Tundra",
-    "totalAttacksDone": 49,
+    "totalAttacksDone": 51,
     "totalAttacksExpected": 60
   },
   "ranking": [
@@ -261,6 +261,42 @@
     },
     {
       "player": {
+        "tag": "#G9Y2L9QJJ",
+        "name": "Micael",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.456218649558876,
+        "rawScore": 2.456218649558876,
+        "confidence": 1,
+        "tier": "S",
+        "attackScore": 3.699485694688315,
+        "defenseScore": 0.21404632346682517,
+        "reliability": 0.7230769230769231,
+        "formScore": 3.5,
+        "warsInRoster": 6,
+        "attacksUsed": 11,
+        "attacksAvailable": 12,
+        "avgDestruction": 100,
+        "totalAttacks": 11,
+        "totalStars": 33,
+        "count3Stars": 11,
+        "avgStars": 3,
+        "threeStarRate": 1,
+        "totalMissed": 0,
+        "avgPositionDiff": -11.181818181818182,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#80LUCC9YV",
         "name": "Lobo ®",
         "townhallLevel": 18
@@ -321,42 +357,6 @@
         "threeStarRate": 0.8611111111111112,
         "totalMissed": 0,
         "avgPositionDiff": -0.08823529411764706,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#G9Y2L9QJJ",
-        "name": "Micael",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.432667544923008,
-        "rawScore": 2.432667544923008,
-        "confidence": 1,
-        "tier": "S",
-        "attackScore": 3.6434116360314874,
-        "defenseScore": 0.21404632346682517,
-        "reliability": 0.7230769230769231,
-        "formScore": 3.5,
-        "warsInRoster": 6,
-        "attacksUsed": 9,
-        "attacksAvailable": 12,
-        "avgDestruction": 100,
-        "totalAttacks": 9,
-        "totalStars": 27,
-        "count3Stars": 9,
-        "avgStars": 3,
-        "threeStarRate": 1,
-        "totalMissed": 0,
-        "avgPositionDiff": -8.88888888888889,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1372,7 +1372,7 @@
       "totalAttacks": 36,
       "warsInRoster": 18,
       "totalMissed": 0,
-      "rank": 9,
+      "rank": 10,
       "prevRank": 9,
       "normalizedScore": 69.56
     },
@@ -1444,7 +1444,7 @@
       "totalAttacks": 38,
       "warsInRoster": 19,
       "totalMissed": 0,
-      "rank": 8,
+      "rank": 9,
       "prevRank": 8,
       "normalizedScore": 69.76
     },
@@ -1578,18 +1578,6 @@
       "prevRank": 4,
       "normalizedScore": 73.42
     },
-    "#GQU9Y0CQ8": {
-      "tier": "B",
-      "score": 2.210003348471603,
-      "avgStars": 2.2941176470588234,
-      "totalStars": 78,
-      "totalAttacks": 34,
-      "warsInRoster": 18,
-      "totalMissed": 0,
-      "rank": 21,
-      "prevRank": 21,
-      "normalizedScore": 63.14
-    },
     "#QR8R9QUV8": {
       "tier": "A",
       "score": 2.4229549284776826,
@@ -1601,6 +1589,18 @@
       "rank": 12,
       "prevRank": 12,
       "normalizedScore": 69.23
+    },
+    "#GQU9Y0CQ8": {
+      "tier": "B",
+      "score": 2.210003348471603,
+      "avgStars": 2.2941176470588234,
+      "totalStars": 78,
+      "totalAttacks": 34,
+      "warsInRoster": 18,
+      "totalMissed": 0,
+      "rank": 21,
+      "prevRank": 21,
+      "normalizedScore": 63.14
     },
     "#L8RG2PV0G": {
       "tier": "B",
@@ -1676,15 +1676,15 @@
     },
     "#G9Y2L9QJJ": {
       "tier": "A",
-      "score": 2.432667544923008,
+      "score": 2.456218649558876,
       "avgStars": 3,
-      "totalStars": 27,
-      "totalAttacks": 9,
+      "totalStars": 33,
+      "totalAttacks": 11,
       "warsInRoster": 6,
       "totalMissed": 0,
-      "rank": 10,
+      "rank": 8,
       "prevRank": 10,
-      "normalizedScore": 69.5
+      "normalizedScore": 70.18
     },
     "#2PYVRYRGY": {
       "tier": "F",
