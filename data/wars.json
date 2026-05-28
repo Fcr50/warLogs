@@ -10,8 +10,8 @@
       "opponent": {
         "name": "Canadian Tundra",
         "tag": "#8PCVCUR2",
-        "stars": 60,
-        "destructionPercentage": 77.03333,
+        "stars": 62,
+        "destructionPercentage": 78.8,
         "members": [
           {
             "tag": "#U89PVPP0",
@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 71,
-        "destructionPercentage": 79.73333
+        "stars": 74,
+        "destructionPercentage": 83.066666
       },
       "sixHourNonAttackers": [
         {
@@ -742,8 +742,22 @@
           "name": "lucas r.",
           "townhallLevel": 17,
           "mapPosition": 26,
-          "attacks": [],
-          "defensesReceived": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 60,
+              "defenderTag": "#VQCYYUP"
+            }
+          ],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 53,
+              "attackerTag": "#RULJVPP8",
+              "attackerMapPosition": 23
+            }
+          ],
           "missedAttacks": 0
         },
         {
