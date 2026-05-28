@@ -10,8 +10,8 @@
       "opponent": {
         "name": "Canadian Tundra",
         "tag": "#8PCVCUR2",
-        "stars": 67,
-        "destructionPercentage": 83.666664,
+        "stars": 69,
+        "destructionPercentage": 86.433334,
         "members": [
           {
             "tag": "#U89PVPP0",
@@ -686,7 +686,14 @@
           "townhallLevel": 18,
           "mapPosition": 22,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 83,
+              "attackerTag": "#LGPP0Y9CQ",
+              "attackerMapPosition": 18
+            }
+          ],
           "missedAttacks": 0
         },
         {
