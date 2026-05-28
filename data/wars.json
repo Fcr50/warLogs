@@ -10,8 +10,8 @@
       "opponent": {
         "name": "Canadian Tundra",
         "tag": "#8PCVCUR2",
-        "stars": 58,
-        "destructionPercentage": 73.86667,
+        "stars": 60,
+        "destructionPercentage": 77.03333,
         "members": [
           {
             "tag": "#U89PVPP0",
@@ -639,7 +639,14 @@
               "defenderTag": "#RULJVPP8"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 95,
+              "attackerTag": "#RULJVPP8",
+              "attackerMapPosition": 23
+            }
+          ],
           "missedAttacks": 0
         },
         {
