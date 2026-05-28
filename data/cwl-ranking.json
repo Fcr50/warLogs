@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-28T08:55:22.457Z",
+  "generatedAt": "2026-05-28T09:11:01.098Z",
   "totalWars": 13,
   "liveWar": {
     "opponentName": "Canadian Tundra",
@@ -477,42 +477,6 @@
     },
     {
       "player": {
-        "tag": "#8VCUUPPJP",
-        "name": "Satsugai",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.419071059036553,
-        "rawScore": 2.419071059036553,
-        "confidence": 1,
-        "tier": "A",
-        "attackScore": 3.341842996865242,
-        "defenseScore": 0.6255264629510673,
-        "reliability": 0.8153846153846154,
-        "formScore": 2.965,
-        "warsInRoster": 9,
-        "attacksUsed": 16,
-        "attacksAvailable": 18,
-        "avgDestruction": 99.125,
-        "totalAttacks": 16,
-        "totalStars": 46,
-        "count3Stars": 14,
-        "avgStars": 2.875,
-        "threeStarRate": 0.875,
-        "totalMissed": 0,
-        "avgPositionDiff": -1.0625,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
         "tag": "#LQQRGJ8VU",
         "name": "i-Vinni",
         "townhallLevel": 18
@@ -537,6 +501,42 @@
         "threeStarRate": 0.625,
         "totalMissed": 0,
         "avgPositionDiff": -10.8125,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#8VCUUPPJP",
+        "name": "Satsugai",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.3776366470645596,
+        "rawScore": 2.3776366470645596,
+        "confidence": 1,
+        "tier": "A",
+        "attackScore": 3.341842996865242,
+        "defenseScore": 0.45978881506309405,
+        "reliability": 0.8153846153846154,
+        "formScore": 2.965,
+        "warsInRoster": 9,
+        "attacksUsed": 16,
+        "attacksAvailable": 18,
+        "avgDestruction": 99.125,
+        "totalAttacks": 16,
+        "totalStars": 46,
+        "count3Stars": 14,
+        "avgStars": 2.875,
+        "threeStarRate": 0.875,
+        "totalMissed": 0,
+        "avgPositionDiff": -1.0625,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1733,26 +1733,26 @@
       "normalizedScore": 21.35
     },
     "#8VCUUPPJP": {
-      "tier": "A",
-      "score": 2.419071059036553,
+      "tier": "B",
+      "score": 2.3776366470645596,
       "avgStars": 2.875,
       "totalStars": 46,
       "totalAttacks": 16,
       "warsInRoster": 9,
       "totalMissed": 0,
-      "rank": 14,
+      "rank": 15,
       "prevRank": 14,
-      "normalizedScore": 69.12
+      "normalizedScore": 67.93
     },
     "#LQQRGJ8VU": {
-      "tier": "B",
+      "tier": "A",
       "score": 2.3811393421053526,
       "avgStars": 2.3125,
       "totalStars": 37,
       "totalAttacks": 16,
       "warsInRoster": 9,
       "totalMissed": 0,
-      "rank": 15,
+      "rank": 14,
       "prevRank": 15,
       "normalizedScore": 68.03
     },
