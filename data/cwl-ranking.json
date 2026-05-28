@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-28T10:25:21.541Z",
+  "generatedAt": "2026-05-28T10:40:27.120Z",
   "totalWars": 13,
   "liveWar": {
     "opponentName": "Canadian Tundra",
@@ -266,12 +266,12 @@
         "townhallLevel": 18
       },
       "data": {
-        "score": 2.528185786393396,
-        "rawScore": 2.528185786393396,
+        "score": 2.522371210967868,
+        "rawScore": 2.522371210967868,
         "confidence": 1,
         "tier": "A",
         "attackScore": 3.4596155075603963,
-        "defenseScore": 0.4802814005644259,
+        "defenseScore": 0.45702309886231446,
         "reliability": 0.8769230769230769,
         "formScore": 3.5,
         "warsInRoster": 13,
@@ -405,42 +405,6 @@
     },
     {
       "player": {
-        "tag": "#G9Y2L9QJJ",
-        "name": "Micael",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.4867936969381725,
-        "rawScore": 2.4867936969381725,
-        "confidence": 1,
-        "tier": "S",
-        "attackScore": 3.6434116360314874,
-        "defenseScore": 0.4305509315274826,
-        "reliability": 0.7230769230769231,
-        "formScore": 3.5,
-        "warsInRoster": 6,
-        "attacksUsed": 9,
-        "attacksAvailable": 12,
-        "avgDestruction": 100,
-        "totalAttacks": 9,
-        "totalStars": 27,
-        "count3Stars": 9,
-        "avgStars": 3,
-        "threeStarRate": 1,
-        "totalMissed": 0,
-        "avgPositionDiff": -8.88888888888889,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
         "tag": "#GJ2LQVQJ",
         "name": "Fer",
         "townhallLevel": 18
@@ -465,6 +429,42 @@
         "threeStarRate": 0.8611111111111112,
         "totalMissed": 0,
         "avgPositionDiff": -0.08823529411764706,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#G9Y2L9QJJ",
+        "name": "Micael",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.432667544923008,
+        "rawScore": 2.432667544923008,
+        "confidence": 1,
+        "tier": "S",
+        "attackScore": 3.6434116360314874,
+        "defenseScore": 0.21404632346682517,
+        "reliability": 0.7230769230769231,
+        "formScore": 3.5,
+        "warsInRoster": 6,
+        "attacksUsed": 9,
+        "attacksAvailable": 12,
+        "avgDestruction": 100,
+        "totalAttacks": 9,
+        "totalStars": 27,
+        "count3Stars": 9,
+        "avgStars": 3,
+        "threeStarRate": 1,
+        "totalMissed": 0,
+        "avgPositionDiff": -8.88888888888889,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1372,7 +1372,7 @@
       "totalAttacks": 36,
       "warsInRoster": 18,
       "totalMissed": 0,
-      "rank": 13,
+      "rank": 12,
       "prevRank": 13,
       "normalizedScore": 69.56
     },
@@ -1570,7 +1570,7 @@
     },
     "#QR8R9QUV8": {
       "tier": "A",
-      "score": 2.528185786393396,
+      "score": 2.522371210967868,
       "avgStars": 2.7916666666666665,
       "totalStars": 67,
       "totalAttacks": 24,
@@ -1578,7 +1578,7 @@
       "totalMissed": 0,
       "rank": 8,
       "prevRank": 8,
-      "normalizedScore": 72.23
+      "normalizedScore": 72.07
     },
     "#L8RG2PV0G": {
       "tier": "B",
@@ -1676,15 +1676,15 @@
     },
     "#G9Y2L9QJJ": {
       "tier": "A",
-      "score": 2.4867936969381725,
+      "score": 2.432667544923008,
       "avgStars": 3,
       "totalStars": 27,
       "totalAttacks": 9,
       "warsInRoster": 6,
       "totalMissed": 0,
-      "rank": 12,
+      "rank": 13,
       "prevRank": 12,
-      "normalizedScore": 71.05
+      "normalizedScore": 69.5
     },
     "#QLGP0JGPJ": {
       "tier": "C",
