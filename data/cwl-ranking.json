@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-05-28T09:40:22.716Z",
+  "generatedAt": "2026-05-28T09:55:22.829Z",
   "totalWars": 13,
   "liveWar": {
     "opponentName": "Canadian Tundra",
-    "totalAttacksDone": 31,
+    "totalAttacksDone": 33,
     "totalAttacksExpected": 60
   },
   "ranking": [
@@ -909,6 +909,42 @@
     },
     {
       "player": {
+        "tag": "#2YCRQCUUG",
+        "name": "Diego ||",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 1.852646385478945,
+        "rawScore": 1.852646385478945,
+        "confidence": 1,
+        "tier": "C",
+        "attackScore": 2.4507533288674743,
+        "defenseScore": 0.4256276417261155,
+        "reliability": 0.6480769230769231,
+        "formScore": 2.6975,
+        "warsInRoster": 6,
+        "attacksUsed": 10,
+        "attacksAvailable": 12,
+        "avgDestruction": 92.6,
+        "totalAttacks": 10,
+        "totalStars": 23,
+        "count3Stars": 5,
+        "avgStars": 2.3,
+        "threeStarRate": 0.5,
+        "totalMissed": 1,
+        "avgPositionDiff": -1.5,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#2R89QJL9Q",
         "name": "Hisoka",
         "townhallLevel": 18
@@ -933,42 +969,6 @@
         "threeStarRate": 0.6071428571428571,
         "totalMissed": 2,
         "avgPositionDiff": -9.076923076923077,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#2YCRQCUUG",
-        "name": "Diego ||",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 1.6477559500160324,
-        "rawScore": 1.6477559500160324,
-        "confidence": 1,
-        "tier": "C",
-        "attackScore": 2.153990387289111,
-        "defenseScore": 0.4256276417261155,
-        "reliability": 0.6480769230769231,
-        "formScore": 1.895,
-        "warsInRoster": 6,
-        "attacksUsed": 8,
-        "attacksAvailable": 12,
-        "avgDestruction": 90.75,
-        "totalAttacks": 8,
-        "totalStars": 17,
-        "count3Stars": 3,
-        "avgStars": 2.125,
-        "threeStarRate": 0.375,
-        "totalMissed": 1,
-        "avgPositionDiff": -4.75,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1534,15 +1534,15 @@
     },
     "#2YCRQCUUG": {
       "tier": "C",
-      "score": 1.6477559500160324,
-      "avgStars": 2.125,
-      "totalStars": 17,
-      "totalAttacks": 8,
+      "score": 1.852646385478945,
+      "avgStars": 2.3,
+      "totalStars": 23,
+      "totalAttacks": 10,
       "warsInRoster": 6,
       "totalMissed": 1,
-      "rank": 31,
+      "rank": 30,
       "prevRank": 31,
-      "normalizedScore": 47.08
+      "normalizedScore": 52.93
     },
     "#PPPUQPVJY": {
       "tier": "B",
@@ -1634,7 +1634,7 @@
       "totalAttacks": 28,
       "warsInRoster": 16,
       "totalMissed": 2,
-      "rank": 30,
+      "rank": 31,
       "prevRank": 30,
       "normalizedScore": 47.22
     },
