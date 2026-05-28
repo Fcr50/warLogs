@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-05-28T01:25:18.985Z",
+  "generatedAt": "2026-05-28T01:40:23.106Z",
   "totalWars": 13,
   "liveWar": {
     "opponentName": "Canadian Tundra",
-    "totalAttacksDone": 18,
+    "totalAttacksDone": 19,
     "totalAttacksExpected": 60
   },
   "ranking": [
@@ -801,6 +801,42 @@
     },
     {
       "player": {
+        "tag": "#PPPUQPVJY",
+        "name": "Rodrigo",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.093962439232501,
+        "rawScore": 2.093962439232501,
+        "confidence": 1,
+        "tier": "B",
+        "attackScore": 2.8294980047927063,
+        "defenseScore": 0.09011728470243303,
+        "reliability": 0.7725274725274726,
+        "formScore": 3.5,
+        "warsInRoster": 9,
+        "attacksUsed": 16,
+        "attacksAvailable": 18,
+        "avgDestruction": 95.9375,
+        "totalAttacks": 16,
+        "totalStars": 40,
+        "count3Stars": 10,
+        "avgStars": 2.5,
+        "threeStarRate": 0.625,
+        "totalMissed": 1,
+        "avgPositionDiff": -6.428571428571429,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#20JC0J9JR",
         "name": "BTV✯Robin Hood",
         "townhallLevel": 18
@@ -933,42 +969,6 @@
         "threeStarRate": 0.375,
         "totalMissed": 1,
         "avgPositionDiff": -4.75,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#PPPUQPVJY",
-        "name": "Rodrigo",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 1.5923716670790444,
-        "rawScore": 1.5923716670790444,
-        "confidence": 1,
-        "tier": "B",
-        "attackScore": 2.468567594903524,
-        "defenseScore": 0.09011728470243303,
-        "reliability": 0.7725274725274726,
-        "formScore": 0,
-        "warsInRoster": 9,
-        "attacksUsed": 15,
-        "attacksAvailable": 18,
-        "avgDestruction": 95.66666666666667,
-        "totalAttacks": 15,
-        "totalStars": 37,
-        "count3Stars": 9,
-        "avgStars": 2.466666666666667,
-        "threeStarRate": 0.6,
-        "totalMissed": 1,
-        "avgPositionDiff": -6.923076923076923,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1516,7 +1516,7 @@
       "totalAttacks": 17,
       "warsInRoster": 12,
       "totalMissed": 3,
-      "rank": 26,
+      "rank": 27,
       "prevRank": 26,
       "normalizedScore": 58.03
     },
@@ -1540,21 +1540,21 @@
       "totalAttacks": 8,
       "warsInRoster": 6,
       "totalMissed": 1,
-      "rank": 31,
+      "rank": 32,
       "prevRank": 31,
       "normalizedScore": 47.08
     },
     "#PPPUQPVJY": {
-      "tier": "C",
-      "score": 1.5923716670790444,
-      "avgStars": 2.466666666666667,
-      "totalStars": 37,
-      "totalAttacks": 15,
+      "tier": "B",
+      "score": 2.093962439232501,
+      "avgStars": 2.5,
+      "totalStars": 40,
+      "totalAttacks": 16,
       "warsInRoster": 9,
       "totalMissed": 1,
-      "rank": 32,
+      "rank": 26,
       "prevRank": 32,
-      "normalizedScore": 45.5
+      "normalizedScore": 59.83
     },
     "#GQU9Y0CQ8": {
       "tier": "B",
@@ -1612,7 +1612,7 @@
       "totalAttacks": 28,
       "warsInRoster": 16,
       "totalMissed": 2,
-      "rank": 30,
+      "rank": 31,
       "prevRank": 30,
       "normalizedScore": 47.22
     },
@@ -1658,7 +1658,7 @@
       "totalAttacks": 26,
       "warsInRoster": 16,
       "totalMissed": 2,
-      "rank": 27,
+      "rank": 28,
       "prevRank": 27,
       "normalizedScore": 52.88
     },
@@ -1822,7 +1822,7 @@
       "totalAttacks": 12,
       "warsInRoster": 7,
       "totalMissed": 0,
-      "rank": 28,
+      "rank": 29,
       "prevRank": 28,
       "normalizedScore": 50.61
     },
@@ -1875,14 +1875,14 @@
       "normalizedScore": 43.7
     },
     "#9UQYJYUCL": {
-      "tier": "B",
+      "tier": "C",
       "score": 1.6554863386634842,
       "avgStars": 2.1818181818181817,
       "totalStars": 24,
       "totalAttacks": 11,
       "warsInRoster": 10,
       "totalMissed": 7,
-      "rank": 29,
+      "rank": 30,
       "prevRank": 29,
       "normalizedScore": 47.3
     },
