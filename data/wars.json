@@ -10,8 +10,8 @@
       "opponent": {
         "name": "Mafia 2 Bis ☠️",
         "tag": "#2YJUYJ2Y8",
-        "stars": 23,
-        "destructionPercentage": 26.366667,
+        "stars": 26,
+        "destructionPercentage": 29.7,
         "members": [
           {
             "tag": "#2GP88QYPV",
@@ -136,18 +136,13 @@
         ]
       },
       "clan": {
-        "stars": 15,
-        "destructionPercentage": 16.666666
+        "stars": 23,
+        "destructionPercentage": 25.6
       },
       "sixHourNonAttackers": [
         {
           "tag": "#8VCUUPPJP",
           "name": "Satsugai",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QR8R9QUV8",
-          "name": "Dr.Hannibal",
           "townhallLevel": 18
         },
         {
@@ -226,11 +221,6 @@
           "townhallLevel": 17
         },
         {
-          "tag": "#P9C0LVLU2",
-          "name": "VINGADOR⚡",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#YPVQVU982",
           "name": "亗 ＨＡＤＥＳ_０７ 亗",
           "townhallLevel": 18
@@ -243,11 +233,6 @@
         {
           "tag": "#YVYCCQU08",
           "name": "Frenético",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QJVQVRPU",
-          "name": "Frnnn",
           "townhallLevel": 18
         },
         {
@@ -281,8 +266,22 @@
           "name": "Dr.Hannibal",
           "townhallLevel": 18,
           "mapPosition": 14,
-          "attacks": [],
-          "defensesReceived": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 16,
+              "defenderTag": "#CRLP9LYG"
+            }
+          ],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#9LRVCPLJ",
+              "attackerMapPosition": 6
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -540,7 +539,14 @@
           "name": "VINGADOR⚡",
           "townhallLevel": 18,
           "mapPosition": 1,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 15,
+              "defenderTag": "#L0GPPYY"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -590,7 +596,14 @@
           "name": "Frnnn",
           "townhallLevel": 18,
           "mapPosition": 5,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 68,
+              "order": 17,
+              "defenderTag": "#C90RVR2V"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
