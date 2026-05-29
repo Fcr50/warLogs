@@ -10,8 +10,8 @@
       "opponent": {
         "name": "Mafia 2 Bis ☠️",
         "tag": "#2YJUYJ2Y8",
-        "stars": 17,
-        "destructionPercentage": 19.7,
+        "stars": 23,
+        "destructionPercentage": 26.366667,
         "members": [
           {
             "tag": "#2GP88QYPV",
@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 9,
-        "destructionPercentage": 10
+        "stars": 15,
+        "destructionPercentage": 16.666666
       },
       "sixHourNonAttackers": [
         {
@@ -163,16 +163,6 @@
         {
           "tag": "#QLGP0JGPJ",
           "name": "igg2.0",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#8CJ8YJY0P",
-          "name": "ChrolloLucilfer",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#LQQRGJ8VU",
-          "name": "i-Vinni",
           "townhallLevel": 18
         },
         {
@@ -350,7 +340,14 @@
           "name": "ChrolloLucilfer",
           "townhallLevel": 18,
           "mapPosition": 7,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 13,
+              "defenderTag": "#QR08UL0V"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 2,
@@ -382,7 +379,14 @@
           "name": "i-Vinni",
           "townhallLevel": 18,
           "mapPosition": 21,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 10,
+              "defenderTag": "#8QG8R89JV"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -401,7 +405,14 @@
           "townhallLevel": 18,
           "mapPosition": 9,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#9LRVCPLJ",
+              "attackerMapPosition": 6
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -580,7 +591,14 @@
           "townhallLevel": 18,
           "mapPosition": 5,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#8QG8R89JV",
+              "attackerMapPosition": 21
+            }
+          ],
           "missedAttacks": 0
         },
         {
