@@ -10,8 +10,8 @@
       "opponent": {
         "name": "Mafia 2 Bis ☠️",
         "tag": "#2YJUYJ2Y8",
-        "stars": 29,
-        "destructionPercentage": 33.033333,
+        "stars": 33,
+        "destructionPercentage": 36.666668,
         "members": [
           {
             "tag": "#2GP88QYPV",
@@ -136,18 +136,13 @@
         ]
       },
       "clan": {
-        "stars": 24,
-        "destructionPercentage": 26.666666
+        "stars": 30,
+        "destructionPercentage": 33.333332
       },
       "sixHourNonAttackers": [
         {
           "tag": "#8VCUUPPJP",
           "name": "Satsugai",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QQC8P9C9R",
-          "name": "Gs.prieto",
           "townhallLevel": 18
         },
         {
@@ -199,11 +194,6 @@
           "tag": "#VPPQ8VLV",
           "name": "GABRIEL LOBATO",
           "townhallLevel": 17
-        },
-        {
-          "tag": "#29LP0VJV0",
-          "name": "Warlord Raivon",
-          "townhallLevel": 18
         },
         {
           "tag": "#80LUCC9YV",
@@ -311,8 +301,22 @@
           "name": "Gs.prieto",
           "townhallLevel": 18,
           "mapPosition": 13,
-          "attacks": [],
-          "defensesReceived": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 23,
+              "defenderTag": "#CYYC20RL"
+            }
+          ],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#YQR0G2VG0",
+              "attackerMapPosition": 23
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -354,6 +358,12 @@
             }
           ],
           "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#CYYC20RL",
+              "attackerMapPosition": 13
+            },
             {
               "stars": 2,
               "destructionPercentage": 91,
@@ -509,7 +519,14 @@
           "name": "Warlord Raivon",
           "townhallLevel": 18,
           "mapPosition": 16,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 20,
+              "defenderTag": "#8CQP9GVG2"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
