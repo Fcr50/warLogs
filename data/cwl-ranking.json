@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-05-30T08:55:25.986Z",
+  "generatedAt": "2026-05-30T09:10:22.549Z",
   "totalWars": 14,
   "liveWar": {
     "opponentName": "Mafia 2 Bis ☠️",
-    "totalAttacksDone": 37,
+    "totalAttacksDone": 39,
     "totalAttacksExpected": 60
   },
   "ranking": [
@@ -729,6 +729,42 @@
     },
     {
       "player": {
+        "tag": "#2QL0VR9GU",
+        "name": "Marcola",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.180325946788027,
+        "rawScore": 2.180325946788027,
+        "confidence": 1,
+        "tier": "B",
+        "attackScore": 2.699375374112693,
+        "defenseScore": 0.4034960157856407,
+        "reliability": 0.9785714285714285,
+        "formScore": 2.705,
+        "warsInRoster": 20,
+        "attacksUsed": 38,
+        "attacksAvailable": 40,
+        "avgDestruction": 96.86842105263158,
+        "totalAttacks": 38,
+        "totalStars": 93,
+        "count3Stars": 19,
+        "avgStars": 2.4473684210526314,
+        "threeStarRate": 0.5,
+        "totalMissed": 1,
+        "avgPositionDiff": -2.138888888888889,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#L8RG2PV0G",
         "name": "joaoaoaoao",
         "townhallLevel": 18
@@ -789,42 +825,6 @@
         "threeStarRate": 0.8947368421052632,
         "totalMissed": 3,
         "avgPositionDiff": 0.42105263157894735,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#2QL0VR9GU",
-        "name": "Marcola",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.122510802749127,
-        "rawScore": 2.122510802749127,
-        "confidence": 1,
-        "tier": "B",
-        "attackScore": 2.6283869359248353,
-        "defenseScore": 0.4034960157856407,
-        "reliability": 0.9785714285714285,
-        "formScore": 2.425,
-        "warsInRoster": 20,
-        "attacksUsed": 36,
-        "attacksAvailable": 40,
-        "avgDestruction": 96.77777777777777,
-        "totalAttacks": 36,
-        "totalStars": 88,
-        "count3Stars": 18,
-        "avgStars": 2.4444444444444446,
-        "threeStarRate": 0.5,
-        "totalMissed": 1,
-        "avgPositionDiff": -1.8823529411764706,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1383,15 +1383,15 @@
     },
     "#2QL0VR9GU": {
       "tier": "B",
-      "score": 2.122510802749127,
-      "avgStars": 2.4444444444444446,
-      "totalStars": 88,
-      "totalAttacks": 36,
+      "score": 2.180325946788027,
+      "avgStars": 2.4473684210526314,
+      "totalStars": 93,
+      "totalAttacks": 38,
       "warsInRoster": 20,
       "totalMissed": 1,
-      "rank": 26,
+      "rank": 24,
       "prevRank": 26,
-      "normalizedScore": 60.64
+      "normalizedScore": 62.3
     },
     "#PLU2VCLG": {
       "tier": "A",
@@ -1413,7 +1413,7 @@
       "totalAttacks": 19,
       "warsInRoster": 12,
       "totalMissed": 3,
-      "rank": 25,
+      "rank": 26,
       "prevRank": 25,
       "normalizedScore": 60.95
     },
@@ -1555,7 +1555,7 @@
       "totalAttacks": 31,
       "warsInRoster": 19,
       "totalMissed": 3,
-      "rank": 24,
+      "rank": 25,
       "prevRank": 24,
       "normalizedScore": 61.25
     },
