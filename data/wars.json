@@ -364,7 +364,20 @@
           "name": "igg2.0",
           "townhallLevel": 18,
           "mapPosition": 20,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 1,
+              "destructionPercentage": 18,
+              "order": 93,
+              "defenderTag": "#L0GPPYY"
+            },
+            {
+              "stars": 1,
+              "destructionPercentage": 33,
+              "order": 95,
+              "defenderTag": "#9RYPLYRL"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -743,6 +756,12 @@
               "destructionPercentage": 56,
               "attackerTag": "#LGC9U20YP",
               "attackerMapPosition": 22
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 96,
+              "attackerTag": "#L0GPPYY",
+              "attackerMapPosition": 1
             },
             {
               "stars": 3,
