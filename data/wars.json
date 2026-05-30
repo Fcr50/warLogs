@@ -10,8 +10,8 @@
       "opponent": {
         "name": "Mafia 2 Bis ☠️",
         "tag": "#2YJUYJ2Y8",
-        "stars": 43,
-        "destructionPercentage": 49.566666,
+        "stars": 45,
+        "destructionPercentage": 52.066666,
         "members": [
           {
             "tag": "#2GP88QYPV",
@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 44,
-        "destructionPercentage": 49.5
+        "stars": 48,
+        "destructionPercentage": 53.333332
       },
       "sixHourNonAttackers": [
         {
@@ -209,11 +209,6 @@
           "tag": "#YVYCCQU08",
           "name": "Frenético",
           "townhallLevel": 18
-        },
-        {
-          "tag": "#PPPUQPVJY",
-          "name": "Rodrigo",
-          "townhallLevel": 18
         }
       ],
       "members": [
@@ -223,7 +218,14 @@
           "townhallLevel": 18,
           "mapPosition": 15,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 75,
+              "attackerTag": "#QC8U22UJG",
+              "attackerMapPosition": 12
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -711,7 +713,20 @@
           "name": "Rodrigo",
           "townhallLevel": 18,
           "mapPosition": 19,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 35,
+              "defenderTag": "#88J2QLV08"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 36,
+              "defenderTag": "#2LL08QGYY"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         }
