@@ -10,8 +10,8 @@
       "opponent": {
         "name": "Bora Ali OFC✔",
         "tag": "#29Y02G2UQ",
-        "stars": 1,
-        "destructionPercentage": 4.133333,
+        "stars": 3,
+        "destructionPercentage": 13.933333,
         "members": [
           {
             "tag": "#2CLRQ8RQ0",
@@ -76,8 +76,8 @@
         ]
       },
       "clan": {
-        "stars": 4,
-        "destructionPercentage": 12
+        "stars": 6,
+        "destructionPercentage": 18.533333
       },
       "sixHourNonAttackers": [
         {
@@ -199,7 +199,14 @@
               "defenderTag": "#8JRPYQCJR"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 1,
+              "destructionPercentage": 65,
+              "attackerTag": "#8JRPYQCJR",
+              "attackerMapPosition": 5
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -241,7 +248,14 @@
           "name": "Phoenix",
           "townhallLevel": 18,
           "mapPosition": 4,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 98,
+              "order": 5,
+              "defenderTag": "#CGJ8QPC9"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -251,7 +265,14 @@
           "townhallLevel": 18,
           "mapPosition": 3,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 1,
+              "destructionPercentage": 82,
+              "attackerTag": "#2CLRQ8RQ0",
+              "attackerMapPosition": 3
+            }
+          ],
           "missedAttacks": 0
         },
         {
