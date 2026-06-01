@@ -10,8 +10,8 @@
       "opponent": {
         "name": "Bora Ali OFC✔",
         "tag": "#29Y02G2UQ",
-        "stars": 0,
-        "destructionPercentage": 0,
+        "stars": 1,
+        "destructionPercentage": 4.133333,
         "members": [
           {
             "tag": "#2CLRQ8RQ0",
@@ -76,8 +76,8 @@
         ]
       },
       "clan": {
-        "stars": 3,
-        "destructionPercentage": 6.6666665
+        "stars": 4,
+        "destructionPercentage": 12
       },
       "sixHourNonAttackers": [
         {
@@ -191,7 +191,14 @@
           "name": "ChrolloLucilfer",
           "townhallLevel": 18,
           "mapPosition": 5,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 1,
+              "destructionPercentage": 80,
+              "order": 3,
+              "defenderTag": "#8JRPYQCJR"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -219,7 +226,14 @@
           "townhallLevel": 18,
           "mapPosition": 2,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 1,
+              "destructionPercentage": 62,
+              "attackerTag": "#2U2GG8LG8",
+              "attackerMapPosition": 13
+            }
+          ],
           "missedAttacks": 0
         },
         {
