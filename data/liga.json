@@ -1,6 +1,6 @@
 {
   "season": "2026-06",
-  "generatedAt": "2026-06-02T21:40:24.049Z",
+  "generatedAt": "2026-06-02T21:55:18.947Z",
   "state": "inWar",
   "rounds": [
     {
@@ -10,9 +10,9 @@
       "result": "inProgress",
       "opponentName": "BattleCry⚡️",
       "opponentTag": "#2JUL2QL9Q",
-      "clanStars": 0,
+      "clanStars": 5,
       "opponentStars": 0,
-      "clanDestructionPct": 0,
+      "clanDestructionPct": 12.733333333333333,
       "teamSize": 15,
       "members": [
         {
@@ -97,7 +97,12 @@
           "name": "VINGADOR⚡",
           "townhallLevel": 18,
           "mapPosition": 1,
-          "attack": null
+          "attack": {
+            "defenderTag": "#9JUCCQCY",
+            "defenderMapPosition": 1,
+            "stars": 2,
+            "destructionPercentage": 91
+          }
         },
         {
           "tag": "#YPVQVU982",
@@ -111,7 +116,12 @@
           "name": "Frenético",
           "townhallLevel": 18,
           "mapPosition": 17,
-          "attack": null
+          "attack": {
+            "defenderTag": "#LGGQQV0PU",
+            "defenderMapPosition": 17,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#QJVQVRPU",
@@ -184,6 +194,13 @@
           "attack": null
         },
         {
+          "tag": "#G9Y2L9QJJ",
+          "name": "Micael",
+          "townhallLevel": 18,
+          "mapPosition": 22,
+          "attack": null
+        },
+        {
           "tag": "#QGQJGURCL",
           "name": "SAFONOV",
           "townhallLevel": 18,
@@ -209,13 +226,6 @@
           "name": "Lobo ®",
           "townhallLevel": 18,
           "mapPosition": 2,
-          "attack": null
-        },
-        {
-          "tag": "#P9C0LVLU2",
-          "name": "VINGADOR⚡",
-          "townhallLevel": 18,
-          "mapPosition": 1,
           "attack": null
         },
         {
