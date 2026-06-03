@@ -1,6 +1,6 @@
 {
   "season": "2026-06",
-  "generatedAt": "2026-06-03T00:25:22.496Z",
+  "generatedAt": "2026-06-03T00:40:24.325Z",
   "state": "inWar",
   "rounds": [
     {
@@ -10,9 +10,9 @@
       "result": "inProgress",
       "opponentName": "BattleCry⚡️",
       "opponentTag": "#2JUL2QL9Q",
-      "clanStars": 14,
+      "clanStars": 16,
       "opponentStars": 27,
-      "clanDestructionPct": 32.733333333333334,
+      "clanDestructionPct": 38.53333333333333,
       "teamSize": 15,
       "members": [
         {
@@ -105,7 +105,12 @@
           "name": "Lobo ®",
           "townhallLevel": 18,
           "mapPosition": 2,
-          "attack": null
+          "attack": {
+            "defenderTag": "#QVU2R98RV",
+            "defenderMapPosition": 2,
+            "stars": 2,
+            "destructionPercentage": 87
+          }
         },
         {
           "tag": "#P9C0LVLU2",
@@ -237,13 +242,6 @@
           "attack": null
         },
         {
-          "tag": "#80LUCC9YV",
-          "name": "Lobo ®",
-          "townhallLevel": 18,
-          "mapPosition": 2,
-          "attack": null
-        },
-        {
           "tag": "#YPVQVU982",
           "name": "亗 ＨＡＤＥＳ_０７ 亗",
           "townhallLevel": 18,
@@ -262,6 +260,13 @@
           "name": "Frnnn",
           "townhallLevel": 18,
           "mapPosition": 6,
+          "attack": null
+        },
+        {
+          "tag": "#QJLQLUURY",
+          "name": "NenemPJL",
+          "townhallLevel": 18,
+          "mapPosition": 20,
           "attack": null
         }
       ]
