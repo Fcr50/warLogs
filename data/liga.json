@@ -1,6 +1,6 @@
 {
   "season": "2026-06",
-  "generatedAt": "2026-06-03T00:55:19.631Z",
+  "generatedAt": "2026-06-03T01:10:21.900Z",
   "state": "inWar",
   "rounds": [
     {
@@ -10,9 +10,9 @@
       "result": "inProgress",
       "opponentName": "BattleCry⚡️",
       "opponentTag": "#2JUL2QL9Q",
-      "clanStars": 19,
+      "clanStars": 21,
       "opponentStars": 27,
-      "clanDestructionPct": 45.2,
+      "clanDestructionPct": 51.8,
       "teamSize": 15,
       "members": [
         {
@@ -103,7 +103,12 @@
           "name": "Phoenix",
           "townhallLevel": 18,
           "mapPosition": 7,
-          "attack": null
+          "attack": {
+            "defenderTag": "#PGYU9LCJL",
+            "defenderMapPosition": 6,
+            "stars": 2,
+            "destructionPercentage": 99
+          }
         },
         {
           "tag": "#80LUCC9YV",
