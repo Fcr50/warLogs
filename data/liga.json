@@ -1,13 +1,13 @@
 {
   "season": "2026-06",
-  "generatedAt": "2026-06-03T21:25:22.933Z",
+  "generatedAt": "2026-06-03T21:40:21.998Z",
   "state": "inWar",
   "rounds": [
     {
       "round": 1,
       "warTag": "#8GYY9J08J",
-      "state": "inWar",
-      "result": "inProgress",
+      "state": "warEnded",
+      "result": "loss",
       "opponentName": "BattleCry⚡️",
       "opponentTag": "#2JUL2QL9Q",
       "clanStars": 41,
@@ -200,10 +200,139 @@
     {
       "round": 2,
       "warTag": "#8GYLVCJY0",
-      "state": "preparation",
+      "state": "inWar",
       "result": "inProgress",
       "opponentName": "\"janda lovers\"",
       "opponentTag": "#VJRRJQ8Y",
+      "clanStars": 6,
+      "opponentStars": 0,
+      "clanDestructionPct": 13.333333333333334,
+      "teamSize": 15,
+      "members": [
+        {
+          "tag": "#8VCUUPPJP",
+          "name": "Satsugai",
+          "townhallLevel": 18,
+          "mapPosition": 16,
+          "attack": null
+        },
+        {
+          "tag": "#QR8R9QUV8",
+          "name": "Dr.Hannibal",
+          "townhallLevel": 18,
+          "mapPosition": 15,
+          "attack": null
+        },
+        {
+          "tag": "#2LY0P2L9U",
+          "name": "LucasHG9",
+          "townhallLevel": 18,
+          "mapPosition": 11,
+          "attack": null
+        },
+        {
+          "tag": "#QQC8P9C9R",
+          "name": "Gs.prieto",
+          "townhallLevel": 18,
+          "mapPosition": 14,
+          "attack": null
+        },
+        {
+          "tag": "#2QL0VR9GU",
+          "name": "Marcola",
+          "townhallLevel": 18,
+          "mapPosition": 9,
+          "attack": {
+            "defenderTag": "#2LR2JYCG8",
+            "defenderMapPosition": 5,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
+        },
+        {
+          "tag": "#8CJ8YJY0P",
+          "name": "ChrolloLucilfer",
+          "townhallLevel": 18,
+          "mapPosition": 8,
+          "attack": null
+        },
+        {
+          "tag": "#2GP2JUU2",
+          "name": "Gustavo Lázaro",
+          "townhallLevel": 18,
+          "mapPosition": 13,
+          "attack": null
+        },
+        {
+          "tag": "#LQQRGJ8VU",
+          "name": "i-Vinni",
+          "townhallLevel": 18,
+          "mapPosition": 19,
+          "attack": null
+        },
+        {
+          "tag": "#G9Y2L9QJJ",
+          "name": "Micael",
+          "townhallLevel": 18,
+          "mapPosition": 22,
+          "attack": null
+        },
+        {
+          "tag": "#QGQJGURCL",
+          "name": "SAFONOV",
+          "townhallLevel": 18,
+          "mapPosition": 10,
+          "attack": null
+        },
+        {
+          "tag": "#GJ2LQVQJ",
+          "name": "Fer",
+          "townhallLevel": 18,
+          "mapPosition": 4,
+          "attack": {
+            "defenderTag": "#9L2LU2QV2",
+            "defenderMapPosition": 2,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
+        },
+        {
+          "tag": "#P9C0LVLU2",
+          "name": "VINGADOR⚡",
+          "townhallLevel": 18,
+          "mapPosition": 1,
+          "attack": null
+        },
+        {
+          "tag": "#YVYCCQU08",
+          "name": "Frenético",
+          "townhallLevel": 18,
+          "mapPosition": 17,
+          "attack": null
+        },
+        {
+          "tag": "#QJVQVRPU",
+          "name": "Frnnn",
+          "townhallLevel": 18,
+          "mapPosition": 6,
+          "attack": null
+        },
+        {
+          "tag": "#QJLQLUURY",
+          "name": "NenemPJL",
+          "townhallLevel": 18,
+          "mapPosition": 20,
+          "attack": null
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "warTag": "#8GYR8YVLL",
+      "state": "preparation",
+      "result": "inProgress",
+      "opponentName": "GAME OF THRONES",
+      "opponentTag": "#QPGV90UQ",
       "clanStars": 0,
       "opponentStars": 0,
       "clanDestructionPct": 0,
@@ -316,7 +445,6 @@
         }
       ]
     },
-    null,
     null,
     null,
     null,
