@@ -1,6 +1,6 @@
 {
   "season": "2026-06",
-  "generatedAt": "2026-06-03T22:25:23.148Z",
+  "generatedAt": "2026-06-03T22:40:20.760Z",
   "state": "inWar",
   "rounds": [
     {
@@ -204,9 +204,9 @@
       "result": "inProgress",
       "opponentName": "\"janda lovers\"",
       "opponentTag": "#VJRRJQ8Y",
-      "clanStars": 9,
+      "clanStars": 18,
       "opponentStars": 0,
-      "clanDestructionPct": 20,
+      "clanDestructionPct": 40,
       "teamSize": 15,
       "members": [
         {
@@ -233,14 +233,24 @@
           "name": "LucasHG9",
           "townhallLevel": 18,
           "mapPosition": 11,
-          "attack": null
+          "attack": {
+            "defenderTag": "#28LCLCL0R",
+            "defenderMapPosition": 7,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#QQC8P9C9R",
           "name": "Gs.prieto",
           "townhallLevel": 18,
           "mapPosition": 14,
-          "attack": null
+          "attack": {
+            "defenderTag": "#QPLY9QC9",
+            "defenderMapPosition": 9,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#2QL0VR9GU",
@@ -287,7 +297,12 @@
           "name": "SAFONOV",
           "townhallLevel": 18,
           "mapPosition": 10,
-          "attack": null
+          "attack": {
+            "defenderTag": "#8YGLRUQVQ",
+            "defenderMapPosition": 6,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#GJ2LQVQJ",
