@@ -1,6 +1,6 @@
 {
   "season": "2026-06",
-  "generatedAt": "2026-06-04T21:55:20.225Z",
+  "generatedAt": "2026-06-04T22:10:19.929Z",
   "state": "inWar",
   "rounds": [
     {
@@ -398,9 +398,9 @@
       "result": "inProgress",
       "opponentName": "GAME OF THRONES",
       "opponentTag": "#QPGV90UQ",
-      "clanStars": 6,
-      "opponentStars": 5,
-      "clanDestructionPct": 18.266666666666666,
+      "clanStars": 10,
+      "opponentStars": 11,
+      "clanDestructionPct": 29.8,
       "teamSize": 15,
       "members": [
         {
@@ -436,14 +436,24 @@
           "name": "Marcola",
           "townhallLevel": 18,
           "mapPosition": 9,
-          "attack": null
+          "attack": {
+            "defenderTag": "#PY0JUUPJL",
+            "defenderMapPosition": 7,
+            "stars": 2,
+            "destructionPercentage": 79
+          }
         },
         {
           "tag": "#2GP2JUU2",
           "name": "Gustavo Lázaro",
           "townhallLevel": 18,
           "mapPosition": 13,
-          "attack": null
+          "attack": {
+            "defenderTag": "#9Y80JCGUU",
+            "defenderMapPosition": 12,
+            "stars": 2,
+            "destructionPercentage": 94
+          }
         },
         {
           "tag": "#G9Y2L9QJJ",
