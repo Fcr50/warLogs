@@ -1,6 +1,6 @@
 {
   "season": "2026-06",
-  "generatedAt": "2026-06-04T23:10:21.264Z",
+  "generatedAt": "2026-06-04T23:25:18.812Z",
   "state": "inWar",
   "rounds": [
     {
@@ -398,9 +398,9 @@
       "result": "inProgress",
       "opponentName": "GAME OF THRONES",
       "opponentTag": "#QPGV90UQ",
-      "clanStars": 14,
+      "clanStars": 17,
       "opponentStars": 11,
-      "clanDestructionPct": 42.8,
+      "clanDestructionPct": 49.46666666666667,
       "teamSize": 15,
       "members": [
         {
@@ -415,7 +415,12 @@
           "name": "Dr.Hannibal",
           "townhallLevel": 18,
           "mapPosition": 15,
-          "attack": null
+          "attack": {
+            "defenderTag": "#G0VVVUYGL",
+            "defenderMapPosition": 14,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#2LY0P2L9U",
