@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-04T17:40:25.153Z",
+  "generatedAt": "2026-06-04T17:55:18.958Z",
   "totalWars": 16,
   "liveWar": {
     "opponentName": "Persian Empire2",
@@ -177,6 +177,42 @@
         "threeStarRate": 0.8974358974358975,
         "totalMissed": 0,
         "avgPositionDiff": -0.6486486486486487,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#2GP2JUU2",
+        "name": "Gustavo Lázaro",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.452437618388933,
+        "rawScore": 2.452437618388933,
+        "confidence": 1,
+        "tier": "A",
+        "attackScore": 3.219062895158824,
+        "defenseScore": 0.45772480968890994,
+        "reliability": 1,
+        "formScore": 2.96,
+        "warsInRoster": 21,
+        "attacksUsed": 40,
+        "attacksAvailable": 41,
+        "avgDestruction": 97.875,
+        "totalAttacks": 40,
+        "totalStars": 108,
+        "count3Stars": 31,
+        "avgStars": 2.7,
+        "threeStarRate": 0.775,
+        "totalMissed": 0,
+        "avgPositionDiff": 0.5263157894736842,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -590,7 +626,7 @@
       "totalAttacks": 38,
       "warsInRoster": 20,
       "totalMissed": 1,
-      "rank": 9,
+      "rank": 10,
       "prevRank": 9,
       "normalizedScore": 62.63
     },
@@ -602,7 +638,7 @@
       "totalAttacks": 39,
       "warsInRoster": 20,
       "totalMissed": 1,
-      "rank": 10,
+      "rank": 11,
       "prevRank": 10,
       "normalizedScore": 62.43
     },
@@ -614,7 +650,7 @@
       "totalAttacks": 40,
       "warsInRoster": 20,
       "totalMissed": 0,
-      "rank": 7,
+      "rank": 8,
       "prevRank": 7,
       "normalizedScore": 65.2
     },
@@ -626,7 +662,7 @@
       "totalAttacks": 19,
       "warsInRoster": 10,
       "totalMissed": 1,
-      "rank": 8,
+      "rank": 9,
       "prevRank": 8,
       "normalizedScore": 63.78
     },
@@ -662,7 +698,7 @@
       "totalAttacks": 20,
       "warsInRoster": 13,
       "totalMissed": 3,
-      "rank": 11,
+      "rank": 12,
       "prevRank": 11,
       "normalizedScore": 58.52
     },
@@ -678,6 +714,17 @@
       "prevRank": 3,
       "normalizedScore": 71.31
     },
+    "#2GP2JUU2": {
+      "tier": "A",
+      "score": 2.452437618388933,
+      "avgStars": 2.7,
+      "totalStars": 108,
+      "totalAttacks": 40,
+      "warsInRoster": 21,
+      "totalMissed": 0,
+      "rank": 6,
+      "normalizedScore": 70.07
+    },
     "#QLGP0JGPJ": {
       "tier": "B",
       "score": 0.18418878058776764,
@@ -686,7 +733,7 @@
       "totalAttacks": 4,
       "warsInRoster": 7,
       "totalMissed": 8,
-      "rank": 15,
+      "rank": 16,
       "prevRank": 15,
       "normalizedScore": 5.26
     },
@@ -698,7 +745,7 @@
       "totalAttacks": 19,
       "warsInRoster": 10,
       "totalMissed": 0,
-      "rank": 6,
+      "rank": 7,
       "prevRank": 6,
       "normalizedScore": 67.86
     },
@@ -710,19 +757,19 @@
       "totalAttacks": 8,
       "warsInRoster": 8,
       "totalMissed": 5,
-      "rank": 13,
+      "rank": 14,
       "prevRank": 13,
       "normalizedScore": 28.48
     },
     "#8P9GUPPC": {
-      "tier": "A",
+      "tier": "B",
       "score": 0.4838521835817349,
       "avgStars": 2.3333333333333335,
       "totalStars": 14,
       "totalAttacks": 6,
       "warsInRoster": 5,
       "totalMissed": 2,
-      "rank": 14,
+      "rank": 15,
       "prevRank": 14,
       "normalizedScore": 13.82
     },
@@ -744,7 +791,7 @@
       "totalAttacks": 25,
       "warsInRoster": 13,
       "totalMissed": 0,
-      "rank": 12,
+      "rank": 13,
       "prevRank": 12,
       "normalizedScore": 48.06
     },
@@ -756,7 +803,7 @@
       "totalAttacks": 2,
       "warsInRoster": 4,
       "totalMissed": 6,
-      "rank": 16,
+      "rank": 17,
       "prevRank": 16,
       "normalizedScore": -1.59
     },
