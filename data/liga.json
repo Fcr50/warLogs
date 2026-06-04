@@ -1,6 +1,6 @@
 {
   "season": "2026-06",
-  "generatedAt": "2026-06-04T21:40:26.341Z",
+  "generatedAt": "2026-06-04T21:55:20.225Z",
   "state": "inWar",
   "rounds": [
     {
@@ -398,9 +398,9 @@
       "result": "inProgress",
       "opponentName": "GAME OF THRONES",
       "opponentTag": "#QPGV90UQ",
-      "clanStars": 2,
-      "opponentStars": 0,
-      "clanDestructionPct": 5.466666666666667,
+      "clanStars": 6,
+      "opponentStars": 5,
+      "clanDestructionPct": 18.266666666666666,
       "teamSize": 15,
       "members": [
         {
@@ -450,7 +450,12 @@
           "name": "Micael",
           "townhallLevel": 18,
           "mapPosition": 22,
-          "attack": null
+          "attack": {
+            "defenderTag": "#LGCY098PG",
+            "defenderMapPosition": 19,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#QGQJGURCL",
@@ -490,7 +495,12 @@
           "name": "VINGADOR⚡",
           "townhallLevel": 18,
           "mapPosition": 1,
-          "attack": null
+          "attack": {
+            "defenderTag": "#8L0QQCCPY",
+            "defenderMapPosition": 1,
+            "stars": 1,
+            "destructionPercentage": 92
+          }
         },
         {
           "tag": "#YPVQVU982",
