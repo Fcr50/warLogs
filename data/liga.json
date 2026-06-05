@@ -1,6 +1,6 @@
 {
   "season": "2026-06",
-  "generatedAt": "2026-06-04T23:55:18.987Z",
+  "generatedAt": "2026-06-05T00:10:27.037Z",
   "state": "inWar",
   "rounds": [
     {
@@ -398,9 +398,9 @@
       "result": "inProgress",
       "opponentName": "GAME OF THRONES",
       "opponentTag": "#QPGV90UQ",
-      "clanStars": 17,
+      "clanStars": 20,
       "opponentStars": 11,
-      "clanDestructionPct": 49.46666666666667,
+      "clanDestructionPct": 56.13333333333333,
       "teamSize": 15,
       "members": [
         {
@@ -506,7 +506,12 @@
           "name": "Phoenix",
           "townhallLevel": 18,
           "mapPosition": 7,
-          "attack": null
+          "attack": {
+            "defenderTag": "#22Y82CJ8C",
+            "defenderMapPosition": 6,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#80LUCC9YV",
