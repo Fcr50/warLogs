@@ -1,6 +1,6 @@
 {
   "season": "2026-06",
-  "generatedAt": "2026-06-05T22:40:19.560Z",
+  "generatedAt": "2026-06-05T22:55:26.771Z",
   "state": "inWar",
   "rounds": [
     {
@@ -592,9 +592,9 @@
       "result": "inProgress",
       "opponentName": "TT flingueurs X",
       "opponentTag": "#2PC209G9Q",
-      "clanStars": 6,
+      "clanStars": 9,
       "opponentStars": 0,
-      "clanDestructionPct": 13.333333333333334,
+      "clanDestructionPct": 20,
       "teamSize": 15,
       "members": [
         {
@@ -656,7 +656,12 @@
           "name": "SAFONOV",
           "townhallLevel": 18,
           "mapPosition": 10,
-          "attack": null
+          "attack": {
+            "defenderTag": "#RGGJRL8G",
+            "defenderMapPosition": 9,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#GJ2LQVQJ",
