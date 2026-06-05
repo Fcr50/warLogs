@@ -1,6 +1,6 @@
 {
   "season": "2026-06",
-  "generatedAt": "2026-06-05T11:10:21.985Z",
+  "generatedAt": "2026-06-05T11:25:20.555Z",
   "state": "inWar",
   "rounds": [
     {
@@ -398,9 +398,9 @@
       "result": "inProgress",
       "opponentName": "GAME OF THRONES",
       "opponentTag": "#QPGV90UQ",
-      "clanStars": 31,
+      "clanStars": 34,
       "opponentStars": 20,
-      "clanDestructionPct": 82.66666666666667,
+      "clanDestructionPct": 89.33333333333333,
       "teamSize": 15,
       "members": [
         {
@@ -547,7 +547,12 @@
           "name": "亗 ＨＡＤＥＳ_０７ 亗",
           "townhallLevel": 18,
           "mapPosition": 3,
-          "attack": null
+          "attack": {
+            "defenderTag": "#9VYLJ9VQG",
+            "defenderMapPosition": 3,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#YVYCCQU08",
