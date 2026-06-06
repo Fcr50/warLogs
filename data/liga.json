@@ -1,6 +1,6 @@
 {
   "season": "2026-06",
-  "generatedAt": "2026-06-06T11:40:20.763Z",
+  "generatedAt": "2026-06-06T11:55:19.415Z",
   "state": "inWar",
   "rounds": [
     {
@@ -592,9 +592,9 @@
       "result": "inProgress",
       "opponentName": "TT flingueurs X",
       "opponentTag": "#2PC209G9Q",
-      "clanStars": 29,
+      "clanStars": 30,
       "opponentStars": 20,
-      "clanDestructionPct": 70.06666666666666,
+      "clanDestructionPct": 76,
       "teamSize": 15,
       "members": [
         {
@@ -712,7 +712,12 @@
           "name": "BTV✯Robin Hood",
           "townhallLevel": 18,
           "mapPosition": 5,
-          "attack": null
+          "attack": {
+            "defenderTag": "#UR8J90G0",
+            "defenderMapPosition": 3,
+            "stars": 1,
+            "destructionPercentage": 89
+          }
         },
         {
           "tag": "#80LUCC9YV",
