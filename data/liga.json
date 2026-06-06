@@ -1,6 +1,6 @@
 {
   "season": "2026-06",
-  "generatedAt": "2026-06-06T02:10:20.944Z",
+  "generatedAt": "2026-06-06T02:25:25.311Z",
   "state": "inWar",
   "rounds": [
     {
@@ -592,9 +592,9 @@
       "result": "inProgress",
       "opponentName": "TT flingueurs X",
       "opponentTag": "#2PC209G9Q",
-      "clanStars": 17,
+      "clanStars": 18,
       "opponentStars": 0,
-      "clanDestructionPct": 39.2,
+      "clanDestructionPct": 44.93333333333333,
       "teamSize": 15,
       "members": [
         {
@@ -673,7 +673,12 @@
           "name": "Fer",
           "townhallLevel": 18,
           "mapPosition": 4,
-          "attack": null
+          "attack": {
+            "defenderTag": "#P280Q09QY",
+            "defenderMapPosition": 4,
+            "stars": 1,
+            "destructionPercentage": 86
+          }
         },
         {
           "tag": "#PLU2VCLG",
