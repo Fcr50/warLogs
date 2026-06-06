@@ -1,6 +1,6 @@
 {
   "season": "2026-06",
-  "generatedAt": "2026-06-06T23:10:23.206Z",
+  "generatedAt": "2026-06-06T23:25:28.680Z",
   "state": "inWar",
   "rounds": [
     {
@@ -786,9 +786,9 @@
       "result": "inProgress",
       "opponentName": "Konvergenz",
       "opponentTag": "#2Q8G2QR2V",
-      "clanStars": 6,
+      "clanStars": 9,
       "opponentStars": 11,
-      "clanDestructionPct": 13.333333333333334,
+      "clanDestructionPct": 20,
       "teamSize": 15,
       "members": [
         {
@@ -824,7 +824,12 @@
           "name": "Marcola",
           "townhallLevel": 18,
           "mapPosition": 9,
-          "attack": null
+          "attack": {
+            "defenderTag": "#L0C22CQ82",
+            "defenderMapPosition": 8,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#8CJ8YJY0P",
