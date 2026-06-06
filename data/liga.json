@@ -1,6 +1,6 @@
 {
   "season": "2026-06",
-  "generatedAt": "2026-06-06T01:25:19.522Z",
+  "generatedAt": "2026-06-06T01:40:23.575Z",
   "state": "inWar",
   "rounds": [
     {
@@ -592,9 +592,9 @@
       "result": "inProgress",
       "opponentName": "TT flingueurs X",
       "opponentTag": "#2PC209G9Q",
-      "clanStars": 15,
+      "clanStars": 17,
       "opponentStars": 0,
-      "clanDestructionPct": 33.333333333333336,
+      "clanDestructionPct": 39.2,
       "teamSize": 15,
       "members": [
         {
@@ -699,7 +699,12 @@
           "name": "Lobo ®",
           "townhallLevel": 18,
           "mapPosition": 2,
-          "attack": null
+          "attack": {
+            "defenderTag": "#22RUCCRJR",
+            "defenderMapPosition": 2,
+            "stars": 2,
+            "destructionPercentage": 88
+          }
         },
         {
           "tag": "#P9C0LVLU2",
