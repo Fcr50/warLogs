@@ -1,6 +1,6 @@
 {
   "season": "2026-06",
-  "generatedAt": "2026-06-07T21:40:19.750Z",
+  "generatedAt": "2026-06-07T21:55:32.085Z",
   "state": "inWar",
   "rounds": [
     {
@@ -980,9 +980,9 @@
       "result": "inProgress",
       "opponentName": "THE GENERAL",
       "opponentTag": "#LVPPQ2G0",
-      "clanStars": 0,
+      "clanStars": 5,
       "opponentStars": 0,
-      "clanDestructionPct": 0,
+      "clanDestructionPct": 12.8,
       "teamSize": 15,
       "members": [
         {
@@ -997,7 +997,12 @@
           "name": "Dr.Hannibal",
           "townhallLevel": 18,
           "mapPosition": 15,
-          "attack": null
+          "attack": {
+            "defenderTag": "#2JV9LQPUR",
+            "defenderMapPosition": 13,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#2LY0P2L9U",
@@ -1018,7 +1023,12 @@
           "name": "Marcola",
           "townhallLevel": 18,
           "mapPosition": 9,
-          "attack": null
+          "attack": {
+            "defenderTag": "#29UGRRCU",
+            "defenderMapPosition": 7,
+            "stars": 2,
+            "destructionPercentage": 92
+          }
         },
         {
           "tag": "#8CJ8YJY0P",
@@ -1133,13 +1143,6 @@
           "attack": null
         },
         {
-          "tag": "#2QL0VR9GU",
-          "name": "Marcola",
-          "townhallLevel": 18,
-          "mapPosition": 10,
-          "attack": null
-        },
-        {
           "tag": "#8CJ8YJY0P",
           "name": "ChrolloLucilfer",
           "townhallLevel": 18,
@@ -1207,6 +1210,13 @@
           "name": "Frenético",
           "townhallLevel": 18,
           "mapPosition": 17,
+          "attack": null
+        },
+        {
+          "tag": "#QJVQVRPU",
+          "name": "Frnnn",
+          "townhallLevel": 18,
+          "mapPosition": 6,
           "attack": null
         }
       ]
