@@ -1,6 +1,6 @@
 {
   "season": "2026-06",
-  "generatedAt": "2026-06-07T22:40:17.829Z",
+  "generatedAt": "2026-06-07T22:55:19.211Z",
   "state": "inWar",
   "rounds": [
     {
@@ -980,9 +980,9 @@
       "result": "inProgress",
       "opponentName": "THE GENERAL",
       "opponentTag": "#LVPPQ2G0",
-      "clanStars": 7,
+      "clanStars": 10,
       "opponentStars": 0,
-      "clanDestructionPct": 18.733333333333334,
+      "clanDestructionPct": 25.4,
       "teamSize": 15,
       "members": [
         {
@@ -1056,7 +1056,12 @@
           "name": "SAFONOV",
           "townhallLevel": 18,
           "mapPosition": 10,
-          "attack": null
+          "attack": {
+            "defenderTag": "#8LV9LGJLC",
+            "defenderMapPosition": 9,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#GJ2LQVQJ",
