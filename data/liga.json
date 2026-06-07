@@ -1,6 +1,6 @@
 {
   "season": "2026-06",
-  "generatedAt": "2026-06-07T03:10:26.059Z",
+  "generatedAt": "2026-06-07T03:25:36.321Z",
   "state": "inWar",
   "rounds": [
     {
@@ -786,9 +786,9 @@
       "result": "inProgress",
       "opponentName": "Konvergenz",
       "opponentTag": "#2Q8G2QR2V",
-      "clanStars": 12,
+      "clanStars": 14,
       "opponentStars": 14,
-      "clanDestructionPct": 26.666666666666668,
+      "clanDestructionPct": 33.13333333333333,
       "teamSize": 15,
       "members": [
         {
@@ -914,7 +914,12 @@
           "name": "Frnnn",
           "townhallLevel": 18,
           "mapPosition": 6,
-          "attack": null
+          "attack": {
+            "defenderTag": "#YJGVVRGYP",
+            "defenderMapPosition": 4,
+            "stars": 2,
+            "destructionPercentage": 97
+          }
         }
       ]
     },
