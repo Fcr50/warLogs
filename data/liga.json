@@ -1,6 +1,6 @@
 {
   "season": "2026-06",
-  "generatedAt": "2026-06-07T12:55:19.732Z",
+  "generatedAt": "2026-06-07T13:10:27.434Z",
   "state": "inWar",
   "rounds": [
     {
@@ -786,9 +786,9 @@
       "result": "inProgress",
       "opponentName": "Konvergenz",
       "opponentTag": "#2Q8G2QR2V",
-      "clanStars": 29,
+      "clanStars": 32,
       "opponentStars": 29,
-      "clanDestructionPct": 66.46666666666667,
+      "clanDestructionPct": 73.13333333333334,
       "teamSize": 15,
       "members": [
         {
@@ -889,7 +889,12 @@
           "name": "Phoenix",
           "townhallLevel": 18,
           "mapPosition": 7,
-          "attack": null
+          "attack": {
+            "defenderTag": "#LP8VJU8G",
+            "defenderMapPosition": 6,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#20JC0J9JR",
