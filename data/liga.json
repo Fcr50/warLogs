@@ -1,6 +1,6 @@
 {
   "season": "2026-06",
-  "generatedAt": "2026-06-08T22:10:28.037Z",
+  "generatedAt": "2026-06-08T22:25:23.966Z",
   "state": "inWar",
   "rounds": [
     {
@@ -1169,9 +1169,9 @@
       "result": "inProgress",
       "opponentName": "TEQUILA CLAN",
       "opponentTag": "#PLJYG200",
-      "clanStars": 2,
-      "opponentStars": 5,
-      "clanDestructionPct": 6.4,
+      "clanStars": 4,
+      "opponentStars": 8,
+      "clanDestructionPct": 12.333333333333334,
       "teamSize": 15,
       "members": [
         {
@@ -1261,7 +1261,12 @@
           "name": "Lobo ®",
           "townhallLevel": 18,
           "mapPosition": 2,
-          "attack": null
+          "attack": {
+            "defenderTag": "#JPGU2J0L",
+            "defenderMapPosition": 2,
+            "stars": 2,
+            "destructionPercentage": 89
+          }
         },
         {
           "tag": "#P9C0LVLU2",
