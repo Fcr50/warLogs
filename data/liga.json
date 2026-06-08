@@ -1,6 +1,6 @@
 {
   "season": "2026-06",
-  "generatedAt": "2026-06-08T22:40:25.453Z",
+  "generatedAt": "2026-06-08T22:55:24.511Z",
   "state": "inWar",
   "rounds": [
     {
@@ -1169,9 +1169,9 @@
       "result": "inProgress",
       "opponentName": "TEQUILA CLAN",
       "opponentTag": "#PLJYG200",
-      "clanStars": 4,
+      "clanStars": 7,
       "opponentStars": 11,
-      "clanDestructionPct": 12.333333333333334,
+      "clanDestructionPct": 19,
       "teamSize": 15,
       "members": [
         {
@@ -1273,7 +1273,12 @@
           "name": "VINGADOR⚡",
           "townhallLevel": 18,
           "mapPosition": 1,
-          "attack": null
+          "attack": {
+            "defenderTag": "#UU9YJRPV",
+            "defenderMapPosition": 1,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#YPVQVU982",
