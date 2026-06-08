@@ -1,6 +1,6 @@
 {
   "season": "2026-06",
-  "generatedAt": "2026-06-08T00:40:24.418Z",
+  "generatedAt": "2026-06-08T00:55:21.553Z",
   "state": "inWar",
   "rounds": [
     {
@@ -980,9 +980,9 @@
       "result": "inProgress",
       "opponentName": "THE GENERAL",
       "opponentTag": "#LVPPQ2G0",
-      "clanStars": 13,
+      "clanStars": 16,
       "opponentStars": 0,
-      "clanDestructionPct": 32.06666666666667,
+      "clanDestructionPct": 38.733333333333334,
       "teamSize": 15,
       "members": [
         {
@@ -1035,7 +1035,12 @@
           "name": "ChrolloLucilfer",
           "townhallLevel": 18,
           "mapPosition": 8,
-          "attack": null
+          "attack": {
+            "defenderTag": "#PJQ0VLYL8",
+            "defenderMapPosition": 6,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#2GP2JUU2",
