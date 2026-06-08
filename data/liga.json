@@ -1,6 +1,6 @@
 {
   "season": "2026-06",
-  "generatedAt": "2026-06-08T23:40:24.946Z",
+  "generatedAt": "2026-06-08T23:55:25.587Z",
   "state": "inWar",
   "rounds": [
     {
@@ -1169,9 +1169,9 @@
       "result": "inProgress",
       "opponentName": "TEQUILA CLAN",
       "opponentTag": "#PLJYG200",
-      "clanStars": 9,
+      "clanStars": 12,
       "opponentStars": 14,
-      "clanDestructionPct": 25.266666666666666,
+      "clanDestructionPct": 31.933333333333334,
       "teamSize": 15,
       "members": [
         {
@@ -1238,7 +1238,12 @@
           "name": "SAFONOV",
           "townhallLevel": 18,
           "mapPosition": 9,
-          "attack": null
+          "attack": {
+            "defenderTag": "#LGJPVJ2Y",
+            "defenderMapPosition": 9,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#GJ2LQVQJ",
