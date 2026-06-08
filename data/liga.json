@@ -1,6 +1,6 @@
 {
   "season": "2026-06",
-  "generatedAt": "2026-06-08T18:10:21.260Z",
+  "generatedAt": "2026-06-08T18:25:23.857Z",
   "state": "inWar",
   "rounds": [
     {
@@ -980,9 +980,9 @@
       "result": "inProgress",
       "opponentName": "THE GENERAL",
       "opponentTag": "#LVPPQ2G0",
-      "clanStars": 29,
+      "clanStars": 32,
       "opponentStars": 42,
-      "clanDestructionPct": 69.8,
+      "clanDestructionPct": 76.46666666666667,
       "teamSize": 15,
       "members": [
         {
@@ -1100,7 +1100,12 @@
           "name": "Phoenix",
           "townhallLevel": 18,
           "mapPosition": 7,
-          "attack": null
+          "attack": {
+            "defenderTag": "#2ULV8UYJC",
+            "defenderMapPosition": 5,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#80LUCC9YV",
