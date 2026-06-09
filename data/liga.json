@@ -1,6 +1,6 @@
 {
   "season": "2026-06",
-  "generatedAt": "2026-06-09T04:10:21.499Z",
+  "generatedAt": "2026-06-09T04:25:17.664Z",
   "state": "inWar",
   "rounds": [
     {
@@ -1169,9 +1169,9 @@
       "result": "inProgress",
       "opponentName": "TEQUILA CLAN",
       "opponentTag": "#PLJYG200",
-      "clanStars": 29,
+      "clanStars": 31,
       "opponentStars": 30,
-      "clanDestructionPct": 71.66666666666667,
+      "clanDestructionPct": 77.66666666666667,
       "teamSize": 15,
       "members": [
         {
@@ -1332,7 +1332,12 @@
           "name": "Frnnn",
           "townhallLevel": 18,
           "mapPosition": 6,
-          "attack": null
+          "attack": {
+            "defenderTag": "#9Y09VVLLQ",
+            "defenderMapPosition": 6,
+            "stars": 2,
+            "destructionPercentage": 90
+          }
         }
       ]
     }
