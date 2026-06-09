@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-09T00:25:17.185Z",
+  "generatedAt": "2026-06-09T00:40:23.120Z",
   "totalWars": 16,
   "liveWar": {
     "opponentName": "Persian Empire2",
@@ -69,6 +69,42 @@
         "threeStarRate": 0.8214285714285714,
         "totalMissed": 0,
         "avgPositionDiff": -4.269230769230769,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#QQC8P9C9R",
+        "name": "Gs.prieto",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.5495164122109006,
+        "rawScore": 2.5495164122109006,
+        "confidence": 1,
+        "tier": "A",
+        "attackScore": 3.366293337090482,
+        "defenseScore": 0.4516928425315921,
+        "reliability": 0.975,
+        "formScore": 3.5,
+        "warsInRoster": 20,
+        "attacksUsed": 39,
+        "attacksAvailable": 40,
+        "avgDestruction": 97.76923076923077,
+        "totalAttacks": 39,
+        "totalStars": 108,
+        "count3Stars": 32,
+        "avgStars": 2.769230769230769,
+        "threeStarRate": 0.8205128205128205,
+        "totalMissed": 0,
+        "avgPositionDiff": 0.1891891891891892,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -213,6 +249,42 @@
         "threeStarRate": 0.775,
         "totalMissed": 0,
         "avgPositionDiff": 0.5263157894736842,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#8CJ8YJY0P",
+        "name": "ChrolloLucilfer",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.3870856716896753,
+        "rawScore": 2.3870856716896753,
+        "confidence": 1,
+        "tier": "A",
+        "attackScore": 3.0879396595749036,
+        "defenseScore": 0.6406040586728626,
+        "reliability": 1,
+        "formScore": 2.4,
+        "warsInRoster": 21,
+        "attacksUsed": 41,
+        "attacksAvailable": 41,
+        "avgDestruction": 96.17073170731707,
+        "totalAttacks": 41,
+        "totalStars": 115,
+        "count3Stars": 36,
+        "avgStars": 2.8048780487804876,
+        "threeStarRate": 0.8780487804878049,
+        "totalMissed": 0,
+        "avgPositionDiff": 2.1538461538461537,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -789,8 +861,8 @@
       "totalAttacks": 39,
       "warsInRoster": 21,
       "totalMissed": 0,
-      "rank": 5,
-      "prevRank": 6,
+      "rank": 6,
+      "prevRank": 5,
       "normalizedScore": 70.31
     },
     "#2QL0VR9GU": {
@@ -801,8 +873,8 @@
       "totalAttacks": 38,
       "warsInRoster": 20,
       "totalMissed": 1,
-      "rank": 15,
-      "prevRank": 17,
+      "rank": 17,
+      "prevRank": 15,
       "normalizedScore": 62.63
     },
     "#PPPUQPVJY": {
@@ -813,9 +885,20 @@
       "totalAttacks": 19,
       "warsInRoster": 10,
       "totalMissed": 1,
-      "rank": 17,
-      "prevRank": 19,
+      "rank": 19,
+      "prevRank": 17,
       "normalizedScore": 62.4
+    },
+    "#8CJ8YJY0P": {
+      "tier": "A",
+      "score": 2.3870856716896753,
+      "avgStars": 2.8048780487804876,
+      "totalStars": 115,
+      "totalAttacks": 41,
+      "warsInRoster": 21,
+      "totalMissed": 0,
+      "rank": 8,
+      "normalizedScore": 68.2
     },
     "#P9C0LVLU2": {
       "tier": "A",
@@ -825,8 +908,8 @@
       "totalAttacks": 36,
       "warsInRoster": 20,
       "totalMissed": 1,
-      "rank": 11,
-      "prevRank": 13,
+      "rank": 13,
+      "prevRank": 11,
       "normalizedScore": 66.21
     },
     "#QR8R9QUV8": {
@@ -841,6 +924,29 @@
       "prevRank": 2,
       "normalizedScore": 73.13
     },
+    "#QJVQVRPU": {
+      "tier": "B",
+      "score": 2.1850636345642966,
+      "avgStars": 2.6923076923076925,
+      "totalStars": 105,
+      "totalAttacks": 39,
+      "warsInRoster": 20,
+      "totalMissed": 1,
+      "rank": 18,
+      "prevRank": 16,
+      "normalizedScore": 62.43
+    },
+    "#QQC8P9C9R": {
+      "tier": "S",
+      "score": 2.5495164122109006,
+      "avgStars": 2.769230769230769,
+      "totalStars": 108,
+      "totalAttacks": 39,
+      "warsInRoster": 20,
+      "totalMissed": 0,
+      "rank": 3,
+      "normalizedScore": 72.84
+    },
     "#JPVGQP8V": {
       "tier": "F",
       "score": 0,
@@ -852,16 +958,28 @@
       "normalizedScore": 0
     },
     "#YPVQVU982": {
-      "tier": "A",
+      "tier": "B",
       "score": 2.226073500673975,
       "avgStars": 2.7714285714285714,
       "totalStars": 97,
       "totalAttacks": 35,
       "warsInRoster": 21,
       "totalMissed": 2,
-      "rank": 14,
-      "prevRank": 16,
+      "rank": 16,
+      "prevRank": 14,
       "normalizedScore": 63.6
+    },
+    "#20JC0J9JR": {
+      "tier": "B",
+      "score": 2.0482029078448414,
+      "avgStars": 2.85,
+      "totalStars": 57,
+      "totalAttacks": 20,
+      "warsInRoster": 13,
+      "totalMissed": 3,
+      "rank": 20,
+      "prevRank": 18,
+      "normalizedScore": 58.52
     },
     "#2LY0P2L9U": {
       "tier": "S",
@@ -883,45 +1001,21 @@
       "totalAttacks": 40,
       "warsInRoster": 20,
       "totalMissed": 0,
-      "rank": 12,
-      "prevRank": 14,
+      "rank": 14,
+      "prevRank": 12,
       "normalizedScore": 65.2
     },
-    "#20JC0J9JR": {
-      "tier": "B",
-      "score": 2.0482029078448414,
-      "avgStars": 2.85,
-      "totalStars": 57,
-      "totalAttacks": 20,
-      "warsInRoster": 13,
-      "totalMissed": 3,
-      "rank": 18,
-      "prevRank": 20,
-      "normalizedScore": 58.52
-    },
     "#QJLQLUURY": {
-      "tier": "S",
+      "tier": "A",
       "score": 2.471266783619508,
       "avgStars": 3,
       "totalStars": 42,
       "totalAttacks": 14,
       "warsInRoster": 7,
       "totalMissed": 0,
-      "rank": 4,
-      "prevRank": 5,
+      "rank": 5,
+      "prevRank": 4,
       "normalizedScore": 70.61
-    },
-    "#QJVQVRPU": {
-      "tier": "B",
-      "score": 2.1850636345642966,
-      "avgStars": 2.6923076923076925,
-      "totalStars": 105,
-      "totalAttacks": 39,
-      "warsInRoster": 20,
-      "totalMissed": 1,
-      "rank": 16,
-      "prevRank": 18,
-      "normalizedScore": 62.43
     },
     "#GJ2LQVQJ": {
       "tier": "A",
@@ -931,8 +1025,8 @@
       "totalAttacks": 39,
       "warsInRoster": 20,
       "totalMissed": 0,
-      "rank": 10,
-      "prevRank": 12,
+      "rank": 12,
+      "prevRank": 10,
       "normalizedScore": 66.78
     },
     "#2GP2JUU2": {
@@ -943,20 +1037,20 @@
       "totalAttacks": 40,
       "warsInRoster": 21,
       "totalMissed": 0,
-      "rank": 6,
-      "prevRank": 7,
+      "rank": 7,
+      "prevRank": 6,
       "normalizedScore": 70.07
     },
     "#8VCUUPPJP": {
-      "tier": "A",
+      "tier": "B",
       "score": 2.2324618949718285,
       "avgStars": 2.8947368421052633,
       "totalStars": 55,
       "totalAttacks": 19,
       "warsInRoster": 10,
       "totalMissed": 1,
-      "rank": 13,
-      "prevRank": 15,
+      "rank": 15,
+      "prevRank": 13,
       "normalizedScore": 63.78
     },
     "#G9Y2L9QJJ": {
@@ -967,8 +1061,8 @@
       "totalAttacks": 13,
       "warsInRoster": 7,
       "totalMissed": 0,
-      "rank": 3,
-      "prevRank": 4,
+      "rank": 4,
+      "prevRank": 3,
       "normalizedScore": 71.31
     },
     "#PLU2VCLG": {
@@ -979,8 +1073,8 @@
       "totalAttacks": 37,
       "warsInRoster": 20,
       "totalMissed": 2,
-      "rank": 9,
-      "prevRank": 11,
+      "rank": 11,
+      "prevRank": 9,
       "normalizedScore": 67.22
     },
     "#YVYCCQU08": {
@@ -991,8 +1085,8 @@
       "totalAttacks": 31,
       "warsInRoster": 17,
       "totalMissed": 0,
-      "rank": 8,
-      "prevRank": 10,
+      "rank": 10,
+      "prevRank": 8,
       "normalizedScore": 67.28
     },
     "#QLGP0JGPJ": {
@@ -1003,8 +1097,8 @@
       "totalAttacks": 4,
       "warsInRoster": 7,
       "totalMissed": 8,
-      "rank": 20,
-      "prevRank": 22,
+      "rank": 22,
+      "prevRank": 20,
       "normalizedScore": 5.26
     },
     "#LQQRGJ8VU": {
@@ -1015,8 +1109,8 @@
       "totalAttacks": 19,
       "warsInRoster": 10,
       "totalMissed": 0,
-      "rank": 7,
-      "prevRank": 9,
+      "rank": 9,
+      "prevRank": 7,
       "normalizedScore": 67.86
     },
     "#2QP9JGYVG": {
@@ -1037,8 +1131,8 @@
       "totalAttacks": 25,
       "warsInRoster": 13,
       "totalMissed": 0,
-      "rank": 19,
-      "prevRank": 21,
+      "rank": 21,
+      "prevRank": 19,
       "normalizedScore": 48.06
     },
     "#LR2U2PRP2": {
@@ -1059,8 +1153,8 @@
       "totalAttacks": 2,
       "warsInRoster": 4,
       "totalMissed": 6,
-      "rank": 21,
-      "prevRank": 23,
+      "rank": 23,
+      "prevRank": 21,
       "normalizedScore": -1.59
     },
     "#P008YJGCC": {
