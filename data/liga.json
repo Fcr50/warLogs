@@ -1,6 +1,6 @@
 {
   "season": "2026-06",
-  "generatedAt": "2026-06-09T03:40:25.901Z",
+  "generatedAt": "2026-06-09T03:55:27.952Z",
   "state": "inWar",
   "rounds": [
     {
@@ -1169,9 +1169,9 @@
       "result": "inProgress",
       "opponentName": "TEQUILA CLAN",
       "opponentTag": "#PLJYG200",
-      "clanStars": 26,
+      "clanStars": 29,
       "opponentStars": 30,
-      "clanDestructionPct": 65,
+      "clanDestructionPct": 71.66666666666667,
       "teamSize": 15,
       "members": [
         {
@@ -1270,7 +1270,12 @@
           "name": "Fer",
           "townhallLevel": 18,
           "mapPosition": 4,
-          "attack": null
+          "attack": {
+            "defenderTag": "#Y8LLL80GQ",
+            "defenderMapPosition": 4,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#PLU2VCLG",
