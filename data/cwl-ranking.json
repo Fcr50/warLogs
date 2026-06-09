@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-09T22:10:20.275Z",
+  "generatedAt": "2026-06-09T22:25:22.290Z",
   "totalWars": 16,
   "liveWar": {
     "opponentName": "Persian Empire2",
@@ -657,6 +657,42 @@
     },
     {
       "player": {
+        "tag": "#PPPUQPVJY",
+        "name": "Rodrigo",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.184135276973715,
+        "rawScore": 2.184135276973715,
+        "confidence": 1,
+        "tier": "B",
+        "attackScore": 3.0286062864671135,
+        "defenseScore": 0.06348254663010935,
+        "reliability": 0.7916666666666666,
+        "formScore": 3.5,
+        "warsInRoster": 10,
+        "attacksUsed": 19,
+        "attacksAvailable": 20,
+        "avgDestruction": 96.57894736842105,
+        "totalAttacks": 19,
+        "totalStars": 49,
+        "count3Stars": 13,
+        "avgStars": 2.5789473684210527,
+        "threeStarRate": 0.6842105263157895,
+        "totalMissed": 1,
+        "avgPositionDiff": -5.117647058823529,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#20JC0J9JR",
         "name": "BTV✯Robin Hood",
         "townhallLevel": 18
@@ -885,9 +921,20 @@
       "totalAttacks": 38,
       "warsInRoster": 20,
       "totalMissed": 1,
-      "rank": 17,
+      "rank": 18,
       "prevRank": 17,
       "normalizedScore": 62.63
+    },
+    "#PPPUQPVJY": {
+      "tier": "B",
+      "score": 2.184135276973715,
+      "avgStars": 2.5789473684210527,
+      "totalStars": 49,
+      "totalAttacks": 19,
+      "warsInRoster": 10,
+      "totalMissed": 1,
+      "rank": 20,
+      "normalizedScore": 62.4
     },
     "#P9C0LVLU2": {
       "tier": "A",
@@ -921,7 +968,7 @@
       "totalAttacks": 35,
       "warsInRoster": 21,
       "totalMissed": 2,
-      "rank": 16,
+      "rank": 17,
       "prevRank": 16,
       "normalizedScore": 63.6
     },
@@ -933,7 +980,7 @@
       "totalAttacks": 39,
       "warsInRoster": 20,
       "totalMissed": 1,
-      "rank": 18,
+      "rank": 19,
       "prevRank": 18,
       "normalizedScore": 62.43
     },
@@ -957,7 +1004,7 @@
       "totalAttacks": 20,
       "warsInRoster": 13,
       "totalMissed": 3,
-      "rank": 19,
+      "rank": 21,
       "prevRank": 19,
       "normalizedScore": 58.52
     },
@@ -1039,7 +1086,7 @@
       "totalAttacks": 19,
       "warsInRoster": 10,
       "totalMissed": 1,
-      "rank": 15,
+      "rank": 16,
       "prevRank": 15,
       "normalizedScore": 63.78
     },
@@ -1051,7 +1098,7 @@
       "totalAttacks": 4,
       "warsInRoster": 7,
       "totalMissed": 8,
-      "rank": 21,
+      "rank": 23,
       "prevRank": 21,
       "normalizedScore": 5.26
     },
@@ -1077,6 +1124,17 @@
       "totalMissed": 2,
       "normalizedScore": 0
     },
+    "#VPPQ8VLV": {
+      "tier": "B",
+      "score": 2.2362815465208894,
+      "avgStars": 2.742857142857143,
+      "totalStars": 96,
+      "totalAttacks": 35,
+      "warsInRoster": 20,
+      "totalMissed": 2,
+      "rank": 15,
+      "normalizedScore": 63.89
+    },
     "#LUR09RUP2": {
       "tier": "B",
       "score": 1.6821313367853583,
@@ -1085,7 +1143,7 @@
       "totalAttacks": 25,
       "warsInRoster": 13,
       "totalMissed": 0,
-      "rank": 20,
+      "rank": 22,
       "prevRank": 20,
       "normalizedScore": 48.06
     },
@@ -1107,7 +1165,7 @@
       "totalAttacks": 2,
       "warsInRoster": 4,
       "totalMissed": 6,
-      "rank": 22,
+      "rank": 24,
       "prevRank": 22,
       "normalizedScore": -1.59
     },
