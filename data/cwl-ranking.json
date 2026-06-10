@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-10T13:40:24.257Z",
+  "generatedAt": "2026-06-10T13:55:28.028Z",
   "totalWars": 16,
   "liveWar": {
     "opponentName": "Persian Empire2",
@@ -801,6 +801,42 @@
     },
     {
       "player": {
+        "tag": "#L8RG2PV0G",
+        "name": "joaoaoaoao",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.0087341957741973,
+        "rawScore": 2.0087341957741973,
+        "confidence": 1,
+        "tier": "B",
+        "attackScore": 2.4960657888828774,
+        "defenseScore": 0.37014625777355487,
+        "reliability": 0.915,
+        "formScore": 2.365,
+        "warsInRoster": 19,
+        "attacksUsed": 33,
+        "attacksAvailable": 38,
+        "avgDestruction": 89.84848484848484,
+        "totalAttacks": 33,
+        "totalStars": 81,
+        "count3Stars": 23,
+        "avgStars": 2.4545454545454546,
+        "threeStarRate": 0.696969696969697,
+        "totalMissed": 3,
+        "avgPositionDiff": -1.903225806451613,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#QLGP0JGPJ",
         "name": "igg2.0",
         "townhallLevel": 18
@@ -832,6 +868,42 @@
           "defense": 0.25,
           "reliability": 0.23,
           "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#890RJJV9L",
+        "name": "⚡️MILLA_PRIME⚡️",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 0,
+        "rawScore": 0,
+        "confidence": 0,
+        "tier": "F",
+        "attackScore": 0,
+        "defenseScore": 0,
+        "reliability": 0,
+        "formScore": 0,
+        "warsInRoster": 0,
+        "attacksUsed": 0,
+        "attacksAvailable": 0,
+        "avgDestruction": 0,
+        "totalAttacks": 0,
+        "totalStars": 0,
+        "count3Stars": 0,
+        "avgStars": 0,
+        "threeStarRate": 0,
+        "totalMissed": 0,
+        "avgPositionDiff": 0,
+        "hasAnyDefense": false,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.56,
+          "defense": 0,
+          "reliability": 0.3067,
+          "form": 0.1333
         }
       }
     },
@@ -945,6 +1017,13 @@
     }
   ],
   "noDataList": [
+    {
+      "player": {
+        "tag": "#890RJJV9L",
+        "name": "⚡️MILLA_PRIME⚡️",
+        "townhallLevel": 18
+      }
+    },
     {
       "player": {
         "tag": "#P98VU8L9J",
@@ -1076,6 +1155,16 @@
       "prevRank": 3,
       "normalizedScore": 72.84
     },
+    "#890RJJV9L": {
+      "tier": "F",
+      "score": 0,
+      "avgStars": 0,
+      "totalStars": 0,
+      "totalAttacks": 0,
+      "warsInRoster": 0,
+      "totalMissed": 0,
+      "normalizedScore": 0
+    },
     "#GJ2LQVQJ": {
       "tier": "A",
       "score": 2.337172325469463,
@@ -1180,6 +1269,17 @@
       "prevRank": 6,
       "normalizedScore": 70.61
     },
+    "#L8RG2PV0G": {
+      "tier": "B",
+      "score": 2.0087341957741973,
+      "avgStars": 2.4545454545454546,
+      "totalStars": 81,
+      "totalAttacks": 33,
+      "warsInRoster": 19,
+      "totalMissed": 3,
+      "rank": 25,
+      "normalizedScore": 57.39
+    },
     "#LYJG0L8G": {
       "tier": "S",
       "score": 2.519100528428449,
@@ -1229,14 +1329,14 @@
       "normalizedScore": 63.78
     },
     "#QLGP0JGPJ": {
-      "tier": "B",
+      "tier": "C",
       "score": 0.18418878058776764,
       "avgStars": 1,
       "totalStars": 4,
       "totalAttacks": 4,
       "warsInRoster": 7,
       "totalMissed": 8,
-      "rank": 29,
+      "rank": 30,
       "prevRank": 29,
       "normalizedScore": 5.26
     },
@@ -1294,7 +1394,7 @@
       "totalAttacks": 14,
       "warsInRoster": 7,
       "totalMissed": 0,
-      "rank": 25,
+      "rank": 26,
       "prevRank": 25,
       "normalizedScore": 53.42
     },
@@ -1306,7 +1406,7 @@
       "totalAttacks": 33,
       "warsInRoster": 17,
       "totalMissed": 0,
-      "rank": 26,
+      "rank": 27,
       "prevRank": 26,
       "normalizedScore": 52.12
     },
@@ -1318,7 +1418,7 @@
       "totalAttacks": 11,
       "warsInRoster": 6,
       "totalMissed": 1,
-      "rank": 28,
+      "rank": 29,
       "prevRank": 28,
       "normalizedScore": 41.92
     },
@@ -1342,7 +1442,7 @@
       "totalAttacks": 25,
       "warsInRoster": 13,
       "totalMissed": 0,
-      "rank": 27,
+      "rank": 28,
       "prevRank": 27,
       "normalizedScore": 48.06
     },
@@ -1364,7 +1464,7 @@
       "totalAttacks": 2,
       "warsInRoster": 4,
       "totalMissed": 6,
-      "rank": 30,
+      "rank": 31,
       "prevRank": 30,
       "normalizedScore": -1.59
     },
