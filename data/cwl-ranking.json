@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-11T13:00:32.294Z",
+  "generatedAt": "2026-06-11T13:15:27.479Z",
   "totalWars": 16,
   "liveWar": {
     "opponentName": "Libertarian War",
-    "totalAttacksDone": 27,
+    "totalAttacksDone": 28,
     "totalAttacksExpected": 50
   },
   "ranking": [
@@ -203,16 +203,16 @@
         "reliability": 1,
         "formScore": 2.96,
         "warsInRoster": 22,
-        "attacksUsed": 41,
+        "attacksUsed": 42,
         "attacksAvailable": 43,
-        "avgDestruction": 97.92682926829268,
-        "totalAttacks": 41,
-        "totalStars": 111,
-        "count3Stars": 32,
-        "avgStars": 2.707317073170732,
-        "threeStarRate": 0.7804878048780488,
+        "avgDestruction": 97.97619047619048,
+        "totalAttacks": 42,
+        "totalStars": 114,
+        "count3Stars": 33,
+        "avgStars": 2.7142857142857144,
+        "threeStarRate": 0.7857142857142857,
         "totalMissed": 0,
-        "avgPositionDiff": 0.5128205128205128,
+        "avgPositionDiff": 0.55,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -945,6 +945,42 @@
     },
     {
       "player": {
+        "tag": "#208C2C8GC",
+        "name": "lucas_vha",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 0,
+        "rawScore": 0,
+        "confidence": 0,
+        "tier": "F",
+        "attackScore": 0,
+        "defenseScore": 0,
+        "reliability": 0,
+        "formScore": 0,
+        "warsInRoster": 0,
+        "attacksUsed": 0,
+        "attacksAvailable": 0,
+        "avgDestruction": 0,
+        "totalAttacks": 0,
+        "totalStars": 0,
+        "count3Stars": 0,
+        "avgStars": 0,
+        "threeStarRate": 0,
+        "totalMissed": 0,
+        "avgPositionDiff": 0,
+        "hasAnyDefense": false,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.56,
+          "defense": 0,
+          "reliability": 0.3067,
+          "form": 0.1333
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#QRGR9R8R2",
         "name": "Caique Grandão",
         "townhallLevel": 18
@@ -1028,6 +1064,13 @@
       "player": {
         "tag": "#QYJJ2UQQJ",
         "name": "TheWanderer17",
+        "townhallLevel": 18
+      }
+    },
+    {
+      "player": {
+        "tag": "#208C2C8GC",
+        "name": "lucas_vha",
         "townhallLevel": 18
       }
     },
@@ -1259,12 +1302,22 @@
       "prevRank": 28,
       "normalizedScore": 50.64
     },
+    "#208C2C8GC": {
+      "tier": "F",
+      "score": 0,
+      "avgStars": 0,
+      "totalStars": 0,
+      "totalAttacks": 0,
+      "warsInRoster": 0,
+      "totalMissed": 0,
+      "normalizedScore": 0
+    },
     "#2GP2JUU2": {
       "tier": "A",
       "score": 2.4496871929104667,
-      "avgStars": 2.707317073170732,
-      "totalStars": 111,
-      "totalAttacks": 41,
+      "avgStars": 2.7142857142857144,
+      "totalStars": 114,
+      "totalAttacks": 42,
       "warsInRoster": 22,
       "totalMissed": 0,
       "rank": 6,
