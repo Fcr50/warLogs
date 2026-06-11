@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 26,
-        "destructionPercentage": 35.84
+        "stars": 27,
+        "destructionPercentage": 39.56
       },
       "sixHourNonAttackers": [
         {
@@ -189,11 +189,6 @@
           "tag": "#LR2U2PRP2",
           "name": "NARNIA",
           "townhallLevel": 16
-        },
-        {
-          "tag": "#QJVQVRPU",
-          "name": "Frnnn",
-          "townhallLevel": 18
         },
         {
           "tag": "#QJLQLUURY",
@@ -577,7 +572,14 @@
           "name": "Frnnn",
           "townhallLevel": 18,
           "mapPosition": 6,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 1,
+              "destructionPercentage": 93,
+              "order": 28,
+              "defenderTag": "#8YJVCV8YY"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
