@@ -10,8 +10,8 @@
       "opponent": {
         "name": "Libertarian War",
         "tag": "#2VQ8JQJU",
-        "stars": 65,
-        "destructionPercentage": 90.76,
+        "stars": 66,
+        "destructionPercentage": 94,
         "members": [
           {
             "tag": "#QYPC8C9U",
@@ -437,7 +437,14 @@
           "townhallLevel": 18,
           "mapPosition": 20,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 1,
+              "destructionPercentage": 81,
+              "attackerTag": "#88R00L9L",
+              "attackerMapPosition": 22
+            }
+          ],
           "missedAttacks": 0
         },
         {
