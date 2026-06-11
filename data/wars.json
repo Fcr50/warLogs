@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 19,
-        "destructionPercentage": 27.36
+        "stars": 23,
+        "destructionPercentage": 31.84
       },
       "sixHourNonAttackers": [
         {
@@ -143,11 +143,6 @@
         {
           "tag": "#8YJYY92GC",
           "name": "RussiaN",
-          "townhallLevel": 17
-        },
-        {
-          "tag": "#RC82GPG",
-          "name": "tonton",
           "townhallLevel": 17
         },
         {
@@ -241,6 +236,12 @@
               "destructionPercentage": 100,
               "order": 12,
               "defenderTag": "#88U0U8CGY"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 15,
+              "defenderTag": "#U8U8P0J"
             }
           ],
           "defensesReceived": [],
@@ -278,7 +279,14 @@
           "name": "tonton",
           "townhallLevel": 17,
           "mapPosition": 23,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 16,
+              "defenderTag": "#YJC0PC2C9"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
