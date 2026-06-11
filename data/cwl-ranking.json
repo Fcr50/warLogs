@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-11T17:30:28.631Z",
+  "generatedAt": "2026-06-11T17:45:34.918Z",
   "totalWars": 16,
   "liveWar": {
     "opponentName": "Libertarian War",
-    "totalAttacksDone": 37,
+    "totalAttacksDone": 39,
     "totalAttacksExpected": 50
   },
   "ranking": [
@@ -81,42 +81,6 @@
     },
     {
       "player": {
-        "tag": "#LYJG0L8G",
-        "name": "GLADIADOR!!!",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.5588444801850003,
-        "rawScore": 2.5588444801850003,
-        "confidence": 1,
-        "tier": "A",
-        "attackScore": 3.3647246092715575,
-        "defenseScore": 0.7676405771637848,
-        "reliability": 0.875,
-        "formScore": 3.5,
-        "warsInRoster": 15,
-        "attacksUsed": 27,
-        "attacksAvailable": 29,
-        "avgDestruction": 97.96296296296296,
-        "totalAttacks": 27,
-        "totalStars": 74,
-        "count3Stars": 20,
-        "avgStars": 2.740740740740741,
-        "threeStarRate": 0.7407407407407407,
-        "totalMissed": 0,
-        "avgPositionDiff": -1.5555555555555556,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
         "tag": "#QR8R9QUV8",
         "name": "Dr.Hannibal",
         "townhallLevel": 18
@@ -141,6 +105,42 @@
         "threeStarRate": 0.8333333333333334,
         "totalMissed": 0,
         "avgPositionDiff": -3.7142857142857144,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#LYJG0L8G",
+        "name": "GLADIADOR!!!",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.493584981792192,
+        "rawScore": 2.493584981792192,
+        "confidence": 1,
+        "tier": "A",
+        "attackScore": 3.2825591369077283,
+        "defenseScore": 0.7676405771637848,
+        "reliability": 0.875,
+        "formScore": 3.1925,
+        "warsInRoster": 15,
+        "attacksUsed": 29,
+        "attacksAvailable": 29,
+        "avgDestruction": 97.3103448275862,
+        "totalAttacks": 29,
+        "totalStars": 79,
+        "count3Stars": 21,
+        "avgStars": 2.7241379310344827,
+        "threeStarRate": 0.7241379310344828,
+        "totalMissed": 0,
+        "avgPositionDiff": -2.310344827586207,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1139,7 +1139,7 @@
       "totalAttacks": 30,
       "warsInRoster": 16,
       "totalMissed": 0,
-      "rank": 4,
+      "rank": 3,
       "prevRank": 4,
       "normalizedScore": 72.58
     },
@@ -1200,7 +1200,7 @@
       "warsInRoster": 22,
       "totalMissed": 2,
       "rank": 15,
-      "prevRank": 16,
+      "prevRank": 15,
       "normalizedScore": 62.83
     },
     "#JPVGQP8V": {
@@ -1244,7 +1244,7 @@
       "warsInRoster": 14,
       "totalMissed": 3,
       "rank": 16,
-      "prevRank": 17,
+      "prevRank": 16,
       "normalizedScore": 61.51
     },
     "#2GP2JUU2": {
@@ -1285,15 +1285,15 @@
     },
     "#LYJG0L8G": {
       "tier": "S",
-      "score": 2.5588444801850003,
-      "avgStars": 2.740740740740741,
-      "totalStars": 74,
-      "totalAttacks": 27,
+      "score": 2.493584981792192,
+      "avgStars": 2.7241379310344827,
+      "totalStars": 79,
+      "totalAttacks": 29,
       "warsInRoster": 15,
       "totalMissed": 0,
-      "rank": 3,
+      "rank": 4,
       "prevRank": 3,
-      "normalizedScore": 73.11
+      "normalizedScore": 71.25
     },
     "#QRGR9R8R2": {
       "tier": "F",
@@ -1314,7 +1314,7 @@
       "warsInRoster": 8,
       "totalMissed": 0,
       "rank": 17,
-      "prevRank": 14,
+      "prevRank": 17,
       "normalizedScore": 61.42
     },
     "#29LP0VJV0": {
@@ -1408,7 +1408,7 @@
       "warsInRoster": 18,
       "totalMissed": 0,
       "rank": 14,
-      "prevRank": 15,
+      "prevRank": 14,
       "normalizedScore": 64.09
     },
     "#RC82GPG": {
