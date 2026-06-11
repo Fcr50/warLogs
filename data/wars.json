@@ -10,8 +10,8 @@
       "opponent": {
         "name": "Libertarian War",
         "tag": "#2VQ8JQJU",
-        "stars": 4,
-        "destructionPercentage": 7.4,
+        "stars": 14,
+        "destructionPercentage": 22.2,
         "members": [
           {
             "tag": "#QYPC8C9U",
@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 8,
-        "destructionPercentage": 11.84
+        "stars": 17,
+        "destructionPercentage": 23.84
       },
       "sixHourNonAttackers": [
         {
@@ -128,11 +128,6 @@
         {
           "tag": "#QR8R9QUV8",
           "name": "Dr.Hannibal",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#2LY0P2L9U",
-          "name": "LucasHG9",
           "townhallLevel": 18
         },
         {
@@ -156,11 +151,6 @@
           "townhallLevel": 17
         },
         {
-          "tag": "#8CJ8YJY0P",
-          "name": "ChrolloLucilfer",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#LQQRGJ8VU",
           "name": "i-Vinni",
           "townhallLevel": 18
@@ -179,11 +169,6 @@
           "tag": "#GQ8URLCLP",
           "name": "¥TioSam",
           "townhallLevel": 16
-        },
-        {
-          "tag": "#GJ2LQVQJ",
-          "name": "Fer",
-          "townhallLevel": 18
         },
         {
           "tag": "#PLU2VCLG",
@@ -255,7 +240,14 @@
           "name": "LucasHG9",
           "townhallLevel": 18,
           "mapPosition": 10,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 12,
+              "defenderTag": "#88U0U8CGY"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -300,7 +292,14 @@
           "name": "ChrolloLucilfer",
           "townhallLevel": 18,
           "mapPosition": 8,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 9,
+              "defenderTag": "#Q2RCYP2Q"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -317,7 +316,14 @@
               "defenderTag": "#LGQYRQ90G"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#88U0U8CGY",
+              "attackerMapPosition": 10
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -361,7 +367,14 @@
           "name": "Fer",
           "townhallLevel": 18,
           "mapPosition": 4,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 7,
+              "defenderTag": "#PQYQV8UL"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 2,
@@ -378,7 +391,14 @@
           "townhallLevel": 18,
           "mapPosition": 7,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#88U0U8CGY",
+              "attackerMapPosition": 10
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -428,7 +448,14 @@
           "townhallLevel": 18,
           "mapPosition": 1,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 88,
+              "attackerTag": "#QVLYCVPUL",
+              "attackerMapPosition": 12
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -437,7 +464,14 @@
           "townhallLevel": 18,
           "mapPosition": 3,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 82,
+              "attackerTag": "#QVLYCVPUL",
+              "attackerMapPosition": 12
+            }
+          ],
           "missedAttacks": 0
         },
         {
