@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 68,
-        "destructionPercentage": 91.84
+        "stars": 74,
+        "destructionPercentage": 99.84
       },
       "sixHourNonAttackers": [
         {
@@ -213,7 +213,20 @@
           "name": "Dr.Hannibal",
           "townhallLevel": 18,
           "mapPosition": 13,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 60,
+              "defenderTag": "#8R08C28V"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 62,
+              "defenderTag": "#80RLJC2Q8"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -732,7 +745,14 @@
           "name": "NARNIA",
           "townhallLevel": 16,
           "mapPosition": 24,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 1,
+              "destructionPercentage": 68,
+              "order": 61,
+              "defenderTag": "#222PCU28"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
