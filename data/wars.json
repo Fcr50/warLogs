@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 0,
-        "destructionPercentage": 0
+        "stars": 8,
+        "destructionPercentage": 11.84
       },
       "sixHourNonAttackers": [
         {
@@ -161,11 +161,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#2GP2JUU2",
-          "name": "Gustavo Lázaro",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#LQQRGJ8VU",
           "name": "i-Vinni",
           "townhallLevel": 18
@@ -206,11 +201,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#GGVCRYP8P",
-          "name": "gui",
-          "townhallLevel": 17
-        },
-        {
           "tag": "#P9C0LVLU2",
           "name": "VINGADOR⚡",
           "townhallLevel": 18
@@ -238,11 +228,6 @@
         {
           "tag": "#QJLQLUURY",
           "name": "NenemPJL",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#PPPUQPVJY",
-          "name": "Rodrigo",
           "townhallLevel": 18
         }
       ],
@@ -324,7 +309,14 @@
           "name": "Gustavo Lázaro",
           "townhallLevel": 18,
           "mapPosition": 11,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 4,
+              "defenderTag": "#LGQYRQ90G"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -419,7 +411,14 @@
           "name": "gui",
           "townhallLevel": 17,
           "mapPosition": 21,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 5,
+              "defenderTag": "#2U0Y90RU0"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -482,7 +481,14 @@
           "name": "Rodrigo",
           "townhallLevel": 18,
           "mapPosition": 16,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 96,
+              "order": 3,
+              "defenderTag": "#222PCU28"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         }
