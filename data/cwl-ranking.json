@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-11T09:00:31.328Z",
+  "generatedAt": "2026-06-11T09:15:25.879Z",
   "totalWars": 16,
   "liveWar": {
     "opponentName": "Libertarian War",
@@ -266,12 +266,12 @@
         "townhallLevel": 18
       },
       "data": {
-        "score": 2.4136312998112355,
-        "rawScore": 2.4136312998112355,
+        "score": 2.4133497416629273,
+        "rawScore": 2.4133497416629273,
         "confidence": 1,
         "tier": "A",
         "attackScore": 3.1044785295892905,
-        "defenseScore": 0.648001269534935,
+        "defenseScore": 0.6468750369417028,
         "reliability": 0.975,
         "formScore": 2.75,
         "warsInRoster": 21,
@@ -333,42 +333,6 @@
     },
     {
       "player": {
-        "tag": "#YPVQVU982",
-        "name": "亗 ＨＡＤＥＳ_０７ 亗",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.24901795757374,
-        "rawScore": 2.24901795757374,
-        "confidence": 1,
-        "tier": "A",
-        "attackScore": 2.569539915585782,
-        "defenseScore": 0.6260834817882662,
-        "reliability": 0.9612903225806452,
-        "formScore": 3.5,
-        "warsInRoster": 22,
-        "attacksUsed": 35,
-        "attacksAvailable": 43,
-        "avgDestruction": 98.31428571428572,
-        "totalAttacks": 35,
-        "totalStars": 97,
-        "count3Stars": 28,
-        "avgStars": 2.7714285714285714,
-        "threeStarRate": 0.8,
-        "totalMissed": 2,
-        "avgPositionDiff": 0.6666666666666666,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
         "tag": "#80LUCC9YV",
         "name": "Lobo ®",
         "townhallLevel": 18
@@ -393,6 +357,42 @@
         "threeStarRate": 0.6585365853658537,
         "totalMissed": 0,
         "avgPositionDiff": 3.769230769230769,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#YPVQVU982",
+        "name": "亗 ＨＡＤＥＳ_０７ 亗",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.2111710690700406,
+        "rawScore": 2.2111710690700406,
+        "confidence": 1,
+        "tier": "A",
+        "attackScore": 2.569539915585782,
+        "defenseScore": 0.4746959277734678,
+        "reliability": 0.9612903225806452,
+        "formScore": 3.5,
+        "warsInRoster": 22,
+        "attacksUsed": 35,
+        "attacksAvailable": 43,
+        "avgDestruction": 98.31428571428572,
+        "totalAttacks": 35,
+        "totalStars": 97,
+        "count3Stars": 28,
+        "avgStars": 2.7714285714285714,
+        "threeStarRate": 0.8,
+        "totalMissed": 2,
+        "avgPositionDiff": 0.6666666666666666,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1114,7 +1114,7 @@
     },
     "#GJ2LQVQJ": {
       "tier": "A",
-      "score": 2.4136312998112355,
+      "score": 2.4133497416629273,
       "avgStars": 2.825,
       "totalStars": 113,
       "totalAttacks": 40,
@@ -1122,7 +1122,7 @@
       "totalMissed": 0,
       "rank": 8,
       "prevRank": 8,
-      "normalizedScore": 68.96
+      "normalizedScore": 68.95
     },
     "#QJVQVRPU": {
       "tier": "B",
@@ -1144,7 +1144,7 @@
       "totalAttacks": 41,
       "warsInRoster": 21,
       "totalMissed": 0,
-      "rank": 13,
+      "rank": 12,
       "prevRank": 13,
       "normalizedScore": 63.39
     },
@@ -1160,15 +1160,15 @@
     },
     "#YPVQVU982": {
       "tier": "A",
-      "score": 2.24901795757374,
+      "score": 2.2111710690700406,
       "avgStars": 2.7714285714285714,
       "totalStars": 97,
       "totalAttacks": 35,
       "warsInRoster": 22,
       "totalMissed": 2,
-      "rank": 11,
+      "rank": 13,
       "prevRank": 11,
-      "normalizedScore": 64.26
+      "normalizedScore": 63.18
     },
     "#QJLQLUURY": {
       "tier": "B",
@@ -1354,7 +1354,7 @@
       "totalAttacks": 34,
       "warsInRoster": 18,
       "totalMissed": 0,
-      "rank": 12,
+      "rank": 11,
       "prevRank": 12,
       "normalizedScore": 64.18
     },
