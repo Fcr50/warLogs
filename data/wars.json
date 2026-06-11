@@ -10,8 +10,8 @@
       "opponent": {
         "name": "Libertarian War",
         "tag": "#2VQ8JQJU",
-        "stars": 58,
-        "destructionPercentage": 82.48,
+        "stars": 62,
+        "destructionPercentage": 86.76,
         "members": [
           {
             "tag": "#QYPC8C9U",
@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 47,
-        "destructionPercentage": 63.84
+        "stars": 56,
+        "destructionPercentage": 79.68
       },
       "sixHourNonAttackers": [
         {
@@ -282,7 +282,14 @@
           "townhallLevel": 18,
           "mapPosition": 18,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#992RUQLJ",
+              "attackerMapPosition": 3
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -426,7 +433,14 @@
           "name": "SAFONOV",
           "townhallLevel": 18,
           "mapPosition": 9,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 99,
+              "order": 48,
+              "defenderTag": "#Y8VRL22G"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 2,
@@ -467,6 +481,12 @@
             }
           ],
           "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#992RUQLJ",
+              "attackerMapPosition": 3
+            },
             {
               "stars": 2,
               "destructionPercentage": 92,
@@ -583,7 +603,14 @@
           "name": "VINGADOR⚡",
           "townhallLevel": 18,
           "mapPosition": 1,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 1,
+              "destructionPercentage": 97,
+              "order": 47,
+              "defenderTag": "#992RUQLJ"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -688,7 +715,20 @@
           "name": "NenemPJL",
           "townhallLevel": 18,
           "mapPosition": 19,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 46,
+              "defenderTag": "#PCJYVGVPP"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 50,
+              "defenderTag": "#LJQ2C2VQ"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
