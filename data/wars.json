@@ -10,8 +10,8 @@
       "opponent": {
         "name": "Guava YTB",
         "tag": "#2YLV988RQ",
-        "stars": 39,
-        "destructionPercentage": 43.333332,
+        "stars": 45,
+        "destructionPercentage": 50,
         "members": [
           {
             "tag": "#Q8PVYQLUG",
@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 42,
-        "destructionPercentage": 46.666668
+        "stars": 45,
+        "destructionPercentage": 50
       },
       "sixHourNonAttackers": [
         {
@@ -154,11 +154,6 @@
           "tag": "#QLGP0JGPJ",
           "name": "igg2.0",
           "townhallLevel": 18
-        },
-        {
-          "tag": "#8YJYY92GC",
-          "name": "RussiaN",
-          "townhallLevel": 17
         },
         {
           "tag": "#RC82GPG",
@@ -343,7 +338,14 @@
           "name": "RussiaN",
           "townhallLevel": 17,
           "mapPosition": 24,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 34,
+              "defenderTag": "#2Y8RC82RP"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -362,7 +364,14 @@
           "townhallLevel": 18,
           "mapPosition": 9,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#909UGPUPJ",
+              "attackerMapPosition": 5
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -378,7 +387,14 @@
               "defenderTag": "#P08YVJ8V0"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#909UGPUPJ",
+              "attackerMapPosition": 5
+            }
+          ],
           "missedAttacks": 0
         },
         {
