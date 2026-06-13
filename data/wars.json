@@ -10,8 +10,8 @@
       "opponent": {
         "name": "Guava YTB",
         "tag": "#2YLV988RQ",
-        "stars": 6,
-        "destructionPercentage": 6.6666665,
+        "stars": 18,
+        "destructionPercentage": 20,
         "members": [
           {
             "tag": "#Q8PVYQLUG",
@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 8,
-        "destructionPercentage": 9.466666
+        "stars": 9,
+        "destructionPercentage": 10
       },
       "sixHourNonAttackers": [
         {
@@ -253,11 +253,6 @@
         {
           "tag": "#YPVQVU982",
           "name": "亗 ＨＡＤＥＳ_０７ 亗",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#GQU9Y0CQ8",
-          "name": "Scok♤",
           "townhallLevel": 18
         },
         {
@@ -391,7 +386,14 @@
           "townhallLevel": 18,
           "mapPosition": 18,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#P2PCLYR82",
+              "attackerMapPosition": 28
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -427,7 +429,14 @@
           "townhallLevel": 18,
           "mapPosition": 4,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#2C2RU8VPC",
+              "attackerMapPosition": 10
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -461,7 +470,14 @@
               "defenderTag": "#P92V9QGUR"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#P2PCLYR82",
+              "attackerMapPosition": 28
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -479,7 +495,14 @@
           "townhallLevel": 18,
           "mapPosition": 2,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#2C2RU8VPC",
+              "attackerMapPosition": 10
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -528,7 +551,14 @@
           "name": "Scok♤",
           "townhallLevel": 18,
           "mapPosition": 30,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 9,
+              "defenderTag": "#P92V9QGUR"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
