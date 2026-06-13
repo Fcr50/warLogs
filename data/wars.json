@@ -202,7 +202,14 @@
           "name": "Satsugai",
           "townhallLevel": 18,
           "mapPosition": 17,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 97,
+              "defenderTag": "#GL29UJRQL"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 2,
