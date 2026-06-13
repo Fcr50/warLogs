@@ -10,8 +10,8 @@
       "opponent": {
         "name": "Guava YTB",
         "tag": "#2YLV988RQ",
-        "stars": 78,
-        "destructionPercentage": 86.666664,
+        "stars": 84,
+        "destructionPercentage": 93.333336,
         "members": [
           {
             "tag": "#Q8PVYQLUG",
@@ -567,7 +567,14 @@
           "townhallLevel": 16,
           "mapPosition": 28,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#8UCJVGY",
+              "attackerMapPosition": 21
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -869,7 +876,14 @@
           "townhallLevel": 16,
           "mapPosition": 27,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#RV9CU2UL",
+              "attackerMapPosition": 7
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -912,6 +926,12 @@
               "destructionPercentage": 100,
               "order": 5,
               "defenderTag": "#9C9LL8LYU"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 72,
+              "defenderTag": "#P92V9QGUR"
             }
           ],
           "defensesReceived": [
