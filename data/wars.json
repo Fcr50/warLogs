@@ -10,8 +10,8 @@
       "opponent": {
         "name": "Guava YTB",
         "tag": "#2YLV988RQ",
-        "stars": 24,
-        "destructionPercentage": 26.666666,
+        "stars": 27,
+        "destructionPercentage": 30,
         "members": [
           {
             "tag": "#Q8PVYQLUG",
@@ -136,18 +136,13 @@
         ]
       },
       "clan": {
-        "stars": 15,
-        "destructionPercentage": 16.666666
+        "stars": 22,
+        "destructionPercentage": 26.1
       },
       "sixHourNonAttackers": [
         {
           "tag": "#8VCUUPPJP",
           "name": "Satsugai",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QR8R9QUV8",
-          "name": "Dr.Hannibal",
           "townhallLevel": 18
         },
         {
@@ -231,11 +226,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#29LP0VJV0",
-          "name": "Warlord Raivon",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#P9C0LVLU2",
           "name": "VINGADOR⚡",
           "townhallLevel": 18
@@ -244,11 +234,6 @@
           "tag": "#YPVQVU982",
           "name": "亗 ＨＡＤＥＳ_０７ 亗",
           "townhallLevel": 18
-        },
-        {
-          "tag": "#2LGC8PGRY",
-          "name": "lucas r.",
-          "townhallLevel": 17
         },
         {
           "tag": "#LR2U2PRP2",
@@ -276,7 +261,14 @@
           "name": "Dr.Hannibal",
           "townhallLevel": 18,
           "mapPosition": 14,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 17,
+              "defenderTag": "#P8PR0JRLJ"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -489,7 +481,14 @@
           "name": "Warlord Raivon",
           "townhallLevel": 18,
           "mapPosition": 15,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 19,
+              "defenderTag": "#P09RPQV"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -561,7 +560,20 @@
           "townhallLevel": 18,
           "mapPosition": 3,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#LP9Q0LQ8",
+              "attackerMapPosition": 1
+            },
+            {
+              "stars": 1,
+              "destructionPercentage": 99,
+              "attackerTag": "#P802GJ9GL",
+              "attackerMapPosition": 13
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -585,7 +597,14 @@
           "name": "lucas r.",
           "townhallLevel": 17,
           "mapPosition": 25,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 1,
+              "destructionPercentage": 83,
+              "order": 15,
+              "defenderTag": "#LGJ02YY88"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
