@@ -10,8 +10,8 @@
       "opponent": {
         "name": "Guava YTB",
         "tag": "#2YLV988RQ",
-        "stars": 50,
-        "destructionPercentage": 56.633335,
+        "stars": 52,
+        "destructionPercentage": 59.233334,
         "members": [
           {
             "tag": "#Q8PVYQLUG",
@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 48,
-        "destructionPercentage": 53.333332
+        "stars": 54,
+        "destructionPercentage": 60
       },
       "sixHourNonAttackers": [
         {
@@ -199,11 +199,6 @@
           "tag": "#LR2U2PRP2",
           "name": "NARNIA",
           "townhallLevel": 16
-        },
-        {
-          "tag": "#QJVQVRPU",
-          "name": "Frnnn",
-          "townhallLevel": 18
         }
       ],
       "members": [
@@ -213,7 +208,14 @@
           "townhallLevel": 18,
           "mapPosition": 17,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 78,
+              "attackerTag": "#Q8PVYQLUG",
+              "attackerMapPosition": 16
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -474,6 +476,12 @@
               "destructionPercentage": 100,
               "order": 31,
               "defenderTag": "#C0QYG0L8"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 39,
+              "defenderTag": "#YU00G2CG0"
             }
           ],
           "defensesReceived": [
@@ -706,7 +714,14 @@
           "name": "Frnnn",
           "townhallLevel": 18,
           "mapPosition": 5,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 40,
+              "defenderTag": "#909UGPUPJ"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
