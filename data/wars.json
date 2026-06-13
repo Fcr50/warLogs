@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 5,
-        "destructionPercentage": 6.133333
+        "stars": 8,
+        "destructionPercentage": 9.466666
       },
       "sixHourNonAttackers": [
         {
@@ -273,11 +273,6 @@
         {
           "tag": "#QJVQVRPU",
           "name": "Frnnn",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QJLQLUURY",
-          "name": "NenemPJL",
           "townhallLevel": 18
         }
       ],
@@ -576,7 +571,14 @@
           "name": "NenemPJL",
           "townhallLevel": 18,
           "mapPosition": 20,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 5,
+              "defenderTag": "#9C9LL8LYU"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         }
