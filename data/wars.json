@@ -10,8 +10,8 @@
       "opponent": {
         "name": "Guava YTB",
         "tag": "#2YLV988RQ",
-        "stars": 18,
-        "destructionPercentage": 20,
+        "stars": 24,
+        "destructionPercentage": 26.666666,
         "members": [
           {
             "tag": "#Q8PVYQLUG",
@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 12,
-        "destructionPercentage": 13.333333
+        "stars": 15,
+        "destructionPercentage": 16.666666
       },
       "sixHourNonAttackers": [
         {
@@ -233,11 +233,6 @@
         {
           "tag": "#29LP0VJV0",
           "name": "Warlord Raivon",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#80LUCC9YV",
-          "name": "Lobo ®",
           "townhallLevel": 18
         },
         {
@@ -404,7 +399,14 @@
           "townhallLevel": 18,
           "mapPosition": 21,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#LGJ02YY88",
+              "attackerMapPosition": 25
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -496,7 +498,14 @@
           "name": "Lobo ®",
           "townhallLevel": 18,
           "mapPosition": 2,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 14,
+              "defenderTag": "#22UL92RC8"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -520,7 +529,14 @@
               "defenderTag": "#L8CLP22GV"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#LGJ02YY88",
+              "attackerMapPosition": 25
+            }
+          ],
           "missedAttacks": 0
         },
         {
