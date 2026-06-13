@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 9,
-        "destructionPercentage": 10
+        "stars": 12,
+        "destructionPercentage": 13.333333
       },
       "sixHourNonAttackers": [
         {
@@ -154,11 +154,6 @@
           "tag": "#P008YJGCC",
           "name": "IsmuYa",
           "townhallLevel": 16
-        },
-        {
-          "tag": "#2LY0P2L9U",
-          "name": "LucasHG9",
-          "townhallLevel": 18
         },
         {
           "tag": "#QQC8P9C9R",
@@ -304,7 +299,14 @@
           "name": "LucasHG9",
           "townhallLevel": 18,
           "mapPosition": 12,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 11,
+              "defenderTag": "#20RPVG20L"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
