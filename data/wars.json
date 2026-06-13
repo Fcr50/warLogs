@@ -772,6 +772,12 @@
               "destructionPercentage": 22,
               "attackerTag": "#8UCVJJYLY",
               "attackerMapPosition": 8
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#990292R2Y",
+              "attackerMapPosition": 18
             }
           ],
           "missedAttacks": 0
@@ -810,7 +816,20 @@
           "name": "VINGADOR⚡",
           "townhallLevel": 18,
           "mapPosition": 1,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 1,
+              "destructionPercentage": 60,
+              "order": 83,
+              "defenderTag": "#LP9Q0LQ8"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 85,
+              "defenderTag": "#22UL92RC8"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -829,6 +848,12 @@
               "destructionPercentage": 100,
               "attackerTag": "#P92V9QGUR",
               "attackerMapPosition": 22
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#990292R2Y",
+              "attackerMapPosition": 18
             }
           ],
           "missedAttacks": 0
