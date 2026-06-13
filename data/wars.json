@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 45,
-        "destructionPercentage": 50
+        "stars": 48,
+        "destructionPercentage": 53.333332
       },
       "sixHourNonAttackers": [
         {
@@ -179,11 +179,6 @@
           "tag": "#GQ8URLCLP",
           "name": "¥TioSam",
           "townhallLevel": 16
-        },
-        {
-          "tag": "#L8RG2PV0G",
-          "name": "joaoaoaoao",
-          "townhallLevel": 18
         },
         {
           "tag": "#PLU2VCLG",
@@ -489,7 +484,14 @@
           "name": "joaoaoaoao",
           "townhallLevel": 18,
           "mapPosition": 16,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 35,
+              "defenderTag": "#Q8PVYQLUG"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
