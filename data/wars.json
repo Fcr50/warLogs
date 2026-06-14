@@ -10,8 +10,8 @@
       "opponent": {
         "name": "Team Olimpia",
         "tag": "#28CCPCCLU",
-        "stars": 9,
-        "destructionPercentage": 17.85,
+        "stars": 16,
+        "destructionPercentage": 32.7,
         "members": [
           {
             "tag": "#Q9UU8P20",
@@ -96,8 +96,8 @@
         ]
       },
       "clan": {
-        "stars": 0,
-        "destructionPercentage": 0
+        "stars": 4,
+        "destructionPercentage": 7.9
       },
       "sixHourNonAttackers": [
         {
@@ -141,11 +141,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#LQQRGJ8VU",
-          "name": "i-Vinni",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#QGQJGURCL",
           "name": "SAFONOV",
           "townhallLevel": 18
@@ -183,11 +178,6 @@
         {
           "tag": "#YPVQVU982",
           "name": "亗 ＨＡＤＥＳ_０７ 亗",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#GQU9Y0CQ8",
-          "name": "Scok♤",
           "townhallLevel": 18
         },
         {
@@ -293,7 +283,14 @@
           "name": "i-Vinni",
           "townhallLevel": 18,
           "mapPosition": 16,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 5,
+              "defenderTag": "#9UVYP8JG"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -312,7 +309,14 @@
           "townhallLevel": 18,
           "mapPosition": 3,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 98,
+              "attackerTag": "#8QL9QPLJP",
+              "attackerMapPosition": 10
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -355,7 +359,14 @@
           "townhallLevel": 18,
           "mapPosition": 1,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 99,
+              "attackerTag": "#P0VC8PCC",
+              "attackerMapPosition": 3
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -373,7 +384,14 @@
           "townhallLevel": 18,
           "mapPosition": 2,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#8QL9QPLJP",
+              "attackerMapPosition": 10
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -381,7 +399,14 @@
           "name": "Scok♤",
           "townhallLevel": 18,
           "mapPosition": 20,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 1,
+              "destructionPercentage": 58,
+              "order": 8,
+              "defenderTag": "#P0VC8PCC"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
