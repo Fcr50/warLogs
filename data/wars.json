@@ -96,15 +96,10 @@
         ]
       },
       "clan": {
-        "stars": 35,
-        "destructionPercentage": 63.8
+        "stars": 38,
+        "destructionPercentage": 68.8
       },
       "sixHourNonAttackers": [
-        {
-          "tag": "#QR8R9QUV8",
-          "name": "Dr.Hannibal",
-          "townhallLevel": 18
-        },
         {
           "tag": "#2QL0VR9GU",
           "name": "Marcola",
@@ -152,7 +147,14 @@
           "name": "Dr.Hannibal",
           "townhallLevel": 18,
           "mapPosition": 13,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 30,
+              "defenderTag": "#9YJU8R2L9"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
