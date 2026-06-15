@@ -10,8 +10,8 @@
       "opponent": {
         "name": "Team Olimpia",
         "tag": "#28CCPCCLU",
-        "stars": 17,
-        "destructionPercentage": 32.8,
+        "stars": 21,
+        "destructionPercentage": 41.45,
         "members": [
           {
             "tag": "#Q9UU8P20",
@@ -96,8 +96,8 @@
         ]
       },
       "clan": {
-        "stars": 21,
-        "destructionPercentage": 37.8
+        "stars": 29,
+        "destructionPercentage": 53.8
       },
       "sixHourNonAttackers": [
         {
@@ -106,24 +106,9 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#QQC8P9C9R",
-          "name": "Gs.prieto",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QRGR9R8R2",
-          "name": "Caique Grandão",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#2QL0VR9GU",
           "name": "Marcola",
           "townhallLevel": 18
-        },
-        {
-          "tag": "#RC82GPG",
-          "name": "tonton",
-          "townhallLevel": 17
         },
         {
           "tag": "#8CJ8YJY0P",
@@ -203,7 +188,14 @@
           "name": "Gs.prieto",
           "townhallLevel": 18,
           "mapPosition": 12,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 20,
+              "defenderTag": "#PLLCJUPJ"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -212,7 +204,14 @@
           "name": "Caique Grandão",
           "townhallLevel": 18,
           "mapPosition": 5,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 22,
+              "defenderTag": "#C9JJ2L9L"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -230,13 +229,32 @@
           "name": "tonton",
           "townhallLevel": 17,
           "mapPosition": 18,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 97,
+              "order": 23,
+              "defenderTag": "#UPGCY8YV"
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 99,
+              "order": 24,
+              "defenderTag": "#Q9UU8P20"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 2,
               "destructionPercentage": 81,
               "attackerTag": "#UPGCY8YV",
               "attackerMapPosition": 18
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 50,
+              "attackerTag": "#UJGUG2Q8",
+              "attackerMapPosition": 20
             }
           ],
           "missedAttacks": 0
@@ -428,7 +446,14 @@
               "defenderTag": "#P0VC8PCC"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 1,
+              "destructionPercentage": 73,
+              "attackerTag": "#UJGUG2Q8",
+              "attackerMapPosition": 20
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -466,7 +491,14 @@
           "townhallLevel": 18,
           "mapPosition": 4,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#9V29YCRCC",
+              "attackerMapPosition": 9
+            }
+          ],
           "missedAttacks": 0
         }
       ]
