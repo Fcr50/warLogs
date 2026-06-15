@@ -10,8 +10,8 @@
       "opponent": {
         "name": "Team Olimpia",
         "tag": "#28CCPCCLU",
-        "stars": 24,
-        "destructionPercentage": 45.9,
+        "stars": 27,
+        "destructionPercentage": 50.9,
         "members": [
           {
             "tag": "#Q9UU8P20",
@@ -336,7 +336,14 @@
               "defenderTag": "#8R0P89LYC"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#9V29YCRCC",
+              "attackerMapPosition": 9
+            }
+          ],
           "missedAttacks": 0
         },
         {
