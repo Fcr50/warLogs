@@ -10,8 +10,8 @@
       "opponent": {
         "name": "Team Olimpia",
         "tag": "#28CCPCCLU",
-        "stars": 16,
-        "destructionPercentage": 32.7,
+        "stars": 17,
+        "destructionPercentage": 32.8,
         "members": [
           {
             "tag": "#Q9UU8P20",
@@ -96,18 +96,13 @@
         ]
       },
       "clan": {
-        "stars": 4,
-        "destructionPercentage": 7.9
+        "stars": 18,
+        "destructionPercentage": 33
       },
       "sixHourNonAttackers": [
         {
           "tag": "#QR8R9QUV8",
           "name": "Dr.Hannibal",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#2LY0P2L9U",
-          "name": "LucasHG9",
           "townhallLevel": 18
         },
         {
@@ -136,11 +131,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#2GP2JUU2",
-          "name": "Gustavo Lázaro",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#QGQJGURCL",
           "name": "SAFONOV",
           "townhallLevel": 18
@@ -148,11 +138,6 @@
         {
           "tag": "#GJ2LQVQJ",
           "name": "Fer",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#L8RG2PV0G",
-          "name": "joaoaoaoao",
           "townhallLevel": 18
         },
         {
@@ -166,11 +151,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#80LUCC9YV",
-          "name": "Lobo ®",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#GGVCRYP8P",
           "name": "gui",
           "townhallLevel": 18
@@ -179,11 +159,6 @@
           "tag": "#YPVQVU982",
           "name": "亗 ＨＡＤＥＳ_０７ 亗",
           "townhallLevel": 18
-        },
-        {
-          "tag": "#LR2U2PRP2",
-          "name": "NARNIA",
-          "townhallLevel": 16
         },
         {
           "tag": "#QJVQVRPU",
@@ -206,7 +181,14 @@
           "name": "LucasHG9",
           "townhallLevel": 18,
           "mapPosition": 10,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 15,
+              "defenderTag": "#8QL9QPLJP"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -267,7 +249,20 @@
           "name": "Gustavo Lázaro",
           "townhallLevel": 18,
           "mapPosition": 11,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 10,
+              "defenderTag": "#9PJUCRPV"
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 95,
+              "order": 12,
+              "defenderTag": "#P0VC8PCC"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 2,
@@ -315,6 +310,12 @@
               "destructionPercentage": 98,
               "attackerTag": "#8QL9QPLJP",
               "attackerMapPosition": 10
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#P0VC8PCC",
+              "attackerMapPosition": 3
             }
           ],
           "missedAttacks": 0
@@ -324,7 +325,14 @@
           "name": "joaoaoaoao",
           "townhallLevel": 18,
           "mapPosition": 15,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 14,
+              "defenderTag": "#9RYUYRPPR"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -358,7 +366,14 @@
           "name": "Lobo ®",
           "townhallLevel": 18,
           "mapPosition": 1,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 89,
+              "order": 13,
+              "defenderTag": "#Q8JU80PG"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 2,
@@ -415,7 +430,14 @@
           "name": "NARNIA",
           "townhallLevel": 16,
           "mapPosition": 19,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 76,
+              "order": 16,
+              "defenderTag": "#Q9UU8P20"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
