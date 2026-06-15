@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T23:00:34.445Z",
+  "generatedAt": "2026-06-15T23:15:47.027Z",
   "totalWars": 17,
   "liveWar": {
     "opponentName": "Team Olimpia",
@@ -513,42 +513,6 @@
     },
     {
       "player": {
-        "tag": "#29LP0VJV0",
-        "name": "Warlord Raivon",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.283620766430584,
-        "rawScore": 2.283620766430584,
-        "confidence": 1,
-        "tier": "B",
-        "attackScore": 2.9962599057566885,
-        "defenseScore": 0.44341348287462834,
-        "reliability": 0.8588235294117648,
-        "formScore": 3.2175000000000002,
-        "warsInRoster": 15,
-        "attacksUsed": 29,
-        "attacksAvailable": 29,
-        "avgDestruction": 94.75862068965517,
-        "totalAttacks": 29,
-        "totalStars": 70,
-        "count3Stars": 17,
-        "avgStars": 2.413793103448276,
-        "threeStarRate": 0.5862068965517241,
-        "totalMissed": 0,
-        "avgPositionDiff": -3.8518518518518516,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
         "tag": "#LQQRGJ8VU",
         "name": "i-Vinni",
         "townhallLevel": 18
@@ -609,6 +573,42 @@
         "threeStarRate": 0.7297297297297297,
         "totalMissed": 3,
         "avgPositionDiff": -1.2,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#29LP0VJV0",
+        "name": "Warlord Raivon",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.2410311120353628,
+        "rawScore": 2.2410311120353628,
+        "confidence": 1,
+        "tier": "B",
+        "attackScore": 2.9962599057566885,
+        "defenseScore": 0.2730548652937438,
+        "reliability": 0.8588235294117648,
+        "formScore": 3.2175000000000002,
+        "warsInRoster": 15,
+        "attacksUsed": 29,
+        "attacksAvailable": 29,
+        "avgDestruction": 94.75862068965517,
+        "totalAttacks": 29,
+        "totalStars": 70,
+        "count3Stars": 17,
+        "avgStars": 2.413793103448276,
+        "threeStarRate": 0.5862068965517241,
+        "totalMissed": 0,
+        "avgPositionDiff": -3.8518518518518516,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1725,15 +1725,15 @@
     },
     "#29LP0VJV0": {
       "tier": "B",
-      "score": 2.283620766430584,
+      "score": 2.2410311120353628,
       "avgStars": 2.413793103448276,
       "totalStars": 70,
       "totalAttacks": 29,
       "warsInRoster": 15,
       "totalMissed": 0,
-      "rank": 15,
+      "rank": 17,
       "prevRank": 15,
-      "normalizedScore": 65.25
+      "normalizedScore": 64.03
     },
     "#2Q988RUYG": {
       "tier": "F",
@@ -1811,7 +1811,7 @@
       "totalAttacks": 25,
       "warsInRoster": 13,
       "totalMissed": 0,
-      "rank": 16,
+      "rank": 15,
       "prevRank": 16,
       "normalizedScore": 64.31
     },
@@ -1823,7 +1823,7 @@
       "totalAttacks": 37,
       "warsInRoster": 21,
       "totalMissed": 3,
-      "rank": 17,
+      "rank": 16,
       "prevRank": 17,
       "normalizedScore": 64.27
     },
