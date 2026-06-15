@@ -96,8 +96,8 @@
         ]
       },
       "clan": {
-        "stars": 39,
-        "destructionPercentage": 69.05
+        "stars": 46,
+        "destructionPercentage": 79.2
       },
       "sixHourNonAttackers": [
         {
@@ -126,18 +126,8 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#GGVCRYP8P",
-          "name": "gui",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#YPVQVU982",
           "name": "亗 ＨＡＤＥＳ_０７ 亗",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QJVQVRPU",
-          "name": "Frnnn",
           "townhallLevel": 18
         }
       ],
@@ -449,7 +439,20 @@
           "name": "gui",
           "townhallLevel": 18,
           "mapPosition": 17,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 33,
+              "defenderTag": "#QPQ28RUU0"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 35,
+              "defenderTag": "#UPGCY8YV"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -526,7 +529,14 @@
           "name": "Frnnn",
           "townhallLevel": 18,
           "mapPosition": 4,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 34,
+              "defenderTag": "#LCUY8LUY"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
