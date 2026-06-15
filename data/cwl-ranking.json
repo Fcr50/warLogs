@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T21:15:24.976Z",
+  "generatedAt": "2026-06-15T21:31:15.952Z",
   "totalWars": 17,
   "liveWar": {
     "opponentName": "Team Olimpia",
@@ -81,42 +81,6 @@
     },
     {
       "player": {
-        "tag": "#8CJ8YJY0P",
-        "name": "ChrolloLucilfer",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.510276596945504,
-        "rawScore": 2.510276596945504,
-        "confidence": 1,
-        "tier": "A",
-        "attackScore": 3.1906442488749454,
-        "defenseScore": 0.6238240496721073,
-        "reliability": 1,
-        "formScore": 3.2424999999999997,
-        "warsInRoster": 24,
-        "attacksUsed": 47,
-        "attacksAvailable": 47,
-        "avgDestruction": 96.59574468085107,
-        "totalAttacks": 47,
-        "totalStars": 132,
-        "count3Stars": 41,
-        "avgStars": 2.8085106382978724,
-        "threeStarRate": 0.8723404255319149,
-        "totalMissed": 0,
-        "avgPositionDiff": 1.488888888888889,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
         "tag": "#QQC8P9C9R",
         "name": "Gs.prieto",
         "townhallLevel": 18
@@ -177,6 +141,42 @@
         "threeStarRate": 0.8666666666666667,
         "totalMissed": 0,
         "avgPositionDiff": -0.7209302325581395,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#8CJ8YJY0P",
+        "name": "ChrolloLucilfer",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.4992516683991024,
+        "rawScore": 2.4992516683991024,
+        "confidence": 1,
+        "tier": "A",
+        "attackScore": 3.1906442488749454,
+        "defenseScore": 0.5797243354865007,
+        "reliability": 1,
+        "formScore": 3.2424999999999997,
+        "warsInRoster": 24,
+        "attacksUsed": 47,
+        "attacksAvailable": 47,
+        "avgDestruction": 96.59574468085107,
+        "totalAttacks": 47,
+        "totalStars": 132,
+        "count3Stars": 41,
+        "avgStars": 2.8085106382978724,
+        "threeStarRate": 0.8723404255319149,
+        "totalMissed": 0,
+        "avgPositionDiff": 1.488888888888889,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1553,7 +1553,7 @@
       "totalAttacks": 45,
       "warsInRoster": 23,
       "totalMissed": 0,
-      "rank": 4,
+      "rank": 3,
       "prevRank": 4,
       "normalizedScore": 71.71
     },
@@ -1628,14 +1628,14 @@
       "normalizedScore": 67.38
     },
     "#QGQJGURCL": {
-      "tier": "A",
+      "tier": "S",
       "score": 2.5037315992022675,
       "avgStars": 2.8444444444444446,
       "totalStars": 128,
       "totalAttacks": 45,
       "warsInRoster": 24,
       "totalMissed": 0,
-      "rank": 5,
+      "rank": 4,
       "prevRank": 5,
       "normalizedScore": 71.54
     },
@@ -1675,18 +1675,6 @@
       "prevRank": 20,
       "normalizedScore": 62.08
     },
-    "#8CJ8YJY0P": {
-      "tier": "S",
-      "score": 2.510276596945504,
-      "avgStars": 2.8085106382978724,
-      "totalStars": 132,
-      "totalAttacks": 47,
-      "warsInRoster": 24,
-      "totalMissed": 0,
-      "rank": 3,
-      "prevRank": 3,
-      "normalizedScore": 71.72
-    },
     "#2LY0P2L9U": {
       "tier": "S",
       "score": 2.6091175690247344,
@@ -1698,6 +1686,18 @@
       "rank": 1,
       "prevRank": 1,
       "normalizedScore": 74.55
+    },
+    "#8CJ8YJY0P": {
+      "tier": "A",
+      "score": 2.4992516683991024,
+      "avgStars": 2.8085106382978724,
+      "totalStars": 132,
+      "totalAttacks": 47,
+      "warsInRoster": 24,
+      "totalMissed": 0,
+      "rank": 5,
+      "prevRank": 3,
+      "normalizedScore": 71.41
     },
     "#QRGR9R8R2": {
       "tier": "B",
