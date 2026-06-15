@@ -229,6 +229,12 @@
               "destructionPercentage": 88,
               "attackerTag": "#Q8JU80PG",
               "attackerMapPosition": 1
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 77,
+              "attackerTag": "#8R0P89LYC",
+              "attackerMapPosition": 7
             }
           ],
           "missedAttacks": 0
@@ -308,7 +314,20 @@
           "name": "ChrolloLucilfer",
           "townhallLevel": 18,
           "mapPosition": 8,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 62,
+              "defenderTag": "#Q8JU80PG"
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 97,
+              "order": 63,
+              "defenderTag": "#C9JJ2L9L"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 2,

@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-15T15:15:51.796Z",
+  "generatedAt": "2026-06-15T15:30:31.589Z",
   "totalWars": 17,
   "liveWar": {
     "opponentName": "Team Olimpia",
-    "totalAttacksDone": 35,
+    "totalAttacksDone": 37,
     "totalAttacksExpected": 40
   },
   "ranking": [
@@ -45,42 +45,6 @@
     },
     {
       "player": {
-        "tag": "#8CJ8YJY0P",
-        "name": "ChrolloLucilfer",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.5441766985722247,
-        "rawScore": 2.5441766985722247,
-        "confidence": 1,
-        "tier": "S",
-        "attackScore": 3.2100492527480897,
-        "defenseScore": 0.6238240496721073,
-        "reliability": 1,
-        "formScore": 3.5,
-        "warsInRoster": 24,
-        "attacksUsed": 45,
-        "attacksAvailable": 47,
-        "avgDestruction": 96.5111111111111,
-        "totalAttacks": 45,
-        "totalStars": 127,
-        "count3Stars": 40,
-        "avgStars": 2.8222222222222224,
-        "threeStarRate": 0.8888888888888888,
-        "totalMissed": 0,
-        "avgPositionDiff": 1.8604651162790697,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
         "tag": "#QR8R9QUV8",
         "name": "Dr.Hannibal",
         "townhallLevel": 18
@@ -105,6 +69,42 @@
         "threeStarRate": 0.8484848484848485,
         "totalMissed": 0,
         "avgPositionDiff": -3.774193548387097,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#8CJ8YJY0P",
+        "name": "ChrolloLucilfer",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.510276596945504,
+        "rawScore": 2.510276596945504,
+        "confidence": 1,
+        "tier": "A",
+        "attackScore": 3.1906442488749454,
+        "defenseScore": 0.6238240496721073,
+        "reliability": 1,
+        "formScore": 3.2424999999999997,
+        "warsInRoster": 24,
+        "attacksUsed": 47,
+        "attacksAvailable": 47,
+        "avgDestruction": 96.59574468085107,
+        "totalAttacks": 47,
+        "totalStars": 132,
+        "count3Stars": 41,
+        "avgStars": 2.8085106382978724,
+        "threeStarRate": 0.8723404255319149,
+        "totalMissed": 0,
+        "avgPositionDiff": 1.488888888888889,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1603,7 +1603,7 @@
       "totalAttacks": 33,
       "warsInRoster": 18,
       "totalMissed": 0,
-      "rank": 3,
+      "rank": 2,
       "prevRank": 3,
       "normalizedScore": 72.04
     },
@@ -1633,15 +1633,15 @@
     },
     "#8CJ8YJY0P": {
       "tier": "S",
-      "score": 2.5441766985722247,
-      "avgStars": 2.8222222222222224,
-      "totalStars": 127,
-      "totalAttacks": 45,
+      "score": 2.510276596945504,
+      "avgStars": 2.8085106382978724,
+      "totalStars": 132,
+      "totalAttacks": 47,
       "warsInRoster": 24,
       "totalMissed": 0,
-      "rank": 2,
+      "rank": 3,
       "prevRank": 2,
-      "normalizedScore": 72.69
+      "normalizedScore": 71.72
     },
     "#G9Y2L9QJJ": {
       "tier": "A",
