@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T17:45:36.439Z",
+  "generatedAt": "2026-06-15T18:01:02.203Z",
   "totalWars": 17,
   "liveWar": {
     "opponentName": "Team Olimpia",
@@ -1017,6 +1017,42 @@
     },
     {
       "player": {
+        "tag": "#88Q8Y009",
+        "name": "Submundo",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 0,
+        "rawScore": 0,
+        "confidence": 0,
+        "tier": "F",
+        "attackScore": 0,
+        "defenseScore": 0,
+        "reliability": 0,
+        "formScore": 0,
+        "warsInRoster": 0,
+        "attacksUsed": 0,
+        "attacksAvailable": 0,
+        "avgDestruction": 0,
+        "totalAttacks": 0,
+        "totalStars": 0,
+        "count3Stars": 0,
+        "avgStars": 0,
+        "threeStarRate": 0,
+        "totalMissed": 0,
+        "avgPositionDiff": 0,
+        "hasAnyDefense": false,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.56,
+          "defense": 0,
+          "reliability": 0.3067,
+          "form": 0.1333
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#2Q988RUYG",
         "name": "JAN SPFC",
         "townhallLevel": 18
@@ -1091,42 +1127,6 @@
       "player": {
         "tag": "#P80JRLGPJ",
         "name": "Mendonça",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 0,
-        "rawScore": 0,
-        "confidence": 0,
-        "tier": "F",
-        "attackScore": 0,
-        "defenseScore": 0,
-        "reliability": 0,
-        "formScore": 0,
-        "warsInRoster": 0,
-        "attacksUsed": 0,
-        "attacksAvailable": 0,
-        "avgDestruction": 0,
-        "totalAttacks": 0,
-        "totalStars": 0,
-        "count3Stars": 0,
-        "avgStars": 0,
-        "threeStarRate": 0,
-        "totalMissed": 0,
-        "avgPositionDiff": 0,
-        "hasAnyDefense": false,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.56,
-          "defense": 0,
-          "reliability": 0.3067,
-          "form": 0.1333
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#88Q8Y009",
-        "name": "Submundo",
         "townhallLevel": 18
       },
       "data": {
@@ -1422,6 +1422,13 @@
     },
     {
       "player": {
+        "tag": "#88Q8Y009",
+        "name": "Submundo",
+        "townhallLevel": 18
+      }
+    },
+    {
+      "player": {
         "tag": "#2Q988RUYG",
         "name": "JAN SPFC",
         "townhallLevel": 18
@@ -1438,13 +1445,6 @@
       "player": {
         "tag": "#P80JRLGPJ",
         "name": "Mendonça",
-        "townhallLevel": 18
-      }
-    },
-    {
-      "player": {
-        "tag": "#88Q8Y009",
-        "name": "Submundo",
         "townhallLevel": 18
       }
     },
@@ -1499,7 +1499,29 @@
     }
   ],
   "statsByTag": {
+    "#QJVQVRPU": {
+      "tier": "A",
+      "score": 2.2838057722671015,
+      "avgStars": 2.6666666666666665,
+      "totalStars": 120,
+      "totalAttacks": 45,
+      "warsInRoster": 23,
+      "totalMissed": 1,
+      "rank": 14,
+      "prevRank": 14,
+      "normalizedScore": 65.25
+    },
     "#GL9CC0CCR": {
+      "tier": "F",
+      "score": 0,
+      "avgStars": 0,
+      "totalStars": 0,
+      "totalAttacks": 0,
+      "warsInRoster": 0,
+      "totalMissed": 0,
+      "normalizedScore": 0
+    },
+    "#88Q8Y009": {
       "tier": "F",
       "score": 0,
       "avgStars": 0,
@@ -1520,6 +1542,18 @@
       "rank": 5,
       "prevRank": 5,
       "normalizedScore": 71.54
+    },
+    "#P9C0LVLU2": {
+      "tier": "B",
+      "score": 2.0187398402662518,
+      "avgStars": 2.75,
+      "totalStars": 110,
+      "totalAttacks": 40,
+      "warsInRoster": 22,
+      "totalMissed": 1,
+      "rank": 24,
+      "prevRank": 24,
+      "normalizedScore": 57.68
     },
     "#YPVQVU982": {
       "tier": "B",
@@ -1590,18 +1624,6 @@
       "rank": 10,
       "prevRank": 10,
       "normalizedScore": 68.15
-    },
-    "#P9C0LVLU2": {
-      "tier": "B",
-      "score": 2.0187398402662518,
-      "avgStars": 2.75,
-      "totalStars": 110,
-      "totalAttacks": 40,
-      "warsInRoster": 22,
-      "totalMissed": 1,
-      "rank": 24,
-      "prevRank": 24,
-      "normalizedScore": 57.68
     },
     "#PPPUQPVJY": {
       "tier": "B",
@@ -1723,18 +1745,6 @@
       "prevRank": 12,
       "normalizedScore": 67.38
     },
-    "#QJVQVRPU": {
-      "tier": "A",
-      "score": 2.2838057722671015,
-      "avgStars": 2.6666666666666665,
-      "totalStars": 120,
-      "totalAttacks": 45,
-      "warsInRoster": 23,
-      "totalMissed": 1,
-      "rank": 14,
-      "prevRank": 14,
-      "normalizedScore": 65.25
-    },
     "#QJLQLUURY": {
       "tier": "A",
       "score": 2.4433044000216,
@@ -1768,7 +1778,7 @@
       "warsInRoster": 13,
       "totalMissed": 0,
       "rank": 16,
-      "prevRank": 17,
+      "prevRank": 16,
       "normalizedScore": 64.31
     },
     "#L8RG2PV0G": {
@@ -1780,7 +1790,7 @@
       "warsInRoster": 21,
       "totalMissed": 3,
       "rank": 17,
-      "prevRank": 16,
+      "prevRank": 17,
       "normalizedScore": 64.27
     },
     "#29LP0VJV0": {
@@ -1842,16 +1852,6 @@
       "normalizedScore": 0
     },
     "#P80JRLGPJ": {
-      "tier": "F",
-      "score": 0,
-      "avgStars": 0,
-      "totalStars": 0,
-      "totalAttacks": 0,
-      "warsInRoster": 0,
-      "totalMissed": 0,
-      "normalizedScore": 0
-    },
-    "#88Q8Y009": {
       "tier": "F",
       "score": 0,
       "avgStars": 0,
