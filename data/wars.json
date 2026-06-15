@@ -96,8 +96,8 @@
         ]
       },
       "clan": {
-        "stars": 46,
-        "destructionPercentage": 79.2
+        "stars": 53,
+        "destructionPercentage": 93.5
       },
       "sixHourNonAttackers": [
         {
@@ -113,21 +113,6 @@
         {
           "tag": "#GJ2LQVQJ",
           "name": "Fer",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#PLU2VCLG",
-          "name": "Phoenix",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#29LP0VJV0",
-          "name": "Warlord Raivon",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#YPVQVU982",
-          "name": "亗 ＨＡＤＥＳ_０７ 亗",
           "townhallLevel": 18
         }
       ],
@@ -385,7 +370,14 @@
           "name": "Phoenix",
           "townhallLevel": 18,
           "mapPosition": 6,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 36,
+              "defenderTag": "#2L8JRRJ8"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -394,7 +386,14 @@
           "name": "Warlord Raivon",
           "townhallLevel": 18,
           "mapPosition": 14,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 38,
+              "defenderTag": "#2YLV2088C"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 2,
@@ -461,7 +460,14 @@
           "name": "亗 ＨＡＤＥＳ_０７ 亗",
           "townhallLevel": 18,
           "mapPosition": 2,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 1,
+              "destructionPercentage": 86,
+              "order": 37,
+              "defenderTag": "#LU9RLURC"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
