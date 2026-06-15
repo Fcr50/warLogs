@@ -10,8 +10,8 @@
       "opponent": {
         "name": "Team Olimpia",
         "tag": "#28CCPCCLU",
-        "stars": 39,
-        "destructionPercentage": 70.9,
+        "stars": 41,
+        "destructionPercentage": 73.6,
         "members": [
           {
             "tag": "#Q9UU8P20",
@@ -96,8 +96,8 @@
         ]
       },
       "clan": {
-        "stars": 55,
-        "destructionPercentage": 94.2
+        "stars": 57,
+        "destructionPercentage": 98.7
       },
       "sixHourNonAttackers": [
         {
@@ -219,7 +219,14 @@
           "name": "Marcola",
           "townhallLevel": 18,
           "mapPosition": 9,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 90,
+              "order": 47,
+              "defenderTag": "#9V29YCRCC"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -271,7 +278,14 @@
           "townhallLevel": 18,
           "mapPosition": 8,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 54,
+              "attackerTag": "#C9JJ2L9L",
+              "attackerMapPosition": 2
+            }
+          ],
           "missedAttacks": 0
         },
         {
