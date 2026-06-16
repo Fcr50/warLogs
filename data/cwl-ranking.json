@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T21:00:27.734Z",
+  "generatedAt": "2026-06-16T21:15:43.883Z",
   "totalWars": 18,
   "liveWar": {
     "opponentName": "Libertarian War",
@@ -537,6 +537,42 @@
         "threeStarRate": 0.875,
         "totalMissed": 1,
         "avgPositionDiff": 2.1052631578947367,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#20JC0J9JR",
+        "name": "BTV✯Robin Hood",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 1.8450270362116483,
+        "rawScore": 1.8450270362116483,
+        "confidence": 1,
+        "tier": "A",
+        "attackScore": 2.828439543887661,
+        "defenseScore": 0.6204700619925156,
+        "reliability": 0.727485380116959,
+        "formScore": 0,
+        "warsInRoster": 14,
+        "attacksUsed": 22,
+        "attacksAvailable": 27,
+        "avgDestruction": 97.86363636363636,
+        "totalAttacks": 22,
+        "totalStars": 63,
+        "count3Stars": 19,
+        "avgStars": 2.8636363636363638,
+        "threeStarRate": 0.8636363636363636,
+        "totalMissed": 3,
+        "avgPositionDiff": 0.045454545454545456,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1089,6 +1125,17 @@
     }
   ],
   "statsByTag": {
+    "#20JC0J9JR": {
+      "tier": "B",
+      "score": 1.8450270362116483,
+      "avgStars": 2.8636363636363638,
+      "totalStars": 63,
+      "totalAttacks": 22,
+      "warsInRoster": 14,
+      "totalMissed": 3,
+      "rank": 16,
+      "normalizedScore": 52.72
+    },
     "#2LY0P2L9U": {
       "tier": "S",
       "score": 2.6091175690247344,
@@ -1113,6 +1160,18 @@
       "prevRank": 13,
       "normalizedScore": 62.12
     },
+    "#GJ2LQVQJ": {
+      "tier": "A",
+      "score": 2.3861582787076427,
+      "avgStars": 2.8222222222222224,
+      "totalStars": 127,
+      "totalAttacks": 45,
+      "warsInRoster": 23,
+      "totalMissed": 0,
+      "rank": 7,
+      "prevRank": 7,
+      "normalizedScore": 68.18
+    },
     "#PLU2VCLG": {
       "tier": "A",
       "score": 2.3718827308244514,
@@ -1136,18 +1195,6 @@
       "rank": 2,
       "prevRank": 2,
       "normalizedScore": 72.34
-    },
-    "#GJ2LQVQJ": {
-      "tier": "A",
-      "score": 2.3861582787076427,
-      "avgStars": 2.8222222222222224,
-      "totalStars": 127,
-      "totalAttacks": 45,
-      "warsInRoster": 23,
-      "totalMissed": 0,
-      "rank": 7,
-      "prevRank": 7,
-      "normalizedScore": 68.18
     },
     "#2QL0VR9GU": {
       "tier": "A",
@@ -1281,7 +1328,7 @@
       "totalAttacks": 4,
       "warsInRoster": 2,
       "totalMissed": 0,
-      "rank": 17,
+      "rank": 18,
       "prevRank": 17,
       "normalizedScore": 46.37
     },
@@ -1305,7 +1352,7 @@
       "totalAttacks": 21,
       "warsInRoster": 11,
       "totalMissed": 1,
-      "rank": 16,
+      "rank": 17,
       "prevRank": 16,
       "normalizedScore": 52.06
     },
@@ -1349,7 +1396,7 @@
       "totalAttacks": 4,
       "warsInRoster": 9,
       "totalMissed": 10,
-      "rank": 19,
+      "rank": 20,
       "prevRank": 19,
       "normalizedScore": -1.96
     },
@@ -1413,7 +1460,7 @@
       "totalAttacks": 3,
       "warsInRoster": 3,
       "totalMissed": 2,
-      "rank": 18,
+      "rank": 19,
       "prevRank": 18,
       "normalizedScore": 15.62
     },
@@ -1425,7 +1472,7 @@
       "totalAttacks": 2,
       "warsInRoster": 6,
       "totalMissed": 8,
-      "rank": 20,
+      "rank": 21,
       "prevRank": 20,
       "normalizedScore": -6.4
     },
