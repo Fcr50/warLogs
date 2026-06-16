@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T14:45:43.910Z",
+  "generatedAt": "2026-06-16T15:01:20.143Z",
   "totalWars": 18,
   "liveWar": {
     "opponentName": "Libertarian War",
@@ -981,6 +981,42 @@
     },
     {
       "player": {
+        "tag": "#P80JRLGPJ",
+        "name": "Mendonça",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 0,
+        "rawScore": 0,
+        "confidence": 0,
+        "tier": "F",
+        "attackScore": 0,
+        "defenseScore": 0,
+        "reliability": 0,
+        "formScore": 0,
+        "warsInRoster": 0,
+        "attacksUsed": 0,
+        "attacksAvailable": 0,
+        "avgDestruction": 0,
+        "totalAttacks": 0,
+        "totalStars": 0,
+        "count3Stars": 0,
+        "avgStars": 0,
+        "threeStarRate": 0,
+        "totalMissed": 0,
+        "avgPositionDiff": 0,
+        "hasAnyDefense": false,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.56,
+          "defense": 0,
+          "reliability": 0.3067,
+          "form": 0.1333
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#28CJUCCQV",
         "name": "Perdigueiro",
         "townhallLevel": 18
@@ -1019,42 +1055,6 @@
       "player": {
         "tag": "#CCJ8YYRY",
         "name": "Rodrigues",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 0,
-        "rawScore": 0,
-        "confidence": 0,
-        "tier": "F",
-        "attackScore": 0,
-        "defenseScore": 0,
-        "reliability": 0,
-        "formScore": 0,
-        "warsInRoster": 0,
-        "attacksUsed": 0,
-        "attacksAvailable": 0,
-        "avgDestruction": 0,
-        "totalAttacks": 0,
-        "totalStars": 0,
-        "count3Stars": 0,
-        "avgStars": 0,
-        "threeStarRate": 0,
-        "totalMissed": 0,
-        "avgPositionDiff": 0,
-        "hasAnyDefense": false,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.56,
-          "defense": 0,
-          "reliability": 0.3067,
-          "form": 0.1333
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#P80JRLGPJ",
-        "name": "Mendonça",
         "townhallLevel": 18
       },
       "data": {
@@ -1263,6 +1263,13 @@
     },
     {
       "player": {
+        "tag": "#P80JRLGPJ",
+        "name": "Mendonça",
+        "townhallLevel": 18
+      }
+    },
+    {
+      "player": {
         "tag": "#28CJUCCQV",
         "name": "Perdigueiro",
         "townhallLevel": 18
@@ -1272,13 +1279,6 @@
       "player": {
         "tag": "#CCJ8YYRY",
         "name": "Rodrigues",
-        "townhallLevel": 18
-      }
-    },
-    {
-      "player": {
-        "tag": "#P80JRLGPJ",
-        "name": "Mendonça",
         "townhallLevel": 18
       }
     },
@@ -1435,7 +1435,7 @@
       "warsInRoster": 22,
       "totalMissed": 1,
       "rank": 22,
-      "prevRank": 21,
+      "prevRank": 22,
       "normalizedScore": 57.27
     },
     "#2Q988RUYG": {
@@ -1459,6 +1459,16 @@
       "rank": 3,
       "prevRank": 3,
       "normalizedScore": 71.73
+    },
+    "#P80JRLGPJ": {
+      "tier": "F",
+      "score": 0,
+      "avgStars": 0,
+      "totalStars": 0,
+      "totalAttacks": 0,
+      "warsInRoster": 0,
+      "totalMissed": 0,
+      "normalizedScore": 0
     },
     "#8CJ8YJY0P": {
       "tier": "A",
@@ -1484,18 +1494,6 @@
       "prevRank": 11,
       "normalizedScore": 67.4
     },
-    "#QRGR9R8R2": {
-      "tier": "B",
-      "score": 1.622778626126126,
-      "avgStars": 3,
-      "totalStars": 12,
-      "totalAttacks": 4,
-      "warsInRoster": 2,
-      "totalMissed": 0,
-      "rank": 26,
-      "prevRank": 25,
-      "normalizedScore": 46.37
-    },
     "#2GP2JUU2": {
       "tier": "A",
       "score": 2.3996161083914753,
@@ -1519,6 +1517,18 @@
       "rank": 2,
       "prevRank": 2,
       "normalizedScore": 72.34
+    },
+    "#QRGR9R8R2": {
+      "tier": "B",
+      "score": 1.622778626126126,
+      "avgStars": 3,
+      "totalStars": 12,
+      "totalAttacks": 4,
+      "warsInRoster": 2,
+      "totalMissed": 0,
+      "rank": 26,
+      "prevRank": 26,
+      "normalizedScore": 46.37
     },
     "#YPVQVU982": {
       "tier": "B",
@@ -1553,7 +1563,7 @@
       "warsInRoster": 11,
       "totalMissed": 1,
       "rank": 24,
-      "prevRank": 23,
+      "prevRank": 24,
       "normalizedScore": 52.06
     },
     "#28CJUCCQV": {
@@ -1575,6 +1585,7 @@
       "warsInRoster": 17,
       "totalMissed": 0,
       "rank": 21,
+      "prevRank": 21,
       "normalizedScore": 58.92
     },
     "#CCJ8YYRY": {
@@ -1620,7 +1631,7 @@
       "warsInRoster": 9,
       "totalMissed": 10,
       "rank": 29,
-      "prevRank": 28,
+      "prevRank": 29,
       "normalizedScore": -1.96
     },
     "#LQQRGJ8VU": {
@@ -1646,16 +1657,6 @@
       "rank": 18,
       "prevRank": 18,
       "normalizedScore": 61.52
-    },
-    "#P80JRLGPJ": {
-      "tier": "F",
-      "score": 0,
-      "avgStars": 0,
-      "totalStars": 0,
-      "totalAttacks": 0,
-      "warsInRoster": 0,
-      "totalMissed": 0,
-      "normalizedScore": 0
     },
     "#QR0RVL2VJ": {
       "tier": "F",
@@ -1718,7 +1719,7 @@
       "warsInRoster": 9,
       "totalMissed": 2,
       "rank": 25,
-      "prevRank": 24,
+      "prevRank": 25,
       "normalizedScore": 49.91
     },
     "#VPPQ8VLV": {
@@ -1742,7 +1743,7 @@
       "warsInRoster": 13,
       "totalMissed": 0,
       "rank": 27,
-      "prevRank": 26,
+      "prevRank": 27,
       "normalizedScore": 42.47
     },
     "#2LGC8PGRY": {
@@ -1754,7 +1755,7 @@
       "warsInRoster": 8,
       "totalMissed": 0,
       "rank": 23,
-      "prevRank": 22,
+      "prevRank": 23,
       "normalizedScore": 56
     },
     "#LR2U2PRP2": {
@@ -1766,7 +1767,7 @@
       "warsInRoster": 3,
       "totalMissed": 2,
       "rank": 28,
-      "prevRank": 27,
+      "prevRank": 28,
       "normalizedScore": 15.62
     },
     "#GQ8URLCLP": {
@@ -1778,7 +1779,7 @@
       "warsInRoster": 6,
       "totalMissed": 8,
       "rank": 30,
-      "prevRank": 29,
+      "prevRank": 30,
       "normalizedScore": -6.4
     },
     "#P008YJGCC": {
