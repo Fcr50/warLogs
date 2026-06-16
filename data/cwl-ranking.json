@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T22:30:30.476Z",
+  "generatedAt": "2026-06-16T22:45:26.371Z",
   "totalWars": 18,
   "liveWar": {
     "opponentName": "Libertarian War",
@@ -765,6 +765,42 @@
     },
     {
       "player": {
+        "tag": "#28CJUCCQV",
+        "name": "Perdigueiro",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 0,
+        "rawScore": 0,
+        "confidence": 0,
+        "tier": "F",
+        "attackScore": 0,
+        "defenseScore": 0,
+        "reliability": 0,
+        "formScore": 0,
+        "warsInRoster": 0,
+        "attacksUsed": 0,
+        "attacksAvailable": 0,
+        "avgDestruction": 0,
+        "totalAttacks": 0,
+        "totalStars": 0,
+        "count3Stars": 0,
+        "avgStars": 0,
+        "threeStarRate": 0,
+        "totalMissed": 0,
+        "avgPositionDiff": 0,
+        "hasAnyDefense": false,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.56,
+          "defense": 0,
+          "reliability": 0.3067,
+          "form": 0.1333
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#G80RJJ2UQ",
         "name": "Jaison",
         "townhallLevel": 18
@@ -803,42 +839,6 @@
       "player": {
         "tag": "#2Q988RUYG",
         "name": "JAN SPFC",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 0,
-        "rawScore": 0,
-        "confidence": 0,
-        "tier": "F",
-        "attackScore": 0,
-        "defenseScore": 0,
-        "reliability": 0,
-        "formScore": 0,
-        "warsInRoster": 0,
-        "attacksUsed": 0,
-        "attacksAvailable": 0,
-        "avgDestruction": 0,
-        "totalAttacks": 0,
-        "totalStars": 0,
-        "count3Stars": 0,
-        "avgStars": 0,
-        "threeStarRate": 0,
-        "totalMissed": 0,
-        "avgPositionDiff": 0,
-        "hasAnyDefense": false,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.56,
-          "defense": 0,
-          "reliability": 0.3067,
-          "form": 0.1333
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#28CJUCCQV",
-        "name": "Perdigueiro",
         "townhallLevel": 18
       },
       "data": {
@@ -1069,6 +1069,13 @@
     },
     {
       "player": {
+        "tag": "#28CJUCCQV",
+        "name": "Perdigueiro",
+        "townhallLevel": 18
+      }
+    },
+    {
+      "player": {
         "tag": "#G80RJJ2UQ",
         "name": "Jaison",
         "townhallLevel": 18
@@ -1078,13 +1085,6 @@
       "player": {
         "tag": "#2Q988RUYG",
         "name": "JAN SPFC",
-        "townhallLevel": 18
-      }
-    },
-    {
-      "player": {
-        "tag": "#28CJUCCQV",
-        "name": "Perdigueiro",
         "townhallLevel": 18
       }
     },
@@ -1277,6 +1277,16 @@
       "prevRank": 4,
       "normalizedScore": 71.54
     },
+    "#28CJUCCQV": {
+      "tier": "F",
+      "score": 0,
+      "avgStars": 0,
+      "totalStars": 0,
+      "totalAttacks": 0,
+      "warsInRoster": 0,
+      "totalMissed": 0,
+      "normalizedScore": 0
+    },
     "#G80RJJ2UQ": {
       "tier": "F",
       "score": 0,
@@ -1297,15 +1307,17 @@
       "totalMissed": 0,
       "normalizedScore": 0
     },
-    "#28CJUCCQV": {
-      "tier": "F",
-      "score": 0,
-      "avgStars": 0,
-      "totalStars": 0,
-      "totalAttacks": 0,
-      "warsInRoster": 0,
+    "#8CJ8YJY0P": {
+      "tier": "A",
+      "score": 2.467175656774554,
+      "avgStars": 2.8085106382978724,
+      "totalStars": 132,
+      "totalAttacks": 47,
+      "warsInRoster": 24,
       "totalMissed": 0,
-      "normalizedScore": 0
+      "rank": 5,
+      "prevRank": 5,
+      "normalizedScore": 70.49
     },
     "#80LUCC9YV": {
       "tier": "A",
@@ -1318,18 +1330,6 @@
       "rank": 9,
       "prevRank": 9,
       "normalizedScore": 67.4
-    },
-    "#8CJ8YJY0P": {
-      "tier": "A",
-      "score": 2.467175656774554,
-      "avgStars": 2.8085106382978724,
-      "totalStars": 132,
-      "totalAttacks": 47,
-      "warsInRoster": 24,
-      "totalMissed": 0,
-      "rank": 5,
-      "prevRank": 5,
-      "normalizedScore": 70.49
     },
     "#QRGR9R8R2": {
       "tier": "B",
