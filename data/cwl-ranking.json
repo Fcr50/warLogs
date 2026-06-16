@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T19:16:04.101Z",
+  "generatedAt": "2026-06-16T19:30:53.979Z",
   "totalWars": 18,
   "liveWar": {
     "opponentName": "Libertarian War",
@@ -657,6 +657,42 @@
     },
     {
       "player": {
+        "tag": "#88Q8Y009",
+        "name": "Submundo",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 0,
+        "rawScore": 0,
+        "confidence": 0,
+        "tier": "F",
+        "attackScore": 0,
+        "defenseScore": 0,
+        "reliability": 0,
+        "formScore": 0,
+        "warsInRoster": 0,
+        "attacksUsed": 0,
+        "attacksAvailable": 0,
+        "avgDestruction": 0,
+        "totalAttacks": 0,
+        "totalStars": 0,
+        "count3Stars": 0,
+        "avgStars": 0,
+        "threeStarRate": 0,
+        "totalMissed": 0,
+        "avgPositionDiff": 0,
+        "hasAnyDefense": false,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.56,
+          "defense": 0,
+          "reliability": 0.3067,
+          "form": 0.1333
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#P80JRLGPJ",
         "name": "Mendonça",
         "townhallLevel": 18
@@ -695,42 +731,6 @@
       "player": {
         "tag": "#G80RJJ2UQ",
         "name": "Jaison",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 0,
-        "rawScore": 0,
-        "confidence": 0,
-        "tier": "F",
-        "attackScore": 0,
-        "defenseScore": 0,
-        "reliability": 0,
-        "formScore": 0,
-        "warsInRoster": 0,
-        "attacksUsed": 0,
-        "attacksAvailable": 0,
-        "avgDestruction": 0,
-        "totalAttacks": 0,
-        "totalStars": 0,
-        "count3Stars": 0,
-        "avgStars": 0,
-        "threeStarRate": 0,
-        "totalMissed": 0,
-        "avgPositionDiff": 0,
-        "hasAnyDefense": false,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.56,
-          "defense": 0,
-          "reliability": 0.3067,
-          "form": 0.1333
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#88Q8Y009",
-        "name": "Submundo",
         "townhallLevel": 18
       },
       "data": {
@@ -1019,6 +1019,13 @@
   "noDataList": [
     {
       "player": {
+        "tag": "#88Q8Y009",
+        "name": "Submundo",
+        "townhallLevel": 18
+      }
+    },
+    {
+      "player": {
         "tag": "#P80JRLGPJ",
         "name": "Mendonça",
         "townhallLevel": 18
@@ -1028,13 +1035,6 @@
       "player": {
         "tag": "#G80RJJ2UQ",
         "name": "Jaison",
-        "townhallLevel": 18
-      }
-    },
-    {
-      "player": {
-        "tag": "#88Q8Y009",
-        "name": "Submundo",
         "townhallLevel": 18
       }
     },
@@ -1197,6 +1197,16 @@
       "prevRank": 4,
       "normalizedScore": 71.54
     },
+    "#88Q8Y009": {
+      "tier": "F",
+      "score": 0,
+      "avgStars": 0,
+      "totalStars": 0,
+      "totalAttacks": 0,
+      "warsInRoster": 0,
+      "totalMissed": 0,
+      "normalizedScore": 0
+    },
     "#P80JRLGPJ": {
       "tier": "F",
       "score": 0,
@@ -1208,16 +1218,6 @@
       "normalizedScore": 0
     },
     "#G80RJJ2UQ": {
-      "tier": "F",
-      "score": 0,
-      "avgStars": 0,
-      "totalStars": 0,
-      "totalAttacks": 0,
-      "warsInRoster": 0,
-      "totalMissed": 0,
-      "normalizedScore": 0
-    },
-    "#88Q8Y009": {
       "tier": "F",
       "score": 0,
       "avgStars": 0,
