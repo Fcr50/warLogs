@@ -1,6 +1,6 @@
 {
   "season": "2026-06-16",
-  "generatedAt": "2026-06-17T21:45:22.504Z",
+  "generatedAt": "2026-06-17T22:00:33.202Z",
   "state": "inWar",
   "rounds": [
     {
@@ -10,9 +10,9 @@
       "result": "inProgress",
       "opponentName": "The Pantheon",
       "opponentTag": "#2R0Y82YVQ",
-      "clanStars": 20,
+      "clanStars": 22,
       "opponentStars": 35,
-      "clanDestructionPct": 56.93333333333333,
+      "clanDestructionPct": 63.13333333333333,
       "teamSize": 15,
       "members": [
         {
@@ -27,7 +27,12 @@
           "name": "Dr.Hannibal",
           "townhallLevel": 18,
           "mapPosition": 13,
-          "attack": null
+          "attack": {
+            "defenderTag": "#PJYP9GVUL",
+            "defenderMapPosition": 13,
+            "stars": 2,
+            "destructionPercentage": 93
+          }
         },
         {
           "tag": "#2LY0P2L9U",
