@@ -1,6 +1,6 @@
 {
   "season": "2026-06-16",
-  "generatedAt": "2026-06-17T17:45:33.654Z",
+  "generatedAt": "2026-06-17T18:00:35.220Z",
   "state": "inWar",
   "rounds": [
     {
@@ -10,9 +10,9 @@
       "result": "inProgress",
       "opponentName": "The Pantheon",
       "opponentTag": "#2R0Y82YVQ",
-      "clanStars": 3,
-      "opponentStars": 18,
-      "clanDestructionPct": 6.666666666666667,
+      "clanStars": 4,
+      "opponentStars": 27,
+      "clanDestructionPct": 12.133333333333333,
       "teamSize": 15,
       "members": [
         {
@@ -95,7 +95,12 @@
           "name": "Phoenix",
           "townhallLevel": 18,
           "mapPosition": 5,
-          "attack": null
+          "attack": {
+            "defenderTag": "#QY9PRQLPG",
+            "defenderMapPosition": 3,
+            "stars": 1,
+            "destructionPercentage": 82
+          }
         },
         {
           "tag": "#80LUCC9YV",
