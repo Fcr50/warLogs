@@ -1,6 +1,6 @@
 {
   "season": "2026-06-16",
-  "generatedAt": "2026-06-17T18:30:27.575Z",
+  "generatedAt": "2026-06-17T18:45:28.145Z",
   "state": "inWar",
   "rounds": [
     {
@@ -10,9 +10,9 @@
       "result": "inProgress",
       "opponentName": "The Pantheon",
       "opponentTag": "#2R0Y82YVQ",
-      "clanStars": 11,
+      "clanStars": 14,
       "opponentStars": 27,
-      "clanDestructionPct": 36.93333333333333,
+      "clanDestructionPct": 43.6,
       "teamSize": 15,
       "members": [
         {
@@ -34,7 +34,12 @@
           "name": "LucasHG9",
           "townhallLevel": 18,
           "mapPosition": 10,
-          "attack": null
+          "attack": {
+            "defenderTag": "#Y8Y8V0YCU",
+            "defenderMapPosition": 10,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#QQC8P9C9R",
