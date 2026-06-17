@@ -1,6 +1,6 @@
 {
   "season": "2026-06-16",
-  "generatedAt": "2026-06-17T22:30:26.496Z",
+  "generatedAt": "2026-06-17T22:45:26.870Z",
   "state": "inWar",
   "rounds": [
     {
@@ -10,9 +10,9 @@
       "result": "inProgress",
       "opponentName": "The Pantheon",
       "opponentTag": "#2R0Y82YVQ",
-      "clanStars": 22,
+      "clanStars": 25,
       "opponentStars": 38,
-      "clanDestructionPct": 63.13333333333333,
+      "clanDestructionPct": 69.8,
       "teamSize": 15,
       "members": [
         {
@@ -51,7 +51,12 @@
           "name": "Gs.prieto",
           "townhallLevel": 18,
           "mapPosition": 14,
-          "attack": null
+          "attack": {
+            "defenderTag": "#QYRY8C2PQ",
+            "defenderMapPosition": 14,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#QRGR9R8R2",
