@@ -1,6 +1,6 @@
 {
   "season": "2026-06-16",
-  "generatedAt": "2026-06-17T21:15:29.734Z",
+  "generatedAt": "2026-06-17T21:30:26.999Z",
   "state": "inWar",
   "rounds": [
     {
@@ -10,9 +10,9 @@
       "result": "inProgress",
       "opponentName": "The Pantheon",
       "opponentTag": "#2R0Y82YVQ",
-      "clanStars": 17,
-      "opponentStars": 30,
-      "clanDestructionPct": 50.266666666666666,
+      "clanStars": 20,
+      "opponentStars": 33,
+      "clanDestructionPct": 56.93333333333333,
       "teamSize": 15,
       "members": [
         {
@@ -72,7 +72,12 @@
           "name": "Gustavo Lázaro",
           "townhallLevel": 18,
           "mapPosition": 9,
-          "attack": null
+          "attack": {
+            "defenderTag": "#QL28GQGUQ",
+            "defenderMapPosition": 9,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#LQQRGJ8VU",
