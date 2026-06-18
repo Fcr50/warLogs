@@ -1,6 +1,6 @@
 {
   "season": "2026-06-16",
-  "generatedAt": "2026-06-18T05:00:42.645Z",
+  "generatedAt": "2026-06-18T05:15:26.526Z",
   "state": "inWar",
   "rounds": [
     {
@@ -10,9 +10,9 @@
       "result": "inProgress",
       "opponentName": "The Pantheon",
       "opponentTag": "#2R0Y82YVQ",
-      "clanStars": 34,
+      "clanStars": 37,
       "opponentStars": 38,
-      "clanDestructionPct": 89.8,
+      "clanDestructionPct": 96.46666666666667,
       "teamSize": 15,
       "members": [
         {
@@ -20,7 +20,12 @@
           "name": "Satsugai",
           "townhallLevel": 18,
           "mapPosition": 15,
-          "attack": null
+          "attack": {
+            "defenderTag": "#LG0VCPPP0",
+            "defenderMapPosition": 15,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#QR8R9QUV8",
