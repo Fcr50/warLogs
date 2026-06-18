@@ -1,6 +1,6 @@
 {
   "season": "2026-06-16",
-  "generatedAt": "2026-06-18T18:45:25.218Z",
+  "generatedAt": "2026-06-18T19:00:46.108Z",
   "state": "inWar",
   "rounds": [
     {
@@ -204,9 +204,9 @@
       "result": "inProgress",
       "opponentName": "돌을 닥는중",
       "opponentTag": "#2YQQQLCRV",
-      "clanStars": 16,
+      "clanStars": 22,
       "opponentStars": 12,
-      "clanDestructionPct": 38.8,
+      "clanDestructionPct": 52.13333333333333,
       "teamSize": 15,
       "members": [
         {
@@ -297,7 +297,12 @@
           "name": "Fer",
           "townhallLevel": 18,
           "mapPosition": 4,
-          "attack": null
+          "attack": {
+            "defenderTag": "#GLLJ2JQY",
+            "defenderMapPosition": 1,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#PLU2VCLG",
@@ -335,7 +340,12 @@
           "name": "Frnnn",
           "townhallLevel": 18,
           "mapPosition": 7,
-          "attack": null
+          "attack": {
+            "defenderTag": "#8GUPRQRL2",
+            "defenderMapPosition": 7,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#PPPUQPVJY",
