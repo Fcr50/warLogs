@@ -1,6 +1,6 @@
 {
   "season": "2026-06-16",
-  "generatedAt": "2026-06-18T17:00:40.329Z",
+  "generatedAt": "2026-06-18T17:15:25.452Z",
   "state": "inWar",
   "rounds": [
     {
@@ -204,9 +204,9 @@
       "result": "inProgress",
       "opponentName": "돌을 닥는중",
       "opponentTag": "#2YQQQLCRV",
-      "clanStars": 0,
-      "opponentStars": 3,
-      "clanDestructionPct": 0,
+      "clanStars": 6,
+      "opponentStars": 6,
+      "clanDestructionPct": 13.333333333333334,
       "teamSize": 15,
       "members": [
         {
@@ -242,7 +242,12 @@
           "name": "Marcola",
           "townhallLevel": 18,
           "mapPosition": 11,
-          "attack": null
+          "attack": {
+            "defenderTag": "#LLUVRJR8V",
+            "defenderMapPosition": 10,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#8CJ8YJY0P",
@@ -291,7 +296,12 @@
           "name": "Lobo ®",
           "townhallLevel": 18,
           "mapPosition": 3,
-          "attack": null
+          "attack": {
+            "defenderTag": "#2GG9Y292R",
+            "defenderMapPosition": 2,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#P9C0LVLU2",
