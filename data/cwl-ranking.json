@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T12:33:16.199Z",
+  "generatedAt": "2026-06-19T12:45:21.081Z",
   "totalWars": 18,
   "liveWar": {
     "opponentName": "Libertarian War",
@@ -621,6 +621,42 @@
     },
     {
       "player": {
+        "tag": "#2R89QJL9Q",
+        "name": "Hisoka",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 1.5879892162632823,
+        "rawScore": 1.5879892162632823,
+        "confidence": 1,
+        "tier": "B",
+        "attackScore": 2.329316470524403,
+        "defenseScore": 0.2585839824509199,
+        "reliability": 0.7898989898989899,
+        "formScore": 0,
+        "warsInRoster": 16,
+        "attacksUsed": 28,
+        "attacksAvailable": 32,
+        "avgDestruction": 91.96428571428571,
+        "totalAttacks": 28,
+        "totalStars": 70,
+        "count3Stars": 17,
+        "avgStars": 2.5,
+        "threeStarRate": 0.6071428571428571,
+        "totalMissed": 2,
+        "avgPositionDiff": -9.076923076923077,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#QLGP0JGPJ",
         "name": "igg2.0",
         "townhallLevel": 18
@@ -1203,6 +1239,17 @@
       "prevRank": 18,
       "normalizedScore": 46.37
     },
+    "#2R89QJL9Q": {
+      "tier": "B",
+      "score": 1.5879892162632823,
+      "avgStars": 2.5,
+      "totalStars": 70,
+      "totalAttacks": 28,
+      "warsInRoster": 16,
+      "totalMissed": 2,
+      "rank": 19,
+      "normalizedScore": 45.37
+    },
     "#8C9Q2RVL9": {
       "tier": "F",
       "score": 0,
@@ -1233,7 +1280,7 @@
       "totalAttacks": 4,
       "warsInRoster": 9,
       "totalMissed": 10,
-      "rank": 20,
+      "rank": 21,
       "prevRank": 20,
       "normalizedScore": -1.96
     },
@@ -1319,7 +1366,7 @@
       "totalAttacks": 3,
       "warsInRoster": 3,
       "totalMissed": 2,
-      "rank": 19,
+      "rank": 20,
       "prevRank": 19,
       "normalizedScore": 15.62
     },
@@ -1331,7 +1378,7 @@
       "totalAttacks": 2,
       "warsInRoster": 6,
       "totalMissed": 8,
-      "rank": 21,
+      "rank": 22,
       "prevRank": 21,
       "normalizedScore": -6.4
     },
