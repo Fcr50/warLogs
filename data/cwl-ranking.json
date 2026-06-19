@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T19:30:56.110Z",
+  "generatedAt": "2026-06-19T19:45:23.256Z",
   "totalWars": 18,
   "liveWar": {
     "opponentName": "Libertarian War",
@@ -693,6 +693,42 @@
     },
     {
       "player": {
+        "tag": "#20QJ800UQ",
+        "name": "crazy man",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 0,
+        "rawScore": 0,
+        "confidence": 0,
+        "tier": "F",
+        "attackScore": 0,
+        "defenseScore": 0,
+        "reliability": 0,
+        "formScore": 0,
+        "warsInRoster": 0,
+        "attacksUsed": 0,
+        "attacksAvailable": 0,
+        "avgDestruction": 0,
+        "totalAttacks": 0,
+        "totalStars": 0,
+        "count3Stars": 0,
+        "avgStars": 0,
+        "threeStarRate": 0,
+        "totalMissed": 0,
+        "avgPositionDiff": 0,
+        "hasAnyDefense": false,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.56,
+          "defense": 0,
+          "reliability": 0.3067,
+          "form": 0.1333
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#QG990URPU",
         "name": "GUILHERME",
         "townhallLevel": 18
@@ -803,42 +839,6 @@
       "player": {
         "tag": "#QQJL8CCQR",
         "name": "Lambreta77",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 0,
-        "rawScore": 0,
-        "confidence": 0,
-        "tier": "F",
-        "attackScore": 0,
-        "defenseScore": 0,
-        "reliability": 0,
-        "formScore": 0,
-        "warsInRoster": 0,
-        "attacksUsed": 0,
-        "attacksAvailable": 0,
-        "avgDestruction": 0,
-        "totalAttacks": 0,
-        "totalStars": 0,
-        "count3Stars": 0,
-        "avgStars": 0,
-        "threeStarRate": 0,
-        "totalMissed": 0,
-        "avgPositionDiff": 0,
-        "hasAnyDefense": false,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.56,
-          "defense": 0,
-          "reliability": 0.3067,
-          "form": 0.1333
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#20QJ800UQ",
-        "name": "crazy man",
         "townhallLevel": 18
       },
       "data": {
@@ -1494,6 +1494,13 @@
     },
     {
       "player": {
+        "tag": "#20QJ800UQ",
+        "name": "crazy man",
+        "townhallLevel": 18
+      }
+    },
+    {
+      "player": {
         "tag": "#QG990URPU",
         "name": "GUILHERME",
         "townhallLevel": 18
@@ -1517,13 +1524,6 @@
       "player": {
         "tag": "#QQJL8CCQR",
         "name": "Lambreta77",
-        "townhallLevel": 18
-      }
-    },
-    {
-      "player": {
-        "tag": "#20QJ800UQ",
-        "name": "crazy man",
         "townhallLevel": 18
       }
     },
@@ -1814,6 +1814,16 @@
       "prevRank": 14,
       "normalizedScore": 60.74
     },
+    "#20QJ800UQ": {
+      "tier": "F",
+      "score": 0,
+      "avgStars": 0,
+      "totalStars": 0,
+      "totalAttacks": 0,
+      "warsInRoster": 0,
+      "totalMissed": 0,
+      "normalizedScore": 0
+    },
     "#80LUCC9YV": {
       "tier": "A",
       "score": 2.3591105191782775,
@@ -1866,28 +1876,6 @@
       "totalMissed": 0,
       "normalizedScore": 0
     },
-    "#QRGR9R8R2": {
-      "tier": "B",
-      "score": 1.622778626126126,
-      "avgStars": 3,
-      "totalStars": 12,
-      "totalAttacks": 4,
-      "warsInRoster": 2,
-      "totalMissed": 0,
-      "rank": 18,
-      "prevRank": 18,
-      "normalizedScore": 46.37
-    },
-    "#20QJ800UQ": {
-      "tier": "F",
-      "score": 0,
-      "avgStars": 0,
-      "totalStars": 0,
-      "totalAttacks": 0,
-      "warsInRoster": 0,
-      "totalMissed": 0,
-      "normalizedScore": 0
-    },
     "#8VCUUPPJP": {
       "tier": "A",
       "score": 2.2976870076141185,
@@ -1899,6 +1887,18 @@
       "rank": 10,
       "prevRank": 10,
       "normalizedScore": 65.65
+    },
+    "#QRGR9R8R2": {
+      "tier": "B",
+      "score": 1.622778626126126,
+      "avgStars": 3,
+      "totalStars": 12,
+      "totalAttacks": 4,
+      "warsInRoster": 2,
+      "totalMissed": 0,
+      "rank": 18,
+      "prevRank": 18,
+      "normalizedScore": 46.37
     },
     "#G2LGU0JVR": {
       "tier": "F",
