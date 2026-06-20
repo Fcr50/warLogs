@@ -1,6 +1,6 @@
 {
   "season": "2026-06-16",
-  "generatedAt": "2026-06-20T02:00:27.638Z",
+  "generatedAt": "2026-06-20T02:15:45.545Z",
   "state": "inWar",
   "rounds": [
     {
@@ -398,9 +398,9 @@
       "result": "inProgress",
       "opponentName": "Black Mamba",
       "opponentTag": "#2Y0QGLPC2",
-      "clanStars": 38,
+      "clanStars": 41,
       "opponentStars": 23,
-      "clanDestructionPct": 86.06666666666666,
+      "clanDestructionPct": 92.73333333333333,
       "teamSize": 15,
       "members": [
         {
@@ -571,7 +571,12 @@
           "name": "Rodrigo",
           "townhallLevel": 18,
           "mapPosition": 17,
-          "attack": null
+          "attack": {
+            "defenderTag": "#8Q8YLCC2",
+            "defenderMapPosition": 16,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         }
       ]
     },
