@@ -1,6 +1,6 @@
 {
   "season": "2026-06-16",
-  "generatedAt": "2026-06-20T21:00:29.225Z",
+  "generatedAt": "2026-06-20T21:15:30.041Z",
   "state": "inWar",
   "rounds": [
     {
@@ -592,9 +592,9 @@
       "result": "inProgress",
       "opponentName": "BALESTREET",
       "opponentTag": "#8JCLPGUP",
-      "clanStars": 28,
+      "clanStars": 33,
       "opponentStars": 23,
-      "clanDestructionPct": 66.4,
+      "clanDestructionPct": 79.06666666666666,
       "teamSize": 15,
       "members": [
         {
@@ -609,7 +609,12 @@
           "name": "Dr.Hannibal",
           "townhallLevel": 18,
           "mapPosition": 14,
-          "attack": null
+          "attack": {
+            "defenderTag": "#QLUJ2LYL8",
+            "defenderMapPosition": 14,
+            "stars": 2,
+            "destructionPercentage": 90
+          }
         },
         {
           "tag": "#2LY0P2L9U",
@@ -659,7 +664,12 @@
           "name": "Gustavo Lázaro",
           "townhallLevel": 18,
           "mapPosition": 10,
-          "attack": null
+          "attack": {
+            "defenderTag": "#R28V9VUQ",
+            "defenderMapPosition": 6,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#QGQJGURCL",
