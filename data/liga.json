@@ -1,6 +1,6 @@
 {
   "season": "2026-06-16",
-  "generatedAt": "2026-06-20T18:30:26.873Z",
+  "generatedAt": "2026-06-20T18:45:31.084Z",
   "state": "inWar",
   "rounds": [
     {
@@ -592,9 +592,9 @@
       "result": "inProgress",
       "opponentName": "BALESTREET",
       "opponentTag": "#8JCLPGUP",
-      "clanStars": 13,
+      "clanStars": 16,
       "opponentStars": 17,
-      "clanDestructionPct": 33.06666666666667,
+      "clanDestructionPct": 39.733333333333334,
       "teamSize": 15,
       "members": [
         {
@@ -630,7 +630,12 @@
           "name": "Marcola",
           "townhallLevel": 18,
           "mapPosition": 11,
-          "attack": null
+          "attack": {
+            "defenderTag": "#LRY80QGCP",
+            "defenderMapPosition": 11,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#8CJ8YJY0P",
