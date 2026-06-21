@@ -1,6 +1,6 @@
 {
   "season": "2026-06-16",
-  "generatedAt": "2026-06-21T22:15:24.567Z",
+  "generatedAt": "2026-06-21T22:30:26.595Z",
   "state": "inWar",
   "rounds": [
     {
@@ -786,9 +786,9 @@
       "result": "inProgress",
       "opponentName": "EXECUTIONERS",
       "opponentTag": "#2JC088QQC",
-      "clanStars": 32,
+      "clanStars": 35,
       "opponentStars": 0,
-      "clanDestructionPct": 73.13333333333334,
+      "clanDestructionPct": 79.8,
       "teamSize": 15,
       "members": [
         {
@@ -863,7 +863,12 @@
           "name": "Gustavo Lázaro",
           "townhallLevel": 18,
           "mapPosition": 10,
-          "attack": null
+          "attack": {
+            "defenderTag": "#80RP0UJL0",
+            "defenderMapPosition": 9,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#LQQRGJ8VU",
