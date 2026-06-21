@@ -1,6 +1,6 @@
 {
   "season": "2026-06-16",
-  "generatedAt": "2026-06-21T20:45:28.741Z",
+  "generatedAt": "2026-06-21T21:00:37.075Z",
   "state": "inWar",
   "rounds": [
     {
@@ -786,9 +786,9 @@
       "result": "inProgress",
       "opponentName": "EXECUTIONERS",
       "opponentTag": "#2JC088QQC",
-      "clanStars": 29,
+      "clanStars": 32,
       "opponentStars": 0,
-      "clanDestructionPct": 66.46666666666667,
+      "clanDestructionPct": 73.13333333333334,
       "teamSize": 15,
       "members": [
         {
@@ -889,7 +889,12 @@
           "name": "Fer",
           "townhallLevel": 18,
           "mapPosition": 3,
-          "attack": null
+          "attack": {
+            "defenderTag": "#VUUCQQ9Q",
+            "defenderMapPosition": 3,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#PLU2VCLG",
