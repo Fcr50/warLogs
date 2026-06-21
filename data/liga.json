@@ -1,6 +1,6 @@
 {
   "season": "2026-06-16",
-  "generatedAt": "2026-06-21T19:30:26.541Z",
+  "generatedAt": "2026-06-21T19:45:26.039Z",
   "state": "inWar",
   "rounds": [
     {
@@ -786,9 +786,9 @@
       "result": "inProgress",
       "opponentName": "EXECUTIONERS",
       "opponentTag": "#2JC088QQC",
-      "clanStars": 20,
+      "clanStars": 23,
       "opponentStars": 0,
-      "clanDestructionPct": 46.46666666666667,
+      "clanDestructionPct": 53.13333333333333,
       "teamSize": 15,
       "members": [
         {
@@ -891,7 +891,12 @@
           "name": "Phoenix",
           "townhallLevel": 18,
           "mapPosition": 6,
-          "attack": null
+          "attack": {
+            "defenderTag": "#8VRP08RGC",
+            "defenderMapPosition": 8,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#P9C0LVLU2",
