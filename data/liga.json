@@ -1,6 +1,6 @@
 {
   "season": "2026-06-16",
-  "generatedAt": "2026-06-22T17:30:37.355Z",
+  "generatedAt": "2026-06-22T17:45:31.760Z",
   "state": "inWar",
   "rounds": [
     {
@@ -980,9 +980,9 @@
       "result": "inProgress",
       "opponentName": "LC WARRIORS 2",
       "opponentTag": "#RVV82LU9",
-      "clanStars": 3,
-      "opponentStars": 0,
-      "clanDestructionPct": 6.666666666666667,
+      "clanStars": 6,
+      "opponentStars": 2,
+      "clanDestructionPct": 13.333333333333334,
       "teamSize": 15,
       "members": [
         {
@@ -1025,7 +1025,12 @@
           "name": "ChrolloLucilfer",
           "townhallLevel": 18,
           "mapPosition": 11,
-          "attack": null
+          "attack": {
+            "defenderTag": "#YGQ8VVRJ2",
+            "defenderMapPosition": 12,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#2GP2JUU2",
