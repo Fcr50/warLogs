@@ -1,6 +1,6 @@
 {
   "season": "2026-06-16",
-  "generatedAt": "2026-06-22T19:30:47.887Z",
+  "generatedAt": "2026-06-22T19:45:35.214Z",
   "state": "inWar",
   "rounds": [
     {
@@ -980,9 +980,9 @@
       "result": "inProgress",
       "opponentName": "LC WARRIORS 2",
       "opponentTag": "#RVV82LU9",
-      "clanStars": 9,
+      "clanStars": 11,
       "opponentStars": 13,
-      "clanDestructionPct": 20,
+      "clanDestructionPct": 26,
       "teamSize": 15,
       "members": [
         {
@@ -1089,7 +1089,12 @@
           "name": "VINGADOR⚡",
           "townhallLevel": 18,
           "mapPosition": 1,
-          "attack": null
+          "attack": {
+            "defenderTag": "#9PPLRPPYR",
+            "defenderMapPosition": 6,
+            "stars": 2,
+            "destructionPercentage": 90
+          }
         },
         {
           "tag": "#QJVQVRPU",
