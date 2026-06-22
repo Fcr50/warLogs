@@ -1,6 +1,6 @@
 {
   "season": "2026-06-16",
-  "generatedAt": "2026-06-22T17:15:26.426Z",
+  "generatedAt": "2026-06-22T17:30:37.355Z",
   "state": "inWar",
   "rounds": [
     {
@@ -782,8 +782,8 @@
     {
       "round": 5,
       "warTag": "#8GUG28VVU",
-      "state": "inWar",
-      "result": "inProgress",
+      "state": "warEnded",
+      "result": "win",
       "opponentName": "EXECUTIONERS",
       "opponentTag": "#2JC088QQC",
       "clanStars": 44,
@@ -976,10 +976,134 @@
     {
       "round": 6,
       "warTag": "#8GUJ0R2P8",
-      "state": "preparation",
+      "state": "inWar",
       "result": "inProgress",
       "opponentName": "LC WARRIORS 2",
       "opponentTag": "#RVV82LU9",
+      "clanStars": 3,
+      "opponentStars": 0,
+      "clanDestructionPct": 6.666666666666667,
+      "teamSize": 15,
+      "members": [
+        {
+          "tag": "#8VCUUPPJP",
+          "name": "Satsugai",
+          "townhallLevel": 18,
+          "mapPosition": 15,
+          "attack": null
+        },
+        {
+          "tag": "#2LY0P2L9U",
+          "name": "LucasHG9",
+          "townhallLevel": 18,
+          "mapPosition": 9,
+          "attack": null
+        },
+        {
+          "tag": "#QQC8P9C9R",
+          "name": "Gs.prieto",
+          "townhallLevel": 18,
+          "mapPosition": 13,
+          "attack": null
+        },
+        {
+          "tag": "#QRGR9R8R2",
+          "name": "Caique Grandão",
+          "townhallLevel": 18,
+          "mapPosition": 7,
+          "attack": null
+        },
+        {
+          "tag": "#2QL0VR9GU",
+          "name": "Marcola",
+          "townhallLevel": 18,
+          "mapPosition": 12,
+          "attack": null
+        },
+        {
+          "tag": "#8CJ8YJY0P",
+          "name": "ChrolloLucilfer",
+          "townhallLevel": 18,
+          "mapPosition": 11,
+          "attack": null
+        },
+        {
+          "tag": "#2GP2JUU2",
+          "name": "Gustavo Lázaro",
+          "townhallLevel": 18,
+          "mapPosition": 10,
+          "attack": null
+        },
+        {
+          "tag": "#LQQRGJ8VU",
+          "name": "i-Vinni",
+          "townhallLevel": 18,
+          "mapPosition": 16,
+          "attack": null
+        },
+        {
+          "tag": "#QGQJGURCL",
+          "name": "SAFONOV",
+          "townhallLevel": 18,
+          "mapPosition": 5,
+          "attack": null
+        },
+        {
+          "tag": "#GJ2LQVQJ",
+          "name": "Fer",
+          "townhallLevel": 18,
+          "mapPosition": 3,
+          "attack": {
+            "defenderTag": "#9RRQU2UV2",
+            "defenderMapPosition": 1,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
+        },
+        {
+          "tag": "#PLU2VCLG",
+          "name": "Phoenix",
+          "townhallLevel": 18,
+          "mapPosition": 6,
+          "attack": null
+        },
+        {
+          "tag": "#80LUCC9YV",
+          "name": "Lobo ®",
+          "townhallLevel": 18,
+          "mapPosition": 4,
+          "attack": null
+        },
+        {
+          "tag": "#P9C0LVLU2",
+          "name": "VINGADOR⚡",
+          "townhallLevel": 18,
+          "mapPosition": 1,
+          "attack": null
+        },
+        {
+          "tag": "#QJVQVRPU",
+          "name": "Frnnn",
+          "townhallLevel": 18,
+          "mapPosition": 8,
+          "attack": null
+        },
+        {
+          "tag": "#PPPUQPVJY",
+          "name": "Rodrigo",
+          "townhallLevel": 18,
+          "mapPosition": 17,
+          "attack": null
+        }
+      ]
+    },
+    {
+      "round": 7,
+      "warTag": "#8GUCVV2U8",
+      "state": "preparation",
+      "result": "inProgress",
+      "opponentName": "Nova Nyx",
+      "opponentTag": "#2GJGYJPPL",
       "clanStars": 0,
       "opponentStars": 0,
       "clanDestructionPct": 0,
@@ -1091,7 +1215,6 @@
           "attack": null
         }
       ]
-    },
-    null
+    }
   ]
 }
