@@ -1,6 +1,6 @@
 {
   "season": "2026-06-16",
-  "generatedAt": "2026-06-22T03:00:25.166Z",
+  "generatedAt": "2026-06-22T03:15:27.775Z",
   "state": "inWar",
   "rounds": [
     {
@@ -786,9 +786,9 @@
       "result": "inProgress",
       "opponentName": "EXECUTIONERS",
       "opponentTag": "#2JC088QQC",
-      "clanStars": 41,
+      "clanStars": 44,
       "opponentStars": 25,
-      "clanDestructionPct": 93.13333333333334,
+      "clanDestructionPct": 99.8,
       "teamSize": 15,
       "members": [
         {
@@ -796,7 +796,12 @@
           "name": "Satsugai",
           "townhallLevel": 18,
           "mapPosition": 16,
-          "attack": null
+          "attack": {
+            "defenderTag": "#Q2J8RPR0C",
+            "defenderMapPosition": 14,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#2LY0P2L9U",
