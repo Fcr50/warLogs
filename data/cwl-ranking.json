@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T09:30:32.217Z",
+  "generatedAt": "2026-06-22T09:45:20.553Z",
   "totalWars": 18,
   "liveWar": {
     "opponentName": "Libertarian War",
@@ -657,6 +657,42 @@
     },
     {
       "player": {
+        "tag": "#QLGP0JGPJ",
+        "name": "igg2.0",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": -0.06864981115157101,
+        "rawScore": -0.06864981115157101,
+        "confidence": 1,
+        "tier": "C",
+        "attackScore": -0.7534041952122796,
+        "defenseScore": 0.0886436128741555,
+        "reliability": 0.32698412698412693,
+        "formScore": 0,
+        "warsInRoster": 9,
+        "attacksUsed": 4,
+        "attacksAvailable": 18,
+        "avgDestruction": 26.75,
+        "totalAttacks": 4,
+        "totalStars": 4,
+        "count3Stars": 0,
+        "avgStars": 1,
+        "threeStarRate": 0,
+        "totalMissed": 10,
+        "avgPositionDiff": -19,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#28CJUCCQV",
         "name": "Perdigueiro",
         "townhallLevel": 18
@@ -949,6 +985,17 @@
       "prevRank": 15,
       "normalizedScore": 60.74
     },
+    "#QLGP0JGPJ": {
+      "tier": "B",
+      "score": -0.06864981115157101,
+      "avgStars": 1,
+      "totalStars": 4,
+      "totalAttacks": 4,
+      "warsInRoster": 9,
+      "totalMissed": 10,
+      "rank": 22,
+      "normalizedScore": -1.96
+    },
     "#LQQRGJ8VU": {
       "tier": "A",
       "score": 2.257236193763813,
@@ -1023,7 +1070,7 @@
       "totalAttacks": 2,
       "warsInRoster": 6,
       "totalMissed": 8,
-      "rank": 22,
+      "rank": 23,
       "prevRank": 22,
       "normalizedScore": -6.4
     },
