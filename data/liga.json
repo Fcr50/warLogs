@@ -1,6 +1,6 @@
 {
   "season": "2026-06-16",
-  "generatedAt": "2026-06-22T19:45:35.214Z",
+  "generatedAt": "2026-06-22T20:00:26.641Z",
   "state": "inWar",
   "rounds": [
     {
@@ -980,9 +980,9 @@
       "result": "inProgress",
       "opponentName": "LC WARRIORS 2",
       "opponentTag": "#RVV82LU9",
-      "clanStars": 11,
+      "clanStars": 15,
       "opponentStars": 13,
-      "clanDestructionPct": 26,
+      "clanDestructionPct": 38.2,
       "teamSize": 15,
       "members": [
         {
@@ -1018,7 +1018,12 @@
           "name": "Marcola",
           "townhallLevel": 18,
           "mapPosition": 12,
-          "attack": null
+          "attack": {
+            "defenderTag": "#YPRU2J2RP",
+            "defenderMapPosition": 13,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#8CJ8YJY0P",
@@ -1037,7 +1042,12 @@
           "name": "Gustavo Lázaro",
           "townhallLevel": 18,
           "mapPosition": 10,
-          "attack": null
+          "attack": {
+            "defenderTag": "#9JYQ0Y2YC",
+            "defenderMapPosition": 4,
+            "stars": 1,
+            "destructionPercentage": 83
+          }
         },
         {
           "tag": "#LQQRGJ8VU",
