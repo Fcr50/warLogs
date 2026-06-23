@@ -1,6 +1,6 @@
 {
   "season": "2026-06-16",
-  "generatedAt": "2026-06-23T21:45:22.501Z",
+  "generatedAt": "2026-06-23T22:00:40.117Z",
   "state": "inWar",
   "rounds": [
     {
@@ -1174,9 +1174,9 @@
       "result": "inProgress",
       "opponentName": "Nova Nyx",
       "opponentTag": "#2GJGYJPPL",
-      "clanStars": 16,
+      "clanStars": 19,
       "opponentStars": 15,
-      "clanDestructionPct": 38.8,
+      "clanDestructionPct": 45.46666666666667,
       "teamSize": 15,
       "members": [
         {
@@ -1312,7 +1312,12 @@
           "name": "Rodrigo",
           "townhallLevel": 18,
           "mapPosition": 17,
-          "attack": null
+          "attack": {
+            "defenderTag": "#GG2VUJ0",
+            "defenderMapPosition": 19,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         }
       ]
     }
