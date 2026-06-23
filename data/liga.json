@@ -1,6 +1,6 @@
 {
   "season": "2026-06-16",
-  "generatedAt": "2026-06-23T00:31:04.545Z",
+  "generatedAt": "2026-06-23T00:45:24.590Z",
   "state": "inWar",
   "rounds": [
     {
@@ -980,9 +980,9 @@
       "result": "inProgress",
       "opponentName": "LC WARRIORS 2",
       "opponentTag": "#RVV82LU9",
-      "clanStars": 26,
+      "clanStars": 29,
       "opponentStars": 15,
-      "clanDestructionPct": 64.33333333333333,
+      "clanDestructionPct": 71,
       "teamSize": 15,
       "members": [
         {
@@ -1059,7 +1059,12 @@
           "name": "i-Vinni",
           "townhallLevel": 18,
           "mapPosition": 16,
-          "attack": null
+          "attack": {
+            "defenderTag": "#9Y088C29U",
+            "defenderMapPosition": 16,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#QGQJGURCL",
