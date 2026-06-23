@@ -1,6 +1,6 @@
 {
   "season": "2026-06-16",
-  "generatedAt": "2026-06-23T21:00:34.701Z",
+  "generatedAt": "2026-06-23T21:15:25.580Z",
   "state": "inWar",
   "rounds": [
     {
@@ -1174,9 +1174,9 @@
       "result": "inProgress",
       "opponentName": "Nova Nyx",
       "opponentTag": "#2GJGYJPPL",
-      "clanStars": 13,
+      "clanStars": 16,
       "opponentStars": 15,
-      "clanDestructionPct": 32.13333333333333,
+      "clanDestructionPct": 38.8,
       "teamSize": 15,
       "members": [
         {
@@ -1236,7 +1236,12 @@
           "name": "Gustavo Lázaro",
           "townhallLevel": 18,
           "mapPosition": 10,
-          "attack": null
+          "attack": {
+            "defenderTag": "#L9CPVLU0P",
+            "defenderMapPosition": 4,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#LQQRGJ8VU",
