@@ -1,6 +1,6 @@
 {
   "season": "2026-06-16",
-  "generatedAt": "2026-06-23T18:30:36.593Z",
+  "generatedAt": "2026-06-23T18:45:31.914Z",
   "state": "inWar",
   "rounds": [
     {
@@ -1174,9 +1174,9 @@
       "result": "inProgress",
       "opponentName": "Nova Nyx",
       "opponentTag": "#2GJGYJPPL",
-      "clanStars": 10,
+      "clanStars": 13,
       "opponentStars": 9,
-      "clanDestructionPct": 25.466666666666665,
+      "clanDestructionPct": 32.13333333333333,
       "teamSize": 15,
       "members": [
         {
@@ -1295,7 +1295,12 @@
           "name": "Frnnn",
           "townhallLevel": 18,
           "mapPosition": 8,
-          "attack": null
+          "attack": {
+            "defenderTag": "#8LUVU0JJ9",
+            "defenderMapPosition": 8,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#PPPUQPVJY",
