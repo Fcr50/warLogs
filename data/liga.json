@@ -1,6 +1,6 @@
 {
   "season": "2026-06-16",
-  "generatedAt": "2026-06-23T18:00:39.531Z",
+  "generatedAt": "2026-06-23T18:15:29.953Z",
   "state": "inWar",
   "rounds": [
     {
@@ -1174,9 +1174,9 @@
       "result": "inProgress",
       "opponentName": "Nova Nyx",
       "opponentTag": "#2GJGYJPPL",
-      "clanStars": 8,
+      "clanStars": 10,
       "opponentStars": 3,
-      "clanDestructionPct": 19.733333333333334,
+      "clanDestructionPct": 25.466666666666665,
       "teamSize": 15,
       "members": [
         {
@@ -1283,7 +1283,12 @@
           "name": "亗 ＨＡＤＥＳ_０７ 亗",
           "townhallLevel": 18,
           "mapPosition": 2,
-          "attack": null
+          "attack": {
+            "defenderTag": "#LGGJRYPL8",
+            "defenderMapPosition": 2,
+            "stars": 2,
+            "destructionPercentage": 86
+          }
         },
         {
           "tag": "#QJVQVRPU",
