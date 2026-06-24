@@ -1,6 +1,6 @@
 {
   "season": "2026-06-16",
-  "generatedAt": "2026-06-24T01:00:26.942Z",
+  "generatedAt": "2026-06-24T01:15:29.434Z",
   "state": "inWar",
   "rounds": [
     {
@@ -1174,9 +1174,9 @@
       "result": "inProgress",
       "opponentName": "Nova Nyx",
       "opponentTag": "#2GJGYJPPL",
-      "clanStars": 25,
+      "clanStars": 27,
       "opponentStars": 18,
-      "clanDestructionPct": 58.8,
+      "clanDestructionPct": 64.26666666666667,
       "teamSize": 15,
       "members": [
         {
@@ -1265,7 +1265,12 @@
           "name": "SAFONOV",
           "townhallLevel": 18,
           "mapPosition": 5,
-          "attack": null
+          "attack": {
+            "defenderTag": "#YR2GUU99",
+            "defenderMapPosition": 3,
+            "stars": 2,
+            "destructionPercentage": 82
+          }
         },
         {
           "tag": "#GJ2LQVQJ",
