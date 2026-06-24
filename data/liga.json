@@ -1,6 +1,6 @@
 {
   "season": "2026-06-16",
-  "generatedAt": "2026-06-24T10:15:28.296Z",
+  "generatedAt": "2026-06-24T10:30:41.035Z",
   "state": "inWar",
   "rounds": [
     {
@@ -1174,9 +1174,9 @@
       "result": "inProgress",
       "opponentName": "Nova Nyx",
       "opponentTag": "#2GJGYJPPL",
-      "clanStars": 36,
+      "clanStars": 39,
       "opponentStars": 30,
-      "clanDestructionPct": 84.26666666666667,
+      "clanDestructionPct": 90.93333333333334,
       "teamSize": 15,
       "members": [
         {
@@ -1292,7 +1292,12 @@
           "name": "Fer",
           "townhallLevel": 18,
           "mapPosition": 3,
-          "attack": null
+          "attack": {
+            "defenderTag": "#8QRQ2CLUU",
+            "defenderMapPosition": 9,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#80LUCC9YV",
