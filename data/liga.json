@@ -1,6 +1,6 @@
 {
   "season": "2026-06-16",
-  "generatedAt": "2026-06-24T02:45:27.893Z",
+  "generatedAt": "2026-06-24T03:00:32.900Z",
   "state": "inWar",
   "rounds": [
     {
@@ -1174,9 +1174,9 @@
       "result": "inProgress",
       "opponentName": "Nova Nyx",
       "opponentTag": "#2GJGYJPPL",
-      "clanStars": 33,
+      "clanStars": 36,
       "opponentStars": 21,
-      "clanDestructionPct": 77.6,
+      "clanDestructionPct": 84.26666666666667,
       "teamSize": 15,
       "members": [
         {
@@ -1184,7 +1184,12 @@
           "name": "Satsugai",
           "townhallLevel": 18,
           "mapPosition": 15,
-          "attack": null
+          "attack": {
+            "defenderTag": "#UCQRJ09",
+            "defenderMapPosition": 17,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#QR8R9QUV8",
