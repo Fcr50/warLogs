@@ -10,8 +10,8 @@
       "opponent": {
         "name": "ALL TIME ACTIVE",
         "tag": "#QCLGJVP2",
-        "stars": 0,
-        "destructionPercentage": 0,
+        "stars": 8,
+        "destructionPercentage": 13.8,
         "members": [
           {
             "tag": "#QQUVUPVJ0",
@@ -96,23 +96,13 @@
         ]
       },
       "clan": {
-        "stars": 11,
-        "destructionPercentage": 19.95
+        "stars": 24,
+        "destructionPercentage": 40
       },
       "sixHourNonAttackers": [
         {
           "tag": "#8VCUUPPJP",
           "name": "Satsugai",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QR8R9QUV8",
-          "name": "Dr.Hannibal",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#2LY0P2L9U",
-          "name": "LucasHG9",
           "townhallLevel": 18
         },
         {
@@ -126,18 +116,8 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#LQQRGJ8VU",
-          "name": "i-Vinni",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#GJ2LQVQJ",
           "name": "Fer",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#L8RG2PV0G",
-          "name": "joaoaoaoao",
           "townhallLevel": 18
         },
         {
@@ -196,7 +176,14 @@
           "name": "Dr.Hannibal",
           "townhallLevel": 18,
           "mapPosition": 13,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 8,
+              "defenderTag": "#28YGG2Q9Y"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -205,7 +192,14 @@
           "name": "LucasHG9",
           "townhallLevel": 18,
           "mapPosition": 8,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 6,
+              "defenderTag": "#YRLPRLCY8"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -220,6 +214,12 @@
               "destructionPercentage": 100,
               "order": 3,
               "defenderTag": "#QVJYPQVV0"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 12,
+              "defenderTag": "#88Q88QJ0G"
             }
           ],
           "defensesReceived": [],
@@ -264,7 +264,14 @@
           "name": "i-Vinni",
           "townhallLevel": 18,
           "mapPosition": 18,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 5,
+              "defenderTag": "#PY2P9G8GG"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -274,7 +281,14 @@
           "townhallLevel": 18,
           "mapPosition": 4,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#PRGRUCVLG",
+              "attackerMapPosition": 6
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -282,7 +296,14 @@
           "name": "joaoaoaoao",
           "townhallLevel": 18,
           "mapPosition": 17,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 11,
+              "defenderTag": "#9CGRYUJ9R"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -301,7 +322,14 @@
           "townhallLevel": 18,
           "mapPosition": 5,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#U0Y989VV",
+              "attackerMapPosition": 5
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -344,7 +372,14 @@
               "defenderTag": "#QQUVUPVJ0"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 76,
+              "attackerTag": "#PRGRUCVLG",
+              "attackerMapPosition": 6
+            }
+          ],
           "missedAttacks": 0
         },
         {
