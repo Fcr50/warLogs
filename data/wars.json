@@ -10,8 +10,8 @@
       "opponent": {
         "name": "ALL TIME ACTIVE",
         "tag": "#QCLGJVP2",
-        "stars": 44,
-        "destructionPercentage": 78.3,
+        "stars": 48,
+        "destructionPercentage": 87.7,
         "members": [
           {
             "tag": "#QQUVUPVJ0",
@@ -219,7 +219,14 @@
               "defenderTag": "#88Q88QJ0G"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 1,
+              "destructionPercentage": 88,
+              "attackerTag": "#C220L2LY",
+              "attackerMapPosition": 11
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -270,7 +277,14 @@
               "defenderTag": "#QQUVUPVJ0"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#C220L2LY",
+              "attackerMapPosition": 11
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -579,6 +593,12 @@
               "destructionPercentage": 100,
               "order": 16,
               "defenderTag": "#GR0Q0GYQ"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 61,
+              "defenderTag": "#QQUVUPVJ0"
             }
           ],
           "defensesReceived": [
