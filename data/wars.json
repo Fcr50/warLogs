@@ -96,8 +96,8 @@
         ]
       },
       "clan": {
-        "stars": 54,
-        "destructionPercentage": 90
+        "stars": 57,
+        "destructionPercentage": 95
       },
       "sixHourNonAttackers": [
         {
@@ -108,11 +108,6 @@
         {
           "tag": "#GGVCRYP8P",
           "name": "gui",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QJVQVRPU",
-          "name": "Frnnn",
           "townhallLevel": 18
         }
       ],
@@ -489,7 +484,14 @@
           "name": "Frnnn",
           "townhallLevel": 18,
           "mapPosition": 7,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 33,
+              "defenderTag": "#8R929JR"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 2,
