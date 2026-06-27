@@ -116,15 +116,10 @@
         ]
       },
       "clan": {
-        "stars": 21,
-        "destructionPercentage": 28
+        "stars": 27,
+        "destructionPercentage": 36
       },
       "sixHourNonAttackers": [
-        {
-          "tag": "#8VCUUPPJP",
-          "name": "Satsugai",
-          "townhallLevel": 18
-        },
         {
           "tag": "#QR8R9QUV8",
           "name": "Dr.Hannibal",
@@ -164,11 +159,6 @@
           "tag": "#GQ8URLCLP",
           "name": "¥TioSam",
           "townhallLevel": 16
-        },
-        {
-          "tag": "#GJ2LQVQJ",
-          "name": "Fer",
-          "townhallLevel": 18
         },
         {
           "tag": "#PLU2VCLG",
@@ -217,7 +207,14 @@
           "name": "Satsugai",
           "townhallLevel": 18,
           "mapPosition": 18,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 11,
+              "defenderTag": "#GC0G0J2U"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -336,7 +333,14 @@
           "name": "Fer",
           "townhallLevel": 18,
           "mapPosition": 4,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 10,
+              "defenderTag": "#9GGGYU92Q"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
