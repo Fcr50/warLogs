@@ -10,8 +10,8 @@
       "opponent": {
         "name": "abc",
         "tag": "#2PCPUY88R",
-        "stars": 14,
-        "destructionPercentage": 19.72,
+        "stars": 17,
+        "destructionPercentage": 23.72,
         "members": [
           {
             "tag": "#208J2Q0U0",
@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 33,
-        "destructionPercentage": 44
+        "stars": 38,
+        "destructionPercentage": 51.92
       },
       "sixHourNonAttackers": [
         {
@@ -133,16 +133,6 @@
         {
           "tag": "#QLGP0JGPJ",
           "name": "igg2.0",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#2GP2JUU2",
-          "name": "Gustavo Lázaro",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#LQQRGJ8VU",
-          "name": "i-Vinni",
           "townhallLevel": 18
         },
         {
@@ -301,7 +291,14 @@
           "name": "Gustavo Lázaro",
           "townhallLevel": 18,
           "mapPosition": 10,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 22,
+              "defenderTag": "#J0Q2VYVV"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -310,7 +307,14 @@
           "name": "i-Vinni",
           "townhallLevel": 18,
           "mapPosition": 20,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 98,
+              "order": 20,
+              "defenderTag": "#8L2VQ899U"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -418,7 +422,14 @@
           "townhallLevel": 18,
           "mapPosition": 2,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#J2GG29LU",
+              "attackerMapPosition": 8
+            }
+          ],
           "missedAttacks": 0
         },
         {
