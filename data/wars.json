@@ -10,8 +10,8 @@
       "opponent": {
         "name": "abc",
         "tag": "#2PCPUY88R",
-        "stars": 34,
-        "destructionPercentage": 49.48,
+        "stars": 39,
+        "destructionPercentage": 58.44,
         "members": [
           {
             "tag": "#208J2Q0U0",
@@ -167,6 +167,12 @@
           ],
           "defensesReceived": [
             {
+              "stars": 2,
+              "destructionPercentage": 95,
+              "attackerTag": "#8L2VQ899U",
+              "attackerMapPosition": 20
+            },
+            {
               "stars": 1,
               "destructionPercentage": 90,
               "attackerTag": "#9GUJPJQR8",
@@ -254,6 +260,12 @@
               "destructionPercentage": 15,
               "order": 4,
               "defenderTag": "#V8Q8CCGP"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 50,
+              "defenderTag": "#Y90UU280Q"
             }
           ],
           "defensesReceived": [],
@@ -332,7 +344,14 @@
               "defenderTag": "#8L2VQ899U"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 98,
+              "attackerTag": "#8L2VQ899U",
+              "attackerMapPosition": 20
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -555,6 +574,12 @@
               "destructionPercentage": 66,
               "attackerTag": "#PR2RPUQ",
               "attackerMapPosition": 2
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 99,
+              "attackerTag": "#P898RVPVP",
+              "attackerMapPosition": 19
             }
           ],
           "missedAttacks": 0
@@ -685,7 +710,14 @@
               "defenderTag": "#P898RVPVP"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 88,
+              "attackerTag": "#P898RVPVP",
+              "attackerMapPosition": 19
+            }
+          ],
           "missedAttacks": 0
         }
       ]
