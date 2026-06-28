@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-28T01:00:34.398Z",
+  "generatedAt": "2026-06-28T01:15:24.997Z",
   "totalWars": 19,
   "liveWar": {
     "opponentName": "abc",
-    "totalAttacksDone": 19,
+    "totalAttacksDone": 20,
     "totalAttacksExpected": 50
   },
   "ranking": [
@@ -225,6 +225,42 @@
     },
     {
       "player": {
+        "tag": "#80LUCC9YV",
+        "name": "Lobo ®",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.420081054397262,
+        "rawScore": 2.420081054397262,
+        "confidence": 1,
+        "tier": "A",
+        "attackScore": 3.223741207323072,
+        "defenseScore": 0.16254425244418114,
+        "reliability": 0.9789473684210526,
+        "formScore": 3.5,
+        "warsInRoster": 25,
+        "attacksUsed": 49,
+        "attacksAvailable": 50,
+        "avgDestruction": 94.20408163265306,
+        "totalAttacks": 49,
+        "totalStars": 129,
+        "count3Stars": 34,
+        "avgStars": 2.63265306122449,
+        "threeStarRate": 0.6938775510204082,
+        "totalMissed": 0,
+        "avgPositionDiff": 3.5531914893617023,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#PLU2VCLG",
         "name": "Phoenix",
         "townhallLevel": 18
@@ -285,42 +321,6 @@
         "threeStarRate": 0.8378378378378378,
         "totalMissed": 0,
         "avgPositionDiff": -4.0285714285714285,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#80LUCC9YV",
-        "name": "Lobo ®",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.3974435493273845,
-        "rawScore": 2.3974435493273845,
-        "confidence": 1,
-        "tier": "A",
-        "attackScore": 3.169842385728126,
-        "defenseScore": 0.16254425244418114,
-        "reliability": 0.9789473684210526,
-        "formScore": 3.5,
-        "warsInRoster": 25,
-        "attacksUsed": 48,
-        "attacksAvailable": 50,
-        "avgDestruction": 94.08333333333333,
-        "totalAttacks": 48,
-        "totalStars": 126,
-        "count3Stars": 33,
-        "avgStars": 2.625,
-        "threeStarRate": 0.6875,
-        "totalMissed": 0,
-        "avgPositionDiff": 3.630434782608696,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1335,7 +1335,7 @@
       "totalAttacks": 45,
       "warsInRoster": 25,
       "totalMissed": 2,
-      "rank": 7,
+      "rank": 8,
       "prevRank": 7,
       "normalizedScore": 68.89
     },
@@ -1359,7 +1359,7 @@
       "totalAttacks": 37,
       "warsInRoster": 20,
       "totalMissed": 0,
-      "rank": 8,
+      "rank": 9,
       "prevRank": 8,
       "normalizedScore": 68.5
     },
@@ -1437,15 +1437,15 @@
     },
     "#80LUCC9YV": {
       "tier": "A",
-      "score": 2.3974435493273845,
-      "avgStars": 2.625,
-      "totalStars": 126,
-      "totalAttacks": 48,
+      "score": 2.420081054397262,
+      "avgStars": 2.63265306122449,
+      "totalStars": 129,
+      "totalAttacks": 49,
       "warsInRoster": 25,
       "totalMissed": 0,
-      "rank": 9,
+      "rank": 7,
       "prevRank": 9,
-      "normalizedScore": 68.5
+      "normalizedScore": 69.15
     },
     "#YPVQVU982": {
       "tier": "A",
