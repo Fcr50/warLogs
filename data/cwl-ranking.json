@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T17:00:31.937Z",
+  "generatedAt": "2026-06-28T17:15:47.052Z",
   "totalWars": 19,
   "liveWar": {
     "opponentName": "abc",
@@ -86,12 +86,12 @@
         "townhallLevel": 18
       },
       "data": {
-        "score": 2.463023602201318,
-        "rawScore": 2.463023602201318,
+        "score": 2.4946051505975926,
+        "rawScore": 2.4946051505975926,
         "confidence": 1,
         "tier": "A",
         "attackScore": 3.2230865914653215,
-        "defenseScore": 0.3823089351435305,
+        "defenseScore": 0.5086351287286306,
         "reliability": 1,
         "formScore": 3.2375,
         "warsInRoster": 26,
@@ -297,6 +297,42 @@
     },
     {
       "player": {
+        "tag": "#L8RG2PV0G",
+        "name": "joaoaoaoao",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.39461640038972,
+        "rawScore": 2.39461640038972,
+        "confidence": 1,
+        "tier": "A",
+        "attackScore": 3.128192148489963,
+        "defenseScore": 0.35920805525363897,
+        "reliability": 0.9289473684210525,
+        "formScore": 3.5,
+        "warsInRoster": 23,
+        "attacksUsed": 41,
+        "attacksAvailable": 46,
+        "avgDestruction": 91.82926829268293,
+        "totalAttacks": 41,
+        "totalStars": 105,
+        "count3Stars": 31,
+        "avgStars": 2.5609756097560976,
+        "threeStarRate": 0.7560975609756098,
+        "totalMissed": 3,
+        "avgPositionDiff": -1.7179487179487178,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#29LP0VJV0",
         "name": "Warlord Raivon",
         "townhallLevel": 18
@@ -321,42 +357,6 @@
         "threeStarRate": 0.6060606060606061,
         "totalMissed": 0,
         "avgPositionDiff": -3.4838709677419355,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#L8RG2PV0G",
-        "name": "joaoaoaoao",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.352709853799643,
-        "rawScore": 2.352709853799643,
-        "confidence": 1,
-        "tier": "A",
-        "attackScore": 3.128192148489963,
-        "defenseScore": 0.19158186889332912,
-        "reliability": 0.9289473684210525,
-        "formScore": 3.5,
-        "warsInRoster": 23,
-        "attacksUsed": 41,
-        "attacksAvailable": 46,
-        "avgDestruction": 91.82926829268293,
-        "totalAttacks": 41,
-        "totalStars": 105,
-        "count3Stars": 31,
-        "avgStars": 2.5609756097560976,
-        "threeStarRate": 0.7560975609756098,
-        "totalMissed": 3,
-        "avgPositionDiff": -1.7179487179487178,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1575,7 +1575,7 @@
     },
     "#8CJ8YJY0P": {
       "tier": "S",
-      "score": 2.463023602201318,
+      "score": 2.4946051505975926,
       "avgStars": 2.803921568627451,
       "totalStars": 143,
       "totalAttacks": 51,
@@ -1583,7 +1583,7 @@
       "totalMissed": 0,
       "rank": 3,
       "prevRank": 3,
-      "normalizedScore": 70.37
+      "normalizedScore": 71.27
     },
     "#QR8R9QUV8": {
       "tier": "A",
@@ -1623,15 +1623,15 @@
     },
     "#L8RG2PV0G": {
       "tier": "A",
-      "score": 2.352709853799643,
+      "score": 2.39461640038972,
       "avgStars": 2.5609756097560976,
       "totalStars": 105,
       "totalAttacks": 41,
       "warsInRoster": 23,
       "totalMissed": 3,
-      "rank": 10,
+      "rank": 9,
       "prevRank": 10,
-      "normalizedScore": 67.22
+      "normalizedScore": 68.42
     },
     "#GGVCRYP8P": {
       "tier": "A",
@@ -1713,7 +1713,7 @@
       "totalAttacks": 33,
       "warsInRoster": 17,
       "totalMissed": 0,
-      "rank": 9,
+      "rank": 10,
       "prevRank": 9,
       "normalizedScore": 67.57
     },
