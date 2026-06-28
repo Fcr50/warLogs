@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 60,
-        "destructionPercentage": 80
+        "stars": 66,
+        "destructionPercentage": 88
       },
       "sixHourNonAttackers": [
         {
@@ -480,7 +480,20 @@
           "name": "gui",
           "townhallLevel": 18,
           "mapPosition": 22,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 38,
+              "defenderTag": "#2J08LVPCP"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 39,
+              "defenderTag": "#CPLYJUJG"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
