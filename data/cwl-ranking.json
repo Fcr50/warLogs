@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T17:15:47.052Z",
+  "generatedAt": "2026-06-28T17:30:31.131Z",
   "totalWars": 19,
   "liveWar": {
     "opponentName": "abc",
@@ -405,6 +405,42 @@
     },
     {
       "player": {
+        "tag": "#LQQRGJ8VU",
+        "name": "i-Vinni",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.2427874037638746,
+        "rawScore": 2.2427874037638746,
+        "confidence": 1,
+        "tier": "B",
+        "attackScore": 3.0004962571145977,
+        "defenseScore": 0.5170527452082369,
+        "reliability": 0.8526315789473684,
+        "formScore": 2.6500000000000004,
+        "warsInRoster": 15,
+        "attacksUsed": 28,
+        "attacksAvailable": 30,
+        "avgDestruction": 90.25,
+        "totalAttacks": 28,
+        "totalStars": 67,
+        "count3Stars": 17,
+        "avgStars": 2.392857142857143,
+        "threeStarRate": 0.6071428571428571,
+        "totalMissed": 0,
+        "avgPositionDiff": -8.964285714285714,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#GGVCRYP8P",
         "name": "gui",
         "townhallLevel": 18
@@ -465,42 +501,6 @@
         "threeStarRate": 0.71875,
         "totalMissed": 1,
         "avgPositionDiff": -2.25,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#LQQRGJ8VU",
-        "name": "i-Vinni",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.2362405636071845,
-        "rawScore": 2.2362405636071845,
-        "confidence": 1,
-        "tier": "B",
-        "attackScore": 3.0004962571145977,
-        "defenseScore": 0.49086538458147755,
-        "reliability": 0.8526315789473684,
-        "formScore": 2.6500000000000004,
-        "warsInRoster": 15,
-        "attacksUsed": 28,
-        "attacksAvailable": 30,
-        "avgDestruction": 90.25,
-        "totalAttacks": 28,
-        "totalStars": 67,
-        "count3Stars": 17,
-        "avgStars": 2.392857142857143,
-        "threeStarRate": 0.6071428571428571,
-        "totalMissed": 0,
-        "avgPositionDiff": -8.964285714285714,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -878,12 +878,12 @@
         "townhallLevel": 18
       },
       "data": {
-        "score": 0.00981899813952089,
-        "rawScore": 0.00981899813952089,
+        "score": 0.020107760808493413,
+        "rawScore": 0.020107760808493413,
         "confidence": 1,
         "tier": "C",
         "attackScore": -0.7534041952122795,
-        "defenseScore": 0.425115341266593,
+        "defenseScore": 0.4662703919424831,
         "reliability": 0.31879699248120297,
         "formScore": 0,
         "warsInRoster": 10,
@@ -1197,42 +1197,6 @@
     },
     {
       "player": {
-        "tag": "#L22G9PPPR",
-        "name": "ESCANOR™",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 0,
-        "rawScore": 0,
-        "confidence": 0,
-        "tier": "F",
-        "attackScore": 0,
-        "defenseScore": 0,
-        "reliability": 0,
-        "formScore": 0,
-        "warsInRoster": 0,
-        "attacksUsed": 0,
-        "attacksAvailable": 0,
-        "avgDestruction": 0,
-        "totalAttacks": 0,
-        "totalStars": 0,
-        "count3Stars": 0,
-        "avgStars": 0,
-        "threeStarRate": 0,
-        "totalMissed": 0,
-        "avgPositionDiff": 0,
-        "hasAnyDefense": false,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.56,
-          "defense": 0,
-          "reliability": 0.3067,
-          "form": 0.1333
-        }
-      }
-    },
-    {
-      "player": {
         "tag": "#8QVU8UG88",
         "name": "pedrokiller_-BR",
         "townhallLevel": 18
@@ -1471,13 +1435,6 @@
     },
     {
       "player": {
-        "tag": "#L22G9PPPR",
-        "name": "ESCANOR™",
-        "townhallLevel": 18
-      }
-    },
-    {
-      "player": {
         "tag": "#8QVU8UG88",
         "name": "pedrokiller_-BR",
         "townhallLevel": 18
@@ -1630,7 +1587,7 @@
       "warsInRoster": 23,
       "totalMissed": 3,
       "rank": 9,
-      "prevRank": 10,
+      "prevRank": 9,
       "normalizedScore": 68.42
     },
     "#GGVCRYP8P": {
@@ -1641,7 +1598,7 @@
       "totalAttacks": 50,
       "warsInRoster": 25,
       "totalMissed": 0,
-      "rank": 12,
+      "rank": 13,
       "prevRank": 12,
       "normalizedScore": 63.99
     },
@@ -1714,7 +1671,7 @@
       "warsInRoster": 17,
       "totalMissed": 0,
       "rank": 10,
-      "prevRank": 9,
+      "prevRank": 10,
       "normalizedScore": 67.57
     },
     "#9PQQR0QGR": {
@@ -1773,15 +1730,15 @@
     },
     "#LQQRGJ8VU": {
       "tier": "A",
-      "score": 2.2362405636071845,
+      "score": 2.2427874037638746,
       "avgStars": 2.392857142857143,
       "totalStars": 67,
       "totalAttacks": 28,
       "warsInRoster": 15,
       "totalMissed": 0,
-      "rank": 14,
+      "rank": 12,
       "prevRank": 14,
-      "normalizedScore": 63.89
+      "normalizedScore": 64.08
     },
     "#JPVGQP8V": {
       "tier": "F",
@@ -1833,7 +1790,7 @@
       "totalAttacks": 32,
       "warsInRoster": 17,
       "totalMissed": 1,
-      "rank": 13,
+      "rank": 14,
       "prevRank": 13,
       "normalizedScore": 63.95
     },
@@ -1851,7 +1808,7 @@
     },
     "#QLGP0JGPJ": {
       "tier": "C",
-      "score": 0.00981899813952089,
+      "score": 0.020107760808493413,
       "avgStars": 1,
       "totalStars": 4,
       "totalAttacks": 4,
@@ -1859,7 +1816,7 @@
       "totalMissed": 10,
       "rank": 30,
       "prevRank": 30,
-      "normalizedScore": 0.28
+      "normalizedScore": 0.57
     },
     "#8VCUUPPJP": {
       "tier": "A",
@@ -1884,16 +1841,6 @@
       "normalizedScore": 0
     },
     "#YPVGU2U9R": {
-      "tier": "F",
-      "score": 0,
-      "avgStars": 0,
-      "totalStars": 0,
-      "totalAttacks": 0,
-      "warsInRoster": 0,
-      "totalMissed": 0,
-      "normalizedScore": 0
-    },
-    "#L22G9PPPR": {
       "tier": "F",
       "score": 0,
       "avgStars": 0,
