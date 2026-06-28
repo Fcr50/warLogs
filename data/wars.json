@@ -10,8 +10,8 @@
       "opponent": {
         "name": "abc",
         "tag": "#2PCPUY88R",
-        "stars": 42,
-        "destructionPercentage": 62.44,
+        "stars": 44,
+        "destructionPercentage": 65.44,
         "members": [
           {
             "tag": "#208J2Q0U0",
@@ -450,7 +450,14 @@
               "defenderTag": "#9GUJPJQR8"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 75,
+              "attackerTag": "#V8Q8CCGP",
+              "attackerMapPosition": 11
+            }
+          ],
           "missedAttacks": 0
         },
         {
