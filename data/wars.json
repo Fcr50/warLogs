@@ -10,8 +10,8 @@
       "opponent": {
         "name": "abc",
         "tag": "#2PCPUY88R",
-        "stars": 47,
-        "destructionPercentage": 70.4,
+        "stars": 51,
+        "destructionPercentage": 75.88,
         "members": [
           {
             "tag": "#208J2Q0U0",
@@ -223,7 +223,14 @@
               "defenderTag": "#Y90UU280Q"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 77,
+              "attackerTag": "#J0Q2VYVV",
+              "attackerMapPosition": 10
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -380,7 +387,14 @@
               "defenderTag": "#L9LJVRQ0"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 60,
+              "attackerTag": "#CPLYJUJG",
+              "attackerMapPosition": 21
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -602,6 +616,12 @@
             }
           ],
           "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 66,
+              "attackerTag": "#J0Q2VYVV",
+              "attackerMapPosition": 10
+            },
             {
               "stars": 2,
               "destructionPercentage": 66,
