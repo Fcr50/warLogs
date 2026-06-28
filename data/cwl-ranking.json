@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-28T20:30:23.947Z",
+  "generatedAt": "2026-06-28T20:45:29.570Z",
   "totalWars": 19,
   "liveWar": {
     "opponentName": "abc",
-    "totalAttacksDone": 43,
+    "totalAttacksDone": 44,
     "totalAttacksExpected": 50
   },
   "ranking": [
@@ -513,42 +513,6 @@
     },
     {
       "player": {
-        "tag": "#LQQRGJ8VU",
-        "name": "i-Vinni",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.205077604461341,
-        "rawScore": 2.205077604461341,
-        "confidence": 1,
-        "tier": "B",
-        "attackScore": 3.0004962571145977,
-        "defenseScore": 0.3662135479981028,
-        "reliability": 0.8526315789473684,
-        "formScore": 2.6500000000000004,
-        "warsInRoster": 15,
-        "attacksUsed": 28,
-        "attacksAvailable": 30,
-        "avgDestruction": 90.25,
-        "totalAttacks": 28,
-        "totalStars": 67,
-        "count3Stars": 17,
-        "avgStars": 2.392857142857143,
-        "threeStarRate": 0.6071428571428571,
-        "totalMissed": 0,
-        "avgPositionDiff": -8.964285714285714,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
         "tag": "#LYJG0L8G",
         "name": "GLADIADOR!!!",
         "townhallLevel": 18
@@ -609,6 +573,42 @@
         "threeStarRate": 0.7777777777777778,
         "totalMissed": 2,
         "avgPositionDiff": 2.4651162790697674,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#LQQRGJ8VU",
+        "name": "i-Vinni",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.1440098539807915,
+        "rawScore": 2.1440098539807915,
+        "confidence": 1,
+        "tier": "B",
+        "attackScore": 2.918787327399004,
+        "defenseScore": 0.3662135479981028,
+        "reliability": 0.8526315789473684,
+        "formScore": 2.3825000000000003,
+        "warsInRoster": 15,
+        "attacksUsed": 29,
+        "attacksAvailable": 30,
+        "avgDestruction": 90.27586206896552,
+        "totalAttacks": 29,
+        "totalStars": 68,
+        "count3Stars": 17,
+        "avgStars": 2.3448275862068964,
+        "threeStarRate": 0.5862068965517241,
+        "totalMissed": 0,
+        "avgPositionDiff": -9.310344827586206,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -842,12 +842,12 @@
         "townhallLevel": 18
       },
       "data": {
-        "score": 2.016334146050998,
-        "rawScore": 2.016334146050998,
+        "score": 1.975788547568497,
+        "rawScore": 1.975788547568497,
         "confidence": 1,
         "tier": "C",
         "attackScore": 2.5089764633855896,
-        "defenseScore": 0.36236138887409663,
+        "defenseScore": 0.20017899494409225,
         "reliability": 0.962280701754386,
         "formScore": 2.08,
         "warsInRoster": 24,
@@ -1179,7 +1179,7 @@
     },
     "#2QL0VR9GU": {
       "tier": "B",
-      "score": 2.016334146050998,
+      "score": 1.975788547568497,
       "avgStars": 2.369565217391304,
       "totalStars": 109,
       "totalAttacks": 46,
@@ -1187,7 +1187,7 @@
       "totalMissed": 1,
       "rank": 24,
       "prevRank": 24,
-      "normalizedScore": 57.61
+      "normalizedScore": 56.45
     },
     "#20JC0J9JR": {
       "tier": "B",
@@ -1233,7 +1233,7 @@
       "totalAttacks": 45,
       "warsInRoster": 26,
       "totalMissed": 2,
-      "rank": 17,
+      "rank": 16,
       "prevRank": 17,
       "normalizedScore": 62.16
     },
@@ -1275,15 +1275,15 @@
     },
     "#LQQRGJ8VU": {
       "tier": "B",
-      "score": 2.205077604461341,
-      "avgStars": 2.392857142857143,
-      "totalStars": 67,
-      "totalAttacks": 28,
+      "score": 2.1440098539807915,
+      "avgStars": 2.3448275862068964,
+      "totalStars": 68,
+      "totalAttacks": 29,
       "warsInRoster": 15,
       "totalMissed": 0,
-      "rank": 15,
+      "rank": 17,
       "prevRank": 15,
-      "normalizedScore": 63
+      "normalizedScore": 61.26
     },
     "#JPVGQP8V": {
       "tier": "F",
@@ -1315,7 +1315,7 @@
       "totalAttacks": 32,
       "warsInRoster": 17,
       "totalMissed": 1,
-      "rank": 16,
+      "rank": 15,
       "prevRank": 16,
       "normalizedScore": 62.22
     },
