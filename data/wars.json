@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 8,
-        "destructionPercentage": 9.9
+        "stars": 15,
+        "destructionPercentage": 16.666666
       },
       "sixHourNonAttackers": [
         {
@@ -201,11 +201,6 @@
           "townhallLevel": 16
         },
         {
-          "tag": "#L8RG2PV0G",
-          "name": "joaoaoaoao",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#PLU2VCLG",
           "name": "Phoenix",
           "townhallLevel": 18
@@ -241,19 +236,9 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#GQU9Y0CQ8",
-          "name": "Scok♤",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#2LGC8PGRY",
           "name": "lucas r.",
           "townhallLevel": 17
-        },
-        {
-          "tag": "#YVYCCQU08",
-          "name": "Frenético",
-          "townhallLevel": 18
         },
         {
           "tag": "#LR2U2PRP2",
@@ -422,7 +407,14 @@
           "name": "joaoaoaoao",
           "townhallLevel": 18,
           "mapPosition": 18,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 4,
+              "defenderTag": "#8V9J88CL8"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -510,7 +502,14 @@
           "name": "Scok♤",
           "townhallLevel": 18,
           "mapPosition": 30,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 91,
+              "order": 5,
+              "defenderTag": "#P2089YJRR"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -528,7 +527,20 @@
           "name": "Frenético",
           "townhallLevel": 18,
           "mapPosition": 22,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 6,
+              "defenderTag": "#P299YR80U"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 7,
+              "defenderTag": "#P2089YJRR"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
