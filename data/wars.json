@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 6,
-        "destructionPercentage": 6.6666665
+        "stars": 8,
+        "destructionPercentage": 9.9
       },
       "sixHourNonAttackers": [
         {
@@ -148,11 +148,6 @@
         {
           "tag": "#QR8R9QUV8",
           "name": "Dr.Hannibal",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#2LY0P2L9U",
-          "name": "LucasHG9",
           "townhallLevel": 18
         },
         {
@@ -305,7 +300,14 @@
           "name": "LucasHG9",
           "townhallLevel": 18,
           "mapPosition": 9,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 97,
+              "order": 3,
+              "defenderTag": "#P2089YJRR"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
