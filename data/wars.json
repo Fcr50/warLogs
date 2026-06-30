@@ -136,23 +136,13 @@
         ]
       },
       "clan": {
-        "stars": 29,
-        "destructionPercentage": 33.2
+        "stars": 37,
+        "destructionPercentage": 43.033333
       },
       "sixHourNonAttackers": [
         {
-          "tag": "#8VCUUPPJP",
-          "name": "Satsugai",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#2R89QJL9Q",
           "name": "Hisoka",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#2QL0VR9GU",
-          "name": "Marcola",
           "townhallLevel": 18
         },
         {
@@ -168,16 +158,6 @@
         {
           "tag": "#2GP2JUU2",
           "name": "Gustavo Lázaro",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#LQQRGJ8VU",
-          "name": "i-Vinni",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QGQJGURCL",
-          "name": "SAFONOV",
           "townhallLevel": 18
         },
         {
@@ -242,7 +222,14 @@
           "name": "Satsugai",
           "townhallLevel": 18,
           "mapPosition": 19,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 15,
+              "defenderTag": "#UYC89YLQ"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -308,7 +295,14 @@
           "name": "Marcola",
           "townhallLevel": 18,
           "mapPosition": 11,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 98,
+              "order": 13,
+              "defenderTag": "#9LJQ8PJVY"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -360,7 +354,14 @@
           "name": "i-Vinni",
           "townhallLevel": 18,
           "mapPosition": 21,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 93,
+              "order": 16,
+              "defenderTag": "#9QCRPG8JJ"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -369,7 +370,14 @@
           "name": "SAFONOV",
           "townhallLevel": 18,
           "mapPosition": 6,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 14,
+              "defenderTag": "#2VQJJ9PQQ"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
