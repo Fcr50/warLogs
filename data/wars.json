@@ -10,8 +10,8 @@
       "opponent": {
         "name": "B.B.T.S CLUB",
         "tag": "#2GJPV0R0",
-        "stars": 0,
-        "destructionPercentage": 0,
+        "stars": 8,
+        "destructionPercentage": 9.433333,
         "members": [
           {
             "tag": "#80Y9GRG0J",
@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 60,
-        "destructionPercentage": 66.666664
+        "stars": 66,
+        "destructionPercentage": 73.333336
       },
       "sixHourNonAttackers": [
         {
@@ -148,11 +148,6 @@
         {
           "tag": "#QLGP0JGPJ",
           "name": "igg2.0",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#2GP2JUU2",
-          "name": "Gustavo Lázaro",
           "townhallLevel": 18
         },
         {
@@ -169,11 +164,6 @@
           "tag": "#YPVQVU982",
           "name": "亗 ＨＡＤＥＳ_０７ 亗",
           "townhallLevel": 18
-        },
-        {
-          "tag": "#2LGC8PGRY",
-          "name": "lucas r.",
-          "townhallLevel": 17
         },
         {
           "tag": "#LR2U2PRP2",
@@ -323,7 +313,14 @@
           "name": "Gustavo Lázaro",
           "townhallLevel": 18,
           "mapPosition": 10,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 31,
+              "defenderTag": "#LGPQ8UGLL"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -356,7 +353,20 @@
               "defenderTag": "#2VQJJ9PQQ"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#8QYUCCRGY",
+              "attackerMapPosition": 13
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 83,
+              "attackerTag": "#2QVCY92V2",
+              "attackerMapPosition": 15
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -460,7 +470,14 @@
               "defenderTag": "#8P2922GJ2"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 83,
+              "attackerTag": "#2QVCY92V2",
+              "attackerMapPosition": 15
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -501,7 +518,14 @@
           "townhallLevel": 18,
           "mapPosition": 3,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#8QYUCCRGY",
+              "attackerMapPosition": 13
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -541,7 +565,14 @@
           "name": "lucas r.",
           "townhallLevel": 17,
           "mapPosition": 27,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 29,
+              "defenderTag": "#9G2VYUUQ8"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
