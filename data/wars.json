@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 41,
-        "destructionPercentage": 46.433334
+        "stars": 45,
+        "destructionPercentage": 50
       },
       "sixHourNonAttackers": [
         {
@@ -164,11 +164,6 @@
           "tag": "#GQ8URLCLP",
           "name": "¥TioSam",
           "townhallLevel": 16
-        },
-        {
-          "tag": "#PLU2VCLG",
-          "name": "Phoenix",
-          "townhallLevel": 18
         },
         {
           "tag": "#20JC0J9JR",
@@ -418,6 +413,12 @@
               "destructionPercentage": 100,
               "order": 4,
               "defenderTag": "#8V9J88CL8"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 20,
+              "defenderTag": "#9QCRPG8JJ"
             }
           ],
           "defensesReceived": [],
@@ -428,7 +429,14 @@
           "name": "Phoenix",
           "townhallLevel": 18,
           "mapPosition": 7,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 19,
+              "defenderTag": "#9L9RLRUGL"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
