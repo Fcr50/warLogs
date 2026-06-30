@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 57,
-        "destructionPercentage": 63.333332
+        "stars": 60,
+        "destructionPercentage": 66.666664
       },
       "sixHourNonAttackers": [
         {
@@ -163,11 +163,6 @@
         {
           "tag": "#20JC0J9JR",
           "name": "BTV✯Robin Hood",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#80LUCC9YV",
-          "name": "Lobo ®",
           "townhallLevel": 18
         },
         {
@@ -457,7 +452,14 @@
           "name": "Lobo ®",
           "townhallLevel": 18,
           "mapPosition": 1,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 25,
+              "defenderTag": "#8P2922GJ2"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
