@@ -10,8 +10,8 @@
       "opponent": {
         "name": "B.B.T.S CLUB",
         "tag": "#2GJPV0R0",
-        "stars": 65,
-        "destructionPercentage": 75.166664,
+        "stars": 69,
+        "destructionPercentage": 78.666664,
         "members": [
           {
             "tag": "#80Y9GRG0J",
@@ -436,7 +436,14 @@
               "defenderTag": "#9QCRPG8JJ"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#8V9J88CL8",
+              "attackerMapPosition": 18
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -678,6 +685,18 @@
           "defensesReceived": [
             {
               "stars": 2,
+              "destructionPercentage": 92,
+              "attackerTag": "#9LJQ8PJVY",
+              "attackerMapPosition": 11
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#L88YLQQQY",
+              "attackerMapPosition": 20
+            },
+            {
+              "stars": 2,
               "destructionPercentage": 95,
               "attackerTag": "#QV09PR2RJ",
               "attackerMapPosition": 25
@@ -909,6 +928,12 @@
               "destructionPercentage": 100,
               "order": 22,
               "defenderTag": "#9GPQP99GY"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 77,
+              "defenderTag": "#PPY8Q9C9R"
             }
           ],
           "defensesReceived": [
