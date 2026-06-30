@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-30T18:30:26.174Z",
+  "generatedAt": "2026-06-30T18:45:24.728Z",
   "totalWars": 20,
   "liveWar": {
     "opponentName": "B.B.T.S CLUB",
-    "totalAttacksDone": 50,
+    "totalAttacksDone": 51,
     "totalAttacksExpected": 60
   },
   "ranking": [
@@ -194,25 +194,25 @@
         "townhallLevel": 18
       },
       "data": {
-        "score": 2.4533416133945325,
-        "rawScore": 2.4533416133945325,
+        "score": 2.4438401605781914,
+        "rawScore": 2.4438401605781914,
         "confidence": 1,
         "tier": "A",
-        "attackScore": 3.365049613533339,
-        "defenseScore": 0.4488831028421182,
+        "attackScore": 3.384122031005548,
+        "defenseScore": 0.37883563022344535,
         "reliability": 0.92,
         "formScore": 2.9299999999999997,
         "warsInRoster": 21,
-        "attacksUsed": 39,
+        "attacksUsed": 40,
         "attacksAvailable": 41,
-        "avgDestruction": 96.23076923076923,
-        "totalAttacks": 39,
-        "totalStars": 109,
-        "count3Stars": 32,
-        "avgStars": 2.7948717948717947,
-        "threeStarRate": 0.8205128205128205,
+        "avgDestruction": 96.325,
+        "totalAttacks": 40,
+        "totalStars": 112,
+        "count3Stars": 33,
+        "avgStars": 2.8,
+        "threeStarRate": 0.825,
         "totalMissed": 0,
-        "avgPositionDiff": -4.162162162162162,
+        "avgPositionDiff": -4.421052631578948,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -585,42 +585,6 @@
     },
     {
       "player": {
-        "tag": "#2R89QJL9Q",
-        "name": "Hisoka",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.201845827991249,
-        "rawScore": 2.201845827991249,
-        "confidence": 1,
-        "tier": "B",
-        "attackScore": 2.9977052286068635,
-        "defenseScore": 0.25858398245091996,
-        "reliability": 0.7654545454545454,
-        "formScore": 3.5,
-        "warsInRoster": 17,
-        "attacksUsed": 30,
-        "attacksAvailable": 34,
-        "avgDestruction": 92.5,
-        "totalAttacks": 30,
-        "totalStars": 76,
-        "count3Stars": 19,
-        "avgStars": 2.533333333333333,
-        "threeStarRate": 0.6333333333333333,
-        "totalMissed": 2,
-        "avgPositionDiff": -9.392857142857142,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
         "tag": "#YPVQVU982",
         "name": "亗 ＨＡＤＥＳ_０７ 亗",
         "townhallLevel": 18
@@ -681,6 +645,42 @@
         "threeStarRate": 0.7058823529411765,
         "totalMissed": 1,
         "avgPositionDiff": -2.588235294117647,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#2R89QJL9Q",
+        "name": "Hisoka",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.1735818133493687,
+        "rawScore": 2.1735818133493687,
+        "confidence": 1,
+        "tier": "B",
+        "attackScore": 2.9977052286068635,
+        "defenseScore": 0.14552792388339864,
+        "reliability": 0.7654545454545454,
+        "formScore": 3.5,
+        "warsInRoster": 17,
+        "attacksUsed": 30,
+        "attacksAvailable": 34,
+        "avgDestruction": 92.5,
+        "totalAttacks": 30,
+        "totalStars": 76,
+        "count3Stars": 19,
+        "avgStars": 2.533333333333333,
+        "threeStarRate": 0.6333333333333333,
+        "totalMissed": 2,
+        "avgPositionDiff": -9.392857142857142,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1107,15 +1107,15 @@
     },
     "#2R89QJL9Q": {
       "tier": "B",
-      "score": 2.201845827991249,
+      "score": 2.1735818133493687,
       "avgStars": 2.533333333333333,
       "totalStars": 76,
       "totalAttacks": 30,
       "warsInRoster": 17,
       "totalMissed": 2,
-      "rank": 17,
+      "rank": 20,
       "prevRank": 17,
-      "normalizedScore": 62.91
+      "normalizedScore": 62.1
     },
     "#LYJG0L8G": {
       "tier": "B",
@@ -1125,7 +1125,7 @@
       "totalAttacks": 34,
       "warsInRoster": 18,
       "totalMissed": 1,
-      "rank": 19,
+      "rank": 18,
       "prevRank": 19,
       "normalizedScore": 62.55
     },
@@ -1197,7 +1197,7 @@
       "totalAttacks": 46,
       "warsInRoster": 27,
       "totalMissed": 2,
-      "rank": 18,
+      "rank": 17,
       "prevRank": 18,
       "normalizedScore": 62.64
     },
@@ -1263,15 +1263,15 @@
     },
     "#QR8R9QUV8": {
       "tier": "A",
-      "score": 2.4533416133945325,
-      "avgStars": 2.7948717948717947,
-      "totalStars": 109,
-      "totalAttacks": 39,
+      "score": 2.4438401605781914,
+      "avgStars": 2.8,
+      "totalStars": 112,
+      "totalAttacks": 40,
       "warsInRoster": 21,
       "totalMissed": 0,
       "rank": 6,
       "prevRank": 6,
-      "normalizedScore": 70.1
+      "normalizedScore": 69.82
     },
     "#20JC0J9JR": {
       "tier": "B",
@@ -1373,7 +1373,7 @@
       "totalAttacks": 18,
       "warsInRoster": 9,
       "totalMissed": 0,
-      "rank": 20,
+      "rank": 19,
       "prevRank": 20,
       "normalizedScore": 62.21
     },
