@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-30T10:45:54.320Z",
+  "generatedAt": "2026-06-30T11:00:33.095Z",
   "totalWars": 20,
   "liveWar": {
     "opponentName": "B.B.T.S CLUB",
-    "totalAttacksDone": 41,
+    "totalAttacksDone": 42,
     "totalAttacksExpected": 60
   },
   "ranking": [
@@ -105,6 +105,42 @@
         "threeStarRate": 0.9423076923076923,
         "totalMissed": 0,
         "avgPositionDiff": -1.38,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#8CJ8YJY0P",
+        "name": "ChrolloLucilfer",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.47934801267047,
+        "rawScore": 2.47934801267047,
+        "confidence": 1,
+        "tier": "A",
+        "attackScore": 3.1861648344959814,
+        "defenseScore": 0.5086351287286306,
+        "reliability": 1,
+        "formScore": 3.24,
+        "warsInRoster": 27,
+        "attacksUsed": 53,
+        "attacksAvailable": 53,
+        "avgDestruction": 96.81132075471699,
+        "totalAttacks": 53,
+        "totalStars": 148,
+        "count3Stars": 45,
+        "avgStars": 2.792452830188679,
+        "threeStarRate": 0.8490566037735849,
+        "totalMissed": 0,
+        "avgPositionDiff": 1.1176470588235294,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -321,42 +357,6 @@
         "threeStarRate": 0.6285714285714286,
         "totalMissed": 0,
         "avgPositionDiff": -3.515151515151515,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#8CJ8YJY0P",
-        "name": "ChrolloLucilfer",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.4201758345034388,
-        "rawScore": 2.4201758345034388,
-        "confidence": 1,
-        "tier": "A",
-        "attackScore": 3.1071834579078117,
-        "defenseScore": 0.5086351287286306,
-        "reliability": 1,
-        "formScore": 2.98,
-        "warsInRoster": 27,
-        "attacksUsed": 52,
-        "attacksAvailable": 53,
-        "avgDestruction": 96.75,
-        "totalAttacks": 52,
-        "totalStars": 145,
-        "count3Stars": 44,
-        "avgStars": 2.7884615384615383,
-        "threeStarRate": 0.8461538461538461,
-        "totalMissed": 0,
-        "avgPositionDiff": 1.06,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1053,7 +1053,7 @@
       "totalAttacks": 48,
       "warsInRoster": 26,
       "totalMissed": 2,
-      "rank": 6,
+      "rank": 7,
       "prevRank": 6,
       "normalizedScore": 70
     },
@@ -1106,16 +1106,16 @@
       "normalizedScore": 61.49
     },
     "#8CJ8YJY0P": {
-      "tier": "A",
-      "score": 2.4201758345034388,
-      "avgStars": 2.7884615384615383,
-      "totalStars": 145,
-      "totalAttacks": 52,
+      "tier": "S",
+      "score": 2.47934801267047,
+      "avgStars": 2.792452830188679,
+      "totalStars": 148,
+      "totalAttacks": 53,
       "warsInRoster": 27,
       "totalMissed": 0,
-      "rank": 10,
+      "rank": 4,
       "prevRank": 10,
-      "normalizedScore": 69.15
+      "normalizedScore": 70.84
     },
     "#QJVQVRPU": {
       "tier": "B",
@@ -1161,7 +1161,7 @@
       "totalAttacks": 35,
       "warsInRoster": 18,
       "totalMissed": 0,
-      "rank": 9,
+      "rank": 10,
       "prevRank": 9,
       "normalizedScore": 69.5
     },
@@ -1233,7 +1233,7 @@
       "totalAttacks": 51,
       "warsInRoster": 26,
       "totalMissed": 0,
-      "rank": 7,
+      "rank": 8,
       "prevRank": 7,
       "normalizedScore": 69.69
     },
@@ -1257,7 +1257,7 @@
       "totalAttacks": 39,
       "warsInRoster": 21,
       "totalMissed": 0,
-      "rank": 5,
+      "rank": 6,
       "prevRank": 5,
       "normalizedScore": 70.1
     },
@@ -1305,19 +1305,19 @@
       "totalAttacks": 29,
       "warsInRoster": 15,
       "totalMissed": 1,
-      "rank": 8,
+      "rank": 9,
       "prevRank": 8,
       "normalizedScore": 69.59
     },
     "#YVYCCQU08": {
-      "tier": "S",
+      "tier": "A",
       "score": 2.4555080111878316,
       "avgStars": 2.727272727272727,
       "totalStars": 90,
       "totalAttacks": 33,
       "warsInRoster": 18,
       "totalMissed": 0,
-      "rank": 4,
+      "rank": 5,
       "prevRank": 4,
       "normalizedScore": 70.16
     },
