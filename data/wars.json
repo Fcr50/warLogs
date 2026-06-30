@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 51,
-        "destructionPercentage": 56.666668
+        "stars": 57,
+        "destructionPercentage": 63.333332
       },
       "sixHourNonAttackers": [
         {
@@ -149,11 +149,6 @@
           "tag": "#QLGP0JGPJ",
           "name": "igg2.0",
           "townhallLevel": 18
-        },
-        {
-          "tag": "#8YJYY92GC",
-          "name": "RussiaN",
-          "townhallLevel": 17
         },
         {
           "tag": "#2GP2JUU2",
@@ -189,11 +184,6 @@
           "tag": "#LR2U2PRP2",
           "name": "NARNIA",
           "townhallLevel": 16
-        },
-        {
-          "tag": "#QJVQVRPU",
-          "name": "Frnnn",
-          "townhallLevel": 18
         }
       ],
       "members": [
@@ -306,7 +296,14 @@
           "name": "RussiaN",
           "townhallLevel": 17,
           "mapPosition": 26,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 23,
+              "defenderTag": "#QY0QPYCP8"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -582,7 +579,14 @@
           "name": "Frnnn",
           "townhallLevel": 18,
           "mapPosition": 8,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 24,
+              "defenderTag": "#80Y9GRG0J"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
