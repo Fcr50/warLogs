@@ -1,6 +1,6 @@
 {
   "season": "2026-07-01",
-  "generatedAt": "2026-07-02T23:35:20.150Z",
+  "generatedAt": "2026-07-02T23:50:30.036Z",
   "state": "inWar",
   "rounds": [
     {
@@ -10,9 +10,9 @@
       "result": "inProgress",
       "opponentName": "Team Packers",
       "opponentTag": "#LRQU8UQ0",
-      "clanStars": 28,
+      "clanStars": 31,
       "opponentStars": 23,
-      "clanDestructionPct": 65.4,
+      "clanDestructionPct": 72.06666666666666,
       "teamSize": 15,
       "members": [
         {
@@ -70,7 +70,12 @@
           "name": "Gustavo Lázaro",
           "townhallLevel": 18,
           "mapPosition": 9,
-          "attack": null
+          "attack": {
+            "defenderTag": "#QY2CY09Q",
+            "defenderMapPosition": 10,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#QGQJGURCL",
