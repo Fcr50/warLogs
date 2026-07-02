@@ -1,6 +1,6 @@
 {
   "season": "2026-07-01",
-  "generatedAt": "2026-07-02T18:15:26.726Z",
+  "generatedAt": "2026-07-02T18:30:30.671Z",
   "state": "inWar",
   "rounds": [
     {
@@ -10,9 +10,9 @@
       "result": "inProgress",
       "opponentName": "Team Packers",
       "opponentTag": "#LRQU8UQ0",
-      "clanStars": 6,
-      "opponentStars": 15,
-      "clanDestructionPct": 13.333333333333334,
+      "clanStars": 8,
+      "opponentStars": 17,
+      "clanDestructionPct": 19.6,
       "teamSize": 15,
       "members": [
         {
@@ -41,7 +41,12 @@
           "name": "Marcola",
           "townhallLevel": 18,
           "mapPosition": 10,
-          "attack": null
+          "attack": {
+            "defenderTag": "#L2CY88Y9P",
+            "defenderMapPosition": 11,
+            "stars": 2,
+            "destructionPercentage": 94
+          }
         },
         {
           "tag": "#8CJ8YJY0P",
