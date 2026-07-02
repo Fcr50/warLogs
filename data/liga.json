@@ -1,6 +1,6 @@
 {
   "season": "2026-07-01",
-  "generatedAt": "2026-07-02T20:35:19.207Z",
+  "generatedAt": "2026-07-02T20:50:25.447Z",
   "state": "inWar",
   "rounds": [
     {
@@ -10,9 +10,9 @@
       "result": "inProgress",
       "opponentName": "Team Packers",
       "opponentTag": "#LRQU8UQ0",
-      "clanStars": 22,
+      "clanStars": 25,
       "opponentStars": 20,
-      "clanDestructionPct": 52.06666666666667,
+      "clanDestructionPct": 58.733333333333334,
       "teamSize": 15,
       "members": [
         {
@@ -77,7 +77,12 @@
           "name": "SAFONOV",
           "townhallLevel": 18,
           "mapPosition": 6,
-          "attack": null
+          "attack": {
+            "defenderTag": "#Y9R82C0JR",
+            "defenderMapPosition": 4,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#GJ2LQVQJ",
