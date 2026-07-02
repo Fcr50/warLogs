@@ -1,6 +1,6 @@
 {
   "season": "2026-07-01",
-  "generatedAt": "2026-07-02T19:15:21.581Z",
+  "generatedAt": "2026-07-02T19:35:20.458Z",
   "state": "inWar",
   "rounds": [
     {
@@ -10,9 +10,9 @@
       "result": "inProgress",
       "opponentName": "Team Packers",
       "opponentTag": "#LRQU8UQ0",
-      "clanStars": 14,
-      "opponentStars": 17,
-      "clanDestructionPct": 32.93333333333333,
+      "clanStars": 16,
+      "opponentStars": 20,
+      "clanDestructionPct": 38.733333333333334,
       "teamSize": 15,
       "members": [
         {
@@ -86,7 +86,12 @@
           "name": "joaoaoaoao",
           "townhallLevel": 18,
           "mapPosition": 15,
-          "attack": null
+          "attack": {
+            "defenderTag": "#9RUULGJJY",
+            "defenderMapPosition": 15,
+            "stars": 2,
+            "destructionPercentage": 87
+          }
         },
         {
           "tag": "#PLU2VCLG",
@@ -216,13 +221,6 @@
           "attack": null
         },
         {
-          "tag": "#L8RG2PV0G",
-          "name": "joaoaoaoao",
-          "townhallLevel": 18,
-          "mapPosition": 15,
-          "attack": null
-        },
-        {
           "tag": "#PLU2VCLG",
           "name": "Phoenix",
           "townhallLevel": 18,
@@ -262,6 +260,13 @@
           "name": "NenemPJL",
           "townhallLevel": 18,
           "mapPosition": 19,
+          "attack": null
+        },
+        {
+          "tag": "#PPPUQPVJY",
+          "name": "Rodrigo",
+          "townhallLevel": 18,
+          "mapPosition": 17,
           "attack": null
         }
       ]
