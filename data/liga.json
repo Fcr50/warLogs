@@ -1,6 +1,6 @@
 {
   "season": "2026-07-01",
-  "generatedAt": "2026-07-03T22:20:27.754Z",
+  "generatedAt": "2026-07-03T22:35:24.441Z",
   "state": "inWar",
   "rounds": [
     {
@@ -204,9 +204,9 @@
       "result": "inProgress",
       "opponentName": "Monster WithIn",
       "opponentTag": "#98UGQCVQ",
-      "clanStars": 22,
+      "clanStars": 27,
       "opponentStars": 26,
-      "clanDestructionPct": 51.666666666666664,
+      "clanDestructionPct": 64.26666666666667,
       "teamSize": 15,
       "members": [
         {
@@ -276,7 +276,12 @@
           "name": "SAFONOV",
           "townhallLevel": 18,
           "mapPosition": 5,
-          "attack": null
+          "attack": {
+            "defenderTag": "#LVULLL2Y",
+            "defenderMapPosition": 8,
+            "stars": 2,
+            "destructionPercentage": 89
+          }
         },
         {
           "tag": "#GJ2LQVQJ",
@@ -302,7 +307,12 @@
           "name": "Warlord Raivon",
           "townhallLevel": 18,
           "mapPosition": 13,
-          "attack": null
+          "attack": {
+            "defenderTag": "#8RGL8GL8P",
+            "defenderMapPosition": 13,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#P9C0LVLU2",
