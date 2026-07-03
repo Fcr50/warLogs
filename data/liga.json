@@ -1,6 +1,6 @@
 {
   "season": "2026-07-01",
-  "generatedAt": "2026-07-03T17:35:17.867Z",
+  "generatedAt": "2026-07-03T17:50:25.678Z",
   "state": "inWar",
   "rounds": [
     {
@@ -204,9 +204,9 @@
       "result": "inProgress",
       "opponentName": "Monster WithIn",
       "opponentTag": "#98UGQCVQ",
-      "clanStars": 0,
+      "clanStars": 1,
       "opponentStars": 0,
-      "clanDestructionPct": 0,
+      "clanDestructionPct": 5,
       "teamSize": 15,
       "members": [
         {
@@ -242,7 +242,12 @@
           "name": "ChrolloLucilfer",
           "townhallLevel": 18,
           "mapPosition": 11,
-          "attack": null
+          "attack": {
+            "defenderTag": "#Y929LRQ",
+            "defenderMapPosition": 10,
+            "stars": 1,
+            "destructionPercentage": 75
+          }
         },
         {
           "tag": "#2GP2JUU2",
