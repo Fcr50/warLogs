@@ -1,6 +1,6 @@
 {
   "season": "2026-07-01",
-  "generatedAt": "2026-07-03T19:20:24.680Z",
+  "generatedAt": "2026-07-03T19:35:18.815Z",
   "state": "inWar",
   "rounds": [
     {
@@ -204,9 +204,9 @@
       "result": "inProgress",
       "opponentName": "Monster WithIn",
       "opponentTag": "#98UGQCVQ",
-      "clanStars": 7,
+      "clanStars": 10,
       "opponentStars": 20,
-      "clanDestructionPct": 18.333333333333332,
+      "clanDestructionPct": 25,
       "teamSize": 15,
       "members": [
         {
@@ -221,7 +221,12 @@
           "name": "Dr.Hannibal",
           "townhallLevel": 18,
           "mapPosition": 14,
-          "attack": null
+          "attack": {
+            "defenderTag": "#Q9UUGCJU",
+            "defenderMapPosition": 14,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#2LY0P2L9U",
