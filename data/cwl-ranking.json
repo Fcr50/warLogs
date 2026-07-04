@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-04T19:05:19.934Z",
+  "generatedAt": "2026-07-04T19:20:39.144Z",
   "totalWars": 21,
   "liveWar": {
     "opponentName": "Libertarian War",
@@ -729,6 +729,42 @@
     },
     {
       "player": {
+        "tag": "#QR0RVL2VJ",
+        "name": "ricardo",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 0,
+        "rawScore": 0,
+        "confidence": 0,
+        "tier": "F",
+        "attackScore": 0,
+        "defenseScore": 0,
+        "reliability": 0,
+        "formScore": 0,
+        "warsInRoster": 0,
+        "attacksUsed": 0,
+        "attacksAvailable": 0,
+        "avgDestruction": 0,
+        "totalAttacks": 0,
+        "totalStars": 0,
+        "count3Stars": 0,
+        "avgStars": 0,
+        "threeStarRate": 0,
+        "totalMissed": 0,
+        "avgPositionDiff": 0,
+        "hasAnyDefense": false,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.56,
+          "defense": 0,
+          "reliability": 0.3067,
+          "form": 0.1333
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#PGYJLQ9Q9",
         "name": "lord.ivar",
         "townhallLevel": 18
@@ -1019,6 +1055,13 @@
   "noDataList": [
     {
       "player": {
+        "tag": "#QR0RVL2VJ",
+        "name": "ricardo",
+        "townhallLevel": 18
+      }
+    },
+    {
+      "player": {
         "tag": "#PGYJLQ9Q9",
         "name": "lord.ivar",
         "townhallLevel": 18
@@ -1255,6 +1298,16 @@
       "prevRank": 12,
       "normalizedScore": 68.38
     },
+    "#QR0RVL2VJ": {
+      "tier": "F",
+      "score": 0,
+      "avgStars": 0,
+      "totalStars": 0,
+      "totalAttacks": 0,
+      "warsInRoster": 0,
+      "totalMissed": 0,
+      "normalizedScore": 0
+    },
     "#80LUCC9YV": {
       "tier": "A",
       "score": 2.439649907884253,
@@ -1267,18 +1320,6 @@
       "prevRank": 7,
       "normalizedScore": 69.7
     },
-    "#20JC0J9JR": {
-      "tier": "B",
-      "score": 1.6539516135709698,
-      "avgStars": 2.88,
-      "totalStars": 72,
-      "totalAttacks": 25,
-      "warsInRoster": 17,
-      "totalMissed": 6,
-      "rank": 19,
-      "prevRank": 19,
-      "normalizedScore": 47.26
-    },
     "#2GP2JUU2": {
       "tier": "S",
       "score": 2.514163594655728,
@@ -1290,6 +1331,18 @@
       "rank": 2,
       "prevRank": 2,
       "normalizedScore": 71.83
+    },
+    "#20JC0J9JR": {
+      "tier": "B",
+      "score": 1.6539516135709698,
+      "avgStars": 2.88,
+      "totalStars": 72,
+      "totalAttacks": 25,
+      "warsInRoster": 17,
+      "totalMissed": 6,
+      "rank": 19,
+      "prevRank": 19,
+      "normalizedScore": 47.26
     },
     "#PGYJLQ9Q9": {
       "tier": "F",
