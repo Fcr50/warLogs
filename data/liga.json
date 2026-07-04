@@ -1,6 +1,6 @@
 {
   "season": "2026-07-01",
-  "generatedAt": "2026-07-04T19:35:26.810Z",
+  "generatedAt": "2026-07-04T19:50:34.678Z",
   "state": "inWar",
   "rounds": [
     {
@@ -398,9 +398,9 @@
       "result": "inProgress",
       "opponentName": "1923ANKA ϟ ASH",
       "opponentTag": "#2J99QY8PV",
-      "clanStars": 9,
+      "clanStars": 11,
       "opponentStars": 11,
-      "clanDestructionPct": 20,
+      "clanDestructionPct": 25.933333333333334,
       "teamSize": 15,
       "members": [
         {
@@ -436,7 +436,12 @@
           "name": "Marcola",
           "townhallLevel": 18,
           "mapPosition": 10,
-          "attack": null
+          "attack": {
+            "defenderTag": "#9QV29U9L8",
+            "defenderMapPosition": 9,
+            "stars": 2,
+            "destructionPercentage": 89
+          }
         },
         {
           "tag": "#2GP2JUU2",
