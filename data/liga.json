@@ -1,6 +1,6 @@
 {
   "season": "2026-07-01",
-  "generatedAt": "2026-07-04T02:35:18.819Z",
+  "generatedAt": "2026-07-04T02:50:28.493Z",
   "state": "inWar",
   "rounds": [
     {
@@ -204,9 +204,9 @@
       "result": "inProgress",
       "opponentName": "Monster WithIn",
       "opponentTag": "#98UGQCVQ",
-      "clanStars": 33,
+      "clanStars": 35,
       "opponentStars": 29,
-      "clanDestructionPct": 77.6,
+      "clanDestructionPct": 83.93333333333334,
       "teamSize": 15,
       "members": [
         {
@@ -360,7 +360,12 @@
           "name": "NenemPJL",
           "townhallLevel": 18,
           "mapPosition": 19,
-          "attack": null
+          "attack": {
+            "defenderTag": "#U9VYPGU8",
+            "defenderMapPosition": 17,
+            "stars": 2,
+            "destructionPercentage": 95
+          }
         },
         {
           "tag": "#PPPUQPVJY",
