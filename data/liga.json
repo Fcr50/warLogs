@@ -1,6 +1,6 @@
 {
   "season": "2026-07-01",
-  "generatedAt": "2026-07-04T23:50:46.621Z",
+  "generatedAt": "2026-07-05T00:05:25.397Z",
   "state": "inWar",
   "rounds": [
     {
@@ -398,9 +398,9 @@
       "result": "inProgress",
       "opponentName": "1923ANKA ϟ ASH",
       "opponentTag": "#2J99QY8PV",
-      "clanStars": 20,
+      "clanStars": 23,
       "opponentStars": 13,
-      "clanDestructionPct": 45.93333333333333,
+      "clanDestructionPct": 52.6,
       "teamSize": 15,
       "members": [
         {
@@ -453,7 +453,12 @@
           "name": "Gustavo Lázaro",
           "townhallLevel": 18,
           "mapPosition": 8,
-          "attack": null
+          "attack": {
+            "defenderTag": "#PG82VQ2PY",
+            "defenderMapPosition": 7,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#LQQRGJ8VU",
