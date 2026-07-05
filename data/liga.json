@@ -1,6 +1,6 @@
 {
   "season": "2026-07-01",
-  "generatedAt": "2026-07-05T18:05:23.500Z",
+  "generatedAt": "2026-07-05T18:20:34.762Z",
   "state": "inWar",
   "rounds": [
     {
@@ -592,9 +592,9 @@
       "result": "inProgress",
       "opponentName": "MONSTERS 2.0",
       "opponentTag": "#2RJULUCQG",
-      "clanStars": 0,
-      "opponentStars": 6,
-      "clanDestructionPct": 0,
+      "clanStars": 3,
+      "opponentStars": 11,
+      "clanDestructionPct": 6.666666666666667,
       "teamSize": 15,
       "members": [
         {
@@ -665,7 +665,12 @@
           "name": "Warlord Raivon",
           "townhallLevel": 18,
           "mapPosition": 13,
-          "attack": null
+          "attack": {
+            "defenderTag": "#L2PP8VJ09",
+            "defenderMapPosition": 3,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#80LUCC9YV",
