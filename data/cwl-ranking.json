@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-05T20:35:33.644Z",
+  "generatedAt": "2026-07-05T20:50:36.935Z",
   "totalWars": 21,
   "liveWar": {
     "opponentName": "Libertarian War",
@@ -837,6 +837,42 @@
     },
     {
       "player": {
+        "tag": "#PCUVLG8CV",
+        "name": "kauan",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 0,
+        "rawScore": 0,
+        "confidence": 0,
+        "tier": "F",
+        "attackScore": 0,
+        "defenseScore": 0,
+        "reliability": 0,
+        "formScore": 0,
+        "warsInRoster": 0,
+        "attacksUsed": 0,
+        "attacksAvailable": 0,
+        "avgDestruction": 0,
+        "totalAttacks": 0,
+        "totalStars": 0,
+        "count3Stars": 0,
+        "avgStars": 0,
+        "threeStarRate": 0,
+        "totalMissed": 0,
+        "avgPositionDiff": 0,
+        "hasAnyDefense": false,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.56,
+          "defense": 0,
+          "reliability": 0.3067,
+          "form": 0.1333
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#Y0VCG2YY9",
         "name": "_Vih_",
         "townhallLevel": 18
@@ -875,42 +911,6 @@
       "player": {
         "tag": "#2QPY8L29C",
         "name": "Brunão",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 0,
-        "rawScore": 0,
-        "confidence": 0,
-        "tier": "F",
-        "attackScore": 0,
-        "defenseScore": 0,
-        "reliability": 0,
-        "formScore": 0,
-        "warsInRoster": 0,
-        "attacksUsed": 0,
-        "attacksAvailable": 0,
-        "avgDestruction": 0,
-        "totalAttacks": 0,
-        "totalStars": 0,
-        "count3Stars": 0,
-        "avgStars": 0,
-        "threeStarRate": 0,
-        "totalMissed": 0,
-        "avgPositionDiff": 0,
-        "hasAnyDefense": false,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.56,
-          "defense": 0,
-          "reliability": 0.3067,
-          "form": 0.1333
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#PCUVLG8CV",
-        "name": "kauan",
         "townhallLevel": 18
       },
       "data": {
@@ -1645,6 +1645,13 @@
     },
     {
       "player": {
+        "tag": "#PCUVLG8CV",
+        "name": "kauan",
+        "townhallLevel": 18
+      }
+    },
+    {
+      "player": {
         "tag": "#Y0VCG2YY9",
         "name": "_Vih_",
         "townhallLevel": 18
@@ -1654,13 +1661,6 @@
       "player": {
         "tag": "#2QPY8L29C",
         "name": "Brunão",
-        "townhallLevel": 18
-      }
-    },
-    {
-      "player": {
-        "tag": "#PCUVLG8CV",
-        "name": "kauan",
         "townhallLevel": 18
       }
     },
@@ -2023,6 +2023,28 @@
       "prevRank": 16,
       "normalizedScore": 60.83
     },
+    "#PCUVLG8CV": {
+      "tier": "F",
+      "score": 0,
+      "avgStars": 0,
+      "totalStars": 0,
+      "totalAttacks": 0,
+      "warsInRoster": 0,
+      "totalMissed": 0,
+      "normalizedScore": 0
+    },
+    "#LQQRGJ8VU": {
+      "tier": "B",
+      "score": 2.1611751073956973,
+      "avgStars": 2.3548387096774195,
+      "totalStars": 73,
+      "totalAttacks": 31,
+      "warsInRoster": 16,
+      "totalMissed": 0,
+      "rank": 15,
+      "prevRank": 15,
+      "normalizedScore": 61.75
+    },
     "#Y0VCG2YY9": {
       "tier": "F",
       "score": 0,
@@ -2046,28 +2068,6 @@
       "normalizedScore": 71.83
     },
     "#2QPY8L29C": {
-      "tier": "F",
-      "score": 0,
-      "avgStars": 0,
-      "totalStars": 0,
-      "totalAttacks": 0,
-      "warsInRoster": 0,
-      "totalMissed": 0,
-      "normalizedScore": 0
-    },
-    "#LQQRGJ8VU": {
-      "tier": "B",
-      "score": 2.1611751073956973,
-      "avgStars": 2.3548387096774195,
-      "totalStars": 73,
-      "totalAttacks": 31,
-      "warsInRoster": 16,
-      "totalMissed": 0,
-      "rank": 15,
-      "prevRank": 15,
-      "normalizedScore": 61.75
-    },
-    "#PCUVLG8CV": {
       "tier": "F",
       "score": 0,
       "avgStars": 0,
