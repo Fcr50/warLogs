@@ -1,6 +1,6 @@
 {
   "season": "2026-07-01",
-  "generatedAt": "2026-07-05T01:50:43.534Z",
+  "generatedAt": "2026-07-05T02:05:28.419Z",
   "state": "inWar",
   "rounds": [
     {
@@ -398,9 +398,9 @@
       "result": "inProgress",
       "opponentName": "1923ANKA ϟ ASH",
       "opponentTag": "#2J99QY8PV",
-      "clanStars": 23,
+      "clanStars": 26,
       "opponentStars": 16,
-      "clanDestructionPct": 52.6,
+      "clanDestructionPct": 59.266666666666666,
       "teamSize": 15,
       "members": [
         {
@@ -546,7 +546,12 @@
           "name": "Rodrigo",
           "townhallLevel": 18,
           "mapPosition": 17,
-          "attack": null
+          "attack": {
+            "defenderTag": "#2PVV9RYP9",
+            "defenderMapPosition": 14,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         }
       ]
     },
