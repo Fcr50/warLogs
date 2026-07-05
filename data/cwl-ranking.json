@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-05T15:05:21.186Z",
+  "generatedAt": "2026-07-05T15:20:34.320Z",
   "totalWars": 21,
   "liveWar": {
     "opponentName": "Libertarian War",
@@ -945,6 +945,42 @@
     },
     {
       "player": {
+        "tag": "#GYQUVCVC0",
+        "name": "ISRCity",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 0,
+        "rawScore": 0,
+        "confidence": 0,
+        "tier": "F",
+        "attackScore": 0,
+        "defenseScore": 0,
+        "reliability": 0,
+        "formScore": 0,
+        "warsInRoster": 0,
+        "attacksUsed": 0,
+        "attacksAvailable": 0,
+        "avgDestruction": 0,
+        "totalAttacks": 0,
+        "totalStars": 0,
+        "count3Stars": 0,
+        "avgStars": 0,
+        "threeStarRate": 0,
+        "totalMissed": 0,
+        "avgPositionDiff": 0,
+        "hasAnyDefense": false,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.56,
+          "defense": 0,
+          "reliability": 0.3067,
+          "form": 0.1333
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#C990CJVL",
         "name": "Lobo_Fla",
         "townhallLevel": 18
@@ -983,42 +1019,6 @@
       "player": {
         "tag": "#QVCYLYJ2Q",
         "name": "pipoquinha",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 0,
-        "rawScore": 0,
-        "confidence": 0,
-        "tier": "F",
-        "attackScore": 0,
-        "defenseScore": 0,
-        "reliability": 0,
-        "formScore": 0,
-        "warsInRoster": 0,
-        "attacksUsed": 0,
-        "attacksAvailable": 0,
-        "avgDestruction": 0,
-        "totalAttacks": 0,
-        "totalStars": 0,
-        "count3Stars": 0,
-        "avgStars": 0,
-        "threeStarRate": 0,
-        "totalMissed": 0,
-        "avgPositionDiff": 0,
-        "hasAnyDefense": false,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.56,
-          "defense": 0,
-          "reliability": 0.3067,
-          "form": 0.1333
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#RRCUYPRL",
-        "name": "Dark Slz",
         "townhallLevel": 18
       },
       "data": {
@@ -1335,6 +1335,13 @@
     },
     {
       "player": {
+        "tag": "#GYQUVCVC0",
+        "name": "ISRCity",
+        "townhallLevel": 18
+      }
+    },
+    {
+      "player": {
         "tag": "#C990CJVL",
         "name": "Lobo_Fla",
         "townhallLevel": 18
@@ -1344,13 +1351,6 @@
       "player": {
         "tag": "#QVCYLYJ2Q",
         "name": "pipoquinha",
-        "townhallLevel": 18
-      }
-    },
-    {
-      "player": {
-        "tag": "#RRCUYPRL",
-        "name": "Dark Slz",
         "townhallLevel": 18
       }
     },
@@ -1614,7 +1614,7 @@
       "warsInRoster": 17,
       "totalMissed": 6,
       "rank": 21,
-      "prevRank": 20,
+      "prevRank": 21,
       "normalizedScore": 47.26
     },
     "#8YJYY92GC": {
@@ -1661,6 +1661,16 @@
       "totalMissed": 0,
       "normalizedScore": 0
     },
+    "#GYQUVCVC0": {
+      "tier": "F",
+      "score": 0,
+      "avgStars": 0,
+      "totalStars": 0,
+      "totalAttacks": 0,
+      "warsInRoster": 0,
+      "totalMissed": 0,
+      "normalizedScore": 0
+    },
     "#C990CJVL": {
       "tier": "F",
       "score": 0,
@@ -1692,6 +1702,7 @@
       "warsInRoster": 21,
       "totalMissed": 2,
       "rank": 20,
+      "prevRank": 20,
       "normalizedScore": 53.63
     },
     "#80LUCC9YV": {
@@ -1707,16 +1718,6 @@
       "normalizedScore": 69.7
     },
     "#QVCYLYJ2Q": {
-      "tier": "F",
-      "score": 0,
-      "avgStars": 0,
-      "totalStars": 0,
-      "totalAttacks": 0,
-      "warsInRoster": 0,
-      "totalMissed": 0,
-      "normalizedScore": 0
-    },
-    "#RRCUYPRL": {
       "tier": "F",
       "score": 0,
       "avgStars": 0,
@@ -1745,7 +1746,7 @@
       "warsInRoster": 14,
       "totalMissed": 4,
       "rank": 22,
-      "prevRank": 21,
+      "prevRank": 22,
       "normalizedScore": 46.2
     },
     "#9Q9Y09PYL": {
@@ -1837,7 +1838,7 @@
       "warsInRoster": 5,
       "totalMissed": 3,
       "rank": 23,
-      "prevRank": 22,
+      "prevRank": 23,
       "normalizedScore": 24.31
     },
     "#20Y9UGVUJ": {
