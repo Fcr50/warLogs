@@ -1,6 +1,6 @@
 {
   "season": "2026-07-01",
-  "generatedAt": "2026-07-06T00:20:34.284Z",
+  "generatedAt": "2026-07-06T00:35:24.029Z",
   "state": "inWar",
   "rounds": [
     {
@@ -592,9 +592,9 @@
       "result": "inProgress",
       "opponentName": "MONSTERS 2.0",
       "opponentTag": "#2RJULUCQG",
-      "clanStars": 25,
+      "clanStars": 28,
       "opponentStars": 22,
-      "clanDestructionPct": 59.13333333333333,
+      "clanDestructionPct": 65.8,
       "teamSize": 15,
       "members": [
         {
@@ -745,7 +745,12 @@
           "name": "Rodrigo",
           "townhallLevel": 18,
           "mapPosition": 17,
-          "attack": null
+          "attack": {
+            "defenderTag": "#LL00CJP8",
+            "defenderMapPosition": 16,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         }
       ]
     },
