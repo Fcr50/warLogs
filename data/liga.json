@@ -1,6 +1,6 @@
 {
   "season": "2026-07-01",
-  "generatedAt": "2026-07-06T10:50:37.050Z",
+  "generatedAt": "2026-07-06T11:05:20.338Z",
   "state": "inWar",
   "rounds": [
     {
@@ -592,9 +592,9 @@
       "result": "inProgress",
       "opponentName": "MONSTERS 2.0",
       "opponentTag": "#2RJULUCQG",
-      "clanStars": 34,
+      "clanStars": 37,
       "opponentStars": 28,
-      "clanDestructionPct": 79.13333333333334,
+      "clanDestructionPct": 85.8,
       "teamSize": 15,
       "members": [
         {
@@ -724,7 +724,12 @@
           "name": "VINGADOR⚡",
           "townhallLevel": 18,
           "mapPosition": 2,
-          "attack": null
+          "attack": {
+            "defenderTag": "#PULYRYJLC",
+            "defenderMapPosition": 5,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#YPVQVU982",
