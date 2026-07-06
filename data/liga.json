@@ -1,6 +1,6 @@
 {
   "season": "2026-07-01",
-  "generatedAt": "2026-07-06T04:05:25.335Z",
+  "generatedAt": "2026-07-06T04:20:41.534Z",
   "state": "inWar",
   "rounds": [
     {
@@ -592,9 +592,9 @@
       "result": "inProgress",
       "opponentName": "MONSTERS 2.0",
       "opponentTag": "#2RJULUCQG",
-      "clanStars": 31,
+      "clanStars": 34,
       "opponentStars": 25,
-      "clanDestructionPct": 72.46666666666667,
+      "clanDestructionPct": 79.13333333333334,
       "teamSize": 15,
       "members": [
         {
@@ -602,7 +602,12 @@
           "name": "Satsugai",
           "townhallLevel": 18,
           "mapPosition": 15,
-          "attack": null
+          "attack": {
+            "defenderTag": "#22PYJG9JL",
+            "defenderMapPosition": 14,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#QR8R9QUV8",
