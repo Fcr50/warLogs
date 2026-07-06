@@ -1,6 +1,6 @@
 {
   "season": "2026-07-01",
-  "generatedAt": "2026-07-06T23:20:35.560Z",
+  "generatedAt": "2026-07-06T23:35:23.016Z",
   "state": "inWar",
   "rounds": [
     {
@@ -786,9 +786,9 @@
       "result": "inProgress",
       "opponentName": "House of Elites",
       "opponentTag": "#2Q8RJ9VV8",
-      "clanStars": 29,
+      "clanStars": 31,
       "opponentStars": 28,
-      "clanDestructionPct": 66.2,
+      "clanDestructionPct": 71.73333333333333,
       "teamSize": 15,
       "members": [
         {
@@ -906,7 +906,12 @@
           "name": "Warlord Raivon",
           "townhallLevel": 18,
           "mapPosition": 13,
-          "attack": null
+          "attack": {
+            "defenderTag": "#29R8GCRPL",
+            "defenderMapPosition": 14,
+            "stars": 2,
+            "destructionPercentage": 83
+          }
         },
         {
           "tag": "#80LUCC9YV",
