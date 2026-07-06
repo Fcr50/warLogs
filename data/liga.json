@@ -1,6 +1,6 @@
 {
   "season": "2026-07-01",
-  "generatedAt": "2026-07-06T18:05:20.929Z",
+  "generatedAt": "2026-07-06T18:20:38.023Z",
   "state": "inWar",
   "rounds": [
     {
@@ -786,9 +786,9 @@
       "result": "inProgress",
       "opponentName": "House of Elites",
       "opponentTag": "#2Q8RJ9VV8",
-      "clanStars": 9,
+      "clanStars": 11,
       "opponentStars": 3,
-      "clanDestructionPct": 20,
+      "clanDestructionPct": 26.2,
       "teamSize": 15,
       "members": [
         {
@@ -895,7 +895,12 @@
           "name": "VINGADOR⚡",
           "townhallLevel": 18,
           "mapPosition": 2,
-          "attack": null
+          "attack": {
+            "defenderTag": "#88YQJC99",
+            "defenderMapPosition": 5,
+            "stars": 2,
+            "destructionPercentage": 93
+          }
         },
         {
           "tag": "#QJVQVRPU",
