@@ -1,6 +1,6 @@
 {
   "season": "2026-07-01",
-  "generatedAt": "2026-07-06T15:50:39.922Z",
+  "generatedAt": "2026-07-06T16:05:37.437Z",
   "state": "inWar",
   "rounds": [
     {
@@ -592,9 +592,9 @@
       "result": "inProgress",
       "opponentName": "MONSTERS 2.0",
       "opponentTag": "#2RJULUCQG",
-      "clanStars": 40,
+      "clanStars": 43,
       "opponentStars": 40,
-      "clanDestructionPct": 92.46666666666667,
+      "clanDestructionPct": 99.13333333333334,
       "teamSize": 15,
       "members": [
         {
@@ -722,7 +722,12 @@
           "name": "Lobo ®",
           "townhallLevel": 18,
           "mapPosition": 1,
-          "attack": null
+          "attack": {
+            "defenderTag": "#PQPJVRGG0",
+            "defenderMapPosition": 11,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#P9C0LVLU2",
