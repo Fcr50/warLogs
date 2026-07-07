@@ -1,6 +1,6 @@
 {
   "season": "2026-07-01",
-  "generatedAt": "2026-07-07T18:05:21.891Z",
+  "generatedAt": "2026-07-07T18:20:40.612Z",
   "state": "inWar",
   "rounds": [
     {
@@ -980,9 +980,9 @@
       "result": "inProgress",
       "opponentName": "war",
       "opponentTag": "#2YC8QQYV8",
-      "clanStars": 3,
-      "opponentStars": 3,
-      "clanDestructionPct": 6.666666666666667,
+      "clanStars": 9,
+      "opponentStars": 6,
+      "clanDestructionPct": 20,
       "teamSize": 15,
       "members": [
         {
@@ -1037,7 +1037,12 @@
           "name": "Gustavo Lázaro",
           "townhallLevel": 18,
           "mapPosition": 8,
-          "attack": null
+          "attack": {
+            "defenderTag": "#2922PRVV9",
+            "defenderMapPosition": 6,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#LQQRGJ8VU",
@@ -1058,7 +1063,12 @@
           "name": "Fer",
           "townhallLevel": 18,
           "mapPosition": 3,
-          "attack": null
+          "attack": {
+            "defenderTag": "#9LJ0JRYUY",
+            "defenderMapPosition": 3,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#L8RG2PV0G",
