@@ -1,6 +1,6 @@
 {
   "season": "2026-07-01",
-  "generatedAt": "2026-07-07T06:20:38.111Z",
+  "generatedAt": "2026-07-07T06:35:23.687Z",
   "state": "inWar",
   "rounds": [
     {
@@ -786,9 +786,9 @@
       "result": "inProgress",
       "opponentName": "House of Elites",
       "opponentTag": "#2Q8RJ9VV8",
-      "clanStars": 37,
+      "clanStars": 40,
       "opponentStars": 35,
-      "clanDestructionPct": 85.06666666666666,
+      "clanDestructionPct": 91.73333333333333,
       "teamSize": 15,
       "members": [
         {
@@ -796,7 +796,12 @@
           "name": "Satsugai",
           "townhallLevel": 18,
           "mapPosition": 15,
-          "attack": null
+          "attack": {
+            "defenderTag": "#U998CUC8",
+            "defenderMapPosition": 16,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#QR8R9QUV8",
