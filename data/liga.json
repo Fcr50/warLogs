@@ -1,6 +1,6 @@
 {
   "season": "2026-07-01",
-  "generatedAt": "2026-07-07T00:20:33.842Z",
+  "generatedAt": "2026-07-07T00:35:18.766Z",
   "state": "inWar",
   "rounds": [
     {
@@ -786,9 +786,9 @@
       "result": "inProgress",
       "opponentName": "House of Elites",
       "opponentTag": "#2Q8RJ9VV8",
-      "clanStars": 31,
+      "clanStars": 34,
       "opponentStars": 31,
-      "clanDestructionPct": 71.73333333333333,
+      "clanDestructionPct": 78.4,
       "teamSize": 15,
       "members": [
         {
@@ -949,7 +949,12 @@
           "name": "Rodrigo",
           "townhallLevel": 18,
           "mapPosition": 17,
-          "attack": null
+          "attack": {
+            "defenderTag": "#Y8VVC8RCY",
+            "defenderMapPosition": 21,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         }
       ]
     },
