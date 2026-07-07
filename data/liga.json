@@ -1,6 +1,6 @@
 {
   "season": "2026-07-01",
-  "generatedAt": "2026-07-07T19:05:26.980Z",
+  "generatedAt": "2026-07-07T19:20:38.927Z",
   "state": "inWar",
   "rounds": [
     {
@@ -980,9 +980,9 @@
       "result": "inProgress",
       "opponentName": "war",
       "opponentTag": "#2YC8QQYV8",
-      "clanStars": 12,
+      "clanStars": 18,
       "opponentStars": 13,
-      "clanDestructionPct": 26.666666666666668,
+      "clanDestructionPct": 40,
       "teamSize": 15,
       "members": [
         {
@@ -1004,7 +1004,12 @@
           "name": "LucasHG9",
           "townhallLevel": 18,
           "mapPosition": 9,
-          "attack": null
+          "attack": {
+            "defenderTag": "#9Q9QGPUQY",
+            "defenderMapPosition": 2,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#QQC8P9C9R",
@@ -1075,7 +1080,12 @@
           "name": "joaoaoaoao",
           "townhallLevel": 18,
           "mapPosition": 16,
-          "attack": null
+          "attack": {
+            "defenderTag": "#8RQ0U0JGG",
+            "defenderMapPosition": 14,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#PLU2VCLG",
