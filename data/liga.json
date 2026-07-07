@@ -1,6 +1,6 @@
 {
   "season": "2026-07-01",
-  "generatedAt": "2026-07-07T13:20:34.974Z",
+  "generatedAt": "2026-07-07T13:35:23.747Z",
   "state": "inWar",
   "rounds": [
     {
@@ -786,9 +786,9 @@
       "result": "inProgress",
       "opponentName": "House of Elites",
       "opponentTag": "#2Q8RJ9VV8",
-      "clanStars": 40,
+      "clanStars": 42,
       "opponentStars": 38,
-      "clanDestructionPct": 91.73333333333333,
+      "clanDestructionPct": 98,
       "teamSize": 15,
       "members": [
         {
@@ -928,7 +928,12 @@
           "name": "Lobo ®",
           "townhallLevel": 18,
           "mapPosition": 1,
-          "attack": null
+          "attack": {
+            "defenderTag": "#8CJRJ8P0P",
+            "defenderMapPosition": 1,
+            "stars": 2,
+            "destructionPercentage": 94
+          }
         },
         {
           "tag": "#P9C0LVLU2",
