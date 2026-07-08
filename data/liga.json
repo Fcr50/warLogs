@@ -1,6 +1,6 @@
 {
   "season": "2026-07-01",
-  "generatedAt": "2026-07-08T22:20:48.418Z",
+  "generatedAt": "2026-07-08T22:35:23.647Z",
   "state": "inWar",
   "rounds": [
     {
@@ -1174,9 +1174,9 @@
       "result": "inProgress",
       "opponentName": "Zentralfriedhof",
       "opponentTag": "#2YVLVYL",
-      "clanStars": 22,
+      "clanStars": 23,
       "opponentStars": 26,
-      "clanDestructionPct": 51.4,
+      "clanDestructionPct": 57.46666666666667,
       "teamSize": 15,
       "members": [
         {
@@ -1284,7 +1284,12 @@
           "name": "Phoenix",
           "townhallLevel": 18,
           "mapPosition": 6,
-          "attack": null
+          "attack": {
+            "defenderTag": "#L0CPGRRP",
+            "defenderMapPosition": 2,
+            "stars": 1,
+            "destructionPercentage": 91
+          }
         },
         {
           "tag": "#YPVQVU982",
