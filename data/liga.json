@@ -1,6 +1,6 @@
 {
   "season": "2026-07-01",
-  "generatedAt": "2026-07-08T00:50:35.445Z",
+  "generatedAt": "2026-07-08T01:05:26.286Z",
   "state": "inWar",
   "rounds": [
     {
@@ -980,9 +980,9 @@
       "result": "inProgress",
       "opponentName": "war",
       "opponentTag": "#2YC8QQYV8",
-      "clanStars": 30,
+      "clanStars": 33,
       "opponentStars": 25,
-      "clanDestructionPct": 66.66666666666667,
+      "clanDestructionPct": 73.33333333333333,
       "teamSize": 15,
       "members": [
         {
@@ -1138,7 +1138,12 @@
           "name": "Rodrigo",
           "townhallLevel": 18,
           "mapPosition": 18,
-          "attack": null
+          "attack": {
+            "defenderTag": "#LUYPRYJR8",
+            "defenderMapPosition": 16,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         }
       ]
     },
