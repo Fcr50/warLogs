@@ -1,6 +1,6 @@
 {
   "season": "2026-07-01",
-  "generatedAt": "2026-07-08T18:05:21.682Z",
+  "generatedAt": "2026-07-08T18:20:47.986Z",
   "state": "inWar",
   "rounds": [
     {
@@ -1174,9 +1174,9 @@
       "result": "inProgress",
       "opponentName": "Zentralfriedhof",
       "opponentTag": "#2YVLVYL",
-      "clanStars": 6,
-      "opponentStars": 6,
-      "clanDestructionPct": 13.333333333333334,
+      "clanStars": 9,
+      "opponentStars": 9,
+      "clanDestructionPct": 20,
       "teamSize": 15,
       "members": [
         {
@@ -1212,7 +1212,12 @@
           "name": "ChrolloLucilfer",
           "townhallLevel": 18,
           "mapPosition": 11,
-          "attack": null
+          "attack": {
+            "defenderTag": "#89JY00P2",
+            "defenderMapPosition": 10,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#2GP2JUU2",
