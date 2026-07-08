@@ -1,6 +1,6 @@
 {
   "season": "2026-07-01",
-  "generatedAt": "2026-07-08T21:05:23.492Z",
+  "generatedAt": "2026-07-08T21:20:44.463Z",
   "state": "inWar",
   "rounds": [
     {
@@ -1174,9 +1174,9 @@
       "result": "inProgress",
       "opponentName": "Zentralfriedhof",
       "opponentTag": "#2YVLVYL",
-      "clanStars": 12,
+      "clanStars": 14,
       "opponentStars": 24,
-      "clanDestructionPct": 26.666666666666668,
+      "clanDestructionPct": 33.266666666666666,
       "teamSize": 15,
       "members": [
         {
@@ -1288,7 +1288,12 @@
           "name": "Frnnn",
           "townhallLevel": 18,
           "mapPosition": 7,
-          "attack": null
+          "attack": {
+            "defenderTag": "#C28QVQQR",
+            "defenderMapPosition": 6,
+            "stars": 2,
+            "destructionPercentage": 99
+          }
         },
         {
           "tag": "#QJLQLUURY",
