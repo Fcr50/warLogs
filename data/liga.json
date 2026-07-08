@@ -1,6 +1,6 @@
 {
   "season": "2026-07-01",
-  "generatedAt": "2026-07-08T21:20:44.463Z",
+  "generatedAt": "2026-07-08T21:35:23.393Z",
   "state": "inWar",
   "rounds": [
     {
@@ -1174,9 +1174,9 @@
       "result": "inProgress",
       "opponentName": "Zentralfriedhof",
       "opponentTag": "#2YVLVYL",
-      "clanStars": 14,
+      "clanStars": 17,
       "opponentStars": 24,
-      "clanDestructionPct": 33.266666666666666,
+      "clanDestructionPct": 39.93333333333333,
       "teamSize": 15,
       "members": [
         {
@@ -1210,7 +1210,12 @@
           "name": "Gs.prieto",
           "townhallLevel": 18,
           "mapPosition": 12,
-          "attack": null
+          "attack": {
+            "defenderTag": "#92ULYL9V",
+            "defenderMapPosition": 9,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#8CJ8YJY0P",
