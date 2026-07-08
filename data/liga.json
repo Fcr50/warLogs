@@ -1,6 +1,6 @@
 {
   "season": "2026-07-01",
-  "generatedAt": "2026-07-08T23:05:24.696Z",
+  "generatedAt": "2026-07-08T23:20:48.308Z",
   "state": "inWar",
   "rounds": [
     {
@@ -1174,9 +1174,9 @@
       "result": "inProgress",
       "opponentName": "Zentralfriedhof",
       "opponentTag": "#2YVLVYL",
-      "clanStars": 23,
+      "clanStars": 26,
       "opponentStars": 26,
-      "clanDestructionPct": 57.46666666666667,
+      "clanDestructionPct": 64.13333333333334,
       "teamSize": 15,
       "members": [
         {
@@ -1327,7 +1327,12 @@
           "name": "Rodrigo",
           "townhallLevel": 18,
           "mapPosition": 18,
-          "attack": null
+          "attack": {
+            "defenderTag": "#VLCGLGG",
+            "defenderMapPosition": 16,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         }
       ]
     }
