@@ -1,6 +1,6 @@
 {
   "season": "2026-07-01",
-  "generatedAt": "2026-07-08T06:35:18.446Z",
+  "generatedAt": "2026-07-08T06:50:54.681Z",
   "state": "inWar",
   "rounds": [
     {
@@ -980,9 +980,9 @@
       "result": "inProgress",
       "opponentName": "war",
       "opponentTag": "#2YC8QQYV8",
-      "clanStars": 39,
+      "clanStars": 42,
       "opponentStars": 34,
-      "clanDestructionPct": 86.66666666666667,
+      "clanDestructionPct": 93.33333333333333,
       "teamSize": 15,
       "members": [
         {
@@ -1026,7 +1026,12 @@
           "name": "Gs.prieto",
           "townhallLevel": 18,
           "mapPosition": 12,
-          "attack": null
+          "attack": {
+            "defenderTag": "#UCGU8YL9",
+            "defenderMapPosition": 10,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#2QL0VR9GU",
