@@ -1,6 +1,6 @@
 {
   "season": "2026-07-01",
-  "generatedAt": "2026-07-09T02:50:48.256Z",
+  "generatedAt": "2026-07-09T03:05:19.961Z",
   "state": "inWar",
   "rounds": [
     {
@@ -1174,9 +1174,9 @@
       "result": "inProgress",
       "opponentName": "Zentralfriedhof",
       "opponentTag": "#2YVLVYL",
-      "clanStars": 31,
+      "clanStars": 34,
       "opponentStars": 29,
-      "clanDestructionPct": 77.26666666666667,
+      "clanDestructionPct": 83.93333333333334,
       "teamSize": 15,
       "members": [
         {
@@ -1270,7 +1270,12 @@
           "name": "Fer",
           "townhallLevel": 18,
           "mapPosition": 3,
-          "attack": null
+          "attack": {
+            "defenderTag": "#YY9YL0V",
+            "defenderMapPosition": 19,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#L8RG2PV0G",
