@@ -1,6 +1,6 @@
 {
   "season": "2026-07-01",
-  "generatedAt": "2026-07-09T01:20:42.084Z",
+  "generatedAt": "2026-07-09T01:35:23.937Z",
   "state": "inWar",
   "rounds": [
     {
@@ -1174,9 +1174,9 @@
       "result": "inProgress",
       "opponentName": "Zentralfriedhof",
       "opponentTag": "#2YVLVYL",
-      "clanStars": 26,
+      "clanStars": 28,
       "opponentStars": 26,
-      "clanDestructionPct": 64.13333333333334,
+      "clanDestructionPct": 70.6,
       "teamSize": 15,
       "members": [
         {
@@ -1320,7 +1320,12 @@
           "name": "NenemPJL",
           "townhallLevel": 18,
           "mapPosition": 19,
-          "attack": null
+          "attack": {
+            "defenderTag": "#CJJU0Q9L",
+            "defenderMapPosition": 14,
+            "stars": 2,
+            "destructionPercentage": 97
+          }
         },
         {
           "tag": "#PPPUQPVJY",
