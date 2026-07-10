@@ -3,10 +3,10 @@
     {
       "endTime": "20260711T195645.000Z",
       "startTime": "2026-07-10T19:56:45.000Z",
-      "state": "preparation",
+      "state": "inWar",
       "result": "inProgress",
       "teamSize": 25,
-      "absencesRecorded": false,
+      "absencesRecorded": true,
       "opponent": {
         "name": "太极✨『混元』",
         "tag": "#2G9Y88GJ2",
@@ -116,10 +116,126 @@
         ]
       },
       "clan": {
-        "stars": 0,
-        "destructionPercentage": 0
+        "stars": 5,
+        "destructionPercentage": 7.6
       },
-      "sixHourNonAttackers": null,
+      "sixHourNonAttackers": [
+        {
+          "tag": "#8VCUUPPJP",
+          "name": "Satsugai",
+          "townhallLevel": 18
+        },
+        {
+          "tag": "#QR8R9QUV8",
+          "name": "Dr.Hannibal",
+          "townhallLevel": 18
+        },
+        {
+          "tag": "#2LY0P2L9U",
+          "name": "LucasHG9",
+          "townhallLevel": 18
+        },
+        {
+          "tag": "#QQC8P9C9R",
+          "name": "Gs.prieto",
+          "townhallLevel": 18
+        },
+        {
+          "tag": "#8YJYY92GC",
+          "name": "RussiaN",
+          "townhallLevel": 18
+        },
+        {
+          "tag": "#8CJ8YJY0P",
+          "name": "ChrolloLucilfer",
+          "townhallLevel": 18
+        },
+        {
+          "tag": "#LQQRGJ8VU",
+          "name": "i-Vinni",
+          "townhallLevel": 18
+        },
+        {
+          "tag": "#G9Y2L9QJJ",
+          "name": "Micael",
+          "townhallLevel": 18
+        },
+        {
+          "tag": "#QGQJGURCL",
+          "name": "SAFONOV",
+          "townhallLevel": 18
+        },
+        {
+          "tag": "#GQ8URLCLP",
+          "name": "¥TioSam",
+          "townhallLevel": 16
+        },
+        {
+          "tag": "#GJ2LQVQJ",
+          "name": "Fer",
+          "townhallLevel": 18
+        },
+        {
+          "tag": "#L8RG2PV0G",
+          "name": "joaoaoaoao",
+          "townhallLevel": 18
+        },
+        {
+          "tag": "#PLU2VCLG",
+          "name": "Phoenix",
+          "townhallLevel": 18
+        },
+        {
+          "tag": "#29LP0VJV0",
+          "name": "Warlord Raivon",
+          "townhallLevel": 18
+        },
+        {
+          "tag": "#GGVCRYP8P",
+          "name": "gui",
+          "townhallLevel": 18
+        },
+        {
+          "tag": "#P9C0LVLU2",
+          "name": "VINGADOR⚡",
+          "townhallLevel": 18
+        },
+        {
+          "tag": "#YPVQVU982",
+          "name": "亗 ＨＡＤＥＳ_０７ 亗",
+          "townhallLevel": 18
+        },
+        {
+          "tag": "#LYJG0L8G",
+          "name": "GLADIADOR!!!",
+          "townhallLevel": 18
+        },
+        {
+          "tag": "#GQU9Y0CQ8",
+          "name": "Scok♤",
+          "townhallLevel": 18
+        },
+        {
+          "tag": "#YVYCCQU08",
+          "name": "Frenético",
+          "townhallLevel": 18
+        },
+        {
+          "tag": "#2R9GR02V9",
+          "name": "♋MURADA♋",
+          "townhallLevel": 18
+        },
+        {
+          "tag": "#QJVQVRPU",
+          "name": "Frnnn",
+          "townhallLevel": 18
+        },
+        {
+          "tag": "#2GC0QVJ8Y",
+          "name": "CR7BELLO",
+          "townhallLevel": 18
+        }
+      ],
       "members": [
         {
           "tag": "#8VCUUPPJP",
@@ -162,7 +278,14 @@
           "name": "Marcola",
           "townhallLevel": 18,
           "mapPosition": 10,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 90,
+              "order": 1,
+              "defenderTag": "#GP8Y0YVUJ"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -189,7 +312,14 @@
           "name": "Gustavo Lázaro",
           "townhallLevel": 18,
           "mapPosition": 9,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 2,
+              "defenderTag": "#LUR9YC8JL"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
