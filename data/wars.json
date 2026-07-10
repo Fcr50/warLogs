@@ -116,18 +116,13 @@
         ]
       },
       "clan": {
-        "stars": 12,
-        "destructionPercentage": 16
+        "stars": 21,
+        "destructionPercentage": 28
       },
       "sixHourNonAttackers": [
         {
           "tag": "#8VCUUPPJP",
           "name": "Satsugai",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QR8R9QUV8",
-          "name": "Dr.Hannibal",
           "townhallLevel": 18
         },
         {
@@ -143,11 +138,6 @@
         {
           "tag": "#8YJYY92GC",
           "name": "RussiaN",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#8CJ8YJY0P",
-          "name": "ChrolloLucilfer",
           "townhallLevel": 18
         },
         {
@@ -178,11 +168,6 @@
         {
           "tag": "#29LP0VJV0",
           "name": "Warlord Raivon",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#GGVCRYP8P",
-          "name": "gui",
           "townhallLevel": 18
         },
         {
@@ -241,7 +226,14 @@
           "name": "Dr.Hannibal",
           "townhallLevel": 18,
           "mapPosition": 14,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 10,
+              "defenderTag": "#C8L9QYVU"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -293,7 +285,14 @@
           "name": "ChrolloLucilfer",
           "townhallLevel": 18,
           "mapPosition": 11,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 1,
+              "destructionPercentage": 83,
+              "order": 8,
+              "defenderTag": "#9JGP0C9GY"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -339,6 +338,12 @@
               "destructionPercentage": 100,
               "order": 7,
               "defenderTag": "#GGJ8J8QJJ"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 11,
+              "defenderTag": "#9JGP0C9GY"
             }
           ],
           "defensesReceived": [],
@@ -417,7 +422,14 @@
           "name": "gui",
           "townhallLevel": 18,
           "mapPosition": 22,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 9,
+              "defenderTag": "#YJ8098QCQ"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
