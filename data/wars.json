@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 9,
-        "destructionPercentage": 12
+        "stars": 12,
+        "destructionPercentage": 16
       },
       "sixHourNonAttackers": [
         {
@@ -153,11 +153,6 @@
         {
           "tag": "#LQQRGJ8VU",
           "name": "i-Vinni",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#G9Y2L9QJJ",
-          "name": "Micael",
           "townhallLevel": 18
         },
         {
@@ -338,7 +333,14 @@
           "name": "Micael",
           "townhallLevel": 18,
           "mapPosition": 21,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 7,
+              "defenderTag": "#GGJ8J8QJJ"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
