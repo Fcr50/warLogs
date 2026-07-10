@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-07-10T23:20:30.906Z",
+  "generatedAt": "2026-07-10T23:35:26.386Z",
   "totalWars": 21,
   "liveWar": {
     "opponentName": "太极✨『混元』",
-    "totalAttacksDone": 23,
+    "totalAttacksDone": 24,
     "totalAttacksExpected": 50
   },
   "ranking": [
@@ -446,12 +446,12 @@
         "townhallLevel": 18
       },
       "data": {
-        "score": 2.3519832559075553,
-        "rawScore": 2.3519832559075553,
+        "score": 2.3421676882335247,
+        "rawScore": 2.3421676882335247,
         "confidence": 1,
         "tier": "A",
         "attackScore": 3.137760738070179,
-        "defenseScore": 0.25506641224374954,
+        "defenseScore": 0.21580414154762795,
         "reliability": 0.9809523809523809,
         "formScore": 2.935,
         "warsInRoster": 27,
@@ -537,6 +537,42 @@
         "threeStarRate": 0.75,
         "totalMissed": 1,
         "avgPositionDiff": 1.84,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#LQQRGJ8VU",
+        "name": "i-Vinni",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.277044867585608,
+        "rawScore": 2.277044867585608,
+        "confidence": 1,
+        "tier": "B",
+        "attackScore": 3.047241910707347,
+        "defenseScore": 0.30381306035408767,
+        "reliability": 0.8666666666666667,
+        "formScore": 3.2325,
+        "warsInRoster": 17,
+        "attacksUsed": 32,
+        "attacksAvailable": 34,
+        "avgDestruction": 90.96875,
+        "totalAttacks": 32,
+        "totalStars": 76,
+        "count3Stars": 19,
+        "avgStars": 2.375,
+        "threeStarRate": 0.59375,
+        "totalMissed": 0,
+        "avgPositionDiff": -9.0625,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -645,42 +681,6 @@
         "threeStarRate": 0.8333333333333334,
         "totalMissed": 0,
         "avgPositionDiff": 1.0961538461538463,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#LQQRGJ8VU",
-        "name": "i-Vinni",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.212175107395697,
-        "rawScore": 2.212175107395697,
-        "confidence": 1,
-        "tier": "B",
-        "attackScore": 2.956480576921846,
-        "defenseScore": 0.30381306035408767,
-        "reliability": 0.8666666666666667,
-        "formScore": 2.965,
-        "warsInRoster": 17,
-        "attacksUsed": 31,
-        "attacksAvailable": 34,
-        "avgDestruction": 90.6774193548387,
-        "totalAttacks": 31,
-        "totalStars": 73,
-        "count3Stars": 18,
-        "avgStars": 2.3548387096774195,
-        "threeStarRate": 0.5806451612903226,
-        "totalMissed": 0,
-        "avgPositionDiff": -9.35483870967742,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1303,7 +1303,7 @@
     },
     "#GJ2LQVQJ": {
       "tier": "A",
-      "score": 2.3519832559075553,
+      "score": 2.3421676882335247,
       "avgStars": 2.811320754716981,
       "totalStars": 149,
       "totalAttacks": 53,
@@ -1311,7 +1311,7 @@
       "totalMissed": 0,
       "rank": 13,
       "prevRank": 13,
-      "normalizedScore": 67.2
+      "normalizedScore": 66.92
     },
     "#PLU2VCLG": {
       "tier": "A",
@@ -1357,7 +1357,7 @@
       "totalAttacks": 54,
       "warsInRoster": 28,
       "totalMissed": 0,
-      "rank": 18,
+      "rank": 19,
       "prevRank": 18,
       "normalizedScore": 63.81
     },
@@ -1381,7 +1381,7 @@
       "totalAttacks": 50,
       "warsInRoster": 27,
       "totalMissed": 0,
-      "rank": 16,
+      "rank": 17,
       "prevRank": 16,
       "normalizedScore": 64.9
     },
@@ -1429,7 +1429,7 @@
       "totalAttacks": 40,
       "warsInRoster": 21,
       "totalMissed": 0,
-      "rank": 17,
+      "rank": 18,
       "prevRank": 17,
       "normalizedScore": 64.88
     },
@@ -1573,18 +1573,6 @@
       "prevRank": 6,
       "normalizedScore": 69.7
     },
-    "#PPPUQPVJY": {
-      "tier": "B",
-      "score": 1.6170095917386131,
-      "avgStars": 2.625,
-      "totalStars": 63,
-      "totalAttacks": 24,
-      "warsInRoster": 14,
-      "totalMissed": 4,
-      "rank": 28,
-      "prevRank": 28,
-      "normalizedScore": 46.2
-    },
     "#QR8R9QUV8": {
       "tier": "A",
       "score": 2.4502541243925973,
@@ -1596,6 +1584,18 @@
       "rank": 5,
       "prevRank": 5,
       "normalizedScore": 70.01
+    },
+    "#PPPUQPVJY": {
+      "tier": "B",
+      "score": 1.6170095917386131,
+      "avgStars": 2.625,
+      "totalStars": 63,
+      "totalAttacks": 24,
+      "warsInRoster": 14,
+      "totalMissed": 4,
+      "rank": 28,
+      "prevRank": 28,
+      "normalizedScore": 46.2
     },
     "#LYJG0L8G": {
       "tier": "B",
@@ -1631,15 +1631,15 @@
     },
     "#LQQRGJ8VU": {
       "tier": "B",
-      "score": 2.212175107395697,
-      "avgStars": 2.3548387096774195,
-      "totalStars": 73,
-      "totalAttacks": 31,
+      "score": 2.277044867585608,
+      "avgStars": 2.375,
+      "totalStars": 76,
+      "totalAttacks": 32,
       "warsInRoster": 17,
       "totalMissed": 0,
-      "rank": 19,
+      "rank": 16,
       "prevRank": 19,
-      "normalizedScore": 63.21
+      "normalizedScore": 65.06
     },
     "#GQU9Y0CQ8": {
       "tier": "B",
