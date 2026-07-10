@@ -10,8 +10,8 @@
       "opponent": {
         "name": "太极✨『混元』",
         "tag": "#2G9Y88GJ2",
-        "stars": 2,
-        "destructionPercentage": 4.6,
+        "stars": 7,
+        "destructionPercentage": 12.08,
         "members": [
           {
             "tag": "#89QJRCGG0",
@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 34,
-        "destructionPercentage": 47.28
+        "stars": 38,
+        "destructionPercentage": 51.64
       },
       "sixHourNonAttackers": [
         {
@@ -153,11 +153,6 @@
         {
           "tag": "#29LP0VJV0",
           "name": "Warlord Raivon",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#P9C0LVLU2",
-          "name": "VINGADOR⚡",
           "townhallLevel": 18
         },
         {
@@ -360,6 +355,12 @@
               "destructionPercentage": 91,
               "order": 19,
               "defenderTag": "#G8VPQVRV8"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 20,
+              "defenderTag": "#Y99QLRJLQ"
             }
           ],
           "defensesReceived": [],
@@ -452,8 +453,22 @@
           "name": "VINGADOR⚡",
           "townhallLevel": 18,
           "mapPosition": 1,
-          "attacks": [],
-          "defensesReceived": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 21,
+              "defenderTag": "#QGUR9U0G9"
+            }
+          ],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#G9LRYYPQ9",
+              "attackerMapPosition": 16
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -512,7 +527,14 @@
           "townhallLevel": 18,
           "mapPosition": 2,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 87,
+              "attackerTag": "#2YYQ2QJVQ",
+              "attackerMapPosition": 19
+            }
+          ],
           "missedAttacks": 0
         },
         {
