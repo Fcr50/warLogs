@@ -10,8 +10,8 @@
       "opponent": {
         "name": "太极✨『混元』",
         "tag": "#2G9Y88GJ2",
-        "stars": 14,
-        "destructionPercentage": 20.6,
+        "stars": 17,
+        "destructionPercentage": 24.6,
         "members": [
           {
             "tag": "#89QJRCGG0",
@@ -509,7 +509,14 @@
           "townhallLevel": 18,
           "mapPosition": 4,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#C8L9QYVU",
+              "attackerMapPosition": 14
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -586,6 +593,12 @@
               "destructionPercentage": 91,
               "order": 13,
               "defenderTag": "#Y99QLRJLQ"
+            },
+            {
+              "stars": 1,
+              "destructionPercentage": 87,
+              "order": 32,
+              "defenderTag": "#G8VPQVRV8"
             }
           ],
           "defensesReceived": [],
