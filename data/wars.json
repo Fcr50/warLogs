@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 41,
-        "destructionPercentage": 55.96
+        "stars": 44,
+        "destructionPercentage": 59.96
       },
       "sixHourNonAttackers": [
         {
@@ -128,11 +128,6 @@
         {
           "tag": "#2LY0P2L9U",
           "name": "LucasHG9",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#8YJYY92GC",
-          "name": "RussiaN",
           "townhallLevel": 18
         },
         {
@@ -260,7 +255,14 @@
           "name": "RussiaN",
           "townhallLevel": 18,
           "mapPosition": 23,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 29,
+              "defenderTag": "#GGLRJU9Q0"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
