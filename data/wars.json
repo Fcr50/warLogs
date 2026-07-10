@@ -10,8 +10,8 @@
       "opponent": {
         "name": "太极✨『混元』",
         "tag": "#2G9Y88GJ2",
-        "stars": 7,
-        "destructionPercentage": 12.08,
+        "stars": 11,
+        "destructionPercentage": 16.6,
         "members": [
           {
             "tag": "#89QJRCGG0",
@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 38,
-        "destructionPercentage": 51.64
+        "stars": 41,
+        "destructionPercentage": 55.96
       },
       "sixHourNonAttackers": [
         {
@@ -128,11 +128,6 @@
         {
           "tag": "#2LY0P2L9U",
           "name": "LucasHG9",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QQC8P9C9R",
-          "name": "Gs.prieto",
           "townhallLevel": 18
         },
         {
@@ -221,7 +216,20 @@
           "name": "Gs.prieto",
           "townhallLevel": 18,
           "mapPosition": 12,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 24,
+              "defenderTag": "#QV9QVVQLQ"
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 99,
+              "order": 27,
+              "defenderTag": "#G8VPQVRV8"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -414,7 +422,14 @@
               "defenderTag": "#QCCYGG8U0"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#2YYQ2QJVQ",
+              "attackerMapPosition": 19
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -528,6 +543,12 @@
           "mapPosition": 2,
           "attacks": [],
           "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#G9LRYYPQ9",
+              "attackerMapPosition": 16
+            },
             {
               "stars": 2,
               "destructionPercentage": 87,
