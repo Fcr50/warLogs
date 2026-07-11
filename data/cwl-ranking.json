@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-11T21:05:22.998Z",
+  "generatedAt": "2026-07-11T21:20:35.726Z",
   "totalWars": 22,
   "liveWar": {
     "opponentName": "Libertarian War",
@@ -1125,6 +1125,42 @@
     },
     {
       "player": {
+        "tag": "#2GG98U8PU",
+        "name": "Destroyer",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 0,
+        "rawScore": 0,
+        "confidence": 0,
+        "tier": "F",
+        "attackScore": 0,
+        "defenseScore": 0,
+        "reliability": 0,
+        "formScore": 0,
+        "warsInRoster": 0,
+        "attacksUsed": 0,
+        "attacksAvailable": 0,
+        "avgDestruction": 0,
+        "totalAttacks": 0,
+        "totalStars": 0,
+        "count3Stars": 0,
+        "avgStars": 0,
+        "threeStarRate": 0,
+        "totalMissed": 0,
+        "avgPositionDiff": 0,
+        "hasAnyDefense": false,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.56,
+          "defense": 0,
+          "reliability": 0.3067,
+          "form": 0.1333
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#828UG2GQC",
         "name": "Zika viruz",
         "townhallLevel": 18
@@ -1314,6 +1350,13 @@
     },
     {
       "player": {
+        "tag": "#2GG98U8PU",
+        "name": "Destroyer",
+        "townhallLevel": 18
+      }
+    },
+    {
+      "player": {
         "tag": "#828UG2GQC",
         "name": "Zika viruz",
         "townhallLevel": 18
@@ -1442,6 +1485,7 @@
       "warsInRoster": 1,
       "totalMissed": 0,
       "rank": 32,
+      "prevRank": 32,
       "normalizedScore": 28.38
     },
     "#QJVQVRPU": {
@@ -1622,18 +1666,6 @@
       "prevRank": 21,
       "normalizedScore": 59.87
     },
-    "#YVYCCQU08": {
-      "tier": "A",
-      "score": 2.3618872747413038,
-      "avgStars": 2.7142857142857144,
-      "totalStars": 95,
-      "totalAttacks": 35,
-      "warsInRoster": 19,
-      "totalMissed": 0,
-      "rank": 11,
-      "prevRank": 11,
-      "normalizedScore": 67.48
-    },
     "#VPPQ8VLV": {
       "tier": "B",
       "score": 1.8676132348436414,
@@ -1646,6 +1678,18 @@
       "prevRank": 26,
       "normalizedScore": 53.36
     },
+    "#YVYCCQU08": {
+      "tier": "A",
+      "score": 2.3618872747413038,
+      "avgStars": 2.7142857142857144,
+      "totalStars": 95,
+      "totalAttacks": 35,
+      "warsInRoster": 19,
+      "totalMissed": 0,
+      "rank": 11,
+      "prevRank": 11,
+      "normalizedScore": 67.48
+    },
     "#2R89QJL9Q": {
       "tier": "B",
       "score": 2.175463631531187,
@@ -1657,6 +1701,16 @@
       "rank": 18,
       "prevRank": 18,
       "normalizedScore": 62.16
+    },
+    "#2GG98U8PU": {
+      "tier": "F",
+      "score": 0,
+      "avgStars": 0,
+      "totalStars": 0,
+      "totalAttacks": 0,
+      "warsInRoster": 0,
+      "totalMissed": 0,
+      "normalizedScore": 0
     },
     "#80LUCC9YV": {
       "tier": "A",
@@ -1821,7 +1875,7 @@
       "warsInRoster": 9,
       "totalMissed": 14,
       "rank": 34,
-      "prevRank": 33,
+      "prevRank": 34,
       "normalizedScore": -11.39
     },
     "#LR2U2PRP2": {
@@ -1833,7 +1887,7 @@
       "warsInRoster": 5,
       "totalMissed": 3,
       "rank": 33,
-      "prevRank": 32,
+      "prevRank": 33,
       "normalizedScore": 24.3
     },
     "#20Y9UGVUJ": {
