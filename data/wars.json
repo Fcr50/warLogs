@@ -10,8 +10,8 @@
       "opponent": {
         "name": "太极✨『混元』",
         "tag": "#2G9Y88GJ2",
-        "stars": 26,
-        "destructionPercentage": 36.6,
+        "stars": 32,
+        "destructionPercentage": 44.6,
         "members": [
           {
             "tag": "#89QJRCGG0",
@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 50,
-        "destructionPercentage": 67.96
+        "stars": 51,
+        "destructionPercentage": 69.8
       },
       "sixHourNonAttackers": [
         {
@@ -134,11 +134,6 @@
           "tag": "#GQ8URLCLP",
           "name": "¥TioSam",
           "townhallLevel": 16
-        },
-        {
-          "tag": "#29LP0VJV0",
-          "name": "Warlord Raivon",
-          "townhallLevel": 18
         },
         {
           "tag": "#YPVQVU982",
@@ -244,7 +239,14 @@
               "defenderTag": "#GP8Y0YVUJ"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#GGJ8J8QJJ",
+              "attackerMapPosition": 21
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -298,7 +300,14 @@
               "defenderTag": "#GP8Y0YVUJ"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#GGJ8J8QJJ",
+              "attackerMapPosition": 21
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -350,6 +359,12 @@
               "destructionPercentage": 94,
               "order": 14,
               "defenderTag": "#QCCYGG8U0"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 39,
+              "defenderTag": "#G8VPQVRV8"
             }
           ],
           "defensesReceived": [
@@ -463,7 +478,14 @@
           "name": "Warlord Raivon",
           "townhallLevel": 18,
           "mapPosition": 15,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 0,
+              "destructionPercentage": 45,
+              "order": 42,
+              "defenderTag": "#QRRJ989VG"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
