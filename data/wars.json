@@ -10,8 +10,8 @@
       "opponent": {
         "name": "太极✨『混元』",
         "tag": "#2G9Y88GJ2",
-        "stars": 17,
-        "destructionPercentage": 24.6,
+        "stars": 26,
+        "destructionPercentage": 36.6,
         "members": [
           {
             "tag": "#89QJRCGG0",
@@ -199,7 +199,14 @@
           "townhallLevel": 18,
           "mapPosition": 8,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#QC2CLJYJP",
+              "attackerMapPosition": 8
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -345,7 +352,14 @@
               "defenderTag": "#QCCYGG8U0"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#G8VPQVRV8",
+              "attackerMapPosition": 3
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -603,7 +617,20 @@
               "defenderTag": "#G8VPQVRV8"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 92,
+              "attackerTag": "#G8VPQVRV8",
+              "attackerMapPosition": 3
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#QC2CLJYJP",
+              "attackerMapPosition": 8
+            }
+          ],
           "missedAttacks": 0
         },
         {
