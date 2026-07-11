@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-11T05:05:24.651Z",
+  "generatedAt": "2026-07-11T05:20:27.227Z",
   "totalWars": 21,
   "liveWar": {
     "opponentName": "太极✨『混元』",
@@ -261,42 +261,6 @@
     },
     {
       "player": {
-        "tag": "#8VCUUPPJP",
-        "name": "Satsugai",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.4313814668005236,
-        "rawScore": 2.4313814668005236,
-        "confidence": 1,
-        "tier": "A",
-        "attackScore": 3.401773034705266,
-        "defenseScore": 0.33481090516098355,
-        "reliability": 0.8245421245421245,
-        "formScore": 3.5,
-        "warsInRoster": 16,
-        "attacksUsed": 29,
-        "attacksAvailable": 32,
-        "avgDestruction": 99.51724137931035,
-        "totalAttacks": 29,
-        "totalStars": 85,
-        "count3Stars": 27,
-        "avgStars": 2.9310344827586206,
-        "threeStarRate": 0.9310344827586207,
-        "totalMissed": 1,
-        "avgPositionDiff": -2.1379310344827585,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
         "tag": "#QJLQLUURY",
         "name": "NenemPJL",
         "townhallLevel": 18
@@ -323,6 +287,42 @@
         "avgPositionDiff": -6.15,
         "hasAnyDefense": true,
         "hadTh17": true,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#8VCUUPPJP",
+        "name": "Satsugai",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.4160693592572424,
+        "rawScore": 2.4160693592572424,
+        "confidence": 1,
+        "tier": "A",
+        "attackScore": 3.401773034705266,
+        "defenseScore": 0.27356247498785774,
+        "reliability": 0.8245421245421245,
+        "formScore": 3.5,
+        "warsInRoster": 16,
+        "attacksUsed": 29,
+        "attacksAvailable": 32,
+        "avgDestruction": 99.51724137931035,
+        "totalAttacks": 29,
+        "totalStars": 85,
+        "count3Stars": 27,
+        "avgStars": 2.9310344827586206,
+        "threeStarRate": 0.9310344827586207,
+        "totalMissed": 1,
+        "avgPositionDiff": -2.1379310344827585,
+        "hasAnyDefense": true,
+        "hadTh17": false,
         "weights": {
           "attack": 0.42,
           "defense": 0.25,
@@ -770,12 +770,12 @@
         "townhallLevel": 18
       },
       "data": {
-        "score": 2.06269478110487,
-        "rawScore": 2.06269478110487,
+        "score": 2.0423984946123923,
+        "rawScore": 2.0423984946123923,
         "confidence": 1,
         "tier": "B",
         "attackScore": 2.704650291149732,
-        "defenseScore": 0.47239520671650387,
+        "defenseScore": 0.39121006074659276,
         "reliability": 0.8857142857142857,
         "formScore": 1.975,
         "warsInRoster": 19,
@@ -1391,7 +1391,7 @@
       "totalAttacks": 20,
       "warsInRoster": 10,
       "totalMissed": 0,
-      "rank": 9,
+      "rank": 8,
       "prevRank": 9,
       "normalizedScore": 69.31
     },
@@ -1491,15 +1491,15 @@
     },
     "#8VCUUPPJP": {
       "tier": "A",
-      "score": 2.4313814668005236,
+      "score": 2.4160693592572424,
       "avgStars": 2.9310344827586206,
       "totalStars": 85,
       "totalAttacks": 29,
       "warsInRoster": 16,
       "totalMissed": 1,
-      "rank": 8,
+      "rank": 9,
       "prevRank": 8,
-      "normalizedScore": 69.47
+      "normalizedScore": 69.03
     },
     "#2R89QJL9Q": {
       "tier": "B",
@@ -1539,7 +1539,7 @@
     },
     "#29LP0VJV0": {
       "tier": "B",
-      "score": 2.06269478110487,
+      "score": 2.0423984946123923,
       "avgStars": 2.4166666666666665,
       "totalStars": 87,
       "totalAttacks": 36,
@@ -1547,7 +1547,7 @@
       "totalMissed": 0,
       "rank": 23,
       "prevRank": 23,
-      "normalizedScore": 58.93
+      "normalizedScore": 58.35
     },
     "#YVYCCQU08": {
       "tier": "A",
