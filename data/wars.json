@@ -10,8 +10,8 @@
       "opponent": {
         "name": "太极✨『混元』",
         "tag": "#2G9Y88GJ2",
-        "stars": 32,
-        "destructionPercentage": 44.6,
+        "stars": 38,
+        "destructionPercentage": 52.6,
         "members": [
           {
             "tag": "#89QJRCGG0",
@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 60,
-        "destructionPercentage": 84.84
+        "stars": 62,
+        "destructionPercentage": 85.52
       },
       "sixHourNonAttackers": [
         {
@@ -193,7 +193,14 @@
           "name": "LucasHG9",
           "townhallLevel": 18,
           "mapPosition": 8,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 48,
+              "defenderTag": "#2YRYCRQR0"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -284,7 +291,14 @@
               "defenderTag": "#9JGP0C9GY"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#QCCYGG8U0",
+              "attackerMapPosition": 5
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -686,7 +700,14 @@
               "defenderTag": "#G9LRYYPQ9"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#QCCYGG8U0",
+              "attackerMapPosition": 5
+            }
+          ],
           "missedAttacks": 0
         }
       ]
