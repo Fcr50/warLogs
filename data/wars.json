@@ -10,8 +10,8 @@
       "opponent": {
         "name": "CRO ELITA 2",
         "tag": "#2LLCVGU9",
-        "stars": 55,
-        "destructionPercentage": 75.52,
+        "stars": 57,
+        "destructionPercentage": 78.72,
         "members": [
           {
             "tag": "#990JCJQRC",
@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 41,
-        "destructionPercentage": 55.92
+        "stars": 44,
+        "destructionPercentage": 59.92
       },
       "sixHourNonAttackers": [
         {
@@ -143,11 +143,6 @@
         {
           "tag": "#L8RG2PV0G",
           "name": "joaoaoaoao",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#PLU2VCLG",
-          "name": "Phoenix",
           "townhallLevel": 18
         },
         {
@@ -199,6 +194,12 @@
               "destructionPercentage": 100,
               "order": 40,
               "defenderTag": "#VJ8VUQ2"
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 98,
+              "order": 42,
+              "defenderTag": "#990JCJQRC"
             }
           ],
           "defensesReceived": [
@@ -230,7 +231,14 @@
               "defenderTag": "#YL90R2JJ2"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 80,
+              "attackerTag": "#G20YYRQYC",
+              "attackerMapPosition": 1
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -437,7 +445,14 @@
           "name": "Phoenix",
           "townhallLevel": 18,
           "mapPosition": 8,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 44,
+              "defenderTag": "#GQCJCLJC"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
