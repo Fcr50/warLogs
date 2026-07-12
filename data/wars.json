@@ -10,8 +10,8 @@
       "opponent": {
         "name": "CRO ELITA 2",
         "tag": "#2LLCVGU9",
-        "stars": 47,
-        "destructionPercentage": 63.6,
+        "stars": 55,
+        "destructionPercentage": 75.52,
         "members": [
           {
             "tag": "#990JCJQRC",
@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 23,
-        "destructionPercentage": 31.4
+        "stars": 36,
+        "destructionPercentage": 51.32
       },
       "sixHourNonAttackers": [
         {
@@ -136,18 +136,8 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#2GP2JUU2",
-          "name": "Gustavo Lázaro",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#LQQRGJ8VU",
           "name": "i-Vinni",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QGQJGURCL",
-          "name": "SAFONOV",
           "townhallLevel": 18
         },
         {
@@ -184,21 +174,6 @@
           "tag": "#GGVCRYP8P",
           "name": "gui",
           "townhallLevel": 18
-        },
-        {
-          "tag": "#P9C0LVLU2",
-          "name": "VINGADOR⚡",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#LYJG0L8G",
-          "name": "GLADIADOR!!!",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#2R9GR02V9",
-          "name": "♋MURADA♋",
-          "townhallLevel": 18
         }
       ],
       "members": [
@@ -224,7 +199,14 @@
           "townhallLevel": 18,
           "mapPosition": 14,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#GLU2RY8U9",
+              "attackerMapPosition": 10
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -238,6 +220,12 @@
               "destructionPercentage": 91,
               "order": 18,
               "defenderTag": "#GLU2RY8U9"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 30,
+              "defenderTag": "#YL90R2JJ2"
             }
           ],
           "defensesReceived": [],
@@ -262,7 +250,14 @@
               "defenderTag": "#8VPC8PJQP"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#GLU2RY8U9",
+              "attackerMapPosition": 10
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -325,7 +320,14 @@
           "name": "Gustavo Lázaro",
           "townhallLevel": 18,
           "mapPosition": 11,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 97,
+              "order": 32,
+              "defenderTag": "#L9VYGR8GG"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -372,7 +374,14 @@
           "name": "SAFONOV",
           "townhallLevel": 18,
           "mapPosition": 6,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 98,
+              "order": 37,
+              "defenderTag": "#990JCJQRC"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -488,7 +497,14 @@
               "defenderTag": "#RRRVCUC"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 98,
+              "attackerTag": "#QCJ8G2JRY",
+              "attackerMapPosition": 23
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -528,7 +544,14 @@
           "name": "VINGADOR⚡",
           "townhallLevel": 18,
           "mapPosition": 2,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 88,
+              "order": 36,
+              "defenderTag": "#JGVJP988"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -567,7 +590,14 @@
           "name": "GLADIADOR!!!",
           "townhallLevel": 18,
           "mapPosition": 17,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 35,
+              "defenderTag": "#G90280C2C"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -599,7 +629,14 @@
           "name": "♋MURADA♋",
           "townhallLevel": 18,
           "mapPosition": 3,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 31,
+              "defenderTag": "#GRYVU9LJR"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
