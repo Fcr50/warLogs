@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 44,
-        "destructionPercentage": 59.92
+        "stars": 50,
+        "destructionPercentage": 67.84
       },
       "sixHourNonAttackers": [
         {
@@ -133,16 +133,6 @@
         {
           "tag": "#LQQRGJ8VU",
           "name": "i-Vinni",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#GJ2LQVQJ",
-          "name": "Fer",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#L8RG2PV0G",
-          "name": "joaoaoaoao",
           "townhallLevel": 18
         },
         {
@@ -413,7 +403,14 @@
           "name": "Fer",
           "townhallLevel": 18,
           "mapPosition": 4,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 45,
+              "defenderTag": "#QVRG0RCR8"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -429,7 +426,14 @@
           "name": "joaoaoaoao",
           "townhallLevel": 18,
           "mapPosition": 19,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 96,
+              "order": 47,
+              "defenderTag": "#P2J9YLR2C"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -451,6 +455,12 @@
               "destructionPercentage": 100,
               "order": 44,
               "defenderTag": "#GQCJCLJC"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 46,
+              "defenderTag": "#990JCJQRC"
             }
           ],
           "defensesReceived": [
