@@ -10,8 +10,8 @@
       "opponent": {
         "name": "CRO ELITA 2",
         "tag": "#2LLCVGU9",
-        "stars": 32,
-        "destructionPercentage": 43.6,
+        "stars": 38,
+        "destructionPercentage": 51.6,
         "members": [
           {
             "tag": "#990JCJQRC",
@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 14,
-        "destructionPercentage": 19.4
+        "stars": 17,
+        "destructionPercentage": 23.4
       },
       "sixHourNonAttackers": [
         {
@@ -128,11 +128,6 @@
         {
           "tag": "#QR8R9QUV8",
           "name": "Dr.Hannibal",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#2LY0P2L9U",
-          "name": "LucasHG9",
           "townhallLevel": 18
         },
         {
@@ -211,11 +206,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#GQU9Y0CQ8",
-          "name": "Scok♤",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#2R9GR02V9",
           "name": "♋MURADA♋",
           "townhallLevel": 18
@@ -252,7 +242,14 @@
           "name": "LucasHG9",
           "townhallLevel": 18,
           "mapPosition": 10,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 91,
+              "order": 18,
+              "defenderTag": "#GLU2RY8U9"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -301,7 +298,14 @@
           "townhallLevel": 18,
           "mapPosition": 24,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#LQCG9UCJY",
+              "attackerMapPosition": 7
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -529,8 +533,22 @@
           "name": "Scok♤",
           "townhallLevel": 18,
           "mapPosition": 25,
-          "attacks": [],
-          "defensesReceived": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 21,
+              "defenderTag": "#GLU2RY8U9"
+            }
+          ],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#LQCG9UCJY",
+              "attackerMapPosition": 7
+            }
+          ],
           "missedAttacks": 0
         },
         {
