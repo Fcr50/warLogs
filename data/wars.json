@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 69,
-        "destructionPercentage": 92
+        "stars": 75,
+        "destructionPercentage": 100
       },
       "sixHourNonAttackers": [
         {
@@ -268,7 +268,20 @@
           "name": "RussiaN",
           "townhallLevel": 18,
           "mapPosition": 24,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 61,
+              "defenderTag": "#YCP9R00L8"
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 76,
+              "order": 64,
+              "defenderTag": "#GRYVU9LJR"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -450,6 +463,12 @@
               "destructionPercentage": 96,
               "order": 47,
               "defenderTag": "#P2J9YLR2C"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 62,
+              "defenderTag": "#2P2GJ92RY"
             }
           ],
           "defensesReceived": [
@@ -732,6 +751,12 @@
               "destructionPercentage": 100,
               "order": 31,
               "defenderTag": "#GRYVU9LJR"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 63,
+              "defenderTag": "#G20YYRQYC"
             }
           ],
           "defensesReceived": [
