@@ -10,8 +10,8 @@
       "opponent": {
         "name": "CRO ELITA 2",
         "tag": "#2LLCVGU9",
-        "stars": 66,
-        "destructionPercentage": 90.72,
+        "stars": 74,
+        "destructionPercentage": 99.6,
         "members": [
           {
             "tag": "#990JCJQRC",
@@ -142,7 +142,14 @@
           "name": "Satsugai",
           "townhallLevel": 18,
           "mapPosition": 16,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 85,
+              "order": 69,
+              "defenderTag": "#2P2GJ92RY"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 2,
@@ -202,6 +209,12 @@
             }
           ],
           "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#GRYVU9LJR",
+              "attackerMapPosition": 3
+            },
             {
               "stars": 2,
               "destructionPercentage": 80,
@@ -311,7 +324,14 @@
               "defenderTag": "#JGVJP988"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#YCP9R00L8",
+              "attackerMapPosition": 24
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -333,7 +353,14 @@
               "defenderTag": "#QCJ8G2JRY"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#YCP9R00L8",
+              "attackerMapPosition": 24
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -572,6 +599,12 @@
               "destructionPercentage": 96,
               "order": 6,
               "defenderTag": "#RRRVCUC"
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 80,
+              "order": 66,
+              "defenderTag": "#G20YYRQYC"
             }
           ],
           "defensesReceived": [
@@ -580,6 +613,12 @@
               "destructionPercentage": 98,
               "attackerTag": "#QCJ8G2JRY",
               "attackerMapPosition": 23
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#GRYVU9LJR",
+              "attackerMapPosition": 3
             }
           ],
           "missedAttacks": 0
@@ -604,6 +643,12 @@
             }
           ],
           "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#G90280C2C",
+              "attackerMapPosition": 17
+            },
             {
               "stars": 3,
               "destructionPercentage": 100,
@@ -780,6 +825,12 @@
               "destructionPercentage": 100,
               "order": 7,
               "defenderTag": "#P80U0CG9"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 65,
+              "defenderTag": "#G20YYRQYC"
             }
           ],
           "defensesReceived": [
