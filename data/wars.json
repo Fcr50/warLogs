@@ -10,8 +10,8 @@
       "opponent": {
         "name": "7beni7",
         "tag": "#89RPC2UC",
-        "stars": 8,
-        "destructionPercentage": 11.48,
+        "stars": 13,
+        "destructionPercentage": 18.32,
         "members": [
           {
             "tag": "#20QVYVVY2",
@@ -116,28 +116,13 @@
         ]
       },
       "clan": {
-        "stars": 21,
-        "destructionPercentage": 28
+        "stars": 33,
+        "destructionPercentage": 44
       },
       "sixHourNonAttackers": [
         {
-          "tag": "#QR8R9QUV8",
-          "name": "Dr.Hannibal",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#2LY0P2L9U",
-          "name": "LucasHG9",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#2QL0VR9GU",
           "name": "Marcola",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#8CJ8YJY0P",
-          "name": "ChrolloLucilfer",
           "townhallLevel": 18
         },
         {
@@ -181,11 +166,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#P9C0LVLU2",
-          "name": "VINGADOR⚡",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#GQU9Y0CQ8",
           "name": "Scok♤",
           "townhallLevel": 18
@@ -217,7 +197,14 @@
           "name": "Dr.Hannibal",
           "townhallLevel": 18,
           "mapPosition": 15,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 1,
+              "destructionPercentage": 91,
+              "order": 13,
+              "defenderTag": "#YLLPJQPYL"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -226,7 +213,20 @@
           "name": "LucasHG9",
           "townhallLevel": 18,
           "mapPosition": 9,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 12,
+              "defenderTag": "#GGQR9VGC"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 15,
+              "defenderTag": "#YLLPJQPYL"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -260,7 +260,14 @@
           "name": "ChrolloLucilfer",
           "townhallLevel": 18,
           "mapPosition": 12,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 17,
+              "defenderTag": "#QJQQGLGQ2"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -289,6 +296,12 @@
           "mapPosition": 22,
           "attacks": [],
           "defensesReceived": [
+            {
+              "stars": 1,
+              "destructionPercentage": 94,
+              "attackerTag": "#9RVQV2GRR",
+              "attackerMapPosition": 20
+            },
             {
               "stars": 2,
               "destructionPercentage": 87,
@@ -329,7 +342,14 @@
               "defenderTag": "#20QVYVVY2"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#PPYPCP22U",
+              "attackerMapPosition": 1
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -419,7 +439,14 @@
           "name": "VINGADOR⚡",
           "townhallLevel": 18,
           "mapPosition": 2,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 14,
+              "defenderTag": "#8CQCRRRJ2"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -504,7 +531,14 @@
           "townhallLevel": 18,
           "mapPosition": 20,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 71,
+              "attackerTag": "#9RVQV2GRR",
+              "attackerMapPosition": 20
+            }
+          ],
           "missedAttacks": 0
         }
       ]
