@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-07-15T13:05:50.739Z",
+  "generatedAt": "2026-07-15T13:20:35.926Z",
   "totalWars": 22,
   "liveWar": {
     "opponentName": "7beni7",
-    "totalAttacksDone": 36,
+    "totalAttacksDone": 37,
     "totalAttacksExpected": 50
   },
   "ranking": [
@@ -266,25 +266,25 @@
         "townhallLevel": 18
       },
       "data": {
-        "score": 2.412530128509907,
-        "rawScore": 2.412530128509907,
+        "score": 2.4193096863899273,
+        "rawScore": 2.4193096863899273,
         "confidence": 1,
         "tier": "A",
-        "attackScore": 3.2702918610712497,
+        "attackScore": 3.2864336655474884,
         "defenseScore": 0.26849771990746085,
         "reliability": 0.938961038961039,
         "formScore": 3.24,
         "warsInRoster": 27,
-        "attacksUsed": 48,
+        "attacksUsed": 49,
         "attacksAvailable": 54,
-        "avgDestruction": 92.9375,
-        "totalAttacks": 48,
-        "totalStars": 125,
-        "count3Stars": 37,
-        "avgStars": 2.6041666666666665,
-        "threeStarRate": 0.7708333333333334,
+        "avgDestruction": 93.08163265306122,
+        "totalAttacks": 49,
+        "totalStars": 128,
+        "count3Stars": 38,
+        "avgStars": 2.6122448979591835,
+        "threeStarRate": 0.7755102040816326,
         "totalMissed": 3,
-        "avgPositionDiff": -1.7391304347826086,
+        "avgPositionDiff": -1.9361702127659575,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -693,42 +693,6 @@
     },
     {
       "player": {
-        "tag": "#29LP0VJV0",
-        "name": "Warlord Raivon",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.0938072583696226,
-        "rawScore": 2.0938072583696226,
-        "confidence": 1,
-        "tier": "B",
-        "attackScore": 2.6153192573189803,
-        "defenseScore": 0.5000029451122213,
-        "reliability": 0.8715542521994135,
-        "formScore": 2.69,
-        "warsInRoster": 21,
-        "attacksUsed": 39,
-        "attacksAvailable": 41,
-        "avgDestruction": 93.82051282051282,
-        "totalAttacks": 39,
-        "totalStars": 93,
-        "count3Stars": 23,
-        "avgStars": 2.3846153846153846,
-        "threeStarRate": 0.5897435897435898,
-        "totalMissed": 1,
-        "avgPositionDiff": -3.5135135135135136,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
         "tag": "#QJLQLUURY",
         "name": "NenemPJL",
         "townhallLevel": 18
@@ -791,6 +755,42 @@
         "avgPositionDiff": -5.780487804878049,
         "hasAnyDefense": true,
         "hadTh17": true,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#29LP0VJV0",
+        "name": "Warlord Raivon",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.050902019234357,
+        "rawScore": 2.050902019234357,
+        "confidence": 1,
+        "tier": "B",
+        "attackScore": 2.6153192573189803,
+        "defenseScore": 0.32838198857116024,
+        "reliability": 0.8715542521994135,
+        "formScore": 2.69,
+        "warsInRoster": 21,
+        "attacksUsed": 39,
+        "attacksAvailable": 41,
+        "avgDestruction": 93.82051282051282,
+        "totalAttacks": 39,
+        "totalStars": 93,
+        "count3Stars": 23,
+        "avgStars": 2.3846153846153846,
+        "threeStarRate": 0.5897435897435898,
+        "totalMissed": 1,
+        "avgPositionDiff": -3.5135135135135136,
+        "hasAnyDefense": true,
+        "hadTh17": false,
         "weights": {
           "attack": 0.42,
           "defense": 0.25,
@@ -1432,15 +1432,15 @@
     },
     "#L8RG2PV0G": {
       "tier": "A",
-      "score": 2.412530128509907,
-      "avgStars": 2.6041666666666665,
-      "totalStars": 125,
-      "totalAttacks": 48,
+      "score": 2.4193096863899273,
+      "avgStars": 2.6122448979591835,
+      "totalStars": 128,
+      "totalAttacks": 49,
       "warsInRoster": 27,
       "totalMissed": 3,
       "rank": 8,
       "prevRank": 8,
-      "normalizedScore": 68.93
+      "normalizedScore": 69.12
     },
     "#20JC0J9JR": {
       "tier": "B",
@@ -1580,7 +1580,7 @@
       "totalAttacks": 43,
       "warsInRoster": 22,
       "totalMissed": 0,
-      "rank": 22,
+      "rank": 21,
       "prevRank": 22,
       "normalizedScore": 59.15
     },
@@ -1598,15 +1598,15 @@
     },
     "#29LP0VJV0": {
       "tier": "B",
-      "score": 2.0938072583696226,
+      "score": 2.050902019234357,
       "avgStars": 2.3846153846153846,
       "totalStars": 93,
       "totalAttacks": 39,
       "warsInRoster": 21,
       "totalMissed": 1,
-      "rank": 20,
+      "rank": 22,
       "prevRank": 20,
-      "normalizedScore": 59.82
+      "normalizedScore": 58.6
     },
     "#CJVP0CPC": {
       "tier": "F",
@@ -1708,7 +1708,7 @@
       "totalAttacks": 20,
       "warsInRoster": 10,
       "totalMissed": 0,
-      "rank": 21,
+      "rank": 20,
       "prevRank": 21,
       "normalizedScore": 59.17
     },
