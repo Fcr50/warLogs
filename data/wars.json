@@ -116,15 +116,10 @@
         ]
       },
       "clan": {
-        "stars": 58,
-        "destructionPercentage": 79.36
+        "stars": 62,
+        "destructionPercentage": 83.56
       },
       "sixHourNonAttackers": [
-        {
-          "tag": "#LQQRGJ8VU",
-          "name": "i-Vinni",
-          "townhallLevel": 18
-        },
         {
           "tag": "#GQ8URLCLP",
           "name": "¥TioSam",
@@ -260,7 +255,14 @@
           "name": "i-Vinni",
           "townhallLevel": 18,
           "mapPosition": 19,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 34,
+              "defenderTag": "#8YCVPGVRL"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -439,6 +441,12 @@
               "destructionPercentage": 100,
               "order": 9,
               "defenderTag": "#8VYPRRY2P"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 35,
+              "defenderTag": "#9RVQV2GRR"
             }
           ],
           "defensesReceived": [
