@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 18,
-        "destructionPercentage": 24
+        "stars": 30,
+        "destructionPercentage": 40
       },
       "sixHourNonAttackers": [
         {
@@ -128,11 +128,6 @@
         {
           "tag": "#8YJYY92GC",
           "name": "RussiaN",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#8CJ8YJY0P",
-          "name": "ChrolloLucilfer",
           "townhallLevel": 18
         },
         {
@@ -171,16 +166,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#P9C0LVLU2",
-          "name": "VINGADOR⚡",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#LYJG0L8G",
-          "name": "GLADIADOR!!!",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#GQU9Y0CQ8",
           "name": "Scok♤",
           "townhallLevel": 18
@@ -203,11 +188,6 @@
         {
           "tag": "#QJVQVRPU",
           "name": "Frnnn",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QJLQLUURY",
-          "name": "NenemPJL",
           "townhallLevel": 18
         },
         {
@@ -302,7 +282,14 @@
           "name": "ChrolloLucilfer",
           "townhallLevel": 18,
           "mapPosition": 8,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 12,
+              "defenderTag": "#UR02982Y"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -436,7 +423,14 @@
           "name": "VINGADOR⚡",
           "townhallLevel": 18,
           "mapPosition": 1,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 11,
+              "defenderTag": "#P99LPUG2"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -445,7 +439,14 @@
           "name": "GLADIADOR!!!",
           "townhallLevel": 18,
           "mapPosition": 13,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 13,
+              "defenderTag": "#2988UU098"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -499,7 +500,14 @@
           "name": "NenemPJL",
           "townhallLevel": 18,
           "mapPosition": 18,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 14,
+              "defenderTag": "#9LPV8Q0L"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
