@@ -10,8 +10,8 @@
       "opponent": {
         "name": "hi",
         "tag": "#LR28YYJL",
-        "stars": 12,
-        "destructionPercentage": 16,
+        "stars": 14,
+        "destructionPercentage": 19.4,
         "members": [
           {
             "tag": "#VR8088RU",
@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 39,
-        "destructionPercentage": 52
+        "stars": 41,
+        "destructionPercentage": 55.4
       },
       "sixHourNonAttackers": [
         {
@@ -138,11 +138,6 @@
         {
           "tag": "#LQQRGJ8VU",
           "name": "i-Vinni",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#VPPQ8VLV",
-          "name": "GABRIEL LOBATO",
           "townhallLevel": 18
         },
         {
@@ -338,7 +333,14 @@
               "defenderTag": "#YQVGYYGQ"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 85,
+              "attackerTag": "#Y82QGV0U",
+              "attackerMapPosition": 11
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -401,7 +403,14 @@
           "name": "GABRIEL LOBATO",
           "townhallLevel": 18,
           "mapPosition": 21,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 85,
+              "order": 20,
+              "defenderTag": "#V202JCVY"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
