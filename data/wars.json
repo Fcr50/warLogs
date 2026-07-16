@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 30,
-        "destructionPercentage": 40
+        "stars": 36,
+        "destructionPercentage": 48
       },
       "sixHourNonAttackers": [
         {
@@ -143,16 +143,6 @@
         {
           "tag": "#QGQJGURCL",
           "name": "SAFONOV",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#GJ2LQVQJ",
-          "name": "Fer",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#L8RG2PV0G",
-          "name": "joaoaoaoao",
           "townhallLevel": 18
         },
         {
@@ -329,6 +319,12 @@
               "destructionPercentage": 100,
               "order": 8,
               "defenderTag": "#9RGY02PY"
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 85,
+              "order": 17,
+              "defenderTag": "#2R9VR8URY"
             }
           ],
           "defensesReceived": [],
@@ -348,7 +344,14 @@
           "name": "Fer",
           "townhallLevel": 18,
           "mapPosition": 2,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 73,
+              "order": 16,
+              "defenderTag": "#2R9VR8URY"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -364,7 +367,14 @@
           "name": "joaoaoaoao",
           "townhallLevel": 18,
           "mapPosition": 14,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 15,
+              "defenderTag": "#2UJCCQG8G"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -429,6 +439,12 @@
               "destructionPercentage": 100,
               "order": 11,
               "defenderTag": "#P99LPUG2"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 18,
+              "defenderTag": "#2R9VR8URY"
             }
           ],
           "defensesReceived": [],
