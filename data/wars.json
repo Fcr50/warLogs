@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 12,
-        "destructionPercentage": 16
+        "stars": 18,
+        "destructionPercentage": 24
       },
       "sixHourNonAttackers": [
         {
@@ -161,11 +161,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#PLU2VCLG",
-          "name": "Phoenix",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#VPPQ8VLV",
           "name": "GABRIEL LOBATO",
           "townhallLevel": 18
@@ -173,11 +168,6 @@
         {
           "tag": "#29LP0VJV0",
           "name": "Warlord Raivon",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#GGVCRYP8P",
-          "name": "gui",
           "townhallLevel": 18
         },
         {
@@ -396,7 +386,14 @@
           "name": "Phoenix",
           "townhallLevel": 18,
           "mapPosition": 4,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 9,
+              "defenderTag": "#GGV0VVL0C"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -423,7 +420,14 @@
           "name": "gui",
           "townhallLevel": 18,
           "mapPosition": 19,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 10,
+              "defenderTag": "#Y8PRCV09C"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
