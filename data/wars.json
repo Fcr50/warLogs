@@ -10,8 +10,8 @@
       "opponent": {
         "name": "hi",
         "tag": "#LR28YYJL",
-        "stars": 0,
-        "destructionPercentage": 0,
+        "stars": 3,
+        "destructionPercentage": 4,
         "members": [
           {
             "tag": "#VR8088RU",
@@ -116,23 +116,13 @@
         ]
       },
       "clan": {
-        "stars": 0,
-        "destructionPercentage": 0
+        "stars": 6,
+        "destructionPercentage": 8
       },
       "sixHourNonAttackers": [
         {
-          "tag": "#8VCUUPPJP",
-          "name": "Satsugai",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#QR8R9QUV8",
           "name": "Dr.Hannibal",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#2LY0P2L9U",
-          "name": "LucasHG9",
           "townhallLevel": 18
         },
         {
@@ -252,8 +242,22 @@
           "name": "Satsugai",
           "townhallLevel": 18,
           "mapPosition": 12,
-          "attacks": [],
-          "defensesReceived": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 2,
+              "defenderTag": "#QJVVJCPR"
+            }
+          ],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#P99LPUG2",
+              "attackerMapPosition": 1
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -270,7 +274,14 @@
           "name": "LucasHG9",
           "townhallLevel": 18,
           "mapPosition": 6,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 1,
+              "defenderTag": "#VR8088RU"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
