@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 51,
-        "destructionPercentage": 68
+        "stars": 57,
+        "destructionPercentage": 76
       },
       "sixHourNonAttackers": [
         {
@@ -128,11 +128,6 @@
         {
           "tag": "#LQQRGJ8VU",
           "name": "i-Vinni",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#29LP0VJV0",
-          "name": "Warlord Raivon",
           "townhallLevel": 18
         },
         {
@@ -148,11 +143,6 @@
         {
           "tag": "#QU0J9RQRV",
           "name": "ThorinIIEscudo",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QJVQVRPU",
-          "name": "Frnnn",
           "townhallLevel": 18
         },
         {
@@ -424,7 +414,14 @@
           "name": "Warlord Raivon",
           "townhallLevel": 18,
           "mapPosition": 11,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 28,
+              "defenderTag": "#Y82QGV0U"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -536,7 +533,14 @@
           "name": "Frnnn",
           "townhallLevel": 18,
           "mapPosition": 5,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 27,
+              "defenderTag": "#VJ0UYVVU"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
