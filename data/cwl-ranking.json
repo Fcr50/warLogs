@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T08:20:25.700Z",
+  "generatedAt": "2026-07-17T08:35:26.657Z",
   "totalWars": 22,
   "liveWar": {
     "opponentName": "hi",
@@ -410,12 +410,12 @@
         "townhallLevel": 18
       },
       "data": {
-        "score": 2.359256660559803,
-        "rawScore": 2.359256660559803,
+        "score": 2.3462721780654303,
+        "rawScore": 2.3462721780654303,
         "confidence": 1,
         "tier": "A",
         "attackScore": 3.056697373061544,
-        "defenseScore": 0.3333854451062099,
+        "defenseScore": 0.2814475151287178,
         "reliability": 0.9675324675324675,
         "formScore": 3.245,
         "warsInRoster": 30,
@@ -621,42 +621,6 @@
     },
     {
       "player": {
-        "tag": "#P9C0LVLU2",
-        "name": "VINGADOR⚡",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.2344973540739583,
-        "rawScore": 2.2344973540739583,
-        "confidence": 1,
-        "tier": "A",
-        "attackScore": 2.8536430899004532,
-        "defenseScore": 0.1670326616267077,
-        "reliability": 0.9336363636363636,
-        "formScore": 3.5,
-        "warsInRoster": 29,
-        "attacksUsed": 53,
-        "attacksAvailable": 58,
-        "avgDestruction": 97,
-        "totalAttacks": 53,
-        "totalStars": 145,
-        "count3Stars": 45,
-        "avgStars": 2.7358490566037736,
-        "threeStarRate": 0.8490566037735849,
-        "totalMissed": 2,
-        "avgPositionDiff": 1.607843137254902,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
         "tag": "#8YJYY92GC",
         "name": "RussiaN",
         "townhallLevel": 18
@@ -683,6 +647,42 @@
         "avgPositionDiff": -5.642857142857143,
         "hasAnyDefense": true,
         "hadTh17": true,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#P9C0LVLU2",
+        "name": "VINGADOR⚡",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.227649893645703,
+        "rawScore": 2.227649893645703,
+        "confidence": 1,
+        "tier": "A",
+        "attackScore": 2.8536430899004532,
+        "defenseScore": 0.1396428199136879,
+        "reliability": 0.9336363636363636,
+        "formScore": 3.5,
+        "warsInRoster": 29,
+        "attacksUsed": 53,
+        "attacksAvailable": 58,
+        "avgDestruction": 97,
+        "totalAttacks": 53,
+        "totalStars": 145,
+        "count3Stars": 45,
+        "avgStars": 2.7358490566037736,
+        "threeStarRate": 0.8490566037735849,
+        "totalMissed": 2,
+        "avgPositionDiff": 1.607843137254902,
+        "hasAnyDefense": true,
+        "hadTh17": false,
         "weights": {
           "attack": 0.42,
           "defense": 0.25,
@@ -1444,15 +1444,15 @@
     },
     "#P9C0LVLU2": {
       "tier": "B",
-      "score": 2.2344973540739583,
+      "score": 2.227649893645703,
       "avgStars": 2.7358490566037736,
       "totalStars": 145,
       "totalAttacks": 53,
       "warsInRoster": 29,
       "totalMissed": 2,
-      "rank": 18,
+      "rank": 19,
       "prevRank": 18,
-      "normalizedScore": 63.84
+      "normalizedScore": 63.65
     },
     "#L8RG2PV0G": {
       "tier": "A",
@@ -1516,7 +1516,7 @@
     },
     "#QJVQVRPU": {
       "tier": "A",
-      "score": 2.359256660559803,
+      "score": 2.3462721780654303,
       "avgStars": 2.6440677966101696,
       "totalStars": 156,
       "totalAttacks": 59,
@@ -1524,7 +1524,7 @@
       "totalMissed": 1,
       "rank": 12,
       "prevRank": 12,
-      "normalizedScore": 67.41
+      "normalizedScore": 67.04
     },
     "#G9Y2L9QJJ": {
       "tier": "A",
@@ -1570,7 +1570,7 @@
       "totalAttacks": 44,
       "warsInRoster": 23,
       "totalMissed": 0,
-      "rank": 19,
+      "rank": 18,
       "prevRank": 19,
       "normalizedScore": 63.66
     },
