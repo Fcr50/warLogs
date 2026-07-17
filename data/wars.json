@@ -116,20 +116,10 @@
         ]
       },
       "clan": {
-        "stars": 63,
-        "destructionPercentage": 84
+        "stars": 68,
+        "destructionPercentage": 91.8
       },
       "sixHourNonAttackers": [
-        {
-          "tag": "#QR8R9QUV8",
-          "name": "Dr.Hannibal",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#LQQRGJ8VU",
-          "name": "i-Vinni",
-          "townhallLevel": 18
-        },
         {
           "tag": "#LR2U2PRP2",
           "name": "NARNIA",
@@ -170,7 +160,14 @@
           "name": "Dr.Hannibal",
           "townhallLevel": 18,
           "mapPosition": 10,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 32,
+              "defenderTag": "#PUCCVGPC"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -266,7 +263,14 @@
           "name": "i-Vinni",
           "townhallLevel": 18,
           "mapPosition": 15,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 95,
+              "order": 33,
+              "defenderTag": "#JUUCYRRQ"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
