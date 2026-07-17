@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 60,
-        "destructionPercentage": 80
+        "stars": 63,
+        "destructionPercentage": 84
       },
       "sixHourNonAttackers": [
         {
@@ -138,11 +138,6 @@
         {
           "tag": "#QU0J9RQRV",
           "name": "ThorinIIEscudo",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#PPPUQPVJY",
-          "name": "Rodrigo",
           "townhallLevel": 18
         }
       ],
@@ -574,7 +569,14 @@
           "name": "Rodrigo",
           "townhallLevel": 18,
           "mapPosition": 17,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 31,
+              "defenderTag": "#8J292CQ02"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         }
