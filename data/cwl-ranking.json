@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-07-17T12:50:23.929Z",
+  "generatedAt": "2026-07-17T13:05:19.269Z",
   "totalWars": 22,
   "liveWar": {
     "opponentName": "hi",
-    "totalAttacksDone": 38,
+    "totalAttacksDone": 40,
     "totalAttacksExpected": 50
   },
   "ranking": [
@@ -1017,6 +1017,42 @@
     },
     {
       "player": {
+        "tag": "#QU0J9RQRV",
+        "name": "ThorinIIEscudo",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 0.8330305000000001,
+        "rawScore": 1.6660610000000002,
+        "confidence": 0.5,
+        "tier": "C",
+        "attackScore": 3.2620500000000003,
+        "defenseScore": 0,
+        "reliability": 0,
+        "formScore": 2.96,
+        "warsInRoster": 1,
+        "attacksUsed": 2,
+        "attacksAvailable": 2,
+        "avgDestruction": 96,
+        "totalAttacks": 2,
+        "totalStars": 5,
+        "count3Stars": 1,
+        "avgStars": 2.5,
+        "threeStarRate": 0.5,
+        "totalMissed": 0,
+        "avgPositionDiff": -20.5,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#JVJQ82JL",
         "name": "Gabriel Subtil",
         "townhallLevel": 18
@@ -1156,42 +1192,6 @@
           "defense": 0,
           "reliability": 0.3067,
           "form": 0.1333
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#QU0J9RQRV",
-        "name": "ThorinIIEscudo",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 0,
-        "rawScore": 0,
-        "confidence": 0.5,
-        "tier": "F",
-        "attackScore": 0,
-        "defenseScore": 0,
-        "reliability": 0,
-        "formScore": 0,
-        "warsInRoster": 1,
-        "attacksUsed": 0,
-        "attacksAvailable": 2,
-        "avgDestruction": 0,
-        "totalAttacks": 0,
-        "totalStars": 0,
-        "count3Stars": 0,
-        "avgStars": 0,
-        "threeStarRate": 0,
-        "totalMissed": 0,
-        "avgPositionDiff": 0,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
         }
       }
     },
@@ -1366,13 +1366,6 @@
       "player": {
         "tag": "#JPVGQP8V",
         "name": "♤Pluto♤",
-        "townhallLevel": 18
-      }
-    },
-    {
-      "player": {
-        "tag": "#QU0J9RQRV",
-        "name": "ThorinIIEscudo",
         "townhallLevel": 18
       }
     },
@@ -1596,6 +1589,16 @@
       "prevRank": 29,
       "normalizedScore": 49.36
     },
+    "#CJVP0CPC": {
+      "tier": "F",
+      "score": 0,
+      "avgStars": 0,
+      "totalStars": 0,
+      "totalAttacks": 0,
+      "warsInRoster": 0,
+      "totalMissed": 0,
+      "normalizedScore": 0
+    },
     "#YPVQVU982": {
       "tier": "B",
       "score": 2.235947546532842,
@@ -1631,16 +1634,6 @@
       "rank": 26,
       "prevRank": 26,
       "normalizedScore": 54.1
-    },
-    "#CJVP0CPC": {
-      "tier": "F",
-      "score": 0,
-      "avgStars": 0,
-      "totalStars": 0,
-      "totalAttacks": 0,
-      "warsInRoster": 0,
-      "totalMissed": 0,
-      "normalizedScore": 0
     },
     "#80LUCC9YV": {
       "tier": "A",
@@ -1759,14 +1752,15 @@
       "normalizedScore": 68.68
     },
     "#QU0J9RQRV": {
-      "tier": "F",
-      "score": 0,
-      "avgStars": 0,
-      "totalStars": 0,
-      "totalAttacks": 0,
+      "tier": "C",
+      "score": 0.8330305000000001,
+      "avgStars": 2.5,
+      "totalStars": 5,
+      "totalAttacks": 2,
       "warsInRoster": 1,
       "totalMissed": 0,
-      "normalizedScore": 0
+      "rank": 32,
+      "normalizedScore": 23.8
     },
     "#GLYQUQQJJ": {
       "tier": "F",
@@ -1886,7 +1880,7 @@
       "totalAttacks": 2,
       "warsInRoster": 10,
       "totalMissed": 14,
-      "rank": 32,
+      "rank": 33,
       "prevRank": 32,
       "normalizedScore": -11.4
     },
