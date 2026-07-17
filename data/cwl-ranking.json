@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T09:50:26.162Z",
+  "generatedAt": "2026-07-17T10:05:22.607Z",
   "totalWars": 22,
   "liveWar": {
     "opponentName": "hi",
@@ -1185,13 +1185,13 @@
         "threeStarRate": 0,
         "totalMissed": 0,
         "avgPositionDiff": 0,
-        "hasAnyDefense": false,
+        "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
-          "attack": 0.56,
-          "defense": 0,
-          "reliability": 0.3067,
-          "form": 0.1333
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
         }
       }
     },
@@ -1666,6 +1666,18 @@
       "prevRank": 21,
       "normalizedScore": 63.53
     },
+    "#LYJG0L8G": {
+      "tier": "B",
+      "score": 2.3004774802129027,
+      "avgStars": 2.707317073170732,
+      "totalStars": 111,
+      "totalAttacks": 41,
+      "warsInRoster": 22,
+      "totalMissed": 1,
+      "rank": 15,
+      "prevRank": 15,
+      "normalizedScore": 65.73
+    },
     "#2GP2JUU2": {
       "tier": "S",
       "score": 2.4886189911167365,
@@ -1699,18 +1711,6 @@
       "warsInRoster": 0,
       "totalMissed": 0,
       "normalizedScore": 0
-    },
-    "#LYJG0L8G": {
-      "tier": "B",
-      "score": 2.3004774802129027,
-      "avgStars": 2.707317073170732,
-      "totalStars": 111,
-      "totalAttacks": 41,
-      "warsInRoster": 22,
-      "totalMissed": 1,
-      "rank": 15,
-      "prevRank": 15,
-      "normalizedScore": 65.73
     },
     "#JPVGQP8V": {
       "tier": "F",
