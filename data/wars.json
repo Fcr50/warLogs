@@ -136,15 +136,10 @@
         ]
       },
       "clan": {
-        "stars": 45,
-        "destructionPercentage": 50
+        "stars": 52,
+        "destructionPercentage": 59.366665
       },
       "sixHourNonAttackers": [
-        {
-          "tag": "#2R89QJL9Q",
-          "name": "Hisoka",
-          "townhallLevel": 18
-        },
         {
           "tag": "#2QL0VR9GU",
           "name": "Marcola",
@@ -176,18 +171,8 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#20JC0J9JR",
-          "name": "BTV✯Robin Hood",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#29LP0VJV0",
           "name": "Warlord Raivon",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#80LUCC9YV",
-          "name": "Lobo ®",
           "townhallLevel": 18
         },
         {
@@ -294,7 +279,14 @@
           "name": "Hisoka",
           "townhallLevel": 18,
           "mapPosition": 17,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 1,
+              "destructionPercentage": 81,
+              "order": 28,
+              "defenderTag": "#9JC98VYRU"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -463,7 +455,14 @@
           "name": "BTV✯Robin Hood",
           "townhallLevel": 18,
           "mapPosition": 6,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 29,
+              "defenderTag": "#80LJ2RJP"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -511,7 +510,14 @@
           "name": "Lobo ®",
           "townhallLevel": 18,
           "mapPosition": 1,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 30,
+              "defenderTag": "#PU9JU8CV"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
