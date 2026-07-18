@@ -136,15 +136,10 @@
         ]
       },
       "clan": {
-        "stars": 28,
-        "destructionPercentage": 32.8
+        "stars": 36,
+        "destructionPercentage": 41.833332
       },
       "sixHourNonAttackers": [
-        {
-          "tag": "#QQC8P9C9R",
-          "name": "Gs.prieto",
-          "townhallLevel": 18
-        },
         {
           "tag": "#2R89QJL9Q",
           "name": "Hisoka",
@@ -191,11 +186,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#VPPQ8VLV",
-          "name": "GABRIEL LOBATO",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#29LP0VJV0",
           "name": "Warlord Raivon",
           "townhallLevel": 18
@@ -206,18 +196,8 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#P9C0LVLU2",
-          "name": "VINGADOR⚡",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#YPVQVU982",
           "name": "亗 ＨＡＤＥＳ_０７ 亗",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#GQU9Y0CQ8",
-          "name": "Scok♤",
           "townhallLevel": 18
         },
         {
@@ -253,6 +233,12 @@
               "destructionPercentage": 94,
               "order": 11,
               "defenderTag": "#RR9YVQC8"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 14,
+              "defenderTag": "#GYCQ28U0"
             }
           ],
           "defensesReceived": [],
@@ -302,7 +288,14 @@
           "name": "Gs.prieto",
           "townhallLevel": 18,
           "mapPosition": 13,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 15,
+              "defenderTag": "#2PR9VJRPL"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -456,7 +449,14 @@
           "name": "GABRIEL LOBATO",
           "townhallLevel": 18,
           "mapPosition": 25,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 1,
+              "destructionPercentage": 58,
+              "order": 18,
+              "defenderTag": "#92LPR0RC"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -512,7 +512,14 @@
           "name": "VINGADOR⚡",
           "townhallLevel": 18,
           "mapPosition": 2,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 17,
+              "defenderTag": "#8R9C8UQPR"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -530,7 +537,14 @@
           "name": "Scok♤",
           "townhallLevel": 18,
           "mapPosition": 30,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 97,
+              "order": 16,
+              "defenderTag": "#RR9YVQC8"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
