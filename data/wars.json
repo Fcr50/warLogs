@@ -136,18 +136,13 @@
         ]
       },
       "clan": {
-        "stars": 15,
-        "destructionPercentage": 16.666666
+        "stars": 21,
+        "destructionPercentage": 23.333334
       },
       "sixHourNonAttackers": [
         {
           "tag": "#8VCUUPPJP",
           "name": "Satsugai",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#2LY0P2L9U",
-          "name": "LucasHG9",
           "townhallLevel": 18
         },
         {
@@ -178,11 +173,6 @@
         {
           "tag": "#LQQRGJ8VU",
           "name": "i-Vinni",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QGQJGURCL",
-          "name": "SAFONOV",
           "townhallLevel": 18
         },
         {
@@ -304,7 +294,14 @@
           "name": "LucasHG9",
           "townhallLevel": 18,
           "mapPosition": 9,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 8,
+              "defenderTag": "#2CQCURP0P"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -399,7 +396,14 @@
           "name": "SAFONOV",
           "townhallLevel": 18,
           "mapPosition": 5,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 9,
+              "defenderTag": "#LCQG89P"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
