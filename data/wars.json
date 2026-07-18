@@ -136,15 +136,10 @@
         ]
       },
       "clan": {
-        "stars": 24,
-        "destructionPercentage": 26.666666
+        "stars": 28,
+        "destructionPercentage": 32.8
       },
       "sixHourNonAttackers": [
-        {
-          "tag": "#8VCUUPPJP",
-          "name": "Satsugai",
-          "townhallLevel": 18
-        },
         {
           "tag": "#QQC8P9C9R",
           "name": "Gs.prieto",
@@ -211,11 +206,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#GGVCRYP8P",
-          "name": "gui",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#P9C0LVLU2",
           "name": "VINGADOR⚡",
           "townhallLevel": 18
@@ -257,7 +247,14 @@
           "name": "Satsugai",
           "townhallLevel": 18,
           "mapPosition": 16,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 94,
+              "order": 11,
+              "defenderTag": "#RR9YVQC8"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -493,7 +490,20 @@
           "name": "gui",
           "townhallLevel": 18,
           "mapPosition": 23,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 90,
+              "order": 12,
+              "defenderTag": "#GYCQ28U0"
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 94,
+              "order": 13,
+              "defenderTag": "#RR9YVQC8"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
