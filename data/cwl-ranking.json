@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-07-18T22:05:31.251Z",
+  "generatedAt": "2026-07-18T22:20:27.470Z",
   "totalWars": 23,
   "liveWar": {
     "opponentName": "magyar vándor",
-    "totalAttacksDone": 19,
+    "totalAttacksDone": 20,
     "totalAttacksExpected": 60
   },
   "ranking": [
@@ -419,16 +419,16 @@
         "reliability": 0.7565217391304347,
         "formScore": 3.2125,
         "warsInRoster": 14,
-        "attacksUsed": 25,
+        "attacksUsed": 26,
         "attacksAvailable": 28,
-        "avgDestruction": 97.88,
-        "totalAttacks": 25,
-        "totalStars": 73,
-        "count3Stars": 23,
-        "avgStars": 2.92,
-        "threeStarRate": 0.92,
+        "avgDestruction": 97.96153846153847,
+        "totalAttacks": 26,
+        "totalStars": 76,
+        "count3Stars": 24,
+        "avgStars": 2.923076923076923,
+        "threeStarRate": 0.9230769230769231,
         "totalMissed": 0,
-        "avgPositionDiff": -10.16,
+        "avgPositionDiff": -9.73076923076923,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1269,6 +1269,42 @@
     },
     {
       "player": {
+        "tag": "#LU89RPQYV",
+        "name": "LSousa",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 0,
+        "rawScore": 0,
+        "confidence": 0,
+        "tier": "F",
+        "attackScore": 0,
+        "defenseScore": 0,
+        "reliability": 0,
+        "formScore": 0,
+        "warsInRoster": 0,
+        "attacksUsed": 0,
+        "attacksAvailable": 0,
+        "avgDestruction": 0,
+        "totalAttacks": 0,
+        "totalStars": 0,
+        "count3Stars": 0,
+        "avgStars": 0,
+        "threeStarRate": 0,
+        "totalMissed": 0,
+        "avgPositionDiff": 0,
+        "hasAnyDefense": false,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.56,
+          "defense": 0,
+          "reliability": 0.3067,
+          "form": 0.1333
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#8JRJ8YRUG",
         "name": "OSVALDO JÚNIOR.",
         "townhallLevel": 18
@@ -1452,6 +1488,13 @@
       "player": {
         "tag": "#GLYQUQQJJ",
         "name": "Mendes",
+        "townhallLevel": 18
+      }
+    },
+    {
+      "player": {
+        "tag": "#LU89RPQYV",
+        "name": "LSousa",
         "townhallLevel": 18
       }
     },
@@ -1644,9 +1687,9 @@
     "#G9Y2L9QJJ": {
       "tier": "A",
       "score": 2.335332374421018,
-      "avgStars": 2.92,
-      "totalStars": 73,
-      "totalAttacks": 25,
+      "avgStars": 2.923076923076923,
+      "totalStars": 76,
+      "totalAttacks": 26,
       "warsInRoster": 14,
       "totalMissed": 0,
       "rank": 12,
@@ -1821,6 +1864,16 @@
       "prevRank": 23,
       "normalizedScore": 53.54
     },
+    "#LU89RPQYV": {
+      "tier": "F",
+      "score": 0,
+      "avgStars": 0,
+      "totalStars": 0,
+      "totalAttacks": 0,
+      "warsInRoster": 0,
+      "totalMissed": 0,
+      "normalizedScore": 0
+    },
     "#YVYCCQU08": {
       "tier": "A",
       "score": 2.4060791003460293,
@@ -1857,6 +1910,16 @@
       "prevRank": 22,
       "normalizedScore": 53.88
     },
+    "#8JRJ8YRUG": {
+      "tier": "F",
+      "score": 0,
+      "avgStars": 0,
+      "totalStars": 0,
+      "totalAttacks": 0,
+      "warsInRoster": 0,
+      "totalMissed": 0,
+      "normalizedScore": 0
+    },
     "#LYJG0L8G": {
       "tier": "B",
       "score": 2.096300797108615,
@@ -1868,16 +1931,6 @@
       "rank": 17,
       "prevRank": 17,
       "normalizedScore": 59.89
-    },
-    "#8JRJ8YRUG": {
-      "tier": "F",
-      "score": 0,
-      "avgStars": 0,
-      "totalStars": 0,
-      "totalAttacks": 0,
-      "warsInRoster": 0,
-      "totalMissed": 0,
-      "normalizedScore": 0
     },
     "#QU0J9RQRV": {
       "tier": "C",
