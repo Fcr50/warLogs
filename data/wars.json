@@ -10,8 +10,8 @@
       "opponent": {
         "name": "magyar vándor",
         "tag": "#RR0YQJC0",
-        "stars": 12,
-        "destructionPercentage": 13.333333,
+        "stars": 21,
+        "destructionPercentage": 23.333334,
         "members": [
           {
             "tag": "#PULQC2CJ",
@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 39,
-        "destructionPercentage": 45.166668
+        "stars": 43,
+        "destructionPercentage": 48.6
       },
       "sixHourNonAttackers": [
         {
@@ -204,11 +204,6 @@
           "tag": "#LR2U2PRP2",
           "name": "NARNIA",
           "townhallLevel": 16
-        },
-        {
-          "tag": "#QU0J9RQRV",
-          "name": "ThorinIIEscudo",
-          "townhallLevel": 18
         },
         {
           "tag": "#PPPUQPVJY",
@@ -334,7 +329,14 @@
               "defenderTag": "#9CJVV8GYL"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#L9CYVYJCG",
+              "attackerMapPosition": 24
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -409,7 +411,14 @@
           "townhallLevel": 18,
           "mapPosition": 3,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#L9CYVYJCG",
+              "attackerMapPosition": 24
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -423,6 +432,12 @@
               "destructionPercentage": 100,
               "order": 10,
               "defenderTag": "#280R9PVPJ"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 23,
+              "defenderTag": "#RR9YVQC8"
             }
           ],
           "defensesReceived": [],
@@ -459,7 +474,14 @@
               "defenderTag": "#92LPR0RC"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#92LPR0RC",
+              "attackerMapPosition": 25
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -573,7 +595,14 @@
           "name": "ThorinIIEscudo",
           "townhallLevel": 18,
           "mapPosition": 26,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 24,
+              "defenderTag": "#LQUVV9G28"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
