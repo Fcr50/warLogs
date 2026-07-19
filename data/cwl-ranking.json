@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T04:50:23.056Z",
+  "generatedAt": "2026-07-19T05:05:26.534Z",
   "totalWars": 23,
   "liveWar": {
     "opponentName": "magyar vándor",
@@ -50,12 +50,12 @@
         "townhallLevel": 18
       },
       "data": {
-        "score": 2.491845612175547,
-        "rawScore": 2.491845612175547,
+        "score": 2.484389720928287,
+        "rawScore": 2.484389720928287,
         "confidence": 1,
         "tier": "S",
         "attackScore": 3.339195405963396,
-        "defenseScore": 0.19753416668368196,
+        "defenseScore": 0.16771060169464236,
         "reliability": 1,
         "formScore": 3.5,
         "warsInRoster": 32,
@@ -189,42 +189,6 @@
     },
     {
       "player": {
-        "tag": "#PLU2VCLG",
-        "name": "Phoenix",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.4345023770202725,
-        "rawScore": 2.4345023770202725,
-        "confidence": 1,
-        "tier": "A",
-        "attackScore": 3.3067486582361605,
-        "defenseScore": 0.1476950180582945,
-        "reliability": 0.9547017189079878,
-        "formScore": 3.5,
-        "warsInRoster": 31,
-        "attacksUsed": 57,
-        "attacksAvailable": 61,
-        "avgDestruction": 97.49122807017544,
-        "totalAttacks": 57,
-        "totalStars": 158,
-        "count3Stars": 46,
-        "avgStars": 2.7719298245614037,
-        "threeStarRate": 0.8070175438596491,
-        "totalMissed": 2,
-        "avgPositionDiff": -0.41818181818181815,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
         "tag": "#80LUCC9YV",
         "name": "Lobo ®",
         "townhallLevel": 18
@@ -249,6 +213,42 @@
         "threeStarRate": 0.7368421052631579,
         "totalMissed": 0,
         "avgPositionDiff": 4.054545454545455,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#PLU2VCLG",
+        "name": "Phoenix",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.4288131296762945,
+        "rawScore": 2.4288131296762945,
+        "confidence": 1,
+        "tier": "A",
+        "attackScore": 3.3067486582361605,
+        "defenseScore": 0.12493802868238173,
+        "reliability": 0.9547017189079878,
+        "formScore": 3.5,
+        "warsInRoster": 31,
+        "attacksUsed": 57,
+        "attacksAvailable": 61,
+        "avgDestruction": 97.49122807017544,
+        "totalAttacks": 57,
+        "totalStars": 158,
+        "count3Stars": 46,
+        "avgStars": 2.7719298245614037,
+        "threeStarRate": 0.8070175438596491,
+        "totalMissed": 2,
+        "avgPositionDiff": -0.41818181818181815,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1616,7 +1616,7 @@
   "statsByTag": {
     "#2LY0P2L9U": {
       "tier": "S",
-      "score": 2.491845612175547,
+      "score": 2.484389720928287,
       "avgStars": 2.918032786885246,
       "totalStars": 178,
       "totalAttacks": 61,
@@ -1624,7 +1624,7 @@
       "totalMissed": 0,
       "rank": 2,
       "prevRank": 2,
-      "normalizedScore": 71.2
+      "normalizedScore": 70.98
     },
     "#QQC8P9C9R": {
       "tier": "S",
@@ -1682,7 +1682,7 @@
       "totalAttacks": 57,
       "warsInRoster": 29,
       "totalMissed": 0,
-      "rank": 7,
+      "rank": 6,
       "prevRank": 7,
       "normalizedScore": 69.51
     },
@@ -1748,15 +1748,15 @@
     },
     "#PLU2VCLG": {
       "tier": "A",
-      "score": 2.4345023770202725,
+      "score": 2.4288131296762945,
       "avgStars": 2.7719298245614037,
       "totalStars": 158,
       "totalAttacks": 57,
       "warsInRoster": 31,
       "totalMissed": 2,
-      "rank": 6,
+      "rank": 7,
       "prevRank": 6,
-      "normalizedScore": 69.56
+      "normalizedScore": 69.39
     },
     "#29LP0VJV0": {
       "tier": "B",
