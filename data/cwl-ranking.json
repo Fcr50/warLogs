@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-07-19T14:35:24.578Z",
+  "generatedAt": "2026-07-19T14:50:30.007Z",
   "totalWars": 23,
   "liveWar": {
     "opponentName": "magyar vándor",
-    "totalAttacksDone": 48,
+    "totalAttacksDone": 49,
     "totalAttacksExpected": 60
   },
   "ranking": [
@@ -945,6 +945,42 @@
     },
     {
       "player": {
+        "tag": "#VPPQ8VLV",
+        "name": "GABRIEL LOBATO",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 1.7594732342184385,
+        "rawScore": 1.7594732342184385,
+        "confidence": 1,
+        "tier": "B",
+        "attackScore": 2.278460749028807,
+        "defenseScore": 0.022490643211240734,
+        "reliability": 0.8603580562659847,
+        "formScore": 2.0324999999999998,
+        "warsInRoster": 24,
+        "attacksUsed": 42,
+        "attacksAvailable": 48,
+        "avgDestruction": 96.71428571428571,
+        "totalAttacks": 42,
+        "totalStars": 110,
+        "count3Stars": 29,
+        "avgStars": 2.619047619047619,
+        "threeStarRate": 0.6904761904761905,
+        "totalMissed": 2,
+        "avgPositionDiff": 0.725,
+        "hasAnyDefense": true,
+        "hadTh17": true,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#2R89QJL9Q",
         "name": "Hisoka",
         "townhallLevel": 18
@@ -971,42 +1007,6 @@
         "avgPositionDiff": -9.03225806451613,
         "hasAnyDefense": true,
         "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#VPPQ8VLV",
-        "name": "GABRIEL LOBATO",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 1.5250144232717218,
-        "rawScore": 1.5250144232717218,
-        "confidence": 1,
-        "tier": "B",
-        "attackScore": 1.8642731039175773,
-        "defenseScore": 0.022490643211240734,
-        "reliability": 0.8603580562659847,
-        "formScore": 1.4275,
-        "warsInRoster": 24,
-        "attacksUsed": 41,
-        "attacksAvailable": 48,
-        "avgDestruction": 96.63414634146342,
-        "totalAttacks": 41,
-        "totalStars": 107,
-        "count3Stars": 28,
-        "avgStars": 2.6097560975609757,
-        "threeStarRate": 0.6829268292682927,
-        "totalMissed": 2,
-        "avgPositionDiff": 0.717948717948718,
-        "hasAnyDefense": true,
-        "hadTh17": true,
         "weights": {
           "attack": 0.42,
           "defense": 0.25,
@@ -1892,7 +1892,7 @@
       "totalAttacks": 33,
       "warsInRoster": 19,
       "totalMissed": 2,
-      "rank": 28,
+      "rank": 29,
       "prevRank": 28,
       "normalizedScore": 46.07
     },
@@ -1950,15 +1950,15 @@
     },
     "#VPPQ8VLV": {
       "tier": "B",
-      "score": 1.5250144232717218,
-      "avgStars": 2.6097560975609757,
-      "totalStars": 107,
-      "totalAttacks": 41,
+      "score": 1.7594732342184385,
+      "avgStars": 2.619047619047619,
+      "totalStars": 110,
+      "totalAttacks": 42,
       "warsInRoster": 24,
       "totalMissed": 2,
-      "rank": 29,
+      "rank": 28,
       "prevRank": 29,
-      "normalizedScore": 43.57
+      "normalizedScore": 50.27
     },
     "#YPVQVU982": {
       "tier": "B",
