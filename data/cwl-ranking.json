@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-07-19T09:35:25.287Z",
+  "generatedAt": "2026-07-19T09:50:24.928Z",
   "totalWars": 23,
   "liveWar": {
     "opponentName": "magyar vándor",
-    "totalAttacksDone": 45,
+    "totalAttacksDone": 46,
     "totalAttacksExpected": 60
   },
   "ranking": [
@@ -86,25 +86,25 @@
         "townhallLevel": 18
       },
       "data": {
-        "score": 2.484389720928287,
-        "rawScore": 2.484389720928287,
+        "score": 2.4888241690331507,
+        "rawScore": 2.4888241690331507,
         "confidence": 1,
         "tier": "S",
-        "attackScore": 3.339195405963396,
+        "attackScore": 3.349753615736881,
         "defenseScore": 0.16771060169464236,
         "reliability": 1,
         "formScore": 3.5,
         "warsInRoster": 32,
-        "attacksUsed": 61,
+        "attacksUsed": 62,
         "attacksAvailable": 63,
-        "avgDestruction": 99.47540983606558,
-        "totalAttacks": 61,
-        "totalStars": 178,
-        "count3Stars": 56,
-        "avgStars": 2.918032786885246,
-        "threeStarRate": 0.9180327868852459,
+        "avgDestruction": 99.48387096774194,
+        "totalAttacks": 62,
+        "totalStars": 181,
+        "count3Stars": 57,
+        "avgStars": 2.9193548387096775,
+        "threeStarRate": 0.9193548387096774,
         "totalMissed": 0,
-        "avgPositionDiff": -0.6949152542372882,
+        "avgPositionDiff": -0.8166666666666667,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -153,42 +153,6 @@
     },
     {
       "player": {
-        "tag": "#2GP2JUU2",
-        "name": "Gustavo Lázaro",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.4701394389280105,
-        "rawScore": 2.4701394389280105,
-        "confidence": 1,
-        "tier": "A",
-        "attackScore": 3.295531575476193,
-        "defenseScore": 0.29706470891203673,
-        "reliability": 1,
-        "formScore": 3.2175000000000002,
-        "warsInRoster": 32,
-        "attacksUsed": 62,
-        "attacksAvailable": 63,
-        "avgDestruction": 98,
-        "totalAttacks": 62,
-        "totalStars": 170,
-        "count3Stars": 49,
-        "avgStars": 2.7419354838709675,
-        "threeStarRate": 0.7903225806451613,
-        "totalMissed": 0,
-        "avgPositionDiff": 0.16666666666666666,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
         "tag": "#PLU2VCLG",
         "name": "Phoenix",
         "townhallLevel": 18
@@ -213,6 +177,42 @@
         "threeStarRate": 0.8135593220338984,
         "totalMissed": 2,
         "avgPositionDiff": -0.543859649122807,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#2GP2JUU2",
+        "name": "Gustavo Lázaro",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.434636465047438,
+        "rawScore": 2.434636465047438,
+        "confidence": 1,
+        "tier": "A",
+        "attackScore": 3.295531575476193,
+        "defenseScore": 0.15505281338974794,
+        "reliability": 1,
+        "formScore": 3.2175000000000002,
+        "warsInRoster": 32,
+        "attacksUsed": 62,
+        "attacksAvailable": 63,
+        "avgDestruction": 98,
+        "totalAttacks": 62,
+        "totalStars": 170,
+        "count3Stars": 49,
+        "avgStars": 2.7419354838709675,
+        "threeStarRate": 0.7903225806451613,
+        "totalMissed": 0,
+        "avgPositionDiff": 0.16666666666666666,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1616,15 +1616,15 @@
   "statsByTag": {
     "#2LY0P2L9U": {
       "tier": "S",
-      "score": 2.484389720928287,
-      "avgStars": 2.918032786885246,
-      "totalStars": 178,
-      "totalAttacks": 61,
+      "score": 2.4888241690331507,
+      "avgStars": 2.9193548387096775,
+      "totalStars": 181,
+      "totalAttacks": 62,
       "warsInRoster": 32,
       "totalMissed": 0,
       "rank": 3,
       "prevRank": 3,
-      "normalizedScore": 70.98
+      "normalizedScore": 71.11
     },
     "#QQC8P9C9R": {
       "tier": "S",
@@ -1652,15 +1652,15 @@
     },
     "#2GP2JUU2": {
       "tier": "A",
-      "score": 2.4701394389280105,
+      "score": 2.434636465047438,
       "avgStars": 2.7419354838709675,
       "totalStars": 170,
       "totalAttacks": 62,
       "warsInRoster": 32,
       "totalMissed": 0,
-      "rank": 5,
+      "rank": 6,
       "prevRank": 5,
-      "normalizedScore": 70.58
+      "normalizedScore": 69.56
     },
     "#P9C0LVLU2": {
       "tier": "B",
@@ -1742,7 +1742,7 @@
       "totalAttacks": 59,
       "warsInRoster": 31,
       "totalMissed": 2,
-      "rank": 6,
+      "rank": 5,
       "prevRank": 6,
       "normalizedScore": 69.88
     },
