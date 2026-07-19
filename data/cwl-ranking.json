@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T18:50:26.649Z",
+  "generatedAt": "2026-07-19T19:05:19.718Z",
   "totalWars": 23,
   "liveWar": {
     "opponentName": "magyar vándor",
@@ -369,6 +369,42 @@
     },
     {
       "player": {
+        "tag": "#GGVCRYP8P",
+        "name": "gui",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.2424790347240284,
+        "rawScore": 2.2424790347240284,
+        "confidence": 1,
+        "tier": "A",
+        "attackScore": 2.954637801506132,
+        "defenseScore": 0.11012463236581277,
+        "reliability": 0.9826086956521739,
+        "formScore": 2.96,
+        "warsInRoster": 31,
+        "attacksUsed": 62,
+        "attacksAvailable": 62,
+        "avgDestruction": 92.48387096774194,
+        "totalAttacks": 62,
+        "totalStars": 167,
+        "count3Stars": 47,
+        "avgStars": 2.693548387096774,
+        "threeStarRate": 0.7580645161290323,
+        "totalMissed": 0,
+        "avgPositionDiff": -1.75,
+        "hasAnyDefense": true,
+        "hadTh17": true,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#LQQRGJ8VU",
         "name": "i-Vinni",
         "townhallLevel": 18
@@ -657,42 +693,6 @@
     },
     {
       "player": {
-        "tag": "#Q0Q0VUR0C",
-        "name": "bedboy",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 0,
-        "rawScore": 0,
-        "confidence": 0,
-        "tier": "F",
-        "attackScore": 0,
-        "defenseScore": 0,
-        "reliability": 0,
-        "formScore": 0,
-        "warsInRoster": 0,
-        "attacksUsed": 0,
-        "attacksAvailable": 0,
-        "avgDestruction": 0,
-        "totalAttacks": 0,
-        "totalStars": 0,
-        "count3Stars": 0,
-        "avgStars": 0,
-        "threeStarRate": 0,
-        "totalMissed": 0,
-        "avgPositionDiff": 0,
-        "hasAnyDefense": false,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.56,
-          "defense": 0,
-          "reliability": 0.3067,
-          "form": 0.1333
-        }
-      }
-    },
-    {
-      "player": {
         "tag": "#JVJQ82JL",
         "name": "Gabriel Subtil",
         "townhallLevel": 18
@@ -918,13 +918,6 @@
     },
     {
       "player": {
-        "tag": "#Q0Q0VUR0C",
-        "name": "bedboy",
-        "townhallLevel": 18
-      }
-    },
-    {
-      "player": {
         "tag": "#JVJQ82JL",
         "name": "Gabriel Subtil",
         "townhallLevel": 18
@@ -1027,6 +1020,17 @@
       "prevRank": 5,
       "normalizedScore": 67.42
     },
+    "#GGVCRYP8P": {
+      "tier": "A",
+      "score": 2.2424790347240284,
+      "avgStars": 2.693548387096774,
+      "totalStars": 167,
+      "totalAttacks": 62,
+      "warsInRoster": 31,
+      "totalMissed": 0,
+      "rank": 11,
+      "normalizedScore": 64.07
+    },
     "#QJVQVRPU": {
       "tier": "S",
       "score": 2.385947217126037,
@@ -1047,7 +1051,7 @@
       "totalAttacks": 23,
       "warsInRoster": 12,
       "totalMissed": 1,
-      "rank": 13,
+      "rank": 14,
       "prevRank": 13,
       "normalizedScore": 55.77
     },
@@ -1064,16 +1068,6 @@
       "normalizedScore": 65.48
     },
     "#JPVGQP8V": {
-      "tier": "F",
-      "score": 0,
-      "avgStars": 0,
-      "totalStars": 0,
-      "totalAttacks": 0,
-      "warsInRoster": 0,
-      "totalMissed": 0,
-      "normalizedScore": 0
-    },
-    "#Q0Q0VUR0C": {
       "tier": "F",
       "score": 0,
       "avgStars": 0,
@@ -1127,7 +1121,7 @@
       "totalAttacks": 33,
       "warsInRoster": 19,
       "totalMissed": 2,
-      "rank": 17,
+      "rank": 18,
       "prevRank": 17,
       "normalizedScore": 46.07
     },
@@ -1139,7 +1133,7 @@
       "totalAttacks": 4,
       "warsInRoster": 2,
       "totalMissed": 0,
-      "rank": 18,
+      "rank": 19,
       "prevRank": 18,
       "normalizedScore": 43.46
     },
@@ -1161,7 +1155,7 @@
       "totalAttacks": 47,
       "warsInRoster": 24,
       "totalMissed": 0,
-      "rank": 12,
+      "rank": 13,
       "prevRank": 12,
       "normalizedScore": 57.66
     },
@@ -1203,7 +1197,7 @@
       "totalAttacks": 42,
       "warsInRoster": 24,
       "totalMissed": 2,
-      "rank": 16,
+      "rank": 17,
       "prevRank": 16,
       "normalizedScore": 50.27
     },
@@ -1215,7 +1209,7 @@
       "totalAttacks": 52,
       "warsInRoster": 28,
       "totalMissed": 2,
-      "rank": 15,
+      "rank": 16,
       "prevRank": 15,
       "normalizedScore": 50.71
     },
@@ -1227,7 +1221,7 @@
       "totalAttacks": 40,
       "warsInRoster": 21,
       "totalMissed": 1,
-      "rank": 11,
+      "rank": 12,
       "prevRank": 11,
       "normalizedScore": 63.7
     },
@@ -1279,19 +1273,19 @@
       "totalAttacks": 16,
       "warsInRoster": 9,
       "totalMissed": 2,
-      "rank": 19,
+      "rank": 20,
       "prevRank": 19,
       "normalizedScore": 40.7
     },
     "#2LGC8PGRY": {
-      "tier": "A",
+      "tier": "B",
       "score": 1.8284153866385393,
       "avgStars": 2.5555555555555554,
       "totalStars": 46,
       "totalAttacks": 18,
       "warsInRoster": 9,
       "totalMissed": 0,
-      "rank": 14,
+      "rank": 15,
       "prevRank": 14,
       "normalizedScore": 52.24
     },
@@ -1303,7 +1297,7 @@
       "totalAttacks": 8,
       "warsInRoster": 8,
       "totalMissed": 4,
-      "rank": 20,
+      "rank": 21,
       "prevRank": 20,
       "normalizedScore": 26.98
     },
@@ -1315,7 +1309,7 @@
       "totalAttacks": 2,
       "warsInRoster": 11,
       "totalMissed": 14,
-      "rank": 21,
+      "rank": 22,
       "prevRank": 21,
       "normalizedScore": -11.54
     },
