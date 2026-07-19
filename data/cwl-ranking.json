@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-07-19T00:05:22.712Z",
+  "generatedAt": "2026-07-19T00:20:21.793Z",
   "totalWars": 23,
   "liveWar": {
     "opponentName": "magyar vándor",
-    "totalAttacksDone": 28,
+    "totalAttacksDone": 29,
     "totalAttacksExpected": 60
   },
   "ranking": [
@@ -261,6 +261,42 @@
     },
     {
       "player": {
+        "tag": "#YVYCCQU08",
+        "name": "Frenético",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.4278560715693067,
+        "rawScore": 2.4278560715693067,
+        "confidence": 1,
+        "tier": "A",
+        "attackScore": 3.357788597347754,
+        "defenseScore": 0.15033944273299887,
+        "reliability": 0.9130434782608696,
+        "formScore": 3.5,
+        "warsInRoster": 21,
+        "attacksUsed": 38,
+        "attacksAvailable": 41,
+        "avgDestruction": 98.10526315789474,
+        "totalAttacks": 38,
+        "totalStars": 104,
+        "count3Stars": 29,
+        "avgStars": 2.736842105263158,
+        "threeStarRate": 0.7631578947368421,
+        "totalMissed": 0,
+        "avgPositionDiff": -4.055555555555555,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#QJVQVRPU",
         "name": "Frnnn",
         "townhallLevel": 18
@@ -285,42 +321,6 @@
         "threeStarRate": 0.75,
         "totalMissed": 1,
         "avgPositionDiff": 1.5344827586206897,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#YVYCCQU08",
-        "name": "Frenético",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.4060791003460293,
-        "rawScore": 2.4060791003460293,
-        "confidence": 1,
-        "tier": "A",
-        "attackScore": 3.305938665863761,
-        "defenseScore": 0.15033944273299887,
-        "reliability": 0.9130434782608696,
-        "formScore": 3.5,
-        "warsInRoster": 21,
-        "attacksUsed": 37,
-        "attacksAvailable": 41,
-        "avgDestruction": 98.05405405405405,
-        "totalAttacks": 37,
-        "totalStars": 101,
-        "count3Stars": 28,
-        "avgStars": 2.72972972972973,
-        "threeStarRate": 0.7567567567567568,
-        "totalMissed": 0,
-        "avgPositionDiff": -4.171428571428572,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1233,8 +1233,8 @@
     },
     {
       "player": {
-        "tag": "#CJVP0CPC",
-        "name": "Lukas.A",
+        "tag": "#GLYQUQQJJ",
+        "name": "Mendes",
         "townhallLevel": 18
       },
       "data": {
@@ -1269,8 +1269,8 @@
     },
     {
       "player": {
-        "tag": "#GLYQUQQJJ",
-        "name": "Mendes",
+        "tag": "#CJVP0CPC",
+        "name": "Lukas.A",
         "townhallLevel": 18
       },
       "data": {
@@ -1594,15 +1594,15 @@
     },
     {
       "player": {
-        "tag": "#CJVP0CPC",
-        "name": "Lukas.A",
+        "tag": "#GLYQUQQJJ",
+        "name": "Mendes",
         "townhallLevel": 18
       }
     },
     {
       "player": {
-        "tag": "#GLYQUQQJJ",
-        "name": "Mendes",
+        "tag": "#CJVP0CPC",
+        "name": "Lukas.A",
         "townhallLevel": 18
       }
     },
@@ -1809,7 +1809,7 @@
       "totalAttacks": 60,
       "warsInRoster": 31,
       "totalMissed": 1,
-      "rank": 8,
+      "rank": 9,
       "prevRank": 8,
       "normalizedScore": 68.78
     },
@@ -1959,6 +1959,16 @@
       "totalMissed": 0,
       "normalizedScore": 0
     },
+    "#GLYQUQQJJ": {
+      "tier": "F",
+      "score": 0,
+      "avgStars": 0,
+      "totalStars": 0,
+      "totalAttacks": 0,
+      "warsInRoster": 0,
+      "totalMissed": 0,
+      "normalizedScore": 0
+    },
     "#CJVP0CPC": {
       "tier": "F",
       "score": 0,
@@ -1980,16 +1990,6 @@
       "rank": 29,
       "prevRank": 29,
       "normalizedScore": 43.57
-    },
-    "#GLYQUQQJJ": {
-      "tier": "F",
-      "score": 0,
-      "avgStars": 0,
-      "totalStars": 0,
-      "totalAttacks": 0,
-      "warsInRoster": 0,
-      "totalMissed": 0,
-      "normalizedScore": 0
     },
     "#YPVQVU982": {
       "tier": "A",
@@ -2015,15 +2015,15 @@
     },
     "#YVYCCQU08": {
       "tier": "A",
-      "score": 2.4060791003460293,
-      "avgStars": 2.72972972972973,
-      "totalStars": 101,
-      "totalAttacks": 37,
+      "score": 2.4278560715693067,
+      "avgStars": 2.736842105263158,
+      "totalStars": 104,
+      "totalAttacks": 38,
       "warsInRoster": 21,
       "totalMissed": 0,
-      "rank": 9,
+      "rank": 8,
       "prevRank": 9,
-      "normalizedScore": 68.75
+      "normalizedScore": 69.37
     },
     "#GQU9Y0CQ8": {
       "tier": "B",
