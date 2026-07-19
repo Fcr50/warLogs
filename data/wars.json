@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 69,
-        "destructionPercentage": 76.666664
+        "stars": 72,
+        "destructionPercentage": 80
       },
       "sixHourNonAttackers": [
         {
@@ -153,11 +153,6 @@
         {
           "tag": "#PLU2VCLG",
           "name": "Phoenix",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#29LP0VJV0",
-          "name": "Warlord Raivon",
           "townhallLevel": 18
         },
         {
@@ -523,7 +518,14 @@
           "name": "Warlord Raivon",
           "townhallLevel": 18,
           "mapPosition": 15,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 43,
+              "defenderTag": "#G9CRRGLY2"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
