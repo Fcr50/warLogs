@@ -136,15 +136,10 @@
         ]
       },
       "clan": {
-        "stars": 0,
-        "destructionPercentage": 0
+        "stars": 9,
+        "destructionPercentage": 10
       },
       "sixHourNonAttackers": [
-        {
-          "tag": "#8VCUUPPJP",
-          "name": "Satsugai",
-          "townhallLevel": 18
-        },
         {
           "tag": "#QR8R9QUV8",
           "name": "Dr.Hannibal",
@@ -203,16 +198,6 @@
         {
           "tag": "#GJ2LQVQJ",
           "name": "Fer",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#L8RG2PV0G",
-          "name": "joaoaoaoao",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#PLU2VCLG",
-          "name": "Phoenix",
           "townhallLevel": 18
         },
         {
@@ -297,7 +282,14 @@
           "name": "Satsugai",
           "townhallLevel": 18,
           "mapPosition": 15,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 2,
+              "defenderTag": "#98U99Q2Q8"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -414,7 +406,14 @@
           "name": "joaoaoaoao",
           "townhallLevel": 18,
           "mapPosition": 19,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 1,
+              "defenderTag": "#LP8P88GRY"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -423,7 +422,14 @@
           "name": "Phoenix",
           "townhallLevel": 18,
           "mapPosition": 6,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 3,
+              "defenderTag": "#9PJVRV0QJ"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
