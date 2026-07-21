@@ -10,8 +10,8 @@
       "opponent": {
         "name": "AB Paz",
         "tag": "#82L0U9VV",
-        "stars": 22,
-        "destructionPercentage": 24.933332,
+        "stars": 28,
+        "destructionPercentage": 31.6,
         "members": [
           {
             "tag": "#98U99Q2Q8",
@@ -136,15 +136,10 @@
         ]
       },
       "clan": {
-        "stars": 42,
-        "destructionPercentage": 46.666668
+        "stars": 44,
+        "destructionPercentage": 49.633335
       },
       "sixHourNonAttackers": [
-        {
-          "tag": "#QR8R9QUV8",
-          "name": "Dr.Hannibal",
-          "townhallLevel": 18
-        },
         {
           "tag": "#2R89QJL9Q",
           "name": "Hisoka",
@@ -243,7 +238,14 @@
           "name": "Dr.Hannibal",
           "townhallLevel": 18,
           "mapPosition": 13,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 89,
+              "order": 30,
+              "defenderTag": "#Q89CULRVG"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -314,7 +316,14 @@
           "townhallLevel": 18,
           "mapPosition": 10,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#JGC9PPG2",
+              "attackerMapPosition": 11
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -339,7 +348,14 @@
           "townhallLevel": 18,
           "mapPosition": 11,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#JGC9PPG2",
+              "attackerMapPosition": 11
+            }
+          ],
           "missedAttacks": 0
         },
         {
