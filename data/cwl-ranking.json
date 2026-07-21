@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T09:00:29.121Z",
+  "generatedAt": "2026-07-21T09:15:23.287Z",
   "totalWars": 24,
   "liveWar": {
     "opponentName": "AB Paz",
@@ -405,6 +405,42 @@
     },
     {
       "player": {
+        "tag": "#LQQRGJ8VU",
+        "name": "i-Vinni",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.300128654185729,
+        "rawScore": 2.300128654185729,
+        "confidence": 1,
+        "tier": "B",
+        "attackScore": 3.0508331619375313,
+        "defenseScore": 0.2858207870408051,
+        "reliability": 0.865686274509804,
+        "formScore": 3.5,
+        "warsInRoster": 22,
+        "attacksUsed": 40,
+        "attacksAvailable": 44,
+        "avgDestruction": 92.65,
+        "totalAttacks": 40,
+        "totalStars": 99,
+        "count3Stars": 26,
+        "avgStars": 2.475,
+        "threeStarRate": 0.65,
+        "totalMissed": 1,
+        "avgPositionDiff": -8.275,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#80LUCC9YV",
         "name": "Lobo ®",
         "townhallLevel": 18
@@ -501,42 +537,6 @@
         "threeStarRate": 0.7419354838709677,
         "totalMissed": 1,
         "avgPositionDiff": 1.85,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#LQQRGJ8VU",
-        "name": "i-Vinni",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.2600046589033265,
-        "rawScore": 2.2600046589033265,
-        "confidence": 1,
-        "tier": "B",
-        "attackScore": 3.0508331619375313,
-        "defenseScore": 0.12532480591119444,
-        "reliability": 0.865686274509804,
-        "formScore": 3.5,
-        "warsInRoster": 22,
-        "attacksUsed": 40,
-        "attacksAvailable": 44,
-        "avgDestruction": 92.65,
-        "totalAttacks": 40,
-        "totalStars": 99,
-        "count3Stars": 26,
-        "avgStars": 2.475,
-        "threeStarRate": 0.65,
-        "totalMissed": 1,
-        "avgPositionDiff": -8.275,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1125,14 +1125,14 @@
       "normalizedScore": 66.89
     },
     "#QJVQVRPU": {
-      "tier": "A",
+      "tier": "B",
       "score": 2.2776510858371894,
       "avgStars": 2.6451612903225805,
       "totalStars": 164,
       "totalAttacks": 62,
       "warsInRoster": 32,
       "totalMissed": 1,
-      "rank": 14,
+      "rank": 15,
       "prevRank": 14,
       "normalizedScore": 65.08
     },
@@ -1144,7 +1144,7 @@
       "totalAttacks": 63,
       "warsInRoster": 32,
       "totalMissed": 0,
-      "rank": 13,
+      "rank": 14,
       "prevRank": 13,
       "normalizedScore": 65.08
     },
@@ -1274,7 +1274,7 @@
       "totalAttacks": 59,
       "warsInRoster": 30,
       "totalMissed": 0,
-      "rank": 12,
+      "rank": 13,
       "prevRank": 12,
       "normalizedScore": 65.4
     },
@@ -1337,16 +1337,16 @@
       "normalizedScore": 38.99
     },
     "#LQQRGJ8VU": {
-      "tier": "B",
-      "score": 2.2600046589033265,
+      "tier": "A",
+      "score": 2.300128654185729,
       "avgStars": 2.475,
       "totalStars": 99,
       "totalAttacks": 40,
       "warsInRoster": 22,
       "totalMissed": 1,
-      "rank": 15,
+      "rank": 12,
       "prevRank": 15,
-      "normalizedScore": 64.57
+      "normalizedScore": 65.72
     },
     "#CJVP0CPC": {
       "tier": "F",
