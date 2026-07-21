@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 48,
-        "destructionPercentage": 53.333332
+        "stars": 52,
+        "destructionPercentage": 58.9
       },
       "sixHourNonAttackers": [
         {
@@ -194,11 +194,6 @@
           "tag": "#GQU9Y0CQ8",
           "name": "Scok♤",
           "townhallLevel": 18
-        },
-        {
-          "tag": "#LR2U2PRP2",
-          "name": "NARNIA",
-          "townhallLevel": 16
         },
         {
           "tag": "#QU0J9RQRV",
@@ -665,7 +660,20 @@
           "name": "NARNIA",
           "townhallLevel": 16,
           "mapPosition": 29,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 99,
+              "order": 39,
+              "defenderTag": "#92GVPRPUP"
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 68,
+              "order": 40,
+              "defenderTag": "#G2LQ9Q20R"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
