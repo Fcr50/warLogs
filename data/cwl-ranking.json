@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T22:30:26.480Z",
+  "generatedAt": "2026-07-21T22:45:22.318Z",
   "totalWars": 24,
   "liveWar": {
     "opponentName": "AB Paz",
@@ -105,42 +105,6 @@
         "threeStarRate": 0.7818181818181819,
         "totalMissed": 3,
         "avgPositionDiff": -1.4528301886792452,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#YVYCCQU08",
-        "name": "Frenético",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.3729028380783244,
-        "rawScore": 2.3729028380783244,
-        "confidence": 1,
-        "tier": "A",
-        "attackScore": 3.202143163439849,
-        "defenseScore": 0.39701083773434953,
-        "reliability": 0.9166666666666666,
-        "formScore": 2.9625,
-        "warsInRoster": 22,
-        "attacksUsed": 41,
-        "attacksAvailable": 43,
-        "avgDestruction": 97.8780487804878,
-        "totalAttacks": 41,
-        "totalStars": 111,
-        "count3Stars": 30,
-        "avgStars": 2.707317073170732,
-        "threeStarRate": 0.7317073170731707,
-        "totalMissed": 0,
-        "avgPositionDiff": -4.666666666666667,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -285,6 +249,42 @@
         "threeStarRate": 0.7843137254901961,
         "totalMissed": 0,
         "avgPositionDiff": -4.183673469387755,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#YVYCCQU08",
+        "name": "Frenético",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.3200214234753074,
+        "rawScore": 2.3200214234753074,
+        "confidence": 1,
+        "tier": "A",
+        "attackScore": 3.202143163439849,
+        "defenseScore": 0.1854851793222836,
+        "reliability": 0.9166666666666666,
+        "formScore": 2.9625,
+        "warsInRoster": 22,
+        "attacksUsed": 41,
+        "attacksAvailable": 43,
+        "avgDestruction": 97.8780487804878,
+        "totalAttacks": 41,
+        "totalStars": 111,
+        "count3Stars": 30,
+        "avgStars": 2.707317073170732,
+        "threeStarRate": 0.7317073170731707,
+        "totalMissed": 0,
+        "avgPositionDiff": -4.666666666666667,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -916,7 +916,7 @@
       "totalAttacks": 51,
       "warsInRoster": 27,
       "totalMissed": 0,
-      "rank": 8,
+      "rank": 7,
       "prevRank": 8,
       "normalizedScore": 66.3
     },
@@ -940,7 +940,7 @@
       "totalAttacks": 57,
       "warsInRoster": 31,
       "totalMissed": 2,
-      "rank": 7,
+      "rank": 6,
       "prevRank": 7,
       "normalizedScore": 66.31
     },
@@ -1029,16 +1029,16 @@
       "normalizedScore": 59.81
     },
     "#YVYCCQU08": {
-      "tier": "S",
-      "score": 2.3729028380783244,
+      "tier": "A",
+      "score": 2.3200214234753074,
       "avgStars": 2.707317073170732,
       "totalStars": 111,
       "totalAttacks": 41,
       "warsInRoster": 22,
       "totalMissed": 0,
-      "rank": 4,
+      "rank": 8,
       "prevRank": 4,
-      "normalizedScore": 67.8
+      "normalizedScore": 66.29
     },
     "#LYJG0L8G": {
       "tier": "A",
@@ -1077,14 +1077,14 @@
       "normalizedScore": 51.03
     },
     "#80LUCC9YV": {
-      "tier": "A",
+      "tier": "S",
       "score": 2.363211208636462,
       "avgStars": 2.683333333333333,
       "totalStars": 161,
       "totalAttacks": 60,
       "warsInRoster": 30,
       "totalMissed": 0,
-      "rank": 5,
+      "rank": 4,
       "prevRank": 5,
       "normalizedScore": 67.52
     },
@@ -1128,7 +1128,7 @@
       "totalAttacks": 39,
       "warsInRoster": 20,
       "totalMissed": 1,
-      "rank": 6,
+      "rank": 5,
       "prevRank": 6,
       "normalizedScore": 67.37
     },
