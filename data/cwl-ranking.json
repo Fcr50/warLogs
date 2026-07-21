@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-07-21T01:45:25.227Z",
+  "generatedAt": "2026-07-21T02:00:31.912Z",
   "totalWars": 24,
   "liveWar": {
     "opponentName": "AB Paz",
-    "totalAttacksDone": 19,
+    "totalAttacksDone": 20,
     "totalAttacksExpected": 60
   },
   "ranking": [
@@ -23,16 +23,16 @@
         "reliability": 0.9833333333333334,
         "formScore": 3.5,
         "warsInRoster": 32,
-        "attacksUsed": 62,
+        "attacksUsed": 63,
         "attacksAvailable": 64,
-        "avgDestruction": 98.5,
-        "totalAttacks": 62,
-        "totalStars": 175,
-        "count3Stars": 53,
-        "avgStars": 2.8225806451612905,
-        "threeStarRate": 0.8548387096774194,
+        "avgDestruction": 98.52380952380952,
+        "totalAttacks": 63,
+        "totalStars": 178,
+        "count3Stars": 54,
+        "avgStars": 2.8253968253968256,
+        "threeStarRate": 0.8571428571428571,
         "totalMissed": 0,
-        "avgPositionDiff": -0.7,
+        "avgPositionDiff": -0.6721311475409836,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -50,12 +50,12 @@
         "townhallLevel": 18
       },
       "data": {
-        "score": 2.5392464603468023,
-        "rawScore": 2.5392464603468023,
+        "score": 2.5337034002157224,
+        "rawScore": 2.5337034002157224,
         "confidence": 1,
         "tier": "S",
         "attackScore": 3.3737153638846484,
-        "defenseScore": 0.32914403006099896,
+        "defenseScore": 0.30697178953668053,
         "reliability": 1,
         "formScore": 3.5,
         "warsInRoster": 33,
@@ -970,7 +970,7 @@
   "statsByTag": {
     "#2LY0P2L9U": {
       "tier": "S",
-      "score": 2.5392464603468023,
+      "score": 2.5337034002157224,
       "avgStars": 2.921875,
       "totalStars": 187,
       "totalAttacks": 64,
@@ -978,7 +978,7 @@
       "totalMissed": 0,
       "rank": 2,
       "prevRank": 2,
-      "normalizedScore": 72.55
+      "normalizedScore": 72.39
     },
     "#PLU2VCLG": {
       "tier": "S",
@@ -1016,6 +1016,18 @@
       "prevRank": 7,
       "normalizedScore": 67.49
     },
+    "#QQC8P9C9R": {
+      "tier": "S",
+      "score": 2.5396814577693254,
+      "avgStars": 2.8253968253968256,
+      "totalStars": 178,
+      "totalAttacks": 63,
+      "warsInRoster": 32,
+      "totalMissed": 0,
+      "rank": 1,
+      "prevRank": 1,
+      "normalizedScore": 72.56
+    },
     "#L8RG2PV0G": {
       "tier": "A",
       "score": 2.4318409790574953,
@@ -1027,18 +1039,6 @@
       "rank": 6,
       "prevRank": 6,
       "normalizedScore": 69.48
-    },
-    "#QQC8P9C9R": {
-      "tier": "S",
-      "score": 2.5396814577693254,
-      "avgStars": 2.8225806451612905,
-      "totalStars": 175,
-      "totalAttacks": 62,
-      "warsInRoster": 32,
-      "totalMissed": 0,
-      "rank": 1,
-      "prevRank": 1,
-      "normalizedScore": 72.56
     },
     "#GGVCRYP8P": {
       "tier": "A",
@@ -1274,16 +1274,6 @@
       "prevRank": 22,
       "normalizedScore": 48.34
     },
-    "#QLP9C0UUL": {
-      "tier": "F",
-      "score": 0,
-      "avgStars": 0,
-      "totalStars": 0,
-      "totalAttacks": 0,
-      "warsInRoster": 0,
-      "totalMissed": 0,
-      "normalizedScore": 0
-    },
     "#RC82GPG": {
       "tier": "B",
       "score": 1.4209907124562173,
@@ -1295,6 +1285,16 @@
       "rank": 24,
       "prevRank": 24,
       "normalizedScore": 40.6
+    },
+    "#QLP9C0UUL": {
+      "tier": "F",
+      "score": 0,
+      "avgStars": 0,
+      "totalStars": 0,
+      "totalAttacks": 0,
+      "warsInRoster": 0,
+      "totalMissed": 0,
+      "normalizedScore": 0
     },
     "#2LGC8PGRY": {
       "tier": "B",
