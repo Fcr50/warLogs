@@ -10,8 +10,8 @@
       "opponent": {
         "name": "AB Paz",
         "tag": "#82L0U9VV",
-        "stars": 75,
-        "destructionPercentage": 85.13333,
+        "stars": 80,
+        "destructionPercentage": 91.7,
         "members": [
           {
             "tag": "#98U99Q2Q8",
@@ -304,7 +304,14 @@
               "defenderTag": "#Q89CULRVG"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#98U99Q2Q8",
+              "attackerMapPosition": 15
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -501,6 +508,12 @@
               "destructionPercentage": 100,
               "order": 6,
               "defenderTag": "#L0QJJVL9Y"
+            },
+            {
+              "stars": 1,
+              "destructionPercentage": 68,
+              "order": 87,
+              "defenderTag": "#9VVQ29R9"
             }
           ],
           "defensesReceived": [
@@ -688,7 +701,14 @@
               "defenderTag": "#8PJ2LUUR"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 97,
+              "attackerTag": "#98U99Q2Q8",
+              "attackerMapPosition": 15
+            }
+          ],
           "missedAttacks": 0
         },
         {
