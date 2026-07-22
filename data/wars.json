@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 9,
-        "destructionPercentage": 12
+        "stars": 21,
+        "destructionPercentage": 28
       },
       "sixHourNonAttackers": [
         {
@@ -131,33 +131,13 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#2QL0VR9GU",
-          "name": "Marcola",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#8YJYY92GC",
-          "name": "RussiaN",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#8CJ8YJY0P",
           "name": "ChrolloLucilfer",
           "townhallLevel": 18
         },
         {
-          "tag": "#2GP2JUU2",
-          "name": "Gustavo Lázaro",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#LQQRGJ8VU",
           "name": "i-Vinni",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QGQJGURCL",
-          "name": "SAFONOV",
           "townhallLevel": 18
         },
         {
@@ -252,6 +232,12 @@
               "destructionPercentage": 100,
               "order": 3,
               "defenderTag": "#9GRQLLRQ9"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 8,
+              "defenderTag": "#YPVG0VRU8"
             }
           ],
           "defensesReceived": [],
@@ -271,7 +257,14 @@
           "name": "Marcola",
           "townhallLevel": 18,
           "mapPosition": 10,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 6,
+              "defenderTag": "#8Y282CCU"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -280,7 +273,14 @@
           "name": "RussiaN",
           "townhallLevel": 18,
           "mapPosition": 22,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 4,
+              "defenderTag": "#PJL0LLGU"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -298,7 +298,14 @@
           "name": "Gustavo Lázaro",
           "townhallLevel": 18,
           "mapPosition": 9,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 5,
+              "defenderTag": "#YYL99LR9P"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -332,7 +339,14 @@
           "name": "SAFONOV",
           "townhallLevel": 18,
           "mapPosition": 4,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 88,
+              "order": 7,
+              "defenderTag": "#YPVG0VRU8"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
