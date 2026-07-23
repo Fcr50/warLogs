@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 41,
-        "destructionPercentage": 55.84
+        "stars": 44,
+        "destructionPercentage": 59.84
       },
       "sixHourNonAttackers": [
         {
@@ -129,11 +129,6 @@
           "tag": "#GQ8URLCLP",
           "name": "¥TioSam",
           "townhallLevel": 16
-        },
-        {
-          "tag": "#GJ2LQVQJ",
-          "name": "Fer",
-          "townhallLevel": 18
         },
         {
           "tag": "#822LJUYJ",
@@ -363,7 +358,14 @@
           "name": "Fer",
           "townhallLevel": 18,
           "mapPosition": 3,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 22,
+              "defenderTag": "#PPJ000Q8"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
