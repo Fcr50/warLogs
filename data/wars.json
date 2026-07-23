@@ -116,15 +116,10 @@
         ]
       },
       "clan": {
-        "stars": 33,
-        "destructionPercentage": 44
+        "stars": 39,
+        "destructionPercentage": 52
       },
       "sixHourNonAttackers": [
-        {
-          "tag": "#8CJ8YJY0P",
-          "name": "ChrolloLucilfer",
-          "townhallLevel": 18
-        },
         {
           "tag": "#LQQRGJ8VU",
           "name": "i-Vinni",
@@ -173,11 +168,6 @@
         {
           "tag": "#GQU9Y0CQ8",
           "name": "Scok♤",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QJVQVRPU",
-          "name": "Frnnn",
           "townhallLevel": 18
         },
         {
@@ -283,7 +273,14 @@
           "name": "ChrolloLucilfer",
           "townhallLevel": 18,
           "mapPosition": 11,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 16,
+              "defenderTag": "#9CUYVL20"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -498,7 +495,14 @@
           "name": "Frnnn",
           "townhallLevel": 18,
           "mapPosition": 7,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 17,
+              "defenderTag": "#2LRP0LJRG"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
