@@ -10,8 +10,8 @@
       "opponent": {
         "name": "A clan",
         "tag": "#28LR2YP89",
-        "stars": 66,
-        "destructionPercentage": 91,
+        "stars": 67,
+        "destructionPercentage": 93.16,
         "members": [
           {
             "tag": "#809YU0GL",
@@ -411,7 +411,14 @@
               "defenderTag": "#9YRLPYYU"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 1,
+              "destructionPercentage": 54,
+              "attackerTag": "#GCRYJUCY0",
+              "attackerMapPosition": 18
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -802,7 +809,20 @@
           "name": "Rodrigo",
           "townhallLevel": 18,
           "mapPosition": 17,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 1,
+              "destructionPercentage": 29,
+              "order": 64,
+              "defenderTag": "#VCG8JQP9"
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 54,
+              "order": 65,
+              "defenderTag": "#20CUUQYG"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
