@@ -10,8 +10,8 @@
       "opponent": {
         "name": "A clan",
         "tag": "#28LR2YP89",
-        "stars": 6,
-        "destructionPercentage": 8,
+        "stars": 10,
+        "destructionPercentage": 15.76,
         "members": [
           {
             "tag": "#809YU0GL",
@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 39,
-        "destructionPercentage": 52
+        "stars": 41,
+        "destructionPercentage": 55.84
       },
       "sixHourNonAttackers": [
         {
@@ -148,11 +148,6 @@
         {
           "tag": "#80LUCC9YV",
           "name": "Lobo ®",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#GGVCRYP8P",
-          "name": "gui",
           "townhallLevel": 18
         },
         {
@@ -344,7 +339,14 @@
               "defenderTag": "#YPVG0VRU8"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 1,
+              "destructionPercentage": 94,
+              "attackerTag": "#YPVG0VRU8",
+              "attackerMapPosition": 4
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -362,7 +364,14 @@
           "townhallLevel": 18,
           "mapPosition": 3,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#LQCPG8RUL",
+              "attackerMapPosition": 16
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -452,7 +461,14 @@
           "name": "gui",
           "townhallLevel": 18,
           "mapPosition": 19,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 96,
+              "order": 19,
+              "defenderTag": "#2VU008YL"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
