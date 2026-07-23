@@ -116,15 +116,10 @@
         ]
       },
       "clan": {
-        "stars": 24,
-        "destructionPercentage": 32
+        "stars": 26,
+        "destructionPercentage": 35.92
       },
       "sixHourNonAttackers": [
-        {
-          "tag": "#QR8R9QUV8",
-          "name": "Dr.Hannibal",
-          "townhallLevel": 18
-        },
         {
           "tag": "#8CJ8YJY0P",
           "name": "ChrolloLucilfer",
@@ -212,7 +207,14 @@
           "name": "Dr.Hannibal",
           "townhallLevel": 18,
           "mapPosition": 13,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 98,
+              "order": 12,
+              "defenderTag": "#9YRLPYYU"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
