@@ -10,8 +10,8 @@
       "opponent": {
         "name": "DrunkDealers101",
         "tag": "#2PRJ9CU2P",
-        "stars": 0,
-        "destructionPercentage": 0,
+        "stars": 5,
+        "destructionPercentage": 7.64,
         "members": [
           {
             "tag": "#LQ098UG0",
@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 18,
-        "destructionPercentage": 24
+        "stars": 21,
+        "destructionPercentage": 28
       },
       "sixHourNonAttackers": [
         {
@@ -153,11 +153,6 @@
         {
           "tag": "#LQQRGJ8VU",
           "name": "i-Vinni",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#G9Y2L9QJJ",
-          "name": "Micael",
           "townhallLevel": 18
         },
         {
@@ -323,7 +318,14 @@
           "name": "Micael",
           "townhallLevel": 18,
           "mapPosition": 21,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 10,
+              "defenderTag": "#GYLJVR2YC"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -367,7 +369,14 @@
               "defenderTag": "#Q9JYLQVR8"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#QCLCPG9Q2",
+              "attackerMapPosition": 3
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -435,7 +444,14 @@
               "defenderTag": "#Q2RJ2LRYL"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 91,
+              "attackerTag": "#QCLCPG9Q2",
+              "attackerMapPosition": 3
+            }
+          ],
           "missedAttacks": 0
         },
         {
