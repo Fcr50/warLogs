@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 24,
-        "destructionPercentage": 32
+        "stars": 30,
+        "destructionPercentage": 40
       },
       "sixHourNonAttackers": [
         {
@@ -148,11 +148,6 @@
         {
           "tag": "#LQQRGJ8VU",
           "name": "i-Vinni",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QGQJGURCL",
-          "name": "SAFONOV",
           "townhallLevel": 18
         },
         {
@@ -193,11 +188,6 @@
         {
           "tag": "#GQU9Y0CQ8",
           "name": "Scok♤",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#YVYCCQU08",
-          "name": "Frenético",
           "townhallLevel": 18
         },
         {
@@ -343,7 +333,14 @@
           "name": "SAFONOV",
           "townhallLevel": 18,
           "mapPosition": 4,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 16,
+              "defenderTag": "#V9YLRCU"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 1,
@@ -500,7 +497,14 @@
           "name": "Frenético",
           "townhallLevel": 18,
           "mapPosition": 18,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 17,
+              "defenderTag": "#GYRLVG82Q"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
