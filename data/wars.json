@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 9,
-        "destructionPercentage": 12
+        "stars": 18,
+        "destructionPercentage": 24
       },
       "sixHourNonAttackers": [
         {
@@ -148,11 +148,6 @@
         {
           "tag": "#8YJYY92GC",
           "name": "RussiaN",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#2GP2JUU2",
-          "name": "Gustavo Lázaro",
           "townhallLevel": 18
         },
         {
@@ -198,16 +193,6 @@
         {
           "tag": "#80LUCC9YV",
           "name": "Lobo ®",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#GGVCRYP8P",
-          "name": "gui",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#P9C0LVLU2",
-          "name": "VINGADOR⚡",
           "townhallLevel": 18
         },
         {
@@ -307,7 +292,20 @@
           "name": "Gustavo Lázaro",
           "townhallLevel": 18,
           "mapPosition": 10,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 5,
+              "defenderTag": "#20J8CYVRJ"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 6,
+              "defenderTag": "#QUVCJ0202"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -413,7 +411,14 @@
           "name": "gui",
           "townhallLevel": 18,
           "mapPosition": 20,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 90,
+              "order": 4,
+              "defenderTag": "#QUVCJ0202"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -422,7 +427,14 @@
           "name": "VINGADOR⚡",
           "townhallLevel": 18,
           "mapPosition": 2,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 7,
+              "defenderTag": "#Q2RJ2LRYL"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
