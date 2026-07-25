@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 36,
-        "destructionPercentage": 48
+        "stars": 38,
+        "destructionPercentage": 51.8
       },
       "sixHourNonAttackers": [
         {
@@ -133,11 +133,6 @@
         {
           "tag": "#2R89QJL9Q",
           "name": "Hisoka",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#2QL0VR9GU",
-          "name": "Marcola",
           "townhallLevel": 18
         },
         {
@@ -242,7 +237,14 @@
           "name": "Marcola",
           "townhallLevel": 18,
           "mapPosition": 11,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 95,
+              "order": 20,
+              "defenderTag": "#LR9P2VR80"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
