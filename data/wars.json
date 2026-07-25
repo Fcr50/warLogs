@@ -10,8 +10,8 @@
       "opponent": {
         "name": "DrunkDealers101",
         "tag": "#2PRJ9CU2P",
-        "stars": 14,
-        "destructionPercentage": 22.72,
+        "stars": 16,
+        "destructionPercentage": 26.28,
         "members": [
           {
             "tag": "#LQ098UG0",
@@ -289,7 +289,14 @@
               "defenderTag": "#QUVCJ0202"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 89,
+              "attackerTag": "#20J8CYVRJ",
+              "attackerMapPosition": 10
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -543,6 +550,12 @@
               "destructionPercentage": 96,
               "attackerTag": "#G0889QVUC",
               "attackerMapPosition": 5
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 80,
+              "attackerTag": "#G8PQ0Q8JV",
+              "attackerMapPosition": 6
             }
           ],
           "missedAttacks": 0
