@@ -10,8 +10,8 @@
       "opponent": {
         "name": "DrunkDealers101",
         "tag": "#2PRJ9CU2P",
-        "stars": 21,
-        "destructionPercentage": 32.84,
+        "stars": 23,
+        "destructionPercentage": 38.64,
         "members": [
           {
             "tag": "#LQ098UG0",
@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 42,
-        "destructionPercentage": 56
+        "stars": 45,
+        "destructionPercentage": 60
       },
       "sixHourNonAttackers": [
         {
@@ -151,11 +151,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#VPPQ8VLV",
-          "name": "GABRIEL LOBATO",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#80LUCC9YV",
           "name": "Lobo ®",
           "townhallLevel": 18
@@ -178,7 +173,14 @@
           "townhallLevel": 18,
           "mapPosition": 14,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 1,
+              "destructionPercentage": 85,
+              "attackerTag": "#LR9P2VR80",
+              "attackerMapPosition": 11
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -210,7 +212,14 @@
               "defenderTag": "#9RVCJLQCQ"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 1,
+              "destructionPercentage": 60,
+              "attackerTag": "#LR9P2VR80",
+              "attackerMapPosition": 11
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -430,7 +439,14 @@
           "name": "GABRIEL LOBATO",
           "townhallLevel": 18,
           "mapPosition": 22,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 29,
+              "defenderTag": "#QGCLC29U0"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
