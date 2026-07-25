@@ -10,8 +10,8 @@
       "opponent": {
         "name": "DrunkDealers101",
         "tag": "#2PRJ9CU2P",
-        "stars": 23,
-        "destructionPercentage": 38.64,
+        "stars": 26,
+        "destructionPercentage": 42.64,
         "members": [
           {
             "tag": "#LQ098UG0",
@@ -431,7 +431,14 @@
           "townhallLevel": 18,
           "mapPosition": 6,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#Q00G89R9Y",
+              "attackerMapPosition": 12
+            }
+          ],
           "missedAttacks": 0
         },
         {
