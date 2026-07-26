@@ -10,8 +10,8 @@
       "opponent": {
         "name": "FENIX",
         "tag": "#8GRGL2JG",
-        "stars": 0,
-        "destructionPercentage": 0,
+        "stars": 2,
+        "destructionPercentage": 3.2333333,
         "members": [
           {
             "tag": "#C82CUJ8V",
@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 3,
-        "destructionPercentage": 3.3333333
+        "stars": 18,
+        "destructionPercentage": 20
       },
       "sixHourNonAttackers": [
         {
@@ -186,18 +186,8 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#G9Y2L9QJJ",
-          "name": "Micael",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#QGQJGURCL",
           "name": "SAFONOV",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#GJ2LQVQJ",
-          "name": "Fer",
           "townhallLevel": 18
         },
         {
@@ -209,11 +199,6 @@
           "tag": "#822LJUYJ",
           "name": "danilo yuri",
           "townhallLevel": 17
-        },
-        {
-          "tag": "#PLU2VCLG",
-          "name": "Phoenix",
-          "townhallLevel": 18
         },
         {
           "tag": "#20JC0J9JR",
@@ -241,11 +226,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#P9C0LVLU2",
-          "name": "VINGADOR⚡",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#YPVQVU982",
           "name": "亗 ＨＡＤＥＳ_０７ 亗",
           "townhallLevel": 18
@@ -263,11 +243,6 @@
         {
           "tag": "#2LGC8PGRY",
           "name": "lucas r.",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#YVYCCQU08",
-          "name": "Frenético",
           "townhallLevel": 18
         },
         {
@@ -320,7 +295,14 @@
           "townhallLevel": 18,
           "mapPosition": 19,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 97,
+              "attackerTag": "#2YVQ8G2J8",
+              "attackerMapPosition": 2
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -389,7 +371,14 @@
           "name": "Micael",
           "townhallLevel": 18,
           "mapPosition": 24,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 4,
+              "defenderTag": "#299P0PC92"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -407,7 +396,14 @@
           "name": "Fer",
           "townhallLevel": 18,
           "mapPosition": 3,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 3,
+              "defenderTag": "#8J9222L9G"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -434,7 +430,14 @@
           "name": "Phoenix",
           "townhallLevel": 18,
           "mapPosition": 7,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 6,
+              "defenderTag": "#VLULGGYP"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -488,7 +491,14 @@
           "name": "VINGADOR⚡",
           "townhallLevel": 18,
           "mapPosition": 2,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 2,
+              "defenderTag": "#2YVQ8G2J8"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -533,7 +543,14 @@
           "name": "Frenético",
           "townhallLevel": 18,
           "mapPosition": 21,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 7,
+              "defenderTag": "#R0YPGYQR"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
