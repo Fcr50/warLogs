@@ -136,18 +136,13 @@
         ]
       },
       "clan": {
-        "stars": 33,
-        "destructionPercentage": 36.666668
+        "stars": 42,
+        "destructionPercentage": 46.666668
       },
       "sixHourNonAttackers": [
         {
           "tag": "#2LY0P2L9U",
           "name": "LucasHG9",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#2R89QJL9Q",
-          "name": "Hisoka",
           "townhallLevel": 18
         },
         {
@@ -196,18 +191,8 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#29LP0VJV0",
-          "name": "Warlord Raivon",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#GGVCRYP8P",
           "name": "gui",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#YPVQVU982",
-          "name": "亗 ＨＡＤＥＳ_０７ 亗",
           "townhallLevel": 18
         },
         {
@@ -283,7 +268,14 @@
           "name": "Hisoka",
           "townhallLevel": 18,
           "mapPosition": 19,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 18,
+              "defenderTag": "#YG8JY899"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 2,
@@ -373,6 +365,12 @@
               "destructionPercentage": 100,
               "order": 4,
               "defenderTag": "#299P0PC92"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 17,
+              "defenderTag": "#2RLPCRVQJ"
             }
           ],
           "defensesReceived": [],
@@ -473,7 +471,14 @@
           "name": "Warlord Raivon",
           "townhallLevel": 18,
           "mapPosition": 15,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 1,
+              "destructionPercentage": 96,
+              "order": 15,
+              "defenderTag": "#2RLPCRVQJ"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -523,7 +528,14 @@
           "name": "亗 ＨＡＤＥＳ_０７ 亗",
           "townhallLevel": 18,
           "mapPosition": 5,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 16,
+              "defenderTag": "#YJY89VGU9"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
