@@ -10,8 +10,8 @@
       "opponent": {
         "name": "FENIX",
         "tag": "#8GRGL2JG",
-        "stars": 24,
-        "destructionPercentage": 28.9,
+        "stars": 28,
+        "destructionPercentage": 33.8,
         "members": [
           {
             "tag": "#C82CUJ8V",
@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 77,
-        "destructionPercentage": 85.6
+        "stars": 80,
+        "destructionPercentage": 88.933334
       },
       "sixHourNonAttackers": [
         {
@@ -357,7 +357,14 @@
           "name": "i-Vinni",
           "townhallLevel": 18,
           "mapPosition": 18,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 44,
+              "defenderTag": "#Y8RVJGC"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -437,7 +444,14 @@
           "townhallLevel": 17,
           "mapPosition": 29,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#Y8YVGYYVV",
+              "attackerMapPosition": 29
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -543,7 +557,14 @@
               "defenderTag": "#2UUJ02J02"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 1,
+              "destructionPercentage": 47,
+              "attackerTag": "#Y8YVGYYVV",
+              "attackerMapPosition": 29
+            }
+          ],
           "missedAttacks": 0
         },
         {
