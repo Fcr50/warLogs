@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 55,
-        "destructionPercentage": 62.166668
+        "stars": 61,
+        "destructionPercentage": 68.833336
       },
       "sixHourNonAttackers": [
         {
@@ -156,11 +156,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#QGQJGURCL",
-          "name": "SAFONOV",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#L8RG2PV0G",
           "name": "joaoaoaoao",
           "townhallLevel": 18
@@ -169,11 +164,6 @@
           "tag": "#822LJUYJ",
           "name": "danilo yuri",
           "townhallLevel": 17
-        },
-        {
-          "tag": "#GGVCRYP8P",
-          "name": "gui",
-          "townhallLevel": 18
         },
         {
           "tag": "#LYJG0L8G",
@@ -365,7 +355,14 @@
           "name": "SAFONOV",
           "townhallLevel": 18,
           "mapPosition": 4,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 95,
+              "order": 27,
+              "defenderTag": "#8U09U8U9"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -508,7 +505,14 @@
           "name": "gui",
           "townhallLevel": 18,
           "mapPosition": 23,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 29,
+              "defenderTag": "#CGV9YUPC"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -564,6 +568,12 @@
               "destructionPercentage": 100,
               "order": 25,
               "defenderTag": "#90R80YPUV"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 28,
+              "defenderTag": "#8U09U8U9"
             }
           ],
           "defensesReceived": [],
