@@ -10,8 +10,8 @@
       "opponent": {
         "name": "FENIX",
         "tag": "#8GRGL2JG",
-        "stars": 31,
-        "destructionPercentage": 37.133335,
+        "stars": 34,
+        "destructionPercentage": 40.466667,
         "members": [
           {
             "tag": "#C82CUJ8V",
@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 81,
-        "destructionPercentage": 90
+        "stars": 84,
+        "destructionPercentage": 93.333336
       },
       "sixHourNonAttackers": [
         {
@@ -409,7 +409,14 @@
               "defenderTag": "#8U09U8U9"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#8J9222L9G",
+              "attackerMapPosition": 3
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -423,6 +430,12 @@
               "destructionPercentage": 100,
               "order": 3,
               "defenderTag": "#8J9222L9G"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 48,
+              "defenderTag": "#L8C0LY82C"
             }
           ],
           "defensesReceived": [
