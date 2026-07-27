@@ -10,8 +10,8 @@
       "opponent": {
         "name": "FENIX",
         "tag": "#8GRGL2JG",
-        "stars": 9,
-        "destructionPercentage": 12.233334,
+        "stars": 12,
+        "destructionPercentage": 15.566667,
         "members": [
           {
             "tag": "#C82CUJ8V",
@@ -623,7 +623,14 @@
               "defenderTag": "#GJVURR2Q"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#GJVURR2Q",
+              "attackerMapPosition": 27
+            }
+          ],
           "missedAttacks": 0
         },
         {
