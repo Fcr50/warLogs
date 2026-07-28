@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T05:45:37.186Z",
+  "generatedAt": "2026-07-28T06:00:26.926Z",
   "totalWars": 27,
   "liveWar": {
     "opponentName": "DrunkDealers101",
@@ -321,6 +321,42 @@
         "threeStarRate": 0.75,
         "totalMissed": 1,
         "avgPositionDiff": -4.481481481481482,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#29LP0VJV0",
+        "name": "Warlord Raivon",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.113370286545305,
+        "rawScore": 2.113370286545305,
+        "confidence": 1,
+        "tier": "B",
+        "attackScore": 2.767175468399372,
+        "defenseScore": 0.2197716584155743,
+        "reliability": 0.8655270655270655,
+        "formScore": 2.99,
+        "warsInRoster": 26,
+        "attacksUsed": 49,
+        "attacksAvailable": 51,
+        "avgDestruction": 94.79591836734694,
+        "totalAttacks": 49,
+        "totalStars": 120,
+        "count3Stars": 31,
+        "avgStars": 2.4489795918367347,
+        "threeStarRate": 0.6326530612244898,
+        "totalMissed": 2,
+        "avgPositionDiff": -3.5106382978723403,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -681,7 +717,7 @@
       "totalAttacks": 20,
       "warsInRoster": 10,
       "totalMissed": 0,
-      "rank": 12,
+      "rank": 13,
       "prevRank": 12,
       "normalizedScore": 57.29
     },
@@ -705,7 +741,7 @@
       "totalAttacks": 58,
       "warsInRoster": 32,
       "totalMissed": 4,
-      "rank": 13,
+      "rank": 14,
       "prevRank": 13,
       "normalizedScore": 52.93
     },
@@ -733,15 +769,26 @@
       "prevRank": 9,
       "normalizedScore": 61.16
     },
-    "#QJLQLUURY": {
+    "#29LP0VJV0": {
       "tier": "A",
+      "score": 2.113370286545305,
+      "avgStars": 2.4489795918367347,
+      "totalStars": 120,
+      "totalAttacks": 49,
+      "warsInRoster": 26,
+      "totalMissed": 2,
+      "rank": 10,
+      "normalizedScore": 60.38
+    },
+    "#QJLQLUURY": {
+      "tier": "B",
       "score": 1.6884966162876431,
       "avgStars": 2.888888888888889,
       "totalStars": 78,
       "totalAttacks": 27,
       "warsInRoster": 14,
       "totalMissed": 1,
-      "rank": 14,
+      "rank": 15,
       "prevRank": 14,
       "normalizedScore": 48.24
     },
@@ -753,7 +800,7 @@
       "totalAttacks": 4,
       "warsInRoster": 3,
       "totalMissed": 2,
-      "rank": 19,
+      "rank": 20,
       "prevRank": 19,
       "normalizedScore": 18.65
     },
@@ -801,7 +848,7 @@
       "totalAttacks": 55,
       "warsInRoster": 28,
       "totalMissed": 0,
-      "rank": 10,
+      "rank": 11,
       "prevRank": 10,
       "normalizedScore": 58.44
     },
@@ -825,7 +872,7 @@
       "totalAttacks": 39,
       "warsInRoster": 20,
       "totalMissed": 1,
-      "rank": 11,
+      "rank": 12,
       "prevRank": 11,
       "normalizedScore": 57.85
     },
@@ -837,7 +884,7 @@
       "totalAttacks": 36,
       "warsInRoster": 22,
       "totalMissed": 6,
-      "rank": 15,
+      "rank": 16,
       "prevRank": 15,
       "normalizedScore": 42.03
     },
@@ -893,7 +940,7 @@
       "totalAttacks": 17,
       "warsInRoster": 10,
       "totalMissed": 3,
-      "rank": 17,
+      "rank": 18,
       "prevRank": 17,
       "normalizedScore": 30.1
     },
@@ -915,7 +962,7 @@
       "totalAttacks": 5,
       "warsInRoster": 3,
       "totalMissed": 0,
-      "rank": 16,
+      "rank": 17,
       "prevRank": 16,
       "normalizedScore": 33.03
     },
@@ -927,7 +974,7 @@
       "totalAttacks": 10,
       "warsInRoster": 9,
       "totalMissed": 5,
-      "rank": 18,
+      "rank": 19,
       "prevRank": 18,
       "normalizedScore": 21.97
     },
@@ -939,7 +986,7 @@
       "totalAttacks": 2,
       "warsInRoster": 12,
       "totalMissed": 18,
-      "rank": 20,
+      "rank": 21,
       "prevRank": 20,
       "normalizedScore": -12.87
     },
