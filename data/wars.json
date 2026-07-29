@@ -10,8 +10,8 @@
       "opponent": {
         "name": "R & W",
         "tag": "#2PCPVJ8PP",
-        "stars": 21,
-        "destructionPercentage": 42.45,
+        "stars": 23,
+        "destructionPercentage": 45.3,
         "members": [
           {
             "tag": "#8V80L2UV8",
@@ -387,7 +387,14 @@
               "defenderTag": "#98VPQJVVY"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 57,
+              "attackerTag": "#98VPQJVVY",
+              "attackerMapPosition": 1
+            }
+          ],
           "missedAttacks": 0
         },
         {
