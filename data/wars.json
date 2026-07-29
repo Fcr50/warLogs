@@ -96,8 +96,8 @@
         ]
       },
       "clan": {
-        "stars": 39,
-        "destructionPercentage": 65
+        "stars": 42,
+        "destructionPercentage": 70
       },
       "sixHourNonAttackers": [
         {
@@ -108,11 +108,6 @@
         {
           "tag": "#L8RG2PV0G",
           "name": "joaoaoaoao",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#80LUCC9YV",
-          "name": "Lobo ®",
           "townhallLevel": 18
         },
         {
@@ -329,7 +324,14 @@
           "name": "Lobo ®",
           "townhallLevel": 18,
           "mapPosition": 1,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 20,
+              "defenderTag": "#98VPQJVVY"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
