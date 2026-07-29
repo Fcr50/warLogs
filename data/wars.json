@@ -10,8 +10,8 @@
       "opponent": {
         "name": "R & W",
         "tag": "#2PCPVJ8PP",
-        "stars": 6,
-        "destructionPercentage": 11.9,
+        "stars": 10,
+        "destructionPercentage": 19.95,
         "members": [
           {
             "tag": "#8V80L2UV8",
@@ -96,8 +96,8 @@
         ]
       },
       "clan": {
-        "stars": 48,
-        "destructionPercentage": 80
+        "stars": 51,
+        "destructionPercentage": 85
       },
       "sixHourNonAttackers": [
         {
@@ -108,11 +108,6 @@
         {
           "tag": "#L8RG2PV0G",
           "name": "joaoaoaoao",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#GGVCRYP8P",
-          "name": "gui",
           "townhallLevel": 18
         },
         {
@@ -191,7 +186,14 @@
               "defenderTag": "#90LGVUUP2"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 93,
+              "attackerTag": "#YLY88URLR",
+              "attackerMapPosition": 19
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -341,7 +343,14 @@
           "name": "gui",
           "townhallLevel": 18,
           "mapPosition": 16,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 24,
+              "defenderTag": "#8V80L2UV8"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -392,7 +401,14 @@
               "defenderTag": "#YLY88URLR"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 68,
+              "attackerTag": "#YLY88URLR",
+              "attackerMapPosition": 19
+            }
+          ],
           "missedAttacks": 0
         },
         {
