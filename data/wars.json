@@ -10,8 +10,8 @@
       "opponent": {
         "name": "R & W",
         "tag": "#2PCPVJ8PP",
-        "stars": 13,
-        "destructionPercentage": 26.65,
+        "stars": 15,
+        "destructionPercentage": 30.2,
         "members": [
           {
             "tag": "#8V80L2UV8",
@@ -408,7 +408,14 @@
           "townhallLevel": 18,
           "mapPosition": 11,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 71,
+              "attackerTag": "#GLRLRVUJ0",
+              "attackerMapPosition": 11
+            }
+          ],
           "missedAttacks": 0
         },
         {
