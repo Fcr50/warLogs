@@ -96,15 +96,10 @@
         ]
       },
       "clan": {
-        "stars": 30,
-        "destructionPercentage": 50
+        "stars": 33,
+        "destructionPercentage": 55
       },
       "sixHourNonAttackers": [
-        {
-          "tag": "#2LY0P2L9U",
-          "name": "LucasHG9",
-          "townhallLevel": 18
-        },
         {
           "tag": "#LQQRGJ8VU",
           "name": "i-Vinni",
@@ -157,7 +152,14 @@
           "name": "LucasHG9",
           "townhallLevel": 18,
           "mapPosition": 6,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 17,
+              "defenderTag": "#YRGLG8UU"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 2,
