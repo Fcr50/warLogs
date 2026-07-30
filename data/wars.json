@@ -10,8 +10,8 @@
       "opponent": {
         "name": "امپراتور پارسی",
         "tag": "#22U2RVV2Q",
-        "stars": 0,
-        "destructionPercentage": 0,
+        "stars": 2,
+        "destructionPercentage": 3.52,
         "members": [
           {
             "tag": "#QRJQRYGJU",
@@ -367,7 +367,14 @@
           "townhallLevel": 18,
           "mapPosition": 8,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 88,
+              "attackerTag": "#2UG0VCQPJ",
+              "attackerMapPosition": 15
+            }
+          ],
           "missedAttacks": 0
         },
         {
