@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 27,
-        "destructionPercentage": 36
+        "stars": 33,
+        "destructionPercentage": 44
       },
       "sixHourNonAttackers": [
         {
@@ -131,18 +131,8 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#8YJYY92GC",
-          "name": "RussiaN",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#8CJ8YJY0P",
           "name": "ChrolloLucilfer",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#2GP2JUU2",
-          "name": "Gustavo Lázaro",
           "townhallLevel": 18
         },
         {
@@ -273,7 +263,14 @@
           "name": "RussiaN",
           "townhallLevel": 18,
           "mapPosition": 22,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 12,
+              "defenderTag": "#YG9QQVYCP"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -291,7 +288,14 @@
           "name": "Gustavo Lázaro",
           "townhallLevel": 18,
           "mapPosition": 9,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 13,
+              "defenderTag": "#2C2G0UQQP"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
