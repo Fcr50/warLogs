@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 33,
-        "destructionPercentage": 44
+        "stars": 34,
+        "destructionPercentage": 47.72
       },
       "sixHourNonAttackers": [
         {
@@ -158,11 +158,6 @@
         {
           "tag": "#29LP0VJV0",
           "name": "Warlord Raivon",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#80LUCC9YV",
-          "name": "Lobo ®",
           "townhallLevel": 18
         },
         {
@@ -432,7 +427,14 @@
           "name": "Lobo ®",
           "townhallLevel": 18,
           "mapPosition": 1,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 1,
+              "destructionPercentage": 93,
+              "order": 20,
+              "defenderTag": "#2JR02GJGL"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
