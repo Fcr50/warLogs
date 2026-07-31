@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T09:15:30.207Z",
+  "generatedAt": "2026-07-31T09:30:34.600Z",
   "totalWars": 28,
   "liveWar": {
     "opponentName": "امپراتور پارسی",
@@ -585,42 +585,6 @@
     },
     {
       "player": {
-        "tag": "#QR8R9QUV8",
-        "name": "Dr.Hannibal",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.218770845939668,
-        "rawScore": 2.218770845939668,
-        "confidence": 1,
-        "tier": "A",
-        "attackScore": 2.8662191010725153,
-        "defenseScore": 0.13377815109970254,
-        "reliability": 0.9152380952380952,
-        "formScore": 3.5,
-        "warsInRoster": 31,
-        "attacksUsed": 57,
-        "attacksAvailable": 61,
-        "avgDestruction": 96.21052631578948,
-        "totalAttacks": 57,
-        "totalStars": 155,
-        "count3Stars": 43,
-        "avgStars": 2.719298245614035,
-        "threeStarRate": 0.7543859649122807,
-        "totalMissed": 1,
-        "avgPositionDiff": -4.4,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
         "tag": "#29LP0VJV0",
         "name": "Warlord Raivon",
         "townhallLevel": 18
@@ -645,6 +609,42 @@
         "threeStarRate": 0.64,
         "totalMissed": 2,
         "avgPositionDiff": -3.4375,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#QR8R9QUV8",
+        "name": "Dr.Hannibal",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.2129780048193184,
+        "rawScore": 2.2129780048193184,
+        "confidence": 1,
+        "tier": "A",
+        "attackScore": 2.8662191010725153,
+        "defenseScore": 0.11060678661830418,
+        "reliability": 0.9152380952380952,
+        "formScore": 3.5,
+        "warsInRoster": 31,
+        "attacksUsed": 57,
+        "attacksAvailable": 61,
+        "avgDestruction": 96.21052631578948,
+        "totalAttacks": 57,
+        "totalStars": 155,
+        "count3Stars": 43,
+        "avgStars": 2.719298245614035,
+        "threeStarRate": 0.7543859649122807,
+        "totalMissed": 1,
+        "avgPositionDiff": -4.4,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1313,6 +1313,18 @@
       "prevRank": 8,
       "normalizedScore": 69.24
     },
+    "#QGQJGURCL": {
+      "tier": "A",
+      "score": 2.434973162012118,
+      "avgStars": 2.764705882352941,
+      "totalStars": 188,
+      "totalAttacks": 68,
+      "warsInRoster": 36,
+      "totalMissed": 0,
+      "rank": 6,
+      "prevRank": 6,
+      "normalizedScore": 69.57
+    },
     "#PLU2VCLG": {
       "tier": "A",
       "score": 2.4253615613212096,
@@ -1336,18 +1348,6 @@
       "rank": 13,
       "prevRank": 13,
       "normalizedScore": 66.96
-    },
-    "#QGQJGURCL": {
-      "tier": "A",
-      "score": 2.434973162012118,
-      "avgStars": 2.764705882352941,
-      "totalStars": 188,
-      "totalAttacks": 68,
-      "warsInRoster": 36,
-      "totalMissed": 0,
-      "rank": 6,
-      "prevRank": 6,
-      "normalizedScore": 69.57
     },
     "#GGVCRYP8P": {
       "tier": "A",
@@ -1417,7 +1417,7 @@
       "totalAttacks": 50,
       "warsInRoster": 27,
       "totalMissed": 2,
-      "rank": 18,
+      "rank": 17,
       "prevRank": 18,
       "normalizedScore": 63.34
     },
@@ -1471,15 +1471,15 @@
     },
     "#QR8R9QUV8": {
       "tier": "B",
-      "score": 2.218770845939668,
+      "score": 2.2129780048193184,
       "avgStars": 2.719298245614035,
       "totalStars": 155,
       "totalAttacks": 57,
       "warsInRoster": 31,
       "totalMissed": 1,
-      "rank": 17,
+      "rank": 18,
       "prevRank": 17,
-      "normalizedScore": 63.39
+      "normalizedScore": 63.23
     },
     "#YVYCCQU08": {
       "tier": "A",
