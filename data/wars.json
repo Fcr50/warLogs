@@ -3,15 +3,15 @@
     {
       "endTime": "20260731T214158.000Z",
       "startTime": "2026-07-30T21:41:58.000Z",
-      "state": "inWar",
-      "result": "inProgress",
+      "state": "warEnded",
+      "result": "win",
       "teamSize": 25,
       "absencesRecorded": true,
       "opponent": {
         "name": "امپراتور پارسی",
         "tag": "#22U2RVV2Q",
         "stars": 73,
-        "destructionPercentage": 98.88,
+        "destructionPercentage": 99.32,
         "members": [
           {
             "tag": "#QRJQRYGJU",
@@ -300,7 +300,7 @@
               "attackerMapPosition": 19
             }
           ],
-          "missedAttacks": 0
+          "missedAttacks": 2
         },
         {
           "tag": "#8YJYY92GC",
@@ -352,7 +352,7 @@
               "attackerMapPosition": 3
             }
           ],
-          "missedAttacks": 0
+          "missedAttacks": 1
         },
         {
           "tag": "#2GP2JUU2",
@@ -607,7 +607,7 @@
               "attackerMapPosition": 21
             }
           ],
-          "missedAttacks": 0
+          "missedAttacks": 2
         },
         {
           "tag": "#29LP0VJV0",
@@ -659,7 +659,7 @@
               "attackerMapPosition": 6
             }
           ],
-          "missedAttacks": 0
+          "missedAttacks": 1
         },
         {
           "tag": "#GGVCRYP8P",
@@ -763,7 +763,7 @@
               "attackerMapPosition": 1
             }
           ],
-          "missedAttacks": 0
+          "missedAttacks": 2
         },
         {
           "tag": "#GQU9Y0CQ8",
@@ -845,6 +845,12 @@
           "defensesReceived": [
             {
               "stars": 2,
+              "destructionPercentage": 89,
+              "attackerTag": "#82PL2C2JY",
+              "attackerMapPosition": 18
+            },
+            {
+              "stars": 2,
               "destructionPercentage": 78,
               "attackerTag": "#2C2G0UQQP",
               "attackerMapPosition": 9
@@ -901,7 +907,7 @@
               "attackerMapPosition": 9
             }
           ],
-          "missedAttacks": 0
+          "missedAttacks": 2
         }
       ]
     },
