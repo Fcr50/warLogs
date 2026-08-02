@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T00:55:30.953Z",
+  "generatedAt": "2026-08-02T01:10:26.020Z",
   "totalWars": 29,
   "liveWar": {
     "opponentName": "امپراتور پارسی",
@@ -765,6 +765,42 @@
     },
     {
       "player": {
+        "tag": "#PPPUQPVJY",
+        "name": "Rodrigo",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 0.9261575374045282,
+        "rawScore": 0.9261575374045282,
+        "confidence": 1,
+        "tier": "B",
+        "attackScore": 0.7434404521999044,
+        "defenseScore": 0.5121293187788979,
+        "reliability": 0.7041742286751361,
+        "formScore": 0,
+        "warsInRoster": 24,
+        "attacksUsed": 36,
+        "attacksAvailable": 48,
+        "avgDestruction": 92.52777777777777,
+        "totalAttacks": 36,
+        "totalStars": 89,
+        "count3Stars": 22,
+        "avgStars": 2.4722222222222223,
+        "threeStarRate": 0.6111111111111112,
+        "totalMissed": 10,
+        "avgPositionDiff": -5.794117647058823,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#JPVGQP8V",
         "name": "♤Pluto♤",
         "townhallLevel": 18
@@ -1230,6 +1266,17 @@
       "totalMissed": 0,
       "normalizedScore": 0
     },
+    "#PPPUQPVJY": {
+      "tier": "B",
+      "score": 0.9261575374045282,
+      "avgStars": 2.4722222222222223,
+      "totalStars": 89,
+      "totalAttacks": 36,
+      "warsInRoster": 24,
+      "totalMissed": 10,
+      "rank": 22,
+      "normalizedScore": 26.46
+    },
     "#8VCUUPPJP": {
       "tier": "B",
       "score": 2.0129153311525405,
@@ -1292,7 +1339,7 @@
       "totalAttacks": 10,
       "warsInRoster": 9,
       "totalMissed": 5,
-      "rank": 22,
+      "rank": 23,
       "prevRank": 22,
       "normalizedScore": 21.83
     },
@@ -1304,7 +1351,7 @@
       "totalAttacks": 2,
       "warsInRoster": 12,
       "totalMissed": 18,
-      "rank": 23,
+      "rank": 24,
       "prevRank": 23,
       "normalizedScore": -13.07
     },
