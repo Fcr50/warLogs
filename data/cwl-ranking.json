@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T14:25:33.548Z",
+  "generatedAt": "2026-08-02T14:40:26.656Z",
   "totalWars": 29,
   "liveWar": {
     "opponentName": "امپراتور پارسی",
@@ -981,6 +981,42 @@
     },
     {
       "player": {
+        "tag": "#8YQ09UVYJ",
+        "name": "mano",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 0,
+        "rawScore": 0,
+        "confidence": 0,
+        "tier": "F",
+        "attackScore": 0,
+        "defenseScore": 0,
+        "reliability": 0,
+        "formScore": 0,
+        "warsInRoster": 0,
+        "attacksUsed": 0,
+        "attacksAvailable": 0,
+        "avgDestruction": 0,
+        "totalAttacks": 0,
+        "totalStars": 0,
+        "count3Stars": 0,
+        "avgStars": 0,
+        "threeStarRate": 0,
+        "totalMissed": 0,
+        "avgPositionDiff": 0,
+        "hasAnyDefense": false,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.56,
+          "defense": 0,
+          "reliability": 0.3067,
+          "form": 0.1333
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#R8PQJQUJ",
         "name": "PokkaSombra",
         "townhallLevel": 18
@@ -1393,6 +1429,13 @@
     },
     {
       "player": {
+        "tag": "#8YQ09UVYJ",
+        "name": "mano",
+        "townhallLevel": 18
+      }
+    },
+    {
+      "player": {
         "tag": "#R8PQJQUJ",
         "name": "PokkaSombra",
         "townhallLevel": 18
@@ -1470,18 +1513,6 @@
     }
   ],
   "statsByTag": {
-    "#2LY0P2L9U": {
-      "tier": "S",
-      "score": 2.588275742972605,
-      "avgStars": 2.9342105263157894,
-      "totalStars": 223,
-      "totalAttacks": 76,
-      "warsInRoster": 39,
-      "totalMissed": 0,
-      "rank": 1,
-      "prevRank": 1,
-      "normalizedScore": 73.95
-    },
     "#P9C0LVLU2": {
       "tier": "S",
       "score": 2.456179051806626,
@@ -1493,6 +1524,18 @@
       "rank": 4,
       "prevRank": 4,
       "normalizedScore": 70.18
+    },
+    "#2LY0P2L9U": {
+      "tier": "S",
+      "score": 2.588275742972605,
+      "avgStars": 2.9342105263157894,
+      "totalStars": 223,
+      "totalAttacks": 76,
+      "warsInRoster": 39,
+      "totalMissed": 0,
+      "rank": 1,
+      "prevRank": 1,
+      "normalizedScore": 73.95
     },
     "#GJ2LQVQJ": {
       "tier": "A",
@@ -1566,18 +1609,6 @@
       "prevRank": 11,
       "normalizedScore": 67.88
     },
-    "#QQC8P9C9R": {
-      "tier": "S",
-      "score": 2.587070782396885,
-      "avgStars": 2.84,
-      "totalStars": 213,
-      "totalAttacks": 75,
-      "warsInRoster": 38,
-      "totalMissed": 0,
-      "rank": 2,
-      "prevRank": 2,
-      "normalizedScore": 73.92
-    },
     "#PLU2VCLG": {
       "tier": "A",
       "score": 2.38252364190705,
@@ -1589,6 +1620,18 @@
       "rank": 10,
       "prevRank": 10,
       "normalizedScore": 68.07
+    },
+    "#QQC8P9C9R": {
+      "tier": "S",
+      "score": 2.587070782396885,
+      "avgStars": 2.84,
+      "totalStars": 213,
+      "totalAttacks": 75,
+      "warsInRoster": 38,
+      "totalMissed": 0,
+      "rank": 2,
+      "prevRank": 2,
+      "normalizedScore": 73.92
     },
     "#QJVQVRPU": {
       "tier": "S",
@@ -1705,6 +1748,16 @@
       "rank": 22,
       "prevRank": 22,
       "normalizedScore": 34.23
+    },
+    "#8YQ09UVYJ": {
+      "tier": "F",
+      "score": 0,
+      "avgStars": 0,
+      "totalStars": 0,
+      "totalAttacks": 0,
+      "warsInRoster": 0,
+      "totalMissed": 0,
+      "normalizedScore": 0
     },
     "#R8PQJQUJ": {
       "tier": "F",
