@@ -1,6 +1,6 @@
 {
   "season": "2026-08-01",
-  "generatedAt": "2026-08-02T21:40:30.814Z",
+  "generatedAt": "2026-08-02T21:55:22.389Z",
   "state": "inWar",
   "rounds": [
     {
@@ -10,9 +10,9 @@
       "result": "inProgress",
       "opponentName": "TR Champions",
       "opponentTag": "#2P00RPY09",
-      "clanStars": 3,
-      "opponentStars": 0,
-      "clanDestructionPct": 6.666666666666667,
+      "clanStars": 9,
+      "opponentStars": 6,
+      "clanDestructionPct": 20,
       "teamSize": 15,
       "members": [
         {
@@ -34,7 +34,12 @@
           "name": "Marcola",
           "townhallLevel": 18,
           "mapPosition": 8,
-          "attack": null
+          "attack": {
+            "defenderTag": "#QRJCQL9R9",
+            "defenderMapPosition": 7,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#8CJ8YJY0P",
@@ -55,7 +60,12 @@
           "name": "Micael",
           "townhallLevel": 18,
           "mapPosition": 21,
-          "attack": null
+          "attack": {
+            "defenderTag": "#GL8GJ0JQG",
+            "defenderMapPosition": 16,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#QGQJGURCL",
