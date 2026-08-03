@@ -1,6 +1,6 @@
 {
   "season": "2026-08-01",
-  "generatedAt": "2026-08-03T21:40:35.357Z",
+  "generatedAt": "2026-08-03T21:55:25.343Z",
   "state": "inWar",
   "rounds": [
     {
@@ -204,9 +204,9 @@
       "result": "inProgress",
       "opponentName": "Ons Stekkie",
       "opponentTag": "#289JQJ8RG",
-      "clanStars": 3,
+      "clanStars": 9,
       "opponentStars": 3,
-      "clanDestructionPct": 6.666666666666667,
+      "clanDestructionPct": 20,
       "teamSize": 15,
       "members": [
         {
@@ -240,7 +240,12 @@
           "name": "Marcola",
           "townhallLevel": 18,
           "mapPosition": 8,
-          "attack": null
+          "attack": {
+            "defenderTag": "#Y0VURGYYU",
+            "defenderMapPosition": 7,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#8CJ8YJY0P",
@@ -296,7 +301,12 @@
           "name": "gui",
           "townhallLevel": 18,
           "mapPosition": 20,
-          "attack": null
+          "attack": {
+            "defenderTag": "#9VGQQPJC9",
+            "defenderMapPosition": 16,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#P9C0LVLU2",
