@@ -1,6 +1,6 @@
 {
   "season": "2026-08-01",
-  "generatedAt": "2026-08-03T21:55:25.343Z",
+  "generatedAt": "2026-08-03T22:10:29.498Z",
   "state": "inWar",
   "rounds": [
     {
@@ -204,9 +204,9 @@
       "result": "inProgress",
       "opponentName": "Ons Stekkie",
       "opponentTag": "#289JQJ8RG",
-      "clanStars": 9,
+      "clanStars": 15,
       "opponentStars": 3,
-      "clanDestructionPct": 20,
+      "clanDestructionPct": 33.333333333333336,
       "teamSize": 15,
       "members": [
         {
@@ -273,7 +273,12 @@
           "name": "Fer",
           "townhallLevel": 18,
           "mapPosition": 5,
-          "attack": null
+          "attack": {
+            "defenderTag": "#2UURUGUG",
+            "defenderMapPosition": 3,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#L8RG2PV0G",
@@ -320,7 +325,12 @@
           "name": "亗 ＨＡＤＥＳ_０７ 亗",
           "townhallLevel": 18,
           "mapPosition": 3,
-          "attack": null
+          "attack": {
+            "defenderTag": "#8LJ9RJQ08",
+            "defenderMapPosition": 2,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#QJVQVRPU",
