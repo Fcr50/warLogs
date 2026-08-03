@@ -1,6 +1,6 @@
 {
   "season": "2026-08-01",
-  "generatedAt": "2026-08-03T23:10:20.130Z",
+  "generatedAt": "2026-08-03T23:25:18.846Z",
   "state": "inWar",
   "rounds": [
     {
@@ -204,9 +204,9 @@
       "result": "inProgress",
       "opponentName": "Ons Stekkie",
       "opponentTag": "#289JQJ8RG",
-      "clanStars": 24,
+      "clanStars": 27,
       "opponentStars": 4,
-      "clanDestructionPct": 53.333333333333336,
+      "clanDestructionPct": 60,
       "teamSize": 15,
       "members": [
         {
@@ -257,7 +257,12 @@
           "name": "ChrolloLucilfer",
           "townhallLevel": 18,
           "mapPosition": 11,
-          "attack": null
+          "attack": {
+            "defenderTag": "#8ULQJRLY",
+            "defenderMapPosition": 8,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#2GP2JUU2",
