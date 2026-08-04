@@ -1,6 +1,6 @@
 {
   "season": "2026-08-01",
-  "generatedAt": "2026-08-04T22:40:27.571Z",
+  "generatedAt": "2026-08-04T22:55:25.359Z",
   "state": "inWar",
   "rounds": [
     {
@@ -398,9 +398,9 @@
       "result": "inProgress",
       "opponentName": "BeatDown101",
       "opponentTag": "#2J90CPQQJ",
-      "clanStars": 11,
+      "clanStars": 14,
       "opponentStars": 9,
-      "clanDestructionPct": 26.4,
+      "clanDestructionPct": 33.06666666666667,
       "teamSize": 15,
       "members": [
         {
@@ -427,7 +427,12 @@
           "name": "Gs.prieto",
           "townhallLevel": 18,
           "mapPosition": 13,
-          "attack": null
+          "attack": {
+            "defenderTag": "#80GJQGJCJ",
+            "defenderMapPosition": 11,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#2QL0VR9GU",
