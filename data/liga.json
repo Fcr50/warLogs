@@ -1,6 +1,6 @@
 {
   "season": "2026-08-01",
-  "generatedAt": "2026-08-04T22:10:20.082Z",
+  "generatedAt": "2026-08-04T22:25:28.840Z",
   "state": "inWar",
   "rounds": [
     {
@@ -398,9 +398,9 @@
       "result": "inProgress",
       "opponentName": "BeatDown101",
       "opponentTag": "#2J90CPQQJ",
-      "clanStars": 6,
+      "clanStars": 9,
       "opponentStars": 9,
-      "clanDestructionPct": 13.333333333333334,
+      "clanDestructionPct": 20,
       "teamSize": 15,
       "members": [
         {
@@ -448,7 +448,12 @@
           "name": "Gustavo Lázaro",
           "townhallLevel": 18,
           "mapPosition": 9,
-          "attack": null
+          "attack": {
+            "defenderTag": "#2LLRP9U2R",
+            "defenderMapPosition": 2,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#G9Y2L9QJJ",
