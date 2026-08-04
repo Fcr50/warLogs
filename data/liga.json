@@ -1,6 +1,6 @@
 {
   "season": "2026-08-01",
-  "generatedAt": "2026-08-04T02:25:29.255Z",
+  "generatedAt": "2026-08-04T02:40:31.088Z",
   "state": "inWar",
   "rounds": [
     {
@@ -204,9 +204,9 @@
       "result": "inProgress",
       "opponentName": "Ons Stekkie",
       "opponentTag": "#289JQJ8RG",
-      "clanStars": 33,
+      "clanStars": 36,
       "opponentStars": 4,
-      "clanDestructionPct": 73.33333333333333,
+      "clanDestructionPct": 80,
       "teamSize": 15,
       "members": [
         {
@@ -367,7 +367,12 @@
           "name": "Frnnn",
           "townhallLevel": 18,
           "mapPosition": 10,
-          "attack": null
+          "attack": {
+            "defenderTag": "#8G08VPP",
+            "defenderMapPosition": 12,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         }
       ]
     },
