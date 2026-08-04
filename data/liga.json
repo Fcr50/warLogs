@@ -1,6 +1,6 @@
 {
   "season": "2026-08-01",
-  "generatedAt": "2026-08-04T00:55:25.392Z",
+  "generatedAt": "2026-08-04T01:10:26.312Z",
   "state": "inWar",
   "rounds": [
     {
@@ -204,9 +204,9 @@
       "result": "inProgress",
       "opponentName": "Ons Stekkie",
       "opponentTag": "#289JQJ8RG",
-      "clanStars": 30,
+      "clanStars": 33,
       "opponentStars": 4,
-      "clanDestructionPct": 66.66666666666667,
+      "clanDestructionPct": 73.33333333333333,
       "teamSize": 15,
       "members": [
         {
@@ -312,7 +312,12 @@
           "name": "Phoenix",
           "townhallLevel": 18,
           "mapPosition": 7,
-          "attack": null
+          "attack": {
+            "defenderTag": "#Y00LYCL",
+            "defenderMapPosition": 10,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#29LP0VJV0",
