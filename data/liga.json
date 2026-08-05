@@ -1,6 +1,6 @@
 {
   "season": "2026-08-01",
-  "generatedAt": "2026-08-05T22:40:28.450Z",
+  "generatedAt": "2026-08-05T22:55:25.907Z",
   "state": "inWar",
   "rounds": [
     {
@@ -592,9 +592,9 @@
       "result": "inProgress",
       "opponentName": "Liga Guerreiros",
       "opponentTag": "#2GY9QPUVQ",
-      "clanStars": 17,
+      "clanStars": 20,
       "opponentStars": 14,
-      "clanDestructionPct": 39.733333333333334,
+      "clanDestructionPct": 46.4,
       "teamSize": 15,
       "members": [
         {
@@ -692,7 +692,12 @@
           "name": "Lobo ®",
           "townhallLevel": 18,
           "mapPosition": 2,
-          "attack": null
+          "attack": {
+            "defenderTag": "#VYGGCLQL",
+            "defenderMapPosition": 5,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#GGVCRYP8P",
