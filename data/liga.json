@@ -1,6 +1,6 @@
 {
   "season": "2026-08-01",
-  "generatedAt": "2026-08-05T23:10:29.834Z",
+  "generatedAt": "2026-08-05T23:25:20.686Z",
   "state": "inWar",
   "rounds": [
     {
@@ -592,9 +592,9 @@
       "result": "inProgress",
       "opponentName": "Liga Guerreiros",
       "opponentTag": "#2GY9QPUVQ",
-      "clanStars": 20,
+      "clanStars": 23,
       "opponentStars": 14,
-      "clanDestructionPct": 46.4,
+      "clanDestructionPct": 53.06666666666667,
       "teamSize": 15,
       "members": [
         {
@@ -602,7 +602,12 @@
           "name": "Satsugai",
           "townhallLevel": 18,
           "mapPosition": 15,
-          "attack": null
+          "attack": {
+            "defenderTag": "#822UYCGJ8",
+            "defenderMapPosition": 11,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#2LY0P2L9U",
