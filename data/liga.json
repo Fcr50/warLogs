@@ -1,6 +1,6 @@
 {
   "season": "2026-08-01",
-  "generatedAt": "2026-08-05T00:40:21.658Z",
+  "generatedAt": "2026-08-05T00:55:22.664Z",
   "state": "inWar",
   "rounds": [
     {
@@ -398,9 +398,9 @@
       "result": "inProgress",
       "opponentName": "BeatDown101",
       "opponentTag": "#2J90CPQQJ",
-      "clanStars": 22,
+      "clanStars": 24,
       "opponentStars": 24,
-      "clanDestructionPct": 52.93333333333333,
+      "clanDestructionPct": 59.53333333333333,
       "teamSize": 15,
       "members": [
         {
@@ -408,7 +408,12 @@
           "name": "Dr.Hannibal",
           "townhallLevel": 18,
           "mapPosition": 12,
-          "attack": null
+          "attack": {
+            "defenderTag": "#LLVQVGQY",
+            "defenderMapPosition": 10,
+            "stars": 2,
+            "destructionPercentage": 99
+          }
         },
         {
           "tag": "#2LY0P2L9U",
