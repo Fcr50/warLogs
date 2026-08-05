@@ -1,6 +1,6 @@
 {
   "season": "2026-08-01",
-  "generatedAt": "2026-08-05T02:25:19.389Z",
+  "generatedAt": "2026-08-05T02:40:24.011Z",
   "state": "inWar",
   "rounds": [
     {
@@ -398,9 +398,9 @@
       "result": "inProgress",
       "opponentName": "BeatDown101",
       "opponentTag": "#2J90CPQQJ",
-      "clanStars": 27,
-      "opponentStars": 27,
-      "clanDestructionPct": 66.2,
+      "clanStars": 30,
+      "opponentStars": 30,
+      "clanDestructionPct": 72.86666666666666,
       "teamSize": 15,
       "members": [
         {
@@ -525,7 +525,12 @@
           "name": "gui",
           "townhallLevel": 18,
           "mapPosition": 20,
-          "attack": null
+          "attack": {
+            "defenderTag": "#LP82L0RLU",
+            "defenderMapPosition": 14,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#P9C0LVLU2",
