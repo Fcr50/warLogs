@@ -1,6 +1,6 @@
 {
   "season": "2026-08-01",
-  "generatedAt": "2026-08-05T02:40:24.011Z",
+  "generatedAt": "2026-08-05T02:55:25.826Z",
   "state": "inWar",
   "rounds": [
     {
@@ -398,9 +398,9 @@
       "result": "inProgress",
       "opponentName": "BeatDown101",
       "opponentTag": "#2J90CPQQJ",
-      "clanStars": 30,
+      "clanStars": 32,
       "opponentStars": 30,
-      "clanDestructionPct": 72.86666666666666,
+      "clanDestructionPct": 79.13333333333334,
       "teamSize": 15,
       "members": [
         {
@@ -518,7 +518,12 @@
           "name": "Warlord Raivon",
           "townhallLevel": 18,
           "mapPosition": 14,
-          "attack": null
+          "attack": {
+            "defenderTag": "#PQC9Y0Y29",
+            "defenderMapPosition": 16,
+            "stars": 2,
+            "destructionPercentage": 94
+          }
         },
         {
           "tag": "#GGVCRYP8P",
