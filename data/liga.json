@@ -1,6 +1,6 @@
 {
   "season": "2026-08-01",
-  "generatedAt": "2026-08-06T13:10:23.727Z",
+  "generatedAt": "2026-08-06T13:25:25.921Z",
   "state": "inWar",
   "rounds": [
     {
@@ -592,9 +592,9 @@
       "result": "inProgress",
       "opponentName": "Liga Guerreiros",
       "opponentTag": "#2GY9QPUVQ",
-      "clanStars": 35,
+      "clanStars": 38,
       "opponentStars": 40,
-      "clanDestructionPct": 79.73333333333333,
+      "clanDestructionPct": 86.4,
       "teamSize": 15,
       "members": [
         {
@@ -700,7 +700,12 @@
           "name": "Phoenix",
           "townhallLevel": 18,
           "mapPosition": 7,
-          "attack": null
+          "attack": {
+            "defenderTag": "#QUCVYVJ8",
+            "defenderMapPosition": 6,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#80LUCC9YV",
