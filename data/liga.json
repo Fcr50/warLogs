@@ -1,6 +1,6 @@
 {
   "season": "2026-08-01",
-  "generatedAt": "2026-08-06T23:32:22.070Z",
+  "generatedAt": "2026-08-06T23:40:22.119Z",
   "state": "inWar",
   "rounds": [
     {
@@ -786,9 +786,9 @@
       "result": "inProgress",
       "opponentName": "Slim Raidy's",
       "opponentTag": "#GJC9GLCY",
-      "clanStars": 15,
-      "opponentStars": 3,
-      "clanDestructionPct": 33.333333333333336,
+      "clanStars": 18,
+      "opponentStars": 6,
+      "clanDestructionPct": 40,
       "teamSize": 15,
       "members": [
         {
@@ -839,7 +839,12 @@
           "name": "Gustavo Lázaro",
           "townhallLevel": 18,
           "mapPosition": 10,
-          "attack": null
+          "attack": {
+            "defenderTag": "#QGLUCPQPU",
+            "defenderMapPosition": 4,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#LQQRGJ8VU",
