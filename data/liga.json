@@ -1,6 +1,6 @@
 {
   "season": "2026-08-01",
-  "generatedAt": "2026-08-06T11:10:26.129Z",
+  "generatedAt": "2026-08-06T11:25:25.377Z",
   "state": "inWar",
   "rounds": [
     {
@@ -592,9 +592,9 @@
       "result": "inProgress",
       "opponentName": "Liga Guerreiros",
       "opponentTag": "#2GY9QPUVQ",
-      "clanStars": 32,
+      "clanStars": 35,
       "opponentStars": 34,
-      "clanDestructionPct": 73.06666666666666,
+      "clanDestructionPct": 79.73333333333333,
       "teamSize": 15,
       "members": [
         {
@@ -731,7 +731,12 @@
           "name": "VINGADOR⚡",
           "townhallLevel": 18,
           "mapPosition": 1,
-          "attack": null
+          "attack": {
+            "defenderTag": "#2PPGQ29UG",
+            "defenderMapPosition": 3,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#QJVQVRPU",
