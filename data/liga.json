@@ -1,6 +1,6 @@
 {
   "season": "2026-08-01",
-  "generatedAt": "2026-08-06T16:57:38.260Z",
+  "generatedAt": "2026-08-06T22:20:26.951Z",
   "state": "inWar",
   "rounds": [
     {
@@ -588,13 +588,13 @@
     {
       "round": 4,
       "warTag": "#8R9LJLR0R",
-      "state": "inWar",
-      "result": "inProgress",
+      "state": "warEnded",
+      "result": "win",
       "opponentName": "Liga Guerreiros",
       "opponentTag": "#2GY9QPUVQ",
-      "clanStars": 41,
-      "opponentStars": 40,
-      "clanDestructionPct": 93.06666666666666,
+      "clanStars": 44,
+      "opponentStars": 42,
+      "clanDestructionPct": 99.73333333333333,
       "teamSize": 15,
       "members": [
         {
@@ -662,7 +662,12 @@
           "name": "i-Vinni",
           "townhallLevel": 18,
           "mapPosition": 18,
-          "attack": null
+          "attack": {
+            "defenderTag": "#2GG9U09JP",
+            "defenderMapPosition": 13,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#G9Y2L9QJJ",
@@ -777,12 +782,12 @@
     {
       "round": 5,
       "warTag": "#8R9R0RGCC",
-      "state": "preparation",
+      "state": "inWar",
       "result": "inProgress",
       "opponentName": "Slim Raidy's",
       "opponentTag": "#GJC9GLCY",
       "clanStars": 0,
-      "opponentStars": 0,
+      "opponentStars": 3,
       "clanDestructionPct": 0,
       "teamSize": 15,
       "members": [
@@ -829,10 +834,10 @@
           "attack": null
         },
         {
-          "tag": "#G9Y2L9QJJ",
-          "name": "Micael",
+          "tag": "#QGQJGURCL",
+          "name": "SAFONOV",
           "townhallLevel": 18,
-          "mapPosition": 21,
+          "mapPosition": 3,
           "attack": null
         },
         {
