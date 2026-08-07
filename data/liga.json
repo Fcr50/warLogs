@@ -1,6 +1,6 @@
 {
   "season": "2026-08-01",
-  "generatedAt": "2026-08-07T01:25:30.559Z",
+  "generatedAt": "2026-08-07T01:40:27.160Z",
   "state": "inWar",
   "rounds": [
     {
@@ -786,9 +786,9 @@
       "result": "inProgress",
       "opponentName": "Slim Raidy's",
       "opponentTag": "#GJC9GLCY",
-      "clanStars": 18,
+      "clanStars": 21,
       "opponentStars": 8,
-      "clanDestructionPct": 40,
+      "clanDestructionPct": 46.666666666666664,
       "teamSize": 15,
       "members": [
         {
@@ -886,7 +886,12 @@
           "name": "Lobo ®",
           "townhallLevel": 18,
           "mapPosition": 2,
-          "attack": null
+          "attack": {
+            "defenderTag": "#292URG9P2",
+            "defenderMapPosition": 7,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#GGVCRYP8P",
