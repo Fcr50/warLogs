@@ -1,6 +1,6 @@
 {
   "season": "2026-08-01",
-  "generatedAt": "2026-08-07T02:10:23.073Z",
+  "generatedAt": "2026-08-07T02:25:19.011Z",
   "state": "inWar",
   "rounds": [
     {
@@ -786,9 +786,9 @@
       "result": "inProgress",
       "opponentName": "Slim Raidy's",
       "opponentTag": "#GJC9GLCY",
-      "clanStars": 21,
-      "opponentStars": 8,
-      "clanDestructionPct": 46.666666666666664,
+      "clanStars": 24,
+      "opponentStars": 14,
+      "clanDestructionPct": 53.333333333333336,
       "teamSize": 15,
       "members": [
         {
@@ -917,7 +917,12 @@
           "name": "Frnnn",
           "townhallLevel": 18,
           "mapPosition": 9,
-          "attack": null
+          "attack": {
+            "defenderTag": "#Y8Q082UL",
+            "defenderMapPosition": 9,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#QJLQLUURY",
