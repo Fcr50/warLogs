@@ -1,6 +1,6 @@
 {
   "season": "2026-08-01",
-  "generatedAt": "2026-08-07T22:55:28.023Z",
+  "generatedAt": "2026-08-07T23:10:30.980Z",
   "state": "inWar",
   "rounds": [
     {
@@ -980,9 +980,9 @@
       "result": "inProgress",
       "opponentName": "Herausforderer",
       "opponentTag": "#RVV2CUV8",
-      "clanStars": 6,
+      "clanStars": 12,
       "opponentStars": 0,
-      "clanDestructionPct": 13.333333333333334,
+      "clanDestructionPct": 26.666666666666668,
       "teamSize": 15,
       "members": [
         {
@@ -1023,7 +1023,12 @@
           "name": "Gustavo Lázaro",
           "townhallLevel": 18,
           "mapPosition": 9,
-          "attack": null
+          "attack": {
+            "defenderTag": "#VGCUJJCQ",
+            "defenderMapPosition": 2,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#LQQRGJ8VU",
@@ -1044,6 +1049,135 @@
           "name": "Fer",
           "townhallLevel": 18,
           "mapPosition": 6,
+          "attack": null
+        },
+        {
+          "tag": "#L8RG2PV0G",
+          "name": "joaoaoaoao",
+          "townhallLevel": 18,
+          "mapPosition": 16,
+          "attack": null
+        },
+        {
+          "tag": "#PLU2VCLG",
+          "name": "Phoenix",
+          "townhallLevel": 18,
+          "mapPosition": 7,
+          "attack": null
+        },
+        {
+          "tag": "#80LUCC9YV",
+          "name": "Lobo ®",
+          "townhallLevel": 18,
+          "mapPosition": 2,
+          "attack": null
+        },
+        {
+          "tag": "#GGVCRYP8P",
+          "name": "gui",
+          "townhallLevel": 18,
+          "mapPosition": 20,
+          "attack": {
+            "defenderTag": "#8V98VCRJR",
+            "defenderMapPosition": 14,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
+        },
+        {
+          "tag": "#P9C0LVLU2",
+          "name": "VINGADOR⚡",
+          "townhallLevel": 18,
+          "mapPosition": 1,
+          "attack": null
+        },
+        {
+          "tag": "#QJVQVRPU",
+          "name": "Frnnn",
+          "townhallLevel": 18,
+          "mapPosition": 8,
+          "attack": null
+        },
+        {
+          "tag": "#QJLQLUURY",
+          "name": "NenemPJL",
+          "townhallLevel": 18,
+          "mapPosition": 19,
+          "attack": {
+            "defenderTag": "#2YULYLUJ8",
+            "defenderMapPosition": 15,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
+        }
+      ]
+    },
+    {
+      "round": 7,
+      "warTag": "#8R9VGG99Q",
+      "state": "preparation",
+      "result": "inProgress",
+      "opponentName": "Bir Gorkhali",
+      "opponentTag": "#9RP0PCU0",
+      "clanStars": 0,
+      "opponentStars": 0,
+      "clanDestructionPct": 0,
+      "teamSize": 15,
+      "members": [
+        {
+          "tag": "#8VCUUPPJP",
+          "name": "Satsugai",
+          "townhallLevel": 18,
+          "mapPosition": 14,
+          "attack": null
+        },
+        {
+          "tag": "#2LY0P2L9U",
+          "name": "LucasHG9",
+          "townhallLevel": 18,
+          "mapPosition": 6,
+          "attack": null
+        },
+        {
+          "tag": "#QQC8P9C9R",
+          "name": "Gs.prieto",
+          "townhallLevel": 18,
+          "mapPosition": 13,
+          "attack": null
+        },
+        {
+          "tag": "#8CJ8YJY0P",
+          "name": "ChrolloLucilfer",
+          "townhallLevel": 18,
+          "mapPosition": 11,
+          "attack": null
+        },
+        {
+          "tag": "#2GP2JUU2",
+          "name": "Gustavo Lázaro",
+          "townhallLevel": 18,
+          "mapPosition": 9,
+          "attack": null
+        },
+        {
+          "tag": "#LQQRGJ8VU",
+          "name": "i-Vinni",
+          "townhallLevel": 18,
+          "mapPosition": 18,
+          "attack": null
+        },
+        {
+          "tag": "#QGQJGURCL",
+          "name": "SAFONOV",
+          "townhallLevel": 18,
+          "mapPosition": 4,
+          "attack": null
+        },
+        {
+          "tag": "#GJ2LQVQJ",
+          "name": "Fer",
+          "townhallLevel": 18,
+          "mapPosition": 5,
           "attack": null
         },
         {
@@ -1093,15 +1227,9 @@
           "name": "NenemPJL",
           "townhallLevel": 18,
           "mapPosition": 19,
-          "attack": {
-            "defenderTag": "#2YULYLUJ8",
-            "defenderMapPosition": 15,
-            "stars": 3,
-            "destructionPercentage": 100
-          }
+          "attack": null
         }
       ]
-    },
-    null
+    }
   ]
 }
