@@ -1,6 +1,6 @@
 {
   "season": "2026-08-01",
-  "generatedAt": "2026-08-08T16:40:24.243Z",
+  "generatedAt": "2026-08-08T16:55:28.478Z",
   "state": "inWar",
   "rounds": [
     {
@@ -980,9 +980,9 @@
       "result": "inProgress",
       "opponentName": "Herausforderer",
       "opponentTag": "#RVV2CUV8",
-      "clanStars": 37,
+      "clanStars": 39,
       "opponentStars": 8,
-      "clanDestructionPct": 85.86666666666666,
+      "clanDestructionPct": 91.93333333333334,
       "teamSize": 15,
       "members": [
         {
@@ -1093,7 +1093,12 @@
           "name": "Phoenix",
           "townhallLevel": 18,
           "mapPosition": 7,
-          "attack": null
+          "attack": {
+            "defenderTag": "#GYR0LURC",
+            "defenderMapPosition": 3,
+            "stars": 2,
+            "destructionPercentage": 91
+          }
         },
         {
           "tag": "#80LUCC9YV",
@@ -1177,6 +1182,13 @@
           "attack": null
         },
         {
+          "tag": "#QR8R9QUV8",
+          "name": "Dr.Hannibal",
+          "townhallLevel": 18,
+          "mapPosition": 15,
+          "attack": null
+        },
+        {
           "tag": "#QQC8P9C9R",
           "name": "Gs.prieto",
           "townhallLevel": 18,
@@ -1223,13 +1235,6 @@
           "name": "joaoaoaoao",
           "townhallLevel": 18,
           "mapPosition": 16,
-          "attack": null
-        },
-        {
-          "tag": "#PLU2VCLG",
-          "name": "Phoenix",
-          "townhallLevel": 18,
-          "mapPosition": 7,
           "attack": null
         },
         {
