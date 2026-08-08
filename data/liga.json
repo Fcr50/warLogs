@@ -1,6 +1,6 @@
 {
   "season": "2026-08-01",
-  "generatedAt": "2026-08-08T22:55:32.613Z",
+  "generatedAt": "2026-08-08T23:10:24.640Z",
   "state": "inWar",
   "rounds": [
     {
@@ -1170,13 +1170,13 @@
     {
       "round": 7,
       "warTag": "#8R9VGG99Q",
-      "state": "preparation",
+      "state": "inWar",
       "result": "inProgress",
       "opponentName": "Bir Gorkhali",
       "opponentTag": "#9RP0PCU0",
-      "clanStars": 0,
+      "clanStars": 6,
       "opponentStars": 0,
-      "clanDestructionPct": 0,
+      "clanDestructionPct": 13.333333333333334,
       "teamSize": 15,
       "members": [
         {
@@ -1247,7 +1247,12 @@
           "name": "Lobo ®",
           "townhallLevel": 18,
           "mapPosition": 2,
-          "attack": null
+          "attack": {
+            "defenderTag": "#PC2VCPRU2",
+            "defenderMapPosition": 2,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#GGVCRYP8P",
@@ -1282,7 +1287,12 @@
           "name": "NenemPJL",
           "townhallLevel": 18,
           "mapPosition": 19,
-          "attack": null
+          "attack": {
+            "defenderTag": "#82QPVRVPC",
+            "defenderMapPosition": 13,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         }
       ]
     }
