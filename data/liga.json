@@ -1,6 +1,6 @@
 {
   "season": "2026-08-01",
-  "generatedAt": "2026-08-08T03:55:24.068Z",
+  "generatedAt": "2026-08-08T04:10:26.122Z",
   "state": "inWar",
   "rounds": [
     {
@@ -980,9 +980,9 @@
       "result": "inProgress",
       "opponentName": "Herausforderer",
       "opponentTag": "#RVV2CUV8",
-      "clanStars": 32,
+      "clanStars": 34,
       "opponentStars": 8,
-      "clanDestructionPct": 72.66666666666667,
+      "clanDestructionPct": 79.2,
       "teamSize": 15,
       "members": [
         {
@@ -1064,7 +1064,12 @@
           "name": "Fer",
           "townhallLevel": 18,
           "mapPosition": 6,
-          "attack": null
+          "attack": {
+            "defenderTag": "#CR92R08C",
+            "defenderMapPosition": 13,
+            "stars": 2,
+            "destructionPercentage": 98
+          }
         },
         {
           "tag": "#L8RG2PV0G",
