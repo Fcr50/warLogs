@@ -1,6 +1,6 @@
 {
   "season": "2026-08-01",
-  "generatedAt": "2026-08-09T07:10:21.970Z",
+  "generatedAt": "2026-08-09T07:25:36.739Z",
   "state": "inWar",
   "rounds": [
     {
@@ -1174,9 +1174,9 @@
       "result": "inProgress",
       "opponentName": "Bir Gorkhali",
       "opponentTag": "#9RP0PCU0",
-      "clanStars": 30,
+      "clanStars": 33,
       "opponentStars": 6,
-      "clanDestructionPct": 66.66666666666667,
+      "clanDestructionPct": 73.33333333333333,
       "teamSize": 15,
       "members": [
         {
@@ -1184,7 +1184,12 @@
           "name": "Satsugai",
           "townhallLevel": 18,
           "mapPosition": 14,
-          "attack": null
+          "attack": {
+            "defenderTag": "#8Y9UJ90GJ",
+            "defenderMapPosition": 4,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#QR8R9QUV8",
