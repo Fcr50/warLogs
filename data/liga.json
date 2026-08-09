@@ -1,6 +1,6 @@
 {
   "season": "2026-08-01",
-  "generatedAt": "2026-08-09T10:10:31.412Z",
+  "generatedAt": "2026-08-09T10:25:33.398Z",
   "state": "inWar",
   "rounds": [
     {
@@ -1174,9 +1174,9 @@
       "result": "inProgress",
       "opponentName": "Bir Gorkhali",
       "opponentTag": "#9RP0PCU0",
-      "clanStars": 33,
+      "clanStars": 36,
       "opponentStars": 13,
-      "clanDestructionPct": 73.33333333333333,
+      "clanDestructionPct": 80,
       "teamSize": 15,
       "members": [
         {
@@ -1306,7 +1306,12 @@
           "name": "VINGADOR⚡",
           "townhallLevel": 18,
           "mapPosition": 1,
-          "attack": null
+          "attack": {
+            "defenderTag": "#90J9JQRG9",
+            "defenderMapPosition": 1,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#YPVQVU982",
