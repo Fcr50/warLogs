@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 29,
-        "destructionPercentage": 39.84
+        "stars": 33,
+        "destructionPercentage": 44
       },
       "sixHourNonAttackers": [
         {
@@ -183,11 +183,6 @@
         {
           "tag": "#P9C0LVLU2",
           "name": "VINGADOR⚡",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#YVYCCQU08",
-          "name": "Frenético",
           "townhallLevel": 18
         },
         {
@@ -412,6 +407,12 @@
               "destructionPercentage": 100,
               "order": 12,
               "defenderTag": "#8PVLPRGUR"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 24,
+              "defenderTag": "#8CJ9PLYY8"
             }
           ],
           "defensesReceived": [
@@ -499,7 +500,14 @@
           "name": "Frenético",
           "townhallLevel": 18,
           "mapPosition": 18,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 25,
+              "defenderTag": "#Q9JP99Q0"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
