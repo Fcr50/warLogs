@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T10:40:29.043Z",
+  "generatedAt": "2026-08-10T10:55:27.414Z",
   "totalWars": 29,
   "liveWar": {
     "opponentName": "امپراتور پارسی",
@@ -873,6 +873,42 @@
     },
     {
       "player": {
+        "tag": "#2R89QJL9Q",
+        "name": "Hisoka",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 1.1104948895197038,
+        "rawScore": 1.1104948895197038,
+        "confidence": 1,
+        "tier": "B",
+        "attackScore": 1.4483976343120255,
+        "defenseScore": 0.11283704967599151,
+        "reliability": 0.6868965517241379,
+        "formScore": 0,
+        "warsInRoster": 22,
+        "attacksUsed": 36,
+        "attacksAvailable": 44,
+        "avgDestruction": 92.61111111111111,
+        "totalAttacks": 36,
+        "totalStars": 90,
+        "count3Stars": 22,
+        "avgStars": 2.5,
+        "threeStarRate": 0.6111111111111112,
+        "totalMissed": 6,
+        "avgPositionDiff": -9.147058823529411,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#PPPUQPVJY",
         "name": "Rodrigo",
         "townhallLevel": 18
@@ -1449,9 +1485,20 @@
       "totalAttacks": 36,
       "warsInRoster": 24,
       "totalMissed": 10,
-      "rank": 25,
+      "rank": 26,
       "prevRank": 25,
       "normalizedScore": 26.46
+    },
+    "#2R89QJL9Q": {
+      "tier": "B",
+      "score": 1.1104948895197038,
+      "avgStars": 2.5,
+      "totalStars": 90,
+      "totalAttacks": 36,
+      "warsInRoster": 22,
+      "totalMissed": 6,
+      "rank": 25,
+      "normalizedScore": 31.73
     },
     "#8YJYY92GC": {
       "tier": "B",
@@ -1537,7 +1584,7 @@
       "totalAttacks": 17,
       "warsInRoster": 10,
       "totalMissed": 3,
-      "rank": 26,
+      "rank": 27,
       "prevRank": 26,
       "normalizedScore": 23.88
     },
@@ -1549,7 +1596,7 @@
       "totalAttacks": 10,
       "warsInRoster": 9,
       "totalMissed": 5,
-      "rank": 27,
+      "rank": 28,
       "prevRank": 27,
       "normalizedScore": 21.83
     },
@@ -1561,7 +1608,7 @@
       "totalAttacks": 2,
       "warsInRoster": 12,
       "totalMissed": 18,
-      "rank": 28,
+      "rank": 29,
       "prevRank": 28,
       "normalizedScore": -13.07
     },
