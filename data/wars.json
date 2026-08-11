@@ -10,8 +10,8 @@
       "opponent": {
         "name": "MADE IN TURKEY",
         "tag": "#Y8YU8J8Q",
-        "stars": 25,
-        "destructionPercentage": 38.12,
+        "stars": 28,
+        "destructionPercentage": 40.92,
         "members": [
           {
             "tag": "#20YUUJ90P",
@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 36,
-        "destructionPercentage": 48
+        "stars": 39,
+        "destructionPercentage": 52
       },
       "sixHourNonAttackers": [
         {
@@ -158,11 +158,6 @@
         {
           "tag": "#QGQJGURCL",
           "name": "SAFONOV",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#GJ2LQVQJ",
-          "name": "Fer",
           "townhallLevel": 18
         },
         {
@@ -293,7 +288,14 @@
           "townhallLevel": 18,
           "mapPosition": 17,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 82,
+              "attackerTag": "#UQP28Q2C",
+              "attackerMapPosition": 2
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -362,7 +364,14 @@
           "name": "Fer",
           "townhallLevel": 18,
           "mapPosition": 2,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 28,
+              "defenderTag": "#UQP28Q2C"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -423,6 +432,12 @@
               "destructionPercentage": 91,
               "attackerTag": "#2VG9YVYRY",
               "attackerMapPosition": 8
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 79,
+              "attackerTag": "#UQP28Q2C",
+              "attackerMapPosition": 2
             }
           ],
           "missedAttacks": 0
