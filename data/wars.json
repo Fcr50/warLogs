@@ -10,8 +10,8 @@
       "opponent": {
         "name": "MADE IN TURKEY",
         "tag": "#Y8YU8J8Q",
-        "stars": 67,
-        "destructionPercentage": 93.4,
+        "stars": 71,
+        "destructionPercentage": 97.6,
         "members": [
           {
             "tag": "#20YUUJ90P",
@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 74,
-        "destructionPercentage": 99.44
+        "stars": 75,
+        "destructionPercentage": 100
       },
       "sixHourNonAttackers": [
         {
@@ -155,7 +155,14 @@
               "defenderTag": "#LVCPUY8CL"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#JVG2P00L",
+              "attackerMapPosition": 23
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -192,6 +199,12 @@
               "destructionPercentage": 100,
               "order": 31,
               "defenderTag": "#U20JU0J8"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 65,
+              "defenderTag": "#QPU2LU0GC"
             }
           ],
           "defensesReceived": [
@@ -348,7 +361,20 @@
           "name": "i-Vinni",
           "townhallLevel": 18,
           "mapPosition": 17,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 66,
+              "defenderTag": "#J0J8G82G"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 68,
+              "defenderTag": "#QPU2LU0GC"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 2,
@@ -506,6 +532,12 @@
               "destructionPercentage": 95,
               "attackerTag": "#920C9L2G",
               "attackerMapPosition": 3
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#CPLJR99P",
+              "attackerMapPosition": 4
             }
           ],
           "missedAttacks": 0
