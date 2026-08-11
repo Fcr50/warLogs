@@ -10,8 +10,8 @@
       "opponent": {
         "name": "MADE IN TURKEY",
         "tag": "#Y8YU8J8Q",
-        "stars": 63,
-        "destructionPercentage": 88.88,
+        "stars": 67,
+        "destructionPercentage": 93.4,
         "members": [
           {
             "tag": "#20YUUJ90P",
@@ -171,7 +171,14 @@
               "defenderTag": "#9VR92VCL"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#JVG2P00L",
+              "attackerMapPosition": 23
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -345,6 +352,12 @@
           "defensesReceived": [
             {
               "stars": 2,
+              "destructionPercentage": 88,
+              "attackerTag": "#Q9JP99Q0",
+              "attackerMapPosition": 18
+            },
+            {
+              "stars": 2,
               "destructionPercentage": 82,
               "attackerTag": "#UQP28Q2C",
               "attackerMapPosition": 2
@@ -487,6 +500,12 @@
               "destructionPercentage": 88,
               "attackerTag": "#9VR92VCL",
               "attackerMapPosition": 15
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 95,
+              "attackerTag": "#920C9L2G",
+              "attackerMapPosition": 3
             }
           ],
           "missedAttacks": 0
