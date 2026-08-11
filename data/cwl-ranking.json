@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T11:10:28.323Z",
+  "generatedAt": "2026-08-11T11:25:39.324Z",
   "totalWars": 29,
   "liveWar": {
     "opponentName": "MADE IN TURKEY",
@@ -338,12 +338,12 @@
         "townhallLevel": 18
       },
       "data": {
-        "score": 2.3953451918325834,
-        "rawScore": 2.3953451918325834,
+        "score": 2.3991502536525546,
+        "rawScore": 2.3991502536525546,
         "confidence": 1,
         "tier": "B",
         "attackScore": 3.237313588786168,
-        "defenseScore": 0.390813060426623,
+        "defenseScore": 0.4060333077065112,
         "reliability": 0.8898119122257053,
         "formScore": 3.24,
         "warsInRoster": 29,
@@ -693,42 +693,6 @@
     },
     {
       "player": {
-        "tag": "#8CJ8YJY0P",
-        "name": "ChrolloLucilfer",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 1.9460974704589948,
-        "rawScore": 1.9460974704589948,
-        "confidence": 1,
-        "tier": "A",
-        "attackScore": 2.311449171210797,
-        "defenseScore": 0.27831316893868147,
-        "reliability": 0.968421052631579,
-        "formScore": 2.375,
-        "warsInRoster": 40,
-        "attacksUsed": 74,
-        "attacksAvailable": 79,
-        "avgDestruction": 96.43243243243244,
-        "totalAttacks": 74,
-        "totalStars": 204,
-        "count3Stars": 61,
-        "avgStars": 2.7567567567567566,
-        "threeStarRate": 0.8243243243243243,
-        "totalMissed": 3,
-        "avgPositionDiff": 0.2777777777777778,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
         "tag": "#80LUCC9YV",
         "name": "Lobo ®",
         "townhallLevel": 18
@@ -753,6 +717,42 @@
         "threeStarRate": 0.7428571428571429,
         "totalMissed": 1,
         "avgPositionDiff": 3.3676470588235294,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#8CJ8YJY0P",
+        "name": "ChrolloLucilfer",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 1.9110480236027358,
+        "rawScore": 1.9110480236027358,
+        "confidence": 1,
+        "tier": "A",
+        "attackScore": 2.311449171210797,
+        "defenseScore": 0.13811538151364539,
+        "reliability": 0.968421052631579,
+        "formScore": 2.375,
+        "warsInRoster": 40,
+        "attacksUsed": 74,
+        "attacksAvailable": 79,
+        "avgDestruction": 96.43243243243244,
+        "totalAttacks": 74,
+        "totalStars": 204,
+        "count3Stars": 61,
+        "avgStars": 2.7567567567567566,
+        "threeStarRate": 0.8243243243243243,
+        "totalMissed": 3,
+        "avgPositionDiff": 0.2777777777777778,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1421,15 +1421,15 @@
     },
     "#8CJ8YJY0P": {
       "tier": "B",
-      "score": 1.9460974704589948,
+      "score": 1.9110480236027358,
       "avgStars": 2.7567567567567566,
       "totalStars": 204,
       "totalAttacks": 74,
       "warsInRoster": 40,
       "totalMissed": 3,
-      "rank": 20,
+      "rank": 21,
       "prevRank": 20,
-      "normalizedScore": 55.6
+      "normalizedScore": 54.6
     },
     "#QJLQLUURY": {
       "tier": "B",
@@ -1463,7 +1463,7 @@
       "totalAttacks": 70,
       "warsInRoster": 36,
       "totalMissed": 1,
-      "rank": 21,
+      "rank": 20,
       "prevRank": 21,
       "normalizedScore": 54.96
     },
@@ -1505,7 +1505,7 @@
     },
     "#LQQRGJ8VU": {
       "tier": "A",
-      "score": 2.3953451918325834,
+      "score": 2.3991502536525546,
       "avgStars": 2.537037037037037,
       "totalStars": 137,
       "totalAttacks": 54,
@@ -1513,7 +1513,7 @@
       "totalMissed": 1,
       "rank": 10,
       "prevRank": 10,
-      "normalizedScore": 68.44
+      "normalizedScore": 68.55
     },
     "#YPVQVU982": {
       "tier": "B",
@@ -1643,6 +1643,18 @@
       "prevRank": 26,
       "normalizedScore": 36.85
     },
+    "#YVYCCQU08": {
+      "tier": "A",
+      "score": 2.4356467292141986,
+      "avgStars": 2.6923076923076925,
+      "totalStars": 140,
+      "totalAttacks": 52,
+      "warsInRoster": 28,
+      "totalMissed": 0,
+      "rank": 7,
+      "prevRank": 7,
+      "normalizedScore": 69.59
+    },
     "#8YJYY92GC": {
       "tier": "B",
       "score": 2.1331239094167453,
@@ -1666,18 +1678,6 @@
       "rank": 17,
       "prevRank": 17,
       "normalizedScore": 62.21
-    },
-    "#YVYCCQU08": {
-      "tier": "A",
-      "score": 2.4356467292141986,
-      "avgStars": 2.6923076923076925,
-      "totalStars": 140,
-      "totalAttacks": 52,
-      "warsInRoster": 28,
-      "totalMissed": 0,
-      "rank": 7,
-      "prevRank": 7,
-      "normalizedScore": 69.59
     },
     "#8VCUUPPJP": {
       "tier": "A",
