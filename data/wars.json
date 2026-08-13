@@ -10,8 +10,8 @@
       "opponent": {
         "name": "vampire",
         "tag": "#8U9RGLU2",
-        "stars": 51,
-        "destructionPercentage": 70.12,
+        "stars": 54,
+        "destructionPercentage": 74.12,
         "members": [
           {
             "tag": "#P8QYP09L",
@@ -657,7 +657,14 @@
           "townhallLevel": 18,
           "mapPosition": 17,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#2U802PLYY",
+              "attackerMapPosition": 17
+            }
+          ],
           "missedAttacks": 0
         },
         {
