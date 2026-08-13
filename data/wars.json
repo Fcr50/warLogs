@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 15,
-        "destructionPercentage": 23.48
+        "stars": 26,
+        "destructionPercentage": 35.92
       },
       "sixHourNonAttackers": [
         {
@@ -136,18 +136,8 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#2LY0P2L9U",
-          "name": "LucasHG9",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#QQC8P9C9R",
           "name": "Gs.prieto",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#8YJYY92GC",
-          "name": "RussiaN",
           "townhallLevel": 18
         },
         {
@@ -168,11 +158,6 @@
         {
           "tag": "#LQQRGJ8VU",
           "name": "i-Vinni",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#G9Y2L9QJJ",
-          "name": "Micael",
           "townhallLevel": 18
         },
         {
@@ -263,7 +248,20 @@
           "name": "LucasHG9",
           "townhallLevel": 18,
           "mapPosition": 5,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 15,
+              "defenderTag": "#2GQV8UJU0"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 18,
+              "defenderTag": "#CCLJJJ80"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -297,7 +295,20 @@
           "name": "RussiaN",
           "townhallLevel": 18,
           "mapPosition": 22,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 17,
+              "defenderTag": "#PCG99RG9C"
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 98,
+              "order": 19,
+              "defenderTag": "#89CPU8YR2"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -342,7 +353,14 @@
           "name": "Micael",
           "townhallLevel": 18,
           "mapPosition": 20,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 16,
+              "defenderTag": "#P2RP9J8R"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
