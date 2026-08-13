@@ -10,8 +10,8 @@
       "opponent": {
         "name": "vampire",
         "tag": "#8U9RGLU2",
-        "stars": 0,
-        "destructionPercentage": 0,
+        "stars": 3,
+        "destructionPercentage": 4,
         "members": [
           {
             "tag": "#P8QYP09L",
@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 0,
-        "destructionPercentage": 0
+        "stars": 8,
+        "destructionPercentage": 11.88
       },
       "sixHourNonAttackers": [
         {
@@ -191,11 +191,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#GJ2LQVQJ",
-          "name": "Fer",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#PLU2VCLG",
           "name": "Phoenix",
           "townhallLevel": 18
@@ -221,18 +216,8 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#P9C0LVLU2",
-          "name": "VINGADOR⚡",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#2LGC8PGRY",
           "name": "lucas r.",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QJVQVRPU",
-          "name": "Frnnn",
           "townhallLevel": 18
         },
         {
@@ -378,7 +363,14 @@
           "name": "Fer",
           "townhallLevel": 18,
           "mapPosition": 2,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 97,
+              "order": 3,
+              "defenderTag": "#JUUCYRRQ"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -432,7 +424,14 @@
           "name": "VINGADOR⚡",
           "townhallLevel": 18,
           "mapPosition": 1,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 1,
+              "defenderTag": "#P8QYP09L"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -450,7 +449,14 @@
           "name": "Frnnn",
           "townhallLevel": 18,
           "mapPosition": 7,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 2,
+              "defenderTag": "#PCR8Q0G"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -469,7 +475,14 @@
           "townhallLevel": 18,
           "mapPosition": 18,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#89CPU8YR2",
+              "attackerMapPosition": 23
+            }
+          ],
           "missedAttacks": 0
         }
       ]
