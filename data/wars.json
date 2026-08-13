@@ -10,8 +10,8 @@
       "opponent": {
         "name": "vampire",
         "tag": "#8U9RGLU2",
-        "stars": 46,
-        "destructionPercentage": 63.04,
+        "stars": 48,
+        "destructionPercentage": 66.12,
         "members": [
           {
             "tag": "#P8QYP09L",
@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 33,
-        "destructionPercentage": 44
+        "stars": 36,
+        "destructionPercentage": 48
       },
       "sixHourNonAttackers": [
         {
@@ -133,11 +133,6 @@
         {
           "tag": "#8PR0QU0UJ",
           "name": "RAGNAROK",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QQC8P9C9R",
-          "name": "Gs.prieto",
           "townhallLevel": 18
         },
         {
@@ -274,7 +269,14 @@
           "name": "Gs.prieto",
           "townhallLevel": 18,
           "mapPosition": 12,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 38,
+              "defenderTag": "#LQ8CURUY2"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -390,7 +392,14 @@
           "townhallLevel": 18,
           "mapPosition": 16,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 77,
+              "attackerTag": "#Q98C8L2RY",
+              "attackerMapPosition": 13
+            }
+          ],
           "missedAttacks": 0
         },
         {
