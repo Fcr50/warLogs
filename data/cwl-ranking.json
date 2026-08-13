@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-13T23:40:42.312Z",
+  "generatedAt": "2026-08-13T23:55:29.003Z",
   "totalWars": 30,
   "liveWar": {
     "opponentName": "vampire",
-    "totalAttacksDone": 23,
+    "totalAttacksDone": 24,
     "totalAttacksExpected": 50
   },
   "ranking": [
@@ -693,6 +693,42 @@
     },
     {
       "player": {
+        "tag": "#QJLQLUURY",
+        "name": "NenemPJL",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.0131215304789634,
+        "rawScore": 2.0131215304789634,
+        "confidence": 1,
+        "tier": "A",
+        "attackScore": 2.8495242016963447,
+        "defenseScore": 0.04457777075830165,
+        "reliability": 0.7502564102564102,
+        "formScore": 2.875,
+        "warsInRoster": 16,
+        "attacksUsed": 30,
+        "attacksAvailable": 32,
+        "avgDestruction": 92.43333333333334,
+        "totalAttacks": 30,
+        "totalStars": 85,
+        "count3Stars": 26,
+        "avgStars": 2.8333333333333335,
+        "threeStarRate": 0.8666666666666667,
+        "totalMissed": 1,
+        "avgPositionDiff": -6.1,
+        "hasAnyDefense": true,
+        "hadTh17": true,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#VPPQ8VLV",
         "name": "GABRIEL LOBATO",
         "townhallLevel": 18
@@ -717,42 +753,6 @@
         "threeStarRate": 0.72,
         "totalMissed": 2,
         "avgPositionDiff": 0.7291666666666666,
-        "hasAnyDefense": true,
-        "hadTh17": true,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#QJLQLUURY",
-        "name": "NenemPJL",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 1.8243428606088576,
-        "rawScore": 1.8243428606088576,
-        "confidence": 1,
-        "tier": "A",
-        "attackScore": 2.548860702005617,
-        "defenseScore": 0.04457777075830165,
-        "reliability": 0.7502564102564102,
-        "formScore": 2.25,
-        "warsInRoster": 16,
-        "attacksUsed": 29,
-        "attacksAvailable": 32,
-        "avgDestruction": 92.17241379310344,
-        "totalAttacks": 29,
-        "totalStars": 82,
-        "count3Stars": 25,
-        "avgStars": 2.8275862068965516,
-        "threeStarRate": 0.8620689655172413,
-        "totalMissed": 1,
-        "avgPositionDiff": -6.310344827586207,
         "hasAnyDefense": true,
         "hadTh17": true,
         "weights": {
@@ -1342,15 +1342,15 @@
     },
     "#QJLQLUURY": {
       "tier": "B",
-      "score": 1.8243428606088576,
-      "avgStars": 2.8275862068965516,
-      "totalStars": 82,
-      "totalAttacks": 29,
+      "score": 2.0131215304789634,
+      "avgStars": 2.8333333333333335,
+      "totalStars": 85,
+      "totalAttacks": 30,
       "warsInRoster": 16,
       "totalMissed": 1,
-      "rank": 21,
+      "rank": 20,
       "prevRank": 21,
-      "normalizedScore": 52.12
+      "normalizedScore": 57.52
     },
     "#GJ2LQVQJ": {
       "tier": "A",
@@ -1444,7 +1444,7 @@
       "totalAttacks": 50,
       "warsInRoster": 29,
       "totalMissed": 2,
-      "rank": 20,
+      "rank": 21,
       "prevRank": 20,
       "normalizedScore": 53.39
     },
@@ -1472,16 +1472,6 @@
       "prevRank": 27,
       "normalizedScore": 33.17
     },
-    "#JPVGQP8V": {
-      "tier": "F",
-      "score": 0,
-      "avgStars": 0,
-      "totalStars": 0,
-      "totalAttacks": 0,
-      "warsInRoster": 0,
-      "totalMissed": 0,
-      "normalizedScore": 0
-    },
     "#PPPUQPVJY": {
       "tier": "B",
       "score": 1.1637115246751055,
@@ -1493,6 +1483,16 @@
       "rank": 26,
       "prevRank": 26,
       "normalizedScore": 33.25
+    },
+    "#JPVGQP8V": {
+      "tier": "F",
+      "score": 0,
+      "avgStars": 0,
+      "totalStars": 0,
+      "totalAttacks": 0,
+      "warsInRoster": 0,
+      "totalMissed": 0,
+      "normalizedScore": 0
     },
     "#LQQRGJ8VU": {
       "tier": "A",
