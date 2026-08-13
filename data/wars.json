@@ -10,8 +10,8 @@
       "opponent": {
         "name": "vampire",
         "tag": "#8U9RGLU2",
-        "stars": 15,
-        "destructionPercentage": 22,
+        "stars": 21,
+        "destructionPercentage": 30.28,
         "members": [
           {
             "tag": "#P8QYP09L",
@@ -394,7 +394,14 @@
               "defenderTag": "#9CYCY9GLJ"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#9CYCY9GLJ",
+              "attackerMapPosition": 4
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -422,6 +429,12 @@
               "destructionPercentage": 92,
               "attackerTag": "#JUUCYRRQ",
               "attackerMapPosition": 2
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 99,
+              "attackerTag": "#9CYCY9GLJ",
+              "attackerMapPosition": 4
             }
           ],
           "missedAttacks": 0
@@ -504,7 +517,14 @@
               "defenderTag": "#JUUCYRRQ"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#QY00RQR9",
+              "attackerMapPosition": 14
+            }
+          ],
           "missedAttacks": 0
         },
         {
