@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 8,
-        "destructionPercentage": 11.88
+        "stars": 12,
+        "destructionPercentage": 19.48
       },
       "sixHourNonAttackers": [
         {
@@ -143,11 +143,6 @@
         {
           "tag": "#QQC8P9C9R",
           "name": "Gs.prieto",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#2QL0VR9GU",
-          "name": "Marcola",
           "townhallLevel": 18
         },
         {
@@ -216,11 +211,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#2LGC8PGRY",
-          "name": "lucas r.",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#QJLQLUURY",
           "name": "NenemPJL",
           "townhallLevel": 18
@@ -282,7 +272,14 @@
           "name": "Marcola",
           "townhallLevel": 18,
           "mapPosition": 11,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 98,
+              "order": 6,
+              "defenderTag": "#CCLJJJ80"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -430,6 +427,12 @@
               "destructionPercentage": 100,
               "order": 1,
               "defenderTag": "#P8QYP09L"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 7,
+              "defenderTag": "#JUUCYRRQ"
             }
           ],
           "defensesReceived": [],
@@ -440,7 +443,14 @@
           "name": "lucas r.",
           "townhallLevel": 18,
           "mapPosition": 23,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 1,
+              "destructionPercentage": 89,
+              "order": 5,
+              "defenderTag": "#89CPU8YR2"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
