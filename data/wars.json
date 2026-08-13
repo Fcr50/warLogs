@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 36,
-        "destructionPercentage": 48
+        "stars": 39,
+        "destructionPercentage": 52
       },
       "sixHourNonAttackers": [
         {
@@ -139,11 +139,6 @@
           "tag": "#RC82GPG",
           "name": "tonton",
           "townhallLevel": 17
-        },
-        {
-          "tag": "#8CJ8YJY0P",
-          "name": "ChrolloLucilfer",
-          "townhallLevel": 18
         },
         {
           "tag": "#LQQRGJ8VU",
@@ -352,7 +347,14 @@
           "name": "ChrolloLucilfer",
           "townhallLevel": 18,
           "mapPosition": 10,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 41,
+              "defenderTag": "#Y0QURJJUR"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
