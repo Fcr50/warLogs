@@ -10,8 +10,8 @@
       "opponent": {
         "name": "vampire",
         "tag": "#8U9RGLU2",
-        "stars": 3,
-        "destructionPercentage": 4,
+        "stars": 11,
+        "destructionPercentage": 15.68,
         "members": [
           {
             "tag": "#P8QYP09L",
@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 12,
-        "destructionPercentage": 19.48
+        "stars": 15,
+        "destructionPercentage": 23.48
       },
       "sixHourNonAttackers": [
         {
@@ -181,11 +181,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#QGQJGURCL",
-          "name": "SAFONOV",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#PLU2VCLG",
           "name": "Phoenix",
           "townhallLevel": 18
@@ -228,7 +223,14 @@
           "townhallLevel": 18,
           "mapPosition": 14,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#LRV9Y9JVU",
+              "attackerMapPosition": 19
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -237,7 +239,14 @@
           "townhallLevel": 18,
           "mapPosition": 13,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#LRV9Y9JVU",
+              "attackerMapPosition": 19
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -351,7 +360,14 @@
           "name": "SAFONOV",
           "townhallLevel": 18,
           "mapPosition": 4,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 79,
+              "order": 8,
+              "defenderTag": "#9CYCY9GLJ"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -366,9 +382,22 @@
               "destructionPercentage": 97,
               "order": 3,
               "defenderTag": "#JUUCYRRQ"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 9,
+              "defenderTag": "#9CYCY9GLJ"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 92,
+              "attackerTag": "#JUUCYRRQ",
+              "attackerMapPosition": 2
+            }
+          ],
           "missedAttacks": 0
         },
         {
