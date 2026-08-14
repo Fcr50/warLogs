@@ -10,8 +10,8 @@
       "opponent": {
         "name": "vampire",
         "tag": "#8U9RGLU2",
-        "stars": 66,
-        "destructionPercentage": 88,
+        "stars": 69,
+        "destructionPercentage": 92,
         "members": [
           {
             "tag": "#P8QYP09L",
@@ -453,7 +453,14 @@
           "name": "i-Vinni",
           "townhallLevel": 18,
           "mapPosition": 16,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 76,
+              "defenderTag": "#YCVUPUGVJ"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -795,7 +802,14 @@
               "defenderTag": "#GVQUJ22Q"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#P8QYP09L",
+              "attackerMapPosition": 1
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -838,6 +852,12 @@
               "destructionPercentage": 100,
               "order": 49,
               "defenderTag": "#2U802PLYY"
+            },
+            {
+              "stars": 1,
+              "destructionPercentage": 20,
+              "order": 75,
+              "defenderTag": "#8VP9YV8VC"
             }
           ],
           "defensesReceived": [
