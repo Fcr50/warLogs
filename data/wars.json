@@ -10,8 +10,8 @@
       "opponent": {
         "name": "vampire",
         "tag": "#8U9RGLU2",
-        "stars": 56,
-        "destructionPercentage": 75.2,
+        "stars": 58,
+        "destructionPercentage": 78.8,
         "members": [
           {
             "tag": "#P8QYP09L",
@@ -693,7 +693,14 @@
               "defenderTag": "#P8QYP09L"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 90,
+              "attackerTag": "#P2RP9J8R",
+              "attackerMapPosition": 20
+            }
+          ],
           "missedAttacks": 0
         },
         {
