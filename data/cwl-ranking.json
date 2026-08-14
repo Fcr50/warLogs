@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-14T14:00:30.184Z",
+  "generatedAt": "2026-08-14T14:15:21.759Z",
   "totalWars": 30,
   "liveWar": {
     "opponentName": "vampire",
-    "totalAttacksDone": 44,
+    "totalAttacksDone": 45,
     "totalAttacksExpected": 50
   },
   "ranking": [
@@ -1017,6 +1017,42 @@
     },
     {
       "player": {
+        "tag": "#L8CQC2CQR",
+        "name": "MOONKEY KING",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 0.91,
+        "rawScore": 1.82,
+        "confidence": 0.5,
+        "tier": "B",
+        "attackScore": 3.5,
+        "defenseScore": 0,
+        "reliability": 0,
+        "formScore": 3.5,
+        "warsInRoster": 1,
+        "attacksUsed": 1,
+        "attacksAvailable": 2,
+        "avgDestruction": 100,
+        "totalAttacks": 1,
+        "totalStars": 3,
+        "count3Stars": 1,
+        "avgStars": 3,
+        "threeStarRate": 1,
+        "totalMissed": 0,
+        "avgPositionDiff": 0,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#JYV802Q",
         "name": "ӃiƦiƬƠ么",
         "townhallLevel": 18
@@ -1069,42 +1105,6 @@
         "warsInRoster": 0,
         "attacksUsed": 0,
         "attacksAvailable": 0,
-        "avgDestruction": 0,
-        "totalAttacks": 0,
-        "totalStars": 0,
-        "count3Stars": 0,
-        "avgStars": 0,
-        "threeStarRate": 0,
-        "totalMissed": 0,
-        "avgPositionDiff": 0,
-        "hasAnyDefense": false,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.56,
-          "defense": 0,
-          "reliability": 0.3067,
-          "form": 0.1333
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#L8CQC2CQR",
-        "name": "MOONKEY KING",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 0,
-        "rawScore": 0,
-        "confidence": 0.5,
-        "tier": "F",
-        "attackScore": 0,
-        "defenseScore": 0,
-        "reliability": 0,
-        "formScore": 0,
-        "warsInRoster": 1,
-        "attacksUsed": 0,
-        "attacksAvailable": 2,
         "avgDestruction": 0,
         "totalAttacks": 0,
         "totalStars": 0,
@@ -1172,13 +1172,6 @@
       "player": {
         "tag": "#JPVGQP8V",
         "name": "♤Pluto♤",
-        "townhallLevel": 18
-      }
-    },
-    {
-      "player": {
-        "tag": "#L8CQC2CQR",
-        "name": "MOONKEY KING",
         "townhallLevel": 18
       }
     },
@@ -1548,14 +1541,15 @@
       "normalizedScore": 60.83
     },
     "#L8CQC2CQR": {
-      "tier": "F",
-      "score": 0,
-      "avgStars": 0,
-      "totalStars": 0,
-      "totalAttacks": 0,
+      "tier": "C",
+      "score": 0.91,
+      "avgStars": 3,
+      "totalStars": 3,
+      "totalAttacks": 1,
       "warsInRoster": 1,
       "totalMissed": 0,
-      "normalizedScore": 0
+      "rank": 30,
+      "normalizedScore": 26
     },
     "#2QP9JGYVG": {
       "tier": "F",
@@ -1575,7 +1569,7 @@
       "totalAttacks": 17,
       "warsInRoster": 11,
       "totalMissed": 3,
-      "rank": 30,
+      "rank": 31,
       "prevRank": 30,
       "normalizedScore": 23.81
     },
@@ -1587,7 +1581,7 @@
       "totalAttacks": 10,
       "warsInRoster": 9,
       "totalMissed": 5,
-      "rank": 31,
+      "rank": 32,
       "prevRank": 31,
       "normalizedScore": 21.77
     },
@@ -1599,7 +1593,7 @@
       "totalAttacks": 2,
       "warsInRoster": 12,
       "totalMissed": 18,
-      "rank": 32,
+      "rank": 33,
       "prevRank": 32,
       "normalizedScore": -13.16
     },

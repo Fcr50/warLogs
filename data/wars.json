@@ -10,8 +10,8 @@
       "opponent": {
         "name": "vampire",
         "tag": "#8U9RGLU2",
-        "stars": 69,
-        "destructionPercentage": 92,
+        "stars": 72,
+        "destructionPercentage": 96,
         "members": [
           {
             "tag": "#P8QYP09L",
@@ -529,8 +529,22 @@
           "name": "MOONKEY KING",
           "townhallLevel": 18,
           "mapPosition": 24,
-          "attacks": [],
-          "defensesReceived": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 78,
+              "defenderTag": "#GVQUJ22Q"
+            }
+          ],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#2GQV8UJU0",
+              "attackerMapPosition": 5
+            }
+          ],
           "missedAttacks": 0
         },
         {
