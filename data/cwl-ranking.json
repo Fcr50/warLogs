@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T15:45:25.791Z",
+  "generatedAt": "2026-08-14T16:00:30.403Z",
   "totalWars": 30,
   "liveWar": {
     "opponentName": "vampire",
@@ -45,6 +45,42 @@
     },
     {
       "player": {
+        "tag": "#P9C0LVLU2",
+        "name": "VINGADOR⚡",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.4872557619151467,
+        "rawScore": 2.4872557619151467,
+        "confidence": 1,
+        "tier": "A",
+        "attackScore": 3.355812529273709,
+        "defenseScore": 0.2840008556236127,
+        "reliability": 0.9519047619047618,
+        "formScore": 3.5,
+        "warsInRoster": 39,
+        "attacksUsed": 73,
+        "attacksAvailable": 78,
+        "avgDestruction": 97.82191780821918,
+        "totalAttacks": 73,
+        "totalStars": 205,
+        "count3Stars": 65,
+        "avgStars": 2.808219178082192,
+        "threeStarRate": 0.8904109589041096,
+        "totalMissed": 2,
+        "avgPositionDiff": 2.3098591549295775,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#2GP2JUU2",
         "name": "Gustavo Lázaro",
         "townhallLevel": 18
@@ -69,42 +105,6 @@
         "threeStarRate": 0.8125,
         "totalMissed": 0,
         "avgPositionDiff": -0.07692307692307693,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#P9C0LVLU2",
-        "name": "VINGADOR⚡",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.475813727454269,
-        "rawScore": 2.475813727454269,
-        "confidence": 1,
-        "tier": "A",
-        "attackScore": 3.355812529273709,
-        "defenseScore": 0.23823271778010127,
-        "reliability": 0.9519047619047618,
-        "formScore": 3.5,
-        "warsInRoster": 39,
-        "attacksUsed": 73,
-        "attacksAvailable": 78,
-        "avgDestruction": 97.82191780821918,
-        "totalAttacks": 73,
-        "totalStars": 205,
-        "count3Stars": 65,
-        "avgStars": 2.808219178082192,
-        "threeStarRate": 0.8904109589041096,
-        "totalMissed": 2,
-        "avgPositionDiff": 2.3098591549295775,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -482,12 +482,12 @@
         "townhallLevel": 18
       },
       "data": {
-        "score": 2.2658223319852335,
-        "rawScore": 2.2658223319852335,
+        "score": 2.269583942353609,
+        "rawScore": 2.269583942353609,
         "confidence": 1,
         "tier": "A",
         "attackScore": 3.044037915887989,
-        "defenseScore": 0.17910562924911208,
+        "defenseScore": 0.19415207072261365,
         "reliability": 0.9866666666666667,
         "formScore": 2.6174999999999997,
         "warsInRoster": 40,
@@ -1204,7 +1204,7 @@
       "totalAttacks": 80,
       "warsInRoster": 41,
       "totalMissed": 0,
-      "rank": 2,
+      "rank": 3,
       "prevRank": 2,
       "normalizedScore": 71.02
     },
@@ -1222,15 +1222,15 @@
     },
     "#P9C0LVLU2": {
       "tier": "S",
-      "score": 2.475813727454269,
+      "score": 2.4872557619151467,
       "avgStars": 2.808219178082192,
       "totalStars": 205,
       "totalAttacks": 73,
       "warsInRoster": 39,
       "totalMissed": 2,
-      "rank": 3,
+      "rank": 2,
       "prevRank": 3,
-      "normalizedScore": 70.74
+      "normalizedScore": 71.06
     },
     "#QQC8P9C9R": {
       "tier": "A",
@@ -1364,7 +1364,7 @@
     },
     "#GJ2LQVQJ": {
       "tier": "A",
-      "score": 2.2658223319852335,
+      "score": 2.269583942353609,
       "avgStars": 2.759493670886076,
       "totalStars": 218,
       "totalAttacks": 79,
@@ -1372,7 +1372,7 @@
       "totalMissed": 0,
       "rank": 14,
       "prevRank": 14,
-      "normalizedScore": 64.74
+      "normalizedScore": 64.85
     },
     "#2LGC8PGRY": {
       "tier": "B",
