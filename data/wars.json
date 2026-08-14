@@ -3,8 +3,8 @@
     {
       "endTime": "20260814T172137.000Z",
       "startTime": "2026-08-13T17:21:37.000Z",
-      "state": "inWar",
-      "result": "inProgress",
+      "state": "warEnded",
+      "result": "tie",
       "teamSize": 25,
       "absencesRecorded": true,
       "opponent": {
@@ -413,7 +413,7 @@
               "attackerMapPosition": 17
             }
           ],
-          "missedAttacks": 0
+          "missedAttacks": 2
         },
         {
           "tag": "#8CJ8YJY0P",
@@ -576,7 +576,7 @@
               "attackerMapPosition": 5
             }
           ],
-          "missedAttacks": 0
+          "missedAttacks": 1
         },
         {
           "tag": "#QGQJGURCL",
@@ -644,6 +644,12 @@
               "destructionPercentage": 92,
               "attackerTag": "#JUUCYRRQ",
               "attackerMapPosition": 2
+            },
+            {
+              "stars": 1,
+              "destructionPercentage": 60,
+              "attackerTag": "#QGQRC80GG",
+              "attackerMapPosition": 9
             },
             {
               "stars": 2,
@@ -854,6 +860,12 @@
               "destructionPercentage": 100,
               "attackerTag": "#QY00RQR9",
               "attackerMapPosition": 14
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 68,
+              "attackerTag": "#QGQRC80GG",
+              "attackerMapPosition": 9
             }
           ],
           "missedAttacks": 0
