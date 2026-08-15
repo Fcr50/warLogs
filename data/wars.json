@@ -116,15 +116,10 @@
         ]
       },
       "clan": {
-        "stars": 48,
-        "destructionPercentage": 64
+        "stars": 54,
+        "destructionPercentage": 72
       },
       "sixHourNonAttackers": [
-        {
-          "tag": "#8VCUUPPJP",
-          "name": "Satsugai",
-          "townhallLevel": 18
-        },
         {
           "tag": "#LQQRGJ8VU",
           "name": "i-Vinni",
@@ -143,11 +138,6 @@
         {
           "tag": "#20JC0J9JR",
           "name": "BTV✯Robin Hood",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#29LP0VJV0",
-          "name": "Warlord Raivon",
           "townhallLevel": 18
         },
         {
@@ -172,7 +162,14 @@
           "name": "Satsugai",
           "townhallLevel": 18,
           "mapPosition": 17,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 50,
+              "defenderTag": "#9YGVPUQG"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -582,7 +579,14 @@
           "name": "Warlord Raivon",
           "townhallLevel": 18,
           "mapPosition": 12,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 51,
+              "defenderTag": "#LP2VP2JVC"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
