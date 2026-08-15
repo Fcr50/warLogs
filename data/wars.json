@@ -10,8 +10,8 @@
       "opponent": {
         "name": "12 Mutineers",
         "tag": "#8YLC9R0R",
-        "stars": 45,
-        "destructionPercentage": 63.48,
+        "stars": 46,
+        "destructionPercentage": 63.68,
         "members": [
           {
             "tag": "#LP2VP2JVC",
@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 30,
-        "destructionPercentage": 40
+        "stars": 33,
+        "destructionPercentage": 44
       },
       "sixHourNonAttackers": [
         {
@@ -173,11 +173,6 @@
         {
           "tag": "#80LUCC9YV",
           "name": "Lobo ®",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#GGVCRYP8P",
-          "name": "gui",
           "townhallLevel": 18
         },
         {
@@ -278,10 +273,22 @@
           "attacks": [],
           "defensesReceived": [
             {
+              "stars": 1,
+              "destructionPercentage": 89,
+              "attackerTag": "#CYP0Q8Y2",
+              "attackerMapPosition": 8
+            },
+            {
               "stars": 2,
               "destructionPercentage": 96,
               "attackerTag": "#8998YQU2",
               "attackerMapPosition": 2
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 85,
+              "attackerTag": "#GVQCQJUC9",
+              "attackerMapPosition": 22
             }
           ],
           "missedAttacks": 0
@@ -311,6 +318,12 @@
               "destructionPercentage": 95,
               "attackerTag": "#CYP0Q8Y2",
               "attackerMapPosition": 8
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#U2GRGVU0",
+              "attackerMapPosition": 20
             }
           ],
           "missedAttacks": 0
@@ -356,6 +369,18 @@
               "destructionPercentage": 96,
               "attackerTag": "#PU2JJYR9",
               "attackerMapPosition": 1
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 80,
+              "attackerTag": "#U2GRGVU0",
+              "attackerMapPosition": 20
+            },
+            {
+              "stars": 1,
+              "destructionPercentage": 71,
+              "attackerTag": "#GVQCQJUC9",
+              "attackerMapPosition": 22
             }
           ],
           "missedAttacks": 0
@@ -562,7 +587,14 @@
           "name": "gui",
           "townhallLevel": 18,
           "mapPosition": 22,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 39,
+              "defenderTag": "#GVQCQJUC9"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
