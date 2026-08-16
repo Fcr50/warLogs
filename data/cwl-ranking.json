@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-16T17:00:36.579Z",
+  "generatedAt": "2026-08-16T17:15:32.586Z",
   "totalWars": 31,
   "liveWar": {
     "opponentName": "12 Mutineers",
-    "totalAttacksDone": 42,
+    "totalAttacksDone": 44,
     "totalAttacksExpected": 50
   },
   "ranking": [
@@ -909,6 +909,42 @@
     },
     {
       "player": {
+        "tag": "#PPPUQPVJY",
+        "name": "Rodrigo",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 1.1168590418910724,
+        "rawScore": 1.1168590418910724,
+        "confidence": 1,
+        "tier": "C",
+        "attackScore": 1.0122412500048483,
+        "defenseScore": 0.34128561409992364,
+        "reliability": 0.728110599078341,
+        "formScore": 1.04,
+        "warsInRoster": 27,
+        "attacksUsed": 42,
+        "attacksAvailable": 54,
+        "avgDestruction": 87.45238095238095,
+        "totalAttacks": 42,
+        "totalStars": 96,
+        "count3Stars": 22,
+        "avgStars": 2.2857142857142856,
+        "threeStarRate": 0.5238095238095238,
+        "totalMissed": 10,
+        "avgPositionDiff": -7.2,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#2R89QJL9Q",
         "name": "Hisoka",
         "townhallLevel": 18
@@ -933,42 +969,6 @@
         "threeStarRate": 0.6111111111111112,
         "totalMissed": 6,
         "avgPositionDiff": -9.147058823529411,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#PPPUQPVJY",
-        "name": "Rodrigo",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 1.0974059358559827,
-        "rawScore": 1.0974059358559827,
-        "confidence": 1,
-        "tier": "C",
-        "attackScore": 0.9754481403974915,
-        "defenseScore": 0.34128561409992364,
-        "reliability": 0.728110599078341,
-        "formScore": 1,
-        "warsInRoster": 27,
-        "attacksUsed": 40,
-        "attacksAvailable": 54,
-        "avgDestruction": 89.275,
-        "totalAttacks": 40,
-        "totalStars": 94,
-        "count3Stars": 22,
-        "avgStars": 2.35,
-        "threeStarRate": 0.55,
-        "totalMissed": 10,
-        "avgPositionDiff": -6.552631578947368,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1269,6 +1269,42 @@
     },
     {
       "player": {
+        "tag": "#PVLYRPUPG",
+        "name": "joaokj",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 0,
+        "rawScore": 0,
+        "confidence": 0,
+        "tier": "F",
+        "attackScore": 0,
+        "defenseScore": 0,
+        "reliability": 0,
+        "formScore": 0,
+        "warsInRoster": 0,
+        "attacksUsed": 0,
+        "attacksAvailable": 0,
+        "avgDestruction": 0,
+        "totalAttacks": 0,
+        "totalStars": 0,
+        "count3Stars": 0,
+        "avgStars": 0,
+        "threeStarRate": 0,
+        "totalMissed": 0,
+        "avgPositionDiff": 0,
+        "hasAnyDefense": false,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.56,
+          "defense": 0,
+          "reliability": 0.3067,
+          "form": 0.1333
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#Y882P229J",
         "name": "diabo",
         "townhallLevel": 18
@@ -1488,6 +1524,13 @@
       "player": {
         "tag": "#JPVGQP8V",
         "name": "♤Pluto♤",
+        "townhallLevel": 18
+      }
+    },
+    {
+      "player": {
+        "tag": "#PVLYRPUPG",
+        "name": "joaokj",
         "townhallLevel": 18
       }
     },
@@ -1870,15 +1913,15 @@
     },
     "#PPPUQPVJY": {
       "tier": "B",
-      "score": 1.0974059358559827,
-      "avgStars": 2.35,
-      "totalStars": 94,
-      "totalAttacks": 40,
+      "score": 1.1168590418910724,
+      "avgStars": 2.2857142857142856,
+      "totalStars": 96,
+      "totalAttacks": 42,
       "warsInRoster": 27,
       "totalMissed": 10,
-      "rank": 28,
+      "rank": 27,
       "prevRank": 28,
-      "normalizedScore": 31.35
+      "normalizedScore": 31.91
     },
     "#8JU0C8JY": {
       "tier": "F",
@@ -1898,11 +1941,21 @@
       "totalAttacks": 36,
       "warsInRoster": 22,
       "totalMissed": 6,
-      "rank": 27,
+      "rank": 28,
       "prevRank": 27,
       "normalizedScore": 31.47
     },
     "#JPVGQP8V": {
+      "tier": "F",
+      "score": 0,
+      "avgStars": 0,
+      "totalStars": 0,
+      "totalAttacks": 0,
+      "warsInRoster": 0,
+      "totalMissed": 0,
+      "normalizedScore": 0
+    },
+    "#PVLYRPUPG": {
       "tier": "F",
       "score": 0,
       "avgStars": 0,
