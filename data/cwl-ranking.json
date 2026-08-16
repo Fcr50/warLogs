@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-16T16:30:30.121Z",
+  "generatedAt": "2026-08-16T16:45:26.712Z",
   "totalWars": 31,
   "liveWar": {
     "opponentName": "12 Mutineers",
-    "totalAttacksDone": 41,
+    "totalAttacksDone": 42,
     "totalAttacksExpected": 50
   },
   "ranking": [
@@ -518,25 +518,25 @@
         "townhallLevel": 18
       },
       "data": {
-        "score": 2.2186949207097593,
-        "rawScore": 2.2186949207097593,
+        "score": 2.151347733270798,
+        "rawScore": 2.151347733270798,
         "confidence": 1,
         "tier": "A",
-        "attackScore": 2.8105978254139146,
+        "attackScore": 2.7258426172259123,
         "defenseScore": 0.1660936157135533,
         "reliability": 0.9372759856630825,
-        "formScore": 3.5,
+        "formScore": 3.1825,
         "warsInRoster": 38,
-        "attacksUsed": 73,
+        "attacksUsed": 74,
         "attacksAvailable": 76,
-        "avgDestruction": 95.57534246575342,
-        "totalAttacks": 73,
-        "totalStars": 196,
+        "avgDestruction": 95.27027027027027,
+        "totalAttacks": 74,
+        "totalStars": 198,
         "count3Stars": 55,
-        "avgStars": 2.684931506849315,
-        "threeStarRate": 0.7534246575342466,
+        "avgStars": 2.675675675675676,
+        "threeStarRate": 0.7432432432432432,
         "totalMissed": 1,
-        "avgPositionDiff": 3.619718309859155,
+        "avgPositionDiff": 3.5694444444444446,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1233,6 +1233,42 @@
     },
     {
       "player": {
+        "tag": "#Y882P229J",
+        "name": "diabo",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 0,
+        "rawScore": 0,
+        "confidence": 0,
+        "tier": "F",
+        "attackScore": 0,
+        "defenseScore": 0,
+        "reliability": 0,
+        "formScore": 0,
+        "warsInRoster": 0,
+        "attacksUsed": 0,
+        "attacksAvailable": 0,
+        "avgDestruction": 0,
+        "totalAttacks": 0,
+        "totalStars": 0,
+        "count3Stars": 0,
+        "avgStars": 0,
+        "threeStarRate": 0,
+        "totalMissed": 0,
+        "avgPositionDiff": 0,
+        "hasAnyDefense": false,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.56,
+          "defense": 0,
+          "reliability": 0.3067,
+          "form": 0.1333
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#YR2YRYJ2Y",
         "name": "luis",
         "townhallLevel": 18
@@ -1373,6 +1409,13 @@
       "player": {
         "tag": "#JPVGQP8V",
         "name": "♤Pluto♤",
+        "townhallLevel": 18
+      }
+    },
+    {
+      "player": {
+        "tag": "#Y882P229J",
+        "name": "diabo",
         "townhallLevel": 18
       }
     },
@@ -1651,15 +1694,15 @@
     },
     "#80LUCC9YV": {
       "tier": "B",
-      "score": 2.2186949207097593,
-      "avgStars": 2.684931506849315,
-      "totalStars": 196,
-      "totalAttacks": 73,
+      "score": 2.151347733270798,
+      "avgStars": 2.675675675675676,
+      "totalStars": 198,
+      "totalAttacks": 74,
       "warsInRoster": 38,
       "totalMissed": 1,
       "rank": 15,
       "prevRank": 15,
-      "normalizedScore": 63.39
+      "normalizedScore": 61.47
     },
     "#2LGC8PGRY": {
       "tier": "B",
@@ -1764,6 +1807,16 @@
       "normalizedScore": 31.47
     },
     "#JPVGQP8V": {
+      "tier": "F",
+      "score": 0,
+      "avgStars": 0,
+      "totalStars": 0,
+      "totalAttacks": 0,
+      "warsInRoster": 0,
+      "totalMissed": 0,
+      "normalizedScore": 0
+    },
+    "#Y882P229J": {
       "tier": "F",
       "score": 0,
       "avgStars": 0,
