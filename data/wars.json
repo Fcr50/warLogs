@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 36,
-        "destructionPercentage": 48
+        "stars": 39,
+        "destructionPercentage": 52
       },
       "sixHourNonAttackers": [
         {
@@ -143,11 +143,6 @@
         {
           "tag": "#LQQRGJ8VU",
           "name": "i-Vinni",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QGQJGURCL",
-          "name": "SAFONOV",
           "townhallLevel": 18
         },
         {
@@ -337,6 +332,12 @@
               "destructionPercentage": 100,
               "order": 16,
               "defenderTag": "#LC02GPJVQ"
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 90,
+              "order": 18,
+              "defenderTag": "#RV9V0UCG"
             }
           ],
           "defensesReceived": [],
@@ -347,7 +348,14 @@
           "name": "SAFONOV",
           "townhallLevel": 18,
           "mapPosition": 3,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 93,
+              "order": 17,
+              "defenderTag": "#RV9V0UCG"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -410,6 +418,12 @@
               "destructionPercentage": 100,
               "order": 8,
               "defenderTag": "#CJ9G9CYC"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 19,
+              "defenderTag": "#RV9V0UCG"
             }
           ],
           "defensesReceived": [
