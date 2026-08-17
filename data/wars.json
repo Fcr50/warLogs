@@ -10,8 +10,8 @@
       "opponent": {
         "name": "vlaamse leeuw",
         "tag": "#QJCVRJJ",
-        "stars": 10,
-        "destructionPercentage": 14.28,
+        "stars": 12,
+        "destructionPercentage": 17.24,
         "members": [
           {
             "tag": "#J20RPU8P",
@@ -116,15 +116,10 @@
         ]
       },
       "clan": {
-        "stars": 39,
-        "destructionPercentage": 52
+        "stars": 42,
+        "destructionPercentage": 56
       },
       "sixHourNonAttackers": [
-        {
-          "tag": "#QR8R9QUV8",
-          "name": "Dr.Hannibal",
-          "townhallLevel": 18
-        },
         {
           "tag": "#2R89QJL9Q",
           "name": "Hisoka",
@@ -203,7 +198,14 @@
           "name": "Dr.Hannibal",
           "townhallLevel": 18,
           "mapPosition": 13,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 22,
+              "defenderTag": "#VL2PRUQR"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -492,7 +494,14 @@
           "townhallLevel": 18,
           "mapPosition": 6,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 74,
+              "attackerTag": "#R9JQLRLR",
+              "attackerMapPosition": 6
+            }
+          ],
           "missedAttacks": 0
         },
         {
