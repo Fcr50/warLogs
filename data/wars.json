@@ -116,15 +116,10 @@
         ]
       },
       "clan": {
-        "stars": 9,
-        "destructionPercentage": 12
+        "stars": 18,
+        "destructionPercentage": 24
       },
       "sixHourNonAttackers": [
-        {
-          "tag": "#8VCUUPPJP",
-          "name": "Satsugai",
-          "townhallLevel": 18
-        },
         {
           "tag": "#QR8R9QUV8",
           "name": "Dr.Hannibal",
@@ -196,11 +191,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#GGVCRYP8P",
-          "name": "gui",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#P9C0LVLU2",
           "name": "VINGADOR⚡",
           "townhallLevel": 18
@@ -221,11 +211,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#QJVQVRPU",
-          "name": "Frnnn",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#QJLQLUURY",
           "name": "NenemPJL",
           "townhallLevel": 18
@@ -237,7 +222,14 @@
           "name": "Satsugai",
           "townhallLevel": 18,
           "mapPosition": 14,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 7,
+              "defenderTag": "#LP0J98L80"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -427,7 +419,14 @@
           "name": "gui",
           "townhallLevel": 18,
           "mapPosition": 20,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 6,
+              "defenderTag": "#8VYL8L29"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -472,7 +471,14 @@
           "name": "Frnnn",
           "townhallLevel": 18,
           "mapPosition": 8,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 5,
+              "defenderTag": "#YQ8YJQYPC"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
