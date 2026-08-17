@@ -10,8 +10,8 @@
       "opponent": {
         "name": "vlaamse leeuw",
         "tag": "#QJCVRJJ",
-        "stars": 8,
-        "destructionPercentage": 11.56,
+        "stars": 10,
+        "destructionPercentage": 14.28,
         "members": [
           {
             "tag": "#J20RPU8P",
@@ -535,7 +535,14 @@
           "townhallLevel": 18,
           "mapPosition": 19,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 68,
+              "attackerTag": "#GLYY0PPRU",
+              "attackerMapPosition": 19
+            }
+          ],
           "missedAttacks": 0
         }
       ]
