@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-17T20:30:33.101Z",
+  "generatedAt": "2026-08-17T20:45:24.151Z",
   "totalWars": 32,
   "liveWar": {
     "opponentName": "vlaamse leeuw",
-    "totalAttacksDone": 10,
+    "totalAttacksDone": 12,
     "totalAttacksExpected": 50
   },
   "ranking": [
@@ -158,25 +158,25 @@
         "townhallLevel": 18
       },
       "data": {
-        "score": 2.4486652982818193,
-        "rawScore": 2.4486652982818193,
+        "score": 2.447343679162494,
+        "rawScore": 2.447343679162494,
         "confidence": 1,
         "tier": "A",
-        "attackScore": 3.519985338059579,
+        "attackScore": 3.5168386258707085,
         "defenseScore": 0.204085825187185,
         "reliability": 0.825,
         "formScore": 3.5,
         "warsInRoster": 25,
-        "attacksUsed": 46,
+        "attacksUsed": 47,
         "attacksAvailable": 50,
-        "avgDestruction": 98.15217391304348,
-        "totalAttacks": 46,
-        "totalStars": 134,
-        "count3Stars": 43,
-        "avgStars": 2.9130434782608696,
-        "threeStarRate": 0.9347826086956522,
+        "avgDestruction": 98.19148936170212,
+        "totalAttacks": 47,
+        "totalStars": 137,
+        "count3Stars": 44,
+        "avgStars": 2.9148936170212765,
+        "threeStarRate": 0.9361702127659575,
         "totalMissed": 0,
-        "avgPositionDiff": -7.673913043478261,
+        "avgPositionDiff": -7.51063829787234,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -297,6 +297,42 @@
     },
     {
       "player": {
+        "tag": "#P9C0LVLU2",
+        "name": "VINGADOR⚡",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.3877260110148977,
+        "rawScore": 2.3877260110148977,
+        "confidence": 1,
+        "tier": "A",
+        "attackScore": 3.2556513155687954,
+        "defenseScore": 0.2636098339040151,
+        "reliability": 0.955,
+        "formScore": 2.955,
+        "warsInRoster": 41,
+        "attacksUsed": 76,
+        "attacksAvailable": 82,
+        "avgDestruction": 97.67105263157895,
+        "totalAttacks": 76,
+        "totalStars": 212,
+        "count3Stars": 67,
+        "avgStars": 2.789473684210526,
+        "threeStarRate": 0.881578947368421,
+        "totalMissed": 2,
+        "avgPositionDiff": 2.22972972972973,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#2QL0VR9GU",
         "name": "Marcola",
         "townhallLevel": 18
@@ -393,42 +429,6 @@
         "threeStarRate": 0.7439024390243902,
         "totalMissed": 1,
         "avgPositionDiff": 1,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#P9C0LVLU2",
-        "name": "VINGADOR⚡",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.3148569310949685,
-        "rawScore": 2.3148569310949685,
-        "confidence": 1,
-        "tier": "A",
-        "attackScore": 3.2119154109975345,
-        "defenseScore": 0.2636098339040151,
-        "reliability": 0.955,
-        "formScore": 2.41,
-        "warsInRoster": 41,
-        "attacksUsed": 75,
-        "attacksAvailable": 82,
-        "avgDestruction": 97.64,
-        "totalAttacks": 75,
-        "totalStars": 209,
-        "count3Stars": 66,
-        "avgStars": 2.7866666666666666,
-        "threeStarRate": 0.88,
-        "totalMissed": 2,
-        "avgPositionDiff": 2.26027397260274,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1278,7 +1278,7 @@
       "totalAttacks": 71,
       "warsInRoster": 37,
       "totalMissed": 1,
-      "rank": 9,
+      "rank": 10,
       "prevRank": 9,
       "normalizedScore": 67.96
     },
@@ -1290,7 +1290,7 @@
       "totalAttacks": 82,
       "warsInRoster": 42,
       "totalMissed": 1,
-      "rank": 11,
+      "rank": 12,
       "prevRank": 11,
       "normalizedScore": 66.65
     },
@@ -1332,15 +1332,15 @@
     },
     "#P9C0LVLU2": {
       "tier": "A",
-      "score": 2.3148569310949685,
-      "avgStars": 2.7866666666666666,
-      "totalStars": 209,
-      "totalAttacks": 75,
+      "score": 2.3877260110148977,
+      "avgStars": 2.789473684210526,
+      "totalStars": 212,
+      "totalAttacks": 76,
       "warsInRoster": 41,
       "totalMissed": 2,
-      "rank": 12,
+      "rank": 9,
       "prevRank": 12,
-      "normalizedScore": 66.14
+      "normalizedScore": 68.22
     },
     "#8YJYY92GC": {
       "tier": "B",
@@ -1386,7 +1386,7 @@
       "totalAttacks": 77,
       "warsInRoster": 41,
       "totalMissed": 0,
-      "rank": 10,
+      "rank": 11,
       "prevRank": 10,
       "normalizedScore": 66.74
     },
@@ -1546,15 +1546,15 @@
     },
     "#G9Y2L9QJJ": {
       "tier": "A",
-      "score": 2.4486652982818193,
-      "avgStars": 2.9130434782608696,
-      "totalStars": 134,
-      "totalAttacks": 46,
+      "score": 2.447343679162494,
+      "avgStars": 2.9148936170212765,
+      "totalStars": 137,
+      "totalAttacks": 47,
       "warsInRoster": 25,
       "totalMissed": 0,
       "rank": 5,
       "prevRank": 5,
-      "normalizedScore": 69.96
+      "normalizedScore": 69.92
     },
     "#2R9VG2GPY": {
       "tier": "F",

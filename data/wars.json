@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 30,
-        "destructionPercentage": 40
+        "stars": 36,
+        "destructionPercentage": 48
       },
       "sixHourNonAttackers": [
         {
@@ -146,11 +146,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#G9Y2L9QJJ",
-          "name": "Micael",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#QGQJGURCL",
           "name": "SAFONOV",
           "townhallLevel": 18
@@ -168,11 +163,6 @@
         {
           "tag": "#29LP0VJV0",
           "name": "Warlord Raivon",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#P9C0LVLU2",
-          "name": "VINGADOR⚡",
           "townhallLevel": 18
         },
         {
@@ -341,7 +331,14 @@
           "name": "Micael",
           "townhallLevel": 18,
           "mapPosition": 21,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 16,
+              "defenderTag": "#LC02GPJVQ"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -464,7 +461,14 @@
           "name": "VINGADOR⚡",
           "townhallLevel": 18,
           "mapPosition": 1,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 15,
+              "defenderTag": "#9VLL09LY"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
