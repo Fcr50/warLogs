@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 6,
-        "destructionPercentage": 8
+        "stars": 9,
+        "destructionPercentage": 12
       },
       "sixHourNonAttackers": [
         {
@@ -128,11 +128,6 @@
         {
           "tag": "#QR8R9QUV8",
           "name": "Dr.Hannibal",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QQC8P9C9R",
-          "name": "Gs.prieto",
           "townhallLevel": 18
         },
         {
@@ -276,7 +271,14 @@
           "name": "Gs.prieto",
           "townhallLevel": 18,
           "mapPosition": 12,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 4,
+              "defenderTag": "#2UCLQLJVC"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
