@@ -3,15 +3,15 @@
     {
       "endTime": "20260818T173646.000Z",
       "startTime": "2026-08-17T17:36:46.000Z",
-      "state": "preparation",
+      "state": "inWar",
       "result": "inProgress",
       "teamSize": 25,
-      "absencesRecorded": false,
+      "absencesRecorded": true,
       "opponent": {
         "name": "vlaamse leeuw",
         "tag": "#QJCVRJJ",
-        "stars": 0,
-        "destructionPercentage": 0,
+        "stars": 2,
+        "destructionPercentage": 2.48,
         "members": [
           {
             "tag": "#J20RPU8P",
@@ -116,10 +116,126 @@
         ]
       },
       "clan": {
-        "stars": 0,
-        "destructionPercentage": 0
+        "stars": 6,
+        "destructionPercentage": 8
       },
-      "sixHourNonAttackers": null,
+      "sixHourNonAttackers": [
+        {
+          "tag": "#8VCUUPPJP",
+          "name": "Satsugai",
+          "townhallLevel": 18
+        },
+        {
+          "tag": "#QR8R9QUV8",
+          "name": "Dr.Hannibal",
+          "townhallLevel": 18
+        },
+        {
+          "tag": "#QQC8P9C9R",
+          "name": "Gs.prieto",
+          "townhallLevel": 18
+        },
+        {
+          "tag": "#2R89QJL9Q",
+          "name": "Hisoka",
+          "townhallLevel": 18
+        },
+        {
+          "tag": "#8YJYY92GC",
+          "name": "RussiaN",
+          "townhallLevel": 18
+        },
+        {
+          "tag": "#RC82GPG",
+          "name": "tonton",
+          "townhallLevel": 17
+        },
+        {
+          "tag": "#8CJ8YJY0P",
+          "name": "ChrolloLucilfer",
+          "townhallLevel": 18
+        },
+        {
+          "tag": "#LQQRGJ8VU",
+          "name": "i-Vinni",
+          "townhallLevel": 18
+        },
+        {
+          "tag": "#G9Y2L9QJJ",
+          "name": "Micael",
+          "townhallLevel": 18
+        },
+        {
+          "tag": "#QGQJGURCL",
+          "name": "SAFONOV",
+          "townhallLevel": 18
+        },
+        {
+          "tag": "#GJ2LQVQJ",
+          "name": "Fer",
+          "townhallLevel": 18
+        },
+        {
+          "tag": "#L8RG2PV0G",
+          "name": "joaoaoaoao",
+          "townhallLevel": 18
+        },
+        {
+          "tag": "#20JC0J9JR",
+          "name": "BTV✯Robin Hood",
+          "townhallLevel": 18
+        },
+        {
+          "tag": "#JYV802Q",
+          "name": "ӃiƦiƬƠ么",
+          "townhallLevel": 18
+        },
+        {
+          "tag": "#VPPQ8VLV",
+          "name": "GABRIEL LOBATO",
+          "townhallLevel": 18
+        },
+        {
+          "tag": "#29LP0VJV0",
+          "name": "Warlord Raivon",
+          "townhallLevel": 18
+        },
+        {
+          "tag": "#GGVCRYP8P",
+          "name": "gui",
+          "townhallLevel": 18
+        },
+        {
+          "tag": "#P9C0LVLU2",
+          "name": "VINGADOR⚡",
+          "townhallLevel": 18
+        },
+        {
+          "tag": "#YPVQVU982",
+          "name": "亗 ＨＡＤＥＳ_０７ 亗",
+          "townhallLevel": 18
+        },
+        {
+          "tag": "#Q8PRP98QG",
+          "name": "LUCIFENIX_07⚡️",
+          "townhallLevel": 15
+        },
+        {
+          "tag": "#YVYCCQU08",
+          "name": "Frenético",
+          "townhallLevel": 18
+        },
+        {
+          "tag": "#QJVQVRPU",
+          "name": "Frnnn",
+          "townhallLevel": 18
+        },
+        {
+          "tag": "#QJLQLUURY",
+          "name": "NenemPJL",
+          "townhallLevel": 18
+        }
+      ],
       "members": [
         {
           "tag": "#8VCUUPPJP",
@@ -144,7 +260,14 @@
           "name": "LucasHG9",
           "townhallLevel": 18,
           "mapPosition": 5,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 1,
+              "defenderTag": "#8GY2C2228"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -198,7 +321,14 @@
           "name": "Gustavo Lázaro",
           "townhallLevel": 18,
           "mapPosition": 9,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 2,
+              "defenderTag": "#2RQJUVYQR"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -244,7 +374,14 @@
           "townhallLevel": 18,
           "mapPosition": 15,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 62,
+              "attackerTag": "#GG0L2JYP",
+              "attackerMapPosition": 15
+            }
+          ],
           "missedAttacks": 0
         },
         {
