@@ -3,15 +3,15 @@
     {
       "endTime": "20260818T173646.000Z",
       "startTime": "2026-08-17T17:36:46.000Z",
-      "state": "inWar",
-      "result": "inProgress",
+      "state": "warEnded",
+      "result": "win",
       "teamSize": 25,
       "absencesRecorded": true,
       "opponent": {
         "name": "vlaamse leeuw",
         "tag": "#QJCVRJJ",
-        "stars": 56,
-        "destructionPercentage": 80.68,
+        "stars": 57,
+        "destructionPercentage": 81.52,
         "members": [
           {
             "tag": "#J20RPU8P",
@@ -403,7 +403,7 @@
               "attackerMapPosition": 20
             }
           ],
-          "missedAttacks": 0
+          "missedAttacks": 1
         },
         {
           "tag": "#8CJ8YJY0P",
@@ -430,6 +430,12 @@
               "destructionPercentage": 79,
               "attackerTag": "#8Q9YJ08J",
               "attackerMapPosition": 10
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#20RV9J8UR",
+              "attackerMapPosition": 2
             }
           ],
           "missedAttacks": 0
@@ -612,7 +618,7 @@
               "attackerMapPosition": 15
             }
           ],
-          "missedAttacks": 0
+          "missedAttacks": 1
         },
         {
           "tag": "#20JC0J9JR",
@@ -628,7 +634,7 @@
               "attackerMapPosition": 15
             }
           ],
-          "missedAttacks": 0
+          "missedAttacks": 2
         },
         {
           "tag": "#JYV802Q",
@@ -801,7 +807,7 @@
               "attackerMapPosition": 6
             }
           ],
-          "missedAttacks": 0
+          "missedAttacks": 2
         },
         {
           "tag": "#Q8PRP98QG",
@@ -817,7 +823,7 @@
               "attackerMapPosition": 24
             }
           ],
-          "missedAttacks": 0
+          "missedAttacks": 2
         },
         {
           "tag": "#YVYCCQU08",
