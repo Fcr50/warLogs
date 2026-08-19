@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T19:45:23.347Z",
+  "generatedAt": "2026-08-19T20:01:03.897Z",
   "totalWars": 33,
   "liveWar": {
     "opponentName": "bd",
@@ -225,42 +225,6 @@
     },
     {
       "player": {
-        "tag": "#GGVCRYP8P",
-        "name": "gui",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.4448738172699094,
-        "rawScore": 2.4448738172699094,
-        "confidence": 1,
-        "tier": "A",
-        "attackScore": 3.154550128974856,
-        "defenseScore": 0.353305597856424,
-        "reliability": 0.9878787878787879,
-        "formScore": 3.5,
-        "warsInRoster": 43,
-        "attacksUsed": 84,
-        "attacksAvailable": 86,
-        "avgDestruction": 92.75,
-        "totalAttacks": 84,
-        "totalStars": 224,
-        "count3Stars": 60,
-        "avgStars": 2.6666666666666665,
-        "threeStarRate": 0.7142857142857143,
-        "totalMissed": 0,
-        "avgPositionDiff": -2.097560975609756,
-        "hasAnyDefense": true,
-        "hadTh17": true,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
         "tag": "#QJVQVRPU",
         "name": "Frnnn",
         "townhallLevel": 18
@@ -287,6 +251,42 @@
         "avgPositionDiff": 0.9512195121951219,
         "hasAnyDefense": true,
         "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#GGVCRYP8P",
+        "name": "gui",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.43049827759122,
+        "rawScore": 2.43049827759122,
+        "confidence": 1,
+        "tier": "A",
+        "attackScore": 3.154550128974856,
+        "defenseScore": 0.2958034391416663,
+        "reliability": 0.9878787878787879,
+        "formScore": 3.5,
+        "warsInRoster": 43,
+        "attacksUsed": 84,
+        "attacksAvailable": 86,
+        "avgDestruction": 92.75,
+        "totalAttacks": 84,
+        "totalStars": 224,
+        "count3Stars": 60,
+        "avgStars": 2.6666666666666665,
+        "threeStarRate": 0.7142857142857143,
+        "totalMissed": 0,
+        "avgPositionDiff": -2.097560975609756,
+        "hasAnyDefense": true,
+        "hadTh17": true,
         "weights": {
           "attack": 0.42,
           "defense": 0.25,
@@ -1239,18 +1239,6 @@
       "prevRank": 2,
       "normalizedScore": 71.41
     },
-    "#2LY0P2L9U": {
-      "tier": "S",
-      "score": 2.595693372153157,
-      "avgStars": 2.9404761904761907,
-      "totalStars": 247,
-      "totalAttacks": 84,
-      "warsInRoster": 44,
-      "totalMissed": 0,
-      "rank": 1,
-      "prevRank": 1,
-      "normalizedScore": 74.16
-    },
     "#P9C0LVLU2": {
       "tier": "A",
       "score": 2.4607550957751787,
@@ -1262,6 +1250,18 @@
       "rank": 6,
       "prevRank": 6,
       "normalizedScore": 70.31
+    },
+    "#2LY0P2L9U": {
+      "tier": "S",
+      "score": 2.595693372153157,
+      "avgStars": 2.9404761904761907,
+      "totalStars": 247,
+      "totalAttacks": 84,
+      "warsInRoster": 44,
+      "totalMissed": 0,
+      "rank": 1,
+      "prevRank": 1,
+      "normalizedScore": 74.16
     },
     "#YPVQVU982": {
       "tier": "B",
@@ -1331,7 +1331,7 @@
       "totalAttacks": 84,
       "warsInRoster": 43,
       "totalMissed": 1,
-      "rank": 8,
+      "rank": 7,
       "prevRank": 8,
       "normalizedScore": 69.72
     },
@@ -1547,15 +1547,15 @@
     },
     "#GGVCRYP8P": {
       "tier": "A",
-      "score": 2.4448738172699094,
+      "score": 2.43049827759122,
       "avgStars": 2.6666666666666665,
       "totalStars": 224,
       "totalAttacks": 84,
       "warsInRoster": 43,
       "totalMissed": 0,
-      "rank": 7,
+      "rank": 8,
       "prevRank": 7,
-      "normalizedScore": 69.85
+      "normalizedScore": 69.44
     },
     "#QJLQLUURY": {
       "tier": "B",
