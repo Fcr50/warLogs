@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-19T23:16:03.430Z",
+  "generatedAt": "2026-08-19T23:30:39.930Z",
   "totalWars": 33,
   "liveWar": {
     "opponentName": "bd",
-    "totalAttacksDone": 23,
+    "totalAttacksDone": 26,
     "totalAttacksExpected": 50
   },
   "ranking": [
@@ -122,25 +122,25 @@
         "townhallLevel": 18
       },
       "data": {
-        "score": 2.472108676542371,
-        "rawScore": 2.472108676542371,
+        "score": 2.4740114279825405,
+        "rawScore": 2.4740114279825405,
         "confidence": 1,
         "tier": "A",
-        "attackScore": 3.4207178457987504,
+        "attackScore": 3.425248206370583,
         "defenseScore": 0.10283289810388697,
         "reliability": 0.9560854446100349,
         "formScore": 3.5,
         "warsInRoster": 42,
-        "attacksUsed": 80,
+        "attacksUsed": 81,
         "attacksAvailable": 83,
-        "avgDestruction": 98.1875,
-        "totalAttacks": 80,
-        "totalStars": 225,
-        "count3Stars": 67,
-        "avgStars": 2.8125,
-        "threeStarRate": 0.8375,
+        "avgDestruction": 98.20987654320987,
+        "totalAttacks": 81,
+        "totalStars": 228,
+        "count3Stars": 68,
+        "avgStars": 2.814814814814815,
+        "threeStarRate": 0.8395061728395061,
         "totalMissed": 2,
-        "avgPositionDiff": -0.46153846153846156,
+        "avgPositionDiff": -0.4936708860759494,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -693,6 +693,42 @@
     },
     {
       "player": {
+        "tag": "#80LUCC9YV",
+        "name": "Lobo ®",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.230198925807938,
+        "rawScore": 2.230198925807938,
+        "confidence": 1,
+        "tier": "A",
+        "attackScore": 2.871619440338793,
+        "defenseScore": 0.13331919930673666,
+        "reliability": 0.9286796536796535,
+        "formScore": 3.5,
+        "warsInRoster": 39,
+        "attacksUsed": 76,
+        "attacksAvailable": 78,
+        "avgDestruction": 95.39473684210526,
+        "totalAttacks": 76,
+        "totalStars": 204,
+        "count3Stars": 57,
+        "avgStars": 2.6842105263157894,
+        "threeStarRate": 0.75,
+        "totalMissed": 1,
+        "avgPositionDiff": 3.6486486486486487,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#8CJ8YJY0P",
         "name": "ChrolloLucilfer",
         "townhallLevel": 18
@@ -755,42 +791,6 @@
         "avgPositionDiff": -6.628571428571429,
         "hasAnyDefense": true,
         "hadTh17": true,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#80LUCC9YV",
-        "name": "Lobo ®",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 1.8189726601005285,
-        "rawScore": 1.8189726601005285,
-        "confidence": 1,
-        "tier": "A",
-        "attackScore": 2.7258426172259127,
-        "defenseScore": 0.13331919930673666,
-        "reliability": 0.9286796536796535,
-        "formScore": 0,
-        "warsInRoster": 39,
-        "attacksUsed": 74,
-        "attacksAvailable": 78,
-        "avgDestruction": 95.27027027027027,
-        "totalAttacks": 74,
-        "totalStars": 198,
-        "count3Stars": 55,
-        "avgStars": 2.675675675675676,
-        "threeStarRate": 0.7432432432432432,
-        "totalMissed": 1,
-        "avgPositionDiff": 3.5694444444444446,
-        "hasAnyDefense": true,
-        "hadTh17": false,
         "weights": {
           "attack": 0.42,
           "defense": 0.25,
@@ -1277,15 +1277,15 @@
     },
     "#PLU2VCLG": {
       "tier": "S",
-      "score": 2.472108676542371,
-      "avgStars": 2.8125,
-      "totalStars": 225,
-      "totalAttacks": 80,
+      "score": 2.4740114279825405,
+      "avgStars": 2.814814814814815,
+      "totalStars": 228,
+      "totalAttacks": 81,
       "warsInRoster": 42,
       "totalMissed": 2,
       "rank": 4,
       "prevRank": 4,
-      "normalizedScore": 70.63
+      "normalizedScore": 70.69
     },
     "#QGQJGURCL": {
       "tier": "A",
@@ -1356,7 +1356,7 @@
       "warsInRoster": 37,
       "totalMissed": 1,
       "rank": 15,
-      "prevRank": 14,
+      "prevRank": 15,
       "normalizedScore": 66.48
     },
     "#2R89QJL9Q": {
@@ -1391,7 +1391,7 @@
       "totalAttacks": 81,
       "warsInRoster": 44,
       "totalMissed": 3,
-      "rank": 20,
+      "rank": 21,
       "prevRank": 20,
       "normalizedScore": 62.81
     },
@@ -1416,7 +1416,7 @@
       "warsInRoster": 36,
       "totalMissed": 0,
       "rank": 16,
-      "prevRank": 15,
+      "prevRank": 16,
       "normalizedScore": 65.43
     },
     "#2Q9UQ8PLP": {
@@ -1474,7 +1474,7 @@
       "warsInRoster": 30,
       "totalMissed": 0,
       "rank": 13,
-      "prevRank": 16,
+      "prevRank": 13,
       "normalizedScore": 67.07
     },
     "#JPVGQP8V": {
@@ -1511,15 +1511,15 @@
     },
     "#80LUCC9YV": {
       "tier": "B",
-      "score": 1.8189726601005285,
-      "avgStars": 2.675675675675676,
-      "totalStars": 198,
-      "totalAttacks": 74,
+      "score": 2.230198925807938,
+      "avgStars": 2.6842105263157894,
+      "totalStars": 204,
+      "totalAttacks": 76,
       "warsInRoster": 39,
       "totalMissed": 1,
-      "rank": 22,
+      "rank": 20,
       "prevRank": 22,
-      "normalizedScore": 51.97
+      "normalizedScore": 63.72
     },
     "#GJ2LQVQJ": {
       "tier": "A",
@@ -1565,7 +1565,7 @@
       "totalAttacks": 35,
       "warsInRoster": 18,
       "totalMissed": 1,
-      "rank": 21,
+      "rank": 22,
       "prevRank": 21,
       "normalizedScore": 54.41
     },
@@ -1578,7 +1578,7 @@
       "warsInRoster": 25,
       "totalMissed": 1,
       "rank": 14,
-      "prevRank": 13,
+      "prevRank": 14,
       "normalizedScore": 66.75
     },
     "#LQQRGJ8VU": {
