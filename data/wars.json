@@ -116,18 +116,13 @@
         ]
       },
       "clan": {
-        "stars": 47,
-        "destructionPercentage": 63.56
+        "stars": 51,
+        "destructionPercentage": 68
       },
       "sixHourNonAttackers": [
         {
           "tag": "#8VCUUPPJP",
           "name": "Satsugai",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QR8R9QUV8",
-          "name": "Dr.Hannibal",
           "townhallLevel": 18
         },
         {
@@ -188,7 +183,20 @@
           "name": "Dr.Hannibal",
           "townhallLevel": 18,
           "mapPosition": 15,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 45,
+              "defenderTag": "#8LQVGG0CL"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 47,
+              "defenderTag": "#8VR0GY2RU"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -239,6 +247,12 @@
               "destructionPercentage": 100,
               "order": 39,
               "defenderTag": "#9PYG8LVC9"
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 95,
+              "order": 46,
+              "defenderTag": "#8VR0GY2RU"
             }
           ],
           "defensesReceived": [
@@ -684,6 +698,12 @@
               "destructionPercentage": 100,
               "order": 2,
               "defenderTag": "#CUYLQCJG"
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 61,
+              "order": 44,
+              "defenderTag": "#8VR0GY2RU"
             }
           ],
           "defensesReceived": [],
