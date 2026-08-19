@@ -10,8 +10,8 @@
       "opponent": {
         "name": "bd",
         "tag": "#8GJ0GUJG",
-        "stars": 64,
-        "destructionPercentage": 86.68,
+        "stars": 67,
+        "destructionPercentage": 90.68,
         "members": [
           {
             "tag": "#8LQVGG0CL",
@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 45,
-        "destructionPercentage": 60
+        "stars": 47,
+        "destructionPercentage": 63.56
       },
       "sixHourNonAttackers": [
         {
@@ -163,11 +163,6 @@
         {
           "tag": "#YPVQVU982",
           "name": "亗 ＨＡＤＥＳ_０７ 亗",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#YVYCCQU08",
-          "name": "Frenético",
           "townhallLevel": 18
         }
       ],
@@ -246,7 +241,14 @@
               "defenderTag": "#9PYG8LVC9"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#8Q8LQPCP8",
+              "attackerMapPosition": 18
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -630,7 +632,14 @@
           "name": "Frenético",
           "townhallLevel": 18,
           "mapPosition": 20,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 89,
+              "order": 43,
+              "defenderTag": "#8VR0GY2RU"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
