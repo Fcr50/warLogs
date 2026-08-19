@@ -10,8 +10,8 @@
       "opponent": {
         "name": "bd",
         "tag": "#8GJ0GUJG",
-        "stars": 15,
-        "destructionPercentage": 20,
+        "stars": 21,
+        "destructionPercentage": 28,
         "members": [
           {
             "tag": "#8LQVGG0CL",
@@ -203,7 +203,14 @@
           "townhallLevel": 18,
           "mapPosition": 17,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#2UVYCGYY2",
+              "attackerMapPosition": 22
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -275,7 +282,14 @@
               "defenderTag": "#YV208VLR0"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#2UVYCGYY2",
+              "attackerMapPosition": 22
+            }
+          ],
           "missedAttacks": 0
         },
         {
