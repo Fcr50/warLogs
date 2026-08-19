@@ -10,8 +10,8 @@
       "opponent": {
         "name": "bd",
         "tag": "#8GJ0GUJG",
-        "stars": 32,
-        "destructionPercentage": 43.48,
+        "stars": 44,
+        "destructionPercentage": 58.76,
         "members": [
           {
             "tag": "#8LQVGG0CL",
@@ -305,7 +305,14 @@
               "defenderTag": "#QPJRR88Y9"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#2RPVVP0GR",
+              "attackerMapPosition": 12
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -330,7 +337,14 @@
               "defenderTag": "#9YRVV2VC2"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#9PV8UR02J",
+              "attackerMapPosition": 1
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -339,7 +353,14 @@
           "townhallLevel": 18,
           "mapPosition": 18,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 69,
+              "attackerTag": "#8Q8LQPCP8",
+              "attackerMapPosition": 18
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -348,7 +369,14 @@
           "townhallLevel": 18,
           "mapPosition": 24,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#2RPVVP0GR",
+              "attackerMapPosition": 12
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -464,6 +492,12 @@
               "destructionPercentage": 87,
               "attackerTag": "#2Y28JL9JY",
               "attackerMapPosition": 11
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#9PV8UR02J",
+              "attackerMapPosition": 1
             }
           ],
           "missedAttacks": 0
