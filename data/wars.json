@@ -10,8 +10,8 @@
       "opponent": {
         "name": "bd",
         "tag": "#8GJ0GUJG",
-        "stars": 70,
-        "destructionPercentage": 94.68,
+        "stars": 72,
+        "destructionPercentage": 98.16,
         "members": [
           {
             "tag": "#8LQVGG0CL",
@@ -409,6 +409,12 @@
               "destructionPercentage": 69,
               "attackerTag": "#8Q8LQPCP8",
               "attackerMapPosition": 18
+            },
+            {
+              "stars": 1,
+              "destructionPercentage": 73,
+              "attackerTag": "#YV208VLR0",
+              "attackerMapPosition": 13
             }
           ],
           "missedAttacks": 0
@@ -774,7 +780,14 @@
               "defenderTag": "#8VR0GY2RU"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 87,
+              "attackerTag": "#YV208VLR0",
+              "attackerMapPosition": 13
+            }
+          ],
           "missedAttacks": 0
         }
       ]
