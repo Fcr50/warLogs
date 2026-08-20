@@ -10,8 +10,8 @@
       "opponent": {
         "name": "bd",
         "tag": "#8GJ0GUJG",
-        "stars": 73,
-        "destructionPercentage": 98.68,
+        "stars": 74,
+        "destructionPercentage": 98.76,
         "members": [
           {
             "tag": "#8LQVGG0CL",
@@ -167,7 +167,14 @@
           "name": "Satsugai",
           "townhallLevel": 18,
           "mapPosition": 17,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 70,
+              "defenderTag": "#9800CJJR"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -629,6 +636,12 @@
           "mapPosition": 12,
           "attacks": [],
           "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#8LQVGG0CL",
+              "attackerMapPosition": 15
+            },
             {
               "stars": 2,
               "destructionPercentage": 75,
