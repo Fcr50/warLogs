@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-21T19:30:28.893Z",
+  "generatedAt": "2026-08-21T19:45:26.334Z",
   "totalWars": 34,
   "liveWar": {
     "opponentName": "AYTURK",
-    "totalAttacksDone": 12,
+    "totalAttacksDone": 13,
     "totalAttacksExpected": 50
   },
   "ranking": [
@@ -405,6 +405,42 @@
     },
     {
       "player": {
+        "tag": "#G9Y2L9QJJ",
+        "name": "Micael",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.3128571585102597,
+        "rawScore": 2.3128571585102597,
+        "confidence": 1,
+        "tier": "A",
+        "attackScore": 3.1323688351507424,
+        "defenseScore": 0.32503722628190945,
+        "reliability": 0.8202941176470588,
+        "formScore": 3.5,
+        "warsInRoster": 27,
+        "attacksUsed": 50,
+        "attacksAvailable": 54,
+        "avgDestruction": 98.1,
+        "totalAttacks": 50,
+        "totalStars": 145,
+        "count3Stars": 46,
+        "avgStars": 2.9,
+        "threeStarRate": 0.92,
+        "totalMissed": 1,
+        "avgPositionDiff": -7.42,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#QGQJGURCL",
         "name": "SAFONOV",
         "townhallLevel": 18
@@ -446,12 +482,12 @@
         "townhallLevel": 18
       },
       "data": {
-        "score": 2.2919437747342495,
-        "rawScore": 2.2919437747342495,
+        "score": 2.2857187886671513,
+        "rawScore": 2.2857187886671513,
         "confidence": 1,
         "tier": "C",
         "attackScore": 3.022858751189588,
-        "defenseScore": 0.15666651458554862,
+        "defenseScore": 0.1317665703171563,
         "reliability": 0.9176470588235294,
         "formScore": 3.5,
         "warsInRoster": 37,
@@ -467,42 +503,6 @@
         "avgPositionDiff": -6.130434782608695,
         "hasAnyDefense": true,
         "hadTh17": true,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#G9Y2L9QJJ",
-        "name": "Micael",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.2844672325098903,
-        "rawScore": 2.2844672325098903,
-        "confidence": 1,
-        "tier": "A",
-        "attackScore": 3.0647737732451006,
-        "defenseScore": 0.32503722628190945,
-        "reliability": 0.8202941176470588,
-        "formScore": 3.5,
-        "warsInRoster": 27,
-        "attacksUsed": 49,
-        "attacksAvailable": 54,
-        "avgDestruction": 98.06122448979592,
-        "totalAttacks": 49,
-        "totalStars": 142,
-        "count3Stars": 45,
-        "avgStars": 2.8979591836734695,
-        "threeStarRate": 0.9183673469387755,
-        "totalMissed": 1,
-        "avgPositionDiff": -7.571428571428571,
-        "hasAnyDefense": true,
-        "hadTh17": false,
         "weights": {
           "attack": 0.42,
           "defense": 0.25,
@@ -1295,7 +1295,7 @@
       "totalAttacks": 82,
       "warsInRoster": 43,
       "totalMissed": 0,
-      "rank": 12,
+      "rank": 13,
       "prevRank": 12,
       "normalizedScore": 65.86
     },
@@ -1445,27 +1445,27 @@
     },
     "#G9Y2L9QJJ": {
       "tier": "A",
-      "score": 2.2844672325098903,
-      "avgStars": 2.8979591836734695,
-      "totalStars": 142,
-      "totalAttacks": 49,
+      "score": 2.3128571585102597,
+      "avgStars": 2.9,
+      "totalStars": 145,
+      "totalAttacks": 50,
       "warsInRoster": 27,
       "totalMissed": 1,
-      "rank": 14,
+      "rank": 12,
       "prevRank": 14,
-      "normalizedScore": 65.27
+      "normalizedScore": 66.08
     },
     "#8YJYY92GC": {
       "tier": "A",
-      "score": 2.2919437747342495,
+      "score": 2.2857187886671513,
       "avgStars": 2.380281690140845,
       "totalStars": 169,
       "totalAttacks": 71,
       "warsInRoster": 37,
       "totalMissed": 0,
-      "rank": 13,
+      "rank": 14,
       "prevRank": 13,
-      "normalizedScore": 65.48
+      "normalizedScore": 65.31
     },
     "#2Q9UQ8PLP": {
       "tier": "F",
