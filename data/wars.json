@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 24,
-        "destructionPercentage": 32
+        "stars": 27,
+        "destructionPercentage": 36
       },
       "sixHourNonAttackers": [
         {
@@ -159,11 +159,6 @@
           "tag": "#2YLV9G20U",
           "name": "ANNY cat",
           "townhallLevel": 14
-        },
-        {
-          "tag": "#QGQJGURCL",
-          "name": "SAFONOV",
-          "townhallLevel": 18
         },
         {
           "tag": "#L8RG2PV0G",
@@ -268,6 +263,12 @@
               "destructionPercentage": 100,
               "order": 11,
               "defenderTag": "#209QL8YR0"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 17,
+              "defenderTag": "#8LJ8U9P8Q"
             }
           ],
           "defensesReceived": [],
@@ -369,7 +370,14 @@
           "name": "SAFONOV",
           "townhallLevel": 18,
           "mapPosition": 4,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 92,
+              "order": 16,
+              "defenderTag": "#8LJ8U9P8Q"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
