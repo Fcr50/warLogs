@@ -10,8 +10,8 @@
       "opponent": {
         "name": "AYTURK",
         "tag": "#989UY0PJ",
-        "stars": 32,
-        "destructionPercentage": 43.84,
+        "stars": 37,
+        "destructionPercentage": 51.76,
         "members": [
           {
             "tag": "#JPYL9CUP",
@@ -116,23 +116,13 @@
         ]
       },
       "clan": {
-        "stars": 39,
-        "destructionPercentage": 52
+        "stars": 45,
+        "destructionPercentage": 60
       },
       "sixHourNonAttackers": [
         {
           "tag": "#8VCUUPPJP",
           "name": "Satsugai",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QQC8P9C9R",
-          "name": "Gs.prieto",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#8YJYY92GC",
-          "name": "RussiaN",
           "townhallLevel": 18
         },
         {
@@ -234,7 +224,14 @@
           "name": "Gs.prieto",
           "townhallLevel": 18,
           "mapPosition": 14,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 30,
+              "defenderTag": "#YCYQVL8UR"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -279,7 +276,14 @@
           "name": "RussiaN",
           "townhallLevel": 18,
           "mapPosition": 23,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 31,
+              "defenderTag": "#GP80QQGP2"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -492,7 +496,14 @@
               "defenderTag": "#80UQ9VU8V"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#80UQ9VU8V",
+              "attackerMapPosition": 5
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -574,7 +585,14 @@
               "defenderTag": "#YJJRRJCC"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 98,
+              "attackerTag": "#YJJRRJCC",
+              "attackerMapPosition": 9
+            }
+          ],
           "missedAttacks": 0
         },
         {
