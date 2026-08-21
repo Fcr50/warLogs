@@ -10,8 +10,8 @@
       "opponent": {
         "name": "AYTURK",
         "tag": "#989UY0PJ",
-        "stars": 24,
-        "destructionPercentage": 32,
+        "stars": 26,
+        "destructionPercentage": 35.84,
         "members": [
           {
             "tag": "#JPYL9CUP",
@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 27,
-        "destructionPercentage": 36
+        "stars": 30,
+        "destructionPercentage": 40
       },
       "sixHourNonAttackers": [
         {
@@ -188,11 +188,6 @@
         {
           "tag": "#GGVCRYP8P",
           "name": "gui",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#P9C0LVLU2",
-          "name": "VINGADOR⚡",
           "townhallLevel": 18
         },
         {
@@ -439,7 +434,14 @@
           "townhallLevel": 18,
           "mapPosition": 8,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 96,
+              "attackerTag": "#2VGQ82GCC",
+              "attackerMapPosition": 8
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -506,7 +508,14 @@
           "name": "VINGADOR⚡",
           "townhallLevel": 18,
           "mapPosition": 1,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 20,
+              "defenderTag": "#UCLQYV0Q"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
