@@ -10,8 +10,8 @@
       "opponent": {
         "name": "AYTURK",
         "tag": "#989UY0PJ",
-        "stars": 12,
-        "destructionPercentage": 16,
+        "stars": 18,
+        "destructionPercentage": 24,
         "members": [
           {
             "tag": "#JPYL9CUP",
@@ -288,7 +288,14 @@
           "townhallLevel": 17,
           "mapPosition": 24,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#8C9YRCLJR",
+              "attackerMapPosition": 24
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -392,7 +399,14 @@
               "defenderTag": "#P8LUY8RQ"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#92L0C8289",
+              "attackerMapPosition": 2
+            }
+          ],
           "missedAttacks": 0
         },
         {
