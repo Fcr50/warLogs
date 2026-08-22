@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T08:45:25.427Z",
+  "generatedAt": "2026-08-22T09:00:34.857Z",
   "totalWars": 34,
   "liveWar": {
     "opponentName": "AYTURK",
@@ -86,12 +86,12 @@
         "townhallLevel": 18
       },
       "data": {
-        "score": 2.494974654486612,
-        "rawScore": 2.494974654486612,
+        "score": 2.494218025693171,
+        "rawScore": 2.494218025693171,
         "confidence": 1,
         "tier": "A",
         "attackScore": 3.3240492613013277,
-        "defenseScore": 0.3521870354308069,
+        "defenseScore": 0.34916052025704236,
         "reliability": 0.957720588235294,
         "formScore": 3.5,
         "warsInRoster": 43,
@@ -297,6 +297,42 @@
     },
     {
       "player": {
+        "tag": "#QGQJGURCL",
+        "name": "SAFONOV",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.374179967301096,
+        "rawScore": 2.374179967301096,
+        "confidence": 1,
+        "tier": "A",
+        "attackScore": 3.1290121664157398,
+        "defenseScore": 0.25292060609653005,
+        "reliability": 0.9764705882352941,
+        "formScore": 3.23,
+        "warsInRoster": 43,
+        "attacksUsed": 83,
+        "attacksAvailable": 85,
+        "avgDestruction": 97.6987951807229,
+        "totalAttacks": 83,
+        "totalStars": 229,
+        "count3Stars": 65,
+        "avgStars": 2.7590361445783134,
+        "threeStarRate": 0.7831325301204819,
+        "totalMissed": 0,
+        "avgPositionDiff": 0.654320987654321,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#QR8R9QUV8",
         "name": "Dr.Hannibal",
         "townhallLevel": 18
@@ -321,42 +357,6 @@
         "threeStarRate": 0.7571428571428571,
         "totalMissed": 1,
         "avgPositionDiff": -3.985294117647059,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#QGQJGURCL",
-        "name": "SAFONOV",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.3626039907049976,
-        "rawScore": 2.3626039907049976,
-        "confidence": 1,
-        "tier": "A",
-        "attackScore": 3.1290121664157398,
-        "defenseScore": 0.20661669971213606,
-        "reliability": 0.9764705882352941,
-        "formScore": 3.23,
-        "warsInRoster": 43,
-        "attacksUsed": 83,
-        "attacksAvailable": 85,
-        "avgDestruction": 97.6987951807229,
-        "totalAttacks": 83,
-        "totalStars": 229,
-        "count3Stars": 65,
-        "avgStars": 2.7590361445783134,
-        "threeStarRate": 0.7831325301204819,
-        "totalMissed": 0,
-        "avgPositionDiff": 0.654320987654321,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1241,7 +1241,7 @@
     },
     "#P9C0LVLU2": {
       "tier": "S",
-      "score": 2.494974654486612,
+      "score": 2.494218025693171,
       "avgStars": 2.8,
       "totalStars": 224,
       "totalAttacks": 80,
@@ -1249,7 +1249,7 @@
       "totalMissed": 2,
       "rank": 3,
       "prevRank": 3,
-      "normalizedScore": 71.28
+      "normalizedScore": 71.26
     },
     "#2LY0P2L9U": {
       "tier": "S",
@@ -1289,15 +1289,15 @@
     },
     "#QGQJGURCL": {
       "tier": "A",
-      "score": 2.3626039907049976,
+      "score": 2.374179967301096,
       "avgStars": 2.7590361445783134,
       "totalStars": 229,
       "totalAttacks": 83,
       "warsInRoster": 43,
       "totalMissed": 0,
-      "rank": 10,
+      "rank": 9,
       "prevRank": 10,
-      "normalizedScore": 67.5
+      "normalizedScore": 67.83
     },
     "#PLU2VCLG": {
       "tier": "A",
@@ -1415,7 +1415,7 @@
       "totalAttacks": 70,
       "warsInRoster": 38,
       "totalMissed": 1,
-      "rank": 9,
+      "rank": 10,
       "prevRank": 9,
       "normalizedScore": 67.73
     },
