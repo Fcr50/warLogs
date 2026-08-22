@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 57,
-        "destructionPercentage": 76
+        "stars": 60,
+        "destructionPercentage": 80
       },
       "sixHourNonAttackers": [
         {
@@ -582,7 +582,14 @@
           "name": "Warlord Raivon",
           "townhallLevel": 18,
           "mapPosition": 10,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 43,
+              "defenderTag": "#LG2RJVQC"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
