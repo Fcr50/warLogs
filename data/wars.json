@@ -10,8 +10,8 @@
       "opponent": {
         "name": "WAR HEROS 71",
         "tag": "#Q2UUURC8",
-        "stars": 9,
-        "destructionPercentage": 15,
+        "stars": 14,
+        "destructionPercentage": 24.35,
         "members": [
           {
             "tag": "#YCG9G8JYL",
@@ -96,8 +96,8 @@
         ]
       },
       "clan": {
-        "stars": 9,
-        "destructionPercentage": 15
+        "stars": 15,
+        "destructionPercentage": 25
       },
       "sixHourNonAttackers": [
         {
@@ -116,18 +116,8 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#8CJ8YJY0P",
-          "name": "ChrolloLucilfer",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#LQQRGJ8VU",
           "name": "i-Vinni",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#G9Y2L9QJJ",
-          "name": "Micael",
           "townhallLevel": 18
         },
         {
@@ -219,7 +209,14 @@
           "name": "ChrolloLucilfer",
           "townhallLevel": 18,
           "mapPosition": 13,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 1,
+              "destructionPercentage": 91,
+              "order": 9,
+              "defenderTag": "#2V0YQL0V9"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -253,7 +250,20 @@
           "name": "Micael",
           "townhallLevel": 18,
           "mapPosition": 19,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 7,
+              "defenderTag": "#892JPGCYL"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 11,
+              "defenderTag": "#2V0YQL0V9"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -263,7 +273,14 @@
           "townhallLevel": 18,
           "mapPosition": 3,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#2V0YQL0V9",
+              "attackerMapPosition": 13
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -354,7 +371,14 @@
           "townhallLevel": 18,
           "mapPosition": 5,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 87,
+              "attackerTag": "#GY9YJ9CLG",
+              "attackerMapPosition": 6
+            }
+          ],
           "missedAttacks": 0
         },
         {
