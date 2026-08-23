@@ -96,18 +96,13 @@
         ]
       },
       "clan": {
-        "stars": 24,
-        "destructionPercentage": 40
+        "stars": 30,
+        "destructionPercentage": 50
       },
       "sixHourNonAttackers": [
         {
           "tag": "#QQC8P9C9R",
           "name": "Gs.prieto",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#2QL0VR9GU",
-          "name": "Marcola",
           "townhallLevel": 18
         },
         {
@@ -123,11 +118,6 @@
         {
           "tag": "#20JC0J9JR",
           "name": "BTV✯Robin Hood",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#JYV802Q",
-          "name": "ӃiƦiƬƠ么",
           "townhallLevel": 18
         },
         {
@@ -199,7 +189,14 @@
           "name": "Marcola",
           "townhallLevel": 18,
           "mapPosition": 14,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 19,
+              "defenderTag": "#2LRQY2GCR"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -358,7 +355,14 @@
           "name": "ӃiƦiƬƠ么",
           "townhallLevel": 18,
           "mapPosition": 2,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 18,
+              "defenderTag": "#LRGPJPL2"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
