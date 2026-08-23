@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-23T21:30:28.536Z",
+  "generatedAt": "2026-08-23T21:45:24.568Z",
   "totalWars": 35,
   "liveWar": {
     "opponentName": "WAR HEROS 71",
-    "totalAttacksDone": 14,
+    "totalAttacksDone": 15,
     "totalAttacksExpected": 40
   },
   "ranking": [
@@ -770,12 +770,12 @@
         "townhallLevel": 18
       },
       "data": {
-        "score": 1.6691410113704037,
-        "rawScore": 1.6691410113704037,
+        "score": 1.7865612928202743,
+        "rawScore": 1.7865612928202743,
         "confidence": 1,
         "tier": "A",
         "attackScore": 2.509640228326877,
-        "defenseScore": 0.3514327476067482,
+        "defenseScore": 0.8211138734062303,
         "reliability": 0.7641071428571428,
         "formScore": 0,
         "warsInRoster": 19,
@@ -878,12 +878,12 @@
         "townhallLevel": 18
       },
       "data": {
-        "score": 1.451859839602375,
-        "rawScore": 1.451859839602375,
+        "score": 1.4410154344005033,
+        "rawScore": 1.4410154344005033,
         "confidence": 1,
         "tier": "C",
         "attackScore": 1.539884431214926,
-        "defenseScore": 0.2524049425398522,
+        "defenseScore": 0.20902732173236546,
         "reliability": 0.7492857142857143,
         "formScore": 2.25,
         "warsInRoster": 30,
@@ -1125,6 +1125,42 @@
     },
     {
       "player": {
+        "tag": "#20822V8UU",
+        "name": "Mateus.S",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 0,
+        "rawScore": 0,
+        "confidence": 0,
+        "tier": "F",
+        "attackScore": 0,
+        "defenseScore": 0,
+        "reliability": 0,
+        "formScore": 0,
+        "warsInRoster": 0,
+        "attacksUsed": 0,
+        "attacksAvailable": 0,
+        "avgDestruction": 0,
+        "totalAttacks": 0,
+        "totalStars": 0,
+        "count3Stars": 0,
+        "avgStars": 0,
+        "threeStarRate": 0,
+        "totalMissed": 0,
+        "avgPositionDiff": 0,
+        "hasAnyDefense": false,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.56,
+          "defense": 0,
+          "reliability": 0.3067,
+          "form": 0.1333
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#JPVGQP8V",
         "name": "♤Pluto♤",
         "townhallLevel": 18
@@ -1215,6 +1251,13 @@
       "player": {
         "tag": "#2Q9UQ8PLP",
         "name": "LemãoO",
+        "townhallLevel": 18
+      }
+    },
+    {
+      "player": {
+        "tag": "#20822V8UU",
+        "name": "Mateus.S",
         "townhallLevel": 18
       }
     },
@@ -1402,6 +1445,18 @@
       "prevRank": 11,
       "normalizedScore": 67.53
     },
+    "#G9Y2L9QJJ": {
+      "tier": "A",
+      "score": 2.2030250386516075,
+      "avgStars": 2.8679245283018866,
+      "totalStars": 152,
+      "totalAttacks": 53,
+      "warsInRoster": 28,
+      "totalMissed": 1,
+      "rank": 14,
+      "prevRank": 14,
+      "normalizedScore": 62.94
+    },
     "#29LP0VJV0": {
       "tier": "B",
       "score": 2.1617572337702056,
@@ -1416,7 +1471,7 @@
     },
     "#QJLQLUURY": {
       "tier": "B",
-      "score": 1.6691410113704037,
+      "score": 1.7865612928202743,
       "avgStars": 2.7142857142857144,
       "totalStars": 95,
       "totalAttacks": 35,
@@ -1424,19 +1479,7 @@
       "totalMissed": 1,
       "rank": 22,
       "prevRank": 22,
-      "normalizedScore": 47.69
-    },
-    "#G9Y2L9QJJ": {
-      "tier": "A",
-      "score": 2.2030250386516075,
-      "avgStars": 2.8679245283018866,
-      "totalStars": 152,
-      "totalAttacks": 53,
-      "warsInRoster": 28,
-      "totalMissed": 1,
-      "rank": 14,
-      "prevRank": 14,
-      "normalizedScore": 62.94
+      "normalizedScore": 51.04
     },
     "#QR8R9QUV8": {
       "tier": "B",
@@ -1540,6 +1583,16 @@
       "totalMissed": 0,
       "normalizedScore": 0
     },
+    "#20822V8UU": {
+      "tier": "F",
+      "score": 0,
+      "avgStars": 0,
+      "totalStars": 0,
+      "totalAttacks": 0,
+      "warsInRoster": 0,
+      "totalMissed": 0,
+      "normalizedScore": 0
+    },
     "#JPVGQP8V": {
       "tier": "F",
       "score": 0,
@@ -1576,7 +1629,7 @@
     },
     "#PPPUQPVJY": {
       "tier": "B",
-      "score": 1.451859839602375,
+      "score": 1.4410154344005033,
       "avgStars": 2.282608695652174,
       "totalStars": 105,
       "totalAttacks": 46,
@@ -1584,7 +1637,7 @@
       "totalMissed": 10,
       "rank": 25,
       "prevRank": 25,
-      "normalizedScore": 41.48
+      "normalizedScore": 41.17
     },
     "#8VCUUPPJP": {
       "tier": "A",
@@ -1621,14 +1674,15 @@
       "normalizedScore": 0
     },
     "#URR0QLV": {
-      "tier": "F",
-      "score": 0,
-      "avgStars": 0,
-      "totalStars": 0,
-      "totalAttacks": 0,
+      "tier": "B",
+      "score": 0.91,
+      "avgStars": 3,
+      "totalStars": 3,
+      "totalAttacks": 1,
       "warsInRoster": 1,
       "totalMissed": 0,
-      "normalizedScore": 0
+      "rank": 29,
+      "normalizedScore": 26
     },
     "#RC82GPG": {
       "tier": "C",
@@ -1638,7 +1692,7 @@
       "totalAttacks": 18,
       "warsInRoster": 13,
       "totalMissed": 8,
-      "rank": 30,
+      "rank": 31,
       "prevRank": 30,
       "normalizedScore": 4.73
     },
@@ -1653,14 +1707,14 @@
       "normalizedScore": 0
     },
     "#LR2U2PRP2": {
-      "tier": "B",
+      "tier": "C",
       "score": 0.752757770324624,
       "avgStars": 1.8,
       "totalStars": 18,
       "totalAttacks": 10,
       "warsInRoster": 9,
       "totalMissed": 5,
-      "rank": 29,
+      "rank": 30,
       "prevRank": 29,
       "normalizedScore": 21.51
     },
@@ -1672,7 +1726,7 @@
       "totalAttacks": 2,
       "warsInRoster": 12,
       "totalMissed": 18,
-      "rank": 32,
+      "rank": 33,
       "prevRank": 32,
       "normalizedScore": -13.54
     },
@@ -1684,7 +1738,7 @@
       "totalAttacks": 8,
       "warsInRoster": 6,
       "totalMissed": 2,
-      "rank": 31,
+      "rank": 32,
       "prevRank": 31,
       "normalizedScore": -8.92
     },
