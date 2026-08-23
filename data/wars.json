@@ -10,8 +10,8 @@
       "opponent": {
         "name": "WAR HEROS 71",
         "tag": "#Q2UUURC8",
-        "stars": 14,
-        "destructionPercentage": 24.35,
+        "stars": 18,
+        "destructionPercentage": 30,
         "members": [
           {
             "tag": "#YCG9G8JYL",
@@ -96,15 +96,10 @@
         ]
       },
       "clan": {
-        "stars": 15,
-        "destructionPercentage": 25
+        "stars": 18,
+        "destructionPercentage": 30
       },
       "sixHourNonAttackers": [
-        {
-          "tag": "#2LY0P2L9U",
-          "name": "LucasHG9",
-          "townhallLevel": 18
-        },
         {
           "tag": "#QQC8P9C9R",
           "name": "Gs.prieto",
@@ -182,8 +177,22 @@
           "name": "LucasHG9",
           "townhallLevel": 18,
           "mapPosition": 6,
-          "attacks": [],
-          "defensesReceived": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 13,
+              "defenderTag": "#GY9YJ9CLG"
+            }
+          ],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#YCG9G8JYL",
+              "attackerMapPosition": 5
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -372,6 +381,12 @@
           "mapPosition": 5,
           "attacks": [],
           "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#YCG9G8JYL",
+              "attackerMapPosition": 5
+            },
             {
               "stars": 2,
               "destructionPercentage": 87,
