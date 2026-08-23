@@ -96,15 +96,10 @@
         ]
       },
       "clan": {
-        "stars": 33,
-        "destructionPercentage": 55
+        "stars": 36,
+        "destructionPercentage": 60
       },
       "sixHourNonAttackers": [
-        {
-          "tag": "#QQC8P9C9R",
-          "name": "Gs.prieto",
-          "townhallLevel": 18
-        },
         {
           "tag": "#LQQRGJ8VU",
           "name": "i-Vinni",
@@ -175,7 +170,14 @@
           "name": "Gs.prieto",
           "townhallLevel": 18,
           "mapPosition": 15,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 25,
+              "defenderTag": "#QLCVQC820"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
