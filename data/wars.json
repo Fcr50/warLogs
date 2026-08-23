@@ -10,8 +10,8 @@
       "opponent": {
         "name": "WAR HEROS 71",
         "tag": "#Q2UUURC8",
-        "stars": 3,
-        "destructionPercentage": 5,
+        "stars": 9,
+        "destructionPercentage": 15,
         "members": [
           {
             "tag": "#YCG9G8JYL",
@@ -96,8 +96,8 @@
         ]
       },
       "clan": {
-        "stars": 3,
-        "destructionPercentage": 5
+        "stars": 9,
+        "destructionPercentage": 15
       },
       "sixHourNonAttackers": [
         {
@@ -136,19 +136,9 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#GJ2LQVQJ",
-          "name": "Fer",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#URR0QLV",
           "name": "Victor Daniel",
           "townhallLevel": 17
-        },
-        {
-          "tag": "#PLU2VCLG",
-          "name": "Phoenix",
-          "townhallLevel": 18
         },
         {
           "tag": "#20JC0J9JR",
@@ -281,8 +271,22 @@
           "name": "Fer",
           "townhallLevel": 18,
           "mapPosition": 4,
-          "attacks": [],
-          "defensesReceived": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 5,
+              "defenderTag": "#YG8RGG2UY"
+            }
+          ],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#GY9YJ9CLG",
+              "attackerMapPosition": 6
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -299,7 +303,14 @@
           "name": "Phoenix",
           "townhallLevel": 18,
           "mapPosition": 9,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 3,
+              "defenderTag": "#2LPYUVPVQ"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -318,7 +329,14 @@
           "townhallLevel": 18,
           "mapPosition": 2,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#9VL8RV0GU",
+              "attackerMapPosition": 16
+            }
+          ],
           "missedAttacks": 0
         },
         {
