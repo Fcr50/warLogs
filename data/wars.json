@@ -10,8 +10,8 @@
       "opponent": {
         "name": "WAR HEROS 71",
         "tag": "#Q2UUURC8",
-        "stars": 48,
-        "destructionPercentage": 80,
+        "stars": 51,
+        "destructionPercentage": 85,
         "members": [
           {
             "tag": "#YCG9G8JYL",
@@ -96,8 +96,8 @@
         ]
       },
       "clan": {
-        "stars": 36,
-        "destructionPercentage": 60
+        "stars": 39,
+        "destructionPercentage": 65
       },
       "sixHourNonAttackers": [
         {
@@ -113,11 +113,6 @@
         {
           "tag": "#20JC0J9JR",
           "name": "BTV✯Robin Hood",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#29LP0VJV0",
-          "name": "Warlord Raivon",
           "townhallLevel": 18
         },
         {
@@ -269,7 +264,14 @@
           "townhallLevel": 18,
           "mapPosition": 16,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#892JPGCYL",
+              "attackerMapPosition": 19
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -429,7 +431,14 @@
           "name": "Warlord Raivon",
           "townhallLevel": 18,
           "mapPosition": 12,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 33,
+              "defenderTag": "#9Q2J8YJLR"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
