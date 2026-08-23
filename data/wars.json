@@ -10,8 +10,8 @@
       "opponent": {
         "name": "WAR HEROS 71",
         "tag": "#Q2UUURC8",
-        "stars": 19,
-        "destructionPercentage": 34.85,
+        "stars": 25,
+        "destructionPercentage": 44.85,
         "members": [
           {
             "tag": "#YCG9G8JYL",
@@ -96,8 +96,8 @@
         ]
       },
       "clan": {
-        "stars": 30,
-        "destructionPercentage": 50
+        "stars": 33,
+        "destructionPercentage": 55
       },
       "sixHourNonAttackers": [
         {
@@ -128,11 +128,6 @@
         {
           "tag": "#80LUCC9YV",
           "name": "Lobo ®",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#P9C0LVLU2",
-          "name": "VINGADOR⚡",
           "townhallLevel": 18
         },
         {
@@ -347,7 +342,14 @@
           "townhallLevel": 18,
           "mapPosition": 8,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#988UPCLJ",
+              "attackerMapPosition": 3
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -409,7 +411,14 @@
           "name": "VINGADOR⚡",
           "townhallLevel": 18,
           "mapPosition": 1,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 21,
+              "defenderTag": "#GPJ028G8R"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -426,7 +435,14 @@
           "townhallLevel": 18,
           "mapPosition": 7,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#988UPCLJ",
+              "attackerMapPosition": 3
+            }
+          ],
           "missedAttacks": 0
         },
         {
