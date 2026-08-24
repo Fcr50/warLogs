@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-24T09:15:21.161Z",
+  "generatedAt": "2026-08-24T09:30:46.975Z",
   "totalWars": 35,
   "liveWar": {
     "opponentName": "WAR HEROS 71",
-    "totalAttacksDone": 29,
+    "totalAttacksDone": 30,
     "totalAttacksExpected": 40
   },
   "ranking": [
@@ -302,25 +302,25 @@
         "townhallLevel": 18
       },
       "data": {
-        "score": 2.396618512727471,
-        "rawScore": 2.396618512727471,
+        "score": 2.405288975567171,
+        "rawScore": 2.405288975567171,
         "confidence": 1,
         "tier": "B",
-        "attackScore": 3.266643704009184,
+        "attackScore": 3.2872876631513277,
         "defenseScore": 0.3168840567458826,
         "reliability": 0.9092857142857143,
         "formScore": 3.18,
         "warsInRoster": 35,
-        "attacksUsed": 65,
+        "attacksUsed": 66,
         "attacksAvailable": 70,
-        "avgDestruction": 94.44615384615385,
-        "totalAttacks": 65,
-        "totalStars": 167,
-        "count3Stars": 46,
-        "avgStars": 2.5692307692307694,
-        "threeStarRate": 0.7076923076923077,
+        "avgDestruction": 94.53030303030303,
+        "totalAttacks": 66,
+        "totalStars": 170,
+        "count3Stars": 47,
+        "avgStars": 2.5757575757575757,
+        "threeStarRate": 0.7121212121212122,
         "totalMissed": 1,
-        "avgPositionDiff": -6.753846153846154,
+        "avgPositionDiff": -6.878787878787879,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1089,6 +1089,42 @@
     },
     {
       "player": {
+        "tag": "#2QRGVCGUV",
+        "name": "elson",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 0,
+        "rawScore": 0,
+        "confidence": 0,
+        "tier": "F",
+        "attackScore": 0,
+        "defenseScore": 0,
+        "reliability": 0,
+        "formScore": 0,
+        "warsInRoster": 0,
+        "attacksUsed": 0,
+        "attacksAvailable": 0,
+        "avgDestruction": 0,
+        "totalAttacks": 0,
+        "totalStars": 0,
+        "count3Stars": 0,
+        "avgStars": 0,
+        "threeStarRate": 0,
+        "totalMissed": 0,
+        "avgPositionDiff": 0,
+        "hasAnyDefense": false,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.56,
+          "defense": 0,
+          "reliability": 0.3067,
+          "form": 0.1333
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#QVRV0VVJC",
         "name": "tabiba",
         "townhallLevel": 18
@@ -1201,6 +1237,13 @@
       "player": {
         "tag": "#JPVGQP8V",
         "name": "♤Pluto♤",
+        "townhallLevel": 18
+      }
+    },
+    {
+      "player": {
+        "tag": "#2QRGVCGUV",
+        "name": "elson",
         "townhallLevel": 18
       }
     },
@@ -1385,15 +1428,15 @@
     },
     "#LQQRGJ8VU": {
       "tier": "A",
-      "score": 2.396618512727471,
-      "avgStars": 2.5692307692307694,
-      "totalStars": 167,
-      "totalAttacks": 65,
+      "score": 2.405288975567171,
+      "avgStars": 2.5757575757575757,
+      "totalStars": 170,
+      "totalAttacks": 66,
       "warsInRoster": 35,
       "totalMissed": 1,
       "rank": 9,
       "prevRank": 9,
-      "normalizedScore": 68.47
+      "normalizedScore": 68.72
     },
     "#G9Y2L9QJJ": {
       "tier": "B",
@@ -1584,6 +1627,16 @@
       "rank": 31,
       "prevRank": 31,
       "normalizedScore": 21.19
+    },
+    "#2QRGVCGUV": {
+      "tier": "F",
+      "score": 0,
+      "avgStars": 0,
+      "totalStars": 0,
+      "totalAttacks": 0,
+      "warsInRoster": 0,
+      "totalMissed": 0,
+      "normalizedScore": 0
     },
     "#QVRV0VVJC": {
       "tier": "F",
