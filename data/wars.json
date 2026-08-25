@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 3,
-        "destructionPercentage": 4
+        "stars": 9,
+        "destructionPercentage": 12
       },
       "sixHourNonAttackers": [
         {
@@ -156,11 +156,6 @@
           "townhallLevel": 17
         },
         {
-          "tag": "#8CJ8YJY0P",
-          "name": "ChrolloLucilfer",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#2GP2JUU2",
           "name": "Gustavo Lázaro",
           "townhallLevel": 18
@@ -178,11 +173,6 @@
         {
           "tag": "#QGQJGURCL",
           "name": "SAFONOV",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#GJ2LQVQJ",
-          "name": "Fer",
           "townhallLevel": 18
         },
         {
@@ -310,7 +300,14 @@
           "name": "ChrolloLucilfer",
           "townhallLevel": 18,
           "mapPosition": 11,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 3,
+              "defenderTag": "#LURC2PRQY"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -355,7 +352,14 @@
           "name": "Fer",
           "townhallLevel": 18,
           "mapPosition": 4,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 2,
+              "defenderTag": "#QVCPVC88U"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
