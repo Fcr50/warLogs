@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 12,
-        "destructionPercentage": 16
+        "stars": 27,
+        "destructionPercentage": 36
       },
       "sixHourNonAttackers": [
         {
@@ -128,11 +128,6 @@
         {
           "tag": "#QR8R9QUV8",
           "name": "Dr.Hannibal",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#2LY0P2L9U",
-          "name": "LucasHG9",
           "townhallLevel": 18
         },
         {
@@ -171,23 +166,8 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#QGQJGURCL",
-          "name": "SAFONOV",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#L8RG2PV0G",
           "name": "joaoaoaoao",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#URR0QLV",
-          "name": "Victor Daniel",
-          "townhallLevel": 17
-        },
-        {
-          "tag": "#JYV802Q",
-          "name": "ӃiƦiƬƠ么",
           "townhallLevel": 18
         },
         {
@@ -198,11 +178,6 @@
         {
           "tag": "#GGVCRYP8P",
           "name": "gui",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#P9C0LVLU2",
-          "name": "VINGADOR⚡",
           "townhallLevel": 18
         },
         {
@@ -250,7 +225,14 @@
           "name": "LucasHG9",
           "townhallLevel": 18,
           "mapPosition": 5,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 5,
+              "defenderTag": "#820QURU99"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -338,7 +320,14 @@
           "name": "SAFONOV",
           "townhallLevel": 18,
           "mapPosition": 3,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 8,
+              "defenderTag": "#QVQ0GVLLV"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -372,7 +361,14 @@
           "name": "Victor Daniel",
           "townhallLevel": 17,
           "mapPosition": 24,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 9,
+              "defenderTag": "#8LQJ00PUQ"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -397,7 +393,14 @@
           "name": "ӃiƦiƬƠ么",
           "townhallLevel": 18,
           "mapPosition": 2,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 6,
+              "defenderTag": "#Y9URPU8YC"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -424,7 +427,14 @@
           "name": "VINGADOR⚡",
           "townhallLevel": 18,
           "mapPosition": 1,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 7,
+              "defenderTag": "#2J0CY29G"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
