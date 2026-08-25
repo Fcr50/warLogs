@@ -116,15 +116,10 @@
         ]
       },
       "clan": {
-        "stars": 51,
-        "destructionPercentage": 68
+        "stars": 54,
+        "destructionPercentage": 72
       },
       "sixHourNonAttackers": [
-        {
-          "tag": "#QQC8P9C9R",
-          "name": "Gs.prieto",
-          "townhallLevel": 18
-        },
         {
           "tag": "#8YJYY92GC",
           "name": "RussiaN",
@@ -229,7 +224,14 @@
           "name": "Gs.prieto",
           "townhallLevel": 18,
           "mapPosition": 13,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 27,
+              "defenderTag": "#2RCLULCPU"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
