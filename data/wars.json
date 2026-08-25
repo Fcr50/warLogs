@@ -10,8 +10,8 @@
       "opponent": {
         "name": "AREK RANTAU ID",
         "tag": "#2QR22RY29",
-        "stars": 5,
-        "destructionPercentage": 7.56,
+        "stars": 12,
+        "destructionPercentage": 17.4,
         "members": [
           {
             "tag": "#QVQ0GVLLV",
@@ -178,7 +178,14 @@
           "townhallLevel": 18,
           "mapPosition": 14,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 63,
+              "attackerTag": "#89RC8QQGP",
+              "attackerMapPosition": 14
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -194,7 +201,14 @@
               "defenderTag": "#2CUYLCV02"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 83,
+              "attackerTag": "#2CUYLCV02",
+              "attackerMapPosition": 10
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -247,6 +261,12 @@
               "destructionPercentage": 89,
               "attackerTag": "#LURC2PRQY",
               "attackerMapPosition": 11
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 69,
+              "attackerTag": "#2CUYLCV02",
+              "attackerMapPosition": 10
             }
           ],
           "missedAttacks": 0
@@ -510,7 +530,14 @@
               "defenderTag": "#8V28Q9R98"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#8V28Q9R98",
+              "attackerMapPosition": 21
+            }
+          ],
           "missedAttacks": 0
         },
         {
