@@ -10,8 +10,8 @@
       "opponent": {
         "name": "AREK RANTAU ID",
         "tag": "#2QR22RY29",
-        "stars": 24,
-        "destructionPercentage": 34.4,
+        "stars": 26,
+        "destructionPercentage": 36.56,
         "members": [
           {
             "tag": "#QVQ0GVLLV",
@@ -330,6 +330,12 @@
               "destructionPercentage": 83,
               "attackerTag": "#2GPUJ8RCG",
               "attackerMapPosition": 20
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#80V92PLUR",
+              "attackerMapPosition": 22
             }
           ],
           "missedAttacks": 0
@@ -510,6 +516,12 @@
           ],
           "defensesReceived": [
             {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#8LQJ00PUQ",
+              "attackerMapPosition": 24
+            },
+            {
               "stars": 2,
               "destructionPercentage": 63,
               "attackerTag": "#QJRQUCLVL",
@@ -662,7 +674,20 @@
           "name": "castor",
           "townhallLevel": 18,
           "mapPosition": 25,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 51,
+              "order": 57,
+              "defenderTag": "#80V92PLUR"
+            },
+            {
+              "stars": 1,
+              "destructionPercentage": 47,
+              "order": 58,
+              "defenderTag": "#2GR00GLJL"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,

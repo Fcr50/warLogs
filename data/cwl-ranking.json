@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-26T10:00:40.266Z",
+  "generatedAt": "2026-08-26T10:15:25.036Z",
   "totalWars": 34,
   "liveWar": {
     "opponentName": "AREK RANTAU ID",
-    "totalAttacksDone": 44,
+    "totalAttacksDone": 46,
     "totalAttacksExpected": 50
   },
   "ranking": [
@@ -1053,6 +1053,42 @@
     },
     {
       "player": {
+        "tag": "#298V9VLU",
+        "name": "castor",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 0.3997157499999999,
+        "rawScore": 0.7994314999999999,
+        "confidence": 0.5,
+        "tier": "C",
+        "attackScore": 1.5450749999999998,
+        "defenseScore": 0,
+        "reliability": 0,
+        "formScore": 1.505,
+        "warsInRoster": 1,
+        "attacksUsed": 2,
+        "attacksAvailable": 2,
+        "avgDestruction": 49,
+        "totalAttacks": 2,
+        "totalStars": 3,
+        "count3Stars": 0,
+        "avgStars": 1.5,
+        "threeStarRate": 0,
+        "totalMissed": 0,
+        "avgPositionDiff": -6.5,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#2QRGVCGUV",
         "name": "elson",
         "townhallLevel": 18
@@ -1120,42 +1156,6 @@
           "defense": 0,
           "reliability": 0.3067,
           "form": 0.1333
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#298V9VLU",
-        "name": "castor",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 0,
-        "rawScore": 0,
-        "confidence": 0.5,
-        "tier": "F",
-        "attackScore": 0,
-        "defenseScore": 0,
-        "reliability": 0,
-        "formScore": 0,
-        "warsInRoster": 1,
-        "attacksUsed": 0,
-        "attacksAvailable": 2,
-        "avgDestruction": 0,
-        "totalAttacks": 0,
-        "totalStars": 0,
-        "count3Stars": 0,
-        "avgStars": 0,
-        "threeStarRate": 0,
-        "totalMissed": 0,
-        "avgPositionDiff": 0,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
         }
       }
     },
@@ -1249,13 +1249,6 @@
     },
     {
       "player": {
-        "tag": "#298V9VLU",
-        "name": "castor",
-        "townhallLevel": 18
-      }
-    },
-    {
-      "player": {
         "tag": "#QVRV0VVJC",
         "name": "tabiba",
         "townhallLevel": 18
@@ -1342,18 +1335,6 @@
       "prevRank": 11,
       "normalizedScore": 68.73
     },
-    "#PLU2VCLG": {
-      "tier": "A",
-      "score": 2.4587799642635146,
-      "avgStars": 2.8117647058823527,
-      "totalStars": 239,
-      "totalAttacks": 85,
-      "warsInRoster": 44,
-      "totalMissed": 2,
-      "rank": 5,
-      "prevRank": 5,
-      "normalizedScore": 70.25
-    },
     "#G9Y2L9QJJ": {
       "tier": "B",
       "score": 2.3108683700460637,
@@ -1365,6 +1346,18 @@
       "rank": 17,
       "prevRank": 17,
       "normalizedScore": 66.02
+    },
+    "#PLU2VCLG": {
+      "tier": "A",
+      "score": 2.4587799642635146,
+      "avgStars": 2.8117647058823527,
+      "totalStars": 239,
+      "totalAttacks": 85,
+      "warsInRoster": 44,
+      "totalMissed": 2,
+      "rank": 5,
+      "prevRank": 5,
+      "normalizedScore": 70.25
     },
     "#QGQJGURCL": {
       "tier": "A",
@@ -1603,14 +1596,15 @@
       "normalizedScore": 68.22
     },
     "#298V9VLU": {
-      "tier": "F",
-      "score": 0,
-      "avgStars": 0,
-      "totalStars": 0,
-      "totalAttacks": 0,
+      "tier": "C",
+      "score": 0.3997157499999999,
+      "avgStars": 1.5,
+      "totalStars": 3,
+      "totalAttacks": 2,
       "warsInRoster": 1,
       "totalMissed": 0,
-      "normalizedScore": 0
+      "rank": 32,
+      "normalizedScore": 11.42
     },
     "#QVRV0VVJC": {
       "tier": "F",
@@ -1670,7 +1664,7 @@
     },
     "#URR0QLV": {
       "tier": "B",
-      "score": 1.3374656135135132,
+      "score": 1.232560208108108,
       "avgStars": 2.75,
       "totalStars": 11,
       "totalAttacks": 4,
@@ -1678,19 +1672,19 @@
       "totalMissed": 0,
       "rank": 27,
       "prevRank": 27,
-      "normalizedScore": 38.21
+      "normalizedScore": 35.22
     },
     "#RC82GPG": {
       "tier": "C",
-      "score": 0.2616274361957601,
+      "score": 0.17740247814720028,
       "avgStars": 2.388888888888889,
       "totalStars": 43,
       "totalAttacks": 18,
       "warsInRoster": 14,
       "totalMissed": 8,
-      "rank": 32,
+      "rank": 33,
       "prevRank": 32,
-      "normalizedScore": 7.48
+      "normalizedScore": 5.07
     },
     "#LR2U2PRP2": {
       "tier": "C",
@@ -1712,7 +1706,7 @@
       "totalAttacks": 2,
       "warsInRoster": 12,
       "totalMissed": 18,
-      "rank": 34,
+      "rank": 35,
       "prevRank": 34,
       "normalizedScore": -13.47
     },
@@ -1724,7 +1718,7 @@
       "totalAttacks": 8,
       "warsInRoster": 6,
       "totalMissed": 2,
-      "rank": 33,
+      "rank": 34,
       "prevRank": 33,
       "normalizedScore": -8.9
     },
