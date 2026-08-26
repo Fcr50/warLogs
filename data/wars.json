@@ -10,8 +10,8 @@
       "opponent": {
         "name": "AREK RANTAU ID",
         "tag": "#2QR22RY29",
-        "stars": 39,
-        "destructionPercentage": 57.8,
+        "stars": 47,
+        "destructionPercentage": 66.28,
         "members": [
           {
             "tag": "#QVQ0GVLLV",
@@ -229,7 +229,14 @@
               "defenderTag": "#2JVQL9G2C"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#2J0CY29G",
+              "attackerMapPosition": 1
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -497,7 +504,14 @@
               "defenderTag": "#2920QQGVJ"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#2RCLULCPU",
+              "attackerMapPosition": 13
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -599,6 +613,12 @@
             }
           ],
           "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#2920QQGVJ",
+              "attackerMapPosition": 9
+            },
             {
               "stars": 1,
               "destructionPercentage": 88,
