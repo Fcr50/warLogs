@@ -10,8 +10,8 @@
       "opponent": {
         "name": "100%",
         "tag": "#9P820CJ9",
-        "stars": 0,
-        "destructionPercentage": 0,
+        "stars": 4,
+        "destructionPercentage": 7.76,
         "members": [
           {
             "tag": "#9YY2LUYJ",
@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 18,
-        "destructionPercentage": 24
+        "stars": 21,
+        "destructionPercentage": 28
       },
       "sixHourNonAttackers": [
         {
@@ -198,11 +198,6 @@
         {
           "tag": "#80LUCC9YV",
           "name": "Lobo ®",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#P9C0LVLU2",
-          "name": "VINGADOR⚡",
           "townhallLevel": 18
         },
         {
@@ -327,7 +322,14 @@
           "townhallLevel": 18,
           "mapPosition": 3,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 1,
+              "destructionPercentage": 94,
+              "attackerTag": "#PLPVVQG",
+              "attackerMapPosition": 3
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -370,7 +372,14 @@
           "townhallLevel": 18,
           "mapPosition": 8,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#2292UPYGG",
+              "attackerMapPosition": 8
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -436,7 +445,14 @@
           "name": "VINGADOR⚡",
           "townhallLevel": 18,
           "mapPosition": 1,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 10,
+              "defenderTag": "#J220JQLQ"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
