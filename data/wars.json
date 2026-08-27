@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 45,
-        "destructionPercentage": 60
+        "stars": 51,
+        "destructionPercentage": 68
       },
       "sixHourNonAttackers": [
         {
@@ -128,11 +128,6 @@
         {
           "tag": "#QQC8P9C9R",
           "name": "Gs.prieto",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#8CJ8YJY0P",
-          "name": "ChrolloLucilfer",
           "townhallLevel": 18
         },
         {
@@ -163,11 +158,6 @@
         {
           "tag": "#YPVQVU982",
           "name": "亗 ＨＡＤＥＳ_０７ 亗",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QJVQVRPU",
-          "name": "Frnnn",
           "townhallLevel": 18
         }
       ],
@@ -259,7 +249,14 @@
           "name": "ChrolloLucilfer",
           "townhallLevel": 18,
           "mapPosition": 14,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 24,
+              "defenderTag": "#LU0LP09PP"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -512,7 +509,14 @@
           "name": "Frnnn",
           "townhallLevel": 18,
           "mapPosition": 10,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 23,
+              "defenderTag": "#V2LQVPP2"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
