@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 39,
-        "destructionPercentage": 52
+        "stars": 42,
+        "destructionPercentage": 56
       },
       "sixHourNonAttackers": [
         {
@@ -143,11 +143,6 @@
         {
           "tag": "#G9Y2L9QJJ",
           "name": "Micael",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#GJ2LQVQJ",
-          "name": "Fer",
           "townhallLevel": 18
         },
         {
@@ -341,7 +336,14 @@
           "name": "Fer",
           "townhallLevel": 18,
           "mapPosition": 4,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 21,
+              "defenderTag": "#208JPLJC0"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },

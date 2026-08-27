@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-27T17:40:26.547Z",
+  "generatedAt": "2026-08-27T17:55:22.057Z",
   "totalWars": 34,
   "liveWar": {
     "opponentName": "100%",
-    "totalAttacksDone": 15,
+    "totalAttacksDone": 16,
     "totalAttacksExpected": 50
   },
   "ranking": [
@@ -225,6 +225,42 @@
     },
     {
       "player": {
+        "tag": "#GJ2LQVQJ",
+        "name": "Fer",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.4574730751424423,
+        "rawScore": 2.4574730751424423,
+        "confidence": 1,
+        "tier": "A",
+        "attackScore": 3.33665031257878,
+        "defenseScore": 0.09679036367271293,
+        "reliability": 0.9882352941176471,
+        "formScore": 3.5,
+        "warsInRoster": 45,
+        "attacksUsed": 88,
+        "attacksAvailable": 89,
+        "avgDestruction": 95.7159090909091,
+        "totalAttacks": 88,
+        "totalStars": 246,
+        "count3Stars": 72,
+        "avgStars": 2.7954545454545454,
+        "threeStarRate": 0.8181818181818182,
+        "totalMissed": 0,
+        "avgPositionDiff": 1.9204545454545454,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#LQQRGJ8VU",
         "name": "i-Vinni",
         "townhallLevel": 18
@@ -249,42 +285,6 @@
         "threeStarRate": 0.7205882352941176,
         "totalMissed": 1,
         "avgPositionDiff": -6.632352941176471,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#GJ2LQVQJ",
-        "name": "Fer",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.445350657021232,
-        "rawScore": 2.445350657021232,
-        "confidence": 1,
-        "tier": "A",
-        "attackScore": 3.3077874122901845,
-        "defenseScore": 0.09679036367271293,
-        "reliability": 0.9882352941176471,
-        "formScore": 3.5,
-        "warsInRoster": 45,
-        "attacksUsed": 87,
-        "attacksAvailable": 89,
-        "avgDestruction": 95.66666666666667,
-        "totalAttacks": 87,
-        "totalStars": 243,
-        "count3Stars": 71,
-        "avgStars": 2.793103448275862,
-        "threeStarRate": 0.8160919540229885,
-        "totalMissed": 0,
-        "avgPositionDiff": 1.9425287356321839,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1323,6 +1323,18 @@
       "prevRank": 15,
       "normalizedScore": 65.91
     },
+    "#2LY0P2L9U": {
+      "tier": "S",
+      "score": 2.564298538716552,
+      "avgStars": 2.9431818181818183,
+      "totalStars": 259,
+      "totalAttacks": 88,
+      "warsInRoster": 46,
+      "totalMissed": 0,
+      "rank": 1,
+      "prevRank": 1,
+      "normalizedScore": 73.27
+    },
     "#2GP2JUU2": {
       "tier": "S",
       "score": 2.5291351792594634,
@@ -1337,27 +1349,15 @@
     },
     "#GJ2LQVQJ": {
       "tier": "A",
-      "score": 2.445350657021232,
-      "avgStars": 2.793103448275862,
-      "totalStars": 243,
-      "totalAttacks": 87,
+      "score": 2.4574730751424423,
+      "avgStars": 2.7954545454545454,
+      "totalStars": 246,
+      "totalAttacks": 88,
       "warsInRoster": 45,
       "totalMissed": 0,
-      "rank": 8,
+      "rank": 7,
       "prevRank": 8,
-      "normalizedScore": 69.87
-    },
-    "#2LY0P2L9U": {
-      "tier": "S",
-      "score": 2.564298538716552,
-      "avgStars": 2.9431818181818183,
-      "totalStars": 259,
-      "totalAttacks": 88,
-      "warsInRoster": 46,
-      "totalMissed": 0,
-      "rank": 1,
-      "prevRank": 1,
-      "normalizedScore": 73.27
+      "normalizedScore": 70.21
     },
     "#8CJ8YJY0P": {
       "tier": "B",
@@ -1673,7 +1673,7 @@
       "totalAttacks": 68,
       "warsInRoster": 37,
       "totalMissed": 1,
-      "rank": 7,
+      "rank": 8,
       "prevRank": 7,
       "normalizedScore": 70.12
     },
