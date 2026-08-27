@@ -10,8 +10,8 @@
       "opponent": {
         "name": "100%",
         "tag": "#9P820CJ9",
-        "stars": 6,
-        "destructionPercentage": 8,
+        "stars": 10,
+        "destructionPercentage": 14.32,
         "members": [
           {
             "tag": "#9YY2LUYJ",
@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 36,
-        "destructionPercentage": 48
+        "stars": 39,
+        "destructionPercentage": 52
       },
       "sixHourNonAttackers": [
         {
@@ -143,11 +143,6 @@
         {
           "tag": "#G9Y2L9QJJ",
           "name": "Micael",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QGQJGURCL",
-          "name": "SAFONOV",
           "townhallLevel": 18
         },
         {
@@ -317,7 +312,14 @@
           "name": "SAFONOV",
           "townhallLevel": 18,
           "mapPosition": 3,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 18,
+              "defenderTag": "#PLPVVQG"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -410,7 +412,14 @@
               "defenderTag": "#G9GRLYUR"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 65,
+              "attackerTag": "#G9GRLYUR",
+              "attackerMapPosition": 2
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -475,7 +484,14 @@
               "defenderTag": "#J220JQLQ"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 93,
+              "attackerTag": "#G9GRLYUR",
+              "attackerMapPosition": 2
+            }
+          ],
           "missedAttacks": 0
         },
         {
