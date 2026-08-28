@@ -10,8 +10,8 @@
       "opponent": {
         "name": "100%",
         "tag": "#9P820CJ9",
-        "stars": 62,
-        "destructionPercentage": 89.8,
+        "stars": 64,
+        "destructionPercentage": 94.08,
         "members": [
           {
             "tag": "#9YY2LUYJ",
@@ -309,7 +309,14 @@
               "defenderTag": "#J220JQLQ"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 95,
+              "attackerTag": "#J220JQLQ",
+              "attackerMapPosition": 1
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -361,6 +368,12 @@
             }
           ],
           "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 81,
+              "attackerTag": "#J220JQLQ",
+              "attackerMapPosition": 1
+            },
             {
               "stars": 2,
               "destructionPercentage": 69,
@@ -602,7 +615,20 @@
           "name": "BTV✯Robin Hood",
           "townhallLevel": 18,
           "mapPosition": 8,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 81,
+              "defenderTag": "#J220JQLQ"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 83,
+              "defenderTag": "#G9GRLYUR"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
