@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 24,
-        "destructionPercentage": 32
+        "stars": 33,
+        "destructionPercentage": 44
       },
       "sixHourNonAttackers": [
         {
@@ -156,16 +156,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#QGQJGURCL",
-          "name": "SAFONOV",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#URR0QLV",
-          "name": "Victor Daniel",
-          "townhallLevel": 17
-        },
-        {
           "tag": "#20JC0J9JR",
           "name": "BTV✯Robin Hood",
           "townhallLevel": 18
@@ -173,11 +163,6 @@
         {
           "tag": "#29LP0VJV0",
           "name": "Warlord Raivon",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#80LUCC9YV",
-          "name": "Lobo ®",
           "townhallLevel": 18
         },
         {
@@ -330,7 +315,14 @@
           "name": "SAFONOV",
           "townhallLevel": 18,
           "mapPosition": 2,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 17,
+              "defenderTag": "#QRCPCRR9J"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -355,7 +347,14 @@
           "name": "Victor Daniel",
           "townhallLevel": 17,
           "mapPosition": 24,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 15,
+              "defenderTag": "#R8LGUYVR0"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -434,7 +433,14 @@
           "name": "Lobo ®",
           "townhallLevel": 18,
           "mapPosition": 5,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 16,
+              "defenderTag": "#QG0JYU0GP"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
