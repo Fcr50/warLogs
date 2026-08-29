@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T17:40:22.365Z",
+  "generatedAt": "2026-08-29T17:55:26.870Z",
   "totalWars": 34,
   "liveWar": {
     "opponentName": "WAR HEROS 71",
@@ -1089,6 +1089,42 @@
     },
     {
       "player": {
+        "tag": "#Y28VL2L0J",
+        "name": "Daniel",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 0,
+        "rawScore": 0,
+        "confidence": 0,
+        "tier": "F",
+        "attackScore": 0,
+        "defenseScore": 0,
+        "reliability": 0,
+        "formScore": 0,
+        "warsInRoster": 0,
+        "attacksUsed": 0,
+        "attacksAvailable": 0,
+        "avgDestruction": 0,
+        "totalAttacks": 0,
+        "totalStars": 0,
+        "count3Stars": 0,
+        "avgStars": 0,
+        "threeStarRate": 0,
+        "totalMissed": 0,
+        "avgPositionDiff": 0,
+        "hasAnyDefense": false,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.56,
+          "defense": 0,
+          "reliability": 0.3067,
+          "form": 0.1333
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#U8PLRYRJ",
         "name": "Detonador",
         "townhallLevel": 18
@@ -1127,42 +1163,6 @@
       "player": {
         "tag": "#JPVGQP8V",
         "name": "♤Pluto♤",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 0,
-        "rawScore": 0,
-        "confidence": 0,
-        "tier": "F",
-        "attackScore": 0,
-        "defenseScore": 0,
-        "reliability": 0,
-        "formScore": 0,
-        "warsInRoster": 0,
-        "attacksUsed": 0,
-        "attacksAvailable": 0,
-        "avgDestruction": 0,
-        "totalAttacks": 0,
-        "totalStars": 0,
-        "count3Stars": 0,
-        "avgStars": 0,
-        "threeStarRate": 0,
-        "totalMissed": 0,
-        "avgPositionDiff": 0,
-        "hasAnyDefense": false,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.56,
-          "defense": 0,
-          "reliability": 0.3067,
-          "form": 0.1333
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#Y28VL2L0J",
-        "name": "Daniel",
         "townhallLevel": 18
       },
       "data": {
@@ -1271,6 +1271,13 @@
   "noDataList": [
     {
       "player": {
+        "tag": "#Y28VL2L0J",
+        "name": "Daniel",
+        "townhallLevel": 18
+      }
+    },
+    {
+      "player": {
         "tag": "#U8PLRYRJ",
         "name": "Detonador",
         "townhallLevel": 18
@@ -1280,13 +1287,6 @@
       "player": {
         "tag": "#JPVGQP8V",
         "name": "♤Pluto♤",
-        "townhallLevel": 18
-      }
-    },
-    {
-      "player": {
-        "tag": "#Y28VL2L0J",
-        "name": "Daniel",
         "townhallLevel": 18
       }
     },
@@ -1606,6 +1606,16 @@
       "prevRank": 24,
       "normalizedScore": 48.97
     },
+    "#Y28VL2L0J": {
+      "tier": "F",
+      "score": 0,
+      "avgStars": 0,
+      "totalStars": 0,
+      "totalAttacks": 0,
+      "warsInRoster": 0,
+      "totalMissed": 0,
+      "normalizedScore": 0
+    },
     "#U8PLRYRJ": {
       "tier": "F",
       "score": 0,
@@ -1637,16 +1647,6 @@
       "rank": 19,
       "prevRank": 19,
       "normalizedScore": 59.35
-    },
-    "#Y28VL2L0J": {
-      "tier": "F",
-      "score": 0,
-      "avgStars": 0,
-      "totalStars": 0,
-      "totalAttacks": 0,
-      "warsInRoster": 0,
-      "totalMissed": 0,
-      "normalizedScore": 0
     },
     "#8VCUUPPJP": {
       "tier": "B",
