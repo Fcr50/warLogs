@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 42,
-        "destructionPercentage": 56
+        "stars": 45,
+        "destructionPercentage": 60
       },
       "sixHourNonAttackers": [
         {
@@ -133,11 +133,6 @@
         {
           "tag": "#2LY0P2L9U",
           "name": "LucasHG9",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#2QL0VR9GU",
-          "name": "Marcola",
           "townhallLevel": 18
         },
         {
@@ -225,7 +220,14 @@
           "name": "Marcola",
           "townhallLevel": 18,
           "mapPosition": 14,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 23,
+              "defenderTag": "#PCU2VYVLR"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
