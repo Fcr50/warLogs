@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 21,
-        "destructionPercentage": 28
+        "stars": 24,
+        "destructionPercentage": 32
       },
       "sixHourNonAttackers": [
         {
@@ -168,11 +168,6 @@
         {
           "tag": "#20JC0J9JR",
           "name": "BTV✯Robin Hood",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#VPPQ8VLV",
-          "name": "GABRIEL LOBATO",
           "townhallLevel": 18
         },
         {
@@ -401,7 +396,14 @@
           "name": "GABRIEL LOBATO",
           "townhallLevel": 18,
           "mapPosition": 22,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 14,
+              "defenderTag": "#8CQ9RG8GG"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 2,
