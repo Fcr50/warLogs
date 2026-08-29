@@ -116,18 +116,13 @@
         ]
       },
       "clan": {
-        "stars": 48,
-        "destructionPercentage": 64
+        "stars": 54,
+        "destructionPercentage": 72
       },
       "sixHourNonAttackers": [
         {
           "tag": "#8VCUUPPJP",
           "name": "Satsugai",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#2LY0P2L9U",
-          "name": "LucasHG9",
           "townhallLevel": 18
         },
         {
@@ -153,11 +148,6 @@
         {
           "tag": "#GQU9Y0CQ8",
           "name": "Scok♤",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QJVQVRPU",
-          "name": "Frnnn",
           "townhallLevel": 18
         },
         {
@@ -197,7 +187,14 @@
           "name": "LucasHG9",
           "townhallLevel": 18,
           "mapPosition": 6,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 25,
+              "defenderTag": "#YY8LYCRV2"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -521,7 +518,14 @@
           "name": "Frnnn",
           "townhallLevel": 18,
           "mapPosition": 9,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 26,
+              "defenderTag": "#GYJLJU80Q"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
