@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-30T09:10:24.563Z",
+  "generatedAt": "2026-08-30T09:25:17.395Z",
   "totalWars": 34,
   "liveWar": {
     "opponentName": "INDIAN SMASHERS",
-    "totalAttacksDone": 32,
+    "totalAttacksDone": 33,
     "totalAttacksExpected": 50
   },
   "ranking": [
@@ -33,42 +33,6 @@
         "threeStarRate": 0.9438202247191011,
         "totalMissed": 0,
         "avgPositionDiff": -0.3258426966292135,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#2GP2JUU2",
-        "name": "Gustavo Lázaro",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.54227976165594,
-        "rawScore": 2.54227976165594,
-        "confidence": 1,
-        "tier": "S",
-        "attackScore": 3.498961585841292,
-        "defenseScore": 0.1308635824103886,
-        "reliability": 1,
-        "formScore": 3.5,
-        "warsInRoster": 46,
-        "attacksUsed": 89,
-        "attacksAvailable": 91,
-        "avgDestruction": 99.1685393258427,
-        "totalAttacks": 89,
-        "totalStars": 256,
-        "count3Stars": 79,
-        "avgStars": 2.8764044943820224,
-        "threeStarRate": 0.8876404494382022,
-        "totalMissed": 0,
-        "avgPositionDiff": -0.6741573033707865,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -141,6 +105,42 @@
         "threeStarRate": 0.8433734939759037,
         "totalMissed": 2,
         "avgPositionDiff": -0.12048192771084337,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#2GP2JUU2",
+        "name": "Gustavo Lázaro",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.483311323532755,
+        "rawScore": 2.483311323532755,
+        "confidence": 1,
+        "tier": "S",
+        "attackScore": 3.4246319712622806,
+        "defenseScore": 0.1308635824103886,
+        "reliability": 1,
+        "formScore": 3.2225,
+        "warsInRoster": 46,
+        "attacksUsed": 90,
+        "attacksAvailable": 91,
+        "avgDestruction": 99.05555555555556,
+        "totalAttacks": 90,
+        "totalStars": 258,
+        "count3Stars": 79,
+        "avgStars": 2.8666666666666667,
+        "threeStarRate": 0.8777777777777778,
+        "totalMissed": 0,
+        "avgPositionDiff": -0.7777777777777778,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1244,6 +1244,18 @@
       "prevRank": 7,
       "normalizedScore": 70.06
     },
+    "#2LY0P2L9U": {
+      "tier": "S",
+      "score": 2.563870738313375,
+      "avgStars": 2.943820224719101,
+      "totalStars": 262,
+      "totalAttacks": 89,
+      "warsInRoster": 46,
+      "totalMissed": 0,
+      "rank": 1,
+      "prevRank": 1,
+      "normalizedScore": 73.25
+    },
     "#GJ2LQVQJ": {
       "tier": "B",
       "score": 2.267354619580008,
@@ -1268,29 +1280,17 @@
       "prevRank": 8,
       "normalizedScore": 69.98
     },
-    "#2LY0P2L9U": {
-      "tier": "S",
-      "score": 2.563870738313375,
-      "avgStars": 2.943820224719101,
-      "totalStars": 262,
-      "totalAttacks": 89,
-      "warsInRoster": 46,
-      "totalMissed": 0,
-      "rank": 1,
-      "prevRank": 1,
-      "normalizedScore": 73.25
-    },
     "#2GP2JUU2": {
       "tier": "S",
-      "score": 2.54227976165594,
-      "avgStars": 2.8764044943820224,
-      "totalStars": 256,
-      "totalAttacks": 89,
+      "score": 2.483311323532755,
+      "avgStars": 2.8666666666666667,
+      "totalStars": 258,
+      "totalAttacks": 90,
       "warsInRoster": 46,
       "totalMissed": 0,
-      "rank": 2,
+      "rank": 4,
       "prevRank": 2,
-      "normalizedScore": 72.64
+      "normalizedScore": 70.95
     },
     "#JYV802Q": {
       "tier": "A",
@@ -1360,7 +1360,7 @@
       "totalAttacks": 83,
       "warsInRoster": 43,
       "totalMissed": 2,
-      "rank": 4,
+      "rank": 3,
       "prevRank": 4,
       "normalizedScore": 71.6
     },
@@ -1396,7 +1396,7 @@
       "totalAttacks": 89,
       "warsInRoster": 45,
       "totalMissed": 1,
-      "rank": 3,
+      "rank": 2,
       "prevRank": 3,
       "normalizedScore": 71.6
     },
