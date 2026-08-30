@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-30T12:25:19.135Z",
+  "generatedAt": "2026-08-30T12:40:39.084Z",
   "totalWars": 34,
   "liveWar": {
     "opponentName": "INDIAN SMASHERS",
-    "totalAttacksDone": 36,
+    "totalAttacksDone": 37,
     "totalAttacksExpected": 50
   },
   "ranking": [
@@ -405,42 +405,6 @@
     },
     {
       "player": {
-        "tag": "#QR8R9QUV8",
-        "name": "Dr.Hannibal",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.346099075765132,
-        "rawScore": 2.346099075765132,
-        "confidence": 1,
-        "tier": "A",
-        "attackScore": 3.1701245603504518,
-        "defenseScore": 0.1401463473612578,
-        "reliability": 0.9548698167791707,
-        "formScore": 3.2075,
-        "warsInRoster": 40,
-        "attacksUsed": 74,
-        "attacksAvailable": 79,
-        "avgDestruction": 97.13513513513513,
-        "totalAttacks": 74,
-        "totalStars": 201,
-        "count3Stars": 56,
-        "avgStars": 2.7162162162162162,
-        "threeStarRate": 0.7567567567567568,
-        "totalMissed": 1,
-        "avgPositionDiff": -4.0675675675675675,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
         "tag": "#8VCUUPPJP",
         "name": "Satsugai",
         "townhallLevel": 18
@@ -537,6 +501,42 @@
         "threeStarRate": 0.647887323943662,
         "totalMissed": 2,
         "avgPositionDiff": -3.9577464788732395,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#QR8R9QUV8",
+        "name": "Dr.Hannibal",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.2864177076070744,
+        "rawScore": 2.2864177076070744,
+        "confidence": 1,
+        "tier": "A",
+        "attackScore": 3.090526064736029,
+        "defenseScore": 0.1401463473612578,
+        "reliability": 0.9548698167791707,
+        "formScore": 2.9450000000000003,
+        "warsInRoster": 40,
+        "attacksUsed": 75,
+        "attacksAvailable": 79,
+        "avgDestruction": 97.10666666666667,
+        "totalAttacks": 75,
+        "totalStars": 203,
+        "count3Stars": 56,
+        "avgStars": 2.7066666666666666,
+        "threeStarRate": 0.7466666666666667,
+        "totalMissed": 1,
+        "avgPositionDiff": -4.133333333333334,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1300,7 +1300,7 @@
       "totalAttacks": 16,
       "warsInRoster": 8,
       "totalMissed": 0,
-      "rank": 14,
+      "rank": 13,
       "prevRank": 14,
       "normalizedScore": 66.68
     },
@@ -1317,14 +1317,14 @@
       "normalizedScore": 64.29
     },
     "#29LP0VJV0": {
-      "tier": "B",
+      "tier": "A",
       "score": 2.2955703931724547,
       "avgStars": 2.492957746478873,
       "totalStars": 177,
       "totalAttacks": 71,
       "warsInRoster": 37,
       "totalMissed": 2,
-      "rank": 15,
+      "rank": 14,
       "prevRank": 15,
       "normalizedScore": 65.59
     },
@@ -1341,16 +1341,16 @@
       "normalizedScore": 71.6
     },
     "#QR8R9QUV8": {
-      "tier": "A",
-      "score": 2.346099075765132,
-      "avgStars": 2.7162162162162162,
-      "totalStars": 201,
-      "totalAttacks": 74,
+      "tier": "B",
+      "score": 2.2864177076070744,
+      "avgStars": 2.7066666666666666,
+      "totalStars": 203,
+      "totalAttacks": 75,
       "warsInRoster": 40,
       "totalMissed": 1,
-      "rank": 12,
+      "rank": 15,
       "prevRank": 12,
-      "normalizedScore": 67.03
+      "normalizedScore": 65.33
     },
     "#G9Y2L9QJJ": {
       "tier": "A",
@@ -1550,7 +1550,7 @@
       "totalAttacks": 56,
       "warsInRoster": 29,
       "totalMissed": 1,
-      "rank": 13,
+      "rank": 12,
       "prevRank": 13,
       "normalizedScore": 66.73
     },
