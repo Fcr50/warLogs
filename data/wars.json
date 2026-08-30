@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 69,
-        "destructionPercentage": 92
+        "stars": 75,
+        "destructionPercentage": 100
       },
       "sixHourNonAttackers": [
         {
@@ -152,7 +152,14 @@
           "name": "Satsugai",
           "townhallLevel": 18,
           "mapPosition": 16,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 35,
+              "defenderTag": "#P22JPVYYG"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -362,6 +369,12 @@
               "destructionPercentage": 100,
               "order": 15,
               "defenderTag": "#R8LGUYVR0"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 36,
+              "defenderTag": "#GV890L2JC"
             }
           ],
           "defensesReceived": [
