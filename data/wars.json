@@ -10,8 +10,8 @@
       "opponent": {
         "name": "Red Dinner",
         "tag": "#2GC82P0U9",
-        "stars": 34,
-        "destructionPercentage": 47,
+        "stars": 43,
+        "destructionPercentage": 59,
         "members": [
           {
             "tag": "#8U9QQCGV",
@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 33,
-        "destructionPercentage": 44
+        "stars": 36,
+        "destructionPercentage": 48
       },
       "sixHourNonAttackers": [
         {
@@ -153,11 +153,6 @@
         {
           "tag": "#20JC0J9JR",
           "name": "BTV✯Robin Hood",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#JYV802Q",
-          "name": "ӃiƦiƬƠ么",
           "townhallLevel": 18
         },
         {
@@ -432,7 +427,14 @@
               "defenderTag": "#9G0QRQVCL"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#9G0QRQVCL",
+              "attackerMapPosition": 9
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -456,7 +458,14 @@
           "name": "ӃiƦiƬƠ么",
           "townhallLevel": 18,
           "mapPosition": 2,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 30,
+              "defenderTag": "#PLG28L9VJ"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -537,7 +546,14 @@
           "townhallLevel": 18,
           "mapPosition": 7,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#8L8PY9CY",
+              "attackerMapPosition": 1
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -562,7 +578,14 @@
           "townhallLevel": 18,
           "mapPosition": 11,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#9G0QRQVCL",
+              "attackerMapPosition": 9
+            }
+          ],
           "missedAttacks": 0
         },
         {
