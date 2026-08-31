@@ -10,8 +10,8 @@
       "opponent": {
         "name": "Red Dinner",
         "tag": "#2GC82P0U9",
-        "stars": 53,
-        "destructionPercentage": 71.88,
+        "stars": 63,
+        "destructionPercentage": 86.52,
         "members": [
           {
             "tag": "#8U9QQCGV",
@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 42,
-        "destructionPercentage": 56
+        "stars": 45,
+        "destructionPercentage": 60
       },
       "sixHourNonAttackers": [
         {
@@ -163,11 +163,6 @@
         {
           "tag": "#GGVCRYP8P",
           "name": "gui",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#YPVQVU982",
-          "name": "亗 ＨＡＤＥＳ_０７ 亗",
           "townhallLevel": 18
         },
         {
@@ -428,7 +423,14 @@
           "townhallLevel": 17,
           "mapPosition": 24,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#QP0CCG8UV",
+              "attackerMapPosition": 25
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -544,7 +546,14 @@
           "townhallLevel": 18,
           "mapPosition": 20,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 80,
+              "attackerTag": "#Q8CC2JPLV",
+              "attackerMapPosition": 24
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -575,7 +584,14 @@
           "name": "亗 ＨＡＤＥＳ_０７ 亗",
           "townhallLevel": 18,
           "mapPosition": 7,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 38,
+              "defenderTag": "#YQJ0V92"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -599,7 +615,14 @@
               "defenderTag": "#QLQC2RJU8"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#QP0CCG8UV",
+              "attackerMapPosition": 25
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -637,7 +660,14 @@
               "defenderTag": "#QLQC2RJU8"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 86,
+              "attackerTag": "#Q8CC2JPLV",
+              "attackerMapPosition": 24
+            }
+          ],
           "missedAttacks": 0
         },
         {
