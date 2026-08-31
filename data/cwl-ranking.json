@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-31T23:10:21.993Z",
+  "generatedAt": "2026-08-31T23:25:23.718Z",
   "totalWars": 33,
   "liveWar": {
     "opponentName": "Red Dinner",
-    "totalAttacksDone": 21,
+    "totalAttacksDone": 22,
     "totalAttacksExpected": 50
   },
   "ranking": [
@@ -765,6 +765,42 @@
     },
     {
       "player": {
+        "tag": "#80LUCC9YV",
+        "name": "Lobo ®",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.030495356744179,
+        "rawScore": 2.030495356744179,
+        "confidence": 1,
+        "tier": "A",
+        "attackScore": 2.5149997002930378,
+        "defenseScore": 0.0665022102046921,
+        "reliability": 0.8805361305361306,
+        "formScore": 3.5,
+        "warsInRoster": 38,
+        "attacksUsed": 70,
+        "attacksAvailable": 76,
+        "avgDestruction": 97.32857142857142,
+        "totalAttacks": 70,
+        "totalStars": 195,
+        "count3Stars": 59,
+        "avgStars": 2.7857142857142856,
+        "threeStarRate": 0.8428571428571429,
+        "totalMissed": 3,
+        "avgPositionDiff": 3.8142857142857145,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#20JC0J9JR",
         "name": "BTV✯Robin Hood",
         "townhallLevel": 18
@@ -789,42 +825,6 @@
         "threeStarRate": 0.9111111111111111,
         "totalMissed": 14,
         "avgPositionDiff": -0.9777777777777777,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#80LUCC9YV",
-        "name": "Lobo ®",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 1.9271829468424422,
-        "rawScore": 1.9271829468424422,
-        "confidence": 1,
-        "tier": "A",
-        "attackScore": 2.269017771955569,
-        "defenseScore": 0.0665022102046921,
-        "reliability": 0.8805361305361306,
-        "formScore": 3.5,
-        "warsInRoster": 38,
-        "attacksUsed": 69,
-        "attacksAvailable": 76,
-        "avgDestruction": 97.28985507246377,
-        "totalAttacks": 69,
-        "totalStars": 192,
-        "count3Stars": 58,
-        "avgStars": 2.782608695652174,
-        "threeStarRate": 0.8405797101449275,
-        "totalMissed": 3,
-        "avgPositionDiff": 3.869565217391304,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1324,7 +1324,7 @@
       "totalAttacks": 45,
       "warsInRoster": 34,
       "totalMissed": 14,
-      "rank": 22,
+      "rank": 23,
       "prevRank": 22,
       "normalizedScore": 55.57
     },
@@ -1482,6 +1482,18 @@
       "prevRank": 3,
       "normalizedScore": 71.1
     },
+    "#QR8R9QUV8": {
+      "tier": "B",
+      "score": 2.29122102792958,
+      "avgStars": 2.7066666666666666,
+      "totalStars": 203,
+      "totalAttacks": 75,
+      "warsInRoster": 41,
+      "totalMissed": 1,
+      "rank": 16,
+      "prevRank": 16,
+      "normalizedScore": 65.46
+    },
     "#29LP0VJV0": {
       "tier": "A",
       "score": 2.3469350142151675,
@@ -1496,27 +1508,15 @@
     },
     "#80LUCC9YV": {
       "tier": "B",
-      "score": 1.9271829468424422,
-      "avgStars": 2.782608695652174,
-      "totalStars": 192,
-      "totalAttacks": 69,
+      "score": 2.030495356744179,
+      "avgStars": 2.7857142857142856,
+      "totalStars": 195,
+      "totalAttacks": 70,
       "warsInRoster": 38,
       "totalMissed": 3,
-      "rank": 23,
+      "rank": 22,
       "prevRank": 23,
-      "normalizedScore": 55.06
-    },
-    "#QR8R9QUV8": {
-      "tier": "B",
-      "score": 2.29122102792958,
-      "avgStars": 2.7066666666666666,
-      "totalStars": 203,
-      "totalAttacks": 75,
-      "warsInRoster": 41,
-      "totalMissed": 1,
-      "rank": 16,
-      "prevRank": 16,
-      "normalizedScore": 65.46
+      "normalizedScore": 58.01
     },
     "#2R89QJL9Q": {
       "tier": "B",

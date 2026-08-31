@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 54,
-        "destructionPercentage": 72
+        "stars": 57,
+        "destructionPercentage": 76
       },
       "sixHourNonAttackers": [
         {
@@ -139,11 +139,6 @@
           "tag": "#URR0QLV",
           "name": "Victor Daniel",
           "townhallLevel": 17
-        },
-        {
-          "tag": "#80LUCC9YV",
-          "name": "Lobo ®",
-          "townhallLevel": 18
         },
         {
           "tag": "#GGVCRYP8P",
@@ -535,7 +530,14 @@
           "name": "Lobo ®",
           "townhallLevel": 18,
           "mapPosition": 5,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 46,
+              "defenderTag": "#92CUV0JR"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
