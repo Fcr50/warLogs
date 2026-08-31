@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-31T21:10:29.095Z",
+  "generatedAt": "2026-08-31T21:25:24.907Z",
   "totalWars": 33,
   "liveWar": {
     "opponentName": "Red Dinner",
-    "totalAttacksDone": 16,
+    "totalAttacksDone": 17,
     "totalAttacksExpected": 50
   },
   "ranking": [
@@ -765,6 +765,42 @@
     },
     {
       "player": {
+        "tag": "#20JC0J9JR",
+        "name": "BTV✯Robin Hood",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 1.944994076787753,
+        "rawScore": 1.944994076787753,
+        "confidence": 1,
+        "tier": "A",
+        "attackScore": 2.572428081391092,
+        "defenseScore": 0.14804258495943176,
+        "reliability": 0.6921212121212121,
+        "formScore": 3.5,
+        "warsInRoster": 34,
+        "attacksUsed": 45,
+        "attacksAvailable": 67,
+        "avgDestruction": 98.77777777777777,
+        "totalAttacks": 45,
+        "totalStars": 131,
+        "count3Stars": 41,
+        "avgStars": 2.911111111111111,
+        "threeStarRate": 0.9111111111111111,
+        "totalMissed": 14,
+        "avgPositionDiff": -0.9777777777777777,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#80LUCC9YV",
         "name": "Lobo ®",
         "townhallLevel": 18
@@ -789,42 +825,6 @@
         "threeStarRate": 0.8405797101449275,
         "totalMissed": 3,
         "avgPositionDiff": 3.869565217391304,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#20JC0J9JR",
-        "name": "BTV✯Robin Hood",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 1.840262088139381,
-        "rawScore": 1.840262088139381,
-        "confidence": 1,
-        "tier": "A",
-        "attackScore": 2.323066203656873,
-        "defenseScore": 0.14804258495943176,
-        "reliability": 0.6921212121212121,
-        "formScore": 3.5,
-        "warsInRoster": 34,
-        "attacksUsed": 44,
-        "attacksAvailable": 67,
-        "avgDestruction": 98.75,
-        "totalAttacks": 44,
-        "totalStars": 128,
-        "count3Stars": 40,
-        "avgStars": 2.909090909090909,
-        "threeStarRate": 0.9090909090909091,
-        "totalMissed": 14,
-        "avgPositionDiff": -1,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1316,6 +1316,18 @@
       "prevRank": 14,
       "normalizedScore": 66.11
     },
+    "#20JC0J9JR": {
+      "tier": "B",
+      "score": 1.944994076787753,
+      "avgStars": 2.911111111111111,
+      "totalStars": 131,
+      "totalAttacks": 45,
+      "warsInRoster": 34,
+      "totalMissed": 14,
+      "rank": 22,
+      "prevRank": 24,
+      "normalizedScore": 55.57
+    },
     "#8CJ8YJY0P": {
       "tier": "B",
       "score": 2.247472637660288,
@@ -1466,21 +1478,9 @@
       "totalAttacks": 69,
       "warsInRoster": 38,
       "totalMissed": 3,
-      "rank": 22,
+      "rank": 23,
       "prevRank": 22,
       "normalizedScore": 55.06
-    },
-    "#20JC0J9JR": {
-      "tier": "B",
-      "score": 1.840262088139381,
-      "avgStars": 2.909090909090909,
-      "totalStars": 128,
-      "totalAttacks": 44,
-      "warsInRoster": 34,
-      "totalMissed": 14,
-      "rank": 24,
-      "prevRank": 24,
-      "normalizedScore": 52.58
     },
     "#QR8R9QUV8": {
       "tier": "B",
@@ -1678,7 +1678,7 @@
       "totalAttacks": 8,
       "warsInRoster": 5,
       "totalMissed": 0,
-      "rank": 23,
+      "rank": 24,
       "prevRank": 23,
       "normalizedScore": 54.98
     },
