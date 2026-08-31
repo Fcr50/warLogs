@@ -10,8 +10,8 @@
       "opponent": {
         "name": "Red Dinner",
         "tag": "#2GC82P0U9",
-        "stars": 13,
-        "destructionPercentage": 19,
+        "stars": 19,
+        "destructionPercentage": 27,
         "members": [
           {
             "tag": "#8U9QQCGV",
@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 24,
-        "destructionPercentage": 32
+        "stars": 30,
+        "destructionPercentage": 40
       },
       "sixHourNonAttackers": [
         {
@@ -138,16 +138,6 @@
         {
           "tag": "#LQQRGJ8VU",
           "name": "i-Vinni",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#G9Y2L9QJJ",
-          "name": "Micael",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QGQJGURCL",
-          "name": "SAFONOV",
           "townhallLevel": 18
         },
         {
@@ -327,7 +317,14 @@
           "name": "Micael",
           "townhallLevel": 18,
           "mapPosition": 18,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 19,
+              "defenderTag": "#LCGURPPVQ"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -336,7 +333,14 @@
           "name": "SAFONOV",
           "townhallLevel": 18,
           "mapPosition": 1,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 17,
+              "defenderTag": "#8L8PY9CY"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -419,7 +423,14 @@
           "townhallLevel": 18,
           "mapPosition": 2,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#UR820RPU",
+              "attackerMapPosition": 20
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -469,7 +480,14 @@
               "defenderTag": "#GYVY9GQV8"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#UR820RPU",
+              "attackerMapPosition": 20
+            }
+          ],
           "missedAttacks": 0
         },
         {
