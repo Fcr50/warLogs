@@ -10,8 +10,8 @@
       "opponent": {
         "name": "Red Dinner",
         "tag": "#2GC82P0U9",
-        "stars": 19,
-        "destructionPercentage": 27,
+        "stars": 25,
+        "destructionPercentage": 35,
         "members": [
           {
             "tag": "#8U9QQCGV",
@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 30,
-        "destructionPercentage": 40
+        "stars": 33,
+        "destructionPercentage": 44
       },
       "sixHourNonAttackers": [
         {
@@ -198,7 +198,14 @@
           "townhallLevel": 18,
           "mapPosition": 10,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#9YVPC0RYV",
+              "attackerMapPosition": 16
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -362,9 +369,22 @@
               "destructionPercentage": 100,
               "order": 4,
               "defenderTag": "#G0PP20PCY"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 21,
+              "defenderTag": "#Q8CC2JPLV"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#88P00P2UV",
+              "attackerMapPosition": 13
+            }
+          ],
           "missedAttacks": 0
         },
         {
