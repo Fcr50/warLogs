@@ -10,8 +10,8 @@
       "opponent": {
         "name": "Red Dinner",
         "tag": "#2GC82P0U9",
-        "stars": 7,
-        "destructionPercentage": 11,
+        "stars": 10,
+        "destructionPercentage": 15,
         "members": [
           {
             "tag": "#8U9QQCGV",
@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 8,
-        "destructionPercentage": 11.8
+        "stars": 11,
+        "destructionPercentage": 15.92
       },
       "sixHourNonAttackers": [
         {
@@ -171,11 +171,6 @@
           "townhallLevel": 17
         },
         {
-          "tag": "#PLU2VCLG",
-          "name": "Phoenix",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#20JC0J9JR",
           "name": "BTV✯Robin Hood",
           "townhallLevel": 18
@@ -208,11 +203,6 @@
         {
           "tag": "#YPVQVU982",
           "name": "亗 ＨＡＤＥＳ_０７ 亗",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#GQU9Y0CQ8",
-          "name": "Scok♤",
           "townhallLevel": 18
         },
         {
@@ -272,7 +262,14 @@
               "defenderTag": "#QLQC2RJU8"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#29RQRCCY",
+              "attackerMapPosition": 10
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -304,6 +301,12 @@
               "destructionPercentage": 100,
               "order": 3,
               "defenderTag": "#29PRVY2CP"
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 98,
+              "order": 8,
+              "defenderTag": "#QLQC2RJU8"
             }
           ],
           "defensesReceived": [
@@ -382,7 +385,14 @@
           "name": "Phoenix",
           "townhallLevel": 18,
           "mapPosition": 9,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 7,
+              "defenderTag": "#9G0QRQVCL"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -468,7 +478,14 @@
           "name": "Scok♤",
           "townhallLevel": 18,
           "mapPosition": 25,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 97,
+              "order": 9,
+              "defenderTag": "#QLQC2RJU8"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
