@@ -10,8 +10,8 @@
       "opponent": {
         "name": "Red Dinner",
         "tag": "#2GC82P0U9",
-        "stars": 63,
-        "destructionPercentage": 86.52,
+        "stars": 65,
+        "destructionPercentage": 89.92,
         "members": [
           {
             "tag": "#8U9QQCGV",
@@ -766,7 +766,14 @@
               "defenderTag": "#Y8RU8JGQ"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 85,
+              "attackerTag": "#8U9QQCGV",
+              "attackerMapPosition": 23
+            }
+          ],
           "missedAttacks": 0
         }
       ]
