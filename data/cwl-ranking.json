@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T09:30:42.177Z",
+  "generatedAt": "2026-09-01T09:45:28.977Z",
   "totalWars": 33,
   "liveWar": {
     "opponentName": "Red Dinner",
@@ -693,42 +693,6 @@
     },
     {
       "player": {
-        "tag": "#QJLQLUURY",
-        "name": "NenemPJL",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.0910062453753433,
-        "rawScore": 2.0910062453753433,
-        "confidence": 1,
-        "tier": "B",
-        "attackScore": 2.670989981806019,
-        "defenseScore": 0.5507404216929296,
-        "reliability": 0.7884135472370766,
-        "formScore": 2.875,
-        "warsInRoster": 22,
-        "attacksUsed": 43,
-        "attacksAvailable": 44,
-        "avgDestruction": 82.76744186046511,
-        "totalAttacks": 43,
-        "totalStars": 111,
-        "count3Stars": 32,
-        "avgStars": 2.5813953488372094,
-        "threeStarRate": 0.7441860465116279,
-        "totalMissed": 1,
-        "avgPositionDiff": -7.116279069767442,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
         "tag": "#VPPQ8VLV",
         "name": "GABRIEL LOBATO",
         "townhallLevel": 18
@@ -755,6 +719,42 @@
         "avgPositionDiff": 0.3,
         "hasAnyDefense": true,
         "hadTh17": true,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#QJLQLUURY",
+        "name": "NenemPJL",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.0439287064450897,
+        "rawScore": 2.0439287064450897,
+        "confidence": 1,
+        "tier": "B",
+        "attackScore": 2.670989981806019,
+        "defenseScore": 0.3624302659719145,
+        "reliability": 0.7884135472370766,
+        "formScore": 2.875,
+        "warsInRoster": 22,
+        "attacksUsed": 43,
+        "attacksAvailable": 44,
+        "avgDestruction": 82.76744186046511,
+        "totalAttacks": 43,
+        "totalStars": 111,
+        "count3Stars": 32,
+        "avgStars": 2.5813953488372094,
+        "threeStarRate": 0.7441860465116279,
+        "totalMissed": 1,
+        "avgPositionDiff": -7.116279069767442,
+        "hasAnyDefense": true,
+        "hadTh17": false,
         "weights": {
           "attack": 0.42,
           "defense": 0.25,
@@ -1402,15 +1402,15 @@
     },
     "#QJLQLUURY": {
       "tier": "B",
-      "score": 2.0910062453753433,
+      "score": 2.0439287064450897,
       "avgStars": 2.5813953488372094,
       "totalStars": 111,
       "totalAttacks": 43,
       "warsInRoster": 22,
       "totalMissed": 1,
-      "rank": 20,
+      "rank": 21,
       "prevRank": 20,
-      "normalizedScore": 59.74
+      "normalizedScore": 58.4
     },
     "#29LP0VJV0": {
       "tier": "A",
@@ -1436,18 +1436,6 @@
       "prevRank": 27,
       "normalizedScore": 48.25
     },
-    "#2GP2JUU2": {
-      "tier": "A",
-      "score": 2.428817656523429,
-      "avgStars": 2.852272727272727,
-      "totalStars": 251,
-      "totalAttacks": 88,
-      "warsInRoster": 45,
-      "totalMissed": 0,
-      "rank": 9,
-      "prevRank": 9,
-      "normalizedScore": 69.39
-    },
     "#QQC8P9C9R": {
       "tier": "A",
       "score": 2.479471515217973,
@@ -1459,6 +1447,18 @@
       "rank": 5,
       "prevRank": 5,
       "normalizedScore": 70.84
+    },
+    "#2GP2JUU2": {
+      "tier": "A",
+      "score": 2.428817656523429,
+      "avgStars": 2.852272727272727,
+      "totalStars": 251,
+      "totalAttacks": 88,
+      "warsInRoster": 45,
+      "totalMissed": 0,
+      "rank": 9,
+      "prevRank": 9,
+      "normalizedScore": 69.39
     },
     "#JPVGQP8V": {
       "tier": "F",
@@ -1502,7 +1502,7 @@
       "totalAttacks": 50,
       "warsInRoster": 28,
       "totalMissed": 3,
-      "rank": 21,
+      "rank": 20,
       "prevRank": 21,
       "normalizedScore": 59.06
     },
