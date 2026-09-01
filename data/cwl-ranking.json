@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T04:25:23.237Z",
+  "generatedAt": "2026-09-01T04:40:23.431Z",
   "totalWars": 33,
   "liveWar": {
     "opponentName": "Red Dinner",
@@ -297,42 +297,6 @@
     },
     {
       "player": {
-        "tag": "#2GP2JUU2",
-        "name": "Gustavo Lázaro",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.4596708990839975,
-        "rawScore": 2.4596708990839975,
-        "confidence": 1,
-        "tier": "S",
-        "attackScore": 3.359374748378354,
-        "defenseScore": 0.24793401906035595,
-        "reliability": 1,
-        "formScore": 2.9675000000000002,
-        "warsInRoster": 45,
-        "attacksUsed": 88,
-        "attacksAvailable": 89,
-        "avgDestruction": 99.01136363636364,
-        "totalAttacks": 88,
-        "totalStars": 251,
-        "count3Stars": 76,
-        "avgStars": 2.852272727272727,
-        "threeStarRate": 0.8636363636363636,
-        "totalMissed": 0,
-        "avgPositionDiff": -0.6931818181818182,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
         "tag": "#G9Y2L9QJJ",
         "name": "Micael",
         "townhallLevel": 18
@@ -357,6 +321,42 @@
         "threeStarRate": 0.9166666666666666,
         "totalMissed": 1,
         "avgPositionDiff": -7.266666666666667,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#2GP2JUU2",
+        "name": "Gustavo Lázaro",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.428817656523429,
+        "rawScore": 2.428817656523429,
+        "confidence": 1,
+        "tier": "S",
+        "attackScore": 3.359374748378354,
+        "defenseScore": 0.12452104881808226,
+        "reliability": 1,
+        "formScore": 2.9675000000000002,
+        "warsInRoster": 45,
+        "attacksUsed": 88,
+        "attacksAvailable": 89,
+        "avgDestruction": 99.01136363636364,
+        "totalAttacks": 88,
+        "totalStars": 251,
+        "count3Stars": 76,
+        "avgStars": 2.852272727272727,
+        "threeStarRate": 0.8636363636363636,
+        "totalMissed": 0,
+        "avgPositionDiff": -0.6931818181818182,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -590,12 +590,12 @@
         "townhallLevel": 18
       },
       "data": {
-        "score": 2.247472637660288,
-        "rawScore": 2.247472637660288,
+        "score": 2.2399883401587677,
+        "rawScore": 2.2399883401587677,
         "confidence": 1,
         "tier": "A",
         "attackScore": 2.8168750076975675,
-        "defenseScore": 0.19944823001693016,
+        "defenseScore": 0.16951104001084988,
         "reliability": 0.963076923076923,
         "formScore": 3.5,
         "warsInRoster": 45,
@@ -1300,7 +1300,7 @@
       "totalAttacks": 60,
       "warsInRoster": 32,
       "totalMissed": 1,
-      "rank": 10,
+      "rank": 9,
       "prevRank": 10,
       "normalizedScore": 69.8
     },
@@ -1354,7 +1354,7 @@
     },
     "#8CJ8YJY0P": {
       "tier": "B",
-      "score": 2.247472637660288,
+      "score": 2.2399883401587677,
       "avgStars": 2.765432098765432,
       "totalStars": 224,
       "totalAttacks": 81,
@@ -1362,7 +1362,7 @@
       "totalMissed": 4,
       "rank": 17,
       "prevRank": 17,
-      "normalizedScore": 64.21
+      "normalizedScore": 64
     },
     "#QJVQVRPU": {
       "tier": "S",
@@ -1438,15 +1438,15 @@
     },
     "#2GP2JUU2": {
       "tier": "A",
-      "score": 2.4596708990839975,
+      "score": 2.428817656523429,
       "avgStars": 2.852272727272727,
       "totalStars": 251,
       "totalAttacks": 88,
       "warsInRoster": 45,
       "totalMissed": 0,
-      "rank": 9,
+      "rank": 10,
       "prevRank": 9,
-      "normalizedScore": 70.28
+      "normalizedScore": 69.39
     },
     "#JPVGQP8V": {
       "tier": "F",
