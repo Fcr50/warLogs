@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T03:10:23.396Z",
+  "generatedAt": "2026-09-01T03:25:19.286Z",
   "totalWars": 33,
   "liveWar": {
     "opponentName": "Red Dinner",
@@ -225,6 +225,42 @@
     },
     {
       "player": {
+        "tag": "#GGVCRYP8P",
+        "name": "gui",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.4685063496857866,
+        "rawScore": 2.4685063496857866,
+        "confidence": 1,
+        "tier": "A",
+        "attackScore": 3.264637816648518,
+        "defenseScore": 0.37288841222818103,
+        "reliability": 0.9878787878787879,
+        "formScore": 3.225,
+        "warsInRoster": 43,
+        "attacksUsed": 86,
+        "attacksAvailable": 86,
+        "avgDestruction": 92.76744186046511,
+        "totalAttacks": 86,
+        "totalStars": 230,
+        "count3Stars": 63,
+        "avgStars": 2.6744186046511627,
+        "threeStarRate": 0.7325581395348837,
+        "totalMissed": 0,
+        "avgPositionDiff": -2.744186046511628,
+        "hasAnyDefense": true,
+        "hadTh17": true,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#P9C0LVLU2",
         "name": "VINGADOR⚡",
         "townhallLevel": 18
@@ -287,42 +323,6 @@
         "avgPositionDiff": -0.6931818181818182,
         "hasAnyDefense": true,
         "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#GGVCRYP8P",
-        "name": "gui",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.455895022808906,
-        "rawScore": 2.455895022808906,
-        "confidence": 1,
-        "tier": "A",
-        "attackScore": 3.264637816648518,
-        "defenseScore": 0.32244310472065835,
-        "reliability": 0.9878787878787879,
-        "formScore": 3.225,
-        "warsInRoster": 43,
-        "attacksUsed": 86,
-        "attacksAvailable": 86,
-        "avgDestruction": 92.76744186046511,
-        "totalAttacks": 86,
-        "totalStars": 230,
-        "count3Stars": 63,
-        "avgStars": 2.6744186046511627,
-        "threeStarRate": 0.7325581395348837,
-        "totalMissed": 0,
-        "avgPositionDiff": -2.744186046511628,
-        "hasAnyDefense": true,
-        "hadTh17": true,
         "weights": {
           "attack": 0.42,
           "defense": 0.25,
@@ -1264,7 +1264,7 @@
       "totalAttacks": 80,
       "warsInRoster": 43,
       "totalMissed": 2,
-      "rank": 7,
+      "rank": 8,
       "prevRank": 7,
       "normalizedScore": 70.33
     },
@@ -1432,7 +1432,7 @@
       "totalAttacks": 88,
       "warsInRoster": 45,
       "totalMissed": 0,
-      "rank": 8,
+      "rank": 9,
       "prevRank": 8,
       "normalizedScore": 70.28
     },
@@ -1457,6 +1457,18 @@
       "rank": 21,
       "prevRank": 21,
       "normalizedScore": 59.06
+    },
+    "#29LP0VJV0": {
+      "tier": "A",
+      "score": 2.3469350142151675,
+      "avgStars": 2.5,
+      "totalStars": 175,
+      "totalAttacks": 70,
+      "warsInRoster": 37,
+      "totalMissed": 2,
+      "rank": 12,
+      "prevRank": 12,
+      "normalizedScore": 67.06
     },
     "#QQC8P9C9R": {
       "tier": "A",
@@ -1493,18 +1505,6 @@
       "rank": 22,
       "prevRank": 22,
       "normalizedScore": 58.01
-    },
-    "#29LP0VJV0": {
-      "tier": "A",
-      "score": 2.3469350142151675,
-      "avgStars": 2.5,
-      "totalStars": 175,
-      "totalAttacks": 70,
-      "warsInRoster": 37,
-      "totalMissed": 2,
-      "rank": 12,
-      "prevRank": 12,
-      "normalizedScore": 67.06
     },
     "#YPVQVU982": {
       "tier": "B",
@@ -1556,15 +1556,15 @@
     },
     "#GGVCRYP8P": {
       "tier": "A",
-      "score": 2.455895022808906,
+      "score": 2.4685063496857866,
       "avgStars": 2.6744186046511627,
       "totalStars": 230,
       "totalAttacks": 86,
       "warsInRoster": 43,
       "totalMissed": 0,
-      "rank": 9,
+      "rank": 7,
       "prevRank": 9,
-      "normalizedScore": 70.17
+      "normalizedScore": 70.53
     },
     "#8VCUUPPJP": {
       "tier": "A",
