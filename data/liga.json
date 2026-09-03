@@ -1,6 +1,6 @@
 {
   "season": "2026-09-01",
-  "generatedAt": "2026-09-03T01:00:30.263Z",
+  "generatedAt": "2026-09-03T01:15:19.798Z",
   "state": "inWar",
   "rounds": [
     {
@@ -10,9 +10,9 @@
       "result": "inProgress",
       "opponentName": "Phönix Return",
       "opponentTag": "#2L2Y20UYL",
-      "clanStars": 9,
+      "clanStars": 14,
       "opponentStars": 3,
-      "clanDestructionPct": 20,
+      "clanDestructionPct": 33.2,
       "teamSize": 15,
       "members": [
         {
@@ -48,7 +48,12 @@
           "name": "Gustavo Lázaro",
           "townhallLevel": 18,
           "mapPosition": 10,
-          "attack": null
+          "attack": {
+            "defenderTag": "#QGUCU8YUU",
+            "defenderMapPosition": 2,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#LQQRGJ8VU",
@@ -107,7 +112,12 @@
           "name": "gui",
           "townhallLevel": 18,
           "mapPosition": 18,
-          "attack": null
+          "attack": {
+            "defenderTag": "#J8G92CPJ",
+            "defenderMapPosition": 10,
+            "stars": 2,
+            "destructionPercentage": 98
+          }
         },
         {
           "tag": "#P9C0LVLU2",
@@ -192,6 +202,13 @@
           "attack": null
         },
         {
+          "tag": "#GJ2LQVQJ",
+          "name": "Fer",
+          "townhallLevel": 18,
+          "mapPosition": 4,
+          "attack": null
+        },
+        {
           "tag": "#L8RG2PV0G",
           "name": "joaoaoaoao",
           "townhallLevel": 18,
@@ -224,13 +241,6 @@
           "name": "Lobo ®",
           "townhallLevel": 18,
           "mapPosition": 5,
-          "attack": null
-        },
-        {
-          "tag": "#GGVCRYP8P",
-          "name": "gui",
-          "townhallLevel": 18,
-          "mapPosition": 18,
           "attack": null
         },
         {
