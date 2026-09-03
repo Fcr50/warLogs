@@ -1,6 +1,6 @@
 {
   "season": "2026-09-01",
-  "generatedAt": "2026-09-03T00:30:31.699Z",
+  "generatedAt": "2026-09-03T00:45:26.206Z",
   "state": "inWar",
   "rounds": [
     {
@@ -10,9 +10,9 @@
       "result": "inProgress",
       "opponentName": "Phönix Return",
       "opponentTag": "#2L2Y20UYL",
-      "clanStars": 0,
+      "clanStars": 6,
       "opponentStars": 3,
-      "clanDestructionPct": 0,
+      "clanDestructionPct": 13.333333333333334,
       "teamSize": 15,
       "members": [
         {
@@ -90,7 +90,12 @@
           "name": "Lobo ®",
           "townhallLevel": 18,
           "mapPosition": 5,
-          "attack": null
+          "attack": {
+            "defenderTag": "#UUCGYQ92",
+            "defenderMapPosition": 3,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#GGVCRYP8P",
@@ -118,7 +123,12 @@
           "name": "NenemPJL",
           "townhallLevel": 18,
           "mapPosition": 20,
-          "attack": null
+          "attack": {
+            "defenderTag": "#L89G9Y99Q",
+            "defenderMapPosition": 13,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         }
       ]
     },
