@@ -1,6 +1,6 @@
 {
   "season": "2026-09-01",
-  "generatedAt": "2026-09-03T19:30:30.037Z",
+  "generatedAt": "2026-09-03T19:45:20.218Z",
   "state": "inWar",
   "rounds": [
     {
@@ -10,9 +10,9 @@
       "result": "inProgress",
       "opponentName": "Phönix Return",
       "opponentTag": "#2L2Y20UYL",
-      "clanStars": 40,
+      "clanStars": 43,
       "opponentStars": 38,
-      "clanDestructionPct": 92.93333333333334,
+      "clanDestructionPct": 99.6,
       "teamSize": 15,
       "members": [
         {
@@ -80,7 +80,12 @@
           "name": "i-Vinni",
           "townhallLevel": 18,
           "mapPosition": 16,
-          "attack": null
+          "attack": {
+            "defenderTag": "#QCYYGJVLQ",
+            "defenderMapPosition": 15,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#L8RG2PV0G",
