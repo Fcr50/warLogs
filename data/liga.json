@@ -1,6 +1,6 @@
 {
   "season": "2026-09-01",
-  "generatedAt": "2026-09-03T02:15:21.484Z",
+  "generatedAt": "2026-09-03T02:30:28.291Z",
   "state": "inWar",
   "rounds": [
     {
@@ -10,9 +10,9 @@
       "result": "inProgress",
       "opponentName": "Phönix Return",
       "opponentTag": "#2L2Y20UYL",
-      "clanStars": 23,
+      "clanStars": 25,
       "opponentStars": 3,
-      "clanDestructionPct": 53.2,
+      "clanDestructionPct": 59.6,
       "teamSize": 15,
       "members": [
         {
@@ -34,7 +34,12 @@
           "name": "Marcola",
           "townhallLevel": 18,
           "mapPosition": 13,
-          "attack": null
+          "attack": {
+            "defenderTag": "#C280L2QJ",
+            "defenderMapPosition": 12,
+            "stars": 2,
+            "destructionPercentage": 96
+          }
         },
         {
           "tag": "#8CJ8YJY0P",
