@@ -1,6 +1,6 @@
 {
   "season": "2026-09-01",
-  "generatedAt": "2026-09-04T08:51:20.741Z",
+  "generatedAt": "2026-09-04T09:00:29.594Z",
   "state": "inWar",
   "rounds": [
     {
@@ -204,9 +204,9 @@
       "result": "inProgress",
       "opponentName": "Packers",
       "opponentTag": "#2QC9URJ0",
-      "clanStars": 24,
+      "clanStars": 27,
       "opponentStars": 16,
-      "clanDestructionPct": 53.333333333333336,
+      "clanDestructionPct": 60,
       "teamSize": 15,
       "members": [
         {
@@ -214,7 +214,12 @@
           "name": "LucasHG9",
           "townhallLevel": 18,
           "mapPosition": 6,
-          "attack": null
+          "attack": {
+            "defenderTag": "#92U0PG8YR",
+            "defenderMapPosition": 6,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#QQC8P9C9R",
