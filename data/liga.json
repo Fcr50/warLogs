@@ -1,6 +1,6 @@
 {
   "season": "2026-09-01",
-  "generatedAt": "2026-09-04T21:00:31.526Z",
+  "generatedAt": "2026-09-04T21:15:52.423Z",
   "state": "inWar",
   "rounds": [
     {
@@ -204,9 +204,9 @@
       "result": "inProgress",
       "opponentName": "Packers",
       "opponentTag": "#2QC9URJ0",
-      "clanStars": 42,
+      "clanStars": 45,
       "opponentStars": 22,
-      "clanDestructionPct": 93.33333333333333,
+      "clanDestructionPct": 100,
       "teamSize": 15,
       "members": [
         {
@@ -310,7 +310,12 @@
           "name": "BTV✯Robin Hood",
           "townhallLevel": 18,
           "mapPosition": 7,
-          "attack": null
+          "attack": {
+            "defenderTag": "#YQG2U8J80",
+            "defenderMapPosition": 13,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#JYV802Q",
