@@ -1,6 +1,6 @@
 {
   "season": "2026-09-01",
-  "generatedAt": "2026-09-04T03:04:09.623Z",
+  "generatedAt": "2026-09-04T03:17:22.911Z",
   "state": "inWar",
   "rounds": [
     {
@@ -204,9 +204,9 @@
       "result": "inProgress",
       "opponentName": "Packers",
       "opponentTag": "#2QC9URJ0",
-      "clanStars": 18,
+      "clanStars": 21,
       "opponentStars": 14,
-      "clanDestructionPct": 40,
+      "clanDestructionPct": 46.666666666666664,
       "teamSize": 15,
       "members": [
         {
@@ -299,7 +299,12 @@
           "name": "Warlord Raivon",
           "townhallLevel": 18,
           "mapPosition": 11,
-          "attack": null
+          "attack": {
+            "defenderTag": "#RQUYYRGQ",
+            "defenderMapPosition": 11,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#80LUCC9YV",
