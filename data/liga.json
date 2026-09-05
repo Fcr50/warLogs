@@ -1,6 +1,6 @@
 {
   "season": "2026-09-01",
-  "generatedAt": "2026-09-05T02:45:39.347Z",
+  "generatedAt": "2026-09-05T03:00:46.219Z",
   "state": "inWar",
   "rounds": [
     {
@@ -398,9 +398,9 @@
       "result": "inProgress",
       "opponentName": "『MR』๛TEAM♥",
       "opponentTag": "#2PJL0JVQU",
-      "clanStars": 12,
+      "clanStars": 15,
       "opponentStars": 0,
-      "clanDestructionPct": 26.666666666666668,
+      "clanDestructionPct": 33.333333333333336,
       "teamSize": 15,
       "members": [
         {
@@ -488,7 +488,12 @@
           "name": "Warlord Raivon",
           "townhallLevel": 18,
           "mapPosition": 11,
-          "attack": null
+          "attack": {
+            "defenderTag": "#RQGRUQQL",
+            "defenderMapPosition": 11,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#80LUCC9YV",
