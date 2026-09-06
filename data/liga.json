@@ -1,6 +1,6 @@
 {
   "season": "2026-09-01",
-  "generatedAt": "2026-09-06T01:15:44.791Z",
+  "generatedAt": "2026-09-06T01:30:24.049Z",
   "state": "inWar",
   "rounds": [
     {
@@ -592,9 +592,9 @@
       "result": "inProgress",
       "opponentName": "SpYroX X Lio",
       "opponentTag": "#2RVCVYPL9",
-      "clanStars": 3,
+      "clanStars": 9,
       "opponentStars": 9,
-      "clanDestructionPct": 6.666666666666667,
+      "clanDestructionPct": 20,
       "teamSize": 15,
       "members": [
         {
@@ -628,7 +628,12 @@
           "name": "Gustavo Lázaro",
           "townhallLevel": 18,
           "mapPosition": 9,
-          "attack": null
+          "attack": {
+            "defenderTag": "#29RJV8UYY",
+            "defenderMapPosition": 6,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#QGQJGURCL",
@@ -670,7 +675,12 @@
           "name": "ӃiƦiƬƠ么",
           "townhallLevel": 18,
           "mapPosition": 1,
-          "attack": null
+          "attack": {
+            "defenderTag": "#LVQY99RLC",
+            "defenderMapPosition": 2,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#29LP0VJV0",
