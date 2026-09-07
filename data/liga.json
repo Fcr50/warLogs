@@ -1,6 +1,6 @@
 {
   "season": "2026-09-01",
-  "generatedAt": "2026-09-07T03:15:25.547Z",
+  "generatedAt": "2026-09-07T03:30:31.121Z",
   "state": "inWar",
   "rounds": [
     {
@@ -786,9 +786,9 @@
       "result": "inProgress",
       "opponentName": "KRYON ✠ ONE",
       "opponentTag": "#2RQJJRYLU",
-      "clanStars": 17,
+      "clanStars": 20,
       "opponentStars": 0,
-      "clanDestructionPct": 39.06666666666667,
+      "clanDestructionPct": 45.733333333333334,
       "teamSize": 15,
       "members": [
         {
@@ -888,7 +888,12 @@
           "name": "Warlord Raivon",
           "townhallLevel": 18,
           "mapPosition": 11,
-          "attack": null
+          "attack": {
+            "defenderTag": "#8YLU0QJ90",
+            "defenderMapPosition": 13,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#GGVCRYP8P",
