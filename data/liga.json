@@ -1,6 +1,6 @@
 {
   "season": "2026-09-01",
-  "generatedAt": "2026-09-07T15:00:26.130Z",
+  "generatedAt": "2026-09-07T15:15:51.324Z",
   "state": "inWar",
   "rounds": [
     {
@@ -786,9 +786,9 @@
       "result": "inProgress",
       "opponentName": "KRYON ✠ ONE",
       "opponentTag": "#2RQJJRYLU",
-      "clanStars": 39,
+      "clanStars": 41,
       "opponentStars": 33,
-      "clanDestructionPct": 91.4,
+      "clanDestructionPct": 97.93333333333334,
       "teamSize": 15,
       "members": [
         {
@@ -904,7 +904,12 @@
           "name": "Phoenix",
           "townhallLevel": 18,
           "mapPosition": 8,
-          "attack": null
+          "attack": {
+            "defenderTag": "#LGGC002UY",
+            "defenderMapPosition": 8,
+            "stars": 2,
+            "destructionPercentage": 98
+          }
         },
         {
           "tag": "#JYV802Q",
