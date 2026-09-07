@@ -1,6 +1,6 @@
 {
   "season": "2026-09-01",
-  "generatedAt": "2026-09-07T14:15:26.888Z",
+  "generatedAt": "2026-09-07T14:30:44.982Z",
   "state": "inWar",
   "rounds": [
     {
@@ -786,9 +786,9 @@
       "result": "inProgress",
       "opponentName": "KRYON ✠ ONE",
       "opponentTag": "#2RQJJRYLU",
-      "clanStars": 37,
+      "clanStars": 39,
       "opponentStars": 33,
-      "clanDestructionPct": 85.06666666666666,
+      "clanDestructionPct": 91.4,
       "teamSize": 15,
       "members": [
         {
@@ -820,7 +820,12 @@
           "name": "Marcola",
           "townhallLevel": 18,
           "mapPosition": 13,
-          "attack": null
+          "attack": {
+            "defenderTag": "#C8J2V8RQ",
+            "defenderMapPosition": 15,
+            "stars": 2,
+            "destructionPercentage": 95
+          }
         },
         {
           "tag": "#8CJ8YJY0P",
