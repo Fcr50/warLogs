@@ -1,6 +1,6 @@
 {
   "season": "2026-09-01",
-  "generatedAt": "2026-09-07T02:45:39.030Z",
+  "generatedAt": "2026-09-07T03:00:41.316Z",
   "state": "inWar",
   "rounds": [
     {
@@ -786,9 +786,9 @@
       "result": "inProgress",
       "opponentName": "KRYON ✠ ONE",
       "opponentTag": "#2RQJJRYLU",
-      "clanStars": 14,
+      "clanStars": 17,
       "opponentStars": 0,
-      "clanDestructionPct": 32.4,
+      "clanDestructionPct": 39.06666666666667,
       "teamSize": 15,
       "members": [
         {
@@ -829,7 +829,12 @@
           "name": "Gustavo Lázaro",
           "townhallLevel": 18,
           "mapPosition": 9,
-          "attack": null
+          "attack": {
+            "defenderTag": "#2PRQPPC9P",
+            "defenderMapPosition": 4,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#G9Y2L9QJJ",
