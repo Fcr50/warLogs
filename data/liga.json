@@ -1,6 +1,6 @@
 {
   "season": "2026-09-01",
-  "generatedAt": "2026-09-08T02:45:20.898Z",
+  "generatedAt": "2026-09-08T03:00:37.242Z",
   "state": "inWar",
   "rounds": [
     {
@@ -980,9 +980,9 @@
       "result": "inProgress",
       "opponentName": "Dead Skull",
       "opponentTag": "#992LGR98",
-      "clanStars": 20,
+      "clanStars": 21,
       "opponentStars": 6,
-      "clanDestructionPct": 45.93333333333333,
+      "clanDestructionPct": 51.86666666666667,
       "teamSize": 15,
       "members": [
         {
@@ -1049,7 +1049,12 @@
           "name": "Fer",
           "townhallLevel": 18,
           "mapPosition": 4,
-          "attack": null
+          "attack": {
+            "defenderTag": "#CYQ808J",
+            "defenderMapPosition": 3,
+            "stars": 1,
+            "destructionPercentage": 89
+          }
         },
         {
           "tag": "#L8RG2PV0G",
