@@ -1,6 +1,6 @@
 {
   "season": "2026-09-01",
-  "generatedAt": "2026-09-09T11:45:28.626Z",
+  "generatedAt": "2026-09-09T12:00:32.691Z",
   "state": "inWar",
   "rounds": [
     {
@@ -1174,9 +1174,9 @@
       "result": "inProgress",
       "opponentName": "*الاساطير *",
       "opponentTag": "#VRYRGUJG",
-      "clanStars": 33,
+      "clanStars": 36,
       "opponentStars": 27,
-      "clanDestructionPct": 73.33333333333333,
+      "clanDestructionPct": 80,
       "teamSize": 15,
       "members": [
         {
@@ -1313,7 +1313,12 @@
           "name": "VINGADOR⚡",
           "townhallLevel": 18,
           "mapPosition": 3,
-          "attack": null
+          "attack": {
+            "defenderTag": "#9P8UUG9QL",
+            "defenderMapPosition": 10,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#QJVQVRPU",
