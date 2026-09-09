@@ -1,6 +1,6 @@
 {
   "season": "2026-09-01",
-  "generatedAt": "2026-09-09T03:45:22.861Z",
+  "generatedAt": "2026-09-09T04:00:31.296Z",
   "state": "inWar",
   "rounds": [
     {
@@ -1174,9 +1174,9 @@
       "result": "inProgress",
       "opponentName": "*الاساطير *",
       "opponentTag": "#VRYRGUJG",
-      "clanStars": 24,
+      "clanStars": 27,
       "opponentStars": 2,
-      "clanDestructionPct": 53.333333333333336,
+      "clanDestructionPct": 60,
       "teamSize": 15,
       "members": [
         {
@@ -1322,7 +1322,12 @@
           "name": "NenemPJL",
           "townhallLevel": 18,
           "mapPosition": 20,
-          "attack": null
+          "attack": {
+            "defenderTag": "#98YY9PUG9",
+            "defenderMapPosition": 19,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         }
       ]
     }
