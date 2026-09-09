@@ -1,6 +1,6 @@
 {
   "season": "2026-09-01",
-  "generatedAt": "2026-09-09T02:45:36.956Z",
+  "generatedAt": "2026-09-09T03:00:34.170Z",
   "state": "inWar",
   "rounds": [
     {
@@ -1174,9 +1174,9 @@
       "result": "inProgress",
       "opponentName": "*الاساطير *",
       "opponentTag": "#VRYRGUJG",
-      "clanStars": 18,
+      "clanStars": 21,
       "opponentStars": 2,
-      "clanDestructionPct": 40,
+      "clanDestructionPct": 46.666666666666664,
       "teamSize": 15,
       "members": [
         {
@@ -1262,7 +1262,12 @@
           "name": "Warlord Raivon",
           "townhallLevel": 18,
           "mapPosition": 11,
-          "attack": null
+          "attack": {
+            "defenderTag": "#P9R2Q2JJU",
+            "defenderMapPosition": 9,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#80LUCC9YV",
