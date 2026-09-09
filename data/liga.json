@@ -1,6 +1,6 @@
 {
   "season": "2026-09-01",
-  "generatedAt": "2026-09-09T03:30:34.640Z",
+  "generatedAt": "2026-09-09T03:45:22.861Z",
   "state": "inWar",
   "rounds": [
     {
@@ -1174,9 +1174,9 @@
       "result": "inProgress",
       "opponentName": "*الاساطير *",
       "opponentTag": "#VRYRGUJG",
-      "clanStars": 21,
+      "clanStars": 24,
       "opponentStars": 2,
-      "clanDestructionPct": 46.666666666666664,
+      "clanDestructionPct": 53.333333333333336,
       "teamSize": 15,
       "members": [
         {
@@ -1236,7 +1236,12 @@
           "name": "Fer",
           "townhallLevel": 18,
           "mapPosition": 4,
-          "attack": null
+          "attack": {
+            "defenderTag": "#P9JYYC88U",
+            "defenderMapPosition": 7,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#PLU2VCLG",
