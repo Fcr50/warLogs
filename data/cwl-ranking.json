@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T15:30:24.911Z",
+  "generatedAt": "2026-09-09T15:45:25.295Z",
   "totalWars": 34,
   "liveWar": {
     "opponentName": "INDIAN SMASHERS",
@@ -503,6 +503,42 @@
         "avgPositionDiff": -7.266666666666667,
         "hasAnyDefense": true,
         "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#8YJYY92GC",
+        "name": "RussiaN",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.2197106960394635,
+        "rawScore": 2.2197106960394635,
+        "confidence": 1,
+        "tier": "B",
+        "attackScore": 3.0765355466658857,
+        "defenseScore": 0.11955718340622522,
+        "reliability": 0.9176470588235294,
+        "formScore": 2.645,
+        "warsInRoster": 36,
+        "attacksUsed": 71,
+        "attacksAvailable": 72,
+        "avgDestruction": 92.29577464788733,
+        "totalAttacks": 71,
+        "totalStars": 170,
+        "count3Stars": 38,
+        "avgStars": 2.3943661971830985,
+        "threeStarRate": 0.5352112676056338,
+        "totalMissed": 0,
+        "avgPositionDiff": -6.929577464788732,
+        "hasAnyDefense": true,
+        "hadTh17": true,
         "weights": {
           "attack": 0.42,
           "defense": 0.25,
@@ -1100,7 +1136,7 @@
       "totalAttacks": 83,
       "warsInRoster": 45,
       "totalMissed": 4,
-      "rank": 17,
+      "rank": 18,
       "prevRank": 17,
       "normalizedScore": 57.38
     },
@@ -1172,7 +1208,7 @@
       "totalAttacks": 43,
       "warsInRoster": 22,
       "totalMissed": 1,
-      "rank": 15,
+      "rank": 16,
       "prevRank": 15,
       "normalizedScore": 58.53
     },
@@ -1198,6 +1234,17 @@
       "totalMissed": 0,
       "normalizedScore": 0
     },
+    "#8YJYY92GC": {
+      "tier": "B",
+      "score": 2.2197106960394635,
+      "avgStars": 2.3943661971830985,
+      "totalStars": 170,
+      "totalAttacks": 71,
+      "warsInRoster": 36,
+      "totalMissed": 0,
+      "rank": 15,
+      "normalizedScore": 63.42
+    },
     "#29CQQ8CLC": {
       "tier": "F",
       "score": 0,
@@ -1216,7 +1263,7 @@
       "totalAttacks": 46,
       "warsInRoster": 34,
       "totalMissed": 14,
-      "rank": 18,
+      "rank": 19,
       "prevRank": 18,
       "normalizedScore": 55.95
     },
@@ -1228,7 +1275,7 @@
       "totalAttacks": 71,
       "warsInRoster": 38,
       "totalMissed": 3,
-      "rank": 16,
+      "rank": 17,
       "prevRank": 16,
       "normalizedScore": 58.13
     },
@@ -1252,7 +1299,7 @@
       "totalAttacks": 63,
       "warsInRoster": 37,
       "totalMissed": 8,
-      "rank": 19,
+      "rank": 20,
       "prevRank": 19,
       "normalizedScore": 51.67
     },
@@ -1338,7 +1385,7 @@
       "totalAttacks": 22,
       "warsInRoster": 11,
       "totalMissed": 0,
-      "rank": 20,
+      "rank": 21,
       "prevRank": 20,
       "normalizedScore": 40.83
     },
@@ -1350,7 +1397,7 @@
       "totalAttacks": 10,
       "warsInRoster": 9,
       "totalMissed": 5,
-      "rank": 21,
+      "rank": 22,
       "prevRank": 21,
       "normalizedScore": 21.55
     },
@@ -1362,7 +1409,7 @@
       "totalAttacks": 4,
       "warsInRoster": 4,
       "totalMissed": 2,
-      "rank": 22,
+      "rank": 23,
       "prevRank": 22,
       "normalizedScore": -9.61
     },
