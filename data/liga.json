@@ -1,6 +1,6 @@
 {
   "season": "2026-09-01",
-  "generatedAt": "2026-09-09T19:45:28.526Z",
+  "generatedAt": "2026-09-09T20:00:37.255Z",
   "state": "inWar",
   "rounds": [
     {
@@ -1174,9 +1174,9 @@
       "result": "inProgress",
       "opponentName": "*الاساطير *",
       "opponentTag": "#VRYRGUJG",
-      "clanStars": 42,
+      "clanStars": 45,
       "opponentStars": 36,
-      "clanDestructionPct": 93.33333333333333,
+      "clanDestructionPct": 100,
       "teamSize": 15,
       "members": [
         {
@@ -1232,7 +1232,12 @@
           "name": "i-Vinni",
           "townhallLevel": 18,
           "mapPosition": 16,
-          "attack": null
+          "attack": {
+            "defenderTag": "#PQ0U29JYR",
+            "defenderMapPosition": 16,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#QGQJGURCL",
