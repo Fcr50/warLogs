@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T13:45:28.006Z",
+  "generatedAt": "2026-09-10T14:00:33.574Z",
   "totalWars": 34,
   "liveWar": {
     "opponentName": "INDIAN SMASHERS",
@@ -825,6 +825,42 @@
         "threeStarRate": 0.3,
         "totalMissed": 0,
         "avgPositionDiff": -1.5,
+        "hasAnyDefense": true,
+        "hadTh17": true,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#2LGC8PGRY",
+        "name": "lucas r.",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 1.3597084140491291,
+        "rawScore": 1.3597084140491291,
+        "confidence": 1,
+        "tier": "C",
+        "attackScore": 2.0633882329981974,
+        "defenseScore": 0.024106130641897913,
+        "reliability": 0.7058823529411764,
+        "formScore": 0,
+        "warsInRoster": 12,
+        "attacksUsed": 24,
+        "attacksAvailable": 24,
+        "avgDestruction": 90.95833333333333,
+        "totalAttacks": 24,
+        "totalStars": 53,
+        "count3Stars": 10,
+        "avgStars": 2.2083333333333335,
+        "threeStarRate": 0.4166666666666667,
+        "totalMissed": 0,
+        "avgPositionDiff": -0.4166666666666667,
         "hasAnyDefense": true,
         "hadTh17": true,
         "weights": {
@@ -1739,6 +1775,17 @@
       "totalMissed": 0,
       "normalizedScore": 0
     },
+    "#2LGC8PGRY": {
+      "tier": "B",
+      "score": 1.3597084140491291,
+      "avgStars": 2.2083333333333335,
+      "totalStars": 53,
+      "totalAttacks": 24,
+      "warsInRoster": 12,
+      "totalMissed": 0,
+      "rank": 25,
+      "normalizedScore": 38.85
+    },
     "#92LYVUU9Q": {
       "tier": "F",
       "score": 0,
@@ -1877,7 +1924,7 @@
       "totalAttacks": 10,
       "warsInRoster": 9,
       "totalMissed": 5,
-      "rank": 25,
+      "rank": 26,
       "prevRank": 25,
       "normalizedScore": 21.55
     },
@@ -1889,7 +1936,7 @@
       "totalAttacks": 2,
       "warsInRoster": 3,
       "totalMissed": 2,
-      "rank": 26,
+      "rank": 27,
       "prevRank": 26,
       "normalizedScore": -8.01
     },
