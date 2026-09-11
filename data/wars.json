@@ -537,7 +537,20 @@
           "name": "gui",
           "townhallLevel": 18,
           "mapPosition": 15,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 1,
+              "destructionPercentage": 35,
+              "order": 49,
+              "defenderTag": "#QVVRCG02C"
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 87,
+              "order": 50,
+              "defenderTag": "#9P98229UV"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
