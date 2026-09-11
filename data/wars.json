@@ -10,8 +10,8 @@
       "opponent": {
         "name": "Ledies War",
         "tag": "#2QCYY0LUY",
-        "stars": 11,
-        "destructionPercentage": 19.45,
+        "stars": 15,
+        "destructionPercentage": 25,
         "members": [
           {
             "tag": "#LRQYC9RCU",
@@ -171,7 +171,14 @@
               "defenderTag": "#9P98229UV"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#9P98229UV",
+              "attackerMapPosition": 4
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -304,6 +311,12 @@
               "destructionPercentage": 89,
               "attackerTag": "#99YVRG88",
               "attackerMapPosition": 13
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#9P98229UV",
+              "attackerMapPosition": 4
             }
           ],
           "missedAttacks": 0
