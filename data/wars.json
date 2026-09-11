@@ -96,8 +96,8 @@
         ]
       },
       "clan": {
-        "stars": 30,
-        "destructionPercentage": 50
+        "stars": 36,
+        "destructionPercentage": 60
       },
       "sixHourNonAttackers": [
         {
@@ -108,11 +108,6 @@
         {
           "tag": "#G9Y2L9QJJ",
           "name": "Micael",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#GJ2LQVQJ",
-          "name": "Fer",
           "townhallLevel": 18
         },
         {
@@ -128,11 +123,6 @@
         {
           "tag": "#20JC0J9JR",
           "name": "BTV✯Robin Hood",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#80LUCC9YV",
-          "name": "Lobo ®",
           "townhallLevel": 18
         },
         {
@@ -294,7 +284,20 @@
           "name": "Fer",
           "townhallLevel": 18,
           "mapPosition": 2,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 16,
+              "defenderTag": "#QVVRCG02C"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 17,
+              "defenderTag": "#Q0U28QLCY"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 2,
@@ -376,7 +379,14 @@
           "name": "Lobo ®",
           "townhallLevel": 18,
           "mapPosition": 3,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 83,
+              "order": 15,
+              "defenderTag": "#QVVRCG02C"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
