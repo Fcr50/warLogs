@@ -96,8 +96,8 @@
         ]
       },
       "clan": {
-        "stars": 54,
-        "destructionPercentage": 90
+        "stars": 60,
+        "destructionPercentage": 100
       },
       "sixHourNonAttackers": [
         {
@@ -547,7 +547,20 @@
           "name": "VINGADOR⚡",
           "townhallLevel": 18,
           "mapPosition": 1,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 45,
+              "defenderTag": "#9G8UPJLP8"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 46,
+              "defenderTag": "#22C00GG0Y"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 1,
@@ -566,6 +579,12 @@
               "destructionPercentage": 100,
               "attackerTag": "#9G8UPJLP8",
               "attackerMapPosition": 6
+            },
+            {
+              "stars": 1,
+              "destructionPercentage": 40,
+              "attackerTag": "#YG0JG0JQU",
+              "attackerMapPosition": 11
             }
           ],
           "missedAttacks": 0

@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-11T10:45:26.430Z",
+  "generatedAt": "2026-09-11T11:00:27.134Z",
   "totalWars": 34,
   "liveWar": {
     "opponentName": "Ledies War",
-    "totalAttacksDone": 19,
+    "totalAttacksDone": 21,
     "totalAttacksExpected": 40
   },
   "ranking": [
@@ -446,25 +446,25 @@
         "townhallLevel": 18
       },
       "data": {
-        "score": 2.305366968720319,
-        "rawScore": 2.305366968720319,
+        "score": 2.3364104313940413,
+        "rawScore": 2.3364104313940413,
         "confidence": 1,
         "tier": "A",
-        "attackScore": 2.9600694004174786,
-        "defenseScore": 0.23111745865050046,
+        "attackScore": 3.029501654278527,
+        "defenseScore": 0.23864512285882805,
         "reliability": 0.9483455882352941,
         "formScore": 3.5,
         "warsInRoster": 43,
-        "attacksUsed": 79,
+        "attacksUsed": 81,
         "attacksAvailable": 86,
-        "avgDestruction": 97.63291139240506,
-        "totalAttacks": 79,
-        "totalStars": 219,
-        "count3Stars": 68,
-        "avgStars": 2.7721518987341773,
-        "threeStarRate": 0.8607594936708861,
+        "avgDestruction": 97.69135802469135,
+        "totalAttacks": 81,
+        "totalStars": 225,
+        "count3Stars": 70,
+        "avgStars": 2.7777777777777777,
+        "threeStarRate": 0.8641975308641975,
         "totalMissed": 3,
-        "avgPositionDiff": 2.2025316455696204,
+        "avgPositionDiff": 2.382716049382716,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -873,6 +873,42 @@
     },
     {
       "player": {
+        "tag": "#8YRGP80V0",
+        "name": "ⒶⓃⓃⒶⒸⒽⒾ",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 0,
+        "rawScore": 0,
+        "confidence": 0,
+        "tier": "F",
+        "attackScore": 0,
+        "defenseScore": 0,
+        "reliability": 0,
+        "formScore": 0,
+        "warsInRoster": 0,
+        "attacksUsed": 0,
+        "attacksAvailable": 0,
+        "avgDestruction": 0,
+        "totalAttacks": 0,
+        "totalStars": 0,
+        "count3Stars": 0,
+        "avgStars": 0,
+        "threeStarRate": 0,
+        "totalMissed": 0,
+        "avgPositionDiff": 0,
+        "hasAnyDefense": false,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.56,
+          "defense": 0,
+          "reliability": 0.3067,
+          "form": 0.1333
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#GCJVY8JGG",
         "name": "-+CARRASCO+-",
         "townhallLevel": 18
@@ -1055,6 +1091,13 @@
   "noDataList": [
     {
       "player": {
+        "tag": "#8YRGP80V0",
+        "name": "ⒶⓃⓃⒶⒸⒽⒾ",
+        "townhallLevel": 18
+      }
+    },
+    {
+      "player": {
         "tag": "#GCJVY8JGG",
         "name": "-+CARRASCO+-",
         "townhallLevel": 18
@@ -1092,15 +1135,15 @@
   "statsByTag": {
     "#P9C0LVLU2": {
       "tier": "A",
-      "score": 2.305366968720319,
-      "avgStars": 2.7721518987341773,
-      "totalStars": 219,
-      "totalAttacks": 79,
+      "score": 2.3364104313940413,
+      "avgStars": 2.7777777777777777,
+      "totalStars": 225,
+      "totalAttacks": 81,
       "warsInRoster": 43,
       "totalMissed": 3,
       "rank": 13,
       "prevRank": 13,
-      "normalizedScore": 65.87
+      "normalizedScore": 66.75
     },
     "#GJ2LQVQJ": {
       "tier": "A",
@@ -1149,6 +1192,16 @@
       "rank": 4,
       "prevRank": 4,
       "normalizedScore": 70.94
+    },
+    "#8YRGP80V0": {
+      "tier": "F",
+      "score": 0,
+      "avgStars": 0,
+      "totalStars": 0,
+      "totalAttacks": 0,
+      "warsInRoster": 0,
+      "totalMissed": 0,
+      "normalizedScore": 0
     },
     "#QJVQVRPU": {
       "tier": "S",
@@ -1210,18 +1263,6 @@
       "prevRank": 18,
       "normalizedScore": 58.92
     },
-    "#QJLQLUURY": {
-      "tier": "B",
-      "score": 2.1598326786697637,
-      "avgStars": 2.590909090909091,
-      "totalStars": 114,
-      "totalAttacks": 44,
-      "warsInRoster": 23,
-      "totalMissed": 1,
-      "rank": 17,
-      "prevRank": 17,
-      "normalizedScore": 61.71
-    },
     "#2QL0VR9GU": {
       "tier": "A",
       "score": 2.361394124071252,
@@ -1233,6 +1274,18 @@
       "rank": 12,
       "prevRank": 12,
       "normalizedScore": 67.47
+    },
+    "#QJLQLUURY": {
+      "tier": "B",
+      "score": 2.1598326786697637,
+      "avgStars": 2.590909090909091,
+      "totalStars": 114,
+      "totalAttacks": 44,
+      "warsInRoster": 23,
+      "totalMissed": 1,
+      "rank": 17,
+      "prevRank": 17,
+      "normalizedScore": 61.71
     },
     "#GGVCRYP8P": {
       "tier": "A",
