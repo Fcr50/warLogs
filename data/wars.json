@@ -96,8 +96,8 @@
         ]
       },
       "clan": {
-        "stars": 3,
-        "destructionPercentage": 5
+        "stars": 15,
+        "destructionPercentage": 25
       },
       "sixHourNonAttackers": [
         {
@@ -116,11 +116,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#2QL0VR9GU",
-          "name": "Marcola",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#8YJYY92GC",
           "name": "RussiaN",
           "townhallLevel": 18
@@ -128,11 +123,6 @@
         {
           "tag": "#8CJ8YJY0P",
           "name": "ChrolloLucilfer",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#2GP2JUU2",
-          "name": "Gustavo Lázaro",
           "townhallLevel": 18
         },
         {
@@ -166,11 +156,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#29LP0VJV0",
-          "name": "Warlord Raivon",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#80LUCC9YV",
           "name": "Lobo ®",
           "townhallLevel": 18
@@ -183,11 +168,6 @@
         {
           "tag": "#P9C0LVLU2",
           "name": "VINGADOR⚡",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QJVQVRPU",
-          "name": "Frnnn",
           "townhallLevel": 18
         },
         {
@@ -229,7 +209,14 @@
           "name": "Marcola",
           "townhallLevel": 18,
           "mapPosition": 10,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 5,
+              "defenderTag": "#QURPQ2Q0R"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -256,7 +243,14 @@
           "name": "Gustavo Lázaro",
           "townhallLevel": 18,
           "mapPosition": 7,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 4,
+              "defenderTag": "#LUC80R8UL"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -335,7 +329,14 @@
           "name": "Warlord Raivon",
           "townhallLevel": 18,
           "mapPosition": 9,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 3,
+              "defenderTag": "#VPQ9YQLG"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -371,7 +372,14 @@
           "name": "Frnnn",
           "townhallLevel": 18,
           "mapPosition": 8,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 2,
+              "defenderTag": "#Q0UQLRLVP"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
