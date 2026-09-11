@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-11T22:30:26.451Z",
+  "generatedAt": "2026-09-11T22:45:22.461Z",
   "totalWars": 34,
   "liveWar": {
     "opponentName": "Ledies War",
-    "totalAttacksDone": 37,
+    "totalAttacksDone": 38,
     "totalAttacksExpected": 40
   },
   "ranking": [
@@ -261,6 +261,42 @@
     },
     {
       "player": {
+        "tag": "#8VCUUPPJP",
+        "name": "Satsugai",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.3963667793439667,
+        "rawScore": 2.3963667793439667,
+        "confidence": 1,
+        "tier": "A",
+        "attackScore": 3.3442485416542143,
+        "defenseScore": 0.13248486151443445,
+        "reliability": 0.8821176470588235,
+        "formScore": 3.5,
+        "warsInRoster": 30,
+        "attacksUsed": 59,
+        "attacksAvailable": 60,
+        "avgDestruction": 98.66101694915254,
+        "totalAttacks": 59,
+        "totalStars": 167,
+        "count3Stars": 50,
+        "avgStars": 2.830508474576271,
+        "threeStarRate": 0.847457627118644,
+        "totalMissed": 1,
+        "avgPositionDiff": -2.9322033898305087,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#PLU2VCLG",
         "name": "Phoenix",
         "townhallLevel": 18
@@ -285,42 +321,6 @@
         "threeStarRate": 0.8433734939759037,
         "totalMissed": 0,
         "avgPositionDiff": -0.3373493975903614,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#8VCUUPPJP",
-        "name": "Satsugai",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.3870251638752147,
-        "rawScore": 2.3870251638752147,
-        "confidence": 1,
-        "tier": "A",
-        "attackScore": 3.3220066000619477,
-        "defenseScore": 0.13248486151443445,
-        "reliability": 0.8821176470588235,
-        "formScore": 3.5,
-        "warsInRoster": 30,
-        "attacksUsed": 58,
-        "attacksAvailable": 60,
-        "avgDestruction": 98.63793103448276,
-        "totalAttacks": 58,
-        "totalStars": 164,
-        "count3Stars": 49,
-        "avgStars": 2.8275862068965516,
-        "threeStarRate": 0.8448275862068966,
-        "totalMissed": 1,
-        "avgPositionDiff": -2.7758620689655173,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1316,7 +1316,7 @@
       "totalAttacks": 83,
       "warsInRoster": 42,
       "totalMissed": 0,
-      "rank": 8,
+      "rank": 9,
       "prevRank": 8,
       "normalizedScore": 68.34
     },
@@ -1526,15 +1526,15 @@
     },
     "#8VCUUPPJP": {
       "tier": "A",
-      "score": 2.3870251638752147,
-      "avgStars": 2.8275862068965516,
-      "totalStars": 164,
-      "totalAttacks": 58,
+      "score": 2.3963667793439667,
+      "avgStars": 2.830508474576271,
+      "totalStars": 167,
+      "totalAttacks": 59,
       "warsInRoster": 30,
       "totalMissed": 1,
-      "rank": 9,
+      "rank": 8,
       "prevRank": 9,
-      "normalizedScore": 68.2
+      "normalizedScore": 68.47
     },
     "#LQQRGJ8VU": {
       "tier": "A",
@@ -1616,6 +1616,16 @@
       "totalMissed": 0,
       "normalizedScore": 0
     },
+    "#GRVUL9PPR": {
+      "tier": "F",
+      "score": 0,
+      "avgStars": 0,
+      "totalStars": 0,
+      "totalAttacks": 0,
+      "warsInRoster": 0,
+      "totalMissed": 0,
+      "normalizedScore": 0
+    },
     "#LR2U2PRP2": {
       "tier": "B",
       "score": 0.7543812997363887,
@@ -1651,16 +1661,6 @@
       "normalizedScore": 0
     },
     "#VR8VJGGV": {
-      "tier": "F",
-      "score": 0,
-      "avgStars": 0,
-      "totalStars": 0,
-      "totalAttacks": 0,
-      "warsInRoster": 0,
-      "totalMissed": 0,
-      "normalizedScore": 0
-    },
-    "#GU2PP98GU": {
       "tier": "F",
       "score": 0,
       "avgStars": 0,
