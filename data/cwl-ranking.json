@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T18:45:21.646Z",
+  "generatedAt": "2026-09-12T19:00:29.084Z",
   "totalWars": 34,
   "liveWar": {
     "opponentName": "INDIAN SMASHERS",
@@ -899,6 +899,42 @@
         "avgPositionDiff": -0.4166666666666667,
         "hasAnyDefense": true,
         "hadTh17": true,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#LYJG0L8G",
+        "name": "GLADIADOR!!!",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 0.6818654214082094,
+        "rawScore": 0.6818654214082094,
+        "confidence": 1,
+        "tier": "B",
+        "attackScore": 0.4217441819647251,
+        "defenseScore": 0.3241762417157804,
+        "reliability": 0.6140417457305503,
+        "formScore": 0,
+        "warsInRoster": 20,
+        "attacksUsed": 30,
+        "attacksAvailable": 39,
+        "avgDestruction": 96.8,
+        "totalAttacks": 30,
+        "totalStars": 81,
+        "count3Stars": 22,
+        "avgStars": 2.7,
+        "threeStarRate": 0.7333333333333333,
+        "totalMissed": 9,
+        "avgPositionDiff": -4.266666666666667,
+        "hasAnyDefense": true,
+        "hadTh17": false,
         "weights": {
           "attack": 0.42,
           "defense": 0.25,
@@ -1889,6 +1925,17 @@
       "prevRank": 5,
       "normalizedScore": 70.6
     },
+    "#LYJG0L8G": {
+      "tier": "B",
+      "score": 0.6818654214082094,
+      "avgStars": 2.7,
+      "totalStars": 81,
+      "totalAttacks": 30,
+      "warsInRoster": 20,
+      "totalMissed": 9,
+      "rank": 28,
+      "normalizedScore": 19.48
+    },
     "#GQU9Y0CQ8": {
       "tier": "B",
       "score": 2.1760060589139982,
@@ -1961,7 +2008,7 @@
       "totalAttacks": 18,
       "warsInRoster": 14,
       "totalMissed": 10,
-      "rank": 28,
+      "rank": 29,
       "prevRank": 28,
       "normalizedScore": 0.36
     },
