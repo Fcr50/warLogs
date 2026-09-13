@@ -193,6 +193,12 @@
               "destructionPercentage": 100,
               "attackerTag": "#RQV8R8LG",
               "attackerMapPosition": 17
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 91,
+              "attackerTag": "#YU20PJ0C9",
+              "attackerMapPosition": 14
             }
           ],
           "missedAttacks": 0
@@ -484,6 +490,12 @@
               "attackerMapPosition": 1
             },
             {
+              "stars": 2,
+              "destructionPercentage": 85,
+              "attackerTag": "#QV2UVRGC",
+              "attackerMapPosition": 2
+            },
+            {
               "stars": 3,
               "destructionPercentage": 100,
               "attackerTag": "#RCPYY2VG",
@@ -676,7 +688,14 @@
           "name": "Lobo ®",
           "townhallLevel": 18,
           "mapPosition": 4,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 75,
+              "defenderTag": "#QV2UVRGC"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
