@@ -10,8 +10,8 @@
       "opponent": {
         "name": "ГРИЗЛИ",
         "tag": "#8YQYUUCC",
-        "stars": 67,
-        "destructionPercentage": 90.16,
+        "stars": 75,
+        "destructionPercentage": 100,
         "members": [
           {
             "tag": "#22JU8LYPY",
@@ -187,6 +187,12 @@
               "destructionPercentage": 74,
               "attackerTag": "#GJJ2P8L8",
               "attackerMapPosition": 1
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#RQV8R8LG",
+              "attackerMapPosition": 17
             }
           ],
           "missedAttacks": 0
@@ -210,7 +216,14 @@
               "defenderTag": "#82Y00LQJR"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#RQV8R8LG",
+              "attackerMapPosition": 17
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -383,7 +396,14 @@
               "defenderTag": "#2YRVCLYYL"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#22JU8LYPY",
+              "attackerMapPosition": 4
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -405,6 +425,12 @@
               "destructionPercentage": 80,
               "attackerTag": "#GJJ2P8L8",
               "attackerMapPosition": 1
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#P8P8RPV88",
+              "attackerMapPosition": 8
             }
           ],
           "missedAttacks": 0
