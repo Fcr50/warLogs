@@ -10,8 +10,8 @@
       "opponent": {
         "name": "ГРИЗЛИ",
         "tag": "#8YQYUUCC",
-        "stars": 8,
-        "destructionPercentage": 11.32,
+        "stars": 17,
+        "destructionPercentage": 25.64,
         "members": [
           {
             "tag": "#22JU8LYPY",
@@ -116,15 +116,10 @@
         ]
       },
       "clan": {
-        "stars": 48,
-        "destructionPercentage": 64
+        "stars": 54,
+        "destructionPercentage": 72
       },
       "sixHourNonAttackers": [
-        {
-          "tag": "#8VCUUPPJP",
-          "name": "Satsugai",
-          "townhallLevel": 18
-        },
         {
           "tag": "#YRCLVY099",
           "name": "GLADIADOR - SP",
@@ -144,11 +139,6 @@
           "tag": "#LQQRGJ8VU",
           "name": "i-Vinni",
           "townhallLevel": 18
-        },
-        {
-          "tag": "#URR0QLV",
-          "name": "Victor Daniel",
-          "townhallLevel": 17
         },
         {
           "tag": "#20JC0J9JR",
@@ -177,7 +167,14 @@
           "name": "Satsugai",
           "townhallLevel": 18,
           "mapPosition": 14,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 26,
+              "defenderTag": "#YU20PJ0C9"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -251,7 +248,14 @@
           "townhallLevel": 18,
           "mapPosition": 22,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 97,
+              "attackerTag": "#GJR8P02P2",
+              "attackerMapPosition": 21
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -347,7 +351,14 @@
           "name": "Victor Daniel",
           "townhallLevel": 17,
           "mapPosition": 23,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 24,
+              "defenderTag": "#2YR2YC0GY"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -389,7 +400,14 @@
               "defenderTag": "#2YRVCLYYL"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#20L8JLCUV",
+              "attackerMapPosition": 19
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -475,7 +493,14 @@
               "defenderTag": "#22JU8LYPY"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 90,
+              "attackerTag": "#GJR8P02P2",
+              "attackerMapPosition": 21
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -493,7 +518,14 @@
           "townhallLevel": 18,
           "mapPosition": 19,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 71,
+              "attackerTag": "#20L8JLCUV",
+              "attackerMapPosition": 19
+            }
+          ],
           "missedAttacks": 0
         },
         {
