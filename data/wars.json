@@ -10,8 +10,8 @@
       "opponent": {
         "name": "ГРИЗЛИ",
         "tag": "#8YQYUUCC",
-        "stars": 17,
-        "destructionPercentage": 25.64,
+        "stars": 20,
+        "destructionPercentage": 29.64,
         "members": [
           {
             "tag": "#22JU8LYPY",
@@ -239,7 +239,14 @@
           "townhallLevel": 17,
           "mapPosition": 24,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#Q8RUL92C",
+              "attackerMapPosition": 16
+            }
+          ],
           "missedAttacks": 0
         },
         {
