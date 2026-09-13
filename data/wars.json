@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 8,
-        "destructionPercentage": 11.24
+        "stars": 20,
+        "destructionPercentage": 27.24
       },
       "sixHourNonAttackers": [
         {
@@ -133,11 +133,6 @@
         {
           "tag": "#QQC8P9C9R",
           "name": "Gs.prieto",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#2QL0VR9GU",
-          "name": "Marcola",
           "townhallLevel": 18
         },
         {
@@ -171,11 +166,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#QGQJGURCL",
-          "name": "SAFONOV",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#URR0QLV",
           "name": "Victor Daniel",
           "townhallLevel": 17
@@ -201,11 +191,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#P9C0LVLU2",
-          "name": "VINGADOR⚡",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#8GR8LYJCP",
           "name": "꧁༒ＫＲＯＮＩＸ༒ ࿐",
           "townhallLevel": 18
@@ -218,11 +203,6 @@
         {
           "tag": "#GCJVY8JGG",
           "name": "-+CARRASCO+-",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QJVQVRPU",
-          "name": "Frnnn",
           "townhallLevel": 18
         },
         {
@@ -264,7 +244,14 @@
           "name": "Marcola",
           "townhallLevel": 18,
           "mapPosition": 11,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 6,
+              "defenderTag": "#LRRVVR9YJ"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -327,7 +314,14 @@
           "name": "SAFONOV",
           "townhallLevel": 18,
           "mapPosition": 1,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 5,
+              "defenderTag": "#GJJ2P8L8"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -429,7 +423,14 @@
           "name": "VINGADOR⚡",
           "townhallLevel": 18,
           "mapPosition": 3,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 7,
+              "defenderTag": "#22LYUG2CC"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -465,7 +466,14 @@
           "name": "Frnnn",
           "townhallLevel": 18,
           "mapPosition": 9,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 4,
+              "defenderTag": "#CGVL2RY"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
