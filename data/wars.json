@@ -10,8 +10,8 @@
       "opponent": {
         "name": "ГРИЗЛИ",
         "tag": "#8YQYUUCC",
-        "stars": 21,
-        "destructionPercentage": 30.04,
+        "stars": 28,
+        "destructionPercentage": 38.72,
         "members": [
           {
             "tag": "#22JU8LYPY",
@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 54,
-        "destructionPercentage": 72
+        "stars": 60,
+        "destructionPercentage": 80
       },
       "sixHourNonAttackers": [
         {
@@ -296,7 +296,14 @@
           "townhallLevel": 18,
           "mapPosition": 15,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#PGPQGPQQ",
+              "attackerMapPosition": 7
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -364,6 +371,12 @@
               "destructionPercentage": 100,
               "order": 24,
               "defenderTag": "#2YR2YC0GY"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 30,
+              "defenderTag": "#QVGR02P0J"
             }
           ],
           "defensesReceived": [],
@@ -530,7 +543,14 @@
           "name": "-+CARRASCO+-",
           "townhallLevel": 18,
           "mapPosition": 19,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 29,
+              "defenderTag": "#20L8JLCUV"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 2,
@@ -554,7 +574,14 @@
               "defenderTag": "#CGVL2RY"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#CGVL2RY",
+              "attackerMapPosition": 9
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -571,6 +598,12 @@
             }
           ],
           "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#82Y00LQJR",
+              "attackerMapPosition": 15
+            },
             {
               "stars": 2,
               "destructionPercentage": 83,
