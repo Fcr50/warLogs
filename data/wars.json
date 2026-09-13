@@ -10,8 +10,8 @@
       "opponent": {
         "name": "ГРИЗЛИ",
         "tag": "#8YQYUUCC",
-        "stars": 61,
-        "destructionPercentage": 82.92,
+        "stars": 65,
+        "destructionPercentage": 87.88,
         "members": [
           {
             "tag": "#22JU8LYPY",
@@ -439,7 +439,14 @@
               "defenderTag": "#QVGR02P0J"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#2YRVCLYYL",
+              "attackerMapPosition": 20
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -456,6 +463,12 @@
             }
           ],
           "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#82Y00LQJR",
+              "attackerMapPosition": 15
+            },
             {
               "stars": 2,
               "destructionPercentage": 76,
