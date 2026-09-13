@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 0,
-        "destructionPercentage": 0
+        "stars": 8,
+        "destructionPercentage": 11.24
       },
       "sixHourNonAttackers": [
         {
@@ -176,28 +176,13 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#GJ2LQVQJ",
-          "name": "Fer",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#URR0QLV",
           "name": "Victor Daniel",
           "townhallLevel": 17
         },
         {
-          "tag": "#PLU2VCLG",
-          "name": "Phoenix",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#20JC0J9JR",
           "name": "BTV✯Robin Hood",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#92LYVUU9Q",
-          "name": "#Sahara300#",
           "townhallLevel": 18
         },
         {
@@ -351,7 +336,14 @@
           "name": "Fer",
           "townhallLevel": 18,
           "mapPosition": 2,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 1,
+              "defenderTag": "#QV2UVRGC"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -369,7 +361,14 @@
           "name": "Phoenix",
           "townhallLevel": 18,
           "mapPosition": 8,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 2,
+              "defenderTag": "#P8P8RPV88"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -387,7 +386,14 @@
           "name": "#Sahara300#",
           "townhallLevel": 18,
           "mapPosition": 20,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 81,
+              "order": 3,
+              "defenderTag": "#2YRVCLYYL"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
