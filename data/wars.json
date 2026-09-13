@@ -340,7 +340,20 @@
           "name": "ChrolloLucilfer",
           "townhallLevel": 18,
           "mapPosition": 12,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 65,
+              "order": 70,
+              "defenderTag": "#GJJ2P8L8"
+            },
+            {
+              "stars": 1,
+              "destructionPercentage": 8,
+              "order": 71,
+              "defenderTag": "#QV2UVRGC"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -397,6 +410,12 @@
               "destructionPercentage": 100,
               "order": 69,
               "defenderTag": "#82Y00LQJR"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 73,
+              "defenderTag": "#GJJ2P8L8"
             }
           ],
           "defensesReceived": [
@@ -634,6 +653,12 @@
               "destructionPercentage": 100,
               "order": 14,
               "defenderTag": "#82QQQQG9J"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 72,
+              "defenderTag": "#GJJ2P8L8"
             }
           ],
           "defensesReceived": [
