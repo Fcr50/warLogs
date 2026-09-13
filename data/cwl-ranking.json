@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-13T13:00:38.075Z",
+  "generatedAt": "2026-09-13T13:15:33.920Z",
   "totalWars": 34,
   "liveWar": {
     "opponentName": "ГРИЗЛИ",
-    "totalAttacksDone": 28,
+    "totalAttacksDone": 29,
     "totalAttacksExpected": 50
   },
   "ranking": [
@@ -117,6 +117,42 @@
     },
     {
       "player": {
+        "tag": "#QGQJGURCL",
+        "name": "SAFONOV",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.4871757098174503,
+        "rawScore": 2.4871757098174503,
+        "confidence": 1,
+        "tier": "A",
+        "attackScore": 3.3557146140163527,
+        "defenseScore": 0.2485140524282096,
+        "reliability": 0.9647058823529412,
+        "formScore": 3.5,
+        "warsInRoster": 42,
+        "attacksUsed": 83,
+        "attacksAvailable": 83,
+        "avgDestruction": 98.10843373493977,
+        "totalAttacks": 83,
+        "totalStars": 232,
+        "count3Stars": 67,
+        "avgStars": 2.7951807228915664,
+        "threeStarRate": 0.8072289156626506,
+        "totalMissed": 0,
+        "avgPositionDiff": 0.891566265060241,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#2GP2JUU2",
         "name": "Gustavo Lázaro",
         "townhallLevel": 18
@@ -177,42 +213,6 @@
         "threeStarRate": 0.7236842105263158,
         "totalMissed": 1,
         "avgPositionDiff": -6.592105263157895,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#QGQJGURCL",
-        "name": "SAFONOV",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.478486401504146,
-        "rawScore": 2.478486401504146,
-        "confidence": 1,
-        "tier": "A",
-        "attackScore": 3.3557146140163527,
-        "defenseScore": 0.2137568191749948,
-        "reliability": 0.9647058823529412,
-        "formScore": 3.5,
-        "warsInRoster": 42,
-        "attacksUsed": 82,
-        "attacksAvailable": 83,
-        "avgDestruction": 98.08536585365853,
-        "totalAttacks": 82,
-        "totalStars": 229,
-        "count3Stars": 66,
-        "avgStars": 2.792682926829268,
-        "threeStarRate": 0.8048780487804879,
-        "totalMissed": 0,
-        "avgPositionDiff": 0.8902439024390244,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1486,16 +1486,16 @@
       "normalizedScore": 72.83
     },
     "#QGQJGURCL": {
-      "tier": "A",
-      "score": 2.478486401504146,
-      "avgStars": 2.792682926829268,
-      "totalStars": 229,
-      "totalAttacks": 82,
+      "tier": "S",
+      "score": 2.4871757098174503,
+      "avgStars": 2.7951807228915664,
+      "totalStars": 232,
+      "totalAttacks": 83,
       "warsInRoster": 42,
       "totalMissed": 0,
-      "rank": 6,
+      "rank": 4,
       "prevRank": 6,
-      "normalizedScore": 70.81
+      "normalizedScore": 71.06
     },
     "#QQC8P9C9R": {
       "tier": "S",
@@ -1522,14 +1522,14 @@
       "normalizedScore": 71.44
     },
     "#2GP2JUU2": {
-      "tier": "S",
+      "tier": "A",
       "score": 2.4871021655669274,
       "avgStars": 2.852272727272727,
       "totalStars": 251,
       "totalAttacks": 88,
       "warsInRoster": 45,
       "totalMissed": 0,
-      "rank": 4,
+      "rank": 5,
       "prevRank": 4,
       "normalizedScore": 71.06
     },
@@ -1817,7 +1817,7 @@
       "totalAttacks": 76,
       "warsInRoster": 41,
       "totalMissed": 1,
-      "rank": 5,
+      "rank": 6,
       "prevRank": 5,
       "normalizedScore": 71.05
     },
