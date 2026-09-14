@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T19:45:24.867Z",
+  "generatedAt": "2026-09-14T20:00:33.478Z",
   "totalWars": 34,
   "liveWar": {
     "opponentName": "ГРИЗЛИ",
@@ -981,6 +981,42 @@
     },
     {
       "player": {
+        "tag": "#PU2R2UPYC",
+        "name": "TOUJO BASARA",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 0,
+        "rawScore": 0,
+        "confidence": 0,
+        "tier": "F",
+        "attackScore": 0,
+        "defenseScore": 0,
+        "reliability": 0,
+        "formScore": 0,
+        "warsInRoster": 0,
+        "attacksUsed": 0,
+        "attacksAvailable": 0,
+        "avgDestruction": 0,
+        "totalAttacks": 0,
+        "totalStars": 0,
+        "count3Stars": 0,
+        "avgStars": 0,
+        "threeStarRate": 0,
+        "totalMissed": 0,
+        "avgPositionDiff": 0,
+        "hasAnyDefense": false,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.56,
+          "defense": 0,
+          "reliability": 0.3067,
+          "form": 0.1333
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#2RRLYG2Q8",
         "name": "Michel CDL",
         "townhallLevel": 18
@@ -1091,42 +1127,6 @@
       "player": {
         "tag": "#QQCPVGQU2",
         "name": "~ alef ~",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 0,
-        "rawScore": 0,
-        "confidence": 0,
-        "tier": "F",
-        "attackScore": 0,
-        "defenseScore": 0,
-        "reliability": 0,
-        "formScore": 0,
-        "warsInRoster": 0,
-        "attacksUsed": 0,
-        "attacksAvailable": 0,
-        "avgDestruction": 0,
-        "totalAttacks": 0,
-        "totalStars": 0,
-        "count3Stars": 0,
-        "avgStars": 0,
-        "threeStarRate": 0,
-        "totalMissed": 0,
-        "avgPositionDiff": 0,
-        "hasAnyDefense": false,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.56,
-          "defense": 0,
-          "reliability": 0.3067,
-          "form": 0.1333
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#PU2R2UPYC",
-        "name": "TOUJO BASARA",
         "townhallLevel": 18
       },
       "data": {
@@ -1271,6 +1271,13 @@
   "noDataList": [
     {
       "player": {
+        "tag": "#PU2R2UPYC",
+        "name": "TOUJO BASARA",
+        "townhallLevel": 18
+      }
+    },
+    {
+      "player": {
         "tag": "#2RRLYG2Q8",
         "name": "Michel CDL",
         "townhallLevel": 18
@@ -1294,13 +1301,6 @@
       "player": {
         "tag": "#QQCPVGQU2",
         "name": "~ alef ~",
-        "townhallLevel": 18
-      }
-    },
-    {
-      "player": {
-        "tag": "#PU2R2UPYC",
-        "name": "TOUJO BASARA",
         "townhallLevel": 18
       }
     },
@@ -1375,18 +1375,6 @@
       "prevRank": 5,
       "normalizedScore": 71.06
     },
-    "#QGQJGURCL": {
-      "tier": "S",
-      "score": 2.4884791060644456,
-      "avgStars": 2.7951807228915664,
-      "totalStars": 232,
-      "totalAttacks": 83,
-      "warsInRoster": 42,
-      "totalMissed": 0,
-      "rank": 4,
-      "prevRank": 4,
-      "normalizedScore": 71.1
-    },
     "#QJVQVRPU": {
       "tier": "A",
       "score": 2.3602051440355933,
@@ -1398,6 +1386,18 @@
       "rank": 11,
       "prevRank": 11,
       "normalizedScore": 67.43
+    },
+    "#QGQJGURCL": {
+      "tier": "S",
+      "score": 2.4884791060644456,
+      "avgStars": 2.7951807228915664,
+      "totalStars": 232,
+      "totalAttacks": 83,
+      "warsInRoster": 42,
+      "totalMissed": 0,
+      "rank": 4,
+      "prevRank": 4,
+      "normalizedScore": 71.1
     },
     "#8YJYY92GC": {
       "tier": "A",
@@ -1447,18 +1447,6 @@
       "prevRank": 29,
       "normalizedScore": 21.58
     },
-    "#29LP0VJV0": {
-      "tier": "A",
-      "score": 2.3990900493610527,
-      "avgStars": 2.533333333333333,
-      "totalStars": 190,
-      "totalAttacks": 75,
-      "warsInRoster": 39,
-      "totalMissed": 2,
-      "rank": 9,
-      "prevRank": 9,
-      "normalizedScore": 68.55
-    },
     "#8CJ8YJY0P": {
       "tier": "B",
       "score": 1.9658186760951313,
@@ -1470,6 +1458,18 @@
       "rank": 20,
       "prevRank": 20,
       "normalizedScore": 56.17
+    },
+    "#29LP0VJV0": {
+      "tier": "A",
+      "score": 2.3990900493610527,
+      "avgStars": 2.533333333333333,
+      "totalStars": 190,
+      "totalAttacks": 75,
+      "warsInRoster": 39,
+      "totalMissed": 2,
+      "rank": 9,
+      "prevRank": 9,
+      "normalizedScore": 68.55
     },
     "#GCJVY8JGG": {
       "tier": "B",
@@ -1507,6 +1507,16 @@
       "prevRank": 22,
       "normalizedScore": 50.21
     },
+    "#PU2R2UPYC": {
+      "tier": "F",
+      "score": 0,
+      "avgStars": 0,
+      "totalStars": 0,
+      "totalAttacks": 0,
+      "warsInRoster": 0,
+      "totalMissed": 0,
+      "normalizedScore": 0
+    },
     "#QQC8P9C9R": {
       "tier": "S",
       "score": 2.492846729097334,
@@ -1518,6 +1528,18 @@
       "rank": 3,
       "prevRank": 3,
       "normalizedScore": 71.22
+    },
+    "#G9Y2L9QJJ": {
+      "tier": "A",
+      "score": 2.3284943521553743,
+      "avgStars": 2.890625,
+      "totalStars": 185,
+      "totalAttacks": 64,
+      "warsInRoster": 34,
+      "totalMissed": 2,
+      "rank": 12,
+      "prevRank": 12,
+      "normalizedScore": 66.53
     },
     "#8VCUUPPJP": {
       "tier": "A",
@@ -1554,18 +1576,6 @@
       "rank": 2,
       "prevRank": 2,
       "normalizedScore": 71.62
-    },
-    "#G9Y2L9QJJ": {
-      "tier": "A",
-      "score": 2.3284943521553743,
-      "avgStars": 2.890625,
-      "totalStars": 185,
-      "totalAttacks": 64,
-      "warsInRoster": 34,
-      "totalMissed": 2,
-      "rank": 12,
-      "prevRank": 12,
-      "normalizedScore": 66.53
     },
     "#PLU2VCLG": {
       "tier": "A",
@@ -1658,16 +1668,6 @@
       "normalizedScore": 0
     },
     "#QQCPVGQU2": {
-      "tier": "F",
-      "score": 0,
-      "avgStars": 0,
-      "totalStars": 0,
-      "totalAttacks": 0,
-      "warsInRoster": 0,
-      "totalMissed": 0,
-      "normalizedScore": 0
-    },
-    "#PU2R2UPYC": {
       "tier": "F",
       "score": 0,
       "avgStars": 0,
