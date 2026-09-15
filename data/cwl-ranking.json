@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T08:30:26.855Z",
+  "generatedAt": "2026-09-15T08:45:27.831Z",
   "totalWars": 34,
   "liveWar": {
     "opponentName": "ANGELS OF LIGHT",
@@ -837,42 +837,6 @@
     },
     {
       "player": {
-        "tag": "#20JC0J9JR",
-        "name": "BTV✯Robin Hood",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 1.3466287098333036,
-        "rawScore": 1.3466287098333036,
-        "confidence": 1,
-        "tier": "A",
-        "attackScore": 1.7702505141588027,
-        "defenseScore": 0.48546396354162447,
-        "reliability": 0.6981992797118848,
-        "formScore": 0,
-        "warsInRoster": 37,
-        "attacksUsed": 46,
-        "attacksAvailable": 73,
-        "avgDestruction": 98.80434782608695,
-        "totalAttacks": 46,
-        "totalStars": 134,
-        "count3Stars": 42,
-        "avgStars": 2.9130434782608696,
-        "threeStarRate": 0.9130434782608695,
-        "totalMissed": 16,
-        "avgPositionDiff": -1.108695652173913,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
         "tag": "#PPPUQPVJY",
         "name": "Rodrigo",
         "townhallLevel": 18
@@ -897,6 +861,42 @@
         "threeStarRate": 0.5102040816326531,
         "totalMissed": 11,
         "avgPositionDiff": -7.795918367346939,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#20JC0J9JR",
+        "name": "BTV✯Robin Hood",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 1.2642566053721762,
+        "rawScore": 1.2642566053721762,
+        "confidence": 1,
+        "tier": "A",
+        "attackScore": 1.7702505141588027,
+        "defenseScore": 0.15597554569711453,
+        "reliability": 0.6981992797118848,
+        "formScore": 0,
+        "warsInRoster": 37,
+        "attacksUsed": 46,
+        "attacksAvailable": 73,
+        "avgDestruction": 98.80434782608695,
+        "totalAttacks": 46,
+        "totalStars": 134,
+        "count3Stars": 42,
+        "avgStars": 2.9130434782608696,
+        "threeStarRate": 0.9130434782608695,
+        "totalMissed": 16,
+        "avgPositionDiff": -1.108695652173913,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1555,6 +1555,18 @@
       "prevRank": 22,
       "normalizedScore": 44.98
     },
+    "#8CJ8YJY0P": {
+      "tier": "B",
+      "score": 1.8990686760951312,
+      "avgStars": 2.674698795180723,
+      "totalStars": 222,
+      "totalAttacks": 83,
+      "warsInRoster": 46,
+      "totalMissed": 4,
+      "rank": 21,
+      "prevRank": 21,
+      "normalizedScore": 54.26
+    },
     "#PU2R2UPYC": {
       "tier": "F",
       "score": 0,
@@ -1574,18 +1586,6 @@
       "warsInRoster": 1,
       "totalMissed": 0,
       "normalizedScore": 0
-    },
-    "#8CJ8YJY0P": {
-      "tier": "B",
-      "score": 1.8990686760951312,
-      "avgStars": 2.674698795180723,
-      "totalStars": 222,
-      "totalAttacks": 83,
-      "warsInRoster": 46,
-      "totalMissed": 4,
-      "rank": 21,
-      "prevRank": 21,
-      "normalizedScore": 54.26
     },
     "#92LYVUU9Q": {
       "tier": "B",
@@ -1711,7 +1711,7 @@
       "totalAttacks": 49,
       "warsInRoster": 31,
       "totalMissed": 11,
-      "rank": 26,
+      "rank": 25,
       "prevRank": 26,
       "normalizedScore": 36.82
     },
@@ -1763,15 +1763,15 @@
     },
     "#20JC0J9JR": {
       "tier": "B",
-      "score": 1.3466287098333036,
+      "score": 1.2642566053721762,
       "avgStars": 2.9130434782608696,
       "totalStars": 134,
       "totalAttacks": 46,
       "warsInRoster": 37,
       "totalMissed": 16,
-      "rank": 25,
+      "rank": 26,
       "prevRank": 25,
-      "normalizedScore": 38.48
+      "normalizedScore": 36.12
     },
     "#2UQR9LYR": {
       "tier": "F",
