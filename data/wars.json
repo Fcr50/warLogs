@@ -10,8 +10,8 @@
       "opponent": {
         "name": "ANGELS OF LIGHT",
         "tag": "#2L9CGYLR",
-        "stars": 7,
-        "destructionPercentage": 9.96,
+        "stars": 11,
+        "destructionPercentage": 16.6,
         "members": [
           {
             "tag": "#UVYJ0QQ8",
@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 42,
-        "destructionPercentage": 56
+        "stars": 45,
+        "destructionPercentage": 60
       },
       "sixHourNonAttackers": [
         {
@@ -163,11 +163,6 @@
         {
           "tag": "#GQU9Y0CQ8",
           "name": "Scok♤",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QJLQLUURY",
-          "name": "NenemPJL",
           "townhallLevel": 18
         },
         {
@@ -355,7 +350,14 @@
               "defenderTag": "#9YPJVR0G"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#U9J2C88V",
+              "attackerMapPosition": 1
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -396,7 +398,14 @@
           "townhallLevel": 18,
           "mapPosition": 6,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 1,
+              "destructionPercentage": 66,
+              "attackerTag": "#RPPQ09YL",
+              "attackerMapPosition": 6
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -520,7 +529,14 @@
           "name": "NenemPJL",
           "townhallLevel": 18,
           "mapPosition": 15,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 22,
+              "defenderTag": "#LURG8JJ20"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
