@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-15T09:30:34.693Z",
+  "generatedAt": "2026-09-15T09:45:25.931Z",
   "totalWars": 34,
   "liveWar": {
     "opponentName": "ANGELS OF LIGHT",
-    "totalAttacksDone": 20,
+    "totalAttacksDone": 22,
     "totalAttacksExpected": 50
   },
   "ranking": [
@@ -194,25 +194,25 @@
         "townhallLevel": 18
       },
       "data": {
-        "score": 2.46824229009992,
-        "rawScore": 2.46824229009992,
+        "score": 2.4688609743202568,
+        "rawScore": 2.4688609743202568,
         "confidence": 1,
         "tier": "A",
-        "attackScore": 3.348572891809264,
+        "attackScore": 3.350045949476733,
         "defenseScore": 0.15230787863070483,
         "reliability": 0.9764705882352941,
         "formScore": 3.5,
         "warsInRoster": 43,
-        "attacksUsed": 84,
+        "attacksUsed": 85,
         "attacksAvailable": 85,
-        "avgDestruction": 99.51190476190476,
-        "totalAttacks": 84,
-        "totalStars": 239,
-        "count3Stars": 72,
-        "avgStars": 2.8452380952380953,
-        "threeStarRate": 0.8571428571428571,
+        "avgDestruction": 99.51764705882353,
+        "totalAttacks": 85,
+        "totalStars": 242,
+        "count3Stars": 73,
+        "avgStars": 2.847058823529412,
+        "threeStarRate": 0.8588235294117647,
         "totalMissed": 0,
-        "avgPositionDiff": -0.4642857142857143,
+        "avgPositionDiff": -0.47058823529411764,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -981,6 +981,42 @@
     },
     {
       "player": {
+        "tag": "#2RRLYG2Q8",
+        "name": "Michel CDL",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 0.624,
+        "rawScore": 1.248,
+        "confidence": 0.5,
+        "tier": "C",
+        "attackScore": 2.4,
+        "defenseScore": 0,
+        "reliability": 0,
+        "formScore": 2.4,
+        "warsInRoster": 1,
+        "attacksUsed": 1,
+        "attacksAvailable": 2,
+        "avgDestruction": 90,
+        "totalAttacks": 1,
+        "totalStars": 2,
+        "count3Stars": 0,
+        "avgStars": 2,
+        "threeStarRate": 0,
+        "totalMissed": 0,
+        "avgPositionDiff": 0,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#8RG22P8J",
         "name": "KRATOS",
         "townhallLevel": 18
@@ -1120,42 +1156,6 @@
           "defense": 0,
           "reliability": 0.3067,
           "form": 0.1333
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#2RRLYG2Q8",
-        "name": "Michel CDL",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 0,
-        "rawScore": 0,
-        "confidence": 0.5,
-        "tier": "F",
-        "attackScore": 0,
-        "defenseScore": 0,
-        "reliability": 0,
-        "formScore": 0,
-        "warsInRoster": 1,
-        "attacksUsed": 0,
-        "attacksAvailable": 2,
-        "avgDestruction": 0,
-        "totalAttacks": 0,
-        "totalStars": 0,
-        "count3Stars": 0,
-        "avgStars": 0,
-        "threeStarRate": 0,
-        "totalMissed": 0,
-        "avgPositionDiff": 0,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
         }
       }
     },
@@ -1371,13 +1371,6 @@
     },
     {
       "player": {
-        "tag": "#2RRLYG2Q8",
-        "name": "Michel CDL",
-        "townhallLevel": 18
-      }
-    },
-    {
-      "player": {
         "tag": "#R8U0U28V",
         "name": "THOR",
         "townhallLevel": 18
@@ -1518,7 +1511,7 @@
       "warsInRoster": 40,
       "totalMissed": 2,
       "rank": 7,
-      "prevRank": 5,
+      "prevRank": 7,
       "normalizedScore": 70.07
     },
     "#8RG22P8J": {
@@ -1530,6 +1523,17 @@
       "warsInRoster": 0,
       "totalMissed": 0,
       "normalizedScore": 0
+    },
+    "#2RRLYG2Q8": {
+      "tier": "C",
+      "score": 0.624,
+      "avgStars": 2,
+      "totalStars": 2,
+      "totalAttacks": 1,
+      "warsInRoster": 1,
+      "totalMissed": 0,
+      "rank": 31,
+      "normalizedScore": 17.83
     },
     "#8YJYY92GC": {
       "tier": "A",
@@ -1620,7 +1624,7 @@
       "warsInRoster": 40,
       "totalMissed": 1,
       "rank": 5,
-      "prevRank": 6,
+      "prevRank": 5,
       "normalizedScore": 70.7
     },
     "#QQC8P9C9R": {
@@ -1668,16 +1672,6 @@
       "rank": 16,
       "prevRank": 16,
       "normalizedScore": 63.91
-    },
-    "#2RRLYG2Q8": {
-      "tier": "F",
-      "score": 0,
-      "avgStars": 0,
-      "totalStars": 0,
-      "totalAttacks": 0,
-      "warsInRoster": 1,
-      "totalMissed": 0,
-      "normalizedScore": 0
     },
     "#GCJVY8JGG": {
       "tier": "B",
@@ -1751,15 +1745,15 @@
     },
     "#PLU2VCLG": {
       "tier": "A",
-      "score": 2.46824229009992,
-      "avgStars": 2.8452380952380953,
-      "totalStars": 239,
-      "totalAttacks": 84,
+      "score": 2.4688609743202568,
+      "avgStars": 2.847058823529412,
+      "totalStars": 242,
+      "totalAttacks": 85,
       "warsInRoster": 43,
       "totalMissed": 0,
       "rank": 6,
-      "prevRank": 7,
-      "normalizedScore": 70.52
+      "prevRank": 6,
+      "normalizedScore": 70.54
     },
     "#20JC0J9JR": {
       "tier": "B",
@@ -1845,7 +1839,7 @@
       "totalAttacks": 18,
       "warsInRoster": 14,
       "totalMissed": 10,
-      "rank": 31,
+      "rank": 32,
       "prevRank": 31,
       "normalizedScore": 0.36
     },
