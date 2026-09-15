@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T17:45:26.843Z",
+  "generatedAt": "2026-09-15T18:00:28.795Z",
   "totalWars": 34,
   "liveWar": {
     "opponentName": "ANGELS OF LIGHT",
@@ -698,12 +698,12 @@
         "townhallLevel": 18
       },
       "data": {
-        "score": 1.7796763752032463,
-        "rawScore": 1.7796763752032463,
+        "score": 1.8227037356291675,
+        "rawScore": 1.8227037356291675,
         "confidence": 1,
         "tier": "A",
         "attackScore": 2.2507841337564547,
-        "defenseScore": 0.1612538277439321,
+        "defenseScore": 0.3333632694476166,
         "reliability": 0.964179104477612,
         "formScore": 1.2875,
         "warsInRoster": 46,
@@ -914,12 +914,12 @@
         "townhallLevel": 18
       },
       "data": {
-        "score": 1.213275,
-        "rawScore": 2.42655,
+        "score": 1.0787499999999999,
+        "rawScore": 2.1574999999999998,
         "confidence": 0.5,
         "tier": "B",
         "attackScore": 3.5,
-        "defenseScore": 0,
+        "defenseScore": 1.3499999999999999,
         "reliability": 0,
         "formScore": 3.5,
         "warsInRoster": 1,
@@ -933,13 +933,13 @@
         "threeStarRate": 1,
         "totalMissed": 0,
         "avgPositionDiff": 0,
-        "hasAnyDefense": false,
+        "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
-          "attack": 0.56,
-          "defense": 0,
-          "reliability": 0.3067,
-          "form": 0.1333
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
         }
       }
     },
@@ -1053,42 +1053,6 @@
     },
     {
       "player": {
-        "tag": "#8RG22P8J",
-        "name": "KRATOS",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 0,
-        "rawScore": 0,
-        "confidence": 0,
-        "tier": "F",
-        "attackScore": 0,
-        "defenseScore": 0,
-        "reliability": 0,
-        "formScore": 0,
-        "warsInRoster": 0,
-        "attacksUsed": 0,
-        "attacksAvailable": 0,
-        "avgDestruction": 0,
-        "totalAttacks": 0,
-        "totalStars": 0,
-        "count3Stars": 0,
-        "avgStars": 0,
-        "threeStarRate": 0,
-        "totalMissed": 0,
-        "avgPositionDiff": 0,
-        "hasAnyDefense": false,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.56,
-          "defense": 0,
-          "reliability": 0.3067,
-          "form": 0.1333
-        }
-      }
-    },
-    {
-      "player": {
         "tag": "#PU2R2UPYC",
         "name": "TOUJO BASARA",
         "townhallLevel": 18
@@ -1127,42 +1091,6 @@
       "player": {
         "tag": "#G0YP02ULL",
         "name": "HERICK",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 0,
-        "rawScore": 0,
-        "confidence": 0,
-        "tier": "F",
-        "attackScore": 0,
-        "defenseScore": 0,
-        "reliability": 0,
-        "formScore": 0,
-        "warsInRoster": 0,
-        "attacksUsed": 0,
-        "attacksAvailable": 0,
-        "avgDestruction": 0,
-        "totalAttacks": 0,
-        "totalStars": 0,
-        "count3Stars": 0,
-        "avgStars": 0,
-        "threeStarRate": 0,
-        "totalMissed": 0,
-        "avgPositionDiff": 0,
-        "hasAnyDefense": false,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.56,
-          "defense": 0,
-          "reliability": 0.3067,
-          "form": 0.1333
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#R8U0U28V",
-        "name": "THOR",
         "townhallLevel": 18
       },
       "data": {
@@ -1343,13 +1271,6 @@
   "noDataList": [
     {
       "player": {
-        "tag": "#8RG22P8J",
-        "name": "KRATOS",
-        "townhallLevel": 18
-      }
-    },
-    {
-      "player": {
         "tag": "#PU2R2UPYC",
         "name": "TOUJO BASARA",
         "townhallLevel": 18
@@ -1359,13 +1280,6 @@
       "player": {
         "tag": "#G0YP02ULL",
         "name": "HERICK",
-        "townhallLevel": 18
-      }
-    },
-    {
-      "player": {
-        "tag": "#R8U0U28V",
-        "name": "THOR",
         "townhallLevel": 18
       }
     },
@@ -1519,16 +1433,6 @@
       "prevRank": 8,
       "normalizedScore": 70.05
     },
-    "#8RG22P8J": {
-      "tier": "F",
-      "score": 0,
-      "avgStars": 0,
-      "totalStars": 0,
-      "totalAttacks": 0,
-      "warsInRoster": 0,
-      "totalMissed": 0,
-      "normalizedScore": 0
-    },
     "#2RRLYG2Q8": {
       "tier": "C",
       "score": 0.770675,
@@ -1589,7 +1493,7 @@
     },
     "#8CJ8YJY0P": {
       "tier": "B",
-      "score": 1.7796763752032463,
+      "score": 1.8227037356291675,
       "avgStars": 2.635294117647059,
       "totalStars": 224,
       "totalAttacks": 85,
@@ -1597,19 +1501,19 @@
       "totalMissed": 4,
       "rank": 21,
       "prevRank": 21,
-      "normalizedScore": 50.85
+      "normalizedScore": 52.08
     },
     "#QQCPVGQU2": {
       "tier": "B",
-      "score": 1.213275,
+      "score": 1.0787499999999999,
       "avgStars": 3,
       "totalStars": 3,
       "totalAttacks": 1,
       "warsInRoster": 1,
       "totalMissed": 0,
-      "rank": 27,
+      "rank": 28,
       "prevRank": 27,
-      "normalizedScore": 34.67
+      "normalizedScore": 30.82
     },
     "#G9Y2L9QJJ": {
       "tier": "B",
@@ -1716,16 +1620,6 @@
       "rank": 9,
       "prevRank": 9,
       "normalizedScore": 69.35
-    },
-    "#R8U0U28V": {
-      "tier": "F",
-      "score": 0,
-      "avgStars": 0,
-      "totalStars": 0,
-      "totalAttacks": 0,
-      "warsInRoster": 0,
-      "totalMissed": 0,
-      "normalizedScore": 0
     },
     "#LQQRGJ8VU": {
       "tier": "S",
@@ -1847,7 +1741,7 @@
       "totalAttacks": 3,
       "warsInRoster": 2,
       "totalMissed": 0,
-      "rank": 28,
+      "rank": 27,
       "prevRank": 28,
       "normalizedScore": 34.48
     },

@@ -10,8 +10,8 @@
       "opponent": {
         "name": "ANGELS OF LIGHT",
         "tag": "#2L9CGYLR",
-        "stars": 50,
-        "destructionPercentage": 75.72,
+        "stars": 54,
+        "destructionPercentage": 79.96,
         "members": [
           {
             "tag": "#UVYJ0QQ8",
@@ -322,7 +322,14 @@
               "defenderTag": "#9YPJVR0G"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 56,
+              "attackerTag": "#9JCJQPC20",
+              "attackerMapPosition": 22
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -849,7 +856,14 @@
               "defenderTag": "#9JCJQPC20"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 50,
+              "attackerTag": "#9JCJQPC20",
+              "attackerMapPosition": 22
+            }
+          ],
           "missedAttacks": 0
         }
       ]
