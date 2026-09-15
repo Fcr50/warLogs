@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T06:45:44.717Z",
+  "generatedAt": "2026-09-15T07:00:32.798Z",
   "totalWars": 34,
   "liveWar": {
     "opponentName": "ANGELS OF LIGHT",
@@ -81,6 +81,42 @@
     },
     {
       "player": {
+        "tag": "#2GP2JUU2",
+        "name": "Gustavo Lázaro",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.530454122701046,
+        "rawScore": 2.530454122701046,
+        "confidence": 1,
+        "tier": "S",
+        "attackScore": 3.408171989542473,
+        "defenseScore": 0.2360875483728294,
+        "reliability": 1,
+        "formScore": 3.5,
+        "warsInRoster": 46,
+        "attacksUsed": 89,
+        "attacksAvailable": 91,
+        "avgDestruction": 99.02247191011236,
+        "totalAttacks": 89,
+        "totalStars": 254,
+        "count3Stars": 77,
+        "avgStars": 2.853932584269663,
+        "threeStarRate": 0.8651685393258427,
+        "totalMissed": 0,
+        "avgPositionDiff": -0.4943820224719101,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#QQC8P9C9R",
         "name": "Gs.prieto",
         "townhallLevel": 18
@@ -105,42 +141,6 @@
         "threeStarRate": 0.8876404494382022,
         "totalMissed": 0,
         "avgPositionDiff": -0.7865168539325843,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#2GP2JUU2",
-        "name": "Gustavo Lázaro",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.493912781449967,
-        "rawScore": 2.493912781449967,
-        "confidence": 1,
-        "tier": "S",
-        "attackScore": 3.408171989542473,
-        "defenseScore": 0.08992218336851325,
-        "reliability": 1,
-        "formScore": 3.5,
-        "warsInRoster": 46,
-        "attacksUsed": 89,
-        "attacksAvailable": 91,
-        "avgDestruction": 99.02247191011236,
-        "totalAttacks": 89,
-        "totalStars": 254,
-        "count3Stars": 77,
-        "avgStars": 2.853932584269663,
-        "threeStarRate": 0.8651685393258427,
-        "totalMissed": 0,
-        "avgPositionDiff": -0.4943820224719101,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1456,18 +1456,6 @@
     }
   ],
   "statsByTag": {
-    "#P9C0LVLU2": {
-      "tier": "A",
-      "score": 2.3605599090259966,
-      "avgStars": 2.7777777777777777,
-      "totalStars": 225,
-      "totalAttacks": 81,
-      "warsInRoster": 44,
-      "totalMissed": 3,
-      "rank": 12,
-      "prevRank": 12,
-      "normalizedScore": 67.44
-    },
     "#GJ2LQVQJ": {
       "tier": "A",
       "score": 2.2998688749049365,
@@ -1479,6 +1467,18 @@
       "rank": 14,
       "prevRank": 14,
       "normalizedScore": 65.71
+    },
+    "#P9C0LVLU2": {
+      "tier": "A",
+      "score": 2.3605599090259966,
+      "avgStars": 2.7777777777777777,
+      "totalStars": 225,
+      "totalAttacks": 81,
+      "warsInRoster": 44,
+      "totalMissed": 3,
+      "rank": 12,
+      "prevRank": 12,
+      "normalizedScore": 67.44
     },
     "#2LY0P2L9U": {
       "tier": "S",
@@ -1494,15 +1494,15 @@
     },
     "#2GP2JUU2": {
       "tier": "S",
-      "score": 2.493912781449967,
+      "score": 2.530454122701046,
       "avgStars": 2.853932584269663,
       "totalStars": 254,
       "totalAttacks": 89,
       "warsInRoster": 46,
       "totalMissed": 0,
-      "rank": 4,
+      "rank": 3,
       "prevRank": 4,
-      "normalizedScore": 71.25
+      "normalizedScore": 72.3
     },
     "#GGVCRYP8P": {
       "tier": "A",
@@ -1650,7 +1650,7 @@
       "totalAttacks": 89,
       "warsInRoster": 45,
       "totalMissed": 0,
-      "rank": 3,
+      "rank": 4,
       "prevRank": 3,
       "normalizedScore": 71.37
     },
