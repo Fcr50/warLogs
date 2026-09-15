@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-15T21:15:27.133Z",
+  "generatedAt": "2026-09-15T21:30:36.917Z",
   "totalWars": 34,
   "liveWar": {
     "opponentName": "ANGELS OF LIGHT",
-    "totalAttacksDone": 40,
+    "totalAttacksDone": 41,
     "totalAttacksExpected": 50
   },
   "ranking": [
@@ -621,6 +621,42 @@
     },
     {
       "player": {
+        "tag": "#80LUCC9YV",
+        "name": "Lobo ®",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.1320183082252266,
+        "rawScore": 2.1320183082252266,
+        "confidence": 1,
+        "tier": "A",
+        "attackScore": 2.8159460746589184,
+        "defenseScore": 0.07457794512098201,
+        "reliability": 0.884313725490196,
+        "formScore": 3.205,
+        "warsInRoster": 39,
+        "attacksUsed": 72,
+        "attacksAvailable": 78,
+        "avgDestruction": 97.72222222222223,
+        "totalAttacks": 72,
+        "totalStars": 201,
+        "count3Stars": 61,
+        "avgStars": 2.7916666666666665,
+        "threeStarRate": 0.8472222222222222,
+        "totalMissed": 3,
+        "avgPositionDiff": 3.5555555555555554,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#QJLQLUURY",
         "name": "NenemPJL",
         "townhallLevel": 18
@@ -645,42 +681,6 @@
         "threeStarRate": 0.7142857142857143,
         "totalMissed": 1,
         "avgPositionDiff": -7.142857142857143,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#80LUCC9YV",
-        "name": "Lobo ®",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.035915727072302,
-        "rawScore": 2.035915727072302,
-        "confidence": 1,
-        "tier": "A",
-        "attackScore": 2.6573685004852883,
-        "defenseScore": 0.07457794512098201,
-        "reliability": 0.884313725490196,
-        "formScore": 2.91,
-        "warsInRoster": 39,
-        "attacksUsed": 71,
-        "attacksAvailable": 78,
-        "avgDestruction": 97.69014084507042,
-        "totalAttacks": 71,
-        "totalStars": 198,
-        "count3Stars": 60,
-        "avgStars": 2.788732394366197,
-        "threeStarRate": 0.8450704225352113,
-        "totalMissed": 3,
-        "avgPositionDiff": 3.647887323943662,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1511,7 +1511,7 @@
       "totalAttacks": 49,
       "warsInRoster": 25,
       "totalMissed": 1,
-      "rank": 19,
+      "rank": 20,
       "prevRank": 19,
       "normalizedScore": 58.69
     },
@@ -1575,15 +1575,15 @@
     },
     "#80LUCC9YV": {
       "tier": "B",
-      "score": 2.035915727072302,
-      "avgStars": 2.788732394366197,
-      "totalStars": 198,
-      "totalAttacks": 71,
+      "score": 2.1320183082252266,
+      "avgStars": 2.7916666666666665,
+      "totalStars": 201,
+      "totalAttacks": 72,
       "warsInRoster": 39,
       "totalMissed": 3,
-      "rank": 20,
+      "rank": 18,
       "prevRank": 20,
-      "normalizedScore": 58.17
+      "normalizedScore": 60.91
     },
     "#PPPUQPVJY": {
       "tier": "B",
@@ -1741,7 +1741,7 @@
       "totalAttacks": 15,
       "warsInRoster": 8,
       "totalMissed": 1,
-      "rank": 18,
+      "rank": 19,
       "prevRank": 18,
       "normalizedScore": 60.08
     },
