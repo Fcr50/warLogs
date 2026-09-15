@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-15T01:45:26.477Z",
+  "generatedAt": "2026-09-15T02:00:32.738Z",
   "totalWars": 34,
   "liveWar": {
     "opponentName": "ANGELS OF LIGHT",
-    "totalAttacksDone": 13,
+    "totalAttacksDone": 14,
     "totalAttacksExpected": 50
   },
   "ranking": [
@@ -441,6 +441,42 @@
     },
     {
       "player": {
+        "tag": "#GJ2LQVQJ",
+        "name": "Fer",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.3030521885724817,
+        "rawScore": 2.3030521885724817,
+        "confidence": 1,
+        "tier": "A",
+        "attackScore": 3.1249155978130814,
+        "defenseScore": 0.08482113819924347,
+        "reliability": 0.9882352941176471,
+        "formScore": 2.875,
+        "warsInRoster": 45,
+        "attacksUsed": 88,
+        "attacksAvailable": 89,
+        "avgDestruction": 94.10227272727273,
+        "totalAttacks": 88,
+        "totalStars": 241,
+        "count3Stars": 69,
+        "avgStars": 2.7386363636363638,
+        "threeStarRate": 0.7840909090909091,
+        "totalMissed": 0,
+        "avgPositionDiff": 2.227272727272727,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#QJVQVRPU",
         "name": "Frnnn",
         "townhallLevel": 18
@@ -539,42 +575,6 @@
         "avgPositionDiff": 0.2916666666666667,
         "hasAnyDefense": true,
         "hadTh17": true,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#GJ2LQVQJ",
-        "name": "Fer",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.2127258897208604,
-        "rawScore": 2.2127258897208604,
-        "confidence": 1,
-        "tier": "A",
-        "attackScore": 3.058662505309221,
-        "defenseScore": 0.08482113819924347,
-        "reliability": 0.9882352941176471,
-        "formScore": 2.25,
-        "warsInRoster": 45,
-        "attacksUsed": 87,
-        "attacksAvailable": 89,
-        "avgDestruction": 94.03448275862068,
-        "totalAttacks": 87,
-        "totalStars": 238,
-        "count3Stars": 68,
-        "avgStars": 2.735632183908046,
-        "threeStarRate": 0.7816091954022989,
-        "totalMissed": 0,
-        "avgPositionDiff": 2.2528735632183907,
-        "hasAnyDefense": true,
-        "hadTh17": false,
         "weights": {
           "attack": 0.42,
           "defense": 0.25,
@@ -1469,16 +1469,16 @@
       "normalizedScore": 67.44
     },
     "#GJ2LQVQJ": {
-      "tier": "B",
-      "score": 2.2127258897208604,
-      "avgStars": 2.735632183908046,
-      "totalStars": 238,
-      "totalAttacks": 87,
+      "tier": "A",
+      "score": 2.3030521885724817,
+      "avgStars": 2.7386363636363638,
+      "totalStars": 241,
+      "totalAttacks": 88,
       "warsInRoster": 45,
       "totalMissed": 0,
-      "rank": 16,
+      "rank": 13,
       "prevRank": 16,
-      "normalizedScore": 63.22
+      "normalizedScore": 65.8
     },
     "#2LY0P2L9U": {
       "tier": "S",
@@ -1536,7 +1536,7 @@
       "totalAttacks": 87,
       "warsInRoster": 45,
       "totalMissed": 1,
-      "rank": 13,
+      "rank": 14,
       "prevRank": 13,
       "normalizedScore": 65.65
     },
@@ -1621,14 +1621,14 @@
       "normalizedScore": 54.26
     },
     "#G9Y2L9QJJ": {
-      "tier": "A",
+      "tier": "B",
       "score": 2.2934896883107063,
       "avgStars": 2.878787878787879,
       "totalStars": 190,
       "totalAttacks": 66,
       "warsInRoster": 35,
       "totalMissed": 2,
-      "rank": 14,
+      "rank": 15,
       "prevRank": 14,
       "normalizedScore": 65.53
     },
@@ -1664,7 +1664,7 @@
       "totalAttacks": 48,
       "warsInRoster": 27,
       "totalMissed": 3,
-      "rank": 15,
+      "rank": 16,
       "prevRank": 15,
       "normalizedScore": 63.91
     },

@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 33,
-        "destructionPercentage": 44
+        "stars": 36,
+        "destructionPercentage": 48
       },
       "sixHourNonAttackers": [
         {
@@ -138,11 +138,6 @@
         {
           "tag": "#LQQRGJ8VU",
           "name": "i-Vinni",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#GJ2LQVQJ",
-          "name": "Fer",
           "townhallLevel": 18
         },
         {
@@ -355,7 +350,14 @@
           "name": "Fer",
           "townhallLevel": 18,
           "mapPosition": 2,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 17,
+              "defenderTag": "#9YPJVR0G"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
