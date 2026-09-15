@@ -10,8 +10,8 @@
       "opponent": {
         "name": "ANGELS OF LIGHT",
         "tag": "#2L9CGYLR",
-        "stars": 11,
-        "destructionPercentage": 16.6,
+        "stars": 13,
+        "destructionPercentage": 20.2,
         "members": [
           {
             "tag": "#UVYJ0QQ8",
@@ -289,7 +289,14 @@
           "townhallLevel": 18,
           "mapPosition": 14,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 90,
+              "attackerTag": "#R0VLL98U",
+              "attackerMapPosition": 14
+            }
+          ],
           "missedAttacks": 0
         },
         {
