@@ -444,7 +444,20 @@
           "name": "i-Vinni",
           "townhallLevel": 18,
           "mapPosition": 13,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 1,
+              "destructionPercentage": 73,
+              "order": 81,
+              "defenderTag": "#V9U8VUCV"
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 66,
+              "order": 82,
+              "defenderTag": "#P28CPUPV"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -766,6 +779,12 @@
               "destructionPercentage": 92,
               "attackerTag": "#LL8GC98G",
               "attackerMapPosition": 5
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 82,
+              "attackerTag": "#J22UP2CY",
+              "attackerMapPosition": 11
             }
           ],
           "missedAttacks": 0
