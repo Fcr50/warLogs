@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T07:15:33.385Z",
+  "generatedAt": "2026-09-17T07:30:23.371Z",
   "totalWars": 35,
   "liveWar": {
     "opponentName": "Vendetta",
@@ -194,12 +194,12 @@
         "townhallLevel": 18
       },
       "data": {
-        "score": 2.481306830953068,
-        "rawScore": 2.481306830953068,
+        "score": 2.47127204369597,
+        "rawScore": 2.47127204369597,
         "confidence": 1,
         "tier": "B",
         "attackScore": 3.3702209509738417,
-        "defenseScore": 0.2561372321670019,
+        "defenseScore": 0.2159980831386094,
         "reliability": 0.9446082949308756,
         "formScore": 3.5,
         "warsInRoster": 40,
@@ -693,6 +693,42 @@
     },
     {
       "player": {
+        "tag": "#8CJ8YJY0P",
+        "name": "ChrolloLucilfer",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 1.821996630269067,
+        "rawScore": 1.821996630269067,
+        "confidence": 1,
+        "tier": "A",
+        "attackScore": 2.2506548233666765,
+        "defenseScore": 0.4428864178202511,
+        "reliability": 0.9652173913043478,
+        "formScore": 1,
+        "warsInRoster": 46,
+        "attacksUsed": 83,
+        "attacksAvailable": 91,
+        "avgDestruction": 92.50602409638554,
+        "totalAttacks": 83,
+        "totalStars": 218,
+        "count3Stars": 62,
+        "avgStars": 2.6265060240963853,
+        "threeStarRate": 0.7469879518072289,
+        "totalMissed": 4,
+        "avgPositionDiff": -2.2048192771084336,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#PPPUQPVJY",
         "name": "Rodrigo",
         "townhallLevel": 18
@@ -717,42 +753,6 @@
         "threeStarRate": 0.52,
         "totalMissed": 11,
         "avgPositionDiff": -7.64,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#8CJ8YJY0P",
-        "name": "ChrolloLucilfer",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 1.7946204297124404,
-        "rawScore": 1.7946204297124404,
-        "confidence": 1,
-        "tier": "A",
-        "attackScore": 2.2506548233666765,
-        "defenseScore": 0.3333816155937438,
-        "reliability": 0.9652173913043478,
-        "formScore": 1,
-        "warsInRoster": 46,
-        "attacksUsed": 83,
-        "attacksAvailable": 91,
-        "avgDestruction": 92.50602409638554,
-        "totalAttacks": 83,
-        "totalStars": 218,
-        "count3Stars": 62,
-        "avgStars": 2.6265060240963853,
-        "threeStarRate": 0.7469879518072289,
-        "totalMissed": 4,
-        "avgPositionDiff": -2.2048192771084336,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1459,7 +1459,7 @@
     },
     "#2QL0VR9GU": {
       "tier": "A",
-      "score": 2.481306830953068,
+      "score": 2.47127204369597,
       "avgStars": 2.546666666666667,
       "totalStars": 191,
       "totalAttacks": 75,
@@ -1467,7 +1467,7 @@
       "totalMissed": 1,
       "rank": 6,
       "prevRank": 6,
-      "normalizedScore": 70.89
+      "normalizedScore": 70.61
     },
     "#QJVQVRPU": {
       "tier": "A",
@@ -1601,15 +1601,15 @@
     },
     "#8CJ8YJY0P": {
       "tier": "B",
-      "score": 1.7946204297124404,
+      "score": 1.821996630269067,
       "avgStars": 2.6265060240963853,
       "totalStars": 218,
       "totalAttacks": 83,
       "warsInRoster": 46,
       "totalMissed": 4,
-      "rank": 22,
+      "rank": 21,
       "prevRank": 22,
-      "normalizedScore": 51.27
+      "normalizedScore": 52.06
     },
     "#80LUCC9YV": {
       "tier": "B",
@@ -1631,7 +1631,7 @@
       "totalAttacks": 50,
       "warsInRoster": 32,
       "totalMissed": 11,
-      "rank": 21,
+      "rank": 22,
       "prevRank": 21,
       "normalizedScore": 51.42
     },
