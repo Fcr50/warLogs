@@ -10,8 +10,8 @@
       "opponent": {
         "name": "Vendetta",
         "tag": "#PU89V9RC",
-        "stars": 0,
-        "destructionPercentage": 0,
+        "stars": 2,
+        "destructionPercentage": 2.84,
         "members": [
           {
             "tag": "#LQ2P8UR8",
@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 17,
-        "destructionPercentage": 22.64
+        "stars": 20,
+        "destructionPercentage": 26.64
       },
       "sixHourNonAttackers": [
         {
@@ -148,11 +148,6 @@
         {
           "tag": "#8CJ8YJY0P",
           "name": "ChrolloLucilfer",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#2GP2JUU2",
-          "name": "Gustavo Lázaro",
           "townhallLevel": 18
         },
         {
@@ -308,7 +303,14 @@
           "name": "Gustavo Lázaro",
           "townhallLevel": 18,
           "mapPosition": 6,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 7,
+              "defenderTag": "#GJQUQPJ0"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -463,7 +465,14 @@
               "defenderTag": "#LC0C00CR"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 71,
+              "attackerTag": "#LC0C00CR",
+              "attackerMapPosition": 7
+            }
+          ],
           "missedAttacks": 0
         },
         {
