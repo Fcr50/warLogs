@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-17T02:30:22.999Z",
+  "generatedAt": "2026-09-17T02:45:21.851Z",
   "totalWars": 35,
   "liveWar": {
     "opponentName": "Vendetta",
-    "totalAttacksDone": 14,
+    "totalAttacksDone": 15,
     "totalAttacksExpected": 50
   },
   "ranking": [
@@ -909,6 +909,42 @@
     },
     {
       "player": {
+        "tag": "#GCJVY8JGG",
+        "name": "-+CARRASCO+-",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 1.3196725616835994,
+        "rawScore": 1.8852465166908563,
+        "confidence": 0.7,
+        "tier": "B",
+        "attackScore": 3.5660631349782292,
+        "defenseScore": 0.15,
+        "reliability": 0,
+        "formScore": 3.5,
+        "warsInRoster": 2,
+        "attacksUsed": 3,
+        "attacksAvailable": 4,
+        "avgDestruction": 100,
+        "totalAttacks": 3,
+        "totalStars": 9,
+        "count3Stars": 3,
+        "avgStars": 3,
+        "threeStarRate": 1,
+        "totalMissed": 0,
+        "avgPositionDiff": -6,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#92LYVUU9Q",
         "name": "#Sahara300#",
         "townhallLevel": 18
@@ -933,42 +969,6 @@
         "threeStarRate": 0.25,
         "totalMissed": 0,
         "avgPositionDiff": -7.5,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#GCJVY8JGG",
-        "name": "-+CARRASCO+-",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 1.101555,
-        "rawScore": 1.5736500000000002,
-        "confidence": 0.7,
-        "tier": "B",
-        "attackScore": 3.6575,
-        "defenseScore": 0.15,
-        "reliability": 0,
-        "formScore": 0,
-        "warsInRoster": 2,
-        "attacksUsed": 2,
-        "attacksAvailable": 4,
-        "avgDestruction": 100,
-        "totalAttacks": 2,
-        "totalStars": 6,
-        "count3Stars": 2,
-        "avgStars": 3,
-        "threeStarRate": 1,
-        "totalMissed": 0,
-        "avgPositionDiff": -9,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1525,7 +1525,7 @@
       "totalAttacks": 4,
       "warsInRoster": 2,
       "totalMissed": 0,
-      "rank": 28,
+      "rank": 29,
       "prevRank": 28,
       "normalizedScore": 35.68
     },
@@ -1565,15 +1565,15 @@
     },
     "#GCJVY8JGG": {
       "tier": "B",
-      "score": 1.101555,
+      "score": 1.3196725616835994,
       "avgStars": 3,
-      "totalStars": 6,
-      "totalAttacks": 2,
+      "totalStars": 9,
+      "totalAttacks": 3,
       "warsInRoster": 2,
       "totalMissed": 0,
-      "rank": 29,
+      "rank": 27,
       "prevRank": 29,
-      "normalizedScore": 31.47
+      "normalizedScore": 37.7
     },
     "#8YJYY92GC": {
       "tier": "A",
@@ -1789,7 +1789,7 @@
       "totalAttacks": 4,
       "warsInRoster": 3,
       "totalMissed": 0,
-      "rank": 27,
+      "rank": 28,
       "prevRank": 27,
       "normalizedScore": 36.24
     },
