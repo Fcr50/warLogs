@@ -1,48 +1,12 @@
 {
-  "generatedAt": "2026-09-17T01:45:56.341Z",
+  "generatedAt": "2026-09-17T02:00:26.272Z",
   "totalWars": 35,
   "liveWar": {
     "opponentName": "Vendetta",
-    "totalAttacksDone": 13,
+    "totalAttacksDone": 14,
     "totalAttacksExpected": 50
   },
   "ranking": [
-    {
-      "player": {
-        "tag": "#2LY0P2L9U",
-        "name": "LucasHG9",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.551054000578702,
-        "rawScore": 2.551054000578702,
-        "confidence": 1,
-        "tier": "S",
-        "attackScore": 3.5022471946186706,
-        "defenseScore": 0.16044071535544105,
-        "reliability": 1,
-        "formScore": 3.5,
-        "warsInRoster": 46,
-        "attacksUsed": 89,
-        "attacksAvailable": 91,
-        "avgDestruction": 99.70786516853933,
-        "totalAttacks": 89,
-        "totalStars": 263,
-        "count3Stars": 85,
-        "avgStars": 2.955056179775281,
-        "threeStarRate": 0.9550561797752809,
-        "totalMissed": 0,
-        "avgPositionDiff": -0.3146067415730337,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
     {
       "player": {
         "tag": "#QQC8P9C9R",
@@ -50,12 +14,12 @@
         "townhallLevel": 18
       },
       "data": {
-        "score": 2.5047148989079973,
-        "rawScore": 2.5047148989079973,
+        "score": 2.5528489068119495,
+        "rawScore": 2.5528489068119495,
         "confidence": 1,
         "tier": "S",
         "attackScore": 3.4474350221219034,
-        "defenseScore": 0.09871161561004797,
+        "defenseScore": 0.29124764722585705,
         "reliability": 0.9885714285714285,
         "formScore": 3.5,
         "warsInRoster": 45,
@@ -69,6 +33,42 @@
         "threeStarRate": 0.8863636363636364,
         "totalMissed": 0,
         "avgPositionDiff": -0.9545454545454546,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#2LY0P2L9U",
+        "name": "LucasHG9",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.5509123470579476,
+        "rawScore": 2.5509123470579476,
+        "confidence": 1,
+        "tier": "S",
+        "attackScore": 3.5019099243311596,
+        "defenseScore": 0.16044071535544105,
+        "reliability": 1,
+        "formScore": 3.5,
+        "warsInRoster": 46,
+        "attacksUsed": 90,
+        "attacksAvailable": 91,
+        "avgDestruction": 99.71111111111111,
+        "totalAttacks": 90,
+        "totalStars": 266,
+        "count3Stars": 86,
+        "avgStars": 2.9555555555555557,
+        "threeStarRate": 0.9555555555555556,
+        "totalMissed": 0,
+        "avgPositionDiff": -0.3111111111111111,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1375,15 +1375,15 @@
     },
     "#2LY0P2L9U": {
       "tier": "S",
-      "score": 2.551054000578702,
-      "avgStars": 2.955056179775281,
-      "totalStars": 263,
-      "totalAttacks": 89,
+      "score": 2.5509123470579476,
+      "avgStars": 2.9555555555555557,
+      "totalStars": 266,
+      "totalAttacks": 90,
       "warsInRoster": 46,
       "totalMissed": 0,
-      "rank": 1,
+      "rank": 2,
       "prevRank": 1,
-      "normalizedScore": 72.89
+      "normalizedScore": 72.88
     },
     "#YPVQVU982": {
       "tier": "B",
@@ -1560,7 +1560,7 @@
       "warsInRoster": 26,
       "totalMissed": 1,
       "rank": 19,
-      "prevRank": 18,
+      "prevRank": 19,
       "normalizedScore": 59.71
     },
     "#GCJVY8JGG": {
@@ -1637,15 +1637,15 @@
     },
     "#QQC8P9C9R": {
       "tier": "S",
-      "score": 2.5047148989079973,
+      "score": 2.5528489068119495,
       "avgStars": 2.852272727272727,
       "totalStars": 251,
       "totalAttacks": 88,
       "warsInRoster": 45,
       "totalMissed": 0,
-      "rank": 2,
+      "rank": 1,
       "prevRank": 2,
-      "normalizedScore": 71.56
+      "normalizedScore": 72.94
     },
     "#G0YP02ULL": {
       "tier": "F",
@@ -1666,7 +1666,7 @@
       "warsInRoster": 27,
       "totalMissed": 4,
       "rank": 18,
-      "prevRank": 20,
+      "prevRank": 18,
       "normalizedScore": 60.17
     },
     "#8VCUUPPJP": {
@@ -1678,7 +1678,7 @@
       "warsInRoster": 32,
       "totalMissed": 1,
       "rank": 20,
-      "prevRank": 19,
+      "prevRank": 20,
       "normalizedScore": 59.17
     },
     "#LQQRGJ8VU": {
