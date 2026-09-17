@@ -10,8 +10,8 @@
       "opponent": {
         "name": "Vendetta",
         "tag": "#PU89V9RC",
-        "stars": 51,
-        "destructionPercentage": 77.68,
+        "stars": 54,
+        "destructionPercentage": 81.68,
         "members": [
           {
             "tag": "#LQ2P8UR8",
@@ -710,7 +710,14 @@
           "townhallLevel": 18,
           "mapPosition": 14,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#2QULCRRQG",
+              "attackerMapPosition": 2
+            }
+          ],
           "missedAttacks": 0
         },
         {
