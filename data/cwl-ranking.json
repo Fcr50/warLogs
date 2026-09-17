@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-17T22:30:23.186Z",
+  "generatedAt": "2026-09-17T22:45:23.514Z",
   "totalWars": 35,
   "liveWar": {
     "opponentName": "Vendetta",
-    "totalAttacksDone": 43,
+    "totalAttacksDone": 45,
     "totalAttacksExpected": 50
   },
   "ranking": [
@@ -657,42 +657,6 @@
     },
     {
       "player": {
-        "tag": "#QJLQLUURY",
-        "name": "NenemPJL",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.071600507325688,
-        "rawScore": 2.071600507325688,
-        "confidence": 1,
-        "tier": "B",
-        "attackScore": 2.699623502784909,
-        "defenseScore": 0.3515774017669607,
-        "reliability": 0.8135714285714285,
-        "formScore": 2.885,
-        "warsInRoster": 26,
-        "attacksUsed": 49,
-        "attacksAvailable": 52,
-        "avgDestruction": 82.04081632653062,
-        "totalAttacks": 49,
-        "totalStars": 125,
-        "count3Stars": 35,
-        "avgStars": 2.5510204081632653,
-        "threeStarRate": 0.7142857142857143,
-        "totalMissed": 1,
-        "avgPositionDiff": -7.142857142857143,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
         "tag": "#VPPQ8VLV",
         "name": "GABRIEL LOBATO",
         "townhallLevel": 18
@@ -719,6 +683,42 @@
         "avgPositionDiff": 0.2765957446808511,
         "hasAnyDefense": true,
         "hadTh17": true,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#QJLQLUURY",
+        "name": "NenemPJL",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 1.8736643276682956,
+        "rawScore": 1.8736643276682956,
+        "confidence": 1,
+        "tier": "B",
+        "attackScore": 2.4390611702673093,
+        "defenseScore": 0.3515774017669607,
+        "reliability": 0.8135714285714285,
+        "formScore": 2,
+        "warsInRoster": 26,
+        "attacksUsed": 51,
+        "attacksAvailable": 52,
+        "avgDestruction": 81.23529411764706,
+        "totalAttacks": 51,
+        "totalStars": 127,
+        "count3Stars": 35,
+        "avgStars": 2.4901960784313726,
+        "threeStarRate": 0.6862745098039216,
+        "totalMissed": 1,
+        "avgPositionDiff": -7.352941176470588,
+        "hasAnyDefense": true,
+        "hadTh17": false,
         "weights": {
           "attack": 0.42,
           "defense": 0.25,
@@ -1577,15 +1577,15 @@
     },
     "#QJLQLUURY": {
       "tier": "B",
-      "score": 2.071600507325688,
-      "avgStars": 2.5510204081632653,
-      "totalStars": 125,
-      "totalAttacks": 49,
+      "score": 1.8736643276682956,
+      "avgStars": 2.4901960784313726,
+      "totalStars": 127,
+      "totalAttacks": 51,
       "warsInRoster": 26,
       "totalMissed": 1,
-      "rank": 20,
+      "rank": 21,
       "prevRank": 20,
-      "normalizedScore": 59.19
+      "normalizedScore": 53.53
     },
     "#GCJVY8JGG": {
       "tier": "B",
@@ -1665,7 +1665,7 @@
       "totalAttacks": 47,
       "warsInRoster": 27,
       "totalMissed": 4,
-      "rank": 21,
+      "rank": 20,
       "prevRank": 21,
       "normalizedScore": 59.01
     },
