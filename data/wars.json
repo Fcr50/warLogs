@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 20,
-        "destructionPercentage": 26.64
+        "stars": 24,
+        "destructionPercentage": 32
       },
       "sixHourNonAttackers": [
         {
@@ -178,11 +178,6 @@
         {
           "tag": "#VPPQ8VLV",
           "name": "GABRIEL LOBATO",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#80LUCC9YV",
-          "name": "Lobo ®",
           "townhallLevel": 18
         },
         {
@@ -309,6 +304,12 @@
               "destructionPercentage": 100,
               "order": 7,
               "defenderTag": "#GJQUQPJ0"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 9,
+              "defenderTag": "#Q0RJRJGPY"
             }
           ],
           "defensesReceived": [],
@@ -395,6 +396,12 @@
               "destructionPercentage": 100,
               "order": 1,
               "defenderTag": "#VGG09ULU"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 11,
+              "defenderTag": "#2QULCRRQG"
             }
           ],
           "defensesReceived": [],
@@ -405,7 +412,14 @@
           "name": "Lobo ®",
           "townhallLevel": 18,
           "mapPosition": 2,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 80,
+              "order": 10,
+              "defenderTag": "#2QULCRRQG"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
