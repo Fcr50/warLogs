@@ -10,8 +10,8 @@
       "opponent": {
         "name": "Vendetta",
         "tag": "#PU89V9RC",
-        "stars": 33,
-        "destructionPercentage": 50.84,
+        "stars": 35,
+        "destructionPercentage": 54.44,
         "members": [
           {
             "tag": "#LQ2P8UR8",
@@ -201,7 +201,14 @@
               "defenderTag": "#PCRV0VC9"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 90,
+              "attackerTag": "#PCRV0VC9",
+              "attackerMapPosition": 4
+            }
+          ],
           "missedAttacks": 0
         },
         {

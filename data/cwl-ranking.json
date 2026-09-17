@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T05:30:24.942Z",
+  "generatedAt": "2026-09-17T05:45:26.151Z",
   "totalWars": 35,
   "liveWar": {
     "opponentName": "Vendetta",
@@ -7,6 +7,42 @@
     "totalAttacksExpected": 50
   },
   "ranking": [
+    {
+      "player": {
+        "tag": "#2LY0P2L9U",
+        "name": "LucasHG9",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.5850401567825263,
+        "rawScore": 2.5850401567825263,
+        "confidence": 1,
+        "tier": "S",
+        "attackScore": 3.5019099243311596,
+        "defenseScore": 0.29695195425375726,
+        "reliability": 1,
+        "formScore": 3.5,
+        "warsInRoster": 46,
+        "attacksUsed": 90,
+        "attacksAvailable": 91,
+        "avgDestruction": 99.71111111111111,
+        "totalAttacks": 90,
+        "totalStars": 266,
+        "count3Stars": 86,
+        "avgStars": 2.9555555555555557,
+        "threeStarRate": 0.9555555555555556,
+        "totalMissed": 0,
+        "avgPositionDiff": -0.3111111111111111,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
     {
       "player": {
         "tag": "#QQC8P9C9R",
@@ -33,42 +69,6 @@
         "threeStarRate": 0.8876404494382022,
         "totalMissed": 0,
         "avgPositionDiff": -0.9438202247191011,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#2LY0P2L9U",
-        "name": "LucasHG9",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.5509123470579476,
-        "rawScore": 2.5509123470579476,
-        "confidence": 1,
-        "tier": "S",
-        "attackScore": 3.5019099243311596,
-        "defenseScore": 0.16044071535544105,
-        "reliability": 1,
-        "formScore": 3.5,
-        "warsInRoster": 46,
-        "attacksUsed": 90,
-        "attacksAvailable": 91,
-        "avgDestruction": 99.71111111111111,
-        "totalAttacks": 90,
-        "totalStars": 266,
-        "count3Stars": 86,
-        "avgStars": 2.9555555555555557,
-        "threeStarRate": 0.9555555555555556,
-        "totalMissed": 0,
-        "avgPositionDiff": -0.3111111111111111,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1375,15 +1375,15 @@
     },
     "#2LY0P2L9U": {
       "tier": "S",
-      "score": 2.5509123470579476,
+      "score": 2.5850401567825263,
       "avgStars": 2.9555555555555557,
       "totalStars": 266,
       "totalAttacks": 90,
       "warsInRoster": 46,
       "totalMissed": 0,
-      "rank": 2,
+      "rank": 1,
       "prevRank": 2,
-      "normalizedScore": 72.88
+      "normalizedScore": 73.86
     },
     "#YPVQVU982": {
       "tier": "B",
@@ -1587,18 +1587,6 @@
       "prevRank": 7,
       "normalizedScore": 70.02
     },
-    "#8CJ8YJY0P": {
-      "tier": "B",
-      "score": 1.7946204297124404,
-      "avgStars": 2.6265060240963853,
-      "totalStars": 218,
-      "totalAttacks": 83,
-      "warsInRoster": 46,
-      "totalMissed": 4,
-      "rank": 22,
-      "prevRank": 22,
-      "normalizedScore": 51.27
-    },
     "#G9Y2L9QJJ": {
       "tier": "B",
       "score": 2.2547233813647196,
@@ -1610,6 +1598,18 @@
       "rank": 15,
       "prevRank": 15,
       "normalizedScore": 64.42
+    },
+    "#8CJ8YJY0P": {
+      "tier": "B",
+      "score": 1.7946204297124404,
+      "avgStars": 2.6265060240963853,
+      "totalStars": 218,
+      "totalAttacks": 83,
+      "warsInRoster": 46,
+      "totalMissed": 4,
+      "rank": 22,
+      "prevRank": 22,
+      "normalizedScore": 51.27
     },
     "#80LUCC9YV": {
       "tier": "B",
@@ -1653,7 +1653,7 @@
       "totalAttacks": 89,
       "warsInRoster": 45,
       "totalMissed": 0,
-      "rank": 1,
+      "rank": 2,
       "prevRank": 1,
       "normalizedScore": 73.03
     },
