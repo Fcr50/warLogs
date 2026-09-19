@@ -10,8 +10,8 @@
       "opponent": {
         "name": "virginia",
         "tag": "#9CYPQLRR",
-        "stars": 52,
-        "destructionPercentage": 79.92,
+        "stars": 53,
+        "destructionPercentage": 79.84,
         "members": [
           {
             "tag": "#22P00UQRL",
@@ -268,7 +268,14 @@
           "name": "GLADIADOR - SP",
           "townhallLevel": 17,
           "mapPosition": 24,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 89,
+              "order": 63,
+              "defenderTag": "#YQU2QY9L2"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -331,6 +338,12 @@
               "destructionPercentage": 100,
               "order": 51,
               "defenderTag": "#PG9P8PQVL"
+            },
+            {
+              "stars": 1,
+              "destructionPercentage": 44,
+              "order": 61,
+              "defenderTag": "#Y9QCQJRCG"
             }
           ],
           "defensesReceived": [
@@ -339,6 +352,12 @@
               "destructionPercentage": 80,
               "attackerTag": "#2GQJLJ2PQ",
               "attackerMapPosition": 10
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 78,
+              "attackerTag": "#PQC0RGPV0",
+              "attackerMapPosition": 14
             }
           ],
           "missedAttacks": 0
@@ -595,6 +614,12 @@
               "destructionPercentage": 100,
               "order": 24,
               "defenderTag": "#20QGUUV98"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 62,
+              "defenderTag": "#Y9QCQJRCG"
             }
           ],
           "defensesReceived": [
