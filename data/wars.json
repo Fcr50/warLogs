@@ -10,8 +10,8 @@
       "opponent": {
         "name": "virginia",
         "tag": "#9CYPQLRR",
-        "stars": 13,
-        "destructionPercentage": 18.08,
+        "stars": 14,
+        "destructionPercentage": 21.28,
         "members": [
           {
             "tag": "#22P00UQRL",
@@ -116,15 +116,10 @@
         ]
       },
       "clan": {
-        "stars": 27,
-        "destructionPercentage": 36
+        "stars": 30,
+        "destructionPercentage": 40
       },
       "sixHourNonAttackers": [
-        {
-          "tag": "#8VCUUPPJP",
-          "name": "Satsugai",
-          "townhallLevel": 18
-        },
         {
           "tag": "#2QL0VR9GU",
           "name": "Marcola",
@@ -207,7 +202,14 @@
           "name": "Satsugai",
           "townhallLevel": 18,
           "mapPosition": 13,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 15,
+              "defenderTag": "#RRUVPRP0"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -290,7 +292,14 @@
           "townhallLevel": 18,
           "mapPosition": 10,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 1,
+              "destructionPercentage": 80,
+              "attackerTag": "#2GQJLJ2PQ",
+              "attackerMapPosition": 10
+            }
+          ],
           "missedAttacks": 0
         },
         {
