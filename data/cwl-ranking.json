@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-19T06:00:31.373Z",
+  "generatedAt": "2026-09-19T06:15:26.807Z",
   "totalWars": 36,
   "liveWar": {
     "opponentName": "virginia",
-    "totalAttacksDone": 18,
+    "totalAttacksDone": 19,
     "totalAttacksExpected": 50
   },
   "ranking": [
@@ -225,42 +225,6 @@
     },
     {
       "player": {
-        "tag": "#PLU2VCLG",
-        "name": "Phoenix",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.4189003104708173,
-        "rawScore": 2.4189003104708173,
-        "confidence": 1,
-        "tier": "A",
-        "attackScore": 3.225440727733712,
-        "defenseScore": 0.3681941526239679,
-        "reliability": 0.9777777777777777,
-        "formScore": 2.975,
-        "warsInRoster": 44,
-        "attacksUsed": 86,
-        "attacksAvailable": 87,
-        "avgDestruction": 99.46511627906976,
-        "totalAttacks": 86,
-        "totalStars": 244,
-        "count3Stars": 73,
-        "avgStars": 2.8372093023255816,
-        "threeStarRate": 0.8488372093023255,
-        "totalMissed": 0,
-        "avgPositionDiff": -0.4069767441860465,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
         "tag": "#8YJYY92GC",
         "name": "RussiaN",
         "townhallLevel": 18
@@ -287,6 +251,42 @@
         "avgPositionDiff": -6.905405405405405,
         "hasAnyDefense": true,
         "hadTh17": true,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#PLU2VCLG",
+        "name": "Phoenix",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.4129826995819172,
+        "rawScore": 2.4129826995819172,
+        "confidence": 1,
+        "tier": "A",
+        "attackScore": 3.2196845113315686,
+        "defenseScore": 0.3681941526239679,
+        "reliability": 0.9777777777777777,
+        "formScore": 2.94,
+        "warsInRoster": 44,
+        "attacksUsed": 87,
+        "attacksAvailable": 87,
+        "avgDestruction": 99.25287356321839,
+        "totalAttacks": 87,
+        "totalStars": 246,
+        "count3Stars": 73,
+        "avgStars": 2.8275862068965516,
+        "threeStarRate": 0.8390804597701149,
+        "totalMissed": 0,
+        "avgPositionDiff": -0.47126436781609193,
+        "hasAnyDefense": true,
+        "hadTh17": false,
         "weights": {
           "attack": 0.42,
           "defense": 0.25,
@@ -1614,15 +1614,15 @@
     },
     "#PLU2VCLG": {
       "tier": "A",
-      "score": 2.4189003104708173,
-      "avgStars": 2.8372093023255816,
-      "totalStars": 244,
-      "totalAttacks": 86,
+      "score": 2.4129826995819172,
+      "avgStars": 2.8275862068965516,
+      "totalStars": 246,
+      "totalAttacks": 87,
       "warsInRoster": 44,
       "totalMissed": 0,
-      "rank": 7,
+      "rank": 8,
       "prevRank": 7,
-      "normalizedScore": 69.11
+      "normalizedScore": 68.94
     },
     "#YPVQVU982": {
       "tier": "B",
@@ -1752,7 +1752,7 @@
       "totalAttacks": 74,
       "warsInRoster": 38,
       "totalMissed": 0,
-      "rank": 8,
+      "rank": 7,
       "prevRank": 8,
       "normalizedScore": 68.96
     },
