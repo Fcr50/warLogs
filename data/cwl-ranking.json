@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-19T22:45:25.692Z",
+  "generatedAt": "2026-09-19T23:00:32.282Z",
   "totalWars": 36,
   "liveWar": {
     "opponentName": "virginia",
-    "totalAttacksDone": 46,
+    "totalAttacksDone": 48,
     "totalAttacksExpected": 50
   },
   "ranking": [
@@ -513,6 +513,42 @@
     },
     {
       "player": {
+        "tag": "#P9C0LVLU2",
+        "name": "VINGADOR⚡",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.177535250010956,
+        "rawScore": 2.177535250010956,
+        "confidence": 1,
+        "tier": "A",
+        "attackScore": 2.6531759634768464,
+        "defenseScore": 0.27590342061840983,
+        "reliability": 0.9336601307189543,
+        "formScore": 3.5,
+        "warsInRoster": 45,
+        "attacksUsed": 83,
+        "attacksAvailable": 90,
+        "avgDestruction": 97.74698795180723,
+        "totalAttacks": 83,
+        "totalStars": 231,
+        "count3Stars": 72,
+        "avgStars": 2.783132530120482,
+        "threeStarRate": 0.8674698795180723,
+        "totalMissed": 5,
+        "avgPositionDiff": 2.5903614457831323,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#80LUCC9YV",
         "name": "Lobo ®",
         "townhallLevel": 18
@@ -573,42 +609,6 @@
         "threeStarRate": 0.7777777777777778,
         "totalMissed": 12,
         "avgPositionDiff": 1.2222222222222223,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#P9C0LVLU2",
-        "name": "VINGADOR⚡",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.113318557903467,
-        "rawScore": 2.113318557903467,
-        "confidence": 1,
-        "tier": "A",
-        "attackScore": 2.500279077506634,
-        "defenseScore": 0.27590342061840983,
-        "reliability": 0.9336601307189543,
-        "formScore": 3.5,
-        "warsInRoster": 45,
-        "attacksUsed": 81,
-        "attacksAvailable": 90,
-        "avgDestruction": 97.69135802469135,
-        "totalAttacks": 81,
-        "totalStars": 225,
-        "count3Stars": 70,
-        "avgStars": 2.7777777777777777,
-        "threeStarRate": 0.8641975308641975,
-        "totalMissed": 5,
-        "avgPositionDiff": 2.6666666666666665,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1480,15 +1480,15 @@
   "statsByTag": {
     "#P9C0LVLU2": {
       "tier": "B",
-      "score": 2.113318557903467,
-      "avgStars": 2.7777777777777777,
-      "totalStars": 225,
-      "totalAttacks": 81,
+      "score": 2.177535250010956,
+      "avgStars": 2.783132530120482,
+      "totalStars": 231,
+      "totalAttacks": 83,
       "warsInRoster": 45,
       "totalMissed": 5,
-      "rank": 18,
+      "rank": 16,
       "prevRank": 18,
-      "normalizedScore": 60.38
+      "normalizedScore": 62.22
     },
     "#GJ2LQVQJ": {
       "tier": "A",
@@ -1558,7 +1558,7 @@
       "totalAttacks": 54,
       "warsInRoster": 37,
       "totalMissed": 12,
-      "rank": 17,
+      "rank": 18,
       "prevRank": 17,
       "normalizedScore": 60.65
     },
@@ -1643,7 +1643,7 @@
       "warsInRoster": 41,
       "totalMissed": 1,
       "rank": 8,
-      "prevRank": 7,
+      "prevRank": 8,
       "normalizedScore": 67.81
     },
     "#L8RG2PV0G": {
@@ -1806,7 +1806,7 @@
       "totalAttacks": 74,
       "warsInRoster": 40,
       "totalMissed": 3,
-      "rank": 16,
+      "rank": 17,
       "prevRank": 16,
       "normalizedScore": 61.35
     },
@@ -1851,7 +1851,7 @@
       "warsInRoster": 33,
       "totalMissed": 1,
       "rank": 7,
-      "prevRank": 8,
+      "prevRank": 7,
       "normalizedScore": 68.71
     },
     "#LQQRGJ8VU": {
