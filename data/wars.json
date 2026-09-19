@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 42,
-        "destructionPercentage": 56
+        "stars": 44,
+        "destructionPercentage": 59.56
       },
       "sixHourNonAttackers": [
         {
@@ -153,11 +153,6 @@
         {
           "tag": "#PLU2VCLG",
           "name": "Phoenix",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#PU2R2UPYC",
-          "name": "TOUJO BASARA",
           "townhallLevel": 18
         },
         {
@@ -391,7 +386,14 @@
           "name": "TOUJO BASARA",
           "townhallLevel": 18,
           "mapPosition": 18,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 89,
+              "order": 25,
+              "defenderTag": "#PG9P8PQVL"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,

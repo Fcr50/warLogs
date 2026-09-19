@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-19T04:01:31.612Z",
+  "generatedAt": "2026-09-19T04:15:36.591Z",
   "totalWars": 36,
   "liveWar": {
     "opponentName": "virginia",
-    "totalAttacksDone": 14,
+    "totalAttacksDone": 15,
     "totalAttacksExpected": 50
   },
   "ranking": [
@@ -1058,22 +1058,22 @@
         "townhallLevel": 18
       },
       "data": {
-        "score": 0,
-        "rawScore": 0,
+        "score": 0.6214000000000001,
+        "rawScore": 1.2428000000000001,
         "confidence": 0.5,
-        "tier": "F",
-        "attackScore": 0,
+        "tier": "C",
+        "attackScore": 2.39,
         "defenseScore": 0,
         "reliability": 0,
-        "formScore": 0,
+        "formScore": 2.39,
         "warsInRoster": 1,
-        "attacksUsed": 0,
+        "attacksUsed": 1,
         "attacksAvailable": 2,
-        "avgDestruction": 0,
-        "totalAttacks": 0,
-        "totalStars": 0,
+        "avgDestruction": 89,
+        "totalAttacks": 1,
+        "totalStars": 2,
         "count3Stars": 0,
-        "avgStars": 0,
+        "avgStars": 2,
         "threeStarRate": 0,
         "totalMissed": 0,
         "avgPositionDiff": 0,
@@ -1343,6 +1343,42 @@
       "player": {
         "tag": "#LUQLPVC0G",
         "name": "Anderson",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 0,
+        "rawScore": 0,
+        "confidence": 0,
+        "tier": "F",
+        "attackScore": 0,
+        "defenseScore": 0,
+        "reliability": 0,
+        "formScore": 0,
+        "warsInRoster": 0,
+        "attacksUsed": 0,
+        "attacksAvailable": 0,
+        "avgDestruction": 0,
+        "totalAttacks": 0,
+        "totalStars": 0,
+        "count3Stars": 0,
+        "avgStars": 0,
+        "threeStarRate": 0,
+        "totalMissed": 0,
+        "avgPositionDiff": 0,
+        "hasAnyDefense": false,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.56,
+          "defense": 0,
+          "reliability": 0.3067,
+          "form": 0.1333
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#GCGG0C8YP",
+        "name": "Rainha Má",
         "townhallLevel": 18
       },
       "data": {
@@ -1415,13 +1451,6 @@
   "noDataList": [
     {
       "player": {
-        "tag": "#PU2R2UPYC",
-        "name": "TOUJO BASARA",
-        "townhallLevel": 18
-      }
-    },
-    {
-      "player": {
         "tag": "#VQG0R0YY",
         "name": "VitorDPinheiro",
         "townhallLevel": 18
@@ -1473,6 +1502,13 @@
       "player": {
         "tag": "#LUQLPVC0G",
         "name": "Anderson",
+        "townhallLevel": 18
+      }
+    },
+    {
+      "player": {
+        "tag": "#GCGG0C8YP",
+        "name": "Rainha Má",
         "townhallLevel": 18
       }
     },
@@ -1726,14 +1762,15 @@
       "normalizedScore": 23.83
     },
     "#PU2R2UPYC": {
-      "tier": "F",
-      "score": 0,
-      "avgStars": 0,
-      "totalStars": 0,
-      "totalAttacks": 0,
+      "tier": "C",
+      "score": 0.6214000000000001,
+      "avgStars": 2,
+      "totalStars": 2,
+      "totalAttacks": 1,
       "warsInRoster": 1,
       "totalMissed": 0,
-      "normalizedScore": 0
+      "rank": 33,
+      "normalizedScore": 17.75
     },
     "#GCJVY8JGG": {
       "tier": "B",
@@ -1933,6 +1970,16 @@
       "totalMissed": 2,
       "normalizedScore": 0
     },
+    "#GCGG0C8YP": {
+      "tier": "F",
+      "score": 0,
+      "avgStars": 0,
+      "totalStars": 0,
+      "totalAttacks": 0,
+      "warsInRoster": 0,
+      "totalMissed": 0,
+      "normalizedScore": 0
+    },
     "#RC82GPG": {
       "tier": "C",
       "score": 0.4700585167846768,
@@ -1941,7 +1988,7 @@
       "totalAttacks": 19,
       "warsInRoster": 15,
       "totalMissed": 11,
-      "rank": 33,
+      "rank": 34,
       "prevRank": 33,
       "normalizedScore": 13.43
     },
@@ -2012,6 +2059,16 @@
       "normalizedScore": 0
     },
     "#VR8VJGGV": {
+      "tier": "F",
+      "score": 0,
+      "avgStars": 0,
+      "totalStars": 0,
+      "totalAttacks": 0,
+      "warsInRoster": 0,
+      "totalMissed": 0,
+      "normalizedScore": 0
+    },
+    "#Q0PPRY0QL": {
       "tier": "F",
       "score": 0,
       "avgStars": 0,
