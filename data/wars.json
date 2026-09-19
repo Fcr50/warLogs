@@ -10,8 +10,8 @@
       "opponent": {
         "name": "virginia",
         "tag": "#9CYPQLRR",
-        "stars": 16,
-        "destructionPercentage": 24.28,
+        "stars": 21,
+        "destructionPercentage": 30.84,
         "members": [
           {
             "tag": "#22P00UQRL",
@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 30,
-        "destructionPercentage": 40
+        "stars": 33,
+        "destructionPercentage": 44
       },
       "sixHourNonAttackers": [
         {
@@ -189,11 +189,6 @@
           "tag": "#GQU9Y0CQ8",
           "name": "Scok♤",
           "townhallLevel": 18
-        },
-        {
-          "tag": "#PPPUQPVJY",
-          "name": "Rodrigo",
-          "townhallLevel": 18
         }
       ],
       "members": [
@@ -262,6 +257,12 @@
           "attacks": [],
           "defensesReceived": [
             {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#2008L0288",
+              "attackerMapPosition": 22
+            },
+            {
               "stars": 2,
               "destructionPercentage": 77,
               "attackerTag": "#9RCY20QPG",
@@ -283,7 +284,14 @@
               "defenderTag": "#2008L0288"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 77,
+              "attackerTag": "#V29L8UCU",
+              "attackerMapPosition": 11
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -367,7 +375,14 @@
           "townhallLevel": 17,
           "mapPosition": 23,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 64,
+              "attackerTag": "#2008L0288",
+              "attackerMapPosition": 22
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -530,7 +545,14 @@
           "name": "Rodrigo",
           "townhallLevel": 18,
           "mapPosition": 20,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 21,
+              "defenderTag": "#2YQYU22QG"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
