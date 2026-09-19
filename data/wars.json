@@ -10,8 +10,8 @@
       "opponent": {
         "name": "virginia",
         "tag": "#9CYPQLRR",
-        "stars": 25,
-        "destructionPercentage": 39.68,
+        "stars": 27,
+        "destructionPercentage": 43.56,
         "members": [
           {
             "tag": "#22P00UQRL",
@@ -196,7 +196,14 @@
               "defenderTag": "#9CRL0U80V"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 97,
+              "attackerTag": "#9CRL0U80V",
+              "attackerMapPosition": 4
+            }
+          ],
           "missedAttacks": 0
         },
         {
