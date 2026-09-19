@@ -10,8 +10,8 @@
       "opponent": {
         "name": "virginia",
         "tag": "#9CYPQLRR",
-        "stars": 14,
-        "destructionPercentage": 21.28,
+        "stars": 16,
+        "destructionPercentage": 24.28,
         "members": [
           {
             "tag": "#22P00UQRL",
@@ -417,7 +417,14 @@
           "townhallLevel": 18,
           "mapPosition": 9,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 75,
+              "attackerTag": "#2GQJLJ2PQ",
+              "attackerMapPosition": 10
+            }
+          ],
           "missedAttacks": 0
         },
         {
