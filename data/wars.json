@@ -252,7 +252,14 @@
           "name": "Marcola",
           "townhallLevel": 18,
           "mapPosition": 11,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 92,
+              "order": 74,
+              "defenderTag": "#Y9QCQJRCG"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -329,6 +336,12 @@
               "destructionPercentage": 79,
               "attackerTag": "#YQU2QY9L2",
               "attackerMapPosition": 16
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 79,
+              "attackerTag": "#20JU0V0VU",
+              "attackerMapPosition": 21
             }
           ],
           "missedAttacks": 0
