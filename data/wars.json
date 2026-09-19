@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 33,
-        "destructionPercentage": 44
+        "stars": 39,
+        "destructionPercentage": 52
       },
       "sixHourNonAttackers": [
         {
@@ -151,11 +151,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#URR0QLV",
-          "name": "Victor Daniel",
-          "townhallLevel": 17
-        },
-        {
           "tag": "#PLU2VCLG",
           "name": "Phoenix",
           "townhallLevel": 18
@@ -178,11 +173,6 @@
         {
           "tag": "#P9C0LVLU2",
           "name": "VINGADOR⚡",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#YPVQVU982",
-          "name": "亗 ＨＡＤＥＳ_０７ 亗",
           "townhallLevel": 18
         },
         {
@@ -374,7 +364,14 @@
           "name": "Victor Daniel",
           "townhallLevel": 17,
           "mapPosition": 23,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 22,
+              "defenderTag": "#Q9J8L99V0"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 2,
@@ -488,7 +485,14 @@
           "name": "亗 ＨＡＤＥＳ_０７ 亗",
           "townhallLevel": 18,
           "mapPosition": 5,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 23,
+              "defenderTag": "#YULYC2L9"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
