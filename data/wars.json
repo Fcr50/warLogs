@@ -3,8 +3,8 @@
     {
       "endTime": "20260919T230412.000Z",
       "startTime": "2026-09-18T23:04:12.000Z",
-      "state": "inWar",
-      "result": "inProgress",
+      "state": "warEnded",
+      "result": "win",
       "teamSize": 25,
       "absencesRecorded": true,
       "opponent": {
@@ -741,7 +741,7 @@
               "attackerMapPosition": 2
             }
           ],
-          "missedAttacks": 0
+          "missedAttacks": 1
         },
         {
           "tag": "#GGVCRYP8P",
@@ -944,7 +944,7 @@
               "attackerMapPosition": 20
             }
           ],
-          "missedAttacks": 0
+          "missedAttacks": 1
         }
       ]
     },
