@@ -10,8 +10,8 @@
       "opponent": {
         "name": "創世集團",
         "tag": "#2RUYG0VUJ",
-        "stars": 0,
-        "destructionPercentage": 0,
+        "stars": 3,
+        "destructionPercentage": 3.3333333,
         "members": [
           {
             "tag": "#QLGRU20V",
@@ -136,18 +136,13 @@
         ]
       },
       "clan": {
-        "stars": 1,
-        "destructionPercentage": 2.1666667
+        "stars": 12,
+        "destructionPercentage": 13.333333
       },
       "sixHourNonAttackers": [
         {
           "tag": "#8VCUUPPJP",
           "name": "Satsugai",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#2LY0P2L9U",
-          "name": "LucasHG9",
           "townhallLevel": 18
         },
         {
@@ -186,11 +181,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#G9Y2L9QJJ",
-          "name": "Micael",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#YRP9LGR00",
           "name": "*VICTOR*",
           "townhallLevel": 18
@@ -198,11 +188,6 @@
         {
           "tag": "#GJ2LQVQJ",
           "name": "Fer",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#L8RG2PV0G",
-          "name": "joaoaoaoao",
           "townhallLevel": 18
         },
         {
@@ -233,11 +218,6 @@
         {
           "tag": "#29LP0VJV0",
           "name": "Warlord Raivon",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#80LUCC9YV",
-          "name": "Lobo ®",
           "townhallLevel": 18
         },
         {
@@ -301,7 +281,14 @@
           "name": "LucasHG9",
           "townhallLevel": 18,
           "mapPosition": 4,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 3,
+              "defenderTag": "#GPCYYR928"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -373,7 +360,14 @@
           "name": "Micael",
           "townhallLevel": 18,
           "mapPosition": 20,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 4,
+              "defenderTag": "#G0LUQC9UY"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -392,7 +386,14 @@
           "townhallLevel": 18,
           "mapPosition": 1,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#VLC29YCQ",
+              "attackerMapPosition": 5
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -400,7 +401,14 @@
           "name": "joaoaoaoao",
           "townhallLevel": 18,
           "mapPosition": 21,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 2,
+              "defenderTag": "#2GUJ0CGP9"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -479,7 +487,14 @@
           "name": "Lobo ®",
           "townhallLevel": 18,
           "mapPosition": 2,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 5,
+              "defenderTag": "#LY02PP0JG"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
