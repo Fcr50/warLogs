@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-21T15:00:31.459Z",
+  "generatedAt": "2026-09-21T15:15:27.290Z",
   "totalWars": 36,
   "liveWar": {
     "opponentName": "創世集團",
-    "totalAttacksDone": 40,
+    "totalAttacksDone": 42,
     "totalAttacksExpected": 60
   },
   "ranking": [
@@ -837,42 +837,6 @@
     },
     {
       "player": {
-        "tag": "#PPPUQPVJY",
-        "name": "Rodrigo",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 1.4710686416637833,
-        "rawScore": 1.4710686416637833,
-        "confidence": 1,
-        "tier": "C",
-        "attackScore": 1.4125619520553236,
-        "defenseScore": 0.11906382053552196,
-        "reliability": 0.7217777777777779,
-        "formScore": 3.5,
-        "warsInRoster": 33,
-        "attacksUsed": 49,
-        "attacksAvailable": 66,
-        "avgDestruction": 81.6938775510204,
-        "totalAttacks": 49,
-        "totalStars": 111,
-        "count3Stars": 26,
-        "avgStars": 2.2653061224489797,
-        "threeStarRate": 0.5306122448979592,
-        "totalMissed": 13,
-        "avgPositionDiff": -7,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
         "tag": "#LUR09RUP2",
         "name": "andrei7zl",
         "townhallLevel": 18
@@ -899,6 +863,42 @@
         "avgPositionDiff": -1.1428571428571428,
         "hasAnyDefense": true,
         "hadTh17": true,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#PPPUQPVJY",
+        "name": "Rodrigo",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 1.4035804798411822,
+        "rawScore": 1.4035804798411822,
+        "confidence": 1,
+        "tier": "C",
+        "attackScore": 1.4810425191443684,
+        "defenseScore": 0.11906382053552196,
+        "reliability": 0.7217777777777779,
+        "formScore": 2.5375,
+        "warsInRoster": 33,
+        "attacksUsed": 51,
+        "attacksAvailable": 66,
+        "avgDestruction": 80,
+        "totalAttacks": 51,
+        "totalStars": 114,
+        "count3Stars": 26,
+        "avgStars": 2.235294117647059,
+        "threeStarRate": 0.5098039215686274,
+        "totalMissed": 13,
+        "avgPositionDiff": -7.568627450980392,
+        "hasAnyDefense": true,
+        "hadTh17": false,
         "weights": {
           "attack": 0.42,
           "defense": 0.25,
@@ -1335,15 +1335,15 @@
     },
     "#PPPUQPVJY": {
       "tier": "B",
-      "score": 1.4710686416637833,
-      "avgStars": 2.2653061224489797,
-      "totalStars": 111,
-      "totalAttacks": 49,
+      "score": 1.4035804798411822,
+      "avgStars": 2.235294117647059,
+      "totalStars": 114,
+      "totalAttacks": 51,
       "warsInRoster": 33,
       "totalMissed": 13,
-      "rank": 26,
+      "rank": 27,
       "prevRank": 26,
-      "normalizedScore": 42.03
+      "normalizedScore": 40.1
     },
     "#8YJYY92GC": {
       "tier": "B",
@@ -1447,7 +1447,7 @@
       "totalAttacks": 14,
       "warsInRoster": 7,
       "totalMissed": 0,
-      "rank": 27,
+      "rank": 26,
       "prevRank": 27,
       "normalizedScore": 40.51
     },
