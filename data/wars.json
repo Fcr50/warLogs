@@ -10,8 +10,8 @@
       "opponent": {
         "name": "創世集團",
         "tag": "#2RUYG0VUJ",
-        "stars": 30,
-        "destructionPercentage": 33.333332,
+        "stars": 37,
+        "destructionPercentage": 42.3,
         "members": [
           {
             "tag": "#QLGRU20V",
@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 51,
-        "destructionPercentage": 56.666668
+        "stars": 57,
+        "destructionPercentage": 63.333332
       },
       "sixHourNonAttackers": [
         {
@@ -149,11 +149,6 @@
           "tag": "#YRP9LGR00",
           "name": "*VICTOR*",
           "townhallLevel": 18
-        },
-        {
-          "tag": "#URR0QLV",
-          "name": "Victor Daniel",
-          "townhallLevel": 17
         },
         {
           "tag": "#PLU2VCLG",
@@ -168,11 +163,6 @@
         {
           "tag": "#PU2R2UPYC",
           "name": "TOUJO BASARA",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#VPPQ8VLV",
-          "name": "GABRIEL LOBATO",
           "townhallLevel": 18
         },
         {
@@ -220,7 +210,14 @@
               "defenderTag": "#8YL28V2V"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 82,
+              "attackerTag": "#GL9VRUCQP",
+              "attackerMapPosition": 28
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -281,7 +278,14 @@
               "defenderTag": "#V220GLPQ"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#8GYU9UJR",
+              "attackerMapPosition": 9
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -322,7 +326,20 @@
               "defenderTag": "#LQLGQQC8U"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 87,
+              "attackerTag": "#8GYU9UJR",
+              "attackerMapPosition": 9
+            },
+            {
+              "stars": 1,
+              "destructionPercentage": 86,
+              "attackerTag": "#GL9VRUCQP",
+              "attackerMapPosition": 28
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -451,7 +468,14 @@
           "name": "Victor Daniel",
           "townhallLevel": 17,
           "mapPosition": 28,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 35,
+              "defenderTag": "#GL9VRUCQP"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -517,7 +541,14 @@
           "name": "GABRIEL LOBATO",
           "townhallLevel": 18,
           "mapPosition": 26,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 34,
+              "defenderTag": "#RR8VRYJ2"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
