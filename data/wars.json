@@ -10,8 +10,8 @@
       "opponent": {
         "name": "創世集團",
         "tag": "#2RUYG0VUJ",
-        "stars": 18,
-        "destructionPercentage": 20,
+        "stars": 21,
+        "destructionPercentage": 23.333334,
         "members": [
           {
             "tag": "#QLGRU20V",
@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 33,
-        "destructionPercentage": 36.666668
+        "stars": 39,
+        "destructionPercentage": 43.333332
       },
       "sixHourNonAttackers": [
         {
@@ -158,11 +158,6 @@
         {
           "tag": "#YRP9LGR00",
           "name": "*VICTOR*",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#GJ2LQVQJ",
-          "name": "Fer",
           "townhallLevel": 18
         },
         {
@@ -188,11 +183,6 @@
         {
           "tag": "#VPPQ8VLV",
           "name": "GABRIEL LOBATO",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#29LP0VJV0",
-          "name": "Warlord Raivon",
           "townhallLevel": 18
         },
         {
@@ -404,7 +394,14 @@
           "name": "Fer",
           "townhallLevel": 18,
           "mapPosition": 1,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 91,
+              "order": 21,
+              "defenderTag": "#QP8VRG0"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -455,7 +452,14 @@
           "townhallLevel": 18,
           "mapPosition": 6,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#QLGRU20V",
+              "attackerMapPosition": 19
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -497,7 +501,20 @@
           "name": "Warlord Raivon",
           "townhallLevel": 18,
           "mapPosition": 10,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 23,
+              "defenderTag": "#QP8VRG0"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 24,
+              "defenderTag": "#CJP0UP2L"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
