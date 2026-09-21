@@ -136,18 +136,13 @@
         ]
       },
       "clan": {
-        "stars": 45,
-        "destructionPercentage": 50
+        "stars": 47,
+        "destructionPercentage": 53.2
       },
       "sixHourNonAttackers": [
         {
           "tag": "#8YJYY92GC",
           "name": "RussiaN",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#8CJ8YJY0P",
-          "name": "ChrolloLucilfer",
           "townhallLevel": 18
         },
         {
@@ -319,7 +314,14 @@
           "name": "ChrolloLucilfer",
           "townhallLevel": 18,
           "mapPosition": 11,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 96,
+              "order": 29,
+              "defenderTag": "#LQLGQQC8U"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
