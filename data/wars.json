@@ -10,8 +10,8 @@
       "opponent": {
         "name": "創世集團",
         "tag": "#2RUYG0VUJ",
-        "stars": 24,
-        "destructionPercentage": 26.666666,
+        "stars": 27,
+        "destructionPercentage": 30,
         "members": [
           {
             "tag": "#QLGRU20V",
@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 47,
-        "destructionPercentage": 53.2
+        "stars": 48,
+        "destructionPercentage": 53.333332
       },
       "sixHourNonAttackers": [
         {
@@ -455,7 +455,14 @@
           "townhallLevel": 18,
           "mapPosition": 8,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#GPCYYR928",
+              "attackerMapPosition": 4
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -580,6 +587,12 @@
               "destructionPercentage": 100,
               "order": 10,
               "defenderTag": "#22Y8PJ8UV"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 31,
+              "defenderTag": "#LQLGQQC8U"
             }
           ],
           "defensesReceived": [],
