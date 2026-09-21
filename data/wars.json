@@ -10,8 +10,8 @@
       "opponent": {
         "name": "創世集團",
         "tag": "#2RUYG0VUJ",
-        "stars": 21,
-        "destructionPercentage": 23.333334,
+        "stars": 24,
+        "destructionPercentage": 26.666666,
         "members": [
           {
             "tag": "#QLGRU20V",
@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 39,
-        "destructionPercentage": 43.333332
+        "stars": 45,
+        "destructionPercentage": 50
       },
       "sixHourNonAttackers": [
         {
@@ -148,11 +148,6 @@
         {
           "tag": "#8CJ8YJY0P",
           "name": "ChrolloLucilfer",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#2GP2JUU2",
-          "name": "Gustavo Lázaro",
           "townhallLevel": 18
         },
         {
@@ -203,11 +198,6 @@
         {
           "tag": "#GCJVY8JGG",
           "name": "-+CARRASCO+-",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QJVQVRPU",
-          "name": "Frnnn",
           "townhallLevel": 18
         },
         {
@@ -338,8 +328,28 @@
           "name": "Gustavo Lázaro",
           "townhallLevel": 18,
           "mapPosition": 7,
-          "attacks": [],
-          "defensesReceived": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 27,
+              "defenderTag": "#YLQVR2CLJ"
+            }
+          ],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 86,
+              "attackerTag": "#QLGRU20V",
+              "attackerMapPosition": 19
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#8YL28V2V",
+              "attackerMapPosition": 13
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -635,7 +645,14 @@
           "name": "Frnnn",
           "townhallLevel": 18,
           "mapPosition": 9,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 26,
+              "defenderTag": "#8GYU9UJR"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
