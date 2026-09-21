@@ -10,8 +10,8 @@
       "opponent": {
         "name": "創世集團",
         "tag": "#2RUYG0VUJ",
-        "stars": 3,
-        "destructionPercentage": 3.3333333,
+        "stars": 9,
+        "destructionPercentage": 10,
         "members": [
           {
             "tag": "#QLGRU20V",
@@ -136,18 +136,13 @@
         ]
       },
       "clan": {
-        "stars": 18,
-        "destructionPercentage": 20
+        "stars": 23,
+        "destructionPercentage": 26.066668
       },
       "sixHourNonAttackers": [
         {
           "tag": "#QQC8P9C9R",
           "name": "Gs.prieto",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#2QL0VR9GU",
-          "name": "Marcola",
           "townhallLevel": 18
         },
         {
@@ -213,11 +208,6 @@
         {
           "tag": "#2RRLYG2Q8",
           "name": "Michel CDL",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#GGVCRYP8P",
-          "name": "gui",
           "townhallLevel": 18
         },
         {
@@ -303,7 +293,14 @@
           "name": "Marcola",
           "townhallLevel": 18,
           "mapPosition": 12,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 82,
+              "order": 12,
+              "defenderTag": "#V220GLPQ"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -483,7 +480,14 @@
           "townhallLevel": 18,
           "mapPosition": 10,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#2YRV8LC92",
+              "attackerMapPosition": 24
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -499,7 +503,14 @@
               "defenderTag": "#LY02PP0JG"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#PQJ89RRG",
+              "attackerMapPosition": 3
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -516,7 +527,14 @@
           "name": "gui",
           "townhallLevel": 18,
           "mapPosition": 18,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 10,
+              "defenderTag": "#22Y8PJ8UV"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
