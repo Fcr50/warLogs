@@ -10,8 +10,8 @@
       "opponent": {
         "name": "創世集團",
         "tag": "#2RUYG0VUJ",
-        "stars": 87,
-        "destructionPercentage": 96.666664,
+        "stars": 90,
+        "destructionPercentage": 100,
         "members": [
           {
             "tag": "#QLGRU20V",
@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 89,
-        "destructionPercentage": 99.166664
+        "stars": 90,
+        "destructionPercentage": 100
       },
       "sixHourNonAttackers": [
         {
@@ -897,7 +897,14 @@
               "defenderTag": "#GYQGL9VLU"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#8RGYUPQG8",
+              "attackerMapPosition": 17
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -905,7 +912,14 @@
           "name": "-+CARRASCO+-",
           "townhallLevel": 18,
           "mapPosition": 24,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 80,
+              "defenderTag": "#2YRV8LC92"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,

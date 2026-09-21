@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-21T12:45:21.496Z",
+  "generatedAt": "2026-09-21T13:01:45.622Z",
   "totalWars": 36,
   "liveWar": {
     "opponentName": "創世集團",
-    "totalAttacksDone": 38,
+    "totalAttacksDone": 39,
     "totalAttacksExpected": 60
   },
   "ranking": [
@@ -338,12 +338,12 @@
         "townhallLevel": 18
       },
       "data": {
-        "score": 2.2974021902571398,
-        "rawScore": 2.2974021902571398,
+        "score": 2.29444659830708,
+        "rawScore": 2.29444659830708,
         "confidence": 1,
         "tier": "B",
         "attackScore": 3.262096806845443,
-        "defenseScore": 0.056859458861546926,
+        "defenseScore": 0.045037091061310514,
         "reliability": 0.8537777777777777,
         "formScore": 3.24,
         "warsInRoster": 33,
@@ -801,6 +801,42 @@
     },
     {
       "player": {
+        "tag": "#GCJVY8JGG",
+        "name": "-+CARRASCO+-",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 1.5323433753386742,
+        "rawScore": 2.1890619647695346,
+        "confidence": 0.7,
+        "tier": "B",
+        "attackScore": 3.3539854742551958,
+        "defenseScore": 0.0348855956627432,
+        "reliability": 0.611111111111111,
+        "formScore": 3.5,
+        "warsInRoster": 3,
+        "attacksUsed": 5,
+        "attacksAvailable": 6,
+        "avgDestruction": 93.8,
+        "totalAttacks": 5,
+        "totalStars": 14,
+        "count3Stars": 4,
+        "avgStars": 2.8,
+        "threeStarRate": 0.8,
+        "totalMissed": 0,
+        "avgPositionDiff": -6.8,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#PPPUQPVJY",
         "name": "Rodrigo",
         "townhallLevel": 18
@@ -899,42 +935,6 @@
         "avgPositionDiff": -0.5454545454545454,
         "hasAnyDefense": true,
         "hadTh17": true,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#GCJVY8JGG",
-        "name": "-+CARRASCO+-",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 1.2528491567929876,
-        "rawScore": 1.7897845097042682,
-        "confidence": 0.7,
-        "tier": "B",
-        "attackScore": 3.2366582002902757,
-        "defenseScore": 0.0348855956627432,
-        "reliability": 0.611111111111111,
-        "formScore": 0,
-        "warsInRoster": 3,
-        "attacksUsed": 4,
-        "attacksAvailable": 6,
-        "avgDestruction": 92.25,
-        "totalAttacks": 4,
-        "totalStars": 11,
-        "count3Stars": 3,
-        "avgStars": 2.75,
-        "threeStarRate": 0.75,
-        "totalMissed": 0,
-        "avgPositionDiff": -8.5,
-        "hasAnyDefense": true,
-        "hadTh17": false,
         "weights": {
           "attack": 0.42,
           "defense": 0.25,
@@ -1341,7 +1341,7 @@
       "totalAttacks": 49,
       "warsInRoster": 33,
       "totalMissed": 13,
-      "rank": 25,
+      "rank": 26,
       "prevRank": 25,
       "normalizedScore": 42.03
     },
@@ -1383,15 +1383,15 @@
     },
     "#GCJVY8JGG": {
       "tier": "B",
-      "score": 1.2528491567929876,
-      "avgStars": 2.75,
-      "totalStars": 11,
-      "totalAttacks": 4,
+      "score": 1.5323433753386742,
+      "avgStars": 2.8,
+      "totalStars": 14,
+      "totalAttacks": 5,
       "warsInRoster": 3,
       "totalMissed": 0,
-      "rank": 28,
+      "rank": 24,
       "prevRank": 28,
-      "normalizedScore": 35.8
+      "normalizedScore": 43.78
     },
     "#2LGC8PGRY": {
       "tier": "B",
@@ -1401,7 +1401,7 @@
       "totalAttacks": 22,
       "warsInRoster": 11,
       "totalMissed": 0,
-      "rank": 27,
+      "rank": 28,
       "prevRank": 27,
       "normalizedScore": 38.73
     },
@@ -1429,7 +1429,7 @@
     },
     "#GQU9Y0CQ8": {
       "tier": "A",
-      "score": 2.2974021902571398,
+      "score": 2.29444659830708,
       "avgStars": 2.40625,
       "totalStars": 154,
       "totalAttacks": 64,
@@ -1437,7 +1437,7 @@
       "totalMissed": 2,
       "rank": 10,
       "prevRank": 10,
-      "normalizedScore": 65.64
+      "normalizedScore": 65.56
     },
     "#LUR09RUP2": {
       "tier": "B",
@@ -1447,7 +1447,7 @@
       "totalAttacks": 14,
       "warsInRoster": 7,
       "totalMissed": 0,
-      "rank": 26,
+      "rank": 27,
       "prevRank": 26,
       "normalizedScore": 40.51
     },
@@ -1481,7 +1481,7 @@
       "totalAttacks": 9,
       "warsInRoster": 5,
       "totalMissed": 0,
-      "rank": 24,
+      "rank": 25,
       "prevRank": 24,
       "normalizedScore": 42.81
     },
