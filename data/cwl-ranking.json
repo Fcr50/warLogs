@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-21T17:30:36.373Z",
+  "generatedAt": "2026-09-21T17:45:42.381Z",
   "totalWars": 36,
   "liveWar": {
     "opponentName": "創世集團",
-    "totalAttacksDone": 46,
+    "totalAttacksDone": 47,
     "totalAttacksExpected": 60
   },
   "ranking": [
@@ -945,42 +945,6 @@
     },
     {
       "player": {
-        "tag": "#92LYVUU9Q",
-        "name": "#Sahara300#",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 0.9549833360953358,
-        "rawScore": 1.3642619087076227,
-        "confidence": 0.7,
-        "tier": "C",
-        "attackScore": 1.970464862002276,
-        "defenseScore": 0,
-        "reliability": 0.611111111111111,
-        "formScore": 1.15,
-        "warsInRoster": 3,
-        "attacksUsed": 5,
-        "attacksAvailable": 6,
-        "avgDestruction": 81.6,
-        "totalAttacks": 5,
-        "totalStars": 10,
-        "count3Stars": 1,
-        "avgStars": 2,
-        "threeStarRate": 0.2,
-        "totalMissed": 0,
-        "avgPositionDiff": -6,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
         "tag": "#20JC0J9JR",
         "name": "BTV✯Robin Hood",
         "townhallLevel": 18
@@ -1005,6 +969,42 @@
         "threeStarRate": 0.9285714285714286,
         "totalMissed": 18,
         "avgPositionDiff": -2.142857142857143,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#92LYVUU9Q",
+        "name": "#Sahara300#",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 0.8524060278189833,
+        "rawScore": 1.217722896884262,
+        "confidence": 0.7,
+        "tier": "C",
+        "attackScore": 1.7406100719466557,
+        "defenseScore": 0,
+        "reliability": 0.611111111111111,
+        "formScore": 0.6499999999999999,
+        "warsInRoster": 3,
+        "attacksUsed": 6,
+        "attacksAvailable": 6,
+        "avgDestruction": 70.5,
+        "totalAttacks": 6,
+        "totalStars": 10,
+        "count3Stars": 1,
+        "avgStars": 1.6666666666666667,
+        "threeStarRate": 0.16666666666666666,
+        "totalMissed": 0,
+        "avgPositionDiff": -9,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1334,14 +1334,14 @@
       "normalizedScore": 53.86
     },
     "#20JC0J9JR": {
-      "tier": "C",
+      "tier": "B",
       "score": 0.9301233087207869,
       "avgStars": 2.9285714285714284,
       "totalStars": 123,
       "totalAttacks": 42,
       "warsInRoster": 36,
       "totalMissed": 18,
-      "rank": 30,
+      "rank": 29,
       "prevRank": 30,
       "normalizedScore": 26.57
     },
@@ -1428,16 +1428,16 @@
       "normalizedScore": 0
     },
     "#92LYVUU9Q": {
-      "tier": "B",
-      "score": 0.9549833360953358,
-      "avgStars": 2,
+      "tier": "C",
+      "score": 0.8524060278189833,
+      "avgStars": 1.6666666666666667,
       "totalStars": 10,
-      "totalAttacks": 5,
+      "totalAttacks": 6,
       "warsInRoster": 3,
       "totalMissed": 0,
-      "rank": 29,
+      "rank": 30,
       "prevRank": 29,
-      "normalizedScore": 27.29
+      "normalizedScore": 24.35
     },
     "#GQU9Y0CQ8": {
       "tier": "A",
