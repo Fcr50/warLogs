@@ -10,8 +10,8 @@
       "opponent": {
         "name": "創世集團",
         "tag": "#2RUYG0VUJ",
-        "stars": 72,
-        "destructionPercentage": 82.6,
+        "stars": 76,
+        "destructionPercentage": 86.36667,
         "members": [
           {
             "tag": "#QLGRU20V",
@@ -460,6 +460,12 @@
           ],
           "defensesReceived": [
             {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#QYLUL8G0",
+              "attackerMapPosition": 8
+            },
+            {
               "stars": 2,
               "destructionPercentage": 87,
               "attackerTag": "#V220GLPQ",
@@ -623,7 +629,14 @@
               "defenderTag": "#2GUJ0CGP9"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#QYLUL8G0",
+              "attackerMapPosition": 8
+            }
+          ],
           "missedAttacks": 0
         },
         {
