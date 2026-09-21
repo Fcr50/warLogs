@@ -10,8 +10,8 @@
       "opponent": {
         "name": "創世集團",
         "tag": "#2RUYG0VUJ",
-        "stars": 15,
-        "destructionPercentage": 16.666666,
+        "stars": 18,
+        "destructionPercentage": 20,
         "members": [
           {
             "tag": "#QLGRU20V",
@@ -585,7 +585,14 @@
           "townhallLevel": 18,
           "mapPosition": 5,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#LQLGQQC8U",
+              "attackerMapPosition": 11
+            }
+          ],
           "missedAttacks": 0
         },
         {
