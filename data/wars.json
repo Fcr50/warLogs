@@ -10,8 +10,8 @@
       "opponent": {
         "name": "@Não Perturbe!",
         "tag": "#2RQ9J808Q",
-        "stars": 9,
-        "destructionPercentage": 12,
+        "stars": 18,
+        "destructionPercentage": 25.72,
         "members": [
           {
             "tag": "#L0J2LVLL9",
@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 12,
-        "destructionPercentage": 16
+        "stars": 18,
+        "destructionPercentage": 24
       },
       "sixHourNonAttackers": [
         {
@@ -126,19 +126,9 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#2QL0VR9GU",
-          "name": "Marcola",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#YRCLVY099",
           "name": "GLADIADOR - SP",
           "townhallLevel": 17
-        },
-        {
-          "tag": "#8YJYY92GC",
-          "name": "RussiaN",
-          "townhallLevel": 18
         },
         {
           "tag": "#2GP2JUU2",
@@ -249,7 +239,14 @@
               "defenderTag": "#P9JV00R29"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 87,
+              "attackerTag": "#P9JV00R29",
+              "attackerMapPosition": 5
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -271,7 +268,14 @@
               "defenderTag": "#PQUL9RQJ"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#P9JV00R29",
+              "attackerMapPosition": 5
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -279,7 +283,14 @@
           "name": "Marcola",
           "townhallLevel": 18,
           "mapPosition": 12,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 9,
+              "defenderTag": "#2L0R90CU2"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -304,7 +315,14 @@
           "name": "RussiaN",
           "townhallLevel": 18,
           "mapPosition": 22,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 10,
+              "defenderTag": "#PPQCV9U8"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -375,7 +393,14 @@
           "townhallLevel": 17,
           "mapPosition": 23,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 77,
+              "attackerTag": "#PPQCV9U8",
+              "attackerMapPosition": 22
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -384,7 +409,14 @@
           "townhallLevel": 18,
           "mapPosition": 8,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 79,
+              "attackerTag": "#8GJU8QJQG",
+              "attackerMapPosition": 8
+            }
+          ],
           "missedAttacks": 0
         },
         {
