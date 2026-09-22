@@ -10,8 +10,8 @@
       "opponent": {
         "name": "@Não Perturbe!",
         "tag": "#2RQ9J808Q",
-        "stars": 6,
-        "destructionPercentage": 8,
+        "stars": 9,
+        "destructionPercentage": 12,
         "members": [
           {
             "tag": "#L0J2LVLL9",
@@ -116,18 +116,13 @@
         ]
       },
       "clan": {
-        "stars": 6,
-        "destructionPercentage": 8
+        "stars": 12,
+        "destructionPercentage": 16
       },
       "sixHourNonAttackers": [
         {
           "tag": "#8VCUUPPJP",
           "name": "Satsugai",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#2LY0P2L9U",
-          "name": "LucasHG9",
           "townhallLevel": 18
         },
         {
@@ -178,11 +173,6 @@
         {
           "tag": "#PLU2VCLG",
           "name": "Phoenix",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#92LYVUU9Q",
-          "name": "#Sahara300#",
           "townhallLevel": 18
         },
         {
@@ -251,7 +241,14 @@
           "name": "LucasHG9",
           "townhallLevel": 18,
           "mapPosition": 5,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 6,
+              "defenderTag": "#P9JV00R29"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -266,6 +263,12 @@
               "destructionPercentage": 100,
               "order": 4,
               "defenderTag": "#G0LVU992U"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 8,
+              "defenderTag": "#PQUL9RQJ"
             }
           ],
           "defensesReceived": [],
@@ -389,7 +392,14 @@
           "name": "#Sahara300#",
           "townhallLevel": 18,
           "mapPosition": 20,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 63,
+              "order": 7,
+              "defenderTag": "#PQUL9RQJ"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -478,7 +488,14 @@
           "townhallLevel": 18,
           "mapPosition": 16,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#9LGU908L",
+              "attackerMapPosition": 16
+            }
+          ],
           "missedAttacks": 0
         },
         {
