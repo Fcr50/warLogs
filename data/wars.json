@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 33,
-        "destructionPercentage": 44
+        "stars": 36,
+        "destructionPercentage": 48
       },
       "sixHourNonAttackers": [
         {
@@ -149,11 +149,6 @@
           "tag": "#GJ2LQVQJ",
           "name": "Fer",
           "townhallLevel": 18
-        },
-        {
-          "tag": "#URR0QLV",
-          "name": "Victor Daniel",
-          "townhallLevel": 17
         },
         {
           "tag": "#PLU2VCLG",
@@ -434,7 +429,14 @@
           "name": "Victor Daniel",
           "townhallLevel": 17,
           "mapPosition": 23,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 39,
+              "defenderTag": "#GRRPV2YRC"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 2,
