@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-23T21:15:20.687Z",
+  "generatedAt": "2026-09-23T21:45:33.617Z",
   "totalWars": 35,
   "liveWar": {
     "opponentName": "@Não Perturbe!",
-    "totalAttacksDone": 43,
+    "totalAttacksDone": 44,
     "totalAttacksExpected": 50
   },
   "ranking": [
@@ -482,12 +482,12 @@
         "townhallLevel": 18
       },
       "data": {
-        "score": 2.21116034561105,
-        "rawScore": 2.21116034561105,
+        "score": 2.1845236085823645,
+        "rawScore": 2.1845236085823645,
         "confidence": 1,
         "tier": "A",
         "attackScore": 2.875841036775249,
-        "defenseScore": 0.6331712978046388,
+        "defenseScore": 0.5266243496898966,
         "reliability": 0.8985714285714286,
         "formScore": 2.25,
         "warsInRoster": 39,
@@ -801,42 +801,6 @@
     },
     {
       "player": {
-        "tag": "#PPPUQPVJY",
-        "name": "Rodrigo",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 1.555913944162595,
-        "rawScore": 1.555913944162595,
-        "confidence": 1,
-        "tier": "C",
-        "attackScore": 1.8738840723007821,
-        "defenseScore": 0.09600196375649492,
-        "reliability": 0.7117857142857142,
-        "formScore": 2.5375,
-        "warsInRoster": 32,
-        "attacksUsed": 48,
-        "attacksAvailable": 64,
-        "avgDestruction": 79.14583333333333,
-        "totalAttacks": 48,
-        "totalStars": 106,
-        "count3Stars": 24,
-        "avgStars": 2.2083333333333335,
-        "threeStarRate": 0.5,
-        "totalMissed": 13,
-        "avgPositionDiff": -7.416666666666667,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
         "tag": "#GCJVY8JGG",
         "name": "-+CARRASCO+-",
         "townhallLevel": 18
@@ -861,6 +825,42 @@
         "threeStarRate": 0.8,
         "totalMissed": 0,
         "avgPositionDiff": -6.8,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#PPPUQPVJY",
+        "name": "Rodrigo",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 1.467210210557775,
+        "rawScore": 1.467210210557775,
+        "confidence": 1,
+        "tier": "C",
+        "attackScore": 1.7495894684797815,
+        "defenseScore": 0.09600196375649492,
+        "reliability": 0.7117857142857142,
+        "formScore": 2.1725,
+        "warsInRoster": 32,
+        "attacksUsed": 49,
+        "attacksAvailable": 64,
+        "avgDestruction": 78.63265306122449,
+        "totalAttacks": 49,
+        "totalStars": 108,
+        "count3Stars": 24,
+        "avgStars": 2.204081632653061,
+        "threeStarRate": 0.4897959183673469,
+        "totalMissed": 13,
+        "avgPositionDiff": -7.63265306122449,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1210,7 +1210,7 @@
     },
     "#G9Y2L9QJJ": {
       "tier": "B",
-      "score": 2.21116034561105,
+      "score": 2.1845236085823645,
       "avgStars": 2.824324324324324,
       "totalStars": 209,
       "totalAttacks": 74,
@@ -1218,7 +1218,7 @@
       "totalMissed": 2,
       "rank": 15,
       "prevRank": 15,
-      "normalizedScore": 63.18
+      "normalizedScore": 62.41
     },
     "#2GP2JUU2": {
       "tier": "S",
@@ -1264,7 +1264,7 @@
       "totalAttacks": 5,
       "warsInRoster": 3,
       "totalMissed": 0,
-      "rank": 26,
+      "rank": 25,
       "prevRank": 26,
       "normalizedScore": 43.79
     },
@@ -1376,15 +1376,15 @@
     },
     "#PPPUQPVJY": {
       "tier": "B",
-      "score": 1.555913944162595,
-      "avgStars": 2.2083333333333335,
-      "totalStars": 106,
-      "totalAttacks": 48,
+      "score": 1.467210210557775,
+      "avgStars": 2.204081632653061,
+      "totalStars": 108,
+      "totalAttacks": 49,
       "warsInRoster": 32,
       "totalMissed": 13,
-      "rank": 25,
+      "rank": 26,
       "prevRank": 25,
-      "normalizedScore": 44.45
+      "normalizedScore": 41.92
     },
     "#YPVQVU982": {
       "tier": "B",
