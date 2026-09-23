@@ -10,8 +10,8 @@
       "opponent": {
         "name": "@Não Perturbe!",
         "tag": "#2RQ9J808Q",
-        "stars": 30,
-        "destructionPercentage": 40,
+        "stars": 33,
+        "destructionPercentage": 44,
         "members": [
           {
             "tag": "#L0J2LVLL9",
@@ -325,7 +325,14 @@
               "defenderTag": "#PPQCV9U8"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#CR8PYQQ2",
+              "attackerMapPosition": 10
+            }
+          ],
           "missedAttacks": 0
         },
         {
