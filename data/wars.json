@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 68,
-        "destructionPercentage": 91.88
+        "stars": 75,
+        "destructionPercentage": 100
       },
       "sixHourNonAttackers": [
         {
@@ -356,7 +356,20 @@
           "name": "Gustavo Lázaro",
           "townhallLevel": 18,
           "mapPosition": 7,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 60,
+              "defenderTag": "#R8YVR0LU"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 62,
+              "defenderTag": "#LRYPYYLJY"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -703,6 +716,12 @@
               "destructionPercentage": 100,
               "order": 58,
               "defenderTag": "#9LGU908L"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 61,
+              "defenderTag": "#QGQYYGUJ"
             }
           ],
           "defensesReceived": [
