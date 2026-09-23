@@ -10,8 +10,8 @@
       "opponent": {
         "name": "@Não Perturbe!",
         "tag": "#2RQ9J808Q",
-        "stars": 48,
-        "destructionPercentage": 65.96,
+        "stars": 51,
+        "destructionPercentage": 69.96,
         "members": [
           {
             "tag": "#L0J2LVLL9",
@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 30,
-        "destructionPercentage": 40
+        "stars": 33,
+        "destructionPercentage": 44
       },
       "sixHourNonAttackers": [
         {
@@ -173,11 +173,6 @@
         {
           "tag": "#GGVCRYP8P",
           "name": "gui",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#P9C0LVLU2",
-          "name": "VINGADOR⚡",
           "townhallLevel": 18
         },
         {
@@ -361,7 +356,14 @@
           "townhallLevel": 18,
           "mapPosition": 7,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#89CGRUQLV",
+              "attackerMapPosition": 7
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -568,7 +570,14 @@
           "name": "VINGADOR⚡",
           "townhallLevel": 18,
           "mapPosition": 4,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 99,
+              "order": 37,
+              "defenderTag": "#29RLQR0LV"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -622,6 +631,12 @@
               "destructionPercentage": 100,
               "order": 27,
               "defenderTag": "#GLJ9CJ2V"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 38,
+              "defenderTag": "#29RLQR0LV"
             }
           ],
           "defensesReceived": [],
