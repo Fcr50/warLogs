@@ -10,8 +10,8 @@
       "opponent": {
         "name": "@Não Perturbe!",
         "tag": "#2RQ9J808Q",
-        "stars": 27,
-        "destructionPercentage": 37.6,
+        "stars": 30,
+        "destructionPercentage": 40,
         "members": [
           {
             "tag": "#L0J2LVLL9",
@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 20,
-        "destructionPercentage": 27.96
+        "stars": 24,
+        "destructionPercentage": 32
       },
       "sixHourNonAttackers": [
         {
@@ -204,11 +204,6 @@
           "tag": "#QJLQLUURY",
           "name": "NenemPJL",
           "townhallLevel": 18
-        },
-        {
-          "tag": "#PPPUQPVJY",
-          "name": "Rodrigo",
-          "townhallLevel": 18
         }
       ],
       "members": [
@@ -232,9 +227,21 @@
               "destructionPercentage": 100,
               "order": 6,
               "defenderTag": "#P9JV00R29"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 22,
+              "defenderTag": "#2C2Y0PQVV"
             }
           ],
           "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#9LGU908L",
+              "attackerMapPosition": 16
+            },
             {
               "stars": 2,
               "destructionPercentage": 87,
@@ -419,6 +426,12 @@
           "attacks": [],
           "defensesReceived": [
             {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#CR8PYQQ2",
+              "attackerMapPosition": 10
+            },
+            {
               "stars": 2,
               "destructionPercentage": 79,
               "attackerTag": "#8GJU8QJQG",
@@ -446,6 +459,12 @@
               "destructionPercentage": 74,
               "attackerTag": "#PQUL9RQJ",
               "attackerMapPosition": 20
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#922UGC9P2",
+              "attackerMapPosition": 11
             }
           ],
           "missedAttacks": 0
@@ -570,7 +589,14 @@
           "name": "Rodrigo",
           "townhallLevel": 18,
           "mapPosition": 19,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 21,
+              "defenderTag": "#VCRJVRJ"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         }
