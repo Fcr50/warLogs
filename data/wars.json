@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 50,
-        "destructionPercentage": 67.88
+        "stars": 52,
+        "destructionPercentage": 71.36
       },
       "sixHourNonAttackers": [
         {
@@ -458,7 +458,14 @@
           "name": "Phoenix",
           "townhallLevel": 18,
           "mapPosition": 8,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 87,
+              "order": 47,
+              "defenderTag": "#8GJU8QJQG"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
