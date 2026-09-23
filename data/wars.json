@@ -195,6 +195,12 @@
             },
             {
               "stars": 2,
+              "destructionPercentage": 65,
+              "attackerTag": "#LGC8900G0",
+              "attackerMapPosition": 3
+            },
+            {
+              "stars": 2,
               "destructionPercentage": 92,
               "attackerTag": "#YGPUPGQ0",
               "attackerMapPosition": 6
@@ -451,7 +457,20 @@
           "name": "Micael",
           "townhallLevel": 18,
           "mapPosition": 18,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 1,
+              "destructionPercentage": 32,
+              "order": 78,
+              "defenderTag": "#2C2Y0PQVV"
+            },
+            {
+              "stars": 1,
+              "destructionPercentage": 28,
+              "order": 79,
+              "defenderTag": "#LGY2R9G2V"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 1,
