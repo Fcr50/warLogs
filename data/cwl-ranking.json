@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T22:30:23.614Z",
+  "generatedAt": "2026-09-23T22:45:24.136Z",
   "totalWars": 35,
   "liveWar": {
     "opponentName": "@Não Perturbe!",
@@ -302,12 +302,12 @@
         "townhallLevel": 18
       },
       "data": {
-        "score": 2.368970113254825,
-        "rawScore": 2.368970113254825,
+        "score": 2.3763350243460053,
+        "rawScore": 2.3763350243460053,
         "confidence": 1,
         "tier": "A",
         "attackScore": 3.2170080947513315,
-        "defenseScore": 0.2710211395513495,
+        "defenseScore": 0.3004807839160689,
         "reliability": 0.9428571428571428,
         "formScore": 2.995,
         "warsInRoster": 40,
@@ -477,6 +477,42 @@
     },
     {
       "player": {
+        "tag": "#80LUCC9YV",
+        "name": "Lobo ®",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.168623553589417,
+        "rawScore": 2.168623553589417,
+        "confidence": 1,
+        "tier": "A",
+        "attackScore": 2.698229869897209,
+        "defenseScore": 0.32055374721607216,
+        "reliability": 0.8771428571428572,
+        "formScore": 3.5,
+        "warsInRoster": 39,
+        "attacksUsed": 70,
+        "attacksAvailable": 78,
+        "avgDestruction": 97.14285714285714,
+        "totalAttacks": 70,
+        "totalStars": 194,
+        "count3Stars": 58,
+        "avgStars": 2.7714285714285714,
+        "threeStarRate": 0.8285714285714286,
+        "totalMissed": 4,
+        "avgPositionDiff": 3.3285714285714287,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#8YJYY92GC",
         "name": "RussiaN",
         "townhallLevel": 18
@@ -503,42 +539,6 @@
         "avgPositionDiff": -7.2465753424657535,
         "hasAnyDefense": true,
         "hadTh17": true,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#80LUCC9YV",
-        "name": "Lobo ®",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.1625075119160875,
-        "rawScore": 2.1625075119160875,
-        "confidence": 1,
-        "tier": "A",
-        "attackScore": 2.698229869897209,
-        "defenseScore": 0.29608958052275275,
-        "reliability": 0.8771428571428572,
-        "formScore": 3.5,
-        "warsInRoster": 39,
-        "attacksUsed": 70,
-        "attacksAvailable": 78,
-        "avgDestruction": 97.14285714285714,
-        "totalAttacks": 70,
-        "totalStars": 194,
-        "count3Stars": 58,
-        "avgStars": 2.7714285714285714,
-        "threeStarRate": 0.8285714285714286,
-        "totalMissed": 4,
-        "avgPositionDiff": 3.3285714285714287,
-        "hasAnyDefense": true,
-        "hadTh17": false,
         "weights": {
           "attack": 0.42,
           "defense": 0.25,
@@ -1330,7 +1330,7 @@
     },
     "#QGQJGURCL": {
       "tier": "A",
-      "score": 2.368970113254825,
+      "score": 2.3763350243460053,
       "avgStars": 2.759493670886076,
       "totalStars": 218,
       "totalAttacks": 79,
@@ -1338,7 +1338,7 @@
       "totalMissed": 0,
       "rank": 9,
       "prevRank": 9,
-      "normalizedScore": 67.68
+      "normalizedScore": 67.9
     },
     "#29LP0VJV0": {
       "tier": "A",
@@ -1382,7 +1382,7 @@
       "totalAttacks": 73,
       "warsInRoster": 37,
       "totalMissed": 0,
-      "rank": 15,
+      "rank": 16,
       "prevRank": 15,
       "normalizedScore": 61.86
     },
@@ -1412,15 +1412,15 @@
     },
     "#80LUCC9YV": {
       "tier": "B",
-      "score": 2.1625075119160875,
+      "score": 2.168623553589417,
       "avgStars": 2.7714285714285714,
       "totalStars": 194,
       "totalAttacks": 70,
       "warsInRoster": 39,
       "totalMissed": 4,
-      "rank": 16,
+      "rank": 15,
       "prevRank": 16,
-      "normalizedScore": 61.79
+      "normalizedScore": 61.96
     },
     "#LQQRGJ8VU": {
       "tier": "B",
