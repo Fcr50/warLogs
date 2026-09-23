@@ -10,8 +10,8 @@
       "opponent": {
         "name": "@Não Perturbe!",
         "tag": "#2RQ9J808Q",
-        "stars": 36,
-        "destructionPercentage": 49.96,
+        "stars": 41,
+        "destructionPercentage": 56.16,
         "members": [
           {
             "tag": "#L0J2LVLL9",
@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 27,
-        "destructionPercentage": 36
+        "stars": 30,
+        "destructionPercentage": 40
       },
       "sixHourNonAttackers": [
         {
@@ -163,11 +163,6 @@
         {
           "tag": "#VPPQ8VLV",
           "name": "GABRIEL LOBATO",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#29LP0VJV0",
-          "name": "Warlord Raivon",
           "townhallLevel": 18
         },
         {
@@ -400,7 +395,14 @@
               "defenderTag": "#2C2Y0PQVV"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 55,
+              "attackerTag": "#G0LVU992U",
+              "attackerMapPosition": 14
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -409,7 +411,14 @@
           "townhallLevel": 18,
           "mapPosition": 2,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#G0LVU992U",
+              "attackerMapPosition": 14
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -512,7 +521,14 @@
           "name": "Warlord Raivon",
           "townhallLevel": 18,
           "mapPosition": 10,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 32,
+              "defenderTag": "#CR8PYQQ2"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
