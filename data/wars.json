@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 3,
-        "destructionPercentage": 4
+        "stars": 5,
+        "destructionPercentage": 7.6
       },
       "sixHourNonAttackers": [
         {
@@ -183,11 +183,6 @@
         {
           "tag": "#PLU2VCLG",
           "name": "Phoenix",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#92LYVUU9Q",
-          "name": "#Sahara300#",
           "townhallLevel": 18
         },
         {
@@ -429,6 +424,12 @@
               "destructionPercentage": 92,
               "attackerTag": "#LRCCJR2RC",
               "attackerMapPosition": 4
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#LCYGRUUP0",
+              "attackerMapPosition": 16
             }
           ],
           "missedAttacks": 0
@@ -451,6 +452,12 @@
               "destructionPercentage": 100,
               "attackerTag": "#99RYRRV0J",
               "attackerMapPosition": 22
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#LCYGRUUP0",
+              "attackerMapPosition": 16
             },
             {
               "stars": 3,
@@ -514,7 +521,14 @@
           "name": "#Sahara300#",
           "townhallLevel": 18,
           "mapPosition": 21,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 90,
+              "order": 37,
+              "defenderTag": "#CPVPGLRC"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -569,6 +583,12 @@
               "destructionPercentage": 100,
               "attackerTag": "#Q0QQPV8P",
               "attackerMapPosition": 12
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#99RYRRV0J",
+              "attackerMapPosition": 22
             },
             {
               "stars": 3,
