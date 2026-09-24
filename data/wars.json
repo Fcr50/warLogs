@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 5,
-        "destructionPercentage": 7.6
+        "stars": 8,
+        "destructionPercentage": 11.6
       },
       "sixHourNonAttackers": [
         {
@@ -218,11 +218,6 @@
         {
           "tag": "#GCJVY8JGG",
           "name": "-+CARRASCO+-",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QJVQVRPU",
-          "name": "Frnnn",
           "townhallLevel": 18
         },
         {
@@ -668,7 +663,14 @@
           "name": "Frnnn",
           "townhallLevel": 18,
           "mapPosition": 8,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 38,
+              "defenderTag": "#J2V9PYRJ"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
