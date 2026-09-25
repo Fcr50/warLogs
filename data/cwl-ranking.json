@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T20:15:25.513Z",
+  "generatedAt": "2026-09-25T20:30:29.597Z",
   "totalWars": 34,
   "liveWar": {
     "opponentName": "EGA Academy",
@@ -230,12 +230,12 @@
         "townhallLevel": 18
       },
       "data": {
-        "score": 2.374447060800449,
-        "rawScore": 2.374447060800449,
+        "score": 2.373160488912874,
+        "rawScore": 2.373160488912874,
         "confidence": 1,
         "tier": "A",
         "attackScore": 3.14091850551507,
-        "defenseScore": 0.09351574217177333,
+        "defenseScore": 0.08836945462147278,
         "reliability": 0.9882352941176471,
         "formScore": 3.5,
         "warsInRoster": 45,
@@ -333,42 +333,6 @@
     },
     {
       "player": {
-        "tag": "#QGQJGURCL",
-        "name": "SAFONOV",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.3408268110372554,
-        "rawScore": 2.3408268110372554,
-        "confidence": 1,
-        "tier": "A",
-        "attackScore": 3.14980984658364,
-        "defenseScore": 0.27797964306497763,
-        "reliability": 0.9411764705882353,
-        "formScore": 2.99,
-        "warsInRoster": 40,
-        "attacksUsed": 79,
-        "attacksAvailable": 79,
-        "avgDestruction": 97.88607594936708,
-        "totalAttacks": 79,
-        "totalStars": 218,
-        "count3Stars": 61,
-        "avgStars": 2.759493670886076,
-        "threeStarRate": 0.7721518987341772,
-        "totalMissed": 0,
-        "avgPositionDiff": 1.379746835443038,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
         "tag": "#8VCUUPPJP",
         "name": "Satsugai",
         "townhallLevel": 18
@@ -393,6 +357,42 @@
         "threeStarRate": 0.835820895522388,
         "totalMissed": 1,
         "avgPositionDiff": -2.6417910447761193,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#QGQJGURCL",
+        "name": "SAFONOV",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.338789311550627,
+        "rawScore": 2.338789311550627,
+        "confidence": 1,
+        "tier": "A",
+        "attackScore": 3.14980984658364,
+        "defenseScore": 0.26982964511846214,
+        "reliability": 0.9411764705882353,
+        "formScore": 2.99,
+        "warsInRoster": 40,
+        "attacksUsed": 79,
+        "attacksAvailable": 79,
+        "avgDestruction": 97.88607594936708,
+        "totalAttacks": 79,
+        "totalStars": 218,
+        "count3Stars": 61,
+        "avgStars": 2.759493670886076,
+        "threeStarRate": 0.7721518987341772,
+        "totalMissed": 0,
+        "avgPositionDiff": 1.379746835443038,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1222,7 +1222,7 @@
     },
     "#GJ2LQVQJ": {
       "tier": "A",
-      "score": 2.374447060800449,
+      "score": 2.373160488912874,
       "avgStars": 2.715909090909091,
       "totalStars": 239,
       "totalAttacks": 88,
@@ -1230,7 +1230,7 @@
       "totalMissed": 0,
       "rank": 7,
       "prevRank": 7,
-      "normalizedScore": 67.84
+      "normalizedScore": 67.8
     },
     "#QQC8P9C9R": {
       "tier": "S",
@@ -1294,15 +1294,15 @@
     },
     "#QGQJGURCL": {
       "tier": "A",
-      "score": 2.3408268110372554,
+      "score": 2.338789311550627,
       "avgStars": 2.759493670886076,
       "totalStars": 218,
       "totalAttacks": 79,
       "warsInRoster": 40,
       "totalMissed": 0,
-      "rank": 10,
+      "rank": 11,
       "prevRank": 10,
-      "normalizedScore": 66.88
+      "normalizedScore": 66.82
     },
     "#2QL0VR9GU": {
       "tier": "A",
@@ -1384,7 +1384,7 @@
       "totalAttacks": 67,
       "warsInRoster": 34,
       "totalMissed": 1,
-      "rank": 11,
+      "rank": 10,
       "prevRank": 11,
       "normalizedScore": 66.83
     },
