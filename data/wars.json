@@ -246,6 +246,12 @@
               "destructionPercentage": 91,
               "attackerTag": "#R0Y90QC8",
               "attackerMapPosition": 6
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#GG92QVJY9",
+              "attackerMapPosition": 14
             }
           ],
           "missedAttacks": 0
@@ -617,6 +623,12 @@
               "destructionPercentage": 100,
               "attackerTag": "#29UPJLP0",
               "attackerMapPosition": 1
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#GG92QVJY9",
+              "attackerMapPosition": 14
             }
           ],
           "missedAttacks": 0
@@ -800,7 +812,20 @@
           "name": "Scok♤",
           "townhallLevel": 18,
           "mapPosition": 25,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 88,
+              "order": 83,
+              "defenderTag": "#29UPJLP0"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 85,
+              "defenderTag": "#9JGRYY99"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
