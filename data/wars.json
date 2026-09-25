@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 49,
-        "destructionPercentage": 67.04
+        "stars": 52,
+        "destructionPercentage": 71.04
       },
       "sixHourNonAttackers": [
         {
@@ -144,11 +144,6 @@
           "tag": "#L8RG2PV0G",
           "name": "joaoaoaoao",
           "townhallLevel": 18
-        },
-        {
-          "tag": "#URR0QLV",
-          "name": "Victor Daniel",
-          "townhallLevel": 17
         },
         {
           "tag": "#GQU9Y0CQ8",
@@ -492,7 +487,14 @@
           "name": "Victor Daniel",
           "townhallLevel": 17,
           "mapPosition": 23,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 60,
+              "defenderTag": "#G908R8JPY"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
