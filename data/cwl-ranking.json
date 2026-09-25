@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-25T08:45:20.608Z",
+  "generatedAt": "2026-09-25T09:00:27.437Z",
   "totalWars": 34,
   "liveWar": {
     "opponentName": "EGA Academy",
-    "totalAttacksDone": 30,
+    "totalAttacksDone": 31,
     "totalAttacksExpected": 50
   },
   "ranking": [
@@ -801,6 +801,42 @@
     },
     {
       "player": {
+        "tag": "#PPPUQPVJY",
+        "name": "Rodrigo",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 1.5675641333456154,
+        "rawScore": 1.5675641333456154,
+        "confidence": 1,
+        "tier": "C",
+        "attackScore": 1.881088234377086,
+        "defenseScore": 0.07823418198189878,
+        "reliability": 0.7198529411764706,
+        "formScore": 2.6125,
+        "warsInRoster": 33,
+        "attacksUsed": 51,
+        "attacksAvailable": 66,
+        "avgDestruction": 79.29411764705883,
+        "totalAttacks": 51,
+        "totalStars": 112,
+        "count3Stars": 25,
+        "avgStars": 2.196078431372549,
+        "threeStarRate": 0.49019607843137253,
+        "totalMissed": 13,
+        "avgPositionDiff": -7.235294117647059,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#GCJVY8JGG",
         "name": "-+CARRASCO+-",
         "townhallLevel": 18
@@ -825,42 +861,6 @@
         "threeStarRate": 0.8,
         "totalMissed": 0,
         "avgPositionDiff": -6.8,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#PPPUQPVJY",
-        "name": "Rodrigo",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 1.4334968003552122,
-        "rawScore": 1.4334968003552122,
-        "confidence": 1,
-        "tier": "C",
-        "attackScore": 1.6862850605904114,
-        "defenseScore": 0.07823418198189878,
-        "reliability": 0.7198529411764706,
-        "formScore": 2.09,
-        "warsInRoster": 33,
-        "attacksUsed": 50,
-        "attacksAvailable": 66,
-        "avgDestruction": 78.88,
-        "totalAttacks": 50,
-        "totalStars": 109,
-        "count3Stars": 24,
-        "avgStars": 2.18,
-        "threeStarRate": 0.48,
-        "totalMissed": 13,
-        "avgPositionDiff": -7.48,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1312,7 +1312,7 @@
       "totalAttacks": 5,
       "warsInRoster": 4,
       "totalMissed": 0,
-      "rank": 25,
+      "rank": 26,
       "prevRank": 25,
       "normalizedScore": 44.59
     },
@@ -1438,15 +1438,15 @@
     },
     "#PPPUQPVJY": {
       "tier": "B",
-      "score": 1.4334968003552122,
-      "avgStars": 2.18,
-      "totalStars": 109,
-      "totalAttacks": 50,
+      "score": 1.5675641333456154,
+      "avgStars": 2.196078431372549,
+      "totalStars": 112,
+      "totalAttacks": 51,
       "warsInRoster": 33,
       "totalMissed": 13,
-      "rank": 26,
+      "rank": 25,
       "prevRank": 26,
-      "normalizedScore": 40.96
+      "normalizedScore": 44.79
     },
     "#89CLYVGVJ": {
       "tier": "F",
