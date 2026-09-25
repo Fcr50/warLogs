@@ -116,15 +116,10 @@
         ]
       },
       "clan": {
-        "stars": 26,
-        "destructionPercentage": 35.6
+        "stars": 34,
+        "destructionPercentage": 46.76
       },
       "sixHourNonAttackers": [
-        {
-          "tag": "#8VCUUPPJP",
-          "name": "Satsugai",
-          "townhallLevel": 18
-        },
         {
           "tag": "#2LY0P2L9U",
           "name": "LucasHG9",
@@ -166,11 +161,6 @@
           "townhallLevel": 17
         },
         {
-          "tag": "#VPPQ8VLV",
-          "name": "GABRIEL LOBATO",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#29LP0VJV0",
           "name": "Warlord Raivon",
           "townhallLevel": 18
@@ -194,11 +184,6 @@
           "tag": "#GCJVY8JGG",
           "name": "-+CARRASCO+-",
           "townhallLevel": 18
-        },
-        {
-          "tag": "#QJLQLUURY",
-          "name": "NenemPJL",
-          "townhallLevel": 18
         }
       ],
       "members": [
@@ -207,7 +192,14 @@
           "name": "Satsugai",
           "townhallLevel": 18,
           "mapPosition": 12,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 51,
+              "defenderTag": "#Q0QQPV8P"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -561,7 +553,14 @@
           "name": "GABRIEL LOBATO",
           "townhallLevel": 18,
           "mapPosition": 22,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 79,
+              "order": 50,
+              "defenderTag": "#99RYRRV0J"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -721,7 +720,14 @@
           "name": "NenemPJL",
           "townhallLevel": 18,
           "mapPosition": 15,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 52,
+              "defenderTag": "#YV8GQVPYG"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
