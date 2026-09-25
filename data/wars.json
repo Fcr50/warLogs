@@ -116,15 +116,10 @@
         ]
       },
       "clan": {
-        "stars": 38,
-        "destructionPercentage": 51.16
+        "stars": 44,
+        "destructionPercentage": 59.16
       },
       "sixHourNonAttackers": [
-        {
-          "tag": "#2LY0P2L9U",
-          "name": "LucasHG9",
-          "townhallLevel": 18
-        },
         {
           "tag": "#YRCLVY099",
           "name": "GLADIADOR - SP",
@@ -138,11 +133,6 @@
         {
           "tag": "#G9Y2L9QJJ",
           "name": "Micael",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QGQJGURCL",
-          "name": "SAFONOV",
           "townhallLevel": 18
         },
         {
@@ -210,7 +200,14 @@
           "name": "LucasHG9",
           "townhallLevel": 18,
           "mapPosition": 5,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 56,
+              "defenderTag": "#JL9YUCQ"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -390,7 +387,14 @@
           "name": "SAFONOV",
           "townhallLevel": 18,
           "mapPosition": 1,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 55,
+              "defenderTag": "#29UPJLP0"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
