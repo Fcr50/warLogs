@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-27T10:45:22.548Z",
+  "generatedAt": "2026-09-27T11:00:34.771Z",
   "totalWars": 34,
   "liveWar": {
     "opponentName": "YT - TheBella",
-    "totalAttacksDone": 27,
+    "totalAttacksDone": 28,
     "totalAttacksExpected": 60
   },
   "ranking": [
@@ -801,6 +801,42 @@
     },
     {
       "player": {
+        "tag": "#PPPUQPVJY",
+        "name": "Rodrigo",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 1.735467430186173,
+        "rawScore": 1.735467430186173,
+        "confidence": 1,
+        "tier": "C",
+        "attackScore": 2.172273522095981,
+        "defenseScore": 0.06424549774109108,
+        "reliability": 0.7381176470588235,
+        "formScore": 2.9775,
+        "warsInRoster": 34,
+        "attacksUsed": 52,
+        "attacksAvailable": 68,
+        "avgDestruction": 79.6923076923077,
+        "totalAttacks": 52,
+        "totalStars": 115,
+        "count3Stars": 26,
+        "avgStars": 2.2115384615384617,
+        "threeStarRate": 0.5,
+        "totalMissed": 13,
+        "avgPositionDiff": -7.096153846153846,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#LQQRGJ8VU",
         "name": "i-Vinni",
         "townhallLevel": 18
@@ -825,42 +861,6 @@
         "threeStarRate": 0.6785714285714286,
         "totalMissed": 1,
         "avgPositionDiff": -6.571428571428571,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#PPPUQPVJY",
-        "name": "Rodrigo",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 1.5609196093442377,
-        "rawScore": 1.5609196093442377,
-        "confidence": 1,
-        "tier": "C",
-        "attackScore": 1.881088234377087,
-        "defenseScore": 0.06424549774109108,
-        "reliability": 0.7381176470588235,
-        "formScore": 2.455,
-        "warsInRoster": 34,
-        "attacksUsed": 51,
-        "attacksAvailable": 68,
-        "avgDestruction": 79.29411764705883,
-        "totalAttacks": 51,
-        "totalStars": 112,
-        "count3Stars": 25,
-        "avgStars": 2.196078431372549,
-        "threeStarRate": 0.49019607843137253,
-        "totalMissed": 13,
-        "avgPositionDiff": -7.235294117647059,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1794,15 +1794,15 @@
     },
     "#PPPUQPVJY": {
       "tier": "B",
-      "score": 1.5609196093442377,
-      "avgStars": 2.196078431372549,
-      "totalStars": 112,
-      "totalAttacks": 51,
+      "score": 1.735467430186173,
+      "avgStars": 2.2115384615384617,
+      "totalStars": 115,
+      "totalAttacks": 52,
       "warsInRoster": 34,
       "totalMissed": 13,
-      "rank": 26,
+      "rank": 25,
       "prevRank": 26,
-      "normalizedScore": 44.6
+      "normalizedScore": 49.58
     },
     "#YPVQVU982": {
       "tier": "B",
@@ -1868,7 +1868,7 @@
       "totalAttacks": 84,
       "warsInRoster": 45,
       "totalMissed": 1,
-      "rank": 25,
+      "rank": 26,
       "prevRank": 25,
       "normalizedScore": 47.65
     },
