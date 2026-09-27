@@ -10,8 +10,8 @@
       "opponent": {
         "name": "YT - TheBella",
         "tag": "#2CG2G9QU0",
-        "stars": 53,
-        "destructionPercentage": 60.633335,
+        "stars": 59,
+        "destructionPercentage": 67.3,
         "members": [
           {
             "tag": "#PL998LJRU",
@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 53,
-        "destructionPercentage": 59.666668
+        "stars": 59,
+        "destructionPercentage": 66.333336
       },
       "sixHourNonAttackers": [
         {
@@ -274,7 +274,14 @@
               "defenderTag": "#8VJPV0QU0"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#8R9CY208Y",
+              "attackerMapPosition": 8
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -418,7 +425,14 @@
           "townhallLevel": 18,
           "mapPosition": 16,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#8R9CY208Y",
+              "attackerMapPosition": 8
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -519,7 +533,20 @@
           "name": "Phoenix",
           "townhallLevel": 18,
           "mapPosition": 9,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 44,
+              "defenderTag": "#2CQL9PCYC"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 45,
+              "defenderTag": "#22J9JQ8YV"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 2,
