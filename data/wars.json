@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 18,
-        "destructionPercentage": 20
+        "stars": 21,
+        "destructionPercentage": 23.333334
       },
       "sixHourNonAttackers": [
         {
@@ -148,11 +148,6 @@
         {
           "tag": "#2LY0P2L9U",
           "name": "LucasHG9",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#2QL0VR9GU",
-          "name": "Marcola",
           "townhallLevel": 18
         },
         {
@@ -233,11 +228,6 @@
         {
           "tag": "#YPVQVU982",
           "name": "亗 ＨＡＤＥＳ_０７ 亗",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#GQU9Y0CQ8",
-          "name": "Scok♤",
           "townhallLevel": 18
         },
         {
@@ -328,7 +318,14 @@
           "name": "Marcola",
           "townhallLevel": 18,
           "mapPosition": 13,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 98,
+              "order": 8,
+              "defenderTag": "#YJGV8V0Y0"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -536,7 +533,14 @@
           "name": "Scok♤",
           "townhallLevel": 18,
           "mapPosition": 30,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 9,
+              "defenderTag": "#YJGV8V0Y0"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
