@@ -10,8 +10,8 @@
       "opponent": {
         "name": "YT - TheBella",
         "tag": "#2CG2G9QU0",
-        "stars": 9,
-        "destructionPercentage": 10,
+        "stars": 12,
+        "destructionPercentage": 13.333333,
         "members": [
           {
             "tag": "#PL998LJRU",
@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 27,
-        "destructionPercentage": 30
+        "stars": 29,
+        "destructionPercentage": 32.7
       },
       "sixHourNonAttackers": [
         {
@@ -198,11 +198,6 @@
         {
           "tag": "#VPPQ8VLV",
           "name": "GABRIEL LOBATO",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#80LUCC9YV",
-          "name": "Lobo ®",
           "townhallLevel": 18
         },
         {
@@ -508,7 +503,14 @@
           "name": "Lobo ®",
           "townhallLevel": 18,
           "mapPosition": 3,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 81,
+              "order": 14,
+              "defenderTag": "#9GRRYJVVP"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -534,7 +536,14 @@
           "townhallLevel": 18,
           "mapPosition": 4,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#P9PP8YUQC",
+              "attackerMapPosition": 4
+            }
+          ],
           "missedAttacks": 0
         },
         {
