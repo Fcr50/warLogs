@@ -10,8 +10,8 @@
       "opponent": {
         "name": "it's for me",
         "tag": "#2YYU0R92V",
-        "stars": 9,
-        "destructionPercentage": 12,
+        "stars": 11,
+        "destructionPercentage": 15.32,
         "members": [
           {
             "tag": "#889U90VC9",
@@ -116,24 +116,14 @@
         ]
       },
       "clan": {
-        "stars": 18,
-        "destructionPercentage": 24
+        "stars": 30,
+        "destructionPercentage": 40
       },
       "sixHourNonAttackers": [
         {
           "tag": "#8VCUUPPJP",
           "name": "Satsugai",
           "townhallLevel": 18
-        },
-        {
-          "tag": "#QQC8P9C9R",
-          "name": "Gs.prieto",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#YRCLVY099",
-          "name": "GLADIADOR - SP",
-          "townhallLevel": 17
         },
         {
           "tag": "#8YJYY92GC",
@@ -186,11 +176,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#80LUCC9YV",
-          "name": "Lobo ®",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#P9C0LVLU2",
           "name": "VINGADOR⚡",
           "townhallLevel": 18
@@ -198,11 +183,6 @@
         {
           "tag": "#GQU9Y0CQ8",
           "name": "Scok♤",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QJVQVRPU",
-          "name": "Frnnn",
           "townhallLevel": 18
         },
         {
@@ -254,7 +234,14 @@
           "name": "Gs.prieto",
           "townhallLevel": 18,
           "mapPosition": 12,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 14,
+              "defenderTag": "#R9R0YC0R"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -279,7 +266,14 @@
           "name": "GLADIADOR - SP",
           "townhallLevel": 17,
           "mapPosition": 24,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 10,
+              "defenderTag": "#PJ2VVPUJY"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -307,7 +301,14 @@
           "townhallLevel": 18,
           "mapPosition": 6,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 83,
+              "attackerTag": "#QL09UJVUR",
+              "attackerMapPosition": 4
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -433,7 +434,14 @@
           "name": "Lobo ®",
           "townhallLevel": 18,
           "mapPosition": 3,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 12,
+              "defenderTag": "#JVRR8P22"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -483,7 +491,14 @@
           "name": "Frnnn",
           "townhallLevel": 18,
           "mapPosition": 8,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 13,
+              "defenderTag": "#UYYPP0QQ"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
