@@ -10,8 +10,8 @@
       "opponent": {
         "name": "it's for me",
         "tag": "#2YYU0R92V",
-        "stars": 11,
-        "destructionPercentage": 15.32,
+        "stars": 17,
+        "destructionPercentage": 23.32,
         "members": [
           {
             "tag": "#889U90VC9",
@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 38,
-        "destructionPercentage": 51.84
+        "stars": 39,
+        "destructionPercentage": 52
       },
       "sixHourNonAttackers": [
         {
@@ -391,7 +391,14 @@
           "townhallLevel": 18,
           "mapPosition": 20,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#2PCYG2J0G",
+              "attackerMapPosition": 23
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -425,7 +432,14 @@
           "townhallLevel": 18,
           "mapPosition": 18,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#2PCYG2J0G",
+              "attackerMapPosition": 23
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -455,6 +469,12 @@
               "destructionPercentage": 100,
               "order": 2,
               "defenderTag": "#LLVPJLC0C"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 19,
+              "defenderTag": "#QP2Y9PL29"
             }
           ],
           "defensesReceived": [],
