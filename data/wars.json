@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 39,
-        "destructionPercentage": 52
+        "stars": 40,
+        "destructionPercentage": 55.52
       },
       "sixHourNonAttackers": [
         {
@@ -149,11 +149,6 @@
           "tag": "#URR0QLV",
           "name": "Victor Daniel",
           "townhallLevel": 17
-        },
-        {
-          "tag": "#92LYVUU9Q",
-          "name": "#Sahara300#",
-          "townhallLevel": 18
         },
         {
           "tag": "#VPPQ8VLV",
@@ -390,7 +385,14 @@
           "name": "#Sahara300#",
           "townhallLevel": 18,
           "mapPosition": 20,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 1,
+              "destructionPercentage": 88,
+              "order": 21,
+              "defenderTag": "#LUGUQYQ9V"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
