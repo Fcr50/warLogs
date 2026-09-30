@@ -10,8 +10,8 @@
       "opponent": {
         "name": "WALKING OF WAR",
         "tag": "#QRU9VUYQ",
-        "stars": 6,
-        "destructionPercentage": 8,
+        "stars": 13,
+        "destructionPercentage": 19.28,
         "members": [
           {
             "tag": "#2GCVUJ29P",
@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 18,
-        "destructionPercentage": 24
+        "stars": 27,
+        "destructionPercentage": 36
       },
       "sixHourNonAttackers": [
         {
@@ -146,11 +146,6 @@
           "townhallLevel": 17
         },
         {
-          "tag": "#8YJYY92GC",
-          "name": "RussiaN",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#8CJ8YJY0P",
           "name": "ChrolloLucilfer",
           "townhallLevel": 18
@@ -163,11 +158,6 @@
         {
           "tag": "#G9Y2L9QJJ",
           "name": "Micael",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QGQJGURCL",
-          "name": "SAFONOV",
           "townhallLevel": 18
         },
         {
@@ -188,11 +178,6 @@
         {
           "tag": "#GGVCRYP8P",
           "name": "gui",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#P9C0LVLU2",
-          "name": "VINGADOR⚡",
           "townhallLevel": 18
         },
         {
@@ -230,7 +215,14 @@
               "defenderTag": "#LJJP8U98Q"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 87,
+              "attackerTag": "#8QR22QYCU",
+              "attackerMapPosition": 7
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -257,7 +249,14 @@
           "townhallLevel": 18,
           "mapPosition": 11,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#8QR22QYCU",
+              "attackerMapPosition": 7
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -290,7 +289,14 @@
           "name": "RussiaN",
           "townhallLevel": 18,
           "mapPosition": 21,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 10,
+              "defenderTag": "#2PC8QQU2R"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -342,8 +348,22 @@
           "name": "SAFONOV",
           "townhallLevel": 18,
           "mapPosition": 1,
-          "attacks": [],
-          "defensesReceived": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 13,
+              "defenderTag": "#90GGVYCG0"
+            }
+          ],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 95,
+              "attackerTag": "#90GGVYCG0",
+              "attackerMapPosition": 1
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -457,7 +477,14 @@
           "name": "VINGADOR⚡",
           "townhallLevel": 18,
           "mapPosition": 4,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 11,
+              "defenderTag": "#8VYRJGVL"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
