@@ -10,8 +10,8 @@
       "opponent": {
         "name": "WALKING OF WAR",
         "tag": "#QRU9VUYQ",
-        "stars": 13,
-        "destructionPercentage": 19.28,
+        "stars": 16,
+        "destructionPercentage": 23.28,
         "members": [
           {
             "tag": "#2GCVUJ29P",
@@ -385,7 +385,14 @@
               "defenderTag": "#8YQLUCR8U"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#90GGVYCG0",
+              "attackerMapPosition": 1
+            }
+          ],
           "missedAttacks": 0
         },
         {
