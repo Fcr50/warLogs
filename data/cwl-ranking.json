@@ -1,12 +1,48 @@
 {
-  "generatedAt": "2026-10-01T04:35:24.039Z",
+  "generatedAt": "2026-10-01T04:50:20.556Z",
   "totalWars": 32,
   "liveWar": {
     "opponentName": "WALKING OF WAR",
-    "totalAttacksDone": 24,
+    "totalAttacksDone": 25,
     "totalAttacksExpected": 50
   },
   "ranking": [
+    {
+      "player": {
+        "tag": "#QQC8P9C9R",
+        "name": "Gs.prieto",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.590596326575196,
+        "rawScore": 2.590596326575196,
+        "confidence": 1,
+        "tier": "S",
+        "attackScore": 3.4355051876659912,
+        "defenseScore": 0.46523659102191806,
+        "reliability": 0.9875,
+        "formScore": 3.5,
+        "warsInRoster": 45,
+        "attacksUsed": 90,
+        "attacksAvailable": 90,
+        "avgDestruction": 99.18888888888888,
+        "totalAttacks": 90,
+        "totalStars": 260,
+        "count3Stars": 82,
+        "avgStars": 2.888888888888889,
+        "threeStarRate": 0.9111111111111111,
+        "totalMissed": 0,
+        "avgPositionDiff": -0.9,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
     {
       "player": {
         "tag": "#29LP0VJV0",
@@ -14,25 +50,25 @@
         "townhallLevel": 18
       },
       "data": {
-        "score": 2.5897964888322993,
-        "rawScore": 2.5897964888322993,
+        "score": 2.5870243533192103,
+        "rawScore": 2.5870243533192103,
         "confidence": 1,
         "tier": "A",
-        "attackScore": 3.4776154668144583,
+        "attackScore": 3.471015144164247,
         "defenseScore": 0.4819275643012452,
         "reliability": 0.9546610169491525,
         "formScore": 3.5,
         "warsInRoster": 43,
-        "attacksUsed": 82,
+        "attacksUsed": 83,
         "attacksAvailable": 85,
-        "avgDestruction": 96.29268292682927,
-        "totalAttacks": 82,
-        "totalStars": 220,
-        "count3Stars": 64,
-        "avgStars": 2.682926829268293,
-        "threeStarRate": 0.7804878048780488,
+        "avgDestruction": 96.33734939759036,
+        "totalAttacks": 83,
+        "totalStars": 223,
+        "count3Stars": 65,
+        "avgStars": 2.6867469879518073,
+        "threeStarRate": 0.7831325301204819,
         "totalMissed": 2,
-        "avgPositionDiff": -3.268292682926829,
+        "avgPositionDiff": -3.108433734939759,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -69,42 +105,6 @@
         "threeStarRate": 0.9431818181818182,
         "totalMissed": 0,
         "avgPositionDiff": 0.375,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#QQC8P9C9R",
-        "name": "Gs.prieto",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.5618908484596923,
-        "rawScore": 2.5618908484596923,
-        "confidence": 1,
-        "tier": "S",
-        "attackScore": 3.4355051876659912,
-        "defenseScore": 0.3504146785599032,
-        "reliability": 0.9875,
-        "formScore": 3.5,
-        "warsInRoster": 45,
-        "attacksUsed": 90,
-        "attacksAvailable": 90,
-        "avgDestruction": 99.18888888888888,
-        "totalAttacks": 90,
-        "totalStars": 260,
-        "count3Stars": 82,
-        "avgStars": 2.888888888888889,
-        "threeStarRate": 0.9111111111111111,
-        "totalMissed": 0,
-        "avgPositionDiff": -0.9,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1119,15 +1119,15 @@
     },
     "#QQC8P9C9R": {
       "tier": "S",
-      "score": 2.5618908484596923,
+      "score": 2.590596326575196,
       "avgStars": 2.888888888888889,
       "totalStars": 260,
       "totalAttacks": 90,
       "warsInRoster": 45,
       "totalMissed": 0,
-      "rank": 3,
+      "rank": 1,
       "prevRank": 3,
-      "normalizedScore": 73.2
+      "normalizedScore": 74.02
     },
     "#PLU2VCLG": {
       "tier": "A",
@@ -1149,7 +1149,7 @@
       "totalAttacks": 88,
       "warsInRoster": 46,
       "totalMissed": 0,
-      "rank": 2,
+      "rank": 3,
       "prevRank": 2,
       "normalizedScore": 73.67
     },
@@ -1335,15 +1335,15 @@
     },
     "#29LP0VJV0": {
       "tier": "S",
-      "score": 2.5897964888322993,
-      "avgStars": 2.682926829268293,
-      "totalStars": 220,
-      "totalAttacks": 82,
+      "score": 2.5870243533192103,
+      "avgStars": 2.6867469879518073,
+      "totalStars": 223,
+      "totalAttacks": 83,
       "warsInRoster": 43,
       "totalMissed": 2,
-      "rank": 1,
+      "rank": 2,
       "prevRank": 1,
-      "normalizedScore": 73.99
+      "normalizedScore": 73.91
     },
     "#8YJYY92GC": {
       "tier": "A",
