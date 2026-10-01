@@ -3,8 +3,8 @@
     {
       "endTime": "20261001T202916.000Z",
       "startTime": "2026-09-30T20:29:16.000Z",
-      "state": "inWar",
-      "result": "inProgress",
+      "state": "warEnded",
+      "result": "win",
       "teamSize": 25,
       "absencesRecorded": true,
       "opponent": {
@@ -216,7 +216,7 @@
               "attackerMapPosition": 6
             }
           ],
-          "missedAttacks": 0
+          "missedAttacks": 2
         },
         {
           "tag": "#QQC8P9C9R",
@@ -296,7 +296,7 @@
               "attackerMapPosition": 25
             }
           ],
-          "missedAttacks": 0
+          "missedAttacks": 2
         },
         {
           "tag": "#YRCLVY099",
@@ -466,7 +466,20 @@
           "name": "Micael",
           "townhallLevel": 18,
           "mapPosition": 18,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 1,
+              "destructionPercentage": 16,
+              "order": 88,
+              "defenderTag": "#90GGVYCG0"
+            },
+            {
+              "stars": 1,
+              "destructionPercentage": 55,
+              "order": 89,
+              "defenderTag": "#L8JLQ0LJ"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 2,
@@ -767,7 +780,7 @@
               "attackerMapPosition": 8
             }
           ],
-          "missedAttacks": 0
+          "missedAttacks": 1
         },
         {
           "tag": "#GGVCRYP8P",
@@ -825,7 +838,7 @@
               "attackerMapPosition": 3
             }
           ],
-          "missedAttacks": 0
+          "missedAttacks": 1
         },
         {
           "tag": "#GQU9Y0CQ8",
@@ -924,7 +937,7 @@
               "attackerMapPosition": 15
             }
           ],
-          "missedAttacks": 0
+          "missedAttacks": 1
         },
         {
           "tag": "#PPPUQPVJY",
