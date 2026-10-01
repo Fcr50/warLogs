@@ -10,8 +10,8 @@
       "opponent": {
         "name": "WALKING OF WAR",
         "tag": "#QRU9VUYQ",
-        "stars": 48,
-        "destructionPercentage": 77.08,
+        "stars": 57,
+        "destructionPercentage": 89.8,
         "members": [
           {
             "tag": "#2GCVUJ29P",
@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 69,
-        "destructionPercentage": 92
+        "stars": 75,
+        "destructionPercentage": 100
       },
       "sixHourNonAttackers": [
         {
@@ -208,6 +208,12 @@
               "destructionPercentage": 73,
               "attackerTag": "#LJJP8U98Q",
               "attackerMapPosition": 13
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#8YQLUCR8U",
+              "attackerMapPosition": 6
             }
           ],
           "missedAttacks": 0
@@ -285,8 +291,27 @@
           "name": "GLADIADOR - SP",
           "townhallLevel": 17,
           "mapPosition": 23,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 54,
+              "defenderTag": "#QQJL0L88R"
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 64,
+              "order": 55,
+              "defenderTag": "#8VYRJGVL"
+            }
+          ],
           "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 79,
+              "attackerTag": "#2PC8QQU2R",
+              "attackerMapPosition": 21
+            },
             {
               "stars": 2,
               "destructionPercentage": 94,
@@ -376,7 +401,14 @@
           "name": "i-Vinni",
           "townhallLevel": 18,
           "mapPosition": 14,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 53,
+              "defenderTag": "#QVU909V2U"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 2,
@@ -393,7 +425,14 @@
           "townhallLevel": 18,
           "mapPosition": 18,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 76,
+              "attackerTag": "#800R9QY90",
+              "attackerMapPosition": 15
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -421,6 +460,12 @@
               "destructionPercentage": 76,
               "attackerTag": "#LJJP8U98Q",
               "attackerMapPosition": 13
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 85,
+              "attackerTag": "#8YQLUCR8U",
+              "attackerMapPosition": 6
             },
             {
               "stars": 2,
@@ -502,7 +547,20 @@
               "defenderTag": "#Q2V0LVGVJ"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 74,
+              "attackerTag": "#2PC8QQU2R",
+              "attackerMapPosition": 21
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 82,
+              "attackerTag": "#RCLRRCLU",
+              "attackerMapPosition": 14
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -621,7 +679,14 @@
               "defenderTag": "#90GGVYCG0"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 63,
+              "attackerTag": "#RCLRRCLU",
+              "attackerMapPosition": 14
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -699,7 +764,14 @@
               "defenderTag": "#800R9QY90"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 70,
+              "attackerTag": "#800R9QY90",
+              "attackerMapPosition": 15
+            }
+          ],
           "missedAttacks": 0
         },
         {
