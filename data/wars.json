@@ -10,8 +10,8 @@
       "opponent": {
         "name": "WALKING OF WAR",
         "tag": "#QRU9VUYQ",
-        "stars": 30,
-        "destructionPercentage": 44.52,
+        "stars": 32,
+        "destructionPercentage": 47.44,
         "members": [
           {
             "tag": "#2GCVUJ29P",
@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 42,
-        "destructionPercentage": 56
+        "stars": 45,
+        "destructionPercentage": 60
       },
       "sixHourNonAttackers": [
         {
@@ -166,11 +166,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#QJVQVRPU",
-          "name": "Frnnn",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#PPPUQPVJY",
           "name": "Rodrigo",
           "townhallLevel": 18
@@ -206,7 +201,14 @@
           "townhallLevel": 18,
           "mapPosition": 5,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 73,
+              "attackerTag": "#LJJP8U98Q",
+              "attackerMapPosition": 13
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -553,7 +555,14 @@
           "name": "Frnnn",
           "townhallLevel": 18,
           "mapPosition": 7,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 29,
+              "defenderTag": "#8QR22QYCU"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 2,
