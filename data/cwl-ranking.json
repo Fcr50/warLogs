@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T01:20:34.834Z",
+  "generatedAt": "2026-10-01T01:35:23.364Z",
   "totalWars": 32,
   "liveWar": {
     "opponentName": "WALKING OF WAR",
@@ -477,42 +477,6 @@
     },
     {
       "player": {
-        "tag": "#80LUCC9YV",
-        "name": "Lobo ®",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.2692556824067136,
-        "rawScore": 2.2692556824067136,
-        "confidence": 1,
-        "tier": "A",
-        "attackScore": 3.004187468659185,
-        "defenseScore": 0.24396778227942437,
-        "reliability": 0.8645,
-        "formScore": 3.5,
-        "warsInRoster": 39,
-        "attacksUsed": 68,
-        "attacksAvailable": 78,
-        "avgDestruction": 96.77941176470588,
-        "totalAttacks": 68,
-        "totalStars": 187,
-        "count3Stars": 55,
-        "avgStars": 2.75,
-        "threeStarRate": 0.8088235294117647,
-        "totalMissed": 4,
-        "avgPositionDiff": 3.264705882352941,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
         "tag": "#8YJYY92GC",
         "name": "RussiaN",
         "townhallLevel": 18
@@ -539,6 +503,42 @@
         "avgPositionDiff": -7.597222222222222,
         "hasAnyDefense": true,
         "hadTh17": true,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#80LUCC9YV",
+        "name": "Lobo ®",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.2597039866488715,
+        "rawScore": 2.2597039866488715,
+        "confidence": 1,
+        "tier": "A",
+        "attackScore": 3.004187468659185,
+        "defenseScore": 0.20576099924805524,
+        "reliability": 0.8645,
+        "formScore": 3.5,
+        "warsInRoster": 39,
+        "attacksUsed": 68,
+        "attacksAvailable": 78,
+        "avgDestruction": 96.77941176470588,
+        "totalAttacks": 68,
+        "totalStars": 187,
+        "count3Stars": 55,
+        "avgStars": 2.75,
+        "threeStarRate": 0.8088235294117647,
+        "totalMissed": 4,
+        "avgPositionDiff": 3.264705882352941,
+        "hasAnyDefense": true,
+        "hadTh17": false,
         "weights": {
           "attack": 0.42,
           "defense": 0.25,
@@ -1334,14 +1334,14 @@
       "normalizedScore": 51.67
     },
     "#8YJYY92GC": {
-      "tier": "B",
+      "tier": "A",
       "score": 2.2668174806977746,
       "avgStars": 2.4583333333333335,
       "totalStars": 177,
       "totalAttacks": 72,
       "warsInRoster": 37,
       "totalMissed": 0,
-      "rank": 15,
+      "rank": 14,
       "prevRank": 15,
       "normalizedScore": 64.77
     },
@@ -1394,16 +1394,16 @@
       "normalizedScore": 62
     },
     "#80LUCC9YV": {
-      "tier": "A",
-      "score": 2.2692556824067136,
+      "tier": "B",
+      "score": 2.2597039866488715,
       "avgStars": 2.75,
       "totalStars": 187,
       "totalAttacks": 68,
       "warsInRoster": 39,
       "totalMissed": 4,
-      "rank": 14,
+      "rank": 15,
       "prevRank": 14,
-      "normalizedScore": 64.84
+      "normalizedScore": 64.56
     },
     "#LQQRGJ8VU": {
       "tier": "B",
