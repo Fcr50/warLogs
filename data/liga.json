@@ -1,6 +1,6 @@
 {
   "season": "2026-10-01",
-  "generatedAt": "2026-10-02T23:05:23.230Z",
+  "generatedAt": "2026-10-02T23:20:22.659Z",
   "state": "inWar",
   "rounds": [
     {
@@ -10,9 +10,9 @@
       "result": "inProgress",
       "opponentName": "UCHIHA\"17",
       "opponentTag": "#P9UQQPGJ",
-      "clanStars": 0,
+      "clanStars": 9,
       "opponentStars": 0,
-      "clanDestructionPct": 0,
+      "clanDestructionPct": 20,
       "teamSize": 15,
       "members": [
         {
@@ -41,7 +41,12 @@
           "name": "Gustavo Lázaro",
           "townhallLevel": 18,
           "mapPosition": 7,
-          "attack": null
+          "attack": {
+            "defenderTag": "#G000PGYP",
+            "defenderMapPosition": 4,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#G9Y2L9QJJ",
@@ -83,7 +88,12 @@
           "name": "Warlord Raivon",
           "townhallLevel": 18,
           "mapPosition": 9,
-          "attack": null
+          "attack": {
+            "defenderTag": "#2VR988P9C",
+            "defenderMapPosition": 5,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#80LUCC9YV",
@@ -118,7 +128,12 @@
           "name": "NenemPJL",
           "townhallLevel": 18,
           "mapPosition": 15,
-          "attack": null
+          "attack": {
+            "defenderTag": "#2GLYJU29Q",
+            "defenderMapPosition": 9,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         }
       ]
     },
