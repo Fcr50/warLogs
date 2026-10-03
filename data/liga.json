@@ -1,13 +1,13 @@
 {
   "season": "2026-10-01",
-  "generatedAt": "2026-10-03T23:00:24.359Z",
+  "generatedAt": "2026-10-03T23:30:22.827Z",
   "state": "inWar",
   "rounds": [
     {
       "round": 1,
       "warTag": "#8JPQLC8LL",
-      "state": "inWar",
-      "result": "inProgress",
+      "state": "warEnded",
+      "result": "win",
       "opponentName": "UCHIHA\"17",
       "opponentTag": "#P9UQQPGJ",
       "clanStars": 44,
@@ -200,13 +200,13 @@
     {
       "round": 2,
       "warTag": "#8JPRYPVY0",
-      "state": "preparation",
+      "state": "inWar",
       "result": "inProgress",
       "opponentName": "Ở ĐÂY WAR",
       "opponentTag": "#2YPJVJL8V",
-      "clanStars": 0,
+      "clanStars": 3,
       "opponentStars": 0,
-      "clanDestructionPct": 0,
+      "clanDestructionPct": 6.666666666666667,
       "teamSize": 15,
       "members": [
         {
@@ -249,7 +249,12 @@
           "name": "Micael",
           "townhallLevel": 18,
           "mapPosition": 17,
-          "attack": null
+          "attack": {
+            "defenderTag": "#2CRGJVQP",
+            "defenderMapPosition": 11,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#QGQJGURCL",
