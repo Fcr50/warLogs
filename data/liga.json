@@ -1,6 +1,6 @@
 {
   "season": "2026-10-01",
-  "generatedAt": "2026-10-02T23:50:22.728Z",
+  "generatedAt": "2026-10-03T05:06:41.109Z",
   "state": "inWar",
   "rounds": [
     {
@@ -10,9 +10,9 @@
       "result": "inProgress",
       "opponentName": "UCHIHA\"17",
       "opponentTag": "#P9UQQPGJ",
-      "clanStars": 18,
+      "clanStars": 24,
       "opponentStars": 0,
-      "clanDestructionPct": 40,
+      "clanDestructionPct": 53.333333333333336,
       "teamSize": 15,
       "members": [
         {
@@ -122,7 +122,12 @@
           "name": "gui",
           "townhallLevel": 18,
           "mapPosition": 18,
-          "attack": null
+          "attack": {
+            "defenderTag": "#2UUJVJQ8Y",
+            "defenderMapPosition": 13,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#P9C0LVLU2",
@@ -136,7 +141,12 @@
           "name": "Frnnn",
           "townhallLevel": 18,
           "mapPosition": 6,
-          "attack": null
+          "attack": {
+            "defenderTag": "#2VYVUJG08",
+            "defenderMapPosition": 8,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#QJLQLUURY",
