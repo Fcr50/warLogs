@@ -1,6 +1,6 @@
 {
   "season": "2026-10-01",
-  "generatedAt": "2026-10-03T23:30:22.827Z",
+  "generatedAt": "2026-10-03T23:45:39.819Z",
   "state": "inWar",
   "rounds": [
     {
@@ -204,9 +204,9 @@
       "result": "inProgress",
       "opponentName": "Ở ĐÂY WAR",
       "opponentTag": "#2YPJVJL8V",
-      "clanStars": 3,
+      "clanStars": 6,
       "opponentStars": 0,
-      "clanDestructionPct": 6.666666666666667,
+      "clanDestructionPct": 13.333333333333334,
       "teamSize": 15,
       "members": [
         {
@@ -296,7 +296,12 @@
           "name": "gui",
           "townhallLevel": 18,
           "mapPosition": 18,
-          "attack": null
+          "attack": {
+            "defenderTag": "#9YVGGGVJ",
+            "defenderMapPosition": 12,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#P9C0LVLU2",
