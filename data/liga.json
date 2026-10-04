@@ -1,6 +1,6 @@
 {
   "season": "2026-10-01",
-  "generatedAt": "2026-10-04T11:00:29.788Z",
+  "generatedAt": "2026-10-04T11:15:19.224Z",
   "state": "inWar",
   "rounds": [
     {
@@ -204,9 +204,9 @@
       "result": "inProgress",
       "opponentName": "Ở ĐÂY WAR",
       "opponentTag": "#2YPJVJL8V",
-      "clanStars": 24,
+      "clanStars": 27,
       "opponentStars": 8,
-      "clanDestructionPct": 57.8,
+      "clanDestructionPct": 64.46666666666667,
       "teamSize": 15,
       "members": [
         {
@@ -276,7 +276,12 @@
           "name": "SAFONOV",
           "townhallLevel": 18,
           "mapPosition": 1,
-          "attack": null
+          "attack": {
+            "defenderTag": "#82UJ9L0RY",
+            "defenderMapPosition": 1,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#L8RG2PV0G",
