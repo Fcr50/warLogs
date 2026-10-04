@@ -1,6 +1,6 @@
 {
   "season": "2026-10-01",
-  "generatedAt": "2026-10-04T09:15:24.598Z",
+  "generatedAt": "2026-10-04T09:30:21.823Z",
   "state": "inWar",
   "rounds": [
     {
@@ -204,9 +204,9 @@
       "result": "inProgress",
       "opponentName": "Ở ĐÂY WAR",
       "opponentTag": "#2YPJVJL8V",
-      "clanStars": 21,
+      "clanStars": 24,
       "opponentStars": 8,
-      "clanDestructionPct": 51.13333333333333,
+      "clanDestructionPct": 57.8,
       "teamSize": 15,
       "members": [
         {
@@ -233,7 +233,12 @@
           "name": "Marcola",
           "townhallLevel": 18,
           "mapPosition": 11,
-          "attack": null
+          "attack": {
+            "defenderTag": "#2U8V880UY",
+            "defenderMapPosition": 10,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#8CJ8YJY0P",
