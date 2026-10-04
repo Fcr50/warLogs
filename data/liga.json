@@ -1,6 +1,6 @@
 {
   "season": "2026-10-01",
-  "generatedAt": "2026-10-04T15:30:26.633Z",
+  "generatedAt": "2026-10-04T15:45:22.448Z",
   "state": "inWar",
   "rounds": [
     {
@@ -204,9 +204,9 @@
       "result": "inProgress",
       "opponentName": "Ở ĐÂY WAR",
       "opponentTag": "#2YPJVJL8V",
-      "clanStars": 28,
-      "opponentStars": 11,
-      "clanDestructionPct": 68.8,
+      "clanStars": 31,
+      "opponentStars": 14,
+      "clanDestructionPct": 75.46666666666667,
       "teamSize": 15,
       "members": [
         {
@@ -367,7 +367,12 @@
           "name": "NenemPJL",
           "townhallLevel": 18,
           "mapPosition": 15,
-          "attack": null
+          "attack": {
+            "defenderTag": "#GJUP029RR",
+            "defenderMapPosition": 18,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         }
       ]
     },
