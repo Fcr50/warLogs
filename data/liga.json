@@ -1,6 +1,6 @@
 {
   "season": "2026-10-01",
-  "generatedAt": "2026-10-04T14:15:20.412Z",
+  "generatedAt": "2026-10-04T14:30:26.700Z",
   "state": "inWar",
   "rounds": [
     {
@@ -204,9 +204,9 @@
       "result": "inProgress",
       "opponentName": "Ở ĐÂY WAR",
       "opponentTag": "#2YPJVJL8V",
-      "clanStars": 27,
+      "clanStars": 28,
       "opponentStars": 8,
-      "clanDestructionPct": 64.46666666666667,
+      "clanDestructionPct": 68.8,
       "teamSize": 15,
       "members": [
         {
@@ -343,7 +343,12 @@
           "name": "VINGADOR⚡",
           "townhallLevel": 18,
           "mapPosition": 4,
-          "attack": null
+          "attack": {
+            "defenderTag": "#QLG8V2UUR",
+            "defenderMapPosition": 3,
+            "stars": 1,
+            "destructionPercentage": 65
+          }
         },
         {
           "tag": "#QJVQVRPU",
