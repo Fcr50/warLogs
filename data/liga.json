@@ -1,6 +1,6 @@
 {
   "season": "2026-10-01",
-  "generatedAt": "2026-10-05T17:00:44.401Z",
+  "generatedAt": "2026-10-05T17:15:27.259Z",
   "state": "inWar",
   "rounds": [
     {
@@ -398,9 +398,9 @@
       "result": "inProgress",
       "opponentName": "Tenesio",
       "opponentTag": "#2CU98RYC9",
-      "clanStars": 24,
-      "opponentStars": 23,
-      "clanDestructionPct": 56.86666666666667,
+      "clanStars": 27,
+      "opponentStars": 26,
+      "clanDestructionPct": 63.53333333333333,
       "teamSize": 15,
       "members": [
         {
@@ -408,7 +408,12 @@
           "name": "Satsugai",
           "townhallLevel": 18,
           "mapPosition": 12,
-          "attack": null
+          "attack": {
+            "defenderTag": "#9QVVYV2GU",
+            "defenderMapPosition": 11,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#QQC8P9C9R",
