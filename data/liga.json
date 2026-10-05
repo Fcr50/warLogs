@@ -1,6 +1,6 @@
 {
   "season": "2026-10-01",
-  "generatedAt": "2026-10-05T03:15:23.324Z",
+  "generatedAt": "2026-10-05T03:30:39.178Z",
   "state": "inWar",
   "rounds": [
     {
@@ -398,9 +398,9 @@
       "result": "inProgress",
       "opponentName": "Tenesio",
       "opponentTag": "#2CU98RYC9",
-      "clanStars": 6,
+      "clanStars": 11,
       "opponentStars": 0,
-      "clanDestructionPct": 13.333333333333334,
+      "clanDestructionPct": 25.933333333333334,
       "teamSize": 15,
       "members": [
         {
@@ -415,7 +415,12 @@
           "name": "Gs.prieto",
           "townhallLevel": 18,
           "mapPosition": 13,
-          "attack": null
+          "attack": {
+            "defenderTag": "#22Q22P02J",
+            "defenderMapPosition": 8,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#2QL0VR9GU",
@@ -483,7 +488,12 @@
           "name": "Warlord Raivon",
           "townhallLevel": 18,
           "mapPosition": 9,
-          "attack": null
+          "attack": {
+            "defenderTag": "#2LPJ8GVJV",
+            "defenderMapPosition": 2,
+            "stars": 2,
+            "destructionPercentage": 89
+          }
         },
         {
           "tag": "#GGVCRYP8P",
