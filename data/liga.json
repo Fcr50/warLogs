@@ -1,6 +1,6 @@
 {
   "season": "2026-10-01",
-  "generatedAt": "2026-10-05T11:45:47.401Z",
+  "generatedAt": "2026-10-05T12:00:42.347Z",
   "state": "inWar",
   "rounds": [
     {
@@ -398,9 +398,9 @@
       "result": "inProgress",
       "opponentName": "Tenesio",
       "opponentTag": "#2CU98RYC9",
-      "clanStars": 17,
+      "clanStars": 21,
       "opponentStars": 20,
-      "clanDestructionPct": 39.266666666666666,
+      "clanDestructionPct": 50.2,
       "teamSize": 15,
       "members": [
         {
@@ -427,7 +427,12 @@
           "name": "Marcola",
           "townhallLevel": 18,
           "mapPosition": 11,
-          "attack": null
+          "attack": {
+            "defenderTag": "#CYV8L80",
+            "defenderMapPosition": 10,
+            "stars": 2,
+            "destructionPercentage": 90
+          }
         },
         {
           "tag": "#8CJ8YJY0P",
@@ -536,7 +541,12 @@
           "name": "Rodrigo",
           "townhallLevel": 18,
           "mapPosition": 19,
-          "attack": null
+          "attack": {
+            "defenderTag": "#Q8RYC8JP",
+            "defenderMapPosition": 16,
+            "stars": 2,
+            "destructionPercentage": 74
+          }
         }
       ]
     },
@@ -630,6 +640,13 @@
           "attack": null
         },
         {
+          "tag": "#80LUCC9YV",
+          "name": "Lobo ®",
+          "townhallLevel": 18,
+          "mapPosition": 3,
+          "attack": null
+        },
+        {
           "tag": "#GGVCRYP8P",
           "name": "gui",
           "townhallLevel": 18,
@@ -648,13 +665,6 @@
           "name": "NenemPJL",
           "townhallLevel": 18,
           "mapPosition": 15,
-          "attack": null
-        },
-        {
-          "tag": "#PPPUQPVJY",
-          "name": "Rodrigo",
-          "townhallLevel": 18,
-          "mapPosition": 19,
           "attack": null
         }
       ]
