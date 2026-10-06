@@ -1,6 +1,6 @@
 {
   "season": "2026-10-01",
-  "generatedAt": "2026-10-06T17:30:29.975Z",
+  "generatedAt": "2026-10-06T17:45:25.923Z",
   "state": "inWar",
   "rounds": [
     {
@@ -592,9 +592,9 @@
       "result": "inProgress",
       "opponentName": "Onlyzinho",
       "opponentTag": "#2C09QG8YV",
-      "clanStars": 28,
-      "opponentStars": 28,
-      "clanDestructionPct": 75.13333333333334,
+      "clanStars": 31,
+      "opponentStars": 31,
+      "clanDestructionPct": 81.8,
       "teamSize": 15,
       "members": [
         {
@@ -700,7 +700,12 @@
           "name": "Phoenix",
           "townhallLevel": 18,
           "mapPosition": 8,
-          "attack": null
+          "attack": {
+            "defenderTag": "#LY2GVC9J0",
+            "defenderMapPosition": 7,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#80LUCC9YV",
