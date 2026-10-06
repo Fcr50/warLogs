@@ -1,6 +1,6 @@
 {
   "season": "2026-10-01",
-  "generatedAt": "2026-10-06T18:00:36.602Z",
+  "generatedAt": "2026-10-06T18:15:30.768Z",
   "state": "inWar",
   "rounds": [
     {
@@ -592,9 +592,9 @@
       "result": "inProgress",
       "opponentName": "Onlyzinho",
       "opponentTag": "#2C09QG8YV",
-      "clanStars": 31,
+      "clanStars": 34,
       "opponentStars": 31,
-      "clanDestructionPct": 81.8,
+      "clanDestructionPct": 88.46666666666667,
       "teamSize": 15,
       "members": [
         {
@@ -669,7 +669,12 @@
           "name": "SAFONOV",
           "townhallLevel": 18,
           "mapPosition": 1,
-          "attack": null
+          "attack": {
+            "defenderTag": "#QGPP9C0GV",
+            "defenderMapPosition": 3,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#GJ2LQVQJ",
