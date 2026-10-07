@@ -1,6 +1,6 @@
 {
   "season": "2026-10-01",
-  "generatedAt": "2026-10-07T16:22:33.284Z",
+  "generatedAt": "2026-10-07T16:35:22.254Z",
   "state": "inWar",
   "rounds": [
     {
@@ -786,9 +786,9 @@
       "result": "inProgress",
       "opponentName": "Blitz Esports",
       "opponentTag": "#2JJCPL0RV",
-      "clanStars": 21,
+      "clanStars": 24,
       "opponentStars": 17,
-      "clanDestructionPct": 56.8,
+      "clanDestructionPct": 63.46666666666667,
       "teamSize": 15,
       "members": [
         {
@@ -915,7 +915,12 @@
           "name": "VINGADOR⚡",
           "townhallLevel": 18,
           "mapPosition": 4,
-          "attack": null
+          "attack": {
+            "defenderTag": "#PQ8URVCYV",
+            "defenderMapPosition": 2,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#QJVQVRPU",
