@@ -1,6 +1,6 @@
 {
   "season": "2026-10-01",
-  "generatedAt": "2026-10-07T15:50:25.181Z",
+  "generatedAt": "2026-10-07T16:05:22.849Z",
   "state": "inWar",
   "rounds": [
     {
@@ -786,9 +786,9 @@
       "result": "inProgress",
       "opponentName": "Blitz Esports",
       "opponentTag": "#2JJCPL0RV",
-      "clanStars": 19,
+      "clanStars": 21,
       "opponentStars": 17,
-      "clanDestructionPct": 50.93333333333333,
+      "clanDestructionPct": 56.8,
       "teamSize": 15,
       "members": [
         {
@@ -934,7 +934,12 @@
           "name": "Rodrigo",
           "townhallLevel": 18,
           "mapPosition": 19,
-          "attack": null
+          "attack": {
+            "defenderTag": "#YLL0VY0P0",
+            "defenderMapPosition": 17,
+            "stars": 2,
+            "destructionPercentage": 88
+          }
         }
       ]
     },
