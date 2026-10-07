@@ -1,6 +1,6 @@
 {
   "season": "2026-10-01",
-  "generatedAt": "2026-10-07T16:50:24.006Z",
+  "generatedAt": "2026-10-07T17:10:33.800Z",
   "state": "inWar",
   "rounds": [
     {
@@ -786,9 +786,9 @@
       "result": "inProgress",
       "opponentName": "Blitz Esports",
       "opponentTag": "#2JJCPL0RV",
-      "clanStars": 24,
+      "clanStars": 27,
       "opponentStars": 17,
-      "clanDestructionPct": 63.46666666666667,
+      "clanDestructionPct": 70.13333333333334,
       "teamSize": 15,
       "members": [
         {
@@ -796,7 +796,12 @@
           "name": "Satsugai",
           "townhallLevel": 18,
           "mapPosition": 12,
-          "attack": null
+          "attack": {
+            "defenderTag": "#PGQCPU9V",
+            "defenderMapPosition": 1,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#QQC8P9C9R",
