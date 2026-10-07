@@ -1,6 +1,6 @@
 {
   "season": "2026-10-01",
-  "generatedAt": "2026-10-07T06:15:30.156Z",
+  "generatedAt": "2026-10-07T06:30:45.954Z",
   "state": "inWar",
   "rounds": [
     {
@@ -786,9 +786,9 @@
       "result": "inProgress",
       "opponentName": "Blitz Esports",
       "opponentTag": "#2JJCPL0RV",
-      "clanStars": 5,
+      "clanStars": 8,
       "opponentStars": 5,
-      "clanDestructionPct": 13.133333333333333,
+      "clanDestructionPct": 19.8,
       "teamSize": 15,
       "members": [
         {
@@ -803,7 +803,12 @@
           "name": "Gs.prieto",
           "townhallLevel": 18,
           "mapPosition": 13,
-          "attack": null
+          "attack": {
+            "defenderTag": "#89V9V9V08",
+            "defenderMapPosition": 6,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#2QL0VR9GU",
