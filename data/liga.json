@@ -1,6 +1,6 @@
 {
   "season": "2026-10-01",
-  "generatedAt": "2026-10-07T19:25:24.505Z",
+  "generatedAt": "2026-10-07T19:40:20.799Z",
   "state": "inWar",
   "rounds": [
     {
@@ -786,9 +786,9 @@
       "result": "inProgress",
       "opponentName": "Blitz Esports",
       "opponentTag": "#2JJCPL0RV",
-      "clanStars": 27,
+      "clanStars": 28,
       "opponentStars": 30,
-      "clanDestructionPct": 70.13333333333334,
+      "clanDestructionPct": 76.13333333333334,
       "teamSize": 15,
       "members": [
         {
@@ -858,7 +858,12 @@
           "name": "SAFONOV",
           "townhallLevel": 18,
           "mapPosition": 1,
-          "attack": null
+          "attack": {
+            "defenderTag": "#YQ9Q8QQLV",
+            "defenderMapPosition": 3,
+            "stars": 1,
+            "destructionPercentage": 90
+          }
         },
         {
           "tag": "#GJ2LQVQJ",
