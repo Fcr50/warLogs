@@ -1,6 +1,6 @@
 {
   "season": "2026-10-01",
-  "generatedAt": "2026-10-07T19:55:26.591Z",
+  "generatedAt": "2026-10-07T20:10:46.061Z",
   "state": "inWar",
   "rounds": [
     {
@@ -786,9 +786,9 @@
       "result": "inProgress",
       "opponentName": "Blitz Esports",
       "opponentTag": "#2JJCPL0RV",
-      "clanStars": 28,
+      "clanStars": 31,
       "opponentStars": 30,
-      "clanDestructionPct": 76.13333333333334,
+      "clanDestructionPct": 82.8,
       "teamSize": 15,
       "members": [
         {
@@ -851,7 +851,12 @@
           "name": "Micael",
           "townhallLevel": 18,
           "mapPosition": 17,
-          "attack": null
+          "attack": {
+            "defenderTag": "#CUG2R8CG",
+            "defenderMapPosition": 14,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#QGQJGURCL",
