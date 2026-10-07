@@ -1,6 +1,6 @@
 {
   "season": "2026-10-01",
-  "generatedAt": "2026-10-07T05:15:43.881Z",
+  "generatedAt": "2026-10-07T05:30:25.317Z",
   "state": "inWar",
   "rounds": [
     {
@@ -786,9 +786,9 @@
       "result": "inProgress",
       "opponentName": "Blitz Esports",
       "opponentTag": "#2JJCPL0RV",
-      "clanStars": 2,
-      "opponentStars": 0,
-      "clanDestructionPct": 6.466666666666667,
+      "clanStars": 5,
+      "opponentStars": 2,
+      "clanDestructionPct": 13.133333333333333,
       "teamSize": 15,
       "members": [
         {
@@ -817,7 +817,12 @@
           "name": "Gustavo Lázaro",
           "townhallLevel": 18,
           "mapPosition": 7,
-          "attack": null
+          "attack": {
+            "defenderTag": "#90LUJ90J0",
+            "defenderMapPosition": 4,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#LQQRGJ8VU",
