@@ -1,6 +1,6 @@
 {
   "season": "2026-10-01",
-  "generatedAt": "2026-10-08T14:25:23.635Z",
+  "generatedAt": "2026-10-08T14:40:24.561Z",
   "state": "inWar",
   "rounds": [
     {
@@ -980,9 +980,9 @@
       "result": "inProgress",
       "opponentName": "42O danksquad",
       "opponentTag": "#9GJCJ9V8",
-      "clanStars": 14,
+      "clanStars": 16,
       "opponentStars": 6,
-      "clanDestructionPct": 36.53333333333333,
+      "clanDestructionPct": 42.266666666666666,
       "teamSize": 15,
       "members": [
         {
@@ -1016,7 +1016,12 @@
           "name": "RussiaN",
           "townhallLevel": 18,
           "mapPosition": 20,
-          "attack": null
+          "attack": {
+            "defenderTag": "#YGPUQ2PGY",
+            "defenderMapPosition": 16,
+            "stars": 2,
+            "destructionPercentage": 86
+          }
         },
         {
           "tag": "#2GP2JUU2",
