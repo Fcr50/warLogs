@@ -1,6 +1,6 @@
 {
   "season": "2026-10-01",
-  "generatedAt": "2026-10-08T11:25:59.754Z",
+  "generatedAt": "2026-10-08T11:40:23.879Z",
   "state": "inWar",
   "rounds": [
     {
@@ -980,9 +980,9 @@
       "result": "inProgress",
       "opponentName": "42O danksquad",
       "opponentTag": "#9GJCJ9V8",
-      "clanStars": 7,
+      "clanStars": 9,
       "opponentStars": 3,
-      "clanDestructionPct": 17.333333333333332,
+      "clanDestructionPct": 23.733333333333334,
       "teamSize": 15,
       "members": [
         {
@@ -1018,7 +1018,12 @@
           "name": "Gustavo Lázaro",
           "townhallLevel": 18,
           "mapPosition": 7,
-          "attack": null
+          "attack": {
+            "defenderTag": "#QJLUP8C9",
+            "defenderMapPosition": 1,
+            "stars": 2,
+            "destructionPercentage": 96
+          }
         },
         {
           "tag": "#LQQRGJ8VU",
