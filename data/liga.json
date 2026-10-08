@@ -1,6 +1,6 @@
 {
   "season": "2026-10-01",
-  "generatedAt": "2026-10-08T21:25:23.172Z",
+  "generatedAt": "2026-10-08T21:41:18.689Z",
   "state": "inWar",
   "rounds": [
     {
@@ -980,9 +980,9 @@
       "result": "inProgress",
       "opponentName": "42O danksquad",
       "opponentTag": "#9GJCJ9V8",
-      "clanStars": 23,
-      "opponentStars": 21,
-      "clanDestructionPct": 61.53333333333333,
+      "clanStars": 26,
+      "opponentStars": 24,
+      "clanDestructionPct": 68.2,
       "teamSize": 15,
       "members": [
         {
@@ -1083,7 +1083,12 @@
           "name": "Phoenix",
           "townhallLevel": 18,
           "mapPosition": 8,
-          "attack": null
+          "attack": {
+            "defenderTag": "#P28Y988Y",
+            "defenderMapPosition": 8,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#29LP0VJV0",
