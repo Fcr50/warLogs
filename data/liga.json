@@ -1,6 +1,6 @@
 {
   "season": "2026-10-01",
-  "generatedAt": "2026-10-08T11:10:53.018Z",
+  "generatedAt": "2026-10-08T11:25:59.754Z",
   "state": "inWar",
   "rounds": [
     {
@@ -980,9 +980,9 @@
       "result": "inProgress",
       "opponentName": "42O danksquad",
       "opponentTag": "#9GJCJ9V8",
-      "clanStars": 5,
+      "clanStars": 7,
       "opponentStars": 3,
-      "clanDestructionPct": 12.066666666666666,
+      "clanDestructionPct": 17.333333333333332,
       "teamSize": 15,
       "members": [
         {
@@ -1091,7 +1091,12 @@
           "name": "VINGADOR⚡",
           "townhallLevel": 18,
           "mapPosition": 4,
-          "attack": null
+          "attack": {
+            "defenderTag": "#808JUY9V",
+            "defenderMapPosition": 3,
+            "stars": 2,
+            "destructionPercentage": 79
+          }
         },
         {
           "tag": "#QJLQLUURY",
