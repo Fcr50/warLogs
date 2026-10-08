@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T13:25:24.966Z",
+  "generatedAt": "2026-10-08T13:40:29.875Z",
   "totalWars": 33,
   "liveWar": {
     "opponentName": "it's for me",
@@ -765,6 +765,42 @@
     },
     {
       "player": {
+        "tag": "#8PR0QU0UJ",
+        "name": "RAGNAROK",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 0.9443443181818181,
+        "rawScore": 1.8886886363636362,
+        "confidence": 0.5,
+        "tier": "A",
+        "attackScore": 3.49125,
+        "defenseScore": 0,
+        "reliability": 0.6121212121212121,
+        "formScore": 0,
+        "warsInRoster": 1,
+        "attacksUsed": 2,
+        "attacksAvailable": 2,
+        "avgDestruction": 100,
+        "totalAttacks": 2,
+        "totalStars": 6,
+        "count3Stars": 2,
+        "avgStars": 3,
+        "threeStarRate": 1,
+        "totalMissed": 0,
+        "avgPositionDiff": 3.5,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#LUR09RUP2",
         "name": "andrei7zl",
         "townhallLevel": 18
@@ -945,42 +981,6 @@
     },
     {
       "player": {
-        "tag": "#2GQCY8G2U",
-        "name": "☄️",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 0,
-        "rawScore": 0,
-        "confidence": 0,
-        "tier": "F",
-        "attackScore": 0,
-        "defenseScore": 0,
-        "reliability": 0,
-        "formScore": 0,
-        "warsInRoster": 0,
-        "attacksUsed": 0,
-        "attacksAvailable": 0,
-        "avgDestruction": 0,
-        "totalAttacks": 0,
-        "totalStars": 0,
-        "count3Stars": 0,
-        "avgStars": 0,
-        "threeStarRate": 0,
-        "totalMissed": 0,
-        "avgPositionDiff": 0,
-        "hasAnyDefense": false,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.56,
-          "defense": 0,
-          "reliability": 0.3067,
-          "form": 0.1333
-        }
-      }
-    },
-    {
-      "player": {
         "tag": "#JCRQGG9P",
         "name": "Rodrigo-br",
         "townhallLevel": 18
@@ -1076,13 +1076,6 @@
     },
     {
       "player": {
-        "tag": "#2GQCY8G2U",
-        "name": "☄️",
-        "townhallLevel": 18
-      }
-    },
-    {
-      "player": {
         "tag": "#JCRQGG9P",
         "name": "Rodrigo-br",
         "townhallLevel": 18
@@ -1132,6 +1125,17 @@
       "rank": 2,
       "prevRank": 2,
       "normalizedScore": 73.62
+    },
+    "#8PR0QU0UJ": {
+      "tier": "B",
+      "score": 0.9443443181818181,
+      "avgStars": 3,
+      "totalStars": 6,
+      "totalAttacks": 2,
+      "warsInRoster": 1,
+      "totalMissed": 0,
+      "rank": 22,
+      "normalizedScore": 26.98
     },
     "#QGQJGURCL": {
       "tier": "A",
@@ -1351,19 +1355,9 @@
       "totalAttacks": 4,
       "warsInRoster": 2,
       "totalMissed": 0,
-      "rank": 22,
+      "rank": 23,
       "prevRank": 22,
       "normalizedScore": 26.53
-    },
-    "#2GQCY8G2U": {
-      "tier": "F",
-      "score": 0,
-      "avgStars": 0,
-      "totalStars": 0,
-      "totalAttacks": 0,
-      "warsInRoster": 0,
-      "totalMissed": 0,
-      "normalizedScore": 0
     },
     "#JCRQGG9P": {
       "tier": "F",
@@ -1419,7 +1413,7 @@
       "totalAttacks": 33,
       "warsInRoster": 31,
       "totalMissed": 15,
-      "rank": 23,
+      "rank": 24,
       "prevRank": 23,
       "normalizedScore": 25.43
     },
