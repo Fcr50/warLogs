@@ -1,6 +1,6 @@
 {
   "season": "2026-10-01",
-  "generatedAt": "2026-10-08T10:40:44.246Z",
+  "generatedAt": "2026-10-08T10:55:20.837Z",
   "state": "inWar",
   "rounds": [
     {
@@ -980,9 +980,9 @@
       "result": "inProgress",
       "opponentName": "42O danksquad",
       "opponentTag": "#9GJCJ9V8",
-      "clanStars": 3,
+      "clanStars": 5,
       "opponentStars": 3,
-      "clanDestructionPct": 6.666666666666667,
+      "clanDestructionPct": 12.066666666666666,
       "teamSize": 15,
       "members": [
         {
@@ -1060,7 +1060,12 @@
           "name": "Warlord Raivon",
           "townhallLevel": 18,
           "mapPosition": 9,
-          "attack": null
+          "attack": {
+            "defenderTag": "#2L9LJUUJ",
+            "defenderMapPosition": 6,
+            "stars": 2,
+            "destructionPercentage": 81
+          }
         },
         {
           "tag": "#80LUCC9YV",
