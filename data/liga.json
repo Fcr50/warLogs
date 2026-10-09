@@ -1,6 +1,6 @@
 {
   "season": "2026-10-01",
-  "generatedAt": "2026-10-09T13:55:27.953Z",
+  "generatedAt": "2026-10-09T14:10:28.998Z",
   "state": "inWar",
   "rounds": [
     {
@@ -1174,9 +1174,9 @@
       "result": "inProgress",
       "opponentName": "BABA YORGUN",
       "opponentTag": "#JYUVC0C8",
-      "clanStars": 4,
+      "clanStars": 6,
       "opponentStars": 15,
-      "clanDestructionPct": 12.866666666666667,
+      "clanDestructionPct": 16.6,
       "teamSize": 15,
       "members": [
         {
@@ -1266,7 +1266,12 @@
           "name": "Lobo ®",
           "townhallLevel": 18,
           "mapPosition": 3,
-          "attack": null
+          "attack": {
+            "defenderTag": "#90LLQP8UU",
+            "defenderMapPosition": 10,
+            "stars": 2,
+            "destructionPercentage": 56
+          }
         },
         {
           "tag": "#GGVCRYP8P",
