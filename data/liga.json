@@ -1,6 +1,6 @@
 {
   "season": "2026-10-01",
-  "generatedAt": "2026-10-09T19:40:26.293Z",
+  "generatedAt": "2026-10-09T19:55:19.090Z",
   "state": "inWar",
   "rounds": [
     {
@@ -1174,9 +1174,9 @@
       "result": "inProgress",
       "opponentName": "BABA YORGUN",
       "opponentTag": "#JYUVC0C8",
-      "clanStars": 12,
+      "clanStars": 15,
       "opponentStars": 23,
-      "clanDestructionPct": 29.933333333333334,
+      "clanDestructionPct": 36.6,
       "teamSize": 15,
       "members": [
         {
@@ -1248,7 +1248,12 @@
           "name": "Fer",
           "townhallLevel": 18,
           "mapPosition": 2,
-          "attack": null
+          "attack": {
+            "defenderTag": "#9LQJPLQJG",
+            "defenderMapPosition": 1,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#L8RG2PV0G",
