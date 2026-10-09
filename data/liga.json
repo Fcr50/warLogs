@@ -1,6 +1,6 @@
 {
   "season": "2026-10-01",
-  "generatedAt": "2026-10-09T13:10:22.759Z",
+  "generatedAt": "2026-10-09T13:25:19.195Z",
   "state": "inWar",
   "rounds": [
     {
@@ -1174,9 +1174,9 @@
       "result": "inProgress",
       "opponentName": "BABA YORGUN",
       "opponentTag": "#JYUVC0C8",
-      "clanStars": 2,
+      "clanStars": 4,
       "opponentStars": 15,
-      "clanDestructionPct": 6.333333333333333,
+      "clanDestructionPct": 12.866666666666667,
       "teamSize": 15,
       "members": [
         {
@@ -1198,7 +1198,12 @@
           "name": "Marcola",
           "townhallLevel": 18,
           "mapPosition": 11,
-          "attack": null
+          "attack": {
+            "defenderTag": "#8C8PGV8LC",
+            "defenderMapPosition": 9,
+            "stars": 2,
+            "destructionPercentage": 98
+          }
         },
         {
           "tag": "#2GP2JUU2",
