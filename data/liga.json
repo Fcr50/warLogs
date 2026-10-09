@@ -1,6 +1,6 @@
 {
   "season": "2026-10-01",
-  "generatedAt": "2026-10-09T22:10:22.032Z",
+  "generatedAt": "2026-10-09T22:26:08.727Z",
   "state": "inWar",
   "rounds": [
     {
@@ -1174,9 +1174,9 @@
       "result": "inProgress",
       "opponentName": "BABA YORGUN",
       "opponentTag": "#JYUVC0C8",
-      "clanStars": 26,
+      "clanStars": 32,
       "opponentStars": 39,
-      "clanDestructionPct": 62.733333333333334,
+      "clanDestructionPct": 76.06666666666666,
       "teamSize": 15,
       "members": [
         {
@@ -1289,7 +1289,12 @@
           "name": "Warlord Raivon",
           "townhallLevel": 18,
           "mapPosition": 9,
-          "attack": null
+          "attack": {
+            "defenderTag": "#QL92QPRG0",
+            "defenderMapPosition": 8,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#80LUCC9YV",
@@ -1332,7 +1337,12 @@
           "name": "Frnnn",
           "townhallLevel": 18,
           "mapPosition": 5,
-          "attack": null
+          "attack": {
+            "defenderTag": "#L289GLJ2R",
+            "defenderMapPosition": 13,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         }
       ]
     }
