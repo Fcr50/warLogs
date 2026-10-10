@@ -1,6 +1,6 @@
 {
   "season": "2026-10-01",
-  "generatedAt": "2026-10-10T04:25:18.852Z",
+  "generatedAt": "2026-10-10T04:40:21.957Z",
   "state": "inWar",
   "rounds": [
     {
@@ -1174,9 +1174,9 @@
       "result": "inProgress",
       "opponentName": "BABA YORGUN",
       "opponentTag": "#JYUVC0C8",
-      "clanStars": 37,
+      "clanStars": 40,
       "opponentStars": 39,
-      "clanDestructionPct": 88.53333333333333,
+      "clanDestructionPct": 95.2,
       "teamSize": 15,
       "members": [
         {
@@ -1292,7 +1292,12 @@
           "name": "Phoenix",
           "townhallLevel": 18,
           "mapPosition": 8,
-          "attack": null
+          "attack": {
+            "defenderTag": "#990U008",
+            "defenderMapPosition": 2,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#29LP0VJV0",
