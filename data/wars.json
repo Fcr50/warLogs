@@ -10,8 +10,8 @@
       "opponent": {
         "name": "⚔️TheAckermens⚔",
         "tag": "#2YJJ090QY",
-        "stars": 32,
-        "destructionPercentage": 38.733334,
+        "stars": 35,
+        "destructionPercentage": 42.066666,
         "members": [
           {
             "tag": "#9CR2CC9R2",
@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 65,
-        "destructionPercentage": 72.73333
+        "stars": 68,
+        "destructionPercentage": 76.066666
       },
       "sixHourNonAttackers": [
         {
@@ -158,11 +158,6 @@
         {
           "tag": "#GCVLLLV2",
           "name": "BDW FAKER",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#L8RG2PV0G",
-          "name": "joaoaoaoao",
           "townhallLevel": 18
         },
         {
@@ -491,7 +486,14 @@
           "name": "joaoaoaoao",
           "townhallLevel": 18,
           "mapPosition": 18,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 43,
+              "defenderTag": "#QY2PG8Y9G"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -652,7 +654,14 @@
               "defenderTag": "#G8RCR228"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#2GYRRLV92",
+              "attackerMapPosition": 5
+            }
+          ],
           "missedAttacks": 0
         },
         {
