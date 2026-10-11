@@ -10,8 +10,8 @@
       "opponent": {
         "name": "⚔️TheAckermens⚔",
         "tag": "#2YJJ090QY",
-        "stars": 16,
-        "destructionPercentage": 22.8,
+        "stars": 19,
+        "destructionPercentage": 25.766666,
         "members": [
           {
             "tag": "#9CR2CC9R2",
@@ -136,18 +136,13 @@
         ]
       },
       "clan": {
-        "stars": 31,
-        "destructionPercentage": 34.7
+        "stars": 36,
+        "destructionPercentage": 41
       },
       "sixHourNonAttackers": [
         {
           "tag": "#8VCUUPPJP",
           "name": "Satsugai",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QQC8P9C9R",
-          "name": "Gs.prieto",
           "townhallLevel": 18
         },
         {
@@ -221,11 +216,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#YPVQVU982",
-          "name": "亗 ＨＡＤＥＳ_０７ 亗",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#GQU9Y0CQ8",
           "name": "Scok♤",
           "townhallLevel": 18
@@ -284,7 +274,14 @@
           "name": "Gs.prieto",
           "townhallLevel": 18,
           "mapPosition": 13,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 22,
+              "defenderTag": "#L92QLQJ8G"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -367,6 +364,12 @@
           "mapPosition": 7,
           "attacks": [],
           "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 88,
+              "attackerTag": "#LLG0CGR9",
+              "attackerMapPosition": 2
+            },
             {
               "stars": 1,
               "destructionPercentage": 90,
@@ -512,7 +515,14 @@
           "townhallLevel": 18,
           "mapPosition": 3,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 91,
+              "attackerTag": "#LLG0CGR9",
+              "attackerMapPosition": 2
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -574,7 +584,14 @@
           "name": "亗 ＨＡＤＥＳ_０７ 亗",
           "townhallLevel": 18,
           "mapPosition": 6,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 89,
+              "order": 25,
+              "defenderTag": "#G8RCR228"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
