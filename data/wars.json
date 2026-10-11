@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 21,
-        "destructionPercentage": 23.333334
+        "stars": 27,
+        "destructionPercentage": 30
       },
       "sixHourNonAttackers": [
         {
@@ -166,11 +166,6 @@
           "townhallLevel": 17
         },
         {
-          "tag": "#8YJYY92GC",
-          "name": "RussiaN",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#8CJ8YJY0P",
           "name": "ChrolloLucilfer",
           "townhallLevel": 18
@@ -183,11 +178,6 @@
         {
           "tag": "#LQQRGJ8VU",
           "name": "i-Vinni",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#G9Y2L9QJJ",
-          "name": "Micael",
           "townhallLevel": 18
         },
         {
@@ -339,7 +329,14 @@
           "name": "RussiaN",
           "townhallLevel": 18,
           "mapPosition": 25,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 14,
+              "defenderTag": "#8CR2CYU8Q"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -382,7 +379,14 @@
           "name": "Micael",
           "townhallLevel": 18,
           "mapPosition": 19,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 13,
+              "defenderTag": "#YLGJCYPPC"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
