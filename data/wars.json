@@ -10,8 +10,8 @@
       "opponent": {
         "name": "⚔️TheAckermens⚔",
         "tag": "#2YJJ090QY",
-        "stars": 0,
-        "destructionPercentage": 0,
+        "stars": 4,
+        "destructionPercentage": 6.3333335,
         "members": [
           {
             "tag": "#9CR2CC9R2",
@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 0,
-        "destructionPercentage": 0
+        "stars": 9,
+        "destructionPercentage": 10
       },
       "sixHourNonAttackers": [
         {
@@ -241,16 +241,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#29JQ2PCVL",
-          "name": "¥vini¥",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#GGVCRYP8P",
-          "name": "gui",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#P9C0LVLU2",
           "name": "VINGADOR⚡",
           "townhallLevel": 18
@@ -268,11 +258,6 @@
         {
           "tag": "#GQU9Y0CQ8",
           "name": "Scok♤",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QJVQVRPU",
-          "name": "Frnnn",
           "townhallLevel": 18
         },
         {
@@ -370,7 +355,14 @@
           "townhallLevel": 18,
           "mapPosition": 7,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 1,
+              "destructionPercentage": 90,
+              "attackerTag": "#8CR2CYU8Q",
+              "attackerMapPosition": 22
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -477,7 +469,14 @@
           "name": "¥vini¥",
           "townhallLevel": 18,
           "mapPosition": 21,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 2,
+              "defenderTag": "#20J00Y02U"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -486,7 +485,14 @@
           "name": "gui",
           "townhallLevel": 18,
           "mapPosition": 20,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 3,
+              "defenderTag": "#YRLVG0RYL"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -496,7 +502,14 @@
           "townhallLevel": 18,
           "mapPosition": 4,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#PGL9VLY08",
+              "attackerMapPosition": 7
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -531,7 +544,14 @@
           "name": "Frnnn",
           "townhallLevel": 18,
           "mapPosition": 5,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 1,
+              "defenderTag": "#2GYRRLV92"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
