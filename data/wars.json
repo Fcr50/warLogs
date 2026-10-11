@@ -10,8 +10,8 @@
       "opponent": {
         "name": "⚔️TheAckermens⚔",
         "tag": "#2YJJ090QY",
-        "stars": 9,
-        "destructionPercentage": 12.766666,
+        "stars": 13,
+        "destructionPercentage": 19.466667,
         "members": [
           {
             "tag": "#9CR2CC9R2",
@@ -136,19 +136,14 @@
         ]
       },
       "clan": {
-        "stars": 27,
-        "destructionPercentage": 30
+        "stars": 31,
+        "destructionPercentage": 34.7
       },
       "sixHourNonAttackers": [
         {
           "tag": "#8VCUUPPJP",
           "name": "Satsugai",
           "townhallLevel": 18
-        },
-        {
-          "tag": "#20Y9UGVUJ",
-          "name": "Uvogin",
-          "townhallLevel": 15
         },
         {
           "tag": "#QQC8P9C9R",
@@ -216,11 +211,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#29LP0VJV0",
-          "name": "Warlord Raivon",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#80LUCC9YV",
           "name": "Lobo ®",
           "townhallLevel": 18
@@ -263,7 +253,14 @@
           "townhallLevel": 18,
           "mapPosition": 12,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 99,
+              "attackerTag": "#YJJGVVQP0",
+              "attackerMapPosition": 29
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -271,7 +268,14 @@
           "name": "Uvogin",
           "townhallLevel": 15,
           "mapPosition": 30,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 1,
+              "destructionPercentage": 41,
+              "order": 17,
+              "defenderTag": "#R802GYRL"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -312,7 +316,14 @@
           "townhallLevel": 18,
           "mapPosition": 11,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 1,
+              "destructionPercentage": 95,
+              "attackerTag": "#YJJGVVQP0",
+              "attackerMapPosition": 29
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -385,6 +396,12 @@
               "destructionPercentage": 100,
               "order": 13,
               "defenderTag": "#YLGJCYPPC"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 16,
+              "defenderTag": "#9QR0YLVG"
             }
           ],
           "defensesReceived": [],
@@ -429,6 +446,12 @@
               "destructionPercentage": 93,
               "attackerTag": "#Y088L20V0",
               "attackerMapPosition": 10
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#9U92CVUGP",
+              "attackerMapPosition": 8
             }
           ],
           "missedAttacks": 0
@@ -465,7 +488,14 @@
           "name": "Warlord Raivon",
           "townhallLevel": 18,
           "mapPosition": 9,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 95,
+              "order": 15,
+              "defenderTag": "#9QR0YLVG"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
