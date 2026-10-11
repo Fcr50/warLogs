@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 41,
-        "destructionPercentage": 46.3
+        "stars": 44,
+        "destructionPercentage": 49.633335
       },
       "sixHourNonAttackers": [
         {
@@ -163,11 +163,6 @@
         {
           "tag": "#2GP2JUU2",
           "name": "Gustavo Lázaro",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#LQQRGJ8VU",
-          "name": "i-Vinni",
           "townhallLevel": 18
         },
         {
@@ -379,7 +374,14 @@
           "name": "i-Vinni",
           "townhallLevel": 18,
           "mapPosition": 16,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 28,
+              "defenderTag": "#Y288RG2QL"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
