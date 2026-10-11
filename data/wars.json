@@ -10,8 +10,8 @@
       "opponent": {
         "name": "⚔️TheAckermens⚔",
         "tag": "#2YJJ090QY",
-        "stars": 22,
-        "destructionPercentage": 29.1,
+        "stars": 23,
+        "destructionPercentage": 29.133333,
         "members": [
           {
             "tag": "#9CR2CC9R2",
@@ -136,15 +136,10 @@
         ]
       },
       "clan": {
-        "stars": 59,
-        "destructionPercentage": 66.066666
+        "stars": 62,
+        "destructionPercentage": 69.4
       },
       "sixHourNonAttackers": [
-        {
-          "tag": "#8VCUUPPJP",
-          "name": "Satsugai",
-          "townhallLevel": 18
-        },
         {
           "tag": "#2QL0VR9GU",
           "name": "Marcola",
@@ -212,8 +207,21 @@
           "name": "Satsugai",
           "townhallLevel": 18,
           "mapPosition": 12,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 37,
+              "defenderTag": "#P0C9J8VU0"
+            }
+          ],
           "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#LQ8LRPC2R",
+              "attackerMapPosition": 14
+            },
             {
               "stars": 2,
               "destructionPercentage": 99,

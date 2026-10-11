@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-11T21:40:19.884Z",
+  "generatedAt": "2026-10-11T21:55:17.955Z",
   "totalWars": 32,
   "liveWar": {
     "opponentName": "⚔️TheAckermens⚔",
-    "totalAttacksDone": 24,
+    "totalAttacksDone": 25,
     "totalAttacksExpected": 60
   },
   "ranking": [
@@ -153,42 +153,6 @@
     },
     {
       "player": {
-        "tag": "#8VCUUPPJP",
-        "name": "Satsugai",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.487733945627126,
-        "rawScore": 2.487733945627126,
-        "confidence": 1,
-        "tier": "A",
-        "attackScore": 3.375675014441666,
-        "defenseScore": 0.430301758246506,
-        "reliability": 0.8875,
-        "formScore": 3.5,
-        "warsInRoster": 34,
-        "attacksUsed": 65,
-        "attacksAvailable": 68,
-        "avgDestruction": 98.16923076923077,
-        "totalAttacks": 65,
-        "totalStars": 182,
-        "count3Stars": 54,
-        "avgStars": 2.8,
-        "threeStarRate": 0.8307692307692308,
-        "totalMissed": 1,
-        "avgPositionDiff": -3.4,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
         "tag": "#L8RG2PV0G",
         "name": "joaoaoaoao",
         "townhallLevel": 18
@@ -213,6 +177,42 @@
         "threeStarRate": 0.8166666666666667,
         "totalMissed": 5,
         "avgPositionDiff": -3.5166666666666666,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#8VCUUPPJP",
+        "name": "Satsugai",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.461201832244911,
+        "rawScore": 2.461201832244911,
+        "confidence": 1,
+        "tier": "A",
+        "attackScore": 3.396032560810765,
+        "defenseScore": 0.2899726268175598,
+        "reliability": 0.8875,
+        "formScore": 3.5,
+        "warsInRoster": 34,
+        "attacksUsed": 66,
+        "attacksAvailable": 68,
+        "avgDestruction": 98.1969696969697,
+        "totalAttacks": 66,
+        "totalStars": 185,
+        "count3Stars": 55,
+        "avgStars": 2.803030303030303,
+        "threeStarRate": 0.8333333333333334,
+        "totalMissed": 1,
+        "avgPositionDiff": -3.3484848484848486,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1268,15 +1268,15 @@
     },
     "#8VCUUPPJP": {
       "tier": "A",
-      "score": 2.487733945627126,
-      "avgStars": 2.8,
-      "totalStars": 182,
-      "totalAttacks": 65,
+      "score": 2.461201832244911,
+      "avgStars": 2.803030303030303,
+      "totalStars": 185,
+      "totalAttacks": 66,
       "warsInRoster": 34,
       "totalMissed": 1,
-      "rank": 5,
+      "rank": 6,
       "prevRank": 5,
-      "normalizedScore": 71.08
+      "normalizedScore": 70.32
     },
     "#YPVQVU982": {
       "tier": "B",
@@ -1402,7 +1402,7 @@
       "totalAttacks": 60,
       "warsInRoster": 35,
       "totalMissed": 5,
-      "rank": 6,
+      "rank": 5,
       "prevRank": 6,
       "normalizedScore": 70.73
     },
@@ -1466,18 +1466,6 @@
       "prevRank": 23,
       "normalizedScore": 52.02
     },
-    "#YG2C8YVR9": {
-      "tier": "B",
-      "score": 1.03720025,
-      "avgStars": 2.5,
-      "totalStars": 5,
-      "totalAttacks": 2,
-      "warsInRoster": 1,
-      "totalMissed": 0,
-      "rank": 29,
-      "prevRank": 29,
-      "normalizedScore": 29.63
-    },
     "#JCRQGG9P": {
       "tier": "B",
       "score": 1.213275,
@@ -1489,6 +1477,18 @@
       "rank": 28,
       "prevRank": 28,
       "normalizedScore": 34.67
+    },
+    "#YG2C8YVR9": {
+      "tier": "B",
+      "score": 1.03720025,
+      "avgStars": 2.5,
+      "totalStars": 5,
+      "totalAttacks": 2,
+      "warsInRoster": 1,
+      "totalMissed": 0,
+      "rank": 29,
+      "prevRank": 29,
+      "normalizedScore": 29.63
     },
     "#80LUCC9YV": {
       "tier": "B",
