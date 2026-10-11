@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-11T20:55:20.311Z",
+  "generatedAt": "2026-10-11T21:10:34.483Z",
   "totalWars": 32,
   "liveWar": {
     "opponentName": "⚔️TheAckermens⚔",
-    "totalAttacksDone": 21,
+    "totalAttacksDone": 22,
     "totalAttacksExpected": 60
   },
   "ranking": [
@@ -71,6 +71,42 @@
         "avgPositionDiff": -3.8275862068965516,
         "hasAnyDefense": true,
         "hadTh17": true,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#2GP2JUU2",
+        "name": "Gustavo Lázaro",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.496485892929242,
+        "rawScore": 2.496485892929242,
+        "confidence": 1,
+        "tier": "S",
+        "attackScore": 3.3382415965164847,
+        "defenseScore": 0.33669768956927354,
+        "reliability": 1,
+        "formScore": 3.2025,
+        "warsInRoster": 46,
+        "attacksUsed": 89,
+        "attacksAvailable": 91,
+        "avgDestruction": 98.61797752808988,
+        "totalAttacks": 89,
+        "totalStars": 256,
+        "count3Stars": 78,
+        "avgStars": 2.8764044943820224,
+        "threeStarRate": 0.8764044943820225,
+        "totalMissed": 0,
+        "avgPositionDiff": 0.07865168539325842,
+        "hasAnyDefense": true,
+        "hadTh17": false,
         "weights": {
           "attack": 0.42,
           "defense": 0.25,
@@ -177,42 +213,6 @@
         "threeStarRate": 0.8166666666666667,
         "totalMissed": 5,
         "avgPositionDiff": -3.5166666666666666,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#2GP2JUU2",
-        "name": "Gustavo Lázaro",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.4547387436227184,
-        "rawScore": 2.4547387436227184,
-        "confidence": 1,
-        "tier": "S",
-        "attackScore": 3.3096769553104752,
-        "defenseScore": 0.33669768956927354,
-        "reliability": 1,
-        "formScore": 2.9050000000000002,
-        "warsInRoster": 46,
-        "attacksUsed": 88,
-        "attacksAvailable": 91,
-        "avgDestruction": 98.60227272727273,
-        "totalAttacks": 88,
-        "totalStars": 253,
-        "count3Stars": 77,
-        "avgStars": 2.875,
-        "threeStarRate": 0.875,
-        "totalMissed": 0,
-        "avgPositionDiff": 0.07954545454545454,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1214,16 +1214,16 @@
       "normalizedScore": 68.28
     },
     "#2GP2JUU2": {
-      "tier": "A",
-      "score": 2.4547387436227184,
-      "avgStars": 2.875,
-      "totalStars": 253,
-      "totalAttacks": 88,
+      "tier": "S",
+      "score": 2.496485892929242,
+      "avgStars": 2.8764044943820224,
+      "totalStars": 256,
+      "totalAttacks": 89,
       "warsInRoster": 46,
       "totalMissed": 0,
-      "rank": 6,
+      "rank": 3,
       "prevRank": 6,
-      "normalizedScore": 70.14
+      "normalizedScore": 71.33
     },
     "#P9C0LVLU2": {
       "tier": "B",
@@ -1274,14 +1274,14 @@
       "normalizedScore": 74.18
     },
     "#8VCUUPPJP": {
-      "tier": "S",
+      "tier": "A",
       "score": 2.487733945627126,
       "avgStars": 2.8,
       "totalStars": 182,
       "totalAttacks": 65,
       "warsInRoster": 34,
       "totalMissed": 1,
-      "rank": 4,
+      "rank": 5,
       "prevRank": 4,
       "normalizedScore": 71.08
     },
@@ -1305,7 +1305,7 @@
       "totalAttacks": 76,
       "warsInRoster": 40,
       "totalMissed": 0,
-      "rank": 3,
+      "rank": 4,
       "prevRank": 3,
       "normalizedScore": 71.3
     },
@@ -1409,7 +1409,7 @@
       "totalAttacks": 60,
       "warsInRoster": 35,
       "totalMissed": 5,
-      "rank": 5,
+      "rank": 6,
       "prevRank": 5,
       "normalizedScore": 70.73
     },
