@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 36,
-        "destructionPercentage": 41
+        "stars": 41,
+        "destructionPercentage": 46.3
       },
       "sixHourNonAttackers": [
         {
@@ -178,11 +178,6 @@
         {
           "tag": "#GCVLLLV2",
           "name": "BDW FAKER",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QGQJGURCL",
-          "name": "SAFONOV",
           "townhallLevel": 18
         },
         {
@@ -433,7 +428,14 @@
           "name": "SAFONOV",
           "townhallLevel": 18,
           "mapPosition": 1,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 27,
+              "defenderTag": "#RLG9CG0V"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -558,6 +560,12 @@
               "destructionPercentage": 100,
               "order": 3,
               "defenderTag": "#YRLVG0RYL"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 26,
+              "defenderTag": "#R802GYRL"
             }
           ],
           "defensesReceived": [],
