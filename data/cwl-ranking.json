@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T05:40:21.436Z",
+  "generatedAt": "2026-10-12T05:55:23.918Z",
   "totalWars": 32,
   "liveWar": {
     "opponentName": "⚔️TheAckermens⚔",
@@ -1017,42 +1017,6 @@
     },
     {
       "player": {
-        "tag": "#8RYPUQJJV",
-        "name": "Drácula",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 0,
-        "rawScore": 0,
-        "confidence": 0,
-        "tier": "F",
-        "attackScore": 0,
-        "defenseScore": 0,
-        "reliability": 0,
-        "formScore": 0,
-        "warsInRoster": 0,
-        "attacksUsed": 0,
-        "attacksAvailable": 0,
-        "avgDestruction": 0,
-        "totalAttacks": 0,
-        "totalStars": 0,
-        "count3Stars": 0,
-        "avgStars": 0,
-        "threeStarRate": 0,
-        "totalMissed": 0,
-        "avgPositionDiff": 0,
-        "hasAnyDefense": false,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.56,
-          "defense": 0,
-          "reliability": 0.3067,
-          "form": 0.1333
-        }
-      }
-    },
-    {
-      "player": {
         "tag": "#LVPLJVLVG",
         "name": "zoldyck",
         "townhallLevel": 18
@@ -1091,6 +1055,42 @@
       "player": {
         "tag": "#20CJVUYL2",
         "name": "Rammus",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 0,
+        "rawScore": 0,
+        "confidence": 0,
+        "tier": "F",
+        "attackScore": 0,
+        "defenseScore": 0,
+        "reliability": 0,
+        "formScore": 0,
+        "warsInRoster": 0,
+        "attacksUsed": 0,
+        "attacksAvailable": 0,
+        "avgDestruction": 0,
+        "totalAttacks": 0,
+        "totalStars": 0,
+        "count3Stars": 0,
+        "avgStars": 0,
+        "threeStarRate": 0,
+        "totalMissed": 0,
+        "avgPositionDiff": 0,
+        "hasAnyDefense": false,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.56,
+          "defense": 0,
+          "reliability": 0.3067,
+          "form": 0.1333
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#8RYPUQJJV",
+        "name": "Drácula",
         "townhallLevel": 18
       },
       "data": {
@@ -1163,13 +1163,6 @@
   "noDataList": [
     {
       "player": {
-        "tag": "#8RYPUQJJV",
-        "name": "Drácula",
-        "townhallLevel": 18
-      }
-    },
-    {
-      "player": {
         "tag": "#LVPLJVLVG",
         "name": "zoldyck",
         "townhallLevel": 18
@@ -1184,6 +1177,13 @@
     },
     {
       "player": {
+        "tag": "#8RYPUQJJV",
+        "name": "Drácula",
+        "townhallLevel": 18
+      }
+    },
+    {
+      "player": {
         "tag": "#2Y2R0V2YY",
         "name": "Clasher",
         "townhallLevel": 18
@@ -1191,40 +1191,6 @@
     }
   ],
   "statsByTag": {
-    "#8RYPUQJJV": {
-      "tier": "F",
-      "score": 0,
-      "avgStars": 0,
-      "totalStars": 0,
-      "totalAttacks": 0,
-      "warsInRoster": 0,
-      "totalMissed": 0,
-      "normalizedScore": 0
-    },
-    "#8CJ8YJY0P": {
-      "tier": "B",
-      "score": 2.0988088609590156,
-      "avgStars": 2.4634146341463414,
-      "totalStars": 202,
-      "totalAttacks": 82,
-      "warsInRoster": 46,
-      "totalMissed": 4,
-      "rank": 15,
-      "prevRank": 15,
-      "normalizedScore": 59.97
-    },
-    "#JCRQGG9P": {
-      "tier": "B",
-      "score": 0.91,
-      "avgStars": 3,
-      "totalStars": 3,
-      "totalAttacks": 1,
-      "warsInRoster": 1,
-      "totalMissed": 0,
-      "rank": 26,
-      "prevRank": 27,
-      "normalizedScore": 26
-    },
     "#QQC8P9C9R": {
       "tier": "S",
       "score": 2.5785700722789384,
@@ -1367,6 +1333,18 @@
       "prevRank": 9,
       "normalizedScore": 69.42
     },
+    "#8CJ8YJY0P": {
+      "tier": "B",
+      "score": 2.0988088609590156,
+      "avgStars": 2.4634146341463414,
+      "totalStars": 202,
+      "totalAttacks": 82,
+      "warsInRoster": 46,
+      "totalMissed": 4,
+      "rank": 15,
+      "prevRank": 15,
+      "normalizedScore": 59.97
+    },
     "#20CJVUYL2": {
       "tier": "F",
       "score": 0,
@@ -1433,8 +1411,8 @@
       "totalAttacks": 2,
       "warsInRoster": 1,
       "totalMissed": 0,
-      "rank": 27,
-      "prevRank": 26,
+      "rank": 26,
+      "prevRank": 27,
       "normalizedScore": 26
     },
     "#YPVQVU982": {
@@ -1448,6 +1426,16 @@
       "rank": 17,
       "prevRank": 17,
       "normalizedScore": 58.95
+    },
+    "#8RYPUQJJV": {
+      "tier": "F",
+      "score": 0,
+      "avgStars": 0,
+      "totalStars": 0,
+      "totalAttacks": 0,
+      "warsInRoster": 0,
+      "totalMissed": 0,
+      "normalizedScore": 0
     },
     "#QJLQLUURY": {
       "tier": "B",
@@ -1543,6 +1531,18 @@
       "prevRank": 32,
       "normalizedScore": 3.86
     },
+    "#JCRQGG9P": {
+      "tier": "B",
+      "score": 0.91,
+      "avgStars": 3,
+      "totalStars": 3,
+      "totalAttacks": 1,
+      "warsInRoster": 1,
+      "totalMissed": 0,
+      "rank": 27,
+      "prevRank": 26,
+      "normalizedScore": 26
+    },
     "#LYJG0L8G": {
       "tier": "B",
       "score": 2.058875556411922,
@@ -1567,18 +1567,6 @@
       "prevRank": 13,
       "normalizedScore": 63.62
     },
-    "#YRCLVY099": {
-      "tier": "B",
-      "score": 1.9447490766559141,
-      "avgStars": 2.25,
-      "totalStars": 45,
-      "totalAttacks": 20,
-      "warsInRoster": 11,
-      "totalMissed": 0,
-      "rank": 21,
-      "prevRank": 21,
-      "normalizedScore": 55.56
-    },
     "#URR0QLV": {
       "tier": "A",
       "score": 2.114056974903069,
@@ -1590,6 +1578,18 @@
       "rank": 14,
       "prevRank": 14,
       "normalizedScore": 60.4
+    },
+    "#YRCLVY099": {
+      "tier": "B",
+      "score": 1.9447490766559141,
+      "avgStars": 2.25,
+      "totalStars": 45,
+      "totalAttacks": 20,
+      "warsInRoster": 11,
+      "totalMissed": 0,
+      "rank": 21,
+      "prevRank": 21,
+      "normalizedScore": 55.56
     },
     "#209QGJ89C": {
       "tier": "F",
