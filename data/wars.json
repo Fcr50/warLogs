@@ -10,8 +10,8 @@
       "opponent": {
         "name": "The Bad Batch",
         "tag": "#2RV0R2JQP",
-        "stars": 15,
-        "destructionPercentage": 23.2,
+        "stars": 18,
+        "destructionPercentage": 27.48,
         "members": [
           {
             "tag": "#G8JC882J",
@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 32,
-        "destructionPercentage": 43.8
+        "stars": 35,
+        "destructionPercentage": 47.8
       },
       "sixHourNonAttackers": [
         {
@@ -153,11 +153,6 @@
         {
           "tag": "#LQQRGJ8VU",
           "name": "i-Vinni",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#G9Y2L9QJJ",
-          "name": "Micael",
           "townhallLevel": 18
         },
         {
@@ -289,7 +284,14 @@
           "name": "Micael",
           "townhallLevel": 18,
           "mapPosition": 16,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 24,
+              "defenderTag": "#2YPPL2R88"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -373,7 +375,14 @@
               "defenderTag": "#RPJVPPYQ9"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 1,
+              "destructionPercentage": 31,
+              "attackerTag": "#R2UQVYYLL",
+              "attackerMapPosition": 24
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -515,7 +524,14 @@
               "defenderTag": "#2YPJG00G8"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 76,
+              "attackerTag": "#R2UQVYYLL",
+              "attackerMapPosition": 24
+            }
+          ],
           "missedAttacks": 0
         },
         {
