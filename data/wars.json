@@ -116,23 +116,13 @@
         ]
       },
       "clan": {
-        "stars": 51,
-        "destructionPercentage": 68
+        "stars": 57,
+        "destructionPercentage": 76
       },
       "sixHourNonAttackers": [
         {
-          "tag": "#QQC8P9C9R",
-          "name": "Gs.prieto",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#YG2C8YVR9",
           "name": "Saymon",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#2QL0VR9GU",
-          "name": "Marcola",
           "townhallLevel": 18
         },
         {
@@ -190,7 +180,14 @@
           "name": "Gs.prieto",
           "townhallLevel": 18,
           "mapPosition": 12,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 39,
+              "defenderTag": "#9G2RQVYGG"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -215,7 +212,14 @@
           "name": "Marcola",
           "townhallLevel": 18,
           "mapPosition": 10,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 38,
+              "defenderTag": "#82LQP2QV"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
