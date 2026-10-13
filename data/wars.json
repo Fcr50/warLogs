@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 17,
-        "destructionPercentage": 23.92
+        "stars": 23,
+        "destructionPercentage": 31.92
       },
       "sixHourNonAttackers": [
         {
@@ -161,11 +161,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#QGQJGURCL",
-          "name": "SAFONOV",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#GJ2LQVQJ",
           "name": "Fer",
           "townhallLevel": 18
@@ -198,11 +193,6 @@
         {
           "tag": "#GGVCRYP8P",
           "name": "gui",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#P9C0LVLU2",
-          "name": "VINGADOR⚡",
           "townhallLevel": 18
         },
         {
@@ -323,7 +313,14 @@
           "name": "SAFONOV",
           "townhallLevel": 18,
           "mapPosition": 1,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 14,
+              "defenderTag": "#YR9QC80JQ"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 2,
@@ -431,7 +428,14 @@
           "name": "VINGADOR⚡",
           "townhallLevel": 18,
           "mapPosition": 3,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 15,
+              "defenderTag": "#2QYYYVVYL"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
