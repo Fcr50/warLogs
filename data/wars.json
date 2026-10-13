@@ -116,15 +116,10 @@
         ]
       },
       "clan": {
-        "stars": 45,
-        "destructionPercentage": 60
+        "stars": 51,
+        "destructionPercentage": 68
       },
       "sixHourNonAttackers": [
-        {
-          "tag": "#8VCUUPPJP",
-          "name": "Satsugai",
-          "townhallLevel": 18
-        },
         {
           "tag": "#QQC8P9C9R",
           "name": "Gs.prieto",
@@ -156,11 +151,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#29LP0VJV0",
-          "name": "Warlord Raivon",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#8RYPUQJJV",
           "name": "Drácula",
           "townhallLevel": 18
@@ -177,7 +167,14 @@
           "name": "Satsugai",
           "townhallLevel": 18,
           "mapPosition": 11,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 36,
+              "defenderTag": "#GYQ0JJ2PC"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -406,6 +403,12 @@
               "destructionPercentage": 31,
               "attackerTag": "#R2UQVYYLL",
               "attackerMapPosition": 24
+            },
+            {
+              "stars": 0,
+              "destructionPercentage": 12,
+              "attackerTag": "#RPJVPPYQ9",
+              "attackerMapPosition": 25
             }
           ],
           "missedAttacks": 0
@@ -447,7 +450,14 @@
           "name": "Warlord Raivon",
           "townhallLevel": 18,
           "mapPosition": 9,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 35,
+              "defenderTag": "#G8JC882J"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },

@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-13T21:00:32.868Z",
+  "generatedAt": "2026-10-13T21:15:29.140Z",
   "totalWars": 32,
   "liveWar": {
     "opponentName": "The Bad Batch",
-    "totalAttacksDone": 21,
+    "totalAttacksDone": 23,
     "totalAttacksExpected": 50
   },
   "ranking": [
@@ -117,6 +117,42 @@
     },
     {
       "player": {
+        "tag": "#29LP0VJV0",
+        "name": "Warlord Raivon",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.4645524875275338,
+        "rawScore": 2.4645524875275338,
+        "confidence": 1,
+        "tier": "A",
+        "attackScore": 3.4185639427737504,
+        "defenseScore": 0.18515811947057237,
+        "reliability": 0.9546610169491525,
+        "formScore": 3.2375,
+        "warsInRoster": 42,
+        "attacksUsed": 80,
+        "attacksAvailable": 83,
+        "avgDestruction": 96.1375,
+        "totalAttacks": 80,
+        "totalStars": 213,
+        "count3Stars": 61,
+        "avgStars": 2.6625,
+        "threeStarRate": 0.7625,
+        "totalMissed": 2,
+        "avgPositionDiff": -3.15,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#GJ2LQVQJ",
         "name": "Fer",
         "townhallLevel": 18
@@ -158,25 +194,25 @@
         "townhallLevel": 18
       },
       "data": {
-        "score": 2.4435171397290323,
-        "rawScore": 2.4435171397290323,
+        "score": 2.4515390283244343,
+        "rawScore": 2.4515390283244343,
         "confidence": 1,
         "tier": "A",
-        "attackScore": 3.3817768941322095,
+        "attackScore": 3.4008766288831667,
         "defenseScore": 0.24318337677401744,
         "reliability": 0.8875,
         "formScore": 3.5,
         "warsInRoster": 33,
-        "attacksUsed": 63,
+        "attacksUsed": 64,
         "attacksAvailable": 66,
-        "avgDestruction": 98.33333333333333,
-        "totalAttacks": 63,
-        "totalStars": 178,
-        "count3Stars": 54,
-        "avgStars": 2.8253968253968256,
-        "threeStarRate": 0.8571428571428571,
+        "avgDestruction": 98.359375,
+        "totalAttacks": 64,
+        "totalStars": 181,
+        "count3Stars": 55,
+        "avgStars": 2.828125,
+        "threeStarRate": 0.859375,
         "totalMissed": 1,
-        "avgPositionDiff": -2.857142857142857,
+        "avgPositionDiff": -2.8125,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -215,42 +251,6 @@
         "avgPositionDiff": -3.869047619047619,
         "hasAnyDefense": true,
         "hadTh17": true,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#29LP0VJV0",
-        "name": "Warlord Raivon",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.432235249920241,
-        "rawScore": 2.432235249920241,
-        "confidence": 1,
-        "tier": "A",
-        "attackScore": 3.404118138946864,
-        "defenseScore": 0.18515811947057237,
-        "reliability": 0.9546610169491525,
-        "formScore": 2.975,
-        "warsInRoster": 42,
-        "attacksUsed": 79,
-        "attacksAvailable": 83,
-        "avgDestruction": 96.0886075949367,
-        "totalAttacks": 79,
-        "totalStars": 210,
-        "count3Stars": 60,
-        "avgStars": 2.6582278481012658,
-        "threeStarRate": 0.759493670886076,
-        "totalMissed": 2,
-        "avgPositionDiff": -3.189873417721519,
-        "hasAnyDefense": true,
-        "hadTh17": false,
         "weights": {
           "attack": 0.42,
           "defense": 0.25,
@@ -1438,7 +1438,7 @@
       "totalAttacks": 84,
       "warsInRoster": 43,
       "totalMissed": 0,
-      "rank": 6,
+      "rank": 7,
       "prevRank": 6,
       "normalizedScore": 69.53
     },
@@ -1534,17 +1534,27 @@
       "totalMissed": 0,
       "normalizedScore": 0
     },
+    "#2LRR80Y9Q": {
+      "tier": "F",
+      "score": 0,
+      "avgStars": 0,
+      "totalStars": 0,
+      "totalAttacks": 0,
+      "warsInRoster": 0,
+      "totalMissed": 0,
+      "normalizedScore": 0
+    },
     "#8VCUUPPJP": {
       "tier": "A",
-      "score": 2.4435171397290323,
-      "avgStars": 2.8253968253968256,
-      "totalStars": 178,
-      "totalAttacks": 63,
+      "score": 2.4515390283244343,
+      "avgStars": 2.828125,
+      "totalStars": 181,
+      "totalAttacks": 64,
       "warsInRoster": 33,
       "totalMissed": 1,
-      "rank": 5,
+      "rank": 6,
       "prevRank": 5,
-      "normalizedScore": 69.81
+      "normalizedScore": 70.04
     },
     "#VPPQ8VLV": {
       "tier": "B",
@@ -1559,26 +1569,16 @@
       "normalizedScore": 51.71
     },
     "#29LP0VJV0": {
-      "tier": "A",
-      "score": 2.432235249920241,
-      "avgStars": 2.6582278481012658,
-      "totalStars": 210,
-      "totalAttacks": 79,
+      "tier": "S",
+      "score": 2.4645524875275338,
+      "avgStars": 2.6625,
+      "totalStars": 213,
+      "totalAttacks": 80,
       "warsInRoster": 42,
       "totalMissed": 2,
-      "rank": 7,
+      "rank": 4,
       "prevRank": 7,
-      "normalizedScore": 69.49
-    },
-    "#2LRR80Y9Q": {
-      "tier": "F",
-      "score": 0,
-      "avgStars": 0,
-      "totalStars": 0,
-      "totalAttacks": 0,
-      "warsInRoster": 0,
-      "totalMissed": 0,
-      "normalizedScore": 0
+      "normalizedScore": 70.42
     },
     "#2GP2JUU2": {
       "tier": "S",
@@ -1687,14 +1687,14 @@
       "normalizedScore": 3.86
     },
     "#GJ2LQVQJ": {
-      "tier": "S",
+      "tier": "A",
       "score": 2.4521860929956465,
       "avgStars": 2.75,
       "totalStars": 242,
       "totalAttacks": 88,
       "warsInRoster": 45,
       "totalMissed": 0,
-      "rank": 4,
+      "rank": 5,
       "prevRank": 4,
       "normalizedScore": 70.06
     },
@@ -1834,7 +1834,7 @@
     },
     "#URR0QLV": {
       "tier": "A",
-      "score": 2.1750222408024067,
+      "score": 2.1809661079343994,
       "avgStars": 2.8285714285714287,
       "totalStars": 99,
       "totalAttacks": 35,
@@ -1842,7 +1842,7 @@
       "totalMissed": 1,
       "rank": 14,
       "prevRank": 14,
-      "normalizedScore": 62.14
+      "normalizedScore": 62.31
     },
     "#YRCLVY099": {
       "tier": "B",
