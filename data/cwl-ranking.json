@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-13T19:15:27.272Z",
+  "generatedAt": "2026-10-13T19:30:30.077Z",
   "totalWars": 32,
   "liveWar": {
     "opponentName": "The Bad Batch",
-    "totalAttacksDone": 20,
+    "totalAttacksDone": 21,
     "totalAttacksExpected": 50
   },
   "ranking": [
@@ -369,6 +369,42 @@
     },
     {
       "player": {
+        "tag": "#L8RG2PV0G",
+        "name": "joaoaoaoao",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.2954257071289077,
+        "rawScore": 2.2954257071289077,
+        "confidence": 1,
+        "tier": "A",
+        "attackScore": 2.949024030398478,
+        "defenseScore": 0.382771028874759,
+        "reliability": 0.8857142857142857,
+        "formScore": 3.5,
+        "warsInRoster": 34,
+        "attacksUsed": 60,
+        "attacksAvailable": 68,
+        "avgDestruction": 96.36666666666666,
+        "totalAttacks": 60,
+        "totalStars": 165,
+        "count3Stars": 49,
+        "avgStars": 2.75,
+        "threeStarRate": 0.8166666666666667,
+        "totalMissed": 6,
+        "avgPositionDiff": -3.783333333333333,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#2QL0VR9GU",
         "name": "Marcola",
         "townhallLevel": 18
@@ -393,42 +429,6 @@
         "threeStarRate": 0.6486486486486487,
         "totalMissed": 0,
         "avgPositionDiff": -3.6486486486486487,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#L8RG2PV0G",
-        "name": "joaoaoaoao",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.2377543989089212,
-        "rawScore": 2.2377543989089212,
-        "confidence": 1,
-        "tier": "A",
-        "attackScore": 2.8117113917794625,
-        "defenseScore": 0.382771028874759,
-        "reliability": 0.8857142857142857,
-        "formScore": 3.5,
-        "warsInRoster": 34,
-        "attacksUsed": 59,
-        "attacksAvailable": 68,
-        "avgDestruction": 96.30508474576271,
-        "totalAttacks": 59,
-        "totalStars": 162,
-        "count3Stars": 48,
-        "avgStars": 2.7457627118644066,
-        "threeStarRate": 0.8135593220338984,
-        "totalMissed": 6,
-        "avgPositionDiff": -3.847457627118644,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1089,42 +1089,6 @@
     },
     {
       "player": {
-        "tag": "#2LRR80Y9Q",
-        "name": "MELVEM DA COSTA",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 0,
-        "rawScore": 0,
-        "confidence": 0,
-        "tier": "F",
-        "attackScore": 0,
-        "defenseScore": 0,
-        "reliability": 0,
-        "formScore": 0,
-        "warsInRoster": 0,
-        "attacksUsed": 0,
-        "attacksAvailable": 0,
-        "avgDestruction": 0,
-        "totalAttacks": 0,
-        "totalStars": 0,
-        "count3Stars": 0,
-        "avgStars": 0,
-        "threeStarRate": 0,
-        "totalMissed": 0,
-        "avgPositionDiff": 0,
-        "hasAnyDefense": false,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.56,
-          "defense": 0,
-          "reliability": 0.3067,
-          "form": 0.1333
-        }
-      }
-    },
-    {
-      "player": {
         "tag": "#2Y2R0V2YY",
         "name": "Clasher",
         "townhallLevel": 18
@@ -1161,8 +1125,8 @@
     },
     {
       "player": {
-        "tag": "#20CJVUYL2",
-        "name": "Rammus",
+        "tag": "#2LRR80Y9Q",
+        "name": "MELVEM DA COSTA",
         "townhallLevel": 18
       },
       "data": {
@@ -1199,6 +1163,42 @@
       "player": {
         "tag": "#LVPLJVLVG",
         "name": "zoldyck",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 0,
+        "rawScore": 0,
+        "confidence": 0,
+        "tier": "F",
+        "attackScore": 0,
+        "defenseScore": 0,
+        "reliability": 0,
+        "formScore": 0,
+        "warsInRoster": 0,
+        "attacksUsed": 0,
+        "attacksAvailable": 0,
+        "avgDestruction": 0,
+        "totalAttacks": 0,
+        "totalStars": 0,
+        "count3Stars": 0,
+        "avgStars": 0,
+        "threeStarRate": 0,
+        "totalMissed": 0,
+        "avgPositionDiff": 0,
+        "hasAnyDefense": false,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.56,
+          "defense": 0,
+          "reliability": 0.3067,
+          "form": 0.1333
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#20CJVUYL2",
+        "name": "Rammus",
         "townhallLevel": 18
       },
       "data": {
@@ -1393,13 +1393,6 @@
     },
     {
       "player": {
-        "tag": "#2LRR80Y9Q",
-        "name": "MELVEM DA COSTA",
-        "townhallLevel": 18
-      }
-    },
-    {
-      "player": {
         "tag": "#2Y2R0V2YY",
         "name": "Clasher",
         "townhallLevel": 18
@@ -1407,8 +1400,8 @@
     },
     {
       "player": {
-        "tag": "#20CJVUYL2",
-        "name": "Rammus",
+        "tag": "#2LRR80Y9Q",
+        "name": "MELVEM DA COSTA",
         "townhallLevel": 18
       }
     },
@@ -1416,6 +1409,13 @@
       "player": {
         "tag": "#LVPLJVLVG",
         "name": "zoldyck",
+        "townhallLevel": 18
+      }
+    },
+    {
+      "player": {
+        "tag": "#20CJVUYL2",
+        "name": "Rammus",
         "townhallLevel": 18
       }
     },
@@ -1493,7 +1493,7 @@
       "totalAttacks": 74,
       "warsInRoster": 39,
       "totalMissed": 0,
-      "rank": 11,
+      "rank": 12,
       "prevRank": 11,
       "normalizedScore": 65.13
     },
@@ -1601,6 +1601,16 @@
       "prevRank": 20,
       "normalizedScore": 51.71
     },
+    "#2Y2R0V2YY": {
+      "tier": "F",
+      "score": 0,
+      "avgStars": 0,
+      "totalStars": 0,
+      "totalAttacks": 0,
+      "warsInRoster": 0,
+      "totalMissed": 0,
+      "normalizedScore": 0
+    },
     "#29LP0VJV0": {
       "tier": "A",
       "score": 2.432235249920241,
@@ -1635,7 +1645,7 @@
       "prevRank": 2,
       "normalizedScore": 70.83
     },
-    "#2Y2R0V2YY": {
+    "#LVPLJVLVG": {
       "tier": "F",
       "score": 0,
       "avgStars": 0,
@@ -1705,15 +1715,15 @@
     },
     "#L8RG2PV0G": {
       "tier": "A",
-      "score": 2.2377543989089212,
-      "avgStars": 2.7457627118644066,
-      "totalStars": 162,
-      "totalAttacks": 59,
+      "score": 2.2954257071289077,
+      "avgStars": 2.75,
+      "totalStars": 165,
+      "totalAttacks": 60,
       "warsInRoster": 34,
       "totalMissed": 6,
-      "rank": 12,
+      "rank": 11,
       "prevRank": 12,
-      "normalizedScore": 63.94
+      "normalizedScore": 65.58
     },
     "#QJLQLUURY": {
       "tier": "B",
@@ -1762,16 +1772,6 @@
       "rank": 27,
       "prevRank": 27,
       "normalizedScore": 26.54
-    },
-    "#LVPLJVLVG": {
-      "tier": "F",
-      "score": 0,
-      "avgStars": 0,
-      "totalStars": 0,
-      "totalAttacks": 0,
-      "warsInRoster": 0,
-      "totalMissed": 0,
-      "normalizedScore": 0
     },
     "#JCRQGG9P": {
       "tier": "C",
