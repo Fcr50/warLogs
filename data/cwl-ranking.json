@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-13T17:30:30.390Z",
+  "generatedAt": "2026-10-13T17:45:23.456Z",
   "totalWars": 32,
   "liveWar": {
     "opponentName": "The Bad Batch",
-    "totalAttacksDone": 6,
+    "totalAttacksDone": 9,
     "totalAttacksExpected": 50
   },
   "ranking": [
@@ -81,6 +81,42 @@
     },
     {
       "player": {
+        "tag": "#2GP2JUU2",
+        "name": "Gustavo Lázaro",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.479004357213954,
+        "rawScore": 2.479004357213954,
+        "confidence": 1,
+        "tier": "S",
+        "attackScore": 3.2974633784167926,
+        "defenseScore": 0.3202789531156062,
+        "reliability": 1,
+        "formScore": 3.24,
+        "warsInRoster": 45,
+        "attacksUsed": 89,
+        "attacksAvailable": 89,
+        "avgDestruction": 98.57303370786516,
+        "totalAttacks": 89,
+        "totalStars": 255,
+        "count3Stars": 77,
+        "avgStars": 2.865168539325843,
+        "threeStarRate": 0.8651685393258427,
+        "totalMissed": 0,
+        "avgPositionDiff": 0.011235955056179775,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#8VCUUPPJP",
         "name": "Satsugai",
         "townhallLevel": 18
@@ -105,42 +141,6 @@
         "threeStarRate": 0.8571428571428571,
         "totalMissed": 1,
         "avgPositionDiff": -2.857142857142857,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#QJVQVRPU",
-        "name": "Frnnn",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.451385629771147,
-        "rawScore": 2.451385629771147,
-        "confidence": 1,
-        "tier": "A",
-        "attackScore": 3.2457262068747976,
-        "defenseScore": 0.2539321689542819,
-        "reliability": 0.9778225806451613,
-        "formScore": 3.5,
-        "warsInRoster": 44,
-        "attacksUsed": 84,
-        "attacksAvailable": 88,
-        "avgDestruction": 93.53571428571429,
-        "totalAttacks": 84,
-        "totalStars": 223,
-        "count3Stars": 65,
-        "avgStars": 2.6547619047619047,
-        "threeStarRate": 0.7738095238095238,
-        "totalMissed": 1,
-        "avgPositionDiff": -1.2619047619047619,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -225,42 +225,6 @@
     },
     {
       "player": {
-        "tag": "#2GP2JUU2",
-        "name": "Gustavo Lázaro",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.4373319995375264,
-        "rawScore": 2.4373319995375264,
-        "confidence": 1,
-        "tier": "S",
-        "attackScore": 3.260148241091964,
-        "defenseScore": 0.3202789531156062,
-        "reliability": 1,
-        "formScore": 2.98,
-        "warsInRoster": 45,
-        "attacksUsed": 87,
-        "attacksAvailable": 89,
-        "avgDestruction": 98.54022988505747,
-        "totalAttacks": 87,
-        "totalStars": 249,
-        "count3Stars": 75,
-        "avgStars": 2.8620689655172415,
-        "threeStarRate": 0.8620689655172413,
-        "totalMissed": 0,
-        "avgPositionDiff": 0.022988505747126436,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
         "tag": "#29LP0VJV0",
         "name": "Warlord Raivon",
         "townhallLevel": 18
@@ -285,6 +249,42 @@
         "threeStarRate": 0.759493670886076,
         "totalMissed": 2,
         "avgPositionDiff": -3.189873417721519,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#QJVQVRPU",
+        "name": "Frnnn",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.352104835084176,
+        "rawScore": 2.352104835084176,
+        "confidence": 1,
+        "tier": "A",
+        "attackScore": 3.1307719338105815,
+        "defenseScore": 0.2539321689542819,
+        "reliability": 0.9778225806451613,
+        "formScore": 2.99,
+        "warsInRoster": 44,
+        "attacksUsed": 85,
+        "attacksAvailable": 88,
+        "avgDestruction": 93.58823529411765,
+        "totalAttacks": 85,
+        "totalStars": 225,
+        "count3Stars": 65,
+        "avgStars": 2.6470588235294117,
+        "threeStarRate": 0.7647058823529411,
+        "totalMissed": 1,
+        "avgPositionDiff": -1.2470588235294118,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1125,6 +1125,42 @@
     },
     {
       "player": {
+        "tag": "#2LRR80Y9Q",
+        "name": "MELVEM DA COSTA",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 0,
+        "rawScore": 0,
+        "confidence": 0,
+        "tier": "F",
+        "attackScore": 0,
+        "defenseScore": 0,
+        "reliability": 0,
+        "formScore": 0,
+        "warsInRoster": 0,
+        "attacksUsed": 0,
+        "attacksAvailable": 0,
+        "avgDestruction": 0,
+        "totalAttacks": 0,
+        "totalStars": 0,
+        "count3Stars": 0,
+        "avgStars": 0,
+        "threeStarRate": 0,
+        "totalMissed": 0,
+        "avgPositionDiff": 0,
+        "hasAnyDefense": false,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.56,
+          "defense": 0,
+          "reliability": 0.3067,
+          "form": 0.1333
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#LVPLJVLVG",
         "name": "zoldyck",
         "townhallLevel": 18
@@ -1299,6 +1335,13 @@
     },
     {
       "player": {
+        "tag": "#2LRR80Y9Q",
+        "name": "MELVEM DA COSTA",
+        "townhallLevel": 18
+      }
+    },
+    {
+      "player": {
         "tag": "#LVPLJVLVG",
         "name": "zoldyck",
         "townhallLevel": 18
@@ -1336,7 +1379,7 @@
       "warsInRoster": 40,
       "totalMissed": 2,
       "rank": 13,
-      "prevRank": 14,
+      "prevRank": 13,
       "normalizedScore": 62.23
     },
     "#PLU2VCLG": {
@@ -1348,7 +1391,7 @@
       "warsInRoster": 42,
       "totalMissed": 1,
       "rank": 10,
-      "prevRank": 11,
+      "prevRank": 10,
       "normalizedScore": 65.67
     },
     "#GGVCRYP8P": {
@@ -1372,7 +1415,7 @@
       "warsInRoster": 39,
       "totalMissed": 0,
       "rank": 11,
-      "prevRank": 12,
+      "prevRank": 11,
       "normalizedScore": 65.13
     },
     "#8YJYY92GC": {
@@ -1384,7 +1427,7 @@
       "warsInRoster": 36,
       "totalMissed": 0,
       "rank": 9,
-      "prevRank": 10,
+      "prevRank": 9,
       "normalizedScore": 67.19
     },
     "#QQC8P9C9R": {
@@ -1418,20 +1461,20 @@
       "warsInRoster": 39,
       "totalMissed": 0,
       "rank": 5,
-      "prevRank": 7,
+      "prevRank": 5,
       "normalizedScore": 70.04
     },
     "#QJVQVRPU": {
-      "tier": "S",
-      "score": 2.451385629771147,
-      "avgStars": 2.6547619047619047,
-      "totalStars": 223,
-      "totalAttacks": 84,
+      "tier": "A",
+      "score": 2.352104835084176,
+      "avgStars": 2.6470588235294117,
+      "totalStars": 225,
+      "totalAttacks": 85,
       "warsInRoster": 44,
       "totalMissed": 1,
-      "rank": 4,
+      "rank": 8,
       "prevRank": 4,
-      "normalizedScore": 70.04
+      "normalizedScore": 67.2
     },
     "#YPVQVU982": {
       "tier": "B",
@@ -1442,7 +1485,7 @@
       "warsInRoster": 32,
       "totalMissed": 12,
       "rank": 17,
-      "prevRank": 16,
+      "prevRank": 17,
       "normalizedScore": 55.49
     },
     "#20CY00CU9": {
@@ -1463,7 +1506,7 @@
       "totalAttacks": 63,
       "warsInRoster": 33,
       "totalMissed": 1,
-      "rank": 3,
+      "rank": 4,
       "prevRank": 3,
       "normalizedScore": 70.15
     },
@@ -1487,21 +1530,21 @@
       "totalAttacks": 79,
       "warsInRoster": 42,
       "totalMissed": 2,
-      "rank": 8,
-      "prevRank": 6,
+      "rank": 7,
+      "prevRank": 8,
       "normalizedScore": 69.49
     },
     "#2GP2JUU2": {
-      "tier": "A",
-      "score": 2.4373319995375264,
-      "avgStars": 2.8620689655172415,
-      "totalStars": 249,
-      "totalAttacks": 87,
+      "tier": "S",
+      "score": 2.479004357213954,
+      "avgStars": 2.865168539325843,
+      "totalStars": 255,
+      "totalAttacks": 89,
       "warsInRoster": 45,
       "totalMissed": 0,
-      "rank": 7,
-      "prevRank": 8,
-      "normalizedScore": 69.64
+      "rank": 3,
+      "prevRank": 7,
+      "normalizedScore": 70.83
     },
     "#2Y2R0V2YY": {
       "tier": "F",
@@ -1532,7 +1575,7 @@
       "warsInRoster": 15,
       "totalMissed": 9,
       "rank": 16,
-      "prevRank": 15,
+      "prevRank": 16,
       "normalizedScore": 57.18
     },
     "#RC82GPG": {
@@ -1556,7 +1599,7 @@
       "warsInRoster": 34,
       "totalMissed": 6,
       "rank": 12,
-      "prevRank": 13,
+      "prevRank": 12,
       "normalizedScore": 63.94
     },
     "#P9C0LVLU2": {
@@ -1604,8 +1647,18 @@
       "warsInRoster": 45,
       "totalMissed": 0,
       "rank": 6,
-      "prevRank": 5,
+      "prevRank": 6,
       "normalizedScore": 69.7
+    },
+    "#2LRR80Y9Q": {
+      "tier": "F",
+      "score": 0,
+      "avgStars": 0,
+      "totalStars": 0,
+      "totalAttacks": 0,
+      "warsInRoster": 0,
+      "totalMissed": 0,
+      "normalizedScore": 0
     },
     "#LUR09RUP2": {
       "tier": "B",
@@ -1718,7 +1771,7 @@
       "warsInRoster": 32,
       "totalMissed": 2,
       "rank": 14,
-      "prevRank": 9,
+      "prevRank": 14,
       "normalizedScore": 61.37
     },
     "#2QP9JGYVG": {
@@ -1740,7 +1793,7 @@
       "warsInRoster": 18,
       "totalMissed": 1,
       "rank": 15,
-      "prevRank": 17,
+      "prevRank": 15,
       "normalizedScore": 59.47
     },
     "#YRCLVY099": {
