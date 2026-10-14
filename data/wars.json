@@ -3,8 +3,8 @@
     {
       "endTime": "20261014T171030.000Z",
       "startTime": "2026-10-13T17:10:30.000Z",
-      "state": "inWar",
-      "result": "inProgress",
+      "state": "warEnded",
+      "result": "tie",
       "teamSize": 25,
       "absencesRecorded": true,
       "opponent": {
@@ -221,7 +221,7 @@
               "attackerMapPosition": 15
             }
           ],
-          "missedAttacks": 0
+          "missedAttacks": 1
         },
         {
           "tag": "#2QL0VR9GU",
@@ -452,6 +452,12 @@
               "destructionPercentage": 92,
               "attackerTag": "#2YQVJLGJC",
               "attackerMapPosition": 17
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#Q2GJY2J9",
+              "attackerMapPosition": 22
             }
           ],
           "missedAttacks": 0
@@ -487,6 +493,12 @@
               "destructionPercentage": 74,
               "attackerTag": "#2YQVJLGJC",
               "attackerMapPosition": 17
+            },
+            {
+              "stars": 1,
+              "destructionPercentage": 93,
+              "attackerTag": "#Q2GJY2J9",
+              "attackerMapPosition": 22
             }
           ],
           "missedAttacks": 0
@@ -733,7 +745,7 @@
               "attackerMapPosition": 10
             }
           ],
-          "missedAttacks": 0
+          "missedAttacks": 1
         },
         {
           "tag": "#YPVQVU982",
@@ -848,7 +860,7 @@
               "attackerMapPosition": 8
             }
           ],
-          "missedAttacks": 0
+          "missedAttacks": 2
         },
         {
           "tag": "#QJVQVRPU",
