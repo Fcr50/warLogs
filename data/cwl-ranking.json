@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T16:30:28.662Z",
+  "generatedAt": "2026-10-14T16:45:25.388Z",
   "totalWars": 32,
   "liveWar": {
     "opponentName": "The Bad Batch",
@@ -81,6 +81,42 @@
     },
     {
       "player": {
+        "tag": "#GJ2LQVQJ",
+        "name": "Fer",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.4578148450037878,
+        "rawScore": 2.4578148450037878,
+        "confidence": 1,
+        "tier": "A",
+        "attackScore": 3.319414060811561,
+        "defenseScore": 0.09464375785172842,
+        "reliability": 1,
+        "formScore": 3.5,
+        "warsInRoster": 45,
+        "attacksUsed": 88,
+        "attacksAvailable": 89,
+        "avgDestruction": 94.26136363636364,
+        "totalAttacks": 88,
+        "totalStars": 242,
+        "count3Stars": 70,
+        "avgStars": 2.75,
+        "threeStarRate": 0.7954545454545454,
+        "totalMissed": 0,
+        "avgPositionDiff": 3.125,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#8VCUUPPJP",
         "name": "Satsugai",
         "townhallLevel": 18
@@ -105,42 +141,6 @@
         "threeStarRate": 0.8615384615384616,
         "totalMissed": 1,
         "avgPositionDiff": -2.923076923076923,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#GJ2LQVQJ",
-        "name": "Fer",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.4521860929956465,
-        "rawScore": 2.4521860929956465,
-        "confidence": 1,
-        "tier": "A",
-        "attackScore": 3.319414060811561,
-        "defenseScore": 0.07212874981916342,
-        "reliability": 1,
-        "formScore": 3.5,
-        "warsInRoster": 45,
-        "attacksUsed": 88,
-        "attacksAvailable": 89,
-        "avgDestruction": 94.26136363636364,
-        "totalAttacks": 88,
-        "totalStars": 242,
-        "count3Stars": 70,
-        "avgStars": 2.75,
-        "threeStarRate": 0.7954545454545454,
-        "totalMissed": 0,
-        "avgPositionDiff": 3.125,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -194,12 +194,12 @@
         "townhallLevel": 18
       },
       "data": {
-        "score": 2.435325548873094,
-        "rawScore": 2.435325548873094,
+        "score": 2.4397226326832286,
+        "rawScore": 2.4397226326832286,
         "confidence": 1,
         "tier": "A",
         "attackScore": 3.2787192622291053,
-        "defenseScore": 0.24555383494747848,
+        "defenseScore": 0.263142170188018,
         "reliability": 0.9375,
         "formScore": 3.5,
         "warsInRoster": 39,
@@ -1567,7 +1567,7 @@
     },
     "#QGQJGURCL": {
       "tier": "A",
-      "score": 2.435325548873094,
+      "score": 2.4397226326832286,
       "avgStars": 2.727272727272727,
       "totalStars": 210,
       "totalAttacks": 77,
@@ -1575,7 +1575,7 @@
       "totalMissed": 0,
       "rank": 6,
       "prevRank": 6,
-      "normalizedScore": 69.58
+      "normalizedScore": 69.71
     },
     "#8VCUUPPJP": {
       "tier": "S",
@@ -1585,7 +1585,7 @@
       "totalAttacks": 65,
       "warsInRoster": 33,
       "totalMissed": 1,
-      "rank": 3,
+      "rank": 4,
       "prevRank": 3,
       "normalizedScore": 70.21
     },
@@ -1785,15 +1785,15 @@
     },
     "#GJ2LQVQJ": {
       "tier": "S",
-      "score": 2.4521860929956465,
+      "score": 2.4578148450037878,
       "avgStars": 2.75,
       "totalStars": 242,
       "totalAttacks": 88,
       "warsInRoster": 45,
       "totalMissed": 0,
-      "rank": 4,
+      "rank": 3,
       "prevRank": 4,
-      "normalizedScore": 70.06
+      "normalizedScore": 70.22
     },
     "#YG2C8YVR9": {
       "tier": "B",
