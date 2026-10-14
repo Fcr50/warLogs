@@ -10,8 +10,8 @@
       "opponent": {
         "name": "The Bad Batch",
         "tag": "#2RV0R2JQP",
-        "stars": 42,
-        "destructionPercentage": 56,
+        "stars": 45,
+        "destructionPercentage": 60,
         "members": [
           {
             "tag": "#G8JC882J",
@@ -229,7 +229,14 @@
               "defenderTag": "#YR9QC80JQ"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#U2PPVURR",
+              "attackerMapPosition": 6
+            }
+          ],
           "missedAttacks": 0
         },
         {
