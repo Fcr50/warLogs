@@ -10,8 +10,8 @@
       "opponent": {
         "name": "The Bad Batch",
         "tag": "#2RV0R2JQP",
-        "stars": 53,
-        "destructionPercentage": 71.96,
+        "stars": 63,
+        "destructionPercentage": 84,
         "members": [
           {
             "tag": "#G8JC882J",
@@ -356,6 +356,12 @@
               "destructionPercentage": 99,
               "attackerTag": "#G8JC882J",
               "attackerMapPosition": 9
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#2229GYL8L",
+              "attackerMapPosition": 18
             }
           ],
           "missedAttacks": 0
@@ -379,7 +385,14 @@
               "defenderTag": "#2YQVJLGJC"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#8LQ8RGJJ9",
+              "attackerMapPosition": 14
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -621,7 +634,14 @@
               "defenderTag": "#9LRPJ8P8C"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#8LQ8RGJJ9",
+              "attackerMapPosition": 14
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -832,7 +852,14 @@
               "defenderTag": "#9JUQU2PR0"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#2229GYL8L",
+              "attackerMapPosition": 18
+            }
+          ],
           "missedAttacks": 0
         }
       ]
