@@ -10,8 +10,8 @@
       "opponent": {
         "name": "BD",
         "tag": "#G2JJY8L8",
-        "stars": 13,
-        "destructionPercentage": 15.666667,
+        "stars": 18,
+        "destructionPercentage": 21.633333,
         "members": [
           {
             "tag": "#8QUJRPPPR",
@@ -136,15 +136,10 @@
         ]
       },
       "clan": {
-        "stars": 33,
-        "destructionPercentage": 36.666668
+        "stars": 36,
+        "destructionPercentage": 40
       },
       "sixHourNonAttackers": [
-        {
-          "tag": "#QQC8P9C9R",
-          "name": "Gs.prieto",
-          "townhallLevel": 18
-        },
         {
           "tag": "#LVPLJVLVG",
           "name": "zoldyck",
@@ -258,7 +253,14 @@
           "name": "Gs.prieto",
           "townhallLevel": 18,
           "mapPosition": 12,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 23,
+              "defenderTag": "#2999VLJUV"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -500,7 +502,14 @@
           "townhallLevel": 18,
           "mapPosition": 8,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 79,
+              "attackerTag": "#88YCU8JU",
+              "attackerMapPosition": 8
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -578,7 +587,14 @@
               "defenderTag": "#LL2J2P8U0"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#PQG29QPCJ",
+              "attackerMapPosition": 19
+            }
+          ],
           "missedAttacks": 0
         },
         {
