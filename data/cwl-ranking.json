@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T18:45:24.114Z",
+  "generatedAt": "2026-10-15T19:00:32.246Z",
   "totalWars": 31,
   "liveWar": {
     "opponentName": "BD",
@@ -981,6 +981,42 @@
     },
     {
       "player": {
+        "tag": "#LVPLJVLVG",
+        "name": "zoldyck",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 0.14425,
+        "rawScore": 0.2885,
+        "confidence": 0.5,
+        "tier": "F",
+        "attackScore": 0,
+        "defenseScore": 1.154,
+        "reliability": 0,
+        "formScore": 0,
+        "warsInRoster": 1,
+        "attacksUsed": 0,
+        "attacksAvailable": 2,
+        "avgDestruction": 0,
+        "totalAttacks": 0,
+        "totalStars": 0,
+        "count3Stars": 0,
+        "avgStars": 0,
+        "threeStarRate": 0,
+        "totalMissed": 0,
+        "avgPositionDiff": 0,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#LULYVY8LR",
         "name": "predador",
         "townhallLevel": 18
@@ -1069,42 +1105,6 @@
         "warsInRoster": 0,
         "attacksUsed": 0,
         "attacksAvailable": 0,
-        "avgDestruction": 0,
-        "totalAttacks": 0,
-        "totalStars": 0,
-        "count3Stars": 0,
-        "avgStars": 0,
-        "threeStarRate": 0,
-        "totalMissed": 0,
-        "avgPositionDiff": 0,
-        "hasAnyDefense": false,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.56,
-          "defense": 0,
-          "reliability": 0.3067,
-          "form": 0.1333
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#LVPLJVLVG",
-        "name": "zoldyck",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 0,
-        "rawScore": 0,
-        "confidence": 0.5,
-        "tier": "F",
-        "attackScore": 0,
-        "defenseScore": 0,
-        "reliability": 0,
-        "formScore": 0,
-        "warsInRoster": 1,
-        "attacksUsed": 0,
-        "attacksAvailable": 2,
         "avgDestruction": 0,
         "totalAttacks": 0,
         "totalStars": 0,
@@ -1379,6 +1379,13 @@
   "noDataList": [
     {
       "player": {
+        "tag": "#LVPLJVLVG",
+        "name": "zoldyck",
+        "townhallLevel": 18
+      }
+    },
+    {
+      "player": {
         "tag": "#LULYVY8LR",
         "name": "predador",
         "townhallLevel": 18
@@ -1395,13 +1402,6 @@
       "player": {
         "tag": "#89YL2R89",
         "name": "moe the killer",
-        "townhallLevel": 18
-      }
-    },
-    {
-      "player": {
-        "tag": "#LVPLJVLVG",
-        "name": "zoldyck",
         "townhallLevel": 18
       }
     },
@@ -1477,7 +1477,7 @@
       "warsInRoster": 39,
       "totalMissed": 2,
       "rank": 12,
-      "prevRank": 15,
+      "prevRank": 12,
       "normalizedScore": 64.68
     },
     "#PLU2VCLG": {
@@ -1489,7 +1489,7 @@
       "warsInRoster": 42,
       "totalMissed": 1,
       "rank": 13,
-      "prevRank": 12,
+      "prevRank": 13,
       "normalizedScore": 64.67
     },
     "#QQC8P9C9R": {
@@ -1573,7 +1573,7 @@
       "warsInRoster": 38,
       "totalMissed": 0,
       "rank": 6,
-      "prevRank": 4,
+      "prevRank": 6,
       "normalizedScore": 69.92
     },
     "#VPPQ8VLV": {
@@ -1643,7 +1643,7 @@
       "warsInRoster": 32,
       "totalMissed": 0,
       "rank": 5,
-      "prevRank": 6,
+      "prevRank": 5,
       "normalizedScore": 70.56
     },
     "#2C9PLV9R2": {
@@ -1668,7 +1668,7 @@
     },
     "#LVPLJVLVG": {
       "tier": "F",
-      "score": 0,
+      "score": 0.14425,
       "avgStars": 0,
       "totalStars": 0,
       "totalAttacks": 0,
@@ -1765,7 +1765,7 @@
       "warsInRoster": 44,
       "totalMissed": 0,
       "rank": 4,
-      "prevRank": 5,
+      "prevRank": 4,
       "normalizedScore": 70.8
     },
     "#PPPUQPVJY": {
@@ -1869,15 +1869,15 @@
       "normalizedScore": 0
     },
     "#GQU9Y0CQ8": {
-      "tier": "A",
+      "tier": "B",
       "score": 2.2266556698711133,
       "avgStars": 2.396551724137931,
       "totalStars": 139,
       "totalAttacks": 58,
       "warsInRoster": 31,
       "totalMissed": 2,
-      "rank": 14,
-      "prevRank": 13,
+      "rank": 15,
+      "prevRank": 14,
       "normalizedScore": 63.62
     },
     "#2QP9JGYVG": {
@@ -1891,16 +1891,16 @@
       "normalizedScore": 0
     },
     "#URR0QLV": {
-      "tier": "B",
-      "score": 2.225112490950482,
+      "tier": "A",
+      "score": 2.259598397066975,
       "avgStars": 2.8378378378378377,
       "totalStars": 105,
       "totalAttacks": 37,
       "warsInRoster": 19,
       "totalMissed": 1,
-      "rank": 15,
-      "prevRank": 14,
-      "normalizedScore": 63.57
+      "rank": 14,
+      "prevRank": 15,
+      "normalizedScore": 64.56
     },
     "#YRCLVY099": {
       "tier": "B",
