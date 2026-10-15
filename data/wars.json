@@ -10,8 +10,8 @@
       "opponent": {
         "name": "BD",
         "tag": "#G2JJY8L8",
-        "stars": 0,
-        "destructionPercentage": 0,
+        "stars": 2,
+        "destructionPercentage": 2.4,
         "members": [
           {
             "tag": "#8QUJRPPPR",
@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 9,
-        "destructionPercentage": 10
+        "stars": 18,
+        "destructionPercentage": 20
       },
       "sixHourNonAttackers": [
         {
@@ -166,11 +166,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#2GP2JUU2",
-          "name": "Gustavo Lázaro",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#LQQRGJ8VU",
           "name": "i-Vinni",
           "townhallLevel": 18
@@ -193,11 +188,6 @@
         {
           "tag": "#QGQJGURCL",
           "name": "SAFONOV",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#GJ2LQVQJ",
-          "name": "Fer",
           "townhallLevel": 18
         },
         {
@@ -228,11 +218,6 @@
         {
           "tag": "#29JQ2PCVL",
           "name": "¥vini¥",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#GGVCRYP8P",
-          "name": "gui",
           "townhallLevel": 18
         },
         {
@@ -359,7 +344,14 @@
           "name": "Gustavo Lázaro",
           "townhallLevel": 18,
           "mapPosition": 6,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 5,
+              "defenderTag": "#PVQ2Y2LJQ"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -405,7 +397,14 @@
           "townhallLevel": 18,
           "mapPosition": 1,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 72,
+              "attackerTag": "#YPQ099UVU",
+              "attackerMapPosition": 3
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -413,7 +412,14 @@
           "name": "Fer",
           "townhallLevel": 18,
           "mapPosition": 2,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 6,
+              "defenderTag": "#9G20JCG8G"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -492,7 +498,14 @@
           "name": "gui",
           "townhallLevel": 18,
           "mapPosition": 17,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 4,
+              "defenderTag": "#9GCY88GY0"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
