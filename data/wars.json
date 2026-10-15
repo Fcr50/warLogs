@@ -10,8 +10,8 @@
       "opponent": {
         "name": "BD",
         "tag": "#G2JJY8L8",
-        "stars": 6,
-        "destructionPercentage": 8.533334,
+        "stars": 9,
+        "destructionPercentage": 12.266666,
         "members": [
           {
             "tag": "#8QUJRPPPR",
@@ -136,15 +136,10 @@
         ]
       },
       "clan": {
-        "stars": 23,
-        "destructionPercentage": 26.5
+        "stars": 33,
+        "destructionPercentage": 36.666668
       },
       "sixHourNonAttackers": [
-        {
-          "tag": "#8VCUUPPJP",
-          "name": "Satsugai",
-          "townhallLevel": 18
-        },
         {
           "tag": "#QQC8P9C9R",
           "name": "Gs.prieto",
@@ -216,11 +211,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#YPVQVU982",
-          "name": "亗 ＨＡＤＥＳ_０７ 亗",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#LYJG0L8G",
           "name": "GLADIADOR!!!",
           "townhallLevel": 18
@@ -233,11 +223,6 @@
         {
           "tag": "#2C9PLV9R2",
           "name": "theus",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QJVQVRPU",
-          "name": "Frnnn",
           "townhallLevel": 18
         },
         {
@@ -257,7 +242,14 @@
           "name": "Satsugai",
           "townhallLevel": 18,
           "mapPosition": 11,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 14,
+              "defenderTag": "#L8YYCUU2Y"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -349,7 +341,14 @@
               "defenderTag": "#PVQ2Y2LJQ"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 98,
+              "attackerTag": "#L8YYCUU2Y",
+              "attackerMapPosition": 11
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -419,6 +418,18 @@
           ],
           "defensesReceived": [
             {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#9G20JCG8G",
+              "attackerMapPosition": 2
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 96,
+              "attackerTag": "#L8YYCUU2Y",
+              "attackerMapPosition": 11
+            },
+            {
               "stars": 2,
               "destructionPercentage": 86,
               "attackerTag": "#QV0PLYG88",
@@ -447,6 +458,12 @@
               "destructionPercentage": 100,
               "order": 8,
               "defenderTag": "#8VRLYV2CQ"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 12,
+              "defenderTag": "#QY2JUP9VY"
             }
           ],
           "defensesReceived": [],
@@ -529,6 +546,12 @@
           "defensesReceived": [
             {
               "stars": 2,
+              "destructionPercentage": 86,
+              "attackerTag": "#9G20JCG8G",
+              "attackerMapPosition": 2
+            },
+            {
+              "stars": 2,
               "destructionPercentage": 98,
               "attackerTag": "#QV0PLYG88",
               "attackerMapPosition": 7
@@ -541,7 +564,14 @@
           "name": "亗 ＨＡＤＥＳ_０７ 亗",
           "townhallLevel": 18,
           "mapPosition": 5,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 13,
+              "defenderTag": "#LL2J2P8U0"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -577,7 +607,14 @@
           "name": "Frnnn",
           "townhallLevel": 18,
           "mapPosition": 4,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 19,
+              "defenderTag": "#Y8PUJYUY0"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
