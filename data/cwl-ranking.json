@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T11:30:29.808Z",
+  "generatedAt": "2026-10-16T11:45:31.714Z",
   "totalWars": 31,
   "liveWar": {
     "opponentName": "BD",
@@ -189,42 +189,6 @@
     },
     {
       "player": {
-        "tag": "#2QL0VR9GU",
-        "name": "Marcola",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.395512362460238,
-        "rawScore": 2.395512362460238,
-        "confidence": 1,
-        "tier": "A",
-        "attackScore": 3.2157262944151666,
-        "defenseScore": 0.27308088812669734,
-        "reliability": 0.9483870967741935,
-        "formScore": 3.2225,
-        "warsInRoster": 38,
-        "attacksUsed": 74,
-        "attacksAvailable": 76,
-        "avgDestruction": 96.28378378378379,
-        "totalAttacks": 74,
-        "totalStars": 196,
-        "count3Stars": 50,
-        "avgStars": 2.6486486486486487,
-        "threeStarRate": 0.6756756756756757,
-        "totalMissed": 0,
-        "avgPositionDiff": -3.2972972972972974,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
         "tag": "#GGVCRYP8P",
         "name": "gui",
         "townhallLevel": 18
@@ -321,6 +285,42 @@
         "threeStarRate": 0.7333333333333333,
         "totalMissed": 0,
         "avgPositionDiff": 1.76,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#2QL0VR9GU",
+        "name": "Marcola",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.3613766636708915,
+        "rawScore": 2.3613766636708915,
+        "confidence": 1,
+        "tier": "A",
+        "attackScore": 3.2157262944151666,
+        "defenseScore": 0.13653809296931235,
+        "reliability": 0.9483870967741935,
+        "formScore": 3.2225,
+        "warsInRoster": 38,
+        "attacksUsed": 74,
+        "attacksAvailable": 76,
+        "avgDestruction": 96.28378378378379,
+        "totalAttacks": 74,
+        "totalStars": 196,
+        "count3Stars": 50,
+        "avgStars": 2.6486486486486487,
+        "threeStarRate": 0.6756756756756757,
+        "totalMissed": 0,
+        "avgPositionDiff": -3.2972972972972974,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1293,13 +1293,13 @@
         "threeStarRate": 0,
         "totalMissed": 0,
         "avgPositionDiff": 0,
-        "hasAnyDefense": false,
+        "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
-          "attack": 0.56,
-          "defense": 0,
-          "reliability": 0.3067,
-          "form": 0.1333
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
         }
       }
     },
@@ -1491,7 +1491,7 @@
       "totalAttacks": 75,
       "warsInRoster": 38,
       "totalMissed": 0,
-      "rank": 9,
+      "rank": 8,
       "prevRank": 9,
       "normalizedScore": 68.14
     },
@@ -1521,15 +1521,15 @@
     },
     "#2QL0VR9GU": {
       "tier": "A",
-      "score": 2.395512362460238,
+      "score": 2.3613766636708915,
       "avgStars": 2.6486486486486487,
       "totalStars": 196,
       "totalAttacks": 74,
       "warsInRoster": 38,
       "totalMissed": 0,
-      "rank": 6,
+      "rank": 9,
       "prevRank": 6,
-      "normalizedScore": 68.44
+      "normalizedScore": 67.47
     },
     "#YPVQVU982": {
       "tier": "B",
@@ -1551,7 +1551,7 @@
       "totalAttacks": 83,
       "warsInRoster": 42,
       "totalMissed": 0,
-      "rank": 7,
+      "rank": 6,
       "prevRank": 7,
       "normalizedScore": 68.3
     },
@@ -1599,7 +1599,7 @@
       "totalAttacks": 72,
       "warsInRoster": 36,
       "totalMissed": 0,
-      "rank": 8,
+      "rank": 7,
       "prevRank": 8,
       "normalizedScore": 68.22
     },
