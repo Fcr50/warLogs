@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-16T02:30:25.275Z",
+  "generatedAt": "2026-10-16T02:45:24.102Z",
   "totalWars": 31,
   "liveWar": {
     "opponentName": "BD",
-    "totalAttacksDone": 40,
+    "totalAttacksDone": 44,
     "totalAttacksExpected": 60
   },
   "ranking": [
@@ -374,25 +374,25 @@
         "townhallLevel": 18
       },
       "data": {
-        "score": 2.2720642845659857,
-        "rawScore": 2.2720642845659857,
+        "score": 2.3352109012054063,
+        "rawScore": 2.3352109012054063,
         "confidence": 1,
         "tier": "A",
-        "attackScore": 2.9455295749226442,
+        "attackScore": 3.09587866215936,
         "defenseScore": 0.3062190652971267,
         "reliability": 0.8817204301075269,
         "formScore": 3.5,
         "warsInRoster": 33,
-        "attacksUsed": 57,
+        "attacksUsed": 59,
         "attacksAvailable": 66,
-        "avgDestruction": 96.64912280701755,
-        "totalAttacks": 57,
-        "totalStars": 158,
-        "count3Stars": 48,
-        "avgStars": 2.7719298245614037,
-        "threeStarRate": 0.8421052631578947,
+        "avgDestruction": 96.76271186440678,
+        "totalAttacks": 59,
+        "totalStars": 164,
+        "count3Stars": 50,
+        "avgStars": 2.7796610169491527,
+        "threeStarRate": 0.847457627118644,
         "totalMissed": 6,
-        "avgPositionDiff": -3.6315789473684212,
+        "avgPositionDiff": -3.9661016949152543,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -981,6 +981,42 @@
     },
     {
       "player": {
+        "tag": "#LVPLJVLVG",
+        "name": "zoldyck",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 0.8440044999999999,
+        "rawScore": 1.6880089999999999,
+        "confidence": 0.5,
+        "tier": "C",
+        "attackScore": 2.74645,
+        "defenseScore": 1.154,
+        "reliability": 0,
+        "formScore": 2.46,
+        "warsInRoster": 1,
+        "attacksUsed": 2,
+        "attacksAvailable": 2,
+        "avgDestruction": 96,
+        "totalAttacks": 2,
+        "totalStars": 4,
+        "count3Stars": 1,
+        "avgStars": 2,
+        "threeStarRate": 0.5,
+        "totalMissed": 0,
+        "avgPositionDiff": -23.5,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#20JC0J9JR",
         "name": "BTV✯Robin Hood",
         "townhallLevel": 18
@@ -1048,42 +1084,6 @@
           "defense": 0,
           "reliability": 0.3067,
           "form": 0.1333
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#LVPLJVLVG",
-        "name": "zoldyck",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 0.14425,
-        "rawScore": 0.2885,
-        "confidence": 0.5,
-        "tier": "F",
-        "attackScore": 0,
-        "defenseScore": 1.154,
-        "reliability": 0,
-        "formScore": 0,
-        "warsInRoster": 1,
-        "attacksUsed": 0,
-        "attacksAvailable": 2,
-        "avgDestruction": 0,
-        "totalAttacks": 0,
-        "totalStars": 0,
-        "count3Stars": 0,
-        "avgStars": 0,
-        "threeStarRate": 0,
-        "totalMissed": 0,
-        "avgPositionDiff": 0,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
         }
       }
     },
@@ -1379,13 +1379,6 @@
   "noDataList": [
     {
       "player": {
-        "tag": "#LVPLJVLVG",
-        "name": "zoldyck",
-        "townhallLevel": 18
-      }
-    },
-    {
-      "player": {
         "tag": "#LULYVY8LR",
         "name": "predador",
         "townhallLevel": 18
@@ -1612,15 +1605,15 @@
     },
     "#L8RG2PV0G": {
       "tier": "A",
-      "score": 2.2720642845659857,
-      "avgStars": 2.7719298245614037,
-      "totalStars": 158,
-      "totalAttacks": 57,
+      "score": 2.3352109012054063,
+      "avgStars": 2.7796610169491527,
+      "totalStars": 164,
+      "totalAttacks": 59,
       "warsInRoster": 33,
       "totalMissed": 6,
       "rank": 11,
       "prevRank": 11,
-      "normalizedScore": 64.92
+      "normalizedScore": 66.72
     },
     "#8VCUUPPJP": {
       "tier": "A",
@@ -1652,7 +1645,7 @@
       "totalAttacks": 1,
       "warsInRoster": 1,
       "totalMissed": 0,
-      "rank": 31,
+      "rank": 32,
       "prevRank": 31,
       "normalizedScore": 23.28
     },
@@ -1679,14 +1672,15 @@
       "normalizedScore": 0
     },
     "#LVPLJVLVG": {
-      "tier": "F",
-      "score": 0.14425,
-      "avgStars": 0,
-      "totalStars": 0,
-      "totalAttacks": 0,
+      "tier": "C",
+      "score": 0.8440044999999999,
+      "avgStars": 2,
+      "totalStars": 4,
+      "totalAttacks": 2,
       "warsInRoster": 1,
       "totalMissed": 0,
-      "normalizedScore": 0
+      "rank": 30,
+      "normalizedScore": 24.11
     },
     "#RC82GPG": {
       "tier": "B",
@@ -1779,7 +1773,7 @@
       "warsInRoster": 34,
       "totalMissed": 12,
       "rank": 20,
-      "prevRank": 21,
+      "prevRank": 20,
       "normalizedScore": 53.23
     },
     "#LUR09RUP2": {
@@ -1823,7 +1817,7 @@
       "warsInRoster": 43,
       "totalMissed": 1,
       "rank": 21,
-      "prevRank": 20,
+      "prevRank": 21,
       "normalizedScore": 51.1
     },
     "#20JC0J9JR": {
@@ -1834,7 +1828,7 @@
       "totalAttacks": 27,
       "warsInRoster": 27,
       "totalMissed": 15,
-      "rank": 30,
+      "rank": 31,
       "prevRank": 30,
       "normalizedScore": 24.08
     },
@@ -1922,7 +1916,7 @@
       "totalAttacks": 10,
       "warsInRoster": 9,
       "totalMissed": 5,
-      "rank": 32,
+      "rank": 33,
       "prevRank": 32,
       "normalizedScore": 21.71
     },
