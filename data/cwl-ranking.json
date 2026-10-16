@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T12:00:31.583Z",
+  "generatedAt": "2026-10-16T12:15:26.372Z",
   "totalWars": 31,
   "liveWar": {
     "opponentName": "BD",
@@ -842,12 +842,12 @@
         "townhallLevel": 18
       },
       "data": {
-        "score": 1.4650550698108056,
-        "rawScore": 1.4650550698108056,
+        "score": 1.4564354159554826,
+        "rawScore": 1.4564354159554826,
         "confidence": 1,
         "tier": "C",
         "attackScore": 1.617395053491821,
-        "defenseScore": 0.3729827644921693,
+        "defenseScore": 0.33850414907087834,
         "reliability": 0.8423963133640553,
         "formScore": 1.1125,
         "warsInRoster": 30,
@@ -909,42 +909,6 @@
     },
     {
       "player": {
-        "tag": "#20CY00CU9",
-        "name": "-Bonb- ||",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 1.04259225,
-        "rawScore": 2.0851845,
-        "confidence": 0.5,
-        "tier": "C",
-        "attackScore": 3.03205,
-        "defenseScore": 0,
-        "reliability": 0,
-        "formScore": 2.9050000000000002,
-        "warsInRoster": 1,
-        "attacksUsed": 2,
-        "attacksAvailable": 2,
-        "avgDestruction": 90.5,
-        "totalAttacks": 2,
-        "totalStars": 5,
-        "count3Stars": 1,
-        "avgStars": 2.5,
-        "threeStarRate": 0.5,
-        "totalMissed": 0,
-        "avgPositionDiff": -11,
-        "hasAnyDefense": false,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.56,
-          "defense": 0,
-          "reliability": 0.3067,
-          "form": 0.1333
-        }
-      }
-    },
-    {
-      "player": {
         "tag": "#YG2C8YVR9",
         "name": "Saymon",
         "townhallLevel": 18
@@ -969,6 +933,42 @@
         "threeStarRate": 0.6666666666666666,
         "totalMissed": 1,
         "avgPositionDiff": -0.3333333333333333,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#20CY00CU9",
+        "name": "-Bonb- ||",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 0.9166055,
+        "rawScore": 1.833211,
+        "confidence": 0.5,
+        "tier": "C",
+        "attackScore": 3.03205,
+        "defenseScore": 1.077,
+        "reliability": 0,
+        "formScore": 2.9050000000000002,
+        "warsInRoster": 1,
+        "attacksUsed": 2,
+        "attacksAvailable": 2,
+        "avgDestruction": 90.5,
+        "totalAttacks": 2,
+        "totalStars": 5,
+        "count3Stars": 1,
+        "avgStars": 2.5,
+        "threeStarRate": 0.5,
+        "totalMissed": 0,
+        "avgPositionDiff": -11,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1661,15 +1661,15 @@
     },
     "#20CY00CU9": {
       "tier": "B",
-      "score": 1.04259225,
+      "score": 0.9166055,
       "avgStars": 2.5,
       "totalStars": 5,
       "totalAttacks": 2,
       "warsInRoster": 1,
       "totalMissed": 0,
-      "rank": 28,
+      "rank": 29,
       "prevRank": 28,
-      "normalizedScore": 29.79
+      "normalizedScore": 26.19
     },
     "#LVPLJVLVG": {
       "tier": "C",
@@ -1721,7 +1721,7 @@
     },
     "#QJLQLUURY": {
       "tier": "B",
-      "score": 1.4650550698108056,
+      "score": 1.4564354159554826,
       "avgStars": 2.0689655172413794,
       "totalStars": 120,
       "totalAttacks": 58,
@@ -1729,7 +1729,7 @@
       "totalMissed": 2,
       "rank": 26,
       "prevRank": 26,
-      "normalizedScore": 41.86
+      "normalizedScore": 41.61
     },
     "#29LP0VJV0": {
       "tier": "S",
@@ -1774,7 +1774,7 @@
       "warsInRoster": 34,
       "totalMissed": 12,
       "rank": 21,
-      "prevRank": 22,
+      "prevRank": 21,
       "normalizedScore": 50.62
     },
     "#LUR09RUP2": {
@@ -1805,7 +1805,7 @@
       "totalAttacks": 3,
       "warsInRoster": 2,
       "totalMissed": 1,
-      "rank": 29,
+      "rank": 28,
       "prevRank": 29,
       "normalizedScore": 29.66
     },
@@ -1818,7 +1818,7 @@
       "warsInRoster": 43,
       "totalMissed": 1,
       "rank": 20,
-      "prevRank": 21,
+      "prevRank": 20,
       "normalizedScore": 50.72
     },
     "#20JC0J9JR": {
@@ -1884,7 +1884,7 @@
       "warsInRoster": 12,
       "totalMissed": 2,
       "rank": 22,
-      "prevRank": 20,
+      "prevRank": 22,
       "normalizedScore": 50.06
     },
     "#URR0QLV": {
