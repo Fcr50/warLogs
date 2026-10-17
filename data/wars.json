@@ -10,8 +10,8 @@
       "opponent": {
         "name": "У.К.Р.А.Ї.Н.А.",
         "tag": "#L0CY2920",
-        "stars": 30,
-        "destructionPercentage": 42.76,
+        "stars": 41,
+        "destructionPercentage": 55.76,
         "members": [
           {
             "tag": "#Y0CYRL9V0",
@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 35,
-        "destructionPercentage": 46.96
+        "stars": 39,
+        "destructionPercentage": 52
       },
       "sixHourNonAttackers": [
         {
@@ -139,11 +139,6 @@
           "tag": "#YRCLVY099",
           "name": "GLADIADOR - SP",
           "townhallLevel": 17
-        },
-        {
-          "tag": "#8YJYY92GC",
-          "name": "RussiaN",
-          "townhallLevel": 18
         },
         {
           "tag": "#2GP2JUU2",
@@ -299,7 +294,14 @@
           "name": "RussiaN",
           "townhallLevel": 18,
           "mapPosition": 21,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 32,
+              "defenderTag": "#LV9GP9VUG"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -324,6 +326,12 @@
               "attackerMapPosition": 24
             },
             {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#88VVYQP2P",
+              "attackerMapPosition": 1
+            },
+            {
               "stars": 2,
               "destructionPercentage": 96,
               "attackerTag": "#Y2LYQRUVY",
@@ -338,7 +346,14 @@
           "townhallLevel": 18,
           "mapPosition": 7,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#QU2LVLQ2P",
+              "attackerMapPosition": 11
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -456,7 +471,14 @@
               "defenderTag": "#QGYQ9PUJY"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#QLURGPV2J",
+              "attackerMapPosition": 7
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -472,7 +494,14 @@
               "defenderTag": "#Y0CYRL9V0"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#QGYQ9PUJY",
+              "attackerMapPosition": 6
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -517,6 +546,12 @@
               "destructionPercentage": 100,
               "order": 26,
               "defenderTag": "#P0Y2QPJ8Q"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 28,
+              "defenderTag": "#VQ8PL0CQ"
             }
           ],
           "defensesReceived": [],
@@ -582,6 +617,12 @@
               "destructionPercentage": 79,
               "attackerTag": "#88VVYQP2P",
               "attackerMapPosition": 1
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#QGYQ9PUJY",
+              "attackerMapPosition": 6
             }
           ],
           "missedAttacks": 0
