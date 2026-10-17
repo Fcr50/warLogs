@@ -10,8 +10,8 @@
       "opponent": {
         "name": "У.К.Р.А.Ї.Н.А.",
         "tag": "#L0CY2920",
-        "stars": 61,
-        "destructionPercentage": 83.68,
+        "stars": 69,
+        "destructionPercentage": 92,
         "members": [
           {
             "tag": "#Y0CYRL9V0",
@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 47,
-        "destructionPercentage": 63.52
+        "stars": 50,
+        "destructionPercentage": 67.52
       },
       "sixHourNonAttackers": [
         {
@@ -144,11 +144,6 @@
           "tag": "#GJ2LQVQJ",
           "name": "Fer",
           "townhallLevel": 18
-        },
-        {
-          "tag": "#URR0QLV",
-          "name": "Victor Daniel",
-          "townhallLevel": 17
         },
         {
           "tag": "#P9C0LVLU2",
@@ -285,6 +280,12 @@
           "mapPosition": 25,
           "attacks": [],
           "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#LC8URU8C",
+              "attackerMapPosition": 23
+            },
             {
               "stars": 1,
               "destructionPercentage": 92,
@@ -445,7 +446,14 @@
               "defenderTag": "#8VULRYVQC"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#GVLCJL9Y",
+              "attackerMapPosition": 2
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -498,7 +506,14 @@
           "name": "Victor Daniel",
           "townhallLevel": 17,
           "mapPosition": 24,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 48,
+              "defenderTag": "#9YYCJJ9RC"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -574,7 +589,14 @@
               "defenderTag": "#Y902C08QJ"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#298PCJPV",
+              "attackerMapPosition": 22
+            }
+          ],
           "missedAttacks": 0
         },
         {
