@@ -10,8 +10,8 @@
       "opponent": {
         "name": "У.К.Р.А.Ї.Н.А.",
         "tag": "#L0CY2920",
-        "stars": 28,
-        "destructionPercentage": 39.6,
+        "stars": 30,
+        "destructionPercentage": 42.76,
         "members": [
           {
             "tag": "#Y0CYRL9V0",
@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 29,
-        "destructionPercentage": 39.08
+        "stars": 35,
+        "destructionPercentage": 46.96
       },
       "sixHourNonAttackers": [
         {
@@ -133,11 +133,6 @@
         {
           "tag": "#YG2C8YVR9",
           "name": "Saymon",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#2QL0VR9GU",
-          "name": "Marcola",
           "townhallLevel": 18
         },
         {
@@ -173,11 +168,6 @@
         {
           "tag": "#29JQ2PCVL",
           "name": "¥vini¥",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#GGVCRYP8P",
-          "name": "gui",
           "townhallLevel": 18
         },
         {
@@ -277,7 +267,14 @@
           "name": "Marcola",
           "townhallLevel": 18,
           "mapPosition": 10,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 74,
+              "order": 24,
+              "defenderTag": "#VQ8PL0CQ"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -489,6 +486,12 @@
               "destructionPercentage": 100,
               "order": 22,
               "defenderTag": "#P0P22C09V"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 23,
+              "defenderTag": "#Y902C08QJ"
             }
           ],
           "defensesReceived": [],
@@ -508,7 +511,14 @@
           "name": "gui",
           "townhallLevel": 18,
           "mapPosition": 14,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 26,
+              "defenderTag": "#P0Y2QPJ8Q"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -566,7 +576,14 @@
               "defenderTag": "#8GYGCRQJL"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 79,
+              "attackerTag": "#88VVYQP2P",
+              "attackerMapPosition": 1
+            }
+          ],
           "missedAttacks": 0
         },
         {
