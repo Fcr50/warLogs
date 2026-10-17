@@ -10,8 +10,8 @@
       "opponent": {
         "name": "У.К.Р.А.Ї.Н.А.",
         "tag": "#L0CY2920",
-        "stars": 51,
-        "destructionPercentage": 68,
+        "stars": 60,
+        "destructionPercentage": 83.4,
         "members": [
           {
             "tag": "#Y0CYRL9V0",
@@ -294,7 +294,14 @@
           "townhallLevel": 17,
           "mapPosition": 25,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 1,
+              "destructionPercentage": 92,
+              "attackerTag": "#G0220VVU8",
+              "attackerMapPosition": 17
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -400,7 +407,20 @@
               "defenderTag": "#9QPCY9202"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 0,
+              "destructionPercentage": 0,
+              "attackerTag": "#292RQ9L9J",
+              "attackerMapPosition": 5
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 93,
+              "attackerTag": "#P0Y2QPJ8Q",
+              "attackerMapPosition": 14
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -554,7 +574,14 @@
           "townhallLevel": 18,
           "mapPosition": 16,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#P0Y2QPJ8Q",
+              "attackerMapPosition": 14
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -662,7 +689,14 @@
           "townhallLevel": 18,
           "mapPosition": 17,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#292RQ9L9J",
+              "attackerMapPosition": 5
+            }
+          ],
           "missedAttacks": 0
         }
       ]
