@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T12:15:23.755Z",
+  "generatedAt": "2026-10-18T12:30:25.861Z",
   "totalWars": 30,
   "liveWar": {
     "opponentName": "У.К.Р.А.Ї.Н.А.",
@@ -1053,6 +1053,42 @@
     },
     {
       "player": {
+        "tag": "#9UJ8LJPQ0",
+        "name": "King",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 0,
+        "rawScore": 0,
+        "confidence": 0,
+        "tier": "F",
+        "attackScore": 0,
+        "defenseScore": 0,
+        "reliability": 0,
+        "formScore": 0,
+        "warsInRoster": 0,
+        "attacksUsed": 0,
+        "attacksAvailable": 0,
+        "avgDestruction": 0,
+        "totalAttacks": 0,
+        "totalStars": 0,
+        "count3Stars": 0,
+        "avgStars": 0,
+        "threeStarRate": 0,
+        "totalMissed": 0,
+        "avgPositionDiff": 0,
+        "hasAnyDefense": false,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.56,
+          "defense": 0,
+          "reliability": 0.3067,
+          "form": 0.1333
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#20GCLV88L",
         "name": "Chacal_^",
         "townhallLevel": 18
@@ -1091,42 +1127,6 @@
       "player": {
         "tag": "#GRLPU9R9",
         "name": "Eder",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 0,
-        "rawScore": 0,
-        "confidence": 0,
-        "tier": "F",
-        "attackScore": 0,
-        "defenseScore": 0,
-        "reliability": 0,
-        "formScore": 0,
-        "warsInRoster": 0,
-        "attacksUsed": 0,
-        "attacksAvailable": 0,
-        "avgDestruction": 0,
-        "totalAttacks": 0,
-        "totalStars": 0,
-        "count3Stars": 0,
-        "avgStars": 0,
-        "threeStarRate": 0,
-        "totalMissed": 0,
-        "avgPositionDiff": 0,
-        "hasAnyDefense": false,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.56,
-          "defense": 0,
-          "reliability": 0.3067,
-          "form": 0.1333
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#9UJ8LJPQ0",
-        "name": "King",
         "townhallLevel": 18
       },
       "data": {
@@ -1494,6 +1494,13 @@
     },
     {
       "player": {
+        "tag": "#9UJ8LJPQ0",
+        "name": "King",
+        "townhallLevel": 18
+      }
+    },
+    {
+      "player": {
         "tag": "#20GCLV88L",
         "name": "Chacal_^",
         "townhallLevel": 18
@@ -1503,13 +1510,6 @@
       "player": {
         "tag": "#GRLPU9R9",
         "name": "Eder",
-        "townhallLevel": 18
-      }
-    },
-    {
-      "player": {
-        "tag": "#9UJ8LJPQ0",
-        "name": "King",
         "townhallLevel": 18
       }
     },
@@ -1732,6 +1732,16 @@
       "prevRank": 5,
       "normalizedScore": 70.41
     },
+    "#9UJ8LJPQ0": {
+      "tier": "F",
+      "score": 0,
+      "avgStars": 0,
+      "totalStars": 0,
+      "totalAttacks": 0,
+      "warsInRoster": 0,
+      "totalMissed": 0,
+      "normalizedScore": 0
+    },
     "#20GCLV88L": {
       "tier": "F",
       "score": 0,
@@ -1764,15 +1774,17 @@
       "prevRank": 26,
       "normalizedScore": 37.76
     },
-    "#9UJ8LJPQ0": {
-      "tier": "F",
-      "score": 0,
-      "avgStars": 0,
-      "totalStars": 0,
-      "totalAttacks": 0,
-      "warsInRoster": 0,
-      "totalMissed": 0,
-      "normalizedScore": 0
+    "#QJLQLUURY": {
+      "tier": "B",
+      "score": 1.4589176740199985,
+      "avgStars": 2.0689655172413794,
+      "totalStars": 120,
+      "totalAttacks": 58,
+      "warsInRoster": 30,
+      "totalMissed": 2,
+      "rank": 24,
+      "prevRank": 24,
+      "normalizedScore": 41.68
     },
     "#8V022ULQJ": {
       "tier": "F",
@@ -1819,18 +1831,6 @@
       "rank": 13,
       "prevRank": 13,
       "normalizedScore": 63.07
-    },
-    "#QJLQLUURY": {
-      "tier": "B",
-      "score": 1.4589176740199985,
-      "avgStars": 2.0689655172413794,
-      "totalStars": 120,
-      "totalAttacks": 58,
-      "warsInRoster": 30,
-      "totalMissed": 2,
-      "rank": 24,
-      "prevRank": 24,
-      "normalizedScore": 41.68
     },
     "#29LP0VJV0": {
       "tier": "S",
