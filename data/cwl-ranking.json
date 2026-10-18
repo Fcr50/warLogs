@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-18T03:45:26.058Z",
+  "generatedAt": "2026-10-18T04:00:27.841Z",
   "totalWars": 30,
   "liveWar": {
     "opponentName": "У.К.Р.А.Ї.Н.А.",
-    "totalAttacksDone": 33,
+    "totalAttacksDone": 35,
     "totalAttacksExpected": 50
   },
   "ranking": [
@@ -909,6 +909,42 @@
     },
     {
       "player": {
+        "tag": "#YG2C8YVR9",
+        "name": "Saymon",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 1.2389457418552399,
+        "rawScore": 1.7699224883646285,
+        "confidence": 0.7,
+        "tier": "B",
+        "attackScore": 2.5976725913443537,
+        "defenseScore": 0,
+        "reliability": 0.4766666666666666,
+        "formScore": 3.5,
+        "warsInRoster": 3,
+        "attacksUsed": 5,
+        "attacksAvailable": 6,
+        "avgDestruction": 99.4,
+        "totalAttacks": 5,
+        "totalStars": 14,
+        "count3Stars": 4,
+        "avgStars": 2.8,
+        "threeStarRate": 0.8,
+        "totalMissed": 1,
+        "avgPositionDiff": -0.4,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#LVPLJVLVG",
         "name": "zoldyck",
         "townhallLevel": 18
@@ -969,42 +1005,6 @@
         "threeStarRate": 0.9615384615384616,
         "totalMissed": 15,
         "avgPositionDiff": -2.269230769230769,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#YG2C8YVR9",
-        "name": "Saymon",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 0.7935479054054052,
-        "rawScore": 1.1336398648648647,
-        "confidence": 0.7,
-        "tier": "B",
-        "attackScore": 1.9160472972972973,
-        "defenseScore": 0,
-        "reliability": 0.4766666666666666,
-        "formScore": 0,
-        "warsInRoster": 3,
-        "attacksUsed": 3,
-        "attacksAvailable": 6,
-        "avgDestruction": 99,
-        "totalAttacks": 3,
-        "totalStars": 8,
-        "count3Stars": 2,
-        "avgStars": 2.6666666666666665,
-        "threeStarRate": 0.6666666666666666,
-        "totalMissed": 1,
-        "avgPositionDiff": -0.3333333333333333,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1825,7 +1825,7 @@
       "totalAttacks": 4,
       "warsInRoster": 2,
       "totalMissed": 0,
-      "rank": 28,
+      "rank": 29,
       "prevRank": 28,
       "normalizedScore": 29.41
     },
@@ -2020,16 +2020,16 @@
       "normalizedScore": 0
     },
     "#YG2C8YVR9": {
-      "tier": "C",
-      "score": 0.7935479054054052,
-      "avgStars": 2.6666666666666665,
-      "totalStars": 8,
-      "totalAttacks": 3,
+      "tier": "B",
+      "score": 1.2389457418552399,
+      "avgStars": 2.8,
+      "totalStars": 14,
+      "totalAttacks": 5,
       "warsInRoster": 3,
       "totalMissed": 1,
-      "rank": 30,
+      "rank": 28,
       "prevRank": 30,
-      "normalizedScore": 22.67
+      "normalizedScore": 35.4
     },
     "#LQQRGJ8VU": {
       "tier": "B",
@@ -2044,14 +2044,14 @@
       "normalizedScore": 51.06
     },
     "#20JC0J9JR": {
-      "tier": "B",
+      "tier": "C",
       "score": 0.8318483340701432,
       "avgStars": 2.9615384615384617,
       "totalStars": 77,
       "totalAttacks": 26,
       "warsInRoster": 26,
       "totalMissed": 15,
-      "rank": 29,
+      "rank": 30,
       "prevRank": 29,
       "normalizedScore": 23.77
     },
