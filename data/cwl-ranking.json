@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-19T19:31:00.709Z",
+  "generatedAt": "2026-10-19T19:45:27.399Z",
   "totalWars": 31,
   "liveWar": {
     "opponentName": "PSYCHØ GÄMËRS☺",
-    "totalAttacksDone": 21,
+    "totalAttacksDone": 23,
     "totalAttacksExpected": 50
   },
   "ranking": [
@@ -81,6 +81,42 @@
     },
     {
       "player": {
+        "tag": "#2GP2JUU2",
+        "name": "Gustavo Lázaro",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.504676811272467,
+        "rawScore": 2.504676811272467,
+        "confidence": 1,
+        "tier": "S",
+        "attackScore": 3.290465057913422,
+        "defenseScore": 0.4517259477953181,
+        "reliability": 1,
+        "formScore": 3.1975,
+        "warsInRoster": 44,
+        "attacksUsed": 88,
+        "attacksAvailable": 88,
+        "avgDestruction": 98.4090909090909,
+        "totalAttacks": 88,
+        "totalStars": 252,
+        "count3Stars": 76,
+        "avgStars": 2.8636363636363638,
+        "threeStarRate": 0.8636363636363636,
+        "totalMissed": 0,
+        "avgPositionDiff": 0.07954545454545454,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#8VCUUPPJP",
         "name": "Satsugai",
         "townhallLevel": 18
@@ -117,66 +153,30 @@
     },
     {
       "player": {
-        "tag": "#2GP2JUU2",
-        "name": "Gustavo Lázaro",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.4362818976252534,
-        "rawScore": 2.4362818976252534,
-        "confidence": 1,
-        "tier": "S",
-        "attackScore": 3.199643834943866,
-        "defenseScore": 0.4517259477953181,
-        "reliability": 1,
-        "formScore": 2.895,
-        "warsInRoster": 44,
-        "attacksUsed": 87,
-        "attacksAvailable": 88,
-        "avgDestruction": 98.39080459770115,
-        "totalAttacks": 87,
-        "totalStars": 249,
-        "count3Stars": 75,
-        "avgStars": 2.8620689655172415,
-        "threeStarRate": 0.8620689655172413,
-        "totalMissed": 0,
-        "avgPositionDiff": 0.022988505747126436,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
         "tag": "#G9Y2L9QJJ",
         "name": "Micael",
         "townhallLevel": 18
       },
       "data": {
-        "score": 2.3463766550277656,
-        "rawScore": 2.3463766550277656,
+        "score": 2.379945990308783,
+        "rawScore": 2.379945990308783,
         "confidence": 1,
         "tier": "A",
-        "attackScore": 2.968021427656228,
+        "attackScore": 3.0479484164205557,
         "defenseScore": 0.4430155678851586,
         "reliability": 0.9261648745519713,
         "formScore": 3.5,
         "warsInRoster": 40,
-        "attacksUsed": 74,
+        "attacksUsed": 75,
         "attacksAvailable": 80,
-        "avgDestruction": 90.62162162162163,
-        "totalAttacks": 74,
-        "totalStars": 200,
-        "count3Stars": 61,
-        "avgStars": 2.7027027027027026,
-        "threeStarRate": 0.8243243243243243,
+        "avgDestruction": 90.74666666666667,
+        "totalAttacks": 75,
+        "totalStars": 203,
+        "count3Stars": 62,
+        "avgStars": 2.7066666666666666,
+        "threeStarRate": 0.8266666666666667,
         "totalMissed": 2,
-        "avgPositionDiff": -5.45945945945946,
+        "avgPositionDiff": -5.386666666666667,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1444,15 +1444,15 @@
   "statsByTag": {
     "#2GP2JUU2": {
       "tier": "S",
-      "score": 2.4362818976252534,
-      "avgStars": 2.8620689655172415,
-      "totalStars": 249,
-      "totalAttacks": 87,
+      "score": 2.504676811272467,
+      "avgStars": 2.8636363636363638,
+      "totalStars": 252,
+      "totalAttacks": 88,
       "warsInRoster": 44,
       "totalMissed": 0,
-      "rank": 4,
+      "rank": 3,
       "prevRank": 4,
-      "normalizedScore": 69.61
+      "normalizedScore": 71.56
     },
     "#YPVQVU982": {
       "tier": "A",
@@ -1475,7 +1475,7 @@
       "warsInRoster": 43,
       "totalMissed": 6,
       "rank": 15,
-      "prevRank": 14,
+      "prevRank": 15,
       "normalizedScore": 60.73
     },
     "#QGQJGURCL": {
@@ -1627,20 +1627,20 @@
       "warsInRoster": 44,
       "totalMissed": 0,
       "rank": 13,
-      "prevRank": 16,
+      "prevRank": 13,
       "normalizedScore": 62.31
     },
     "#G9Y2L9QJJ": {
       "tier": "A",
-      "score": 2.3463766550277656,
-      "avgStars": 2.7027027027027026,
-      "totalStars": 200,
-      "totalAttacks": 74,
+      "score": 2.379945990308783,
+      "avgStars": 2.7066666666666666,
+      "totalStars": 203,
+      "totalAttacks": 75,
       "warsInRoster": 40,
       "totalMissed": 2,
       "rank": 5,
       "prevRank": 5,
-      "normalizedScore": 67.04
+      "normalizedScore": 68
     },
     "#PLU2VCLG": {
       "tier": "A",
@@ -1686,7 +1686,7 @@
       "totalAttacks": 64,
       "warsInRoster": 33,
       "totalMissed": 0,
-      "rank": 3,
+      "rank": 4,
       "prevRank": 3,
       "normalizedScore": 70.82
     },
@@ -1767,7 +1767,7 @@
       "warsInRoster": 24,
       "totalMissed": 3,
       "rank": 16,
-      "prevRank": 15,
+      "prevRank": 16,
       "normalizedScore": 58.27
     },
     "#29JQ2PCVL": {
@@ -1901,7 +1901,7 @@
       "warsInRoster": 21,
       "totalMissed": 1,
       "rank": 14,
-      "prevRank": 13,
+      "prevRank": 14,
       "normalizedScore": 60.91
     },
     "#209QGJ89C": {
