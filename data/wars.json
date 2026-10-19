@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 43,
-        "destructionPercentage": 59.16
+        "stars": 46,
+        "destructionPercentage": 63.16
       },
       "sixHourNonAttackers": [
         {
@@ -138,11 +138,6 @@
         {
           "tag": "#JCRQGG9P",
           "name": "Rodrigo-br",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#GJ2LQVQJ",
-          "name": "Fer",
           "townhallLevel": 18
         },
         {
@@ -426,7 +421,14 @@
           "name": "Fer",
           "townhallLevel": 18,
           "mapPosition": 2,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 31,
+              "defenderTag": "#VUGV2YYU"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
