@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-19T17:30:25.166Z",
+  "generatedAt": "2026-10-19T17:45:28.392Z",
   "totalWars": 31,
   "liveWar": {
     "opponentName": "PSYCHØ GÄMËRS☺",
-    "totalAttacksDone": 12,
+    "totalAttacksDone": 13,
     "totalAttacksExpected": 50
   },
   "ranking": [
@@ -765,6 +765,42 @@
     },
     {
       "player": {
+        "tag": "#YG2C8YVR9",
+        "name": "Saymon",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 1.648698002741386,
+        "rawScore": 1.939644709107513,
+        "confidence": 0.85,
+        "tier": "B",
+        "attackScore": 2.8998453135432336,
+        "defenseScore": 0,
+        "reliability": 0.5387096774193548,
+        "formScore": 3.5,
+        "warsInRoster": 4,
+        "attacksUsed": 6,
+        "attacksAvailable": 8,
+        "avgDestruction": 99.5,
+        "totalAttacks": 6,
+        "totalStars": 17,
+        "count3Stars": 5,
+        "avgStars": 2.8333333333333335,
+        "threeStarRate": 0.8333333333333334,
+        "totalMissed": 1,
+        "avgPositionDiff": -0.3333333333333333,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#20CY00CU9",
         "name": "-Bonb- ||",
         "townhallLevel": 18
@@ -789,42 +825,6 @@
         "threeStarRate": 0.8,
         "totalMissed": 0,
         "avgPositionDiff": -4.2,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#YG2C8YVR9",
-        "name": "Saymon",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 1.540822340916386,
-        "rawScore": 1.8127321657839834,
-        "confidence": 0.85,
-        "tier": "B",
-        "attackScore": 2.5976725913443537,
-        "defenseScore": 0,
-        "reliability": 0.5387096774193548,
-        "formScore": 3.5,
-        "warsInRoster": 4,
-        "attacksUsed": 5,
-        "attacksAvailable": 8,
-        "avgDestruction": 99.4,
-        "totalAttacks": 5,
-        "totalStars": 14,
-        "count3Stars": 4,
-        "avgStars": 2.8,
-        "threeStarRate": 0.8,
-        "totalMissed": 1,
-        "avgPositionDiff": -0.4,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1466,6 +1466,18 @@
       "prevRank": 13,
       "normalizedScore": 60.73
     },
+    "#YPVQVU982": {
+      "tier": "A",
+      "score": 2.198551842345662,
+      "avgStars": 2.7674418604651163,
+      "totalStars": 119,
+      "totalAttacks": 43,
+      "warsInRoster": 30,
+      "totalMissed": 10,
+      "rank": 12,
+      "prevRank": 12,
+      "normalizedScore": 62.82
+    },
     "#2QL0VR9GU": {
       "tier": "A",
       "score": 2.307919210180838,
@@ -1486,7 +1498,7 @@
       "totalAttacks": 5,
       "warsInRoster": 3,
       "totalMissed": 0,
-      "rank": 23,
+      "rank": 24,
       "prevRank": 23,
       "normalizedScore": 46.23
     },
@@ -1561,18 +1573,6 @@
       "rank": 9,
       "prevRank": 9,
       "normalizedScore": 64.89
-    },
-    "#YPVQVU982": {
-      "tier": "A",
-      "score": 2.198551842345662,
-      "avgStars": 2.7674418604651163,
-      "totalStars": 119,
-      "totalAttacks": 43,
-      "warsInRoster": 30,
-      "totalMissed": 10,
-      "rank": 12,
-      "prevRank": 12,
-      "normalizedScore": 62.82
     },
     "#8VCUUPPJP": {
       "tier": "S",
@@ -1826,15 +1826,15 @@
     },
     "#YG2C8YVR9": {
       "tier": "B",
-      "score": 1.540822340916386,
-      "avgStars": 2.8,
-      "totalStars": 14,
-      "totalAttacks": 5,
+      "score": 1.648698002741386,
+      "avgStars": 2.8333333333333335,
+      "totalStars": 17,
+      "totalAttacks": 6,
       "warsInRoster": 4,
       "totalMissed": 1,
-      "rank": 25,
+      "rank": 23,
       "prevRank": 25,
-      "normalizedScore": 44.02
+      "normalizedScore": 47.11
     },
     "#RC82GPG": {
       "tier": "B",
@@ -1888,7 +1888,7 @@
       "totalAttacks": 25,
       "warsInRoster": 14,
       "totalMissed": 2,
-      "rank": 24,
+      "rank": 25,
       "prevRank": 24,
       "normalizedScore": 45.12
     },
