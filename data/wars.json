@@ -10,8 +10,8 @@
       "opponent": {
         "name": "PSYCHØ GÄMËRS☺",
         "tag": "#2P22JJPPC",
-        "stars": 14,
-        "destructionPercentage": 19.48,
+        "stars": 16,
+        "destructionPercentage": 22.96,
         "members": [
           {
             "tag": "#Q8Q22282R",
@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 20,
-        "destructionPercentage": 27.56
+        "stars": 22,
+        "destructionPercentage": 30.72
       },
       "sixHourNonAttackers": [
         {
@@ -143,11 +143,6 @@
         {
           "tag": "#8YJYY92GC",
           "name": "RussiaN",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#2GP2JUU2",
-          "name": "Gustavo Lázaro",
           "townhallLevel": 18
         },
         {
@@ -313,7 +308,14 @@
           "name": "Gustavo Lázaro",
           "townhallLevel": 18,
           "mapPosition": 4,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 79,
+              "order": 15,
+              "defenderTag": "#P8L000VJV"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -480,7 +482,14 @@
           "townhallLevel": 18,
           "mapPosition": 16,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 87,
+              "attackerTag": "#Q8Q22282R",
+              "attackerMapPosition": 21
+            }
+          ],
           "missedAttacks": 0
         },
         {
