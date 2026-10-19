@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 15,
-        "destructionPercentage": 22.44
+        "stars": 20,
+        "destructionPercentage": 27.56
       },
       "sixHourNonAttackers": [
         {
@@ -158,11 +158,6 @@
         {
           "tag": "#G9Y2L9QJJ",
           "name": "Micael",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#GLV8G0LJ",
-          "name": "Luiz",
           "townhallLevel": 18
         },
         {
@@ -237,6 +232,12 @@
               "destructionPercentage": 100,
               "order": 11,
               "defenderTag": "#LVQGRLLQY"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 13,
+              "defenderTag": "#C2CCPYYV"
             }
           ],
           "defensesReceived": [],
@@ -339,7 +340,14 @@
           "name": "Luiz",
           "townhallLevel": 18,
           "mapPosition": 7,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 14,
+              "defenderTag": "#9GC829PYJ"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
