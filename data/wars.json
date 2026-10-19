@@ -116,18 +116,13 @@
         ]
       },
       "clan": {
-        "stars": 8,
-        "destructionPercentage": 11.56
+        "stars": 15,
+        "destructionPercentage": 22.44
       },
       "sixHourNonAttackers": [
         {
           "tag": "#8VCUUPPJP",
           "name": "Satsugai",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QQC8P9C9R",
-          "name": "Gs.prieto",
           "townhallLevel": 18
         },
         {
@@ -196,11 +191,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#29LP0VJV0",
-          "name": "Warlord Raivon",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#20CY00CU9",
           "name": "-Bonb- ||",
           "townhallLevel": 18
@@ -213,11 +203,6 @@
         {
           "tag": "#GQU9Y0CQ8",
           "name": "Scok♤",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QJVQVRPU",
-          "name": "Frnnn",
           "townhallLevel": 18
         },
         {
@@ -246,7 +231,14 @@
           "name": "Gs.prieto",
           "townhallLevel": 18,
           "mapPosition": 11,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 11,
+              "defenderTag": "#LVQGRLLQY"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -454,7 +446,14 @@
           "name": "Warlord Raivon",
           "townhallLevel": 18,
           "mapPosition": 6,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 1,
+              "destructionPercentage": 72,
+              "order": 12,
+              "defenderTag": "#C2CCPYYV"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -497,7 +496,14 @@
           "name": "Frnnn",
           "townhallLevel": 18,
           "mapPosition": 3,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 10,
+              "defenderTag": "#YQ8G9RGRU"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
