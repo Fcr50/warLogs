@@ -3,15 +3,15 @@
     {
       "endTime": "20261020T152349.000Z",
       "startTime": "2026-10-19T15:23:49.000Z",
-      "state": "inWar",
-      "result": "inProgress",
+      "state": "warEnded",
+      "result": "tie",
       "teamSize": 25,
       "absencesRecorded": true,
       "opponent": {
         "name": "PSYCHØ GÄMËRS☺",
         "tag": "#2P22JJPPC",
-        "stars": 74,
-        "destructionPercentage": 99,
+        "stars": 75,
+        "destructionPercentage": 100,
         "members": [
           {
             "tag": "#Q8Q22282R",
@@ -321,6 +321,12 @@
               "attackerMapPosition": 22
             },
             {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#PCLJGPR9G",
+              "attackerMapPosition": 17
+            },
+            {
               "stars": 2,
               "destructionPercentage": 75,
               "attackerTag": "#L2QLVG2QC",
@@ -503,6 +509,12 @@
               "destructionPercentage": 100,
               "order": 40,
               "defenderTag": "#2YRUQGVVC"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 83,
+              "defenderTag": "#92C0LGJ8V"
             }
           ],
           "defensesReceived": [
@@ -757,7 +769,7 @@
               "attackerMapPosition": 13
             }
           ],
-          "missedAttacks": 0
+          "missedAttacks": 1
         },
         {
           "tag": "#GGVCRYP8P",
@@ -808,7 +820,7 @@
               "attackerMapPosition": 25
             }
           ],
-          "missedAttacks": 0
+          "missedAttacks": 2
         },
         {
           "tag": "#QJVQVRPU",
