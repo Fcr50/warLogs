@@ -10,8 +10,8 @@
       "opponent": {
         "name": "Apocalypse",
         "tag": "#Y2R9L9UU",
-        "stars": 13,
-        "destructionPercentage": 15.5,
+        "stars": 15,
+        "destructionPercentage": 18.7,
         "members": [
           {
             "tag": "#CCPRJ99J",
@@ -282,7 +282,14 @@
           "townhallLevel": 18,
           "mapPosition": 11,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 96,
+              "attackerTag": "#29JQP8VR9",
+              "attackerMapPosition": 11
+            }
+          ],
           "missedAttacks": 0
         },
         {
