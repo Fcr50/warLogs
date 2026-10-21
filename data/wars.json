@@ -11,7 +11,7 @@
         "name": "Apocalypse",
         "tag": "#Y2R9L9UU",
         "stars": 39,
-        "destructionPercentage": 45.866665,
+        "destructionPercentage": 45.966667,
         "members": [
           {
             "tag": "#CCPRJ99J",
@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 33,
-        "destructionPercentage": 39.3
+        "stars": 36,
+        "destructionPercentage": 42.633335
       },
       "sixHourNonAttackers": [
         {
@@ -168,11 +168,6 @@
         {
           "tag": "#G9Y2L9QJJ",
           "name": "Micael",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QGQJGURCL",
-          "name": "SAFONOV",
           "townhallLevel": 18
         },
         {
@@ -255,6 +250,12 @@
             }
           ],
           "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 99,
+              "attackerTag": "#88PCUQJR",
+              "attackerMapPosition": 17
+            },
             {
               "stars": 2,
               "destructionPercentage": 96,
@@ -482,7 +483,14 @@
           "name": "SAFONOV",
           "townhallLevel": 18,
           "mapPosition": 1,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 35,
+              "defenderTag": "#CCPRJ99J"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -639,6 +647,12 @@
               "destructionPercentage": 81,
               "attackerTag": "#CJ09R0LV",
               "attackerMapPosition": 15
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 73,
+              "attackerTag": "#CQCQ920Q",
+              "attackerMapPosition": 27
             }
           ],
           "missedAttacks": 0
