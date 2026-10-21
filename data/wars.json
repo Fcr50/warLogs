@@ -10,8 +10,8 @@
       "opponent": {
         "name": "Apocalypse",
         "tag": "#Y2R9L9UU",
-        "stars": 39,
-        "destructionPercentage": 45.966667,
+        "stars": 42,
+        "destructionPercentage": 49.3,
         "members": [
           {
             "tag": "#CCPRJ99J",
@@ -136,15 +136,10 @@
         ]
       },
       "clan": {
-        "stars": 36,
-        "destructionPercentage": 42.633335
+        "stars": 42,
+        "destructionPercentage": 49.2
       },
       "sixHourNonAttackers": [
-        {
-          "tag": "#8VCUUPPJP",
-          "name": "Satsugai",
-          "townhallLevel": 18
-        },
         {
           "tag": "#YG2C8YVR9",
           "name": "Saymon",
@@ -211,11 +206,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#QJVQVRPU",
-          "name": "Frnnn",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#QJLQLUURY",
           "name": "NenemPJL",
           "townhallLevel": 18
@@ -232,7 +222,14 @@
           "name": "Satsugai",
           "townhallLevel": 18,
           "mapPosition": 10,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 89,
+              "order": 40,
+              "defenderTag": "#V0QV9C9G"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -427,7 +424,14 @@
           "townhallLevel": 18,
           "mapPosition": 13,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#LGU028LPP",
+              "attackerMapPosition": 13
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -527,6 +531,12 @@
               "destructionPercentage": 100,
               "order": 8,
               "defenderTag": "#PV9UQ0LQ"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 37,
+              "defenderTag": "#2L0R2CQL"
             }
           ],
           "defensesReceived": [
@@ -718,7 +728,14 @@
           "name": "Frnnn",
           "townhallLevel": 18,
           "mapPosition": 4,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 38,
+              "defenderTag": "#CP8UL0VV"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
