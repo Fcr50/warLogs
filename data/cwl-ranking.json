@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T22:15:25.306Z",
+  "generatedAt": "2026-10-21T22:30:24.098Z",
   "totalWars": 29,
   "liveWar": {
     "opponentName": "Apocalypse",
@@ -14,12 +14,12 @@
         "townhallLevel": 18
       },
       "data": {
-        "score": 2.5519825211409137,
-        "rawScore": 2.5519825211409137,
+        "score": 2.576134825250415,
+        "rawScore": 2.576134825250415,
         "confidence": 1,
         "tier": "A",
         "attackScore": 3.3065206504625975,
-        "defenseScore": 0.4929753917864919,
+        "defenseScore": 0.5895846082244958,
         "reliability": 1,
         "formScore": 3.5,
         "warsInRoster": 42,
@@ -333,42 +333,6 @@
     },
     {
       "player": {
-        "tag": "#GJ2LQVQJ",
-        "name": "Fer",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.2182460650793256,
-        "rawScore": 2.2182460650793256,
-        "confidence": 1,
-        "tier": "A",
-        "attackScore": 2.797535935553428,
-        "defenseScore": 0.2631238885875431,
-        "reliability": 1,
-        "formScore": 2.875,
-        "warsInRoster": 43,
-        "attacksUsed": 84,
-        "attacksAvailable": 86,
-        "avgDestruction": 91.04761904761905,
-        "totalAttacks": 84,
-        "totalStars": 224,
-        "count3Stars": 65,
-        "avgStars": 2.6666666666666665,
-        "threeStarRate": 0.7738095238095238,
-        "totalMissed": 0,
-        "avgPositionDiff": 3.0833333333333335,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
         "tag": "#8YJYY92GC",
         "name": "RussiaN",
         "townhallLevel": 18
@@ -429,6 +393,42 @@
         "threeStarRate": 0.8125,
         "totalMissed": 1,
         "avgPositionDiff": -1.25,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#GJ2LQVQJ",
+        "name": "Fer",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.1818750091156303,
+        "rawScore": 2.1818750091156303,
+        "confidence": 1,
+        "tier": "A",
+        "attackScore": 2.797535935553428,
+        "defenseScore": 0.117639664732761,
+        "reliability": 1,
+        "formScore": 2.875,
+        "warsInRoster": 43,
+        "attacksUsed": 84,
+        "attacksAvailable": 86,
+        "avgDestruction": 91.04761904761905,
+        "totalAttacks": 84,
+        "totalStars": 224,
+        "count3Stars": 65,
+        "avgStars": 2.6666666666666665,
+        "threeStarRate": 0.7738095238095238,
+        "totalMissed": 0,
+        "avgPositionDiff": 3.0833333333333335,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1355,13 +1355,13 @@
       "totalAttacks": 80,
       "warsInRoster": 41,
       "totalMissed": 1,
-      "rank": 13,
+      "rank": 12,
       "prevRank": 13,
       "normalizedScore": 63.33
     },
     "#GGVCRYP8P": {
       "tier": "S",
-      "score": 2.5519825211409137,
+      "score": 2.576134825250415,
       "avgStars": 2.6419753086419755,
       "totalStars": 214,
       "totalAttacks": 81,
@@ -1369,7 +1369,7 @@
       "totalMissed": 0,
       "rank": 1,
       "prevRank": 1,
-      "normalizedScore": 72.91
+      "normalizedScore": 73.6
     },
     "#2QL0VR9GU": {
       "tier": "A",
@@ -1459,7 +1459,7 @@
       "totalAttacks": 76,
       "warsInRoster": 38,
       "totalMissed": 0,
-      "rank": 12,
+      "rank": 11,
       "prevRank": 12,
       "normalizedScore": 63.38
     },
@@ -1549,15 +1549,15 @@
     },
     "#GJ2LQVQJ": {
       "tier": "A",
-      "score": 2.2182460650793256,
+      "score": 2.1818750091156303,
       "avgStars": 2.6666666666666665,
       "totalStars": 224,
       "totalAttacks": 84,
       "warsInRoster": 43,
       "totalMissed": 0,
-      "rank": 11,
+      "rank": 13,
       "prevRank": 11,
-      "normalizedScore": 63.38
+      "normalizedScore": 62.34
     },
     "#20CY00CU9": {
       "tier": "B",
