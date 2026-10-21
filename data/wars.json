@@ -10,8 +10,8 @@
       "opponent": {
         "name": "Apocalypse",
         "tag": "#Y2R9L9UU",
-        "stars": 10,
-        "destructionPercentage": 12.166667,
+        "stars": 13,
+        "destructionPercentage": 15.5,
         "members": [
           {
             "tag": "#CCPRJ99J",
@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 3,
-        "destructionPercentage": 3.3333333
+        "stars": 6,
+        "destructionPercentage": 6.6666665
       },
       "sixHourNonAttackers": [
         {
@@ -208,11 +208,6 @@
         {
           "tag": "#GL2V9GYVC",
           "name": "biel",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#GJ2LQVQJ",
-          "name": "Fer",
           "townhallLevel": 18
         },
         {
@@ -382,6 +377,12 @@
           "defensesReceived": [
             {
               "stars": 2,
+              "destructionPercentage": 82,
+              "attackerTag": "#2L0R2CQL",
+              "attackerMapPosition": 20
+            },
+            {
+              "stars": 2,
               "destructionPercentage": 99,
               "attackerTag": "#YL292VG0",
               "attackerMapPosition": 6
@@ -455,7 +456,14 @@
           "name": "Fer",
           "townhallLevel": 18,
           "mapPosition": 2,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 8,
+              "defenderTag": "#PV9UQ0LQ"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -465,7 +473,14 @@
           "townhallLevel": 17,
           "mapPosition": 28,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#C2UCU800",
+              "attackerMapPosition": 28
+            }
+          ],
           "missedAttacks": 0
         },
         {
