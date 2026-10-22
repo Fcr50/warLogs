@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 42,
-        "destructionPercentage": 49.2
+        "stars": 49,
+        "destructionPercentage": 56.233334
       },
       "sixHourNonAttackers": [
         {
@@ -186,18 +186,8 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#20CY00CU9",
-          "name": "-Bonb- ||",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#GGVCRYP8P",
           "name": "gui",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#YPVQVU982",
-          "name": "亗 ＨＡＤＥＳ_０７ 亗",
           "townhallLevel": 18
         },
         {
@@ -630,7 +620,14 @@
           "name": "-Bonb- ||",
           "townhallLevel": 18,
           "mapPosition": 22,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 44,
+              "defenderTag": "#8L2Y2PGJG"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -700,7 +697,20 @@
           "name": "亗 ＨＡＤＥＳ_０７ 亗",
           "townhallLevel": 18,
           "mapPosition": 5,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 43,
+              "defenderTag": "#80VG98RYV"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 45,
+              "defenderTag": "#V0QV9C9G"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
