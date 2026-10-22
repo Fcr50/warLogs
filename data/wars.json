@@ -10,8 +10,8 @@
       "opponent": {
         "name": "Apocalypse",
         "tag": "#Y2R9L9UU",
-        "stars": 45,
-        "destructionPercentage": 52.633335,
+        "stars": 47,
+        "destructionPercentage": 55.533333,
         "members": [
           {
             "tag": "#CCPRJ99J",
@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 52,
-        "destructionPercentage": 59.566666
+        "stars": 53,
+        "destructionPercentage": 62.433334
       },
       "sixHourNonAttackers": [
         {
@@ -158,11 +158,6 @@
         {
           "tag": "#G9Y2L9QJJ",
           "name": "Micael",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#GL2V9GYVC",
-          "name": "biel",
           "townhallLevel": 18
         },
         {
@@ -514,7 +509,14 @@
           "name": "biel",
           "townhallLevel": 18,
           "mapPosition": 12,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 1,
+              "destructionPercentage": 86,
+              "order": 48,
+              "defenderTag": "#9JJP2LUVP"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -630,7 +632,14 @@
               "defenderTag": "#8L2Y2PGJG"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 87,
+              "attackerTag": "#8L2Y2PGJG",
+              "attackerMapPosition": 22
+            }
+          ],
           "missedAttacks": 0
         },
         {
