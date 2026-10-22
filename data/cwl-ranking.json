@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T03:45:25.669Z",
+  "generatedAt": "2026-10-22T04:00:27.773Z",
   "totalWars": 29,
   "liveWar": {
     "opponentName": "Apocalypse",
@@ -14,12 +14,12 @@
         "townhallLevel": 18
       },
       "data": {
-        "score": 2.590603147874427,
-        "rawScore": 2.590603147874427,
+        "score": 2.555394970805949,
+        "rawScore": 2.555394970805949,
         "confidence": 1,
         "tier": "A",
         "attackScore": 3.340969037662626,
-        "defenseScore": 0.5895846082244958,
+        "defenseScore": 0.4487518999505841,
         "reliability": 1,
         "formScore": 3.5,
         "warsInRoster": 42,
@@ -33,42 +33,6 @@
         "threeStarRate": 0.6987951807228916,
         "totalMissed": 0,
         "avgPositionDiff": -4.228915662650603,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#2GP2JUU2",
-        "name": "Gustavo Lázaro",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.463177529884077,
-        "rawScore": 2.463177529884077,
-        "confidence": 1,
-        "tier": "S",
-        "attackScore": 3.271479679609994,
-        "defenseScore": 0.31762425779151804,
-        "reliability": 1,
-        "formScore": 3.1975,
-        "warsInRoster": 43,
-        "attacksUsed": 86,
-        "attacksAvailable": 86,
-        "avgDestruction": 98.3953488372093,
-        "totalAttacks": 86,
-        "totalStars": 247,
-        "count3Stars": 75,
-        "avgStars": 2.872093023255814,
-        "threeStarRate": 0.872093023255814,
-        "totalMissed": 0,
-        "avgPositionDiff": 0.5116279069767442,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -141,6 +105,42 @@
         "threeStarRate": 0.8289473684210527,
         "totalMissed": 2,
         "avgPositionDiff": -5.5394736842105265,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#2GP2JUU2",
+        "name": "Gustavo Lázaro",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.432887083895736,
+        "rawScore": 2.432887083895736,
+        "confidence": 1,
+        "tier": "S",
+        "attackScore": 3.271479679609994,
+        "defenseScore": 0.1964624738381547,
+        "reliability": 1,
+        "formScore": 3.1975,
+        "warsInRoster": 43,
+        "attacksUsed": 86,
+        "attacksAvailable": 86,
+        "avgDestruction": 98.3953488372093,
+        "totalAttacks": 86,
+        "totalStars": 247,
+        "count3Stars": 75,
+        "avgStars": 2.872093023255814,
+        "threeStarRate": 0.872093023255814,
+        "totalMissed": 0,
+        "avgPositionDiff": 0.5116279069767442,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1294,15 +1294,15 @@
   "statsByTag": {
     "#2GP2JUU2": {
       "tier": "S",
-      "score": 2.463177529884077,
+      "score": 2.432887083895736,
       "avgStars": 2.872093023255814,
       "totalStars": 247,
       "totalAttacks": 86,
       "warsInRoster": 43,
       "totalMissed": 0,
-      "rank": 2,
+      "rank": 4,
       "prevRank": 2,
-      "normalizedScore": 70.38
+      "normalizedScore": 69.51
     },
     "#G9Y2L9QJJ": {
       "tier": "S",
@@ -1312,7 +1312,7 @@
       "totalAttacks": 76,
       "warsInRoster": 41,
       "totalMissed": 2,
-      "rank": 4,
+      "rank": 3,
       "prevRank": 4,
       "normalizedScore": 69.9
     },
@@ -1354,7 +1354,7 @@
     },
     "#GGVCRYP8P": {
       "tier": "S",
-      "score": 2.590603147874427,
+      "score": 2.555394970805949,
       "avgStars": 2.6506024096385543,
       "totalStars": 220,
       "totalAttacks": 83,
@@ -1362,7 +1362,7 @@
       "totalMissed": 0,
       "rank": 1,
       "prevRank": 1,
-      "normalizedScore": 74.02
+      "normalizedScore": 73.01
     },
     "#2QL0VR9GU": {
       "tier": "A",
@@ -1610,7 +1610,7 @@
       "totalAttacks": 86,
       "warsInRoster": 43,
       "totalMissed": 0,
-      "rank": 3,
+      "rank": 2,
       "prevRank": 3,
       "normalizedScore": 70.32
     },
