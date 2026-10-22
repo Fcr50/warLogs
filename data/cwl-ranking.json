@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-22T19:15:23.843Z",
+  "generatedAt": "2026-10-22T19:30:25.633Z",
   "totalWars": 29,
   "liveWar": {
     "opponentName": "Apocalypse",
-    "totalAttacksDone": 55,
+    "totalAttacksDone": 56,
     "totalAttacksExpected": 60
   },
   "ranking": [
@@ -513,6 +513,42 @@
     },
     {
       "player": {
+        "tag": "#YG2C8YVR9",
+        "name": "Saymon",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.0846164522586266,
+        "rawScore": 2.0846164522586266,
+        "confidence": 1,
+        "tier": "A",
+        "attackScore": 3.1768987779556785,
+        "defenseScore": 0,
+        "reliability": 0.5801724137931035,
+        "formScore": 3.5,
+        "warsInRoster": 6,
+        "attacksUsed": 10,
+        "attacksAvailable": 12,
+        "avgDestruction": 99.7,
+        "totalAttacks": 10,
+        "totalStars": 29,
+        "count3Stars": 9,
+        "avgStars": 2.9,
+        "threeStarRate": 0.9,
+        "totalMissed": 1,
+        "avgPositionDiff": 0.5,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#QJVQVRPU",
         "name": "Frnnn",
         "townhallLevel": 18
@@ -537,42 +573,6 @@
         "threeStarRate": 0.7294117647058823,
         "totalMissed": 0,
         "avgPositionDiff": -1.6352941176470588,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#YG2C8YVR9",
-        "name": "Saymon",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.039494781951957,
-        "rawScore": 2.039494781951957,
-        "confidence": 1,
-        "tier": "A",
-        "attackScore": 3.0694662296064656,
-        "defenseScore": 0,
-        "reliability": 0.5801724137931035,
-        "formScore": 3.5,
-        "warsInRoster": 6,
-        "attacksUsed": 9,
-        "attacksAvailable": 12,
-        "avgDestruction": 99.66666666666667,
-        "totalAttacks": 9,
-        "totalStars": 26,
-        "count3Stars": 8,
-        "avgStars": 2.888888888888889,
-        "threeStarRate": 0.8888888888888888,
-        "totalMissed": 1,
-        "avgPositionDiff": 0.2222222222222222,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1473,7 +1473,7 @@
       "totalAttacks": 85,
       "warsInRoster": 43,
       "totalMissed": 0,
-      "rank": 16,
+      "rank": 17,
       "prevRank": 16,
       "normalizedScore": 58.74
     },
@@ -1513,18 +1513,6 @@
       "prevRank": 11,
       "normalizedScore": 63.17
     },
-    "#GL2V9GYVC": {
-      "tier": "C",
-      "score": 0.3458,
-      "avgStars": 1,
-      "totalStars": 2,
-      "totalAttacks": 2,
-      "warsInRoster": 1,
-      "totalMissed": 0,
-      "rank": 35,
-      "prevRank": 35,
-      "normalizedScore": 9.88
-    },
     "#GJ2LQVQJ": {
       "tier": "A",
       "score": 2.1728254099486053,
@@ -1536,6 +1524,18 @@
       "rank": 14,
       "prevRank": 14,
       "normalizedScore": 62.08
+    },
+    "#GL2V9GYVC": {
+      "tier": "C",
+      "score": 0.3458,
+      "avgStars": 1,
+      "totalStars": 2,
+      "totalAttacks": 2,
+      "warsInRoster": 1,
+      "totalMissed": 0,
+      "rank": 35,
+      "prevRank": 35,
+      "normalizedScore": 9.88
     },
     "#8VCUUPPJP": {
       "tier": "S",
@@ -1647,15 +1647,15 @@
     },
     "#YG2C8YVR9": {
       "tier": "B",
-      "score": 2.039494781951957,
-      "avgStars": 2.888888888888889,
-      "totalStars": 26,
-      "totalAttacks": 9,
+      "score": 2.0846164522586266,
+      "avgStars": 2.9,
+      "totalStars": 29,
+      "totalAttacks": 10,
       "warsInRoster": 6,
       "totalMissed": 1,
-      "rank": 17,
+      "rank": 16,
       "prevRank": 17,
-      "normalizedScore": 58.27
+      "normalizedScore": 59.56
     },
     "#L8RG2PV0G": {
       "tier": "B",
