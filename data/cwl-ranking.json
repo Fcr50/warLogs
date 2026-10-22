@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-22T10:15:23.986Z",
+  "generatedAt": "2026-10-22T10:30:30.092Z",
   "totalWars": 29,
   "liveWar": {
     "opponentName": "Apocalypse",
-    "totalAttacksDone": 37,
+    "totalAttacksDone": 38,
     "totalAttacksExpected": 60
   },
   "ranking": [
@@ -1130,25 +1130,25 @@
         "townhallLevel": 18
       },
       "data": {
-        "score": 0.35359999999999997,
-        "rawScore": 0.7071999999999999,
+        "score": 0.3458,
+        "rawScore": 0.6916,
         "confidence": 0.5,
         "tier": "C",
-        "attackScore": 1.3599999999999999,
+        "attackScore": 1.33,
         "defenseScore": 0,
         "reliability": 0,
-        "formScore": 1.3599999999999999,
+        "formScore": 1.33,
         "warsInRoster": 1,
-        "attacksUsed": 1,
+        "attacksUsed": 2,
         "attacksAvailable": 2,
-        "avgDestruction": 86,
-        "totalAttacks": 1,
-        "totalStars": 1,
+        "avgDestruction": 83,
+        "totalAttacks": 2,
+        "totalStars": 2,
         "count3Stars": 0,
         "avgStars": 1,
         "threeStarRate": 0,
         "totalMissed": 0,
-        "avgPositionDiff": 0,
+        "avgPositionDiff": 2,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1448,15 +1448,15 @@
     },
     "#GL2V9GYVC": {
       "tier": "C",
-      "score": 0.35359999999999997,
+      "score": 0.3458,
       "avgStars": 1,
-      "totalStars": 1,
-      "totalAttacks": 1,
+      "totalStars": 2,
+      "totalAttacks": 2,
       "warsInRoster": 1,
       "totalMissed": 0,
       "rank": 35,
       "prevRank": 35,
-      "normalizedScore": 10.1
+      "normalizedScore": 9.88
     },
     "#8YJYY92GC": {
       "tier": "A",
@@ -1482,6 +1482,18 @@
       "prevRank": 5,
       "normalizedScore": 67.19
     },
+    "#VQYCURG0": {
+      "tier": "C",
+      "score": 0.91,
+      "avgStars": 3,
+      "totalStars": 6,
+      "totalAttacks": 2,
+      "warsInRoster": 1,
+      "totalMissed": 0,
+      "rank": 32,
+      "prevRank": 32,
+      "normalizedScore": 26
+    },
     "#GRLPU9R9": {
       "tier": "C",
       "score": 1.1668441189655172,
@@ -1505,18 +1517,6 @@
       "rank": 20,
       "prevRank": 20,
       "normalizedScore": 53.93
-    },
-    "#VQYCURG0": {
-      "tier": "C",
-      "score": 0.91,
-      "avgStars": 3,
-      "totalStars": 6,
-      "totalAttacks": 2,
-      "warsInRoster": 1,
-      "totalMissed": 0,
-      "rank": 32,
-      "prevRank": 32,
-      "normalizedScore": 26
     },
     "#GLV8G0LJ": {
       "tier": "B",
