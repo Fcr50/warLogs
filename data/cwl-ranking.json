@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T16:30:33.059Z",
+  "generatedAt": "2026-10-22T16:45:26.792Z",
   "totalWars": 29,
   "liveWar": {
     "opponentName": "Apocalypse",
@@ -230,12 +230,12 @@
         "townhallLevel": 18
       },
       "data": {
-        "score": 2.2286340649033267,
-        "rawScore": 2.2286340649033267,
+        "score": 2.226749439664134,
+        "rawScore": 2.226749439664134,
         "confidence": 1,
         "tier": "A",
         "attackScore": 3.0286548149732404,
-        "defenseScore": 0.09360306700998801,
+        "defenseScore": 0.08606456605321554,
         "reliability": 0.9586206896551724,
         "formScore": 2.7175000000000002,
         "warsInRoster": 39,
@@ -1233,6 +1233,42 @@
     },
     {
       "player": {
+        "tag": "#QRJG880R0",
+        "name": "FullOn",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 0,
+        "rawScore": 0,
+        "confidence": 0,
+        "tier": "F",
+        "attackScore": 0,
+        "defenseScore": 0,
+        "reliability": 0,
+        "formScore": 0,
+        "warsInRoster": 0,
+        "attacksUsed": 0,
+        "attacksAvailable": 0,
+        "avgDestruction": 0,
+        "totalAttacks": 0,
+        "totalStars": 0,
+        "count3Stars": 0,
+        "avgStars": 0,
+        "threeStarRate": 0,
+        "totalMissed": 0,
+        "avgPositionDiff": 0,
+        "hasAnyDefense": false,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.56,
+          "defense": 0,
+          "reliability": 0.3067,
+          "form": 0.1333
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#LUR09RUP2",
         "name": "andrei7zl",
         "townhallLevel": 18
@@ -1316,6 +1352,13 @@
       "player": {
         "tag": "#9CC8QJGL2",
         "name": "ODEIO ANIME",
+        "townhallLevel": 18
+      }
+    },
+    {
+      "player": {
+        "tag": "#QRJG880R0",
+        "name": "FullOn",
         "townhallLevel": 18
       }
     },
@@ -1409,7 +1452,7 @@
     },
     "#2QL0VR9GU": {
       "tier": "A",
-      "score": 2.2286340649033267,
+      "score": 2.226749439664134,
       "avgStars": 2.6578947368421053,
       "totalStars": 202,
       "totalAttacks": 76,
@@ -1417,7 +1460,7 @@
       "totalMissed": 0,
       "rank": 8,
       "prevRank": 8,
-      "normalizedScore": 63.68
+      "normalizedScore": 63.62
     },
     "#JCRQGG9P": {
       "tier": "B",
@@ -1582,7 +1625,7 @@
       "warsInRoster": 2,
       "totalMissed": 0,
       "rank": 26,
-      "prevRank": 27,
+      "prevRank": 26,
       "normalizedScore": 44.5
     },
     "#P9C0LVLU2": {
@@ -1642,7 +1685,7 @@
       "warsInRoster": 5,
       "totalMissed": 1,
       "rank": 27,
-      "prevRank": 26,
+      "prevRank": 27,
       "normalizedScore": 42.63
     },
     "#L8RG2PV0G": {
@@ -1658,6 +1701,16 @@
       "normalizedScore": 55.79
     },
     "#9CC8QJGL2": {
+      "tier": "F",
+      "score": 0,
+      "avgStars": 0,
+      "totalStars": 0,
+      "totalAttacks": 0,
+      "warsInRoster": 0,
+      "totalMissed": 0,
+      "normalizedScore": 0
+    },
+    "#QRJG880R0": {
       "tier": "F",
       "score": 0,
       "avgStars": 0,
