@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-22T05:30:23.324Z",
+  "generatedAt": "2026-10-22T05:45:25.753Z",
   "totalWars": 29,
   "liveWar": {
     "opponentName": "Apocalypse",
-    "totalAttacksDone": 33,
+    "totalAttacksDone": 34,
     "totalAttacksExpected": 60
   },
   "ranking": [
@@ -1089,6 +1089,42 @@
     },
     {
       "player": {
+        "tag": "#2GPRRP0R",
+        "name": "Clasher",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 0.6562875000000001,
+        "rawScore": 1.3125750000000003,
+        "confidence": 0.5,
+        "tier": "C",
+        "attackScore": 2.45375,
+        "defenseScore": 0.15,
+        "reliability": 0,
+        "formScore": 2.4450000000000003,
+        "warsInRoster": 1,
+        "attacksUsed": 2,
+        "attacksAvailable": 2,
+        "avgDestruction": 94.5,
+        "totalAttacks": 2,
+        "totalStars": 4,
+        "count3Stars": 1,
+        "avgStars": 2,
+        "threeStarRate": 0.5,
+        "totalMissed": 0,
+        "avgPositionDiff": -0.5,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#GL2V9GYVC",
         "name": "biel",
         "townhallLevel": 18
@@ -1120,42 +1156,6 @@
           "defense": 0,
           "reliability": 0.3067,
           "form": 0.1333
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#2GPRRP0R",
-        "name": "Clasher",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 0.38015,
-        "rawScore": 0.7603,
-        "confidence": 0.5,
-        "tier": "C",
-        "attackScore": 1.3900000000000001,
-        "defenseScore": 0.15,
-        "reliability": 0,
-        "formScore": 1.3900000000000001,
-        "warsInRoster": 1,
-        "attacksUsed": 1,
-        "attacksAvailable": 2,
-        "avgDestruction": 89,
-        "totalAttacks": 1,
-        "totalStars": 1,
-        "count3Stars": 0,
-        "avgStars": 1,
-        "threeStarRate": 0,
-        "totalMissed": 0,
-        "avgPositionDiff": 0,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
         }
       }
     },
@@ -1388,16 +1388,6 @@
       "prevRank": 16,
       "normalizedScore": 62.06
     },
-    "#8UQC9JVRR": {
-      "tier": "F",
-      "score": 0,
-      "avgStars": 0,
-      "totalStars": 0,
-      "totalAttacks": 0,
-      "warsInRoster": 0,
-      "totalMissed": 0,
-      "normalizedScore": 0
-    },
     "#QGQJGURCL": {
       "tier": "A",
       "score": 2.340319103757836,
@@ -1410,17 +1400,27 @@
       "prevRank": 6,
       "normalizedScore": 66.87
     },
+    "#8UQC9JVRR": {
+      "tier": "F",
+      "score": 0,
+      "avgStars": 0,
+      "totalStars": 0,
+      "totalAttacks": 0,
+      "warsInRoster": 0,
+      "totalMissed": 0,
+      "normalizedScore": 0
+    },
     "#2GPRRP0R": {
       "tier": "C",
-      "score": 0.38015,
-      "avgStars": 1,
-      "totalStars": 1,
-      "totalAttacks": 1,
+      "score": 0.6562875000000001,
+      "avgStars": 2,
+      "totalStars": 4,
+      "totalAttacks": 2,
       "warsInRoster": 1,
       "totalMissed": 0,
-      "rank": 35,
+      "rank": 34,
       "prevRank": 35,
-      "normalizedScore": 10.86
+      "normalizedScore": 18.75
     },
     "#QJVQVRPU": {
       "tier": "A",
@@ -1454,7 +1454,7 @@
       "totalAttacks": 1,
       "warsInRoster": 1,
       "totalMissed": 0,
-      "rank": 34,
+      "rank": 35,
       "prevRank": 34,
       "normalizedScore": 13.47
     },
@@ -1669,7 +1669,7 @@
       "warsInRoster": 40,
       "totalMissed": 2,
       "rank": 8,
-      "prevRank": 7,
+      "prevRank": 8,
       "normalizedScore": 63.77
     },
     "#LQQRGJ8VU": {
@@ -1727,7 +1727,7 @@
       "warsInRoster": 23,
       "totalMissed": 1,
       "rank": 7,
-      "prevRank": 8,
+      "prevRank": 7,
       "normalizedScore": 64.26
     },
     "#209QGJ89C": {
