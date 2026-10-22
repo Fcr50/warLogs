@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 87,
-        "destructionPercentage": 98.2
+        "stars": 88,
+        "destructionPercentage": 98.36667
       },
       "sixHourNonAttackers": [
         {
@@ -346,7 +346,14 @@
           "name": "GLADIADOR - SP",
           "townhallLevel": 17,
           "mapPosition": 29,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 81,
+              "defenderTag": "#CQCQ920Q"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
