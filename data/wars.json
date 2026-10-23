@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 24,
-        "destructionPercentage": 32.84
+        "stars": 27,
+        "destructionPercentage": 36.84
       },
       "sixHourNonAttackers": [
         {
@@ -149,11 +149,6 @@
           "tag": "#YRCLVY099",
           "name": "GLADIADOR - SP",
           "townhallLevel": 17
-        },
-        {
-          "tag": "#2GP2JUU2",
-          "name": "Gustavo Lázaro",
-          "townhallLevel": 18
         },
         {
           "tag": "#LQQRGJ8VU",
@@ -299,7 +294,14 @@
           "name": "Gustavo Lázaro",
           "townhallLevel": 18,
           "mapPosition": 5,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 17,
+              "defenderTag": "#8YLC8GQPJ"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 2,
