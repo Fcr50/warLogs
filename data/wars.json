@@ -10,8 +10,8 @@
       "opponent": {
         "name": "ACTIVE FORCE",
         "tag": "#RURJQLQY",
-        "stars": 0,
-        "destructionPercentage": 0,
+        "stars": 6,
+        "destructionPercentage": 8,
         "members": [
           {
             "tag": "#UPC8C2JV",
@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 0,
-        "destructionPercentage": 0
+        "stars": 8,
+        "destructionPercentage": 11.16
       },
       "sixHourNonAttackers": [
         {
@@ -153,11 +153,6 @@
         {
           "tag": "#8YJYY92GC",
           "name": "RussiaN",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#8CJ8YJY0P",
-          "name": "ChrolloLucilfer",
           "townhallLevel": 18
         },
         {
@@ -216,11 +211,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#GGVCRYP8P",
-          "name": "gui",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#YPVQVU982",
           "name": "亗 ＨＡＤＥＳ_０７ 亗",
           "townhallLevel": 18
@@ -233,11 +223,6 @@
         {
           "tag": "#VQYCURG0",
           "name": "Edberg",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QJVQVRPU",
-          "name": "Frnnn",
           "townhallLevel": 18
         },
         {
@@ -315,7 +300,14 @@
           "name": "ChrolloLucilfer",
           "townhallLevel": 18,
           "mapPosition": 7,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 1,
+              "defenderTag": "#JLYQLGJR"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -370,7 +362,14 @@
           "townhallLevel": 18,
           "mapPosition": 1,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#YUVVCR90J",
+              "attackerMapPosition": 9
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -379,7 +378,14 @@
           "townhallLevel": 18,
           "mapPosition": 2,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#YUVVCR90J",
+              "attackerMapPosition": 9
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -423,7 +429,14 @@
           "name": "gui",
           "townhallLevel": 18,
           "mapPosition": 13,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 2,
+              "defenderTag": "#90CGLY0GY"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -459,7 +472,14 @@
           "name": "Frnnn",
           "townhallLevel": 18,
           "mapPosition": 3,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 79,
+              "order": 3,
+              "defenderTag": "#Y2LU0YG22"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
