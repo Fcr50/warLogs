@@ -10,8 +10,8 @@
       "opponent": {
         "name": "ACTIVE FORCE",
         "tag": "#RURJQLQY",
-        "stars": 6,
-        "destructionPercentage": 8,
+        "stars": 11,
+        "destructionPercentage": 15.32,
         "members": [
           {
             "tag": "#UPC8C2JV",
@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 8,
-        "destructionPercentage": 11.16
+        "stars": 14,
+        "destructionPercentage": 18.56
       },
       "sixHourNonAttackers": [
         {
@@ -149,11 +149,6 @@
           "tag": "#YRCLVY099",
           "name": "GLADIADOR - SP",
           "townhallLevel": 17
-        },
-        {
-          "tag": "#8YJYY92GC",
-          "name": "RussiaN",
-          "townhallLevel": 18
         },
         {
           "tag": "#2GP2JUU2",
@@ -218,11 +213,6 @@
         {
           "tag": "#8UQC9JVRR",
           "name": "Bruno_rda",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#VQYCURG0",
-          "name": "Edberg",
           "townhallLevel": 18
         },
         {
@@ -291,7 +281,14 @@
           "name": "RussiaN",
           "townhallLevel": 18,
           "mapPosition": 21,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 64,
+              "order": 10,
+              "defenderTag": "#90J9P9UCL"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -306,6 +303,12 @@
               "destructionPercentage": 100,
               "order": 1,
               "defenderTag": "#JLYQLGJR"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 8,
+              "defenderTag": "#Y2LU0YG22"
             }
           ],
           "defensesReceived": [],
@@ -446,7 +449,14 @@
           "townhallLevel": 18,
           "mapPosition": 4,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#GPY9UGGVQ",
+              "attackerMapPosition": 22
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -463,7 +473,14 @@
           "name": "Edberg",
           "townhallLevel": 18,
           "mapPosition": 22,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 9,
+              "defenderTag": "#GPY9UGGVQ"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -480,7 +497,14 @@
               "defenderTag": "#Y2LU0YG22"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 83,
+              "attackerTag": "#GPY9UGGVQ",
+              "attackerMapPosition": 22
+            }
+          ],
           "missedAttacks": 0
         },
         {
