@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T12:45:21.306Z",
+  "generatedAt": "2026-10-24T13:00:27.931Z",
   "totalWars": 29,
   "liveWar": {
     "opponentName": "ACTIVE FORCE",
@@ -1089,42 +1089,6 @@
     },
     {
       "player": {
-        "tag": "#QRJG880R0",
-        "name": "FullOn",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 1.213275,
-        "rawScore": 2.42655,
-        "confidence": 0.5,
-        "tier": "B",
-        "attackScore": 3.5,
-        "defenseScore": 0,
-        "reliability": 0,
-        "formScore": 3.5,
-        "warsInRoster": 1,
-        "attacksUsed": 2,
-        "attacksAvailable": 2,
-        "avgDestruction": 100,
-        "totalAttacks": 2,
-        "totalStars": 6,
-        "count3Stars": 2,
-        "avgStars": 3,
-        "threeStarRate": 1,
-        "totalMissed": 0,
-        "avgPositionDiff": 2.5,
-        "hasAnyDefense": false,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.56,
-          "defense": 0,
-          "reliability": 0.3067,
-          "form": 0.1333
-        }
-      }
-    },
-    {
-      "player": {
         "tag": "#GRLPU9R9",
         "name": "Eder",
         "townhallLevel": 18
@@ -1185,6 +1149,42 @@
         "threeStarRate": 1,
         "totalMissed": 0,
         "avgPositionDiff": 1,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#QRJG880R0",
+        "name": "FullOn",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 0.91,
+        "rawScore": 1.82,
+        "confidence": 0.5,
+        "tier": "B",
+        "attackScore": 3.5,
+        "defenseScore": 0,
+        "reliability": 0,
+        "formScore": 3.5,
+        "warsInRoster": 1,
+        "attacksUsed": 2,
+        "attacksAvailable": 2,
+        "avgDestruction": 100,
+        "totalAttacks": 2,
+        "totalStars": 6,
+        "count3Stars": 2,
+        "avgStars": 3,
+        "threeStarRate": 1,
+        "totalMissed": 0,
+        "avgPositionDiff": 2.5,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1342,7 +1342,7 @@
       "warsInRoster": 42,
       "totalMissed": 2,
       "rank": 10,
-      "prevRank": 9,
+      "prevRank": 10,
       "normalizedScore": 63.4
     },
     "#YPVQVU982": {
@@ -1354,7 +1354,7 @@
       "warsInRoster": 28,
       "totalMissed": 10,
       "rank": 9,
-      "prevRank": 10,
+      "prevRank": 9,
       "normalizedScore": 63.54
     },
     "#PLU2VCLG": {
@@ -1485,7 +1485,7 @@
       "totalAttacks": 2,
       "warsInRoster": 1,
       "totalMissed": 0,
-      "rank": 35,
+      "rank": 34,
       "prevRank": 35,
       "normalizedScore": 26.69
     },
@@ -1515,15 +1515,15 @@
     },
     "#QRJG880R0": {
       "tier": "C",
-      "score": 1.213275,
+      "score": 0.91,
       "avgStars": 3,
       "totalStars": 6,
       "totalAttacks": 2,
       "warsInRoster": 1,
       "totalMissed": 0,
-      "rank": 33,
+      "rank": 35,
       "prevRank": 33,
-      "normalizedScore": 34.67
+      "normalizedScore": 26
     },
     "#VQYCURG0": {
       "tier": "B",
@@ -1593,7 +1593,7 @@
       "totalAttacks": 6,
       "warsInRoster": 3,
       "totalMissed": 0,
-      "rank": 34,
+      "rank": 33,
       "prevRank": 34,
       "normalizedScore": 30.35
     },
