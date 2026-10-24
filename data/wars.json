@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 72,
-        "destructionPercentage": 96
+        "stars": 75,
+        "destructionPercentage": 100
       },
       "sixHourNonAttackers": [
         {
@@ -637,7 +637,20 @@
           "name": "Bruno_rda",
           "townhallLevel": 18,
           "mapPosition": 12,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 53,
+              "defenderTag": "#QQGRL0JUJ"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 54,
+              "defenderTag": "#UPC8C2JV"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 2,
