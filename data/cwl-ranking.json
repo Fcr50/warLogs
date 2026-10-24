@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T14:30:22.364Z",
+  "generatedAt": "2026-10-24T14:45:38.966Z",
   "totalWars": 29,
   "liveWar": {
     "opponentName": "ACTIVE FORCE",
@@ -369,42 +369,6 @@
     },
     {
       "player": {
-        "tag": "#8YJYY92GC",
-        "name": "RussiaN",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.192223086039416,
-        "rawScore": 2.192223086039416,
-        "confidence": 1,
-        "tier": "B",
-        "attackScore": 2.837740598108524,
-        "defenseScore": 0.4425571048525846,
-        "reliability": 0.9862068965517241,
-        "formScore": 2.0925000000000002,
-        "warsInRoster": 39,
-        "attacksUsed": 78,
-        "attacksAvailable": 78,
-        "avgDestruction": 93.2948717948718,
-        "totalAttacks": 78,
-        "totalStars": 192,
-        "count3Stars": 44,
-        "avgStars": 2.4615384615384617,
-        "threeStarRate": 0.5641025641025641,
-        "totalMissed": 0,
-        "avgPositionDiff": -7.333333333333333,
-        "hasAnyDefense": true,
-        "hadTh17": true,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
         "tag": "#2QL0VR9GU",
         "name": "Marcola",
         "townhallLevel": 18
@@ -431,6 +395,42 @@
         "avgPositionDiff": -2.8289473684210527,
         "hasAnyDefense": true,
         "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#8YJYY92GC",
+        "name": "RussiaN",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.148226872297218,
+        "rawScore": 2.148226872297218,
+        "confidence": 1,
+        "tier": "B",
+        "attackScore": 2.837740598108524,
+        "defenseScore": 0.2665722498837941,
+        "reliability": 0.9862068965517241,
+        "formScore": 2.0925000000000002,
+        "warsInRoster": 39,
+        "attacksUsed": 78,
+        "attacksAvailable": 78,
+        "avgDestruction": 93.2948717948718,
+        "totalAttacks": 78,
+        "totalStars": 192,
+        "count3Stars": 44,
+        "avgStars": 2.4615384615384617,
+        "threeStarRate": 0.5641025641025641,
+        "totalMissed": 0,
+        "avgPositionDiff": -7.333333333333333,
+        "hasAnyDefense": true,
+        "hadTh17": true,
         "weights": {
           "attack": 0.42,
           "defense": 0.25,
@@ -1449,7 +1449,7 @@
       "totalAttacks": 76,
       "warsInRoster": 39,
       "totalMissed": 0,
-      "rank": 12,
+      "rank": 11,
       "prevRank": 12,
       "normalizedScore": 61.79
     },
@@ -1525,6 +1525,18 @@
       "prevRank": 35,
       "normalizedScore": 26
     },
+    "#8YJYY92GC": {
+      "tier": "A",
+      "score": 2.148226872297218,
+      "avgStars": 2.4615384615384617,
+      "totalStars": 192,
+      "totalAttacks": 78,
+      "warsInRoster": 39,
+      "totalMissed": 0,
+      "rank": 12,
+      "prevRank": 11,
+      "normalizedScore": 61.38
+    },
     "#VQYCURG0": {
       "tier": "B",
       "score": 1.5704620689655169,
@@ -1536,18 +1548,6 @@
       "rank": 26,
       "prevRank": 26,
       "normalizedScore": 44.87
-    },
-    "#8YJYY92GC": {
-      "tier": "A",
-      "score": 2.192223086039416,
-      "avgStars": 2.4615384615384617,
-      "totalStars": 192,
-      "totalAttacks": 78,
-      "warsInRoster": 39,
-      "totalMissed": 0,
-      "rank": 11,
-      "prevRank": 11,
-      "normalizedScore": 62.63
     },
     "#GLV8G0LJ": {
       "tier": "C",
@@ -1609,18 +1609,6 @@
       "prevRank": 31,
       "normalizedScore": 35.59
     },
-    "#P9C0LVLU2": {
-      "tier": "B",
-      "score": 1.4292302452808012,
-      "avgStars": 2.901639344262295,
-      "totalStars": 177,
-      "totalAttacks": 61,
-      "warsInRoster": 40,
-      "totalMissed": 11,
-      "rank": 29,
-      "prevRank": 29,
-      "normalizedScore": 40.84
-    },
     "#20CY00CU9": {
       "tier": "B",
       "score": 1.8723892708748762,
@@ -1632,6 +1620,18 @@
       "rank": 22,
       "prevRank": 22,
       "normalizedScore": 53.5
+    },
+    "#P9C0LVLU2": {
+      "tier": "B",
+      "score": 1.4292302452808012,
+      "avgStars": 2.901639344262295,
+      "totalStars": 177,
+      "totalAttacks": 61,
+      "warsInRoster": 40,
+      "totalMissed": 11,
+      "rank": 29,
+      "prevRank": 29,
+      "normalizedScore": 40.84
     },
     "#29JQ2PCVL": {
       "tier": "B",
