@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 40,
-        "destructionPercentage": 54.28
+        "stars": 48,
+        "destructionPercentage": 64
       },
       "sixHourNonAttackers": [
         {
@@ -141,11 +141,6 @@
           "townhallLevel": 17
         },
         {
-          "tag": "#JCRQGG9P",
-          "name": "Rodrigo-br",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#2GPRRP0R",
           "name": "Clasher",
           "townhallLevel": 18
@@ -158,11 +153,6 @@
         {
           "tag": "#VPPQ8VLV",
           "name": "GABRIEL LOBATO",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#20CY00CU9",
-          "name": "-Bonb- ||",
           "townhallLevel": 18
         },
         {
@@ -355,7 +345,14 @@
           "name": "Rodrigo-br",
           "townhallLevel": 18,
           "mapPosition": 17,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 26,
+              "defenderTag": "#LQGGG2VR0"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -466,7 +463,20 @@
           "name": "-Bonb- ||",
           "townhallLevel": 18,
           "mapPosition": 18,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 25,
+              "defenderTag": "#9QPQJJ28U"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 27,
+              "defenderTag": "#GLVJ2G9PL"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
