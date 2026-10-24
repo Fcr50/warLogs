@@ -201,7 +201,20 @@
           "name": "Saymon",
           "townhallLevel": 18,
           "mapPosition": 23,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 1,
+              "destructionPercentage": 64,
+              "order": 80,
+              "defenderTag": "#G9VULYLLG"
+            },
+            {
+              "stars": 1,
+              "destructionPercentage": 60,
+              "order": 81,
+              "defenderTag": "#GPY9UGGVQ"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -605,6 +618,12 @@
               "destructionPercentage": 57,
               "order": 11,
               "defenderTag": "#GLVJ2G9PL"
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 73,
+              "order": 82,
+              "defenderTag": "#UPC8C2JV"
             }
           ],
           "defensesReceived": [
