@@ -10,8 +10,8 @@
       "opponent": {
         "name": "ACTIVE FORCE",
         "tag": "#RURJQLQY",
-        "stars": 16,
-        "destructionPercentage": 22.96,
+        "stars": 17,
+        "destructionPercentage": 25.96,
         "members": [
           {
             "tag": "#UPC8C2JV",
@@ -362,7 +362,14 @@
           "townhallLevel": 18,
           "mapPosition": 15,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 1,
+              "destructionPercentage": 75,
+              "attackerTag": "#90J9P9UCL",
+              "attackerMapPosition": 21
+            }
+          ],
           "missedAttacks": 0
         },
         {
