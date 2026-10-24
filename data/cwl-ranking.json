@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T04:30:32.653Z",
+  "generatedAt": "2026-10-24T04:45:24.251Z",
   "totalWars": 29,
   "liveWar": {
     "opponentName": "ACTIVE FORCE",
@@ -1202,12 +1202,12 @@
         "townhallLevel": 18
       },
       "data": {
-        "score": 0,
-        "rawScore": 0,
+        "score": 0.125875,
+        "rawScore": 0.25175,
         "confidence": 0.5,
         "tier": "F",
         "attackScore": 0,
-        "defenseScore": 0,
+        "defenseScore": 1.007,
         "reliability": 0,
         "formScore": 0,
         "warsInRoster": 1,
@@ -1221,13 +1221,13 @@
         "threeStarRate": 0,
         "totalMissed": 0,
         "avgPositionDiff": 0,
-        "hasAnyDefense": false,
+        "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
-          "attack": 0.56,
-          "defense": 0,
-          "reliability": 0.3067,
-          "form": 0.1333
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
         }
       }
     },
@@ -1486,7 +1486,7 @@
     },
     "#8UQC9JVRR": {
       "tier": "F",
-      "score": 0,
+      "score": 0.125875,
       "avgStars": 0,
       "totalStars": 0,
       "totalAttacks": 0,
