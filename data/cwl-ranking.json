@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-24T00:45:25.611Z",
+  "generatedAt": "2026-10-24T01:00:27.067Z",
   "totalWars": 29,
   "liveWar": {
     "opponentName": "ACTIVE FORCE",
-    "totalAttacksDone": 15,
+    "totalAttacksDone": 17,
     "totalAttacksExpected": 50
   },
   "ranking": [
@@ -1089,6 +1089,42 @@
     },
     {
       "player": {
+        "tag": "#QRJG880R0",
+        "name": "FullOn",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 1.213275,
+        "rawScore": 2.42655,
+        "confidence": 0.5,
+        "tier": "B",
+        "attackScore": 3.5,
+        "defenseScore": 0,
+        "reliability": 0,
+        "formScore": 3.5,
+        "warsInRoster": 1,
+        "attacksUsed": 2,
+        "attacksAvailable": 2,
+        "avgDestruction": 100,
+        "totalAttacks": 2,
+        "totalStars": 6,
+        "count3Stars": 2,
+        "avgStars": 3,
+        "threeStarRate": 1,
+        "totalMissed": 0,
+        "avgPositionDiff": 2.5,
+        "hasAnyDefense": false,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.56,
+          "defense": 0,
+          "reliability": 0.3067,
+          "form": 0.1333
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#GRLPU9R9",
         "name": "Eder",
         "townhallLevel": 18
@@ -1163,42 +1199,6 @@
       "player": {
         "tag": "#8UQC9JVRR",
         "name": "Bruno_rda",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 0,
-        "rawScore": 0,
-        "confidence": 0.5,
-        "tier": "F",
-        "attackScore": 0,
-        "defenseScore": 0,
-        "reliability": 0,
-        "formScore": 0,
-        "warsInRoster": 1,
-        "attacksUsed": 0,
-        "attacksAvailable": 2,
-        "avgDestruction": 0,
-        "totalAttacks": 0,
-        "totalStars": 0,
-        "count3Stars": 0,
-        "avgStars": 0,
-        "threeStarRate": 0,
-        "totalMissed": 0,
-        "avgPositionDiff": 0,
-        "hasAnyDefense": false,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.56,
-          "defense": 0,
-          "reliability": 0.3067,
-          "form": 0.1333
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#QRJG880R0",
-        "name": "FullOn",
         "townhallLevel": 18
       },
       "data": {
@@ -1309,13 +1309,6 @@
       "player": {
         "tag": "#8UQC9JVRR",
         "name": "Bruno_rda",
-        "townhallLevel": 18
-      }
-    },
-    {
-      "player": {
-        "tag": "#QRJG880R0",
-        "name": "FullOn",
         "townhallLevel": 18
       }
     },
@@ -1557,7 +1550,7 @@
       "totalAttacks": 2,
       "warsInRoster": 1,
       "totalMissed": 0,
-      "rank": 35,
+      "rank": 36,
       "prevRank": 35,
       "normalizedScore": 15.93
     },
@@ -1574,14 +1567,15 @@
       "normalizedScore": 54.41
     },
     "#QRJG880R0": {
-      "tier": "F",
-      "score": 0,
-      "avgStars": 0,
-      "totalStars": 0,
-      "totalAttacks": 0,
+      "tier": "C",
+      "score": 1.213275,
+      "avgStars": 3,
+      "totalStars": 6,
+      "totalAttacks": 2,
       "warsInRoster": 1,
       "totalMissed": 0,
-      "normalizedScore": 0
+      "rank": 33,
+      "normalizedScore": 34.67
     },
     "#GLV8G0LJ": {
       "tier": "C",
@@ -1603,7 +1597,7 @@
       "totalAttacks": 6,
       "warsInRoster": 3,
       "totalMissed": 0,
-      "rank": 33,
+      "rank": 34,
       "prevRank": 33,
       "normalizedScore": 30.35
     },
@@ -1700,7 +1694,7 @@
       "warsInRoster": 40,
       "totalMissed": 2,
       "rank": 16,
-      "prevRank": 15,
+      "prevRank": 16,
       "normalizedScore": 56.82
     },
     "#PPPUQPVJY": {
@@ -1780,7 +1774,7 @@
       "warsInRoster": 24,
       "totalMissed": 1,
       "rank": 15,
-      "prevRank": 16,
+      "prevRank": 15,
       "normalizedScore": 57.13
     },
     "#LR2U2PRP2": {
@@ -1791,7 +1785,7 @@
       "totalAttacks": 6,
       "warsInRoster": 5,
       "totalMissed": 2,
-      "rank": 34,
+      "rank": 35,
       "prevRank": 34,
       "normalizedScore": 20.24
     },
