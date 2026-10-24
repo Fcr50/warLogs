@@ -210,7 +210,20 @@
           "name": "zoldyck",
           "townhallLevel": 18,
           "mapPosition": 20,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 1,
+              "destructionPercentage": 60,
+              "order": 68,
+              "defenderTag": "#UPC8C2JV"
+            },
+            {
+              "stars": 1,
+              "destructionPercentage": 80,
+              "order": 69,
+              "defenderTag": "#80YG2VYU8"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
