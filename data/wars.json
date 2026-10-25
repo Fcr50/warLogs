@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 30,
-        "destructionPercentage": 33.333332
+        "stars": 39,
+        "destructionPercentage": 43.333332
       },
       "sixHourNonAttackers": [
         {
@@ -168,11 +168,6 @@
         {
           "tag": "#GLV8G0LJ",
           "name": "Luiz",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#JCRQGG9P",
-          "name": "Rodrigo-br",
           "townhallLevel": 18
         },
         {
@@ -221,11 +216,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#8UQC9JVRR",
-          "name": "Bruno_rda",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#GQU9Y0CQ8",
           "name": "Scok♤",
           "townhallLevel": 18
@@ -233,11 +223,6 @@
         {
           "tag": "#VQYCURG0",
           "name": "Edberg",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QJLQLUURY",
-          "name": "NenemPJL",
           "townhallLevel": 18
         }
       ],
@@ -411,7 +396,14 @@
           "name": "Rodrigo-br",
           "townhallLevel": 18,
           "mapPosition": 21,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 16,
+              "defenderTag": "#GPLUQU2GJ"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -549,7 +541,14 @@
           "name": "Bruno_rda",
           "townhallLevel": 18,
           "mapPosition": 14,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 17,
+              "defenderTag": "#8J8Y820LR"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -606,7 +605,14 @@
           "name": "NenemPJL",
           "townhallLevel": 18,
           "mapPosition": 12,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 15,
+              "defenderTag": "#PJVCV2C9Q"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         }
