@@ -136,18 +136,13 @@
         ]
       },
       "clan": {
-        "stars": 45,
-        "destructionPercentage": 50
+        "stars": 51,
+        "destructionPercentage": 56.666668
       },
       "sixHourNonAttackers": [
         {
           "tag": "#YG2C8YVR9",
           "name": "Saymon",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#LVPLJVLVG",
-          "name": "zoldyck",
           "townhallLevel": 18
         },
         {
@@ -174,11 +169,6 @@
           "tag": "#URR0QLV",
           "name": "Victor Daniel",
           "townhallLevel": 17
-        },
-        {
-          "tag": "#GRLPU9R9",
-          "name": "Eder",
-          "townhallLevel": 18
         },
         {
           "tag": "#PLU2VCLG",
@@ -263,7 +253,14 @@
           "name": "zoldyck",
           "townhallLevel": 18,
           "mapPosition": 24,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 21,
+              "defenderTag": "#GY2R8V8QC"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -459,7 +456,14 @@
           "name": "Eder",
           "townhallLevel": 18,
           "mapPosition": 15,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 95,
+              "order": 20,
+              "defenderTag": "#QUUP0LYGC"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -492,6 +496,12 @@
               "destructionPercentage": 100,
               "order": 11,
               "defenderTag": "#9YLU8VP9Q"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 22,
+              "defenderTag": "#QUUP0LYGC"
             }
           ],
           "defensesReceived": [],
