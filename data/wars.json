@@ -136,18 +136,13 @@
         ]
       },
       "clan": {
-        "stars": 3,
-        "destructionPercentage": 3.3333333
+        "stars": 15,
+        "destructionPercentage": 16.666666
       },
       "sixHourNonAttackers": [
         {
           "tag": "#8VCUUPPJP",
           "name": "Satsugai",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QQC8P9C9R",
-          "name": "Gs.prieto",
           "townhallLevel": 18
         },
         {
@@ -171,28 +166,13 @@
           "townhallLevel": 17
         },
         {
-          "tag": "#8YJYY92GC",
-          "name": "RussiaN",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#8CJ8YJY0P",
           "name": "ChrolloLucilfer",
           "townhallLevel": 18
         },
         {
-          "tag": "#2GP2JUU2",
-          "name": "Gustavo Lázaro",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#LQQRGJ8VU",
           "name": "i-Vinni",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#G9Y2L9QJJ",
-          "name": "Micael",
           "townhallLevel": 18
         },
         {
@@ -301,7 +281,14 @@
           "name": "Gs.prieto",
           "townhallLevel": 18,
           "mapPosition": 11,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 3,
+              "defenderTag": "#8QL8VPC8C"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -346,7 +333,14 @@
           "name": "RussiaN",
           "townhallLevel": 18,
           "mapPosition": 25,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 2,
+              "defenderTag": "#8JL9QR9Y"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -364,7 +358,14 @@
           "name": "Gustavo Lázaro",
           "townhallLevel": 18,
           "mapPosition": 1,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 5,
+              "defenderTag": "#82CRCLLYV"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -382,7 +383,14 @@
           "name": "Micael",
           "townhallLevel": 18,
           "mapPosition": 17,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 4,
+              "defenderTag": "#Y8VPJV80Q"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
