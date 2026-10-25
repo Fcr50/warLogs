@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 39,
-        "destructionPercentage": 43.333332
+        "stars": 45,
+        "destructionPercentage": 50
       },
       "sixHourNonAttackers": [
         {
@@ -159,11 +159,6 @@
           "tag": "#YRCLVY099",
           "name": "GLADIADOR - SP",
           "townhallLevel": 17
-        },
-        {
-          "tag": "#LQQRGJ8VU",
-          "name": "i-Vinni",
-          "townhallLevel": 18
         },
         {
           "tag": "#GLV8G0LJ",
@@ -203,11 +198,6 @@
         {
           "tag": "#29JQ2PCVL",
           "name": "¥vini¥",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#GGVCRYP8P",
-          "name": "gui",
           "townhallLevel": 18
         },
         {
@@ -362,7 +352,14 @@
           "name": "i-Vinni",
           "townhallLevel": 18,
           "mapPosition": 13,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 18,
+              "defenderTag": "#98CRCCP0Q"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -523,7 +520,14 @@
           "name": "gui",
           "townhallLevel": 18,
           "mapPosition": 16,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 19,
+              "defenderTag": "#QCCG2P22C"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
