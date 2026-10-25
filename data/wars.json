@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 21,
-        "destructionPercentage": 23.333334
+        "stars": 27,
+        "destructionPercentage": 30
       },
       "sixHourNonAttackers": [
         {
@@ -159,11 +159,6 @@
           "tag": "#YRCLVY099",
           "name": "GLADIADOR - SP",
           "townhallLevel": 17
-        },
-        {
-          "tag": "#8CJ8YJY0P",
-          "name": "ChrolloLucilfer",
-          "townhallLevel": 18
         },
         {
           "tag": "#LQQRGJ8VU",
@@ -243,11 +238,6 @@
         {
           "tag": "#VQYCURG0",
           "name": "Edberg",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QJVQVRPU",
-          "name": "Frnnn",
           "townhallLevel": 18
         },
         {
@@ -353,7 +343,14 @@
           "name": "ChrolloLucilfer",
           "townhallLevel": 18,
           "mapPosition": 9,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 13,
+              "defenderTag": "#PQJUL2GJV"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -591,7 +588,14 @@
           "name": "Frnnn",
           "townhallLevel": 18,
           "mapPosition": 4,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 12,
+              "defenderTag": "#9VP8V0080"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
