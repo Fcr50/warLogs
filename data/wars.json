@@ -10,8 +10,8 @@
       "opponent": {
         "name": "LDB TEAM",
         "tag": "#Q2L8G2GQ",
-        "stars": 1,
-        "destructionPercentage": 2.6,
+        "stars": 7,
+        "destructionPercentage": 9.266666,
         "members": [
           {
             "tag": "#8QL8VPC8C",
@@ -136,15 +136,10 @@
         ]
       },
       "clan": {
-        "stars": 15,
-        "destructionPercentage": 16.666666
+        "stars": 18,
+        "destructionPercentage": 20
       },
       "sixHourNonAttackers": [
-        {
-          "tag": "#8VCUUPPJP",
-          "name": "Satsugai",
-          "townhallLevel": 18
-        },
         {
           "tag": "#YG2C8YVR9",
           "name": "Saymon",
@@ -272,7 +267,14 @@
           "name": "Satsugai",
           "townhallLevel": 18,
           "mapPosition": 10,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 8,
+              "defenderTag": "#2CQCLJJ8U"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -549,7 +551,14 @@
           "townhallLevel": 18,
           "mapPosition": 30,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#9YLU8VP9Q",
+              "attackerMapPosition": 8
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -558,7 +567,14 @@
           "townhallLevel": 18,
           "mapPosition": 26,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#8JL9QR9Y",
+              "attackerMapPosition": 25
+            }
+          ],
           "missedAttacks": 0
         },
         {
