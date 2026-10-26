@@ -10,8 +10,8 @@
       "opponent": {
         "name": "LDB TEAM",
         "tag": "#Q2L8G2GQ",
-        "stars": 36,
-        "destructionPercentage": 50.9,
+        "stars": 37,
+        "destructionPercentage": 51.966667,
         "members": [
           {
             "tag": "#8QL8VPC8C",
@@ -299,7 +299,14 @@
           "name": "GLADIADOR - SP",
           "townhallLevel": 17,
           "mapPosition": 29,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 62,
+              "defenderTag": "#P2JQ0J0VY"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -335,6 +342,12 @@
               "destructionPercentage": 68,
               "attackerTag": "#8JL9QR9Y",
               "attackerMapPosition": 25
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#LR9LU988R",
+              "attackerMapPosition": 28
             }
           ],
           "missedAttacks": 0
