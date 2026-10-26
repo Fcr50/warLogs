@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 51,
-        "destructionPercentage": 56.666668
+        "stars": 54,
+        "destructionPercentage": 60
       },
       "sixHourNonAttackers": [
         {
@@ -154,11 +154,6 @@
           "tag": "#YRCLVY099",
           "name": "GLADIADOR - SP",
           "townhallLevel": 17
-        },
-        {
-          "tag": "#GLV8G0LJ",
-          "name": "Luiz",
-          "townhallLevel": 18
         },
         {
           "tag": "#2GPRRP0R",
@@ -395,7 +390,14 @@
           "name": "Luiz",
           "townhallLevel": 18,
           "mapPosition": 7,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 26,
+              "defenderTag": "#8VC228QY9"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
