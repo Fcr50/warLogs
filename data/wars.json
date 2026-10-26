@@ -10,8 +10,8 @@
       "opponent": {
         "name": "LDB TEAM",
         "tag": "#Q2L8G2GQ",
-        "stars": 29,
-        "destructionPercentage": 41,
+        "stars": 31,
+        "destructionPercentage": 43.933334,
         "members": [
           {
             "tag": "#8QL8VPC8C",
@@ -638,7 +638,14 @@
           "townhallLevel": 18,
           "mapPosition": 23,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 88,
+              "attackerTag": "#QCCG2P22C",
+              "attackerMapPosition": 16
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -731,6 +738,12 @@
               "destructionPercentage": 100,
               "order": 17,
               "defenderTag": "#8J8Y820LR"
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 76,
+              "order": 52,
+              "defenderTag": "#82CRCLLYV"
             }
           ],
           "defensesReceived": [],
@@ -779,6 +792,12 @@
               "destructionPercentage": 100,
               "order": 12,
               "defenderTag": "#9VP8V0080"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 53,
+              "defenderTag": "#82CRCLLYV"
             }
           ],
           "defensesReceived": [
