@@ -10,8 +10,8 @@
       "opponent": {
         "name": "LDB TEAM",
         "tag": "#Q2L8G2GQ",
-        "stars": 27,
-        "destructionPercentage": 38,
+        "stars": 29,
+        "destructionPercentage": 41,
         "members": [
           {
             "tag": "#8QL8VPC8C",
@@ -694,7 +694,14 @@
               "defenderTag": "#QCCG2P22C"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 90,
+              "attackerTag": "#QCCG2P22C",
+              "attackerMapPosition": 16
+            }
+          ],
           "missedAttacks": 0
         },
         {
