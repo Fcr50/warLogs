@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-26T13:45:23.877Z",
+  "generatedAt": "2026-10-26T14:00:31.568Z",
   "totalWars": 29,
   "liveWar": {
     "opponentName": "LDB TEAM",
-    "totalAttacksDone": 46,
+    "totalAttacksDone": 49,
     "totalAttacksExpected": 60
   },
   "ranking": [
@@ -554,25 +554,25 @@
         "townhallLevel": 18
       },
       "data": {
-        "score": 2.1101879193419095,
-        "rawScore": 2.1101879193419095,
+        "score": 2.1253321163626366,
+        "rawScore": 2.1253321163626366,
         "confidence": 1,
         "tier": "A",
-        "attackScore": 3.0817865665835473,
+        "attackScore": 3.1178441785376596,
         "defenseScore": 0.061515762748658824,
         "reliability": 0.786896551724138,
         "formScore": 2.575,
         "warsInRoster": 25,
-        "attacksUsed": 48,
+        "attacksUsed": 49,
         "attacksAvailable": 50,
-        "avgDestruction": 93.625,
-        "totalAttacks": 48,
-        "totalStars": 133,
-        "count3Stars": 41,
-        "avgStars": 2.7708333333333335,
-        "threeStarRate": 0.8541666666666666,
+        "avgDestruction": 93.75510204081633,
+        "totalAttacks": 49,
+        "totalStars": 136,
+        "count3Stars": 42,
+        "avgStars": 2.7755102040816326,
+        "threeStarRate": 0.8571428571428571,
         "totalMissed": 1,
-        "avgPositionDiff": -2.0833333333333335,
+        "avgPositionDiff": -2.5918367346938775,
         "hasAnyDefense": true,
         "hadTh17": true,
         "weights": {
@@ -729,42 +729,6 @@
     },
     {
       "player": {
-        "tag": "#20CY00CU9",
-        "name": "-Bonb- ||",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 1.9611565122541865,
-        "rawScore": 1.9611565122541865,
-        "confidence": 1,
-        "tier": "B",
-        "attackScore": 2.7700219851255437,
-        "defenseScore": 0.18971325193686747,
-        "reliability": 0.5801724137931035,
-        "formScore": 3.5,
-        "warsInRoster": 7,
-        "attacksUsed": 10,
-        "attacksAvailable": 14,
-        "avgDestruction": 93.3,
-        "totalAttacks": 10,
-        "totalStars": 27,
-        "count3Stars": 8,
-        "avgStars": 2.7,
-        "threeStarRate": 0.8,
-        "totalMissed": 1,
-        "avgPositionDiff": -3.6,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
         "tag": "#L8RG2PV0G",
         "name": "joaoaoaoao",
         "townhallLevel": 18
@@ -861,6 +825,42 @@
         "threeStarRate": 0.6,
         "totalMissed": 0,
         "avgPositionDiff": -8.8,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#20CY00CU9",
+        "name": "-Bonb- ||",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 1.6967665698915733,
+        "rawScore": 1.6967665698915733,
+        "confidence": 1,
+        "tier": "C",
+        "attackScore": 2.4262364080717025,
+        "defenseScore": 0.18971325193686747,
+        "reliability": 0.5801724137931035,
+        "formScore": 2.3,
+        "warsInRoster": 7,
+        "attacksUsed": 12,
+        "attacksAvailable": 14,
+        "avgDestruction": 87.75,
+        "totalAttacks": 12,
+        "totalStars": 29,
+        "count3Stars": 8,
+        "avgStars": 2.4166666666666665,
+        "threeStarRate": 0.6666666666666666,
+        "totalMissed": 1,
+        "avgPositionDiff": -6.416666666666667,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1607,7 +1607,7 @@
       "totalAttacks": 10,
       "warsInRoster": 5,
       "totalMissed": 0,
-      "rank": 24,
+      "rank": 23,
       "prevRank": 24,
       "normalizedScore": 48.78
     },
@@ -1673,15 +1673,15 @@
     },
     "#20CY00CU9": {
       "tier": "B",
-      "score": 1.9611565122541865,
-      "avgStars": 2.7,
-      "totalStars": 27,
-      "totalAttacks": 10,
+      "score": 1.6967665698915733,
+      "avgStars": 2.4166666666666665,
+      "totalStars": 29,
+      "totalAttacks": 12,
       "warsInRoster": 7,
       "totalMissed": 1,
-      "rank": 21,
+      "rank": 24,
       "prevRank": 21,
-      "normalizedScore": 56.03
+      "normalizedScore": 48.48
     },
     "#29JQ2PCVL": {
       "tier": "B",
@@ -1763,7 +1763,7 @@
       "totalAttacks": 2,
       "warsInRoster": 2,
       "totalMissed": 0,
-      "rank": 23,
+      "rank": 22,
       "prevRank": 23,
       "normalizedScore": 50.69
     },
@@ -1833,21 +1833,21 @@
       "totalAttacks": 49,
       "warsInRoster": 28,
       "totalMissed": 6,
-      "rank": 22,
+      "rank": 21,
       "prevRank": 22,
       "normalizedScore": 55.11
     },
     "#URR0QLV": {
       "tier": "B",
-      "score": 2.1101879193419095,
-      "avgStars": 2.7708333333333335,
-      "totalStars": 133,
-      "totalAttacks": 48,
+      "score": 2.1253321163626366,
+      "avgStars": 2.7755102040816326,
+      "totalStars": 136,
+      "totalAttacks": 49,
       "warsInRoster": 25,
       "totalMissed": 1,
       "rank": 16,
       "prevRank": 16,
-      "normalizedScore": 60.29
+      "normalizedScore": 60.72
     },
     "#GRLPU9R9": {
       "tier": "B",
