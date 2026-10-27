@@ -10,8 +10,8 @@
       "opponent": {
         "name": "MADE IN IRAN",
         "tag": "#8G9UJPJG",
-        "stars": 22,
-        "destructionPercentage": 28.266666,
+        "stars": 31,
+        "destructionPercentage": 42.8,
         "members": [
           {
             "tag": "#8UYPLLPR8",
@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 12,
-        "destructionPercentage": 13.333333
+        "stars": 21,
+        "destructionPercentage": 23.333334
       },
       "sixHourNonAttackers": [
         {
@@ -169,11 +169,6 @@
           "tag": "#YRCLVY099",
           "name": "GLADIADOR - SP",
           "townhallLevel": 17
-        },
-        {
-          "tag": "#8YJYY92GC",
-          "name": "RussiaN",
-          "townhallLevel": 18
         },
         {
           "tag": "#LQQRGJ8VU",
@@ -241,11 +236,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#29JQ2PCVL",
-          "name": "¥vini¥",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#GGVCRYP8P",
           "name": "gui",
           "townhallLevel": 18
@@ -310,9 +300,22 @@
               "destructionPercentage": 100,
               "order": 12,
               "defenderTag": "#GY9YU82RL"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 15,
+              "defenderTag": "#2CYQJLU8U"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 76,
+              "attackerTag": "#QRUR8QUYL",
+              "attackerMapPosition": 30
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -342,6 +345,18 @@
           "defensesReceived": [
             {
               "stars": 1,
+              "destructionPercentage": 70,
+              "attackerTag": "#QRUR8QUYL",
+              "attackerMapPosition": 30
+            },
+            {
+              "stars": 1,
+              "destructionPercentage": 68,
+              "attackerTag": "#8CVQ0UVJL",
+              "attackerMapPosition": 29
+            },
+            {
+              "stars": 1,
               "destructionPercentage": 89,
               "attackerTag": "#2LQVP0J99",
               "attackerMapPosition": 24
@@ -354,7 +369,14 @@
           "name": "RussiaN",
           "townhallLevel": 18,
           "mapPosition": 23,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 16,
+              "defenderTag": "#QPURGVPRU"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -371,7 +393,14 @@
               "defenderTag": "#2C98UYJ9J"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 1,
+              "destructionPercentage": 91,
+              "attackerTag": "#YGPJ88JR",
+              "attackerMapPosition": 1
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -534,7 +563,14 @@
           "townhallLevel": 18,
           "mapPosition": 6,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 82,
+              "attackerTag": "#YGPJ88JR",
+              "attackerMapPosition": 1
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -560,7 +596,14 @@
           "name": "¥vini¥",
           "townhallLevel": 18,
           "mapPosition": 19,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 18,
+              "defenderTag": "#9Q90L02VV"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -579,7 +622,14 @@
           "townhallLevel": 18,
           "mapPosition": 5,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 88,
+              "attackerTag": "#2LYCU9RRG",
+              "attackerMapPosition": 7
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -636,7 +686,14 @@
           "townhallLevel": 18,
           "mapPosition": 13,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 99,
+              "attackerTag": "#2L890RQYU",
+              "attackerMapPosition": 14
+            }
+          ],
           "missedAttacks": 0
         }
       ]
