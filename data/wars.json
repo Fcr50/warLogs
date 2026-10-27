@@ -10,8 +10,8 @@
       "opponent": {
         "name": "MADE IN IRAN",
         "tag": "#8G9UJPJG",
-        "stars": 31,
-        "destructionPercentage": 42.8,
+        "stars": 33,
+        "destructionPercentage": 46.866665,
         "members": [
           {
             "tag": "#8UYPLLPR8",
@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 21,
-        "destructionPercentage": 23.333334
+        "stars": 27,
+        "destructionPercentage": 30
       },
       "sixHourNonAttackers": [
         {
@@ -161,11 +161,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#2QL0VR9GU",
-          "name": "Marcola",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#YRCLVY099",
           "name": "GLADIADOR - SP",
           "townhallLevel": 17
@@ -173,11 +168,6 @@
         {
           "tag": "#LQQRGJ8VU",
           "name": "i-Vinni",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#G9Y2L9QJJ",
-          "name": "Micael",
           "townhallLevel": 18
         },
         {
@@ -243,11 +233,6 @@
         {
           "tag": "#YPVQVU982",
           "name": "亗 ＨＡＤＥＳ_０７ 亗",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#GQU9Y0CQ8",
-          "name": "Scok♤",
           "townhallLevel": 18
         },
         {
@@ -332,7 +317,14 @@
           "name": "Marcola",
           "townhallLevel": 18,
           "mapPosition": 10,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 95,
+              "order": 25,
+              "defenderTag": "#JQQ0QPPL"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -440,7 +432,14 @@
           "name": "Micael",
           "townhallLevel": 18,
           "mapPosition": 18,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 28,
+              "defenderTag": "#RR9QLY2P"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -579,7 +578,14 @@
           "townhallLevel": 18,
           "mapPosition": 8,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 1,
+              "destructionPercentage": 58,
+              "attackerTag": "#2LYCU9RRG",
+              "attackerMapPosition": 7
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -637,7 +643,14 @@
           "name": "Scok♤",
           "townhallLevel": 18,
           "mapPosition": 30,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 29,
+              "defenderTag": "#JQQ0QPPL"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -661,7 +674,14 @@
               "defenderTag": "#2002R8G2C"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 1,
+              "destructionPercentage": 64,
+              "attackerTag": "#8CVQ0UVJL",
+              "attackerMapPosition": 29
+            }
+          ],
           "missedAttacks": 0
         },
         {
