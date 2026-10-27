@@ -10,8 +10,8 @@
       "opponent": {
         "name": "MADE IN IRAN",
         "tag": "#8G9UJPJG",
-        "stars": 3,
-        "destructionPercentage": 3.3333333,
+        "stars": 6,
+        "destructionPercentage": 6.6666665,
         "members": [
           {
             "tag": "#8UYPLLPR8",
@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 3,
-        "destructionPercentage": 3.3333333
+        "stars": 6,
+        "destructionPercentage": 6.6666665
       },
       "sixHourNonAttackers": [
         {
@@ -178,11 +178,6 @@
         {
           "tag": "#8YJYY92GC",
           "name": "RussiaN",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#2GP2JUU2",
-          "name": "Gustavo Lázaro",
           "townhallLevel": 18
         },
         {
@@ -380,7 +375,14 @@
           "name": "Gustavo Lázaro",
           "townhallLevel": 18,
           "mapPosition": 1,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 4,
+              "defenderTag": "#YGPJ88JR"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -442,7 +444,14 @@
           "townhallLevel": 18,
           "mapPosition": 2,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#82RPCLY2Y",
+              "attackerMapPosition": 2
+            }
+          ],
           "missedAttacks": 0
         },
         {
