@@ -10,8 +10,8 @@
       "opponent": {
         "name": "MADE IN IRAN",
         "tag": "#8G9UJPJG",
-        "stars": 33,
-        "destructionPercentage": 46.866665,
+        "stars": 35,
+        "destructionPercentage": 48.3,
         "members": [
           {
             "tag": "#8UYPLLPR8",
@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 27,
-        "destructionPercentage": 30
+        "stars": 30,
+        "destructionPercentage": 33.333332
       },
       "sixHourNonAttackers": [
         {
@@ -198,11 +198,6 @@
         {
           "tag": "#GJ2LQVQJ",
           "name": "Fer",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#URR0QLV",
-          "name": "Victor Daniel",
           "townhallLevel": 18
         },
         {
@@ -346,6 +341,12 @@
               "destructionPercentage": 68,
               "attackerTag": "#8CVQ0UVJL",
               "attackerMapPosition": 29
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#2CPCQ8QVU",
+              "attackerMapPosition": 25
             },
             {
               "stars": 1,
@@ -536,8 +537,21 @@
           "name": "Victor Daniel",
           "townhallLevel": 18,
           "mapPosition": 27,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 30,
+              "defenderTag": "#QRUR8QUYL"
+            }
+          ],
           "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 81,
+              "attackerTag": "#2CYQJLU8U",
+              "attackerMapPosition": 27
+            },
             {
               "stars": 2,
               "destructionPercentage": 70,
@@ -680,6 +694,18 @@
               "destructionPercentage": 64,
               "attackerTag": "#8CVQ0UVJL",
               "attackerMapPosition": 29
+            },
+            {
+              "stars": 1,
+              "destructionPercentage": 85,
+              "attackerTag": "#2CPCQ8QVU",
+              "attackerMapPosition": 25
+            },
+            {
+              "stars": 1,
+              "destructionPercentage": 85,
+              "attackerTag": "#2CYQJLU8U",
+              "attackerMapPosition": 27
             }
           ],
           "missedAttacks": 0
