@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 39,
-        "destructionPercentage": 43.333332
+        "stars": 42,
+        "destructionPercentage": 46.666668
       },
       "sixHourNonAttackers": [
         {
@@ -193,11 +193,6 @@
         {
           "tag": "#GRLPU9R9",
           "name": "Eder",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#PLU2VCLG",
-          "name": "Phoenix",
           "townhallLevel": 18
         },
         {
@@ -574,7 +569,14 @@
           "name": "Phoenix",
           "townhallLevel": 18,
           "mapPosition": 6,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 40,
+              "defenderTag": "#2GUYYQ0L9"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -724,6 +726,12 @@
               "destructionPercentage": 85,
               "attackerTag": "#2CYQJLU8U",
               "attackerMapPosition": 27
+            },
+            {
+              "stars": 1,
+              "destructionPercentage": 76,
+              "attackerTag": "#QPURGVPRU",
+              "attackerMapPosition": 23
             }
           ],
           "missedAttacks": 0
