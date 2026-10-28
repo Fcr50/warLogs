@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-28T12:30:30.174Z",
+  "generatedAt": "2026-10-28T12:45:31.829Z",
   "totalWars": 28,
   "liveWar": {
     "opponentName": "MADE IN IRAN",
-    "totalAttacksDone": 46,
+    "totalAttacksDone": 48,
     "totalAttacksExpected": 60
   },
   "ranking": [
@@ -950,25 +950,25 @@
         "townhallLevel": 18
       },
       "data": {
-        "score": 1.8003171474595256,
-        "rawScore": 1.8003171474595256,
+        "score": 1.803910823020178,
+        "rawScore": 1.803910823020178,
         "confidence": 1,
         "tier": "C",
-        "attackScore": 2.3082238804223243,
+        "attackScore": 2.3167802508048294,
         "defenseScore": 0.2043667564428835,
         "reliability": 0.6228571428571429,
         "formScore": 3.5,
         "warsInRoster": 19,
-        "attacksUsed": 32,
+        "attacksUsed": 33,
         "attacksAvailable": 38,
-        "avgDestruction": 91.125,
-        "totalAttacks": 32,
-        "totalStars": 74,
-        "count3Stars": 15,
-        "avgStars": 2.3125,
-        "threeStarRate": 0.46875,
+        "avgDestruction": 91.39393939393939,
+        "totalAttacks": 33,
+        "totalStars": 77,
+        "count3Stars": 16,
+        "avgStars": 2.3333333333333335,
+        "threeStarRate": 0.48484848484848486,
         "totalMissed": 4,
-        "avgPositionDiff": -5.125,
+        "avgPositionDiff": -5.151515151515151,
         "hasAnyDefense": true,
         "hadTh17": true,
         "weights": {
@@ -1089,6 +1089,42 @@
     },
     {
       "player": {
+        "tag": "#GRLPU9R9",
+        "name": "Eder",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 1.5491082233016809,
+        "rawScore": 1.8224802627078598,
+        "confidence": 0.85,
+        "tier": "C",
+        "attackScore": 2.6018237547466048,
+        "defenseScore": 0,
+        "reliability": 0.6285714285714286,
+        "formScore": 2.96,
+        "warsInRoster": 5,
+        "attacksUsed": 10,
+        "attacksAvailable": 10,
+        "avgDestruction": 89.3,
+        "totalAttacks": 10,
+        "totalStars": 21,
+        "count3Stars": 4,
+        "avgStars": 2.1,
+        "threeStarRate": 0.4,
+        "totalMissed": 0,
+        "avgPositionDiff": -2.1,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#QRJG880R0",
         "name": "FullOn",
         "townhallLevel": 18
@@ -1113,42 +1149,6 @@
         "threeStarRate": 0.75,
         "totalMissed": 0,
         "avgPositionDiff": -3.5,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#GRLPU9R9",
-        "name": "Eder",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 1.4770814254014617,
-        "rawScore": 1.7377428534134844,
-        "confidence": 0.85,
-        "tier": "C",
-        "attackScore": 2.466139446902854,
-        "defenseScore": 0,
-        "reliability": 0.6285714285714286,
-        "formScore": 2.6825,
-        "warsInRoster": 5,
-        "attacksUsed": 9,
-        "attacksAvailable": 10,
-        "avgDestruction": 88.11111111111111,
-        "totalAttacks": 9,
-        "totalStars": 18,
-        "count3Stars": 3,
-        "avgStars": 2,
-        "threeStarRate": 0.3333333333333333,
-        "totalMissed": 0,
-        "avgPositionDiff": -2.3333333333333335,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1543,7 +1543,7 @@
       "warsInRoster": 43,
       "totalMissed": 2,
       "rank": 4,
-      "prevRank": 3,
+      "prevRank": 4,
       "normalizedScore": 71.39
     },
     "#8CJ8YJY0P": {
@@ -1567,7 +1567,7 @@
       "warsInRoster": 32,
       "totalMissed": 0,
       "rank": 3,
-      "prevRank": 4,
+      "prevRank": 3,
       "normalizedScore": 71.75
     },
     "#L989P0JGU": {
@@ -1714,6 +1714,18 @@
       "prevRank": 7,
       "normalizedScore": 69.74
     },
+    "#QQC8P9C9R": {
+      "tier": "A",
+      "score": 2.449130977665961,
+      "avgStars": 2.86046511627907,
+      "totalStars": 246,
+      "totalAttacks": 86,
+      "warsInRoster": 43,
+      "totalMissed": 0,
+      "rank": 6,
+      "prevRank": 6,
+      "normalizedScore": 69.98
+    },
     "#29JQ2PCVL": {
       "tier": "B",
       "score": 2.1477857712275177,
@@ -1750,29 +1762,17 @@
       "prevRank": 25,
       "normalizedScore": 53.86
     },
-    "#QQC8P9C9R": {
-      "tier": "A",
-      "score": 2.449130977665961,
-      "avgStars": 2.86046511627907,
-      "totalStars": 246,
-      "totalAttacks": 86,
-      "warsInRoster": 43,
-      "totalMissed": 0,
-      "rank": 6,
-      "prevRank": 6,
-      "normalizedScore": 69.98
-    },
     "#GRLPU9R9": {
       "tier": "C",
-      "score": 1.4770814254014617,
-      "avgStars": 2,
-      "totalStars": 18,
-      "totalAttacks": 9,
+      "score": 1.5491082233016809,
+      "avgStars": 2.1,
+      "totalStars": 21,
+      "totalAttacks": 10,
       "warsInRoster": 5,
       "totalMissed": 0,
-      "rank": 32,
+      "rank": 31,
       "prevRank": 32,
-      "normalizedScore": 42.2
+      "normalizedScore": 44.26
     },
     "#RC82GPG": {
       "tier": "C",
@@ -1874,7 +1874,7 @@
       "totalAttacks": 4,
       "warsInRoster": 2,
       "totalMissed": 0,
-      "rank": 31,
+      "rank": 32,
       "prevRank": 31,
       "normalizedScore": 43.65
     },
@@ -1890,15 +1890,15 @@
     },
     "#YRCLVY099": {
       "tier": "B",
-      "score": 1.8003171474595256,
-      "avgStars": 2.3125,
-      "totalStars": 74,
-      "totalAttacks": 32,
+      "score": 1.803910823020178,
+      "avgStars": 2.3333333333333335,
+      "totalStars": 77,
+      "totalAttacks": 33,
       "warsInRoster": 19,
       "totalMissed": 4,
       "rank": 27,
       "prevRank": 27,
-      "normalizedScore": 51.44
+      "normalizedScore": 51.54
     },
     "#QJLQLUURY": {
       "tier": "B",
