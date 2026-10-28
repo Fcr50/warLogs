@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-28T07:15:26.137Z",
+  "generatedAt": "2026-10-28T07:30:26.007Z",
   "totalWars": 28,
   "liveWar": {
     "opponentName": "MADE IN IRAN",
-    "totalAttacksDone": 41,
+    "totalAttacksDone": 42,
     "totalAttacksExpected": 60
   },
   "ranking": [
@@ -153,6 +153,42 @@
     },
     {
       "player": {
+        "tag": "#QQC8P9C9R",
+        "name": "Gs.prieto",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.449130977665961,
+        "rawScore": 2.449130977665961,
+        "confidence": 1,
+        "tier": "S",
+        "attackScore": 3.306250096604768,
+        "defenseScore": 0.18702374836783367,
+        "reliability": 1,
+        "formScore": 3.2375,
+        "warsInRoster": 43,
+        "attacksUsed": 86,
+        "attacksAvailable": 86,
+        "avgDestruction": 98.79069767441861,
+        "totalAttacks": 86,
+        "totalStars": 246,
+        "count3Stars": 76,
+        "avgStars": 2.86046511627907,
+        "threeStarRate": 0.8837209302325582,
+        "totalMissed": 0,
+        "avgPositionDiff": -1.302325581395349,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#29LP0VJV0",
         "name": "Warlord Raivon",
         "townhallLevel": 18
@@ -177,42 +213,6 @@
         "threeStarRate": 0.7848101265822784,
         "totalMissed": 1,
         "avgPositionDiff": -2.392405063291139,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#QQC8P9C9R",
-        "name": "Gs.prieto",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.3837060848802962,
-        "rawScore": 2.3837060848802962,
-        "confidence": 1,
-        "tier": "S",
-        "attackScore": 3.212976542353186,
-        "defenseScore": 0.18702374836783367,
-        "reliability": 1,
-        "formScore": 2.975,
-        "warsInRoster": 43,
-        "attacksUsed": 85,
-        "attacksAvailable": 86,
-        "avgDestruction": 98.7764705882353,
-        "totalAttacks": 85,
-        "totalStars": 243,
-        "count3Stars": 75,
-        "avgStars": 2.8588235294117648,
-        "threeStarRate": 0.8823529411764706,
-        "totalMissed": 0,
-        "avgPositionDiff": -1.188235294117647,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1662,7 +1662,7 @@
       "totalAttacks": 79,
       "warsInRoster": 40,
       "totalMissed": 1,
-      "rank": 5,
+      "rank": 6,
       "prevRank": 5,
       "normalizedScore": 69.74
     },
@@ -1830,6 +1830,16 @@
       "totalMissed": 0,
       "normalizedScore": 0
     },
+    "#LUR09RUP2": {
+      "tier": "F",
+      "score": 0,
+      "avgStars": 0,
+      "totalStars": 0,
+      "totalAttacks": 0,
+      "warsInRoster": 0,
+      "totalMissed": 0,
+      "normalizedScore": 0
+    },
     "#JCRQGG9P": {
       "tier": "B",
       "score": 2.083878040311315,
@@ -1841,16 +1851,6 @@
       "rank": 20,
       "prevRank": 20,
       "normalizedScore": 59.54
-    },
-    "#LUR09RUP2": {
-      "tier": "F",
-      "score": 0,
-      "avgStars": 0,
-      "totalStars": 0,
-      "totalAttacks": 0,
-      "warsInRoster": 0,
-      "totalMissed": 0,
-      "normalizedScore": 0
     },
     "#QGQJGURCL": {
       "tier": "A",
@@ -1900,15 +1900,15 @@
     },
     "#QQC8P9C9R": {
       "tier": "A",
-      "score": 2.3837060848802962,
-      "avgStars": 2.8588235294117648,
-      "totalStars": 243,
-      "totalAttacks": 85,
+      "score": 2.449130977665961,
+      "avgStars": 2.86046511627907,
+      "totalStars": 246,
+      "totalAttacks": 86,
       "warsInRoster": 43,
       "totalMissed": 0,
-      "rank": 6,
+      "rank": 5,
       "prevRank": 6,
-      "normalizedScore": 68.11
+      "normalizedScore": 69.98
     },
     "#LQQRGJ8VU": {
       "tier": "B",
