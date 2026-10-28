@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 57,
-        "destructionPercentage": 63.333332
+        "stars": 59,
+        "destructionPercentage": 66.5
       },
       "sixHourNonAttackers": [
         {
@@ -148,11 +148,6 @@
         {
           "tag": "#L989P0JGU",
           "name": "MARRETA PRETA",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QQC8P9C9R",
-          "name": "Gs.prieto",
           "townhallLevel": 18
         },
         {
@@ -220,7 +215,14 @@
           "name": "Gs.prieto",
           "townhallLevel": 18,
           "mapPosition": 12,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 95,
+              "order": 49,
+              "defenderTag": "#2UC8QYVVQ"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
