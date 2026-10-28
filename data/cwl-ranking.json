@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-28T01:00:33.478Z",
+  "generatedAt": "2026-10-28T01:15:26.143Z",
   "totalWars": 28,
   "liveWar": {
     "opponentName": "MADE IN IRAN",
-    "totalAttacksDone": 25,
+    "totalAttacksDone": 26,
     "totalAttacksExpected": 60
   },
   "ranking": [
@@ -333,6 +333,42 @@
     },
     {
       "player": {
+        "tag": "#QJVQVRPU",
+        "name": "Frnnn",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.3489659339612863,
+        "rawScore": 2.3489659339612863,
+        "confidence": 1,
+        "tier": "A",
+        "attackScore": 2.907667341719855,
+        "defenseScore": 0.3509826017557886,
+        "reliability": 1,
+        "formScore": 3.5,
+        "warsInRoster": 43,
+        "attacksUsed": 84,
+        "attacksAvailable": 86,
+        "avgDestruction": 90.01190476190476,
+        "totalAttacks": 84,
+        "totalStars": 219,
+        "count3Stars": 63,
+        "avgStars": 2.607142857142857,
+        "threeStarRate": 0.75,
+        "totalMissed": 0,
+        "avgPositionDiff": -1.369047619047619,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#YPVQVU982",
         "name": "亗 ＨＡＤＥＳ_０７ 亗",
         "townhallLevel": 18
@@ -357,42 +393,6 @@
         "threeStarRate": 0.825,
         "totalMissed": 9,
         "avgPositionDiff": 0.425,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#QJVQVRPU",
-        "name": "Frnnn",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.307612863554661,
-        "rawScore": 2.307612863554661,
-        "confidence": 1,
-        "tier": "A",
-        "attackScore": 2.8092076502755092,
-        "defenseScore": 0.3509826017557886,
-        "reliability": 1,
-        "formScore": 3.5,
-        "warsInRoster": 43,
-        "attacksUsed": 83,
-        "attacksAvailable": 86,
-        "avgDestruction": 89.89156626506023,
-        "totalAttacks": 83,
-        "totalStars": 216,
-        "count3Stars": 62,
-        "avgStars": 2.602409638554217,
-        "threeStarRate": 0.7469879518072289,
-        "totalMissed": 0,
-        "avgPositionDiff": -1.4698795180722892,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1583,7 +1583,7 @@
       "totalAttacks": 40,
       "warsInRoster": 28,
       "totalMissed": 9,
-      "rank": 10,
+      "rank": 11,
       "prevRank": 10,
       "normalizedScore": 66.1
     },
@@ -1625,15 +1625,15 @@
     },
     "#QJVQVRPU": {
       "tier": "A",
-      "score": 2.307612863554661,
-      "avgStars": 2.602409638554217,
-      "totalStars": 216,
-      "totalAttacks": 83,
+      "score": 2.3489659339612863,
+      "avgStars": 2.607142857142857,
+      "totalStars": 219,
+      "totalAttacks": 84,
       "warsInRoster": 43,
       "totalMissed": 0,
-      "rank": 11,
+      "rank": 10,
       "prevRank": 11,
-      "normalizedScore": 65.93
+      "normalizedScore": 67.11
     },
     "#PLU2VCLG": {
       "tier": "A",
@@ -1777,6 +1777,18 @@
       "prevRank": 1,
       "normalizedScore": 74.19
     },
+    "#GRLPU9R9": {
+      "tier": "C",
+      "score": 1.4867945659656128,
+      "avgStars": 2,
+      "totalStars": 16,
+      "totalAttacks": 8,
+      "warsInRoster": 5,
+      "totalMissed": 0,
+      "rank": 32,
+      "prevRank": 32,
+      "normalizedScore": 42.48
+    },
     "#GLV8G0LJ": {
       "tier": "B",
       "score": 2.1211142766023694,
@@ -1800,18 +1812,6 @@
       "rank": 31,
       "prevRank": 31,
       "normalizedScore": 43.65
-    },
-    "#GRLPU9R9": {
-      "tier": "C",
-      "score": 1.4867945659656128,
-      "avgStars": 2,
-      "totalStars": 16,
-      "totalAttacks": 8,
-      "warsInRoster": 5,
-      "totalMissed": 0,
-      "rank": 32,
-      "prevRank": 32,
-      "normalizedScore": 42.48
     },
     "#LRVCV2UP": {
       "tier": "F",
