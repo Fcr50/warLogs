@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-28T01:15:26.143Z",
+  "generatedAt": "2026-10-28T01:30:29.789Z",
   "totalWars": 28,
   "liveWar": {
     "opponentName": "MADE IN IRAN",
-    "totalAttacksDone": 26,
+    "totalAttacksDone": 27,
     "totalAttacksExpected": 60
   },
   "ranking": [
@@ -1161,6 +1161,42 @@
     },
     {
       "player": {
+        "tag": "#L989P0JGU",
+        "name": "MARRETA PRETA",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 1.213275,
+        "rawScore": 2.42655,
+        "confidence": 0.5,
+        "tier": "B",
+        "attackScore": 3.5,
+        "defenseScore": 0,
+        "reliability": 0,
+        "formScore": 3.5,
+        "warsInRoster": 1,
+        "attacksUsed": 1,
+        "attacksAvailable": 2,
+        "avgDestruction": 100,
+        "totalAttacks": 1,
+        "totalStars": 3,
+        "count3Stars": 1,
+        "avgStars": 3,
+        "threeStarRate": 1,
+        "totalMissed": 0,
+        "avgPositionDiff": 0,
+        "hasAnyDefense": false,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.56,
+          "defense": 0,
+          "reliability": 0.3067,
+          "form": 0.1333
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#P9C0LVLU2",
         "name": "VINGADOR⚡",
         "townhallLevel": 18
@@ -1228,42 +1264,6 @@
           "defense": 0.25,
           "reliability": 0.23,
           "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#L989P0JGU",
-        "name": "MARRETA PRETA",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 0,
-        "rawScore": 0,
-        "confidence": 0.5,
-        "tier": "F",
-        "attackScore": 0,
-        "defenseScore": 0,
-        "reliability": 0,
-        "formScore": 0,
-        "warsInRoster": 1,
-        "attacksUsed": 0,
-        "attacksAvailable": 2,
-        "avgDestruction": 0,
-        "totalAttacks": 0,
-        "totalStars": 0,
-        "count3Stars": 0,
-        "avgStars": 0,
-        "threeStarRate": 0,
-        "totalMissed": 0,
-        "avgPositionDiff": 0,
-        "hasAnyDefense": false,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.56,
-          "defense": 0,
-          "reliability": 0.3067,
-          "form": 0.1333
         }
       }
     },
@@ -1451,13 +1451,6 @@
   "noDataList": [
     {
       "player": {
-        "tag": "#L989P0JGU",
-        "name": "MARRETA PRETA",
-        "townhallLevel": 18
-      }
-    },
-    {
-      "player": {
         "tag": "#C8JU9UQ2",
         "name": "!Exorcist",
         "townhallLevel": 18
@@ -1566,14 +1559,15 @@
       "normalizedScore": 62.87
     },
     "#L989P0JGU": {
-      "tier": "F",
-      "score": 0,
-      "avgStars": 0,
-      "totalStars": 0,
-      "totalAttacks": 0,
+      "tier": "C",
+      "score": 1.213275,
+      "avgStars": 3,
+      "totalStars": 3,
+      "totalAttacks": 1,
       "warsInRoster": 1,
       "totalMissed": 0,
-      "normalizedScore": 0
+      "rank": 34,
+      "normalizedScore": 34.67
     },
     "#YPVQVU982": {
       "tier": "A",
@@ -1584,7 +1578,7 @@
       "warsInRoster": 28,
       "totalMissed": 9,
       "rank": 11,
-      "prevRank": 10,
+      "prevRank": 11,
       "normalizedScore": 66.1
     },
     "#8YJYY92GC": {
@@ -1632,7 +1626,7 @@
       "warsInRoster": 43,
       "totalMissed": 0,
       "rank": 10,
-      "prevRank": 11,
+      "prevRank": 10,
       "normalizedScore": 67.11
     },
     "#PLU2VCLG": {
@@ -1667,7 +1661,7 @@
       "totalAttacks": 2,
       "warsInRoster": 2,
       "totalMissed": 0,
-      "rank": 35,
+      "rank": 36,
       "prevRank": 35,
       "normalizedScore": 19.65
     },
@@ -1739,7 +1733,7 @@
       "totalAttacks": 58,
       "warsInRoster": 38,
       "totalMissed": 10,
-      "rank": 34,
+      "rank": 35,
       "prevRank": 34,
       "normalizedScore": 30.58
     },
@@ -1969,7 +1963,7 @@
       "totalAttacks": 4,
       "warsInRoster": 4,
       "totalMissed": 2,
-      "rank": 36,
+      "rank": 37,
       "prevRank": 36,
       "normalizedScore": 17.5
     },
@@ -1993,7 +1987,7 @@
       "totalAttacks": 1,
       "warsInRoster": 1,
       "totalMissed": 1,
-      "rank": 37,
+      "rank": 38,
       "prevRank": 37,
       "normalizedScore": 1.6
     },

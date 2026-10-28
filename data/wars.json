@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 66,
-        "destructionPercentage": 73.333336
+        "stars": 69,
+        "destructionPercentage": 76.666664
       },
       "sixHourNonAttackers": [
         {
@@ -206,7 +206,14 @@
           "name": "MARRETA PRETA",
           "townhallLevel": 18,
           "mapPosition": 25,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 53,
+              "defenderTag": "#2CPCQ8QVU"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
