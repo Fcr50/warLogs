@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-27T23:45:25.144Z",
+  "generatedAt": "2026-10-28T00:00:31.993Z",
   "totalWars": 28,
   "liveWar": {
     "opponentName": "MADE IN IRAN",
-    "totalAttacksDone": 18,
+    "totalAttacksDone": 19,
     "totalAttacksExpected": 60
   },
   "ranking": [
@@ -369,42 +369,6 @@
     },
     {
       "player": {
-        "tag": "#GJ2LQVQJ",
-        "name": "Fer",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.348877438001712,
-        "rawScore": 2.348877438001712,
-        "confidence": 1,
-        "tier": "A",
-        "attackScore": 2.970162442926227,
-        "defenseScore": 0.24563684789078655,
-        "reliability": 1,
-        "formScore": 3.5,
-        "warsInRoster": 43,
-        "attacksUsed": 83,
-        "attacksAvailable": 86,
-        "avgDestruction": 91.25301204819277,
-        "totalAttacks": 83,
-        "totalStars": 223,
-        "count3Stars": 66,
-        "avgStars": 2.6867469879518073,
-        "threeStarRate": 0.7951807228915663,
-        "totalMissed": 0,
-        "avgPositionDiff": 3.5783132530120483,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
         "tag": "#QJVQVRPU",
         "name": "Frnnn",
         "townhallLevel": 18
@@ -501,6 +465,42 @@
         "threeStarRate": 0.7567567567567568,
         "totalMissed": 1,
         "avgPositionDiff": 2.4594594594594597,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#GJ2LQVQJ",
+        "name": "Fer",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.2680992694361786,
+        "rawScore": 2.2680992694361786,
+        "confidence": 1,
+        "tier": "A",
+        "attackScore": 2.898071565389243,
+        "defenseScore": 0.24563684789078655,
+        "reliability": 1,
+        "formScore": 2.995,
+        "warsInRoster": 43,
+        "attacksUsed": 84,
+        "attacksAvailable": 86,
+        "avgDestruction": 91.3452380952381,
+        "totalAttacks": 84,
+        "totalStars": 225,
+        "count3Stars": 66,
+        "avgStars": 2.6785714285714284,
+        "threeStarRate": 0.7857142857142857,
+        "totalMissed": 0,
+        "avgPositionDiff": 3.5357142857142856,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1553,18 +1553,6 @@
       "prevRank": 18,
       "normalizedScore": 60.7
     },
-    "#GJ2LQVQJ": {
-      "tier": "A",
-      "score": 2.348877438001712,
-      "avgStars": 2.6867469879518073,
-      "totalStars": 223,
-      "totalAttacks": 83,
-      "warsInRoster": 43,
-      "totalMissed": 0,
-      "rank": 11,
-      "prevRank": 11,
-      "normalizedScore": 67.11
-    },
     "#L989P0JGU": {
       "tier": "F",
       "score": 0,
@@ -1574,6 +1562,18 @@
       "warsInRoster": 1,
       "totalMissed": 0,
       "normalizedScore": 0
+    },
+    "#GJ2LQVQJ": {
+      "tier": "A",
+      "score": 2.2680992694361786,
+      "avgStars": 2.6785714285714284,
+      "totalStars": 225,
+      "totalAttacks": 84,
+      "warsInRoster": 43,
+      "totalMissed": 0,
+      "rank": 14,
+      "prevRank": 11,
+      "normalizedScore": 64.8
     },
     "#YPVQVU982": {
       "tier": "A",
@@ -1631,7 +1631,7 @@
       "totalAttacks": 83,
       "warsInRoster": 43,
       "totalMissed": 0,
-      "rank": 12,
+      "rank": 11,
       "prevRank": 12,
       "normalizedScore": 65.93
     },
@@ -1643,7 +1643,7 @@
       "totalAttacks": 78,
       "warsInRoster": 40,
       "totalMissed": 1,
-      "rank": 13,
+      "rank": 12,
       "prevRank": 13,
       "normalizedScore": 65.92
     },
@@ -1875,7 +1875,7 @@
       "totalAttacks": 74,
       "warsInRoster": 38,
       "totalMissed": 1,
-      "rank": 14,
+      "rank": 13,
       "prevRank": 14,
       "normalizedScore": 65.15
     },
