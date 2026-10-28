@@ -10,8 +10,8 @@
       "opponent": {
         "name": "MADE IN IRAN",
         "tag": "#8G9UJPJG",
-        "stars": 46,
-        "destructionPercentage": 56.5,
+        "stars": 47,
+        "destructionPercentage": 57,
         "members": [
           {
             "tag": "#8UYPLLPR8",
@@ -487,6 +487,12 @@
               "attackerMapPosition": 20
             },
             {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#2GUYYQ0L9",
+              "attackerMapPosition": 6
+            },
+            {
               "stars": 1,
               "destructionPercentage": 89,
               "attackerTag": "#JQQ0QPPL",
@@ -583,6 +589,12 @@
               "destructionPercentage": 99,
               "order": 45,
               "defenderTag": "#YCPPPVY9"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 73,
+              "defenderTag": "#YGPJ88JR"
             }
           ],
           "defensesReceived": [
@@ -641,7 +653,14 @@
           "name": "Eder",
           "townhallLevel": 18,
           "mapPosition": 16,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 89,
+              "order": 71,
+              "defenderTag": "#YGPJ88JR"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -788,6 +807,12 @@
               "destructionPercentage": 85,
               "attackerTag": "#8UYPLLPR8",
               "attackerMapPosition": 5
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 99,
+              "attackerTag": "#2GUYYQ0L9",
+              "attackerMapPosition": 6
             },
             {
               "stars": 2,
