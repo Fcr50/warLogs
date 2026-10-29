@@ -10,8 +10,8 @@
       "opponent": {
         "name": "MEGA TURKEY",
         "tag": "#U0QJ9LVR",
-        "stars": 36,
-        "destructionPercentage": 42.433334,
+        "stars": 42,
+        "destructionPercentage": 49.2,
         "members": [
           {
             "tag": "#8LUVGV9RY",
@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 8,
-        "destructionPercentage": 9.3
+        "stars": 12,
+        "destructionPercentage": 13.333333
       },
       "sixHourNonAttackers": [
         {
@@ -238,11 +238,6 @@
         {
           "tag": "#29JQ2PCVL",
           "name": "¥vini¥",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#GGVCRYP8P",
-          "name": "gui",
           "townhallLevel": 18
         },
         {
@@ -534,7 +529,14 @@
           "townhallLevel": 18,
           "mapPosition": 7,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#YCC02YQ29",
+              "attackerMapPosition": 5
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -552,7 +554,14 @@
           "townhallLevel": 18,
           "mapPosition": 8,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 91,
+              "attackerTag": "#YCC02YQ29",
+              "attackerMapPosition": 5
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -578,7 +587,20 @@
           "name": "gui",
           "townhallLevel": 18,
           "mapPosition": 17,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 20,
+              "defenderTag": "#P0LUR9GGC"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 21,
+              "defenderTag": "#20RUJ8PLC"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -601,6 +623,12 @@
               "destructionPercentage": 88,
               "attackerTag": "#2QYVR0YRL",
               "attackerMapPosition": 1
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#Y8YL0JYRR",
+              "attackerMapPosition": 11
             },
             {
               "stars": 2,
