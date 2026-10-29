@@ -10,8 +10,8 @@
       "opponent": {
         "name": "MEGA TURKEY",
         "tag": "#U0QJ9LVR",
-        "stars": 22,
-        "destructionPercentage": 26,
+        "stars": 36,
+        "destructionPercentage": 42.433334,
         "members": [
           {
             "tag": "#8LUVGV9RY",
@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 5,
-        "destructionPercentage": 5.9666667
+        "stars": 8,
+        "destructionPercentage": 9.3
       },
       "sixHourNonAttackers": [
         {
@@ -168,11 +168,6 @@
         {
           "tag": "#2QL0VR9GU",
           "name": "Marcola",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#8YJYY92GC",
-          "name": "RussiaN",
           "townhallLevel": 18
         },
         {
@@ -315,7 +310,14 @@
           "townhallLevel": 18,
           "mapPosition": 29,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#YCR2C2PU",
+              "attackerMapPosition": 29
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -324,7 +326,14 @@
           "townhallLevel": 18,
           "mapPosition": 23,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#2LCR82J88",
+              "attackerMapPosition": 23
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -341,7 +350,14 @@
           "name": "RussiaN",
           "townhallLevel": 18,
           "mapPosition": 25,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 16,
+              "defenderTag": "#280R0C2Q"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -585,6 +601,12 @@
               "destructionPercentage": 88,
               "attackerTag": "#2QYVR0YRL",
               "attackerMapPosition": 1
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 63,
+              "attackerTag": "#80LJ8GY2V",
+              "attackerMapPosition": 21
             }
           ],
           "missedAttacks": 0
@@ -595,7 +617,14 @@
           "townhallLevel": 18,
           "mapPosition": 6,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#8JL20PJ8Q",
+              "attackerMapPosition": 9
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -622,7 +651,14 @@
           "townhallLevel": 18,
           "mapPosition": 5,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 93,
+              "attackerTag": "#80LJ8GY2V",
+              "attackerMapPosition": 21
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -631,7 +667,14 @@
           "townhallLevel": 18,
           "mapPosition": 13,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#YCR2C2PU",
+              "attackerMapPosition": 29
+            }
+          ],
           "missedAttacks": 0
         }
       ]
