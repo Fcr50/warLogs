@@ -10,8 +10,8 @@
       "opponent": {
         "name": "MEGA TURKEY",
         "tag": "#U0QJ9LVR",
-        "stars": 50,
-        "destructionPercentage": 59.3,
+        "stars": 59,
+        "destructionPercentage": 69.3,
         "members": [
           {
             "tag": "#8LUVGV9RY",
@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 14,
-        "destructionPercentage": 16.533333
+        "stars": 16,
+        "destructionPercentage": 19.766666
       },
       "sixHourNonAttackers": [
         {
@@ -163,11 +163,6 @@
         {
           "tag": "#LVPLJVLVG",
           "name": "zoldyck",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#2QL0VR9GU",
-          "name": "Marcola",
           "townhallLevel": 18
         },
         {
@@ -331,8 +326,22 @@
           "name": "Marcola",
           "townhallLevel": 18,
           "mapPosition": 10,
-          "attacks": [],
-          "defensesReceived": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 97,
+              "order": 34,
+              "defenderTag": "#8LVVRUGYU"
+            }
+          ],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#280R0C2Q",
+              "attackerMapPosition": 25
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -386,7 +395,14 @@
           "townhallLevel": 18,
           "mapPosition": 9,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#280R0C2Q",
+              "attackerMapPosition": 25
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -592,7 +608,14 @@
           "townhallLevel": 18,
           "mapPosition": 21,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#2YVQC0C8",
+              "attackerMapPosition": 13
+            }
+          ],
           "missedAttacks": 0
         },
         {
