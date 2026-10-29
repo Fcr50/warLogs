@@ -10,8 +10,8 @@
       "opponent": {
         "name": "MEGA TURKEY",
         "tag": "#U0QJ9LVR",
-        "stars": 0,
-        "destructionPercentage": 0,
+        "stars": 11,
+        "destructionPercentage": 13.033334,
         "members": [
           {
             "tag": "#8LUVGV9RY",
@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 0,
-        "destructionPercentage": 0
+        "stars": 5,
+        "destructionPercentage": 5.9666667
       },
       "sixHourNonAttackers": [
         {
@@ -216,18 +216,8 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#GJ2LQVQJ",
-          "name": "Fer",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#URR0QLV",
           "name": "Victor Daniel",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#GRLPU9R9",
-          "name": "Eder",
           "townhallLevel": 18
         },
         {
@@ -379,7 +369,14 @@
           "townhallLevel": 18,
           "mapPosition": 1,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#G8QGJQGVR",
+              "attackerMapPosition": 8
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -415,7 +412,14 @@
           "townhallLevel": 18,
           "mapPosition": 2,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 91,
+              "attackerTag": "#G8QGJQGVR",
+              "attackerMapPosition": 8
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -432,7 +436,20 @@
           "name": "Fer",
           "townhallLevel": 18,
           "mapPosition": 3,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 2,
+              "defenderTag": "#YCQCVGUC"
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 78,
+              "order": 6,
+              "defenderTag": "#20RUJ8PLC"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -450,8 +467,22 @@
           "name": "Eder",
           "townhallLevel": 18,
           "mapPosition": 18,
-          "attacks": [],
-          "defensesReceived": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 79,
+              "order": 1,
+              "defenderTag": "#20RUJ8PLC"
+            }
+          ],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#20RUJ8PLC",
+              "attackerMapPosition": 18
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -505,7 +536,14 @@
           "townhallLevel": 18,
           "mapPosition": 17,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#20RUJ8PLC",
+              "attackerMapPosition": 18
+            }
+          ],
           "missedAttacks": 0
         },
         {
