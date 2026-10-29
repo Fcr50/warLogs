@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 27,
-        "destructionPercentage": 32.666668
+        "stars": 28,
+        "destructionPercentage": 35.833332
       },
       "sixHourNonAttackers": [
         {
@@ -183,11 +183,6 @@
         {
           "tag": "#2GPRRP0R",
           "name": "Clasher",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QGQJGURCL",
-          "name": "SAFONOV",
           "townhallLevel": 18
         },
         {
@@ -473,7 +468,14 @@
           "name": "SAFONOV",
           "townhallLevel": 18,
           "mapPosition": 2,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 1,
+              "destructionPercentage": 95,
+              "order": 42,
+              "defenderTag": "#829890Y8P"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
