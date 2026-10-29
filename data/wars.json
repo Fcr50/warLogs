@@ -10,8 +10,8 @@
       "opponent": {
         "name": "MEGA TURKEY",
         "tag": "#U0QJ9LVR",
-        "stars": 62,
-        "destructionPercentage": 72.63333,
+        "stars": 68,
+        "destructionPercentage": 79.3,
         "members": [
           {
             "tag": "#8LUVGV9RY",
@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 28,
-        "destructionPercentage": 35.833332
+        "stars": 33,
+        "destructionPercentage": 39.333332
       },
       "sixHourNonAttackers": [
         {
@@ -163,11 +163,6 @@
         {
           "tag": "#LRVCV2UP",
           "name": "-Bonb-",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#2GP2JUU2",
-          "name": "Gustavo Lázaro",
           "townhallLevel": 18
         },
         {
@@ -243,7 +238,14 @@
           "townhallLevel": 18,
           "mapPosition": 11,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#8LVVRUGYU",
+              "attackerMapPosition": 10
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -274,7 +276,14 @@
               "defenderTag": "#8JL20PJ8Q"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#8LVVRUGYU",
+              "attackerMapPosition": 10
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -411,7 +420,20 @@
           "name": "Gustavo Lázaro",
           "townhallLevel": 18,
           "mapPosition": 1,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 43,
+              "defenderTag": "#2QYVR0YRL"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 46,
+              "defenderTag": "#829890Y8P"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
