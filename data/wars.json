@@ -10,8 +10,8 @@
       "opponent": {
         "name": "MEGA TURKEY",
         "tag": "#U0QJ9LVR",
-        "stars": 47,
-        "destructionPercentage": 55.766666,
+        "stars": 50,
+        "destructionPercentage": 59.3,
         "members": [
           {
             "tag": "#8LUVGV9RY",
@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 12,
-        "destructionPercentage": 13.333333
+        "stars": 14,
+        "destructionPercentage": 16.533333
       },
       "sixHourNonAttackers": [
         {
@@ -213,11 +213,6 @@
         {
           "tag": "#URR0QLV",
           "name": "Victor Daniel",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#PLU2VCLG",
-          "name": "Phoenix",
           "townhallLevel": 18
         },
         {
@@ -370,6 +365,12 @@
           "mapPosition": 24,
           "attacks": [],
           "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 98,
+              "attackerTag": "#UC80CVUR",
+              "attackerMapPosition": 19
+            },
             {
               "stars": 2,
               "destructionPercentage": 92,
@@ -542,7 +543,14 @@
           "name": "Phoenix",
           "townhallLevel": 18,
           "mapPosition": 7,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 96,
+              "order": 29,
+              "defenderTag": "#8RPJ0VPGC"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -593,7 +601,14 @@
           "townhallLevel": 18,
           "mapPosition": 19,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#UC80CVUR",
+              "attackerMapPosition": 19
+            }
+          ],
           "missedAttacks": 0
         },
         {
