@@ -10,8 +10,8 @@
       "opponent": {
         "name": "MEGA TURKEY",
         "tag": "#U0QJ9LVR",
-        "stars": 76,
-        "destructionPercentage": 86.3,
+        "stars": 82,
+        "destructionPercentage": 92.96667,
         "members": [
           {
             "tag": "#8LUVGV9RY",
@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 41,
-        "destructionPercentage": 48.633335
+        "stars": 44,
+        "destructionPercentage": 51.966667
       },
       "sixHourNonAttackers": [
         {
@@ -158,11 +158,6 @@
         {
           "tag": "#LVPLJVLVG",
           "name": "zoldyck",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#LRVCV2UP",
-          "name": "-Bonb-",
           "townhallLevel": 18
         },
         {
@@ -239,7 +234,14 @@
           "townhallLevel": 18,
           "mapPosition": 26,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#YY9J2UYCG",
+              "attackerMapPosition": 26
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -360,7 +362,20 @@
           "name": "-Bonb-",
           "townhallLevel": 18,
           "mapPosition": 24,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 55,
+              "defenderTag": "#YLJG90PJP"
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 77,
+              "order": 56,
+              "defenderTag": "#8RPJ0VPGC"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 2,
@@ -675,6 +690,12 @@
               "destructionPercentage": 100,
               "order": 53,
               "defenderTag": "#80LJ8GY2V"
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 77,
+              "order": 54,
+              "defenderTag": "#8RPJ0VPGC"
             }
           ],
           "defensesReceived": [
@@ -798,7 +819,14 @@
               "defenderTag": "#CJ29U0J9"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#YY9J2UYCG",
+              "attackerMapPosition": 26
+            }
+          ],
           "missedAttacks": 0
         },
         {
