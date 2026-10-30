@@ -703,6 +703,12 @@
               "destructionPercentage": 35,
               "attackerTag": "#P0LUR9GGC",
               "attackerMapPosition": 17
+            },
+            {
+              "stars": 1,
+              "destructionPercentage": 5,
+              "attackerTag": "#GLY8QJURR",
+              "attackerMapPosition": 28
             }
           ],
           "missedAttacks": 0
@@ -1081,6 +1087,12 @@
               "destructionPercentage": 100,
               "attackerTag": "#8JL20PJ8Q",
               "attackerMapPosition": 9
+            },
+            {
+              "stars": 1,
+              "destructionPercentage": 37,
+              "attackerTag": "#GLY8QJURR",
+              "attackerMapPosition": 28
             }
           ],
           "missedAttacks": 0
@@ -1189,7 +1201,20 @@
           "name": "NenemPJL",
           "townhallLevel": 18,
           "mapPosition": 13,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 75,
+              "order": 111,
+              "defenderTag": "#2QYVR0YRL"
+            },
+            {
+              "stars": 1,
+              "destructionPercentage": 20,
+              "order": 112,
+              "defenderTag": "#829890Y8P"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
