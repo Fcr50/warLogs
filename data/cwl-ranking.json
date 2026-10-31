@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-31T20:00:30.966Z",
+  "generatedAt": "2026-10-31T20:15:22.551Z",
   "totalWars": 28,
   "liveWar": {
     "opponentName": "17F",
-    "totalAttacksDone": 22,
+    "totalAttacksDone": 23,
     "totalAttacksExpected": 50
   },
   "ranking": [
@@ -117,6 +117,42 @@
     },
     {
       "player": {
+        "tag": "#URR0QLV",
+        "name": "Victor Daniel",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.4729402387633472,
+        "rawScore": 2.4729402387633472,
+        "confidence": 1,
+        "tier": "A",
+        "attackScore": 3.3755972537467365,
+        "defenseScore": 0.6285289973303007,
+        "reliability": 0.7942857142857143,
+        "formScore": 3.5,
+        "warsInRoster": 28,
+        "attacksUsed": 54,
+        "attacksAvailable": 56,
+        "avgDestruction": 94.33333333333333,
+        "totalAttacks": 54,
+        "totalStars": 151,
+        "count3Stars": 47,
+        "avgStars": 2.7962962962962963,
+        "threeStarRate": 0.8703703703703703,
+        "totalMissed": 1,
+        "avgPositionDiff": -2.5185185185185186,
+        "hasAnyDefense": true,
+        "hadTh17": true,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#8VCUUPPJP",
         "name": "Satsugai",
         "townhallLevel": 18
@@ -143,42 +179,6 @@
         "avgPositionDiff": -2.819672131147541,
         "hasAnyDefense": true,
         "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#URR0QLV",
-        "name": "Victor Daniel",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.4565200268727976,
-        "rawScore": 2.4565200268727976,
-        "confidence": 1,
-        "tier": "A",
-        "attackScore": 3.33650151115019,
-        "defenseScore": 0.6285289973303007,
-        "reliability": 0.7942857142857143,
-        "formScore": 3.5,
-        "warsInRoster": 28,
-        "attacksUsed": 53,
-        "attacksAvailable": 56,
-        "avgDestruction": 94.22641509433963,
-        "totalAttacks": 53,
-        "totalStars": 148,
-        "count3Stars": 46,
-        "avgStars": 2.792452830188679,
-        "threeStarRate": 0.8679245283018868,
-        "totalMissed": 1,
-        "avgPositionDiff": -2.5660377358490565,
-        "hasAnyDefense": true,
-        "hadTh17": true,
         "weights": {
           "attack": 0.42,
           "defense": 0.25,
@@ -1305,8 +1305,8 @@
     },
     {
       "player": {
-        "tag": "#C8JU9UQ2",
-        "name": "!Exorcist",
+        "tag": "#LUR09RUP2",
+        "name": "andrei7zl",
         "townhallLevel": 18
       },
       "data": {
@@ -1341,8 +1341,8 @@
     },
     {
       "player": {
-        "tag": "#LUR09RUP2",
-        "name": "andrei7zl",
+        "tag": "#C8JU9UQ2",
+        "name": "!Exorcist",
         "townhallLevel": 18
       },
       "data": {
@@ -1415,15 +1415,15 @@
   "noDataList": [
     {
       "player": {
-        "tag": "#C8JU9UQ2",
-        "name": "!Exorcist",
+        "tag": "#LUR09RUP2",
+        "name": "andrei7zl",
         "townhallLevel": 18
       }
     },
     {
       "player": {
-        "tag": "#LUR09RUP2",
-        "name": "andrei7zl",
+        "tag": "#C8JU9UQ2",
+        "name": "!Exorcist",
         "townhallLevel": 18
       }
     },
@@ -1473,14 +1473,14 @@
       "normalizedScore": 71.53
     },
     "#8VCUUPPJP": {
-      "tier": "S",
+      "tier": "A",
       "score": 2.4583310668748273,
       "avgStars": 2.819672131147541,
       "totalStars": 172,
       "totalAttacks": 61,
       "warsInRoster": 33,
       "totalMissed": 0,
-      "rank": 4,
+      "rank": 5,
       "prevRank": 4,
       "normalizedScore": 70.24
     },
@@ -1689,16 +1689,16 @@
       "normalizedScore": 35.66
     },
     "#URR0QLV": {
-      "tier": "A",
-      "score": 2.4565200268727976,
-      "avgStars": 2.792452830188679,
-      "totalStars": 148,
-      "totalAttacks": 53,
+      "tier": "S",
+      "score": 2.4729402387633472,
+      "avgStars": 2.7962962962962963,
+      "totalStars": 151,
+      "totalAttacks": 54,
       "warsInRoster": 28,
       "totalMissed": 1,
-      "rank": 5,
+      "rank": 4,
       "prevRank": 5,
-      "normalizedScore": 70.19
+      "normalizedScore": 70.66
     },
     "#QJLQLUURY": {
       "tier": "C",
@@ -1832,6 +1832,16 @@
       "prevRank": 26,
       "normalizedScore": 49.66
     },
+    "#LUR09RUP2": {
+      "tier": "F",
+      "score": 0,
+      "avgStars": 0,
+      "totalStars": 0,
+      "totalAttacks": 0,
+      "warsInRoster": 0,
+      "totalMissed": 0,
+      "normalizedScore": 0
+    },
     "#VPPQ8VLV": {
       "tier": "B",
       "score": 1.983412320112809,
@@ -1845,16 +1855,6 @@
       "normalizedScore": 56.67
     },
     "#C8JU9UQ2": {
-      "tier": "F",
-      "score": 0,
-      "avgStars": 0,
-      "totalStars": 0,
-      "totalAttacks": 0,
-      "warsInRoster": 0,
-      "totalMissed": 0,
-      "normalizedScore": 0
-    },
-    "#LUR09RUP2": {
       "tier": "F",
       "score": 0,
       "avgStars": 0,
