@@ -151,11 +151,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#GGVCRYP8P",
-          "name": "gui",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#YPVQVU982",
           "name": "亗 ＨＡＤＥＳ_０７ 亗",
           "townhallLevel": 18
@@ -519,7 +514,20 @@
           "name": "gui",
           "townhallLevel": 18,
           "mapPosition": 14,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 1,
+              "destructionPercentage": 13,
+              "order": 32,
+              "defenderTag": "#220PJ8U0P"
+            },
+            {
+              "stars": 1,
+              "destructionPercentage": 8,
+              "order": 33,
+              "defenderTag": "#92YQGVVQJ"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
