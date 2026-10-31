@@ -10,8 +10,8 @@
       "opponent": {
         "name": "17F",
         "tag": "#PU22V8P2",
-        "stars": 3,
-        "destructionPercentage": 4,
+        "stars": 5,
+        "destructionPercentage": 8,
         "members": [
           {
             "tag": "#YR8PJUG8P",
@@ -249,7 +249,14 @@
               "defenderTag": "#YR8PJUG8P"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 1,
+              "destructionPercentage": 55,
+              "attackerTag": "#ULJVURVQ",
+              "attackerMapPosition": 23
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -407,7 +414,14 @@
           "townhallLevel": 18,
           "mapPosition": 23,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 1,
+              "destructionPercentage": 45,
+              "attackerTag": "#ULJVURVQ",
+              "attackerMapPosition": 23
+            }
+          ],
           "missedAttacks": 0
         },
         {
