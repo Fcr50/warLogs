@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 22,
-        "destructionPercentage": 31.88
+        "stars": 45,
+        "destructionPercentage": 60
       },
       "sixHourNonAttackers": [
         {
@@ -128,11 +128,6 @@
         {
           "tag": "#QQC8P9C9R",
           "name": "Gs.prieto",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#LVPLJVLVG",
-          "name": "zoldyck",
           "townhallLevel": 18
         },
         {
@@ -148,11 +143,6 @@
         {
           "tag": "#8CJ8YJY0P",
           "name": "ChrolloLucilfer",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#2GP2JUU2",
-          "name": "Gustavo Lázaro",
           "townhallLevel": 18
         },
         {
@@ -196,18 +186,8 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#GQU9Y0CQ8",
-          "name": "Scok♤",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#VQYCURG0",
           "name": "Edberg",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QJVQVRPU",
-          "name": "Frnnn",
           "townhallLevel": 18
         },
         {
@@ -240,7 +220,20 @@
           "name": "zoldyck",
           "townhallLevel": 18,
           "mapPosition": 19,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 15,
+              "defenderTag": "#9Y2J9LRPC"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 17,
+              "defenderTag": "#P8PQRV2PP"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -314,7 +307,20 @@
           "name": "Gustavo Lázaro",
           "townhallLevel": 18,
           "mapPosition": 1,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 9,
+              "defenderTag": "#8CYUCRGJQ"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 10,
+              "defenderTag": "#22CUY029Q"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -405,6 +411,12 @@
               "destructionPercentage": 100,
               "order": 1,
               "defenderTag": "#9LPJYY0Q8"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 13,
+              "defenderTag": "#92YQGVVQJ"
             }
           ],
           "defensesReceived": [],
@@ -437,6 +449,12 @@
               "destructionPercentage": 100,
               "order": 2,
               "defenderTag": "#2P20LJYQ9"
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 99,
+              "order": 11,
+              "defenderTag": "#8U0U0R2GP"
             }
           ],
           "defensesReceived": [],
@@ -465,7 +483,14 @@
           "name": "Scok♤",
           "townhallLevel": 18,
           "mapPosition": 25,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 14,
+              "defenderTag": "#8U0U0R2GP"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -483,7 +508,20 @@
           "name": "Frnnn",
           "townhallLevel": 18,
           "mapPosition": 4,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 12,
+              "defenderTag": "#22YPL229R"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 16,
+              "defenderTag": "#989CQU9YQ"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
