@@ -116,8 +116,8 @@
         ]
       },
       "clan": {
-        "stars": 45,
-        "destructionPercentage": 60
+        "stars": 51,
+        "destructionPercentage": 68
       },
       "sixHourNonAttackers": [
         {
@@ -138,11 +138,6 @@
         {
           "tag": "#YRCLVY099",
           "name": "GLADIADOR - SP",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#8CJ8YJY0P",
-          "name": "ChrolloLucilfer",
           "townhallLevel": 18
         },
         {
@@ -298,7 +293,14 @@
           "name": "ChrolloLucilfer",
           "townhallLevel": 18,
           "mapPosition": 8,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 19,
+              "defenderTag": "#QLQ0J9QU"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -489,6 +491,12 @@
               "destructionPercentage": 100,
               "order": 14,
               "defenderTag": "#8U0U0R2GP"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 18,
+              "defenderTag": "#9YQLYC92V"
             }
           ],
           "defensesReceived": [],
