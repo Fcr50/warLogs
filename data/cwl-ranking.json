@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T13:00:31.395Z",
+  "generatedAt": "2026-11-01T13:15:26.393Z",
   "totalWars": 28,
   "liveWar": {
     "opponentName": "17F",
@@ -45,6 +45,42 @@
     },
     {
       "player": {
+        "tag": "#G9Y2L9QJJ",
+        "name": "Micael",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.5241520666225012,
+        "rawScore": 2.5241520666225012,
+        "confidence": 1,
+        "tier": "A",
+        "attackScore": 3.2020158860074988,
+        "defenseScore": 0.6163644351402638,
+        "reliability": 0.9785714285714285,
+        "formScore": 3.5,
+        "warsInRoster": 44,
+        "attacksUsed": 82,
+        "attacksAvailable": 88,
+        "avgDestruction": 90.17073170731707,
+        "totalAttacks": 82,
+        "totalStars": 220,
+        "count3Stars": 67,
+        "avgStars": 2.682926829268293,
+        "threeStarRate": 0.8170731707317073,
+        "totalMissed": 2,
+        "avgPositionDiff": -5.7073170731707314,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#8VCUUPPJP",
         "name": "Satsugai",
         "townhallLevel": 18
@@ -69,42 +105,6 @@
         "threeStarRate": 0.8571428571428571,
         "totalMissed": 0,
         "avgPositionDiff": -2.9682539682539684,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#G9Y2L9QJJ",
-        "name": "Micael",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.503489676996085,
-        "rawScore": 2.503489676996085,
-        "confidence": 1,
-        "tier": "A",
-        "attackScore": 3.2020158860074988,
-        "defenseScore": 0.5337148766345996,
-        "reliability": 0.9785714285714285,
-        "formScore": 3.5,
-        "warsInRoster": 44,
-        "attacksUsed": 82,
-        "attacksAvailable": 88,
-        "avgDestruction": 90.17073170731707,
-        "totalAttacks": 82,
-        "totalStars": 220,
-        "count3Stars": 67,
-        "avgStars": 2.682926829268293,
-        "threeStarRate": 0.8170731707317073,
-        "totalMissed": 2,
-        "avgPositionDiff": -5.7073170731707314,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1390,15 +1390,15 @@
     },
     "#G9Y2L9QJJ": {
       "tier": "S",
-      "score": 2.503489676996085,
+      "score": 2.5241520666225012,
       "avgStars": 2.682926829268293,
       "totalStars": 220,
       "totalAttacks": 82,
       "warsInRoster": 44,
       "totalMissed": 2,
-      "rank": 3,
+      "rank": 2,
       "prevRank": 3,
-      "normalizedScore": 71.53
+      "normalizedScore": 72.12
     },
     "#8VCUUPPJP": {
       "tier": "S",
@@ -1408,7 +1408,7 @@
       "totalAttacks": 63,
       "warsInRoster": 33,
       "totalMissed": 0,
-      "rank": 2,
+      "rank": 3,
       "prevRank": 2,
       "normalizedScore": 71.94
     },
