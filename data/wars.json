@@ -10,8 +10,8 @@
       "opponent": {
         "name": "•Ghost§◇白井龍•",
         "tag": "#2YVY0JQUG",
-        "stars": 16,
-        "destructionPercentage": 75,
+        "stars": 23,
+        "destructionPercentage": 95.7,
         "members": [
           {
             "tag": "#8VCUUPPJP",
@@ -56,8 +56,8 @@
         ]
       },
       "clan": {
-        "stars": 5,
-        "destructionPercentage": 18.1
+        "stars": 16,
+        "destructionPercentage": 56.8
       },
       "sixHourNonAttackers": [
         {
@@ -114,6 +114,12 @@
               "destructionPercentage": 93,
               "attackerTag": "#8VCUUPPJP",
               "attackerMapPosition": 6
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#QJVQVRPU",
+              "attackerMapPosition": 5
             }
           ],
           "missedAttacks": 0
@@ -158,8 +164,22 @@
           "name": "Marcola",
           "townhallLevel": 18,
           "mapPosition": 4,
-          "attacks": [],
-          "defensesReceived": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 18,
+              "defenderTag": "#P9C0LVLU2"
+            }
+          ],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#GJ2LQVQJ",
+              "attackerMapPosition": 3
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -167,8 +187,22 @@
           "name": "ChrolloLucilfer",
           "townhallLevel": 18,
           "mapPosition": 5,
-          "attacks": [],
-          "defensesReceived": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 87,
+              "order": 20,
+              "defenderTag": "#QJVQVRPU"
+            }
+          ],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#QJVQVRPU",
+              "attackerMapPosition": 5
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -208,7 +242,20 @@
           "name": "Phoenix",
           "townhallLevel": 18,
           "mapPosition": 2,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 16,
+              "defenderTag": "#QGQJGURCL"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 19,
+              "defenderTag": "#GJ2LQVQJ"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 1,
@@ -254,6 +301,12 @@
               "destructionPercentage": 100,
               "attackerTag": "#20CY00CU9",
               "attackerMapPosition": 9
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#GGVCRYP8P",
+              "attackerMapPosition": 8
             }
           ],
           "missedAttacks": 0
