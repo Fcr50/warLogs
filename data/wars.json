@@ -10,8 +10,8 @@
       "opponent": {
         "name": "17F",
         "tag": "#PU22V8P2",
-        "stars": 64,
-        "destructionPercentage": 91.92,
+        "stars": 65,
+        "destructionPercentage": 93.28,
         "members": [
           {
             "tag": "#YR8PJUG8P",
@@ -198,6 +198,12 @@
               "destructionPercentage": 86,
               "attackerTag": "#9YQLYC92V",
               "attackerMapPosition": 10
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 99,
+              "attackerTag": "#22YPL229R",
+              "attackerMapPosition": 4
             }
           ],
           "missedAttacks": 0
@@ -419,6 +425,12 @@
               "destructionPercentage": 60,
               "attackerTag": "#9Y2J9LRPC",
               "attackerMapPosition": 19
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#22YPL229R",
+              "attackerMapPosition": 4
             }
           ],
           "missedAttacks": 0
@@ -806,7 +818,20 @@
           "name": "亗 ＨＡＤＥＳ_０７ 亗",
           "townhallLevel": 18,
           "mapPosition": 5,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 88,
+              "defenderTag": "#8CYUCRGJQ"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 89,
+              "defenderTag": "#22CUY029Q"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
