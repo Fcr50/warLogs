@@ -10,8 +10,8 @@
       "opponent": {
         "name": "17F",
         "tag": "#PU22V8P2",
-        "stars": 50,
-        "destructionPercentage": 72.52,
+        "stars": 51,
+        "destructionPercentage": 75.12,
         "members": [
           {
             "tag": "#YR8PJUG8P",
@@ -841,7 +841,14 @@
               "defenderTag": "#22CUY029Q"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 1,
+              "destructionPercentage": 65,
+              "attackerTag": "#QLQ0J9QU",
+              "attackerMapPosition": 11
+            }
+          ],
           "missedAttacks": 0
         }
       ]
