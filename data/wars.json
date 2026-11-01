@@ -10,8 +10,8 @@
       "opponent": {
         "name": "17F",
         "tag": "#PU22V8P2",
-        "stars": 45,
-        "destructionPercentage": 65.4,
+        "stars": 50,
+        "destructionPercentage": 72.52,
         "members": [
           {
             "tag": "#YR8PJUG8P",
@@ -475,6 +475,12 @@
           ],
           "defensesReceived": [
             {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#P0RJVPYR8",
+              "attackerMapPosition": 12
+            },
+            {
               "stars": 1,
               "destructionPercentage": 63,
               "attackerTag": "#QP20Q2UC9",
@@ -546,7 +552,20 @@
           "name": "Fer",
           "townhallLevel": 18,
           "mapPosition": 3,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 65,
+              "defenderTag": "#8CYUCRGJQ"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 67,
+              "defenderTag": "#22CUY029Q"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -577,6 +596,12 @@
             }
           ],
           "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 88,
+              "attackerTag": "#QLQ0J9QU",
+              "attackerMapPosition": 11
+            },
             {
               "stars": 1,
               "destructionPercentage": 45,
@@ -663,7 +688,14 @@
               "defenderTag": "#8U0U0R2GP"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 98,
+              "attackerTag": "#QP20Q2UC9",
+              "attackerMapPosition": 15
+            }
+          ],
           "missedAttacks": 0
         },
         {
