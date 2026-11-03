@@ -1,6 +1,6 @@
 {
   "season": "2026-11-02",
-  "generatedAt": "2026-11-03T13:45:21.605Z",
+  "generatedAt": "2026-11-03T14:00:36.126Z",
   "state": "inWar",
   "rounds": [
     {
@@ -10,9 +10,9 @@
       "result": "inProgress",
       "opponentName": "Hornets Family",
       "opponentTag": "#2U098Q92Q",
-      "clanStars": 10,
-      "opponentStars": 3,
-      "clanDestructionPct": 25.4,
+      "clanStars": 13,
+      "opponentStars": 6,
+      "clanDestructionPct": 32.06666666666667,
       "teamSize": 15,
       "members": [
         {
@@ -58,7 +58,12 @@
           "name": "Gustavo Lázaro",
           "townhallLevel": 18,
           "mapPosition": 1,
-          "attack": null
+          "attack": {
+            "defenderTag": "#LU08R8LUP",
+            "defenderMapPosition": 1,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#G9Y2L9QJJ",
