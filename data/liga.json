@@ -1,6 +1,6 @@
 {
   "season": "2026-11-02",
-  "generatedAt": "2026-11-03T13:30:30.032Z",
+  "generatedAt": "2026-11-03T13:45:21.605Z",
   "state": "inWar",
   "rounds": [
     {
@@ -10,9 +10,9 @@
       "result": "inProgress",
       "opponentName": "Hornets Family",
       "opponentTag": "#2U098Q92Q",
-      "clanStars": 0,
-      "opponentStars": 0,
-      "clanDestructionPct": 0,
+      "clanStars": 10,
+      "opponentStars": 3,
+      "clanDestructionPct": 25.4,
       "teamSize": 15,
       "members": [
         {
@@ -34,14 +34,24 @@
           "name": "Marcola",
           "townhallLevel": 18,
           "mapPosition": 9,
-          "attack": null
+          "attack": {
+            "defenderTag": "#9R0UUL8RG",
+            "defenderMapPosition": 2,
+            "stars": 2,
+            "destructionPercentage": 83
+          }
         },
         {
           "tag": "#8CJ8YJY0P",
           "name": "ChrolloLucilfer",
           "townhallLevel": 18,
           "mapPosition": 10,
-          "attack": null
+          "attack": {
+            "defenderTag": "#9J80PJPYY",
+            "defenderMapPosition": 8,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#2GP2JUU2",
@@ -69,7 +79,12 @@
           "name": "Fer",
           "townhallLevel": 18,
           "mapPosition": 3,
-          "attack": null
+          "attack": {
+            "defenderTag": "#QGQ0PYPGC",
+            "defenderMapPosition": 3,
+            "stars": 2,
+            "destructionPercentage": 98
+          }
         },
         {
           "tag": "#L8RG2PV0G",
@@ -104,7 +119,12 @@
           "name": "gui",
           "townhallLevel": 18,
           "mapPosition": 16,
-          "attack": null
+          "attack": {
+            "defenderTag": "#PJ0PQVQC8",
+            "defenderMapPosition": 7,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#YPVQVU982",
