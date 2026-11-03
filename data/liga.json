@@ -1,6 +1,6 @@
 {
   "season": "2026-11-02",
-  "generatedAt": "2026-11-03T23:30:27.535Z",
+  "generatedAt": "2026-11-03T23:45:25.826Z",
   "state": "inWar",
   "rounds": [
     {
@@ -10,9 +10,9 @@
       "result": "inProgress",
       "opponentName": "Hornets Family",
       "opponentTag": "#2U098Q92Q",
-      "clanStars": 35,
+      "clanStars": 38,
       "opponentStars": 33,
-      "clanDestructionPct": 85.13333333333334,
+      "clanDestructionPct": 91.8,
       "teamSize": 15,
       "members": [
         {
@@ -135,7 +135,12 @@
           "name": "Warlord Raivon",
           "townhallLevel": 18,
           "mapPosition": 8,
-          "attack": null
+          "attack": {
+            "defenderTag": "#9GULLPQ9U",
+            "defenderMapPosition": 12,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#20CY00CU9",
