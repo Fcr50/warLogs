@@ -1,6 +1,6 @@
 {
   "season": "2026-11-02",
-  "generatedAt": "2026-11-03T23:00:33.715Z",
+  "generatedAt": "2026-11-03T23:15:26.917Z",
   "state": "inWar",
   "rounds": [
     {
@@ -10,9 +10,9 @@
       "result": "inProgress",
       "opponentName": "Hornets Family",
       "opponentTag": "#2U098Q92Q",
-      "clanStars": 32,
+      "clanStars": 35,
       "opponentStars": 33,
-      "clanDestructionPct": 78.46666666666667,
+      "clanDestructionPct": 85.13333333333334,
       "teamSize": 15,
       "members": [
         {
@@ -123,7 +123,12 @@
           "name": "Phoenix",
           "townhallLevel": 18,
           "mapPosition": 7,
-          "attack": null
+          "attack": {
+            "defenderTag": "#Y8R8G0PCV",
+            "defenderMapPosition": 10,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#29LP0VJV0",
