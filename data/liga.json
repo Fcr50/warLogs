@@ -1,6 +1,6 @@
 {
   "season": "2026-11-02",
-  "generatedAt": "2026-11-03T17:00:34.337Z",
+  "generatedAt": "2026-11-03T17:15:29.434Z",
   "state": "inWar",
   "rounds": [
     {
@@ -10,9 +10,9 @@
       "result": "inProgress",
       "opponentName": "Hornets Family",
       "opponentTag": "#2U098Q92Q",
-      "clanStars": 20,
-      "opponentStars": 18,
-      "clanDestructionPct": 51.8,
+      "clanStars": 26,
+      "opponentStars": 21,
+      "clanDestructionPct": 65.13333333333334,
       "teamSize": 15,
       "members": [
         {
@@ -20,7 +20,12 @@
           "name": "Satsugai",
           "townhallLevel": 18,
           "mapPosition": 11,
-          "attack": null
+          "attack": {
+            "defenderTag": "#GRRURLPL",
+            "defenderMapPosition": 4,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#L989P0JGU",
@@ -158,7 +163,12 @@
           "name": "Frnnn",
           "townhallLevel": 18,
           "mapPosition": 5,
-          "attack": null
+          "attack": {
+            "defenderTag": "#QGV0U88YV",
+            "defenderMapPosition": 9,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         }
       ]
     },
