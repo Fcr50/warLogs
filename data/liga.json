@@ -1,6 +1,6 @@
 {
   "season": "2026-11-02",
-  "generatedAt": "2026-11-04T14:00:36.633Z",
+  "generatedAt": "2026-11-04T14:15:28.016Z",
   "state": "inWar",
   "rounds": [
     {
@@ -204,9 +204,9 @@
       "result": "inProgress",
       "opponentName": "Fresh to Death",
       "opponentTag": "#2JJU9ULQ",
-      "clanStars": 3,
+      "clanStars": 9,
       "opponentStars": 3,
-      "clanDestructionPct": 6.666666666666667,
+      "clanDestructionPct": 20,
       "teamSize": 15,
       "members": [
         {
@@ -296,14 +296,24 @@
           "name": "¥vini¥",
           "townhallLevel": 18,
           "mapPosition": 18,
-          "attack": null
+          "attack": {
+            "defenderTag": "#YPLGYR9JR",
+            "defenderMapPosition": 18,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#GGVCRYP8P",
           "name": "gui",
           "townhallLevel": 18,
           "mapPosition": 16,
-          "attack": null
+          "attack": {
+            "defenderTag": "#YUJLQY2GU",
+            "defenderMapPosition": 12,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#YPVQVU982",
