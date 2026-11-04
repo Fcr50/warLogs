@@ -1,6 +1,6 @@
 {
   "season": "2026-11-02",
-  "generatedAt": "2026-11-04T14:15:28.016Z",
+  "generatedAt": "2026-11-04T14:30:30.387Z",
   "state": "inWar",
   "rounds": [
     {
@@ -204,9 +204,9 @@
       "result": "inProgress",
       "opponentName": "Fresh to Death",
       "opponentTag": "#2JJU9ULQ",
-      "clanStars": 9,
+      "clanStars": 12,
       "opponentStars": 3,
-      "clanDestructionPct": 20,
+      "clanDestructionPct": 26.666666666666668,
       "teamSize": 15,
       "members": [
         {
@@ -282,7 +282,12 @@
           "name": "Phoenix",
           "townhallLevel": 18,
           "mapPosition": 7,
-          "attack": null
+          "attack": {
+            "defenderTag": "#LJ9URU0JG",
+            "defenderMapPosition": 8,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#29LP0VJV0",
