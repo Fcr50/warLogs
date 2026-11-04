@@ -1,6 +1,6 @@
 {
   "season": "2026-11-02",
-  "generatedAt": "2026-11-04T13:45:30.191Z",
+  "generatedAt": "2026-11-04T14:00:36.633Z",
   "state": "inWar",
   "rounds": [
     {
@@ -204,9 +204,9 @@
       "result": "inProgress",
       "opponentName": "Fresh to Death",
       "opponentTag": "#2JJU9ULQ",
-      "clanStars": 0,
-      "opponentStars": 0,
-      "clanDestructionPct": 0,
+      "clanStars": 3,
+      "opponentStars": 3,
+      "clanDestructionPct": 6.666666666666667,
       "teamSize": 15,
       "members": [
         {
@@ -270,7 +270,12 @@
           "name": "joaoaoaoao",
           "townhallLevel": 18,
           "mapPosition": 17,
-          "attack": null
+          "attack": {
+            "defenderTag": "#Q9RV0YJP",
+            "defenderMapPosition": 17,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#PLU2VCLG",
