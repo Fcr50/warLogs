@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T21:05:20.823Z",
+  "generatedAt": "2026-11-04T21:20:23.078Z",
   "totalWars": 29,
   "liveWar": {
     "opponentName": "•Ghost§◇白井龍•",
@@ -105,6 +105,42 @@
         "threeStarRate": 0.8571428571428571,
         "totalMissed": 0,
         "avgPositionDiff": -2.9682539682539684,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#PLU2VCLG",
+        "name": "Phoenix",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.3852548198890076,
+        "rawScore": 2.3852548198890076,
+        "confidence": 1,
+        "tier": "A",
+        "attackScore": 3.010445367676376,
+        "defenseScore": 0.4302756595608677,
+        "reliability": 0.9613026819923371,
+        "formScore": 3.5,
+        "warsInRoster": 41,
+        "attacksUsed": 80,
+        "attacksAvailable": 81,
+        "avgDestruction": 97.0125,
+        "totalAttacks": 80,
+        "totalStars": 219,
+        "count3Stars": 64,
+        "avgStars": 2.7375,
+        "threeStarRate": 0.8,
+        "totalMissed": 1,
+        "avgPositionDiff": -1.05,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -988,7 +1024,7 @@
       "totalAttacks": 77,
       "warsInRoster": 43,
       "totalMissed": 6,
-      "rank": 6,
+      "rank": 7,
       "prevRank": 6,
       "normalizedScore": 66.26
     },
@@ -1012,7 +1048,7 @@
       "totalAttacks": 88,
       "warsInRoster": 44,
       "totalMissed": 0,
-      "rank": 11,
+      "rank": 12,
       "prevRank": 11,
       "normalizedScore": 62.98
     },
@@ -1024,21 +1060,32 @@
       "totalAttacks": 75,
       "warsInRoster": 38,
       "totalMissed": 1,
-      "rank": 7,
+      "rank": 8,
       "prevRank": 7,
       "normalizedScore": 65.37
     },
     "#GJ2LQVQJ": {
-      "tier": "S",
+      "tier": "A",
       "score": 2.361425580556201,
       "avgStars": 2.6705882352941175,
       "totalStars": 227,
       "totalAttacks": 85,
       "warsInRoster": 43,
       "totalMissed": 0,
-      "rank": 4,
+      "rank": 5,
       "prevRank": 4,
       "normalizedScore": 67.47
+    },
+    "#PLU2VCLG": {
+      "tier": "S",
+      "score": 2.3852548198890076,
+      "avgStars": 2.7375,
+      "totalStars": 219,
+      "totalAttacks": 80,
+      "warsInRoster": 41,
+      "totalMissed": 1,
+      "rank": 4,
+      "normalizedScore": 68.15
     },
     "#QJVQVRPU": {
       "tier": "A",
@@ -1048,7 +1095,7 @@
       "totalAttacks": 85,
       "warsInRoster": 43,
       "totalMissed": 0,
-      "rank": 5,
+      "rank": 6,
       "prevRank": 5,
       "normalizedScore": 67.08
     },
@@ -1060,7 +1107,7 @@
       "totalAttacks": 83,
       "warsInRoster": 42,
       "totalMissed": 0,
-      "rank": 12,
+      "rank": 13,
       "prevRank": 12,
       "normalizedScore": 62.23
     },
@@ -1072,7 +1119,7 @@
       "totalAttacks": 76,
       "warsInRoster": 39,
       "totalMissed": 0,
-      "rank": 13,
+      "rank": 14,
       "prevRank": 13,
       "normalizedScore": 62
     },
@@ -1084,7 +1131,7 @@
       "totalAttacks": 4,
       "warsInRoster": 2,
       "totalMissed": 0,
-      "rank": 22,
+      "rank": 23,
       "prevRank": 22,
       "normalizedScore": 30.49
     },
@@ -1096,7 +1143,7 @@
       "totalAttacks": 17,
       "warsInRoster": 10,
       "totalMissed": 1,
-      "rank": 16,
+      "rank": 17,
       "prevRank": 16,
       "normalizedScore": 56.25
     },
@@ -1108,7 +1155,7 @@
       "totalAttacks": 81,
       "warsInRoster": 41,
       "totalMissed": 1,
-      "rank": 8,
+      "rank": 9,
       "prevRank": 8,
       "normalizedScore": 65.03
     },
@@ -1120,7 +1167,7 @@
       "totalAttacks": 43,
       "warsInRoster": 29,
       "totalMissed": 9,
-      "rank": 9,
+      "rank": 10,
       "prevRank": 9,
       "normalizedScore": 64.97
     },
@@ -1132,7 +1179,7 @@
       "totalAttacks": 16,
       "warsInRoster": 9,
       "totalMissed": 1,
-      "rank": 18,
+      "rank": 19,
       "prevRank": 18,
       "normalizedScore": 48.84
     },
@@ -1144,7 +1191,7 @@
       "totalAttacks": 4,
       "warsInRoster": 3,
       "totalMissed": 0,
-      "rank": 23,
+      "rank": 24,
       "prevRank": 23,
       "normalizedScore": 22.7
     },
@@ -1168,7 +1215,7 @@
       "totalAttacks": 45,
       "warsInRoster": 26,
       "totalMissed": 6,
-      "rank": 15,
+      "rank": 16,
       "prevRank": 15,
       "normalizedScore": 57.52
     },
@@ -1180,7 +1227,7 @@
       "totalAttacks": 55,
       "warsInRoster": 37,
       "totalMissed": 10,
-      "rank": 21,
+      "rank": 22,
       "prevRank": 21,
       "normalizedScore": 39.41
     },
@@ -1192,19 +1239,19 @@
       "totalAttacks": 86,
       "warsInRoster": 44,
       "totalMissed": 0,
-      "rank": 17,
+      "rank": 18,
       "prevRank": 17,
       "normalizedScore": 49.41
     },
     "#JCRQGG9P": {
-      "tier": "A",
+      "tier": "B",
       "score": 2.152002064767637,
       "avgStars": 3,
       "totalStars": 45,
       "totalAttacks": 15,
       "warsInRoster": 10,
       "totalMissed": 2,
-      "rank": 14,
+      "rank": 15,
       "prevRank": 14,
       "normalizedScore": 61.49
     },
@@ -1226,7 +1273,7 @@
       "totalAttacks": 66,
       "warsInRoster": 35,
       "totalMissed": 2,
-      "rank": 20,
+      "rank": 21,
       "prevRank": 20,
       "normalizedScore": 43.46
     },
@@ -1238,7 +1285,7 @@
       "totalAttacks": 18,
       "warsInRoster": 9,
       "totalMissed": 0,
-      "rank": 10,
+      "rank": 11,
       "prevRank": 10,
       "normalizedScore": 63.33
     },
@@ -1260,7 +1307,7 @@
       "totalAttacks": 6,
       "warsInRoster": 3,
       "totalMissed": 0,
-      "rank": 19,
+      "rank": 20,
       "prevRank": 19,
       "normalizedScore": 46.11
     },
@@ -1282,7 +1329,7 @@
       "totalAttacks": 4,
       "warsInRoster": 3,
       "totalMissed": 2,
-      "rank": 24,
+      "rank": 25,
       "prevRank": 24,
       "normalizedScore": 14.44
     },
