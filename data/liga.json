@@ -1,6 +1,6 @@
 {
   "season": "2026-11-02",
-  "generatedAt": "2026-11-04T14:45:35.537Z",
+  "generatedAt": "2026-11-04T15:00:36.116Z",
   "state": "inWar",
   "rounds": [
     {
@@ -204,9 +204,9 @@
       "result": "inProgress",
       "opponentName": "Fresh to Death",
       "opponentTag": "#2JJU9ULQ",
-      "clanStars": 15,
+      "clanStars": 17,
       "opponentStars": 3,
-      "clanDestructionPct": 33.333333333333336,
+      "clanDestructionPct": 39.333333333333336,
       "teamSize": 15,
       "members": [
         {
@@ -235,7 +235,12 @@
           "name": "ChrolloLucilfer",
           "townhallLevel": 18,
           "mapPosition": 10,
-          "attack": null
+          "attack": {
+            "defenderTag": "#2PVGJ0JR",
+            "defenderMapPosition": 4,
+            "stars": 2,
+            "destructionPercentage": 90
+          }
         },
         {
           "tag": "#2GP2JUU2",
