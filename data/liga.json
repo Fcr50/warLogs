@@ -1,6 +1,6 @@
 {
   "season": "2026-11-02",
-  "generatedAt": "2026-11-04T18:35:25.384Z",
+  "generatedAt": "2026-11-04T18:50:31.997Z",
   "state": "inWar",
   "rounds": [
     {
@@ -204,9 +204,9 @@
       "result": "inProgress",
       "opponentName": "Fresh to Death",
       "opponentTag": "#2JJU9ULQ",
-      "clanStars": 23,
+      "clanStars": 26,
       "opponentStars": 5,
-      "clanDestructionPct": 52.666666666666664,
+      "clanDestructionPct": 59.333333333333336,
       "teamSize": 15,
       "members": [
         {
@@ -266,7 +266,12 @@
           "name": "Micael",
           "townhallLevel": 18,
           "mapPosition": 15,
-          "attack": null
+          "attack": {
+            "defenderTag": "#8GL9Q0YVQ",
+            "defenderMapPosition": 10,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#QGQJGURCL",
