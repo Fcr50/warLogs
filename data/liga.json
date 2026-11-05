@@ -1,6 +1,6 @@
 {
   "season": "2026-11-02",
-  "generatedAt": "2026-11-05T18:30:32.173Z",
+  "generatedAt": "2026-11-05T18:45:30.679Z",
   "state": "inWar",
   "rounds": [
     {
@@ -398,9 +398,9 @@
       "result": "inProgress",
       "opponentName": "HOUSE OF BEASTS",
       "opponentTag": "#2JVQRR89P",
-      "clanStars": 12,
-      "opponentStars": 18,
-      "clanDestructionPct": 26.666666666666668,
+      "clanStars": 15,
+      "opponentStars": 21,
+      "clanDestructionPct": 33.333333333333336,
       "teamSize": 15,
       "members": [
         {
@@ -460,7 +460,12 @@
           "name": "Micael",
           "townhallLevel": 18,
           "mapPosition": 15,
-          "attack": null
+          "attack": {
+            "defenderTag": "#8RUPQRYJ",
+            "defenderMapPosition": 10,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#QGQJGURCL",
