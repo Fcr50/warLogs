@@ -1,6 +1,6 @@
 {
   "season": "2026-11-02",
-  "generatedAt": "2026-11-05T01:20:26.171Z",
+  "generatedAt": "2026-11-05T01:35:24.211Z",
   "state": "inWar",
   "rounds": [
     {
@@ -204,9 +204,9 @@
       "result": "inProgress",
       "opponentName": "Fresh to Death",
       "opponentTag": "#2JJU9ULQ",
-      "clanStars": 35,
+      "clanStars": 38,
       "opponentStars": 25,
-      "clanDestructionPct": 79.33333333333333,
+      "clanDestructionPct": 86,
       "teamSize": 15,
       "members": [
         {
@@ -324,7 +324,12 @@
           "name": "Warlord Raivon",
           "townhallLevel": 18,
           "mapPosition": 8,
-          "attack": null
+          "attack": {
+            "defenderTag": "#Y2YR00YU",
+            "defenderMapPosition": 9,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#29JQ2PCVL",
