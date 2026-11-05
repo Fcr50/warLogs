@@ -1,6 +1,6 @@
 {
   "season": "2026-11-02",
-  "generatedAt": "2026-11-05T23:00:28.442Z",
+  "generatedAt": "2026-11-05T23:15:23.191Z",
   "state": "inWar",
   "rounds": [
     {
@@ -398,9 +398,9 @@
       "result": "inProgress",
       "opponentName": "HOUSE OF BEASTS",
       "opponentTag": "#2JVQRR89P",
-      "clanStars": 32,
+      "clanStars": 33,
       "opponentStars": 24,
-      "clanDestructionPct": 70.6,
+      "clanDestructionPct": 76.93333333333334,
       "teamSize": 15,
       "members": [
         {
@@ -487,7 +487,12 @@
           "name": "SAFONOV",
           "townhallLevel": 18,
           "mapPosition": 2,
-          "attack": null
+          "attack": {
+            "defenderTag": "#LYJL9RUR",
+            "defenderMapPosition": 7,
+            "stars": 1,
+            "destructionPercentage": 95
+          }
         },
         {
           "tag": "#L8RG2PV0G",
