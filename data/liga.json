@@ -1,6 +1,6 @@
 {
   "season": "2026-11-02",
-  "generatedAt": "2026-11-05T08:50:26.482Z",
+  "generatedAt": "2026-11-05T09:05:32.318Z",
   "state": "inWar",
   "rounds": [
     {
@@ -204,9 +204,9 @@
       "result": "inProgress",
       "opponentName": "Fresh to Death",
       "opponentTag": "#2JJU9ULQ",
-      "clanStars": 41,
-      "opponentStars": 34,
-      "clanDestructionPct": 92.66666666666667,
+      "clanStars": 44,
+      "opponentStars": 37,
+      "clanDestructionPct": 99.33333333333333,
       "teamSize": 15,
       "members": [
         {
@@ -214,7 +214,12 @@
           "name": "Satsugai",
           "townhallLevel": 18,
           "mapPosition": 11,
-          "attack": null
+          "attack": {
+            "defenderTag": "#YVURYURG",
+            "defenderMapPosition": 3,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#L989P0JGU",
