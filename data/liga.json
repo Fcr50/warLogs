@@ -1,6 +1,6 @@
 {
   "season": "2026-11-02",
-  "generatedAt": "2026-11-05T01:35:24.211Z",
+  "generatedAt": "2026-11-05T01:50:24.924Z",
   "state": "inWar",
   "rounds": [
     {
@@ -204,9 +204,9 @@
       "result": "inProgress",
       "opponentName": "Fresh to Death",
       "opponentTag": "#2JJU9ULQ",
-      "clanStars": 38,
+      "clanStars": 41,
       "opponentStars": 25,
-      "clanDestructionPct": 86,
+      "clanDestructionPct": 92.66666666666667,
       "teamSize": 15,
       "members": [
         {
@@ -221,7 +221,12 @@
           "name": "MARRETA PRETA",
           "townhallLevel": 18,
           "mapPosition": 23,
-          "attack": null
+          "attack": {
+            "defenderTag": "#QC99J8GY",
+            "defenderMapPosition": 19,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#QQC8P9C9R",
