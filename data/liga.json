@@ -1,6 +1,6 @@
 {
   "season": "2026-11-02",
-  "generatedAt": "2026-11-06T00:30:24.944Z",
+  "generatedAt": "2026-11-06T00:45:23.194Z",
   "state": "inWar",
   "rounds": [
     {
@@ -398,9 +398,9 @@
       "result": "inProgress",
       "opponentName": "HOUSE OF BEASTS",
       "opponentTag": "#2JVQRR89P",
-      "clanStars": 36,
+      "clanStars": 38,
       "opponentStars": 24,
-      "clanDestructionPct": 83.6,
+      "clanDestructionPct": 89.06666666666666,
       "teamSize": 15,
       "members": [
         {
@@ -468,7 +468,12 @@
           "name": "i-Vinni",
           "townhallLevel": 18,
           "mapPosition": 13,
-          "attack": null
+          "attack": {
+            "defenderTag": "#UU2JVJR8",
+            "defenderMapPosition": 4,
+            "stars": 2,
+            "destructionPercentage": 82
+          }
         },
         {
           "tag": "#G9Y2L9QJJ",
