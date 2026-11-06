@@ -1,6 +1,6 @@
 {
   "season": "2026-11-02",
-  "generatedAt": "2026-11-06T16:45:27.979Z",
+  "generatedAt": "2026-11-06T17:00:32.912Z",
   "state": "inWar",
   "rounds": [
     {
@@ -592,9 +592,9 @@
       "result": "inProgress",
       "opponentName": "x300",
       "opponentTag": "#2GC",
-      "clanStars": 15,
+      "clanStars": 18,
       "opponentStars": 12,
-      "clanDestructionPct": 33.333333333333336,
+      "clanDestructionPct": 40,
       "teamSize": 15,
       "members": [
         {
@@ -699,7 +699,12 @@
           "name": "gui",
           "townhallLevel": 18,
           "mapPosition": 16,
-          "attack": null
+          "attack": {
+            "defenderTag": "#20RVR0LP0",
+            "defenderMapPosition": 9,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#P9C0LVLU2",
