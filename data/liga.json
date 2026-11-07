@@ -1,6 +1,6 @@
 {
   "season": "2026-11-02",
-  "generatedAt": "2026-11-06T23:30:32.120Z",
+  "generatedAt": "2026-11-07T00:00:28.100Z",
   "state": "inWar",
   "rounds": [
     {
@@ -592,9 +592,9 @@
       "result": "inProgress",
       "opponentName": "x300",
       "opponentTag": "#2GC",
-      "clanStars": 30,
+      "clanStars": 33,
       "opponentStars": 33,
-      "clanDestructionPct": 66.66666666666667,
+      "clanDestructionPct": 73.33333333333333,
       "teamSize": 15,
       "members": [
         {
@@ -688,7 +688,12 @@
           "name": "Phoenix",
           "townhallLevel": 18,
           "mapPosition": 7,
-          "attack": null
+          "attack": {
+            "defenderTag": "#L9P88U",
+            "defenderMapPosition": 4,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#29LP0VJV0",
