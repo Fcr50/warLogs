@@ -1,6 +1,6 @@
 {
   "season": "2026-11-02",
-  "generatedAt": "2026-11-07T19:15:35.572Z",
+  "generatedAt": "2026-11-07T19:30:32.016Z",
   "state": "inWar",
   "rounds": [
     {
@@ -786,9 +786,9 @@
       "result": "inProgress",
       "opponentName": "Україна CWL",
       "opponentTag": "#2G0Y2QGCY",
-      "clanStars": 24,
-      "opponentStars": 24,
-      "clanDestructionPct": 53.333333333333336,
+      "clanStars": 27,
+      "opponentStars": 27,
+      "clanDestructionPct": 60,
       "teamSize": 15,
       "members": [
         {
@@ -808,7 +808,12 @@
           "name": "Gs.prieto",
           "townhallLevel": 18,
           "mapPosition": 12,
-          "attack": null
+          "attack": {
+            "defenderTag": "#LPC8V8GQV",
+            "defenderMapPosition": 9,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#LVPLJVLVG",
