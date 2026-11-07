@@ -1,6 +1,6 @@
 {
   "season": "2026-11-02",
-  "generatedAt": "2026-11-07T23:30:26.370Z",
+  "generatedAt": "2026-11-07T23:45:24.047Z",
   "state": "inWar",
   "rounds": [
     {
@@ -786,9 +786,9 @@
       "result": "inProgress",
       "opponentName": "Україна CWL",
       "opponentTag": "#2G0Y2QGCY",
-      "clanStars": 36,
+      "clanStars": 39,
       "opponentStars": 27,
-      "clanDestructionPct": 80,
+      "clanDestructionPct": 86.66666666666667,
       "teamSize": 15,
       "members": [
         {
@@ -894,7 +894,12 @@
           "name": "Warlord Raivon",
           "townhallLevel": 18,
           "mapPosition": 9,
-          "attack": null
+          "attack": {
+            "defenderTag": "#G2LRC2228",
+            "defenderMapPosition": 3,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#20CY00CU9",
