@@ -1,6 +1,6 @@
 {
   "season": "2026-11-02",
-  "generatedAt": "2026-11-07T23:00:25.058Z",
+  "generatedAt": "2026-11-07T23:15:22.312Z",
   "state": "inWar",
   "rounds": [
     {
@@ -786,9 +786,9 @@
       "result": "inProgress",
       "opponentName": "Україна CWL",
       "opponentTag": "#2G0Y2QGCY",
-      "clanStars": 33,
+      "clanStars": 36,
       "opponentStars": 27,
-      "clanDestructionPct": 73.33333333333333,
+      "clanDestructionPct": 80,
       "teamSize": 15,
       "members": [
         {
@@ -827,7 +827,12 @@
           "name": "Marcola",
           "townhallLevel": 18,
           "mapPosition": 8,
-          "attack": null
+          "attack": {
+            "defenderTag": "#2080Q9Y8R",
+            "defenderMapPosition": 11,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#2GP2JUU2",
