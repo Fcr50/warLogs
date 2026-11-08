@@ -1,6 +1,6 @@
 {
   "season": "2026-11-02",
-  "generatedAt": "2026-11-08T16:00:35.429Z",
+  "generatedAt": "2026-11-08T16:15:25.678Z",
   "state": "inWar",
   "rounds": [
     {
@@ -980,9 +980,9 @@
       "result": "inProgress",
       "opponentName": "Shadow Phoenix",
       "opponentTag": "#2JPQ8PR2P",
-      "clanStars": 9,
+      "clanStars": 12,
       "opponentStars": 19,
-      "clanDestructionPct": 20,
+      "clanDestructionPct": 26.666666666666668,
       "teamSize": 15,
       "members": [
         {
@@ -1018,7 +1018,12 @@
           "name": "Gustavo Lázaro",
           "townhallLevel": 18,
           "mapPosition": 1,
-          "attack": null
+          "attack": {
+            "defenderTag": "#CUGYYGRG",
+            "defenderMapPosition": 1,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#G9Y2L9QJJ",
