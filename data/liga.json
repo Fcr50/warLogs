@@ -1,6 +1,6 @@
 {
   "season": "2026-11-02",
-  "generatedAt": "2026-11-08T22:00:31.984Z",
+  "generatedAt": "2026-11-08T22:15:22.880Z",
   "state": "inWar",
   "rounds": [
     {
@@ -980,9 +980,9 @@
       "result": "inProgress",
       "opponentName": "Shadow Phoenix",
       "opponentTag": "#2JPQ8PR2P",
-      "clanStars": 27,
+      "clanStars": 30,
       "opponentStars": 25,
-      "clanDestructionPct": 60,
+      "clanDestructionPct": 66.66666666666667,
       "teamSize": 15,
       "members": [
         {
@@ -1016,7 +1016,12 @@
           "name": "Marcola",
           "townhallLevel": 18,
           "mapPosition": 9,
-          "attack": null
+          "attack": {
+            "defenderTag": "#G8QY2VL82",
+            "defenderMapPosition": 8,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#2GP2JUU2",
