@@ -1,6 +1,6 @@
 {
   "season": "2026-11-02",
-  "generatedAt": "2026-11-08T18:45:28.175Z",
+  "generatedAt": "2026-11-08T19:00:33.103Z",
   "state": "inWar",
   "rounds": [
     {
@@ -980,9 +980,9 @@
       "result": "inProgress",
       "opponentName": "Shadow Phoenix",
       "opponentTag": "#2JPQ8PR2P",
-      "clanStars": 21,
+      "clanStars": 24,
       "opponentStars": 19,
-      "clanDestructionPct": 46.666666666666664,
+      "clanDestructionPct": 53.333333333333336,
       "teamSize": 15,
       "members": [
         {
@@ -1099,7 +1099,12 @@
           "name": "gui",
           "townhallLevel": 18,
           "mapPosition": 16,
-          "attack": null
+          "attack": {
+            "defenderTag": "#LUPLP2Y0J",
+            "defenderMapPosition": 2,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#YPVQVU982",
