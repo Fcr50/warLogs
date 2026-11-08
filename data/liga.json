@@ -1,6 +1,6 @@
 {
   "season": "2026-11-02",
-  "generatedAt": "2026-11-08T23:00:35.390Z",
+  "generatedAt": "2026-11-08T23:15:25.811Z",
   "state": "inWar",
   "rounds": [
     {
@@ -980,9 +980,9 @@
       "result": "inProgress",
       "opponentName": "Shadow Phoenix",
       "opponentTag": "#2JPQ8PR2P",
-      "clanStars": 30,
+      "clanStars": 33,
       "opponentStars": 25,
-      "clanDestructionPct": 66.66666666666667,
+      "clanDestructionPct": 73.33333333333333,
       "teamSize": 15,
       "members": [
         {
@@ -1083,7 +1083,12 @@
           "name": "Warlord Raivon",
           "townhallLevel": 18,
           "mapPosition": 8,
-          "attack": null
+          "attack": {
+            "defenderTag": "#QJJ2UURR2",
+            "defenderMapPosition": 5,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#20CY00CU9",
