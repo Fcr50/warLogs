@@ -1,6 +1,6 @@
 {
   "season": "2026-11-02",
-  "generatedAt": "2026-11-09T21:15:36.107Z",
+  "generatedAt": "2026-11-09T21:30:38.412Z",
   "state": "inWar",
   "rounds": [
     {
@@ -1174,9 +1174,9 @@
       "result": "inProgress",
       "opponentName": "CoC Akademi",
       "opponentTag": "#PJJR2YUL",
-      "clanStars": 27,
+      "clanStars": 30,
       "opponentStars": 28,
-      "clanDestructionPct": 63.53333333333333,
+      "clanDestructionPct": 70.2,
       "teamSize": 15,
       "members": [
         {
@@ -1251,7 +1251,12 @@
           "name": "Fer",
           "townhallLevel": 18,
           "mapPosition": 3,
-          "attack": null
+          "attack": {
+            "defenderTag": "#9C0QVG22P",
+            "defenderMapPosition": 11,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#L8RG2PV0G",
