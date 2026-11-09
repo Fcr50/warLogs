@@ -1,6 +1,6 @@
 {
   "season": "2026-11-02",
-  "generatedAt": "2026-11-09T16:00:40.279Z",
+  "generatedAt": "2026-11-09T16:15:31.052Z",
   "state": "inWar",
   "rounds": [
     {
@@ -1174,9 +1174,9 @@
       "result": "inProgress",
       "opponentName": "CoC Akademi",
       "opponentTag": "#PJJR2YUL",
-      "clanStars": 9,
+      "clanStars": 10,
       "opponentStars": 15,
-      "clanDestructionPct": 20,
+      "clanDestructionPct": 25.066666666666666,
       "teamSize": 15,
       "members": [
         {
@@ -1198,7 +1198,12 @@
           "name": "Marcola",
           "townhallLevel": 18,
           "mapPosition": 8,
-          "attack": null
+          "attack": {
+            "defenderTag": "#2V22L08V",
+            "defenderMapPosition": 6,
+            "stars": 1,
+            "destructionPercentage": 76
+          }
         },
         {
           "tag": "#8CJ8YJY0P",
