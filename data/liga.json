@@ -1,6 +1,6 @@
 {
   "season": "2026-11-02",
-  "generatedAt": "2026-11-09T14:30:32.666Z",
+  "generatedAt": "2026-11-09T14:45:45.087Z",
   "state": "inWar",
   "rounds": [
     {
@@ -1174,9 +1174,9 @@
       "result": "inProgress",
       "opponentName": "CoC Akademi",
       "opponentTag": "#PJJR2YUL",
-      "clanStars": 0,
+      "clanStars": 3,
       "opponentStars": 6,
-      "clanDestructionPct": 0,
+      "clanDestructionPct": 6.666666666666667,
       "teamSize": 15,
       "members": [
         {
@@ -1268,7 +1268,12 @@
           "name": "gui",
           "townhallLevel": 18,
           "mapPosition": 16,
-          "attack": null
+          "attack": {
+            "defenderTag": "#22RYVJ00R",
+            "defenderMapPosition": 7,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#YPVQVU982",
