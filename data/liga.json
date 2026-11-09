@@ -1,6 +1,6 @@
 {
   "season": "2026-11-02",
-  "generatedAt": "2026-11-09T14:45:45.087Z",
+  "generatedAt": "2026-11-09T15:00:46.264Z",
   "state": "inWar",
   "rounds": [
     {
@@ -1174,9 +1174,9 @@
       "result": "inProgress",
       "opponentName": "CoC Akademi",
       "opponentTag": "#PJJR2YUL",
-      "clanStars": 3,
+      "clanStars": 9,
       "opponentStars": 6,
-      "clanDestructionPct": 6.666666666666667,
+      "clanDestructionPct": 20,
       "teamSize": 15,
       "members": [
         {
@@ -1212,7 +1212,12 @@
           "name": "Gustavo Lázaro",
           "townhallLevel": 18,
           "mapPosition": 1,
-          "attack": null
+          "attack": {
+            "defenderTag": "#G28LCQCVG",
+            "defenderMapPosition": 2,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#G9Y2L9QJJ",
@@ -1280,7 +1285,12 @@
           "name": "亗 ＨＡＤＥＳ_０７ 亗",
           "townhallLevel": 18,
           "mapPosition": 6,
-          "attack": null
+          "attack": {
+            "defenderTag": "#9YYLGUYQ2",
+            "defenderMapPosition": 4,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#QJVQVRPU",
