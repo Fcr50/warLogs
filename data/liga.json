@@ -1,6 +1,6 @@
 {
   "season": "2026-11-02",
-  "generatedAt": "2026-11-10T04:30:46.680Z",
+  "generatedAt": "2026-11-10T04:45:29.153Z",
   "state": "inWar",
   "rounds": [
     {
@@ -1174,9 +1174,9 @@
       "result": "inProgress",
       "opponentName": "CoC Akademi",
       "opponentTag": "#PJJR2YUL",
-      "clanStars": 34,
+      "clanStars": 37,
       "opponentStars": 28,
-      "clanDestructionPct": 83.26666666666667,
+      "clanDestructionPct": 89.93333333333334,
       "teamSize": 15,
       "members": [
         {
@@ -1275,7 +1275,12 @@
           "name": "Phoenix",
           "townhallLevel": 18,
           "mapPosition": 7,
-          "attack": null
+          "attack": {
+            "defenderTag": "#29JP8G9G",
+            "defenderMapPosition": 1,
+            "stars": 3,
+            "destructionPercentage": 100
+          }
         },
         {
           "tag": "#29LP0VJV0",
