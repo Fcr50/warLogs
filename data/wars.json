@@ -10,8 +10,8 @@
       "opponent": {
         "name": "#Amagyarclan",
         "tag": "#YG800UJR",
-        "stars": 0,
-        "destructionPercentage": 0,
+        "stars": 3,
+        "destructionPercentage": 3.3333333,
         "members": [
           {
             "tag": "#CY9JJJ8U",
@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 5,
-        "destructionPercentage": 5.4
+        "stars": 11,
+        "destructionPercentage": 12.066667
       },
       "sixHourNonAttackers": [
         {
@@ -173,11 +173,6 @@
         {
           "tag": "#YRCLVY099",
           "name": "GLADIADOR - SP",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#8YJYY92GC",
-          "name": "RussiaN",
           "townhallLevel": 18
         },
         {
@@ -218,11 +213,6 @@
         {
           "tag": "#GJ2LQVQJ",
           "name": "Fer",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#URR0QLV",
-          "name": "Victor Daniel",
           "townhallLevel": 18
         },
         {
@@ -350,7 +340,14 @@
           "name": "RussiaN",
           "townhallLevel": 18,
           "mapPosition": 23,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 5,
+              "defenderTag": "#YPUJCQ0VP"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -463,7 +460,14 @@
           "name": "Victor Daniel",
           "townhallLevel": 18,
           "mapPosition": 26,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 4,
+              "defenderTag": "#2QC80CVC"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -473,7 +477,14 @@
           "townhallLevel": 18,
           "mapPosition": 7,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#CY9JJJ8U",
+              "attackerMapPosition": 1
+            }
+          ],
           "missedAttacks": 0
         },
         {
