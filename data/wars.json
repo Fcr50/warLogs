@@ -10,8 +10,8 @@
       "opponent": {
         "name": "#Amagyarclan",
         "tag": "#YG800UJR",
-        "stars": 9,
-        "destructionPercentage": 10,
+        "stars": 12,
+        "destructionPercentage": 13.333333,
         "members": [
           {
             "tag": "#CY9JJJ8U",
@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 44,
-        "destructionPercentage": 49.533333
+        "stars": 45,
+        "destructionPercentage": 50
       },
       "sixHourNonAttackers": [
         {
@@ -457,7 +457,14 @@
           "townhallLevel": 18,
           "mapPosition": 3,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#CY9JJJ8U",
+              "attackerMapPosition": 1
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -471,6 +478,12 @@
               "destructionPercentage": 100,
               "order": 2,
               "defenderTag": "#PUV0GJG28"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 22,
+              "defenderTag": "#2Y9CG2RYC"
             }
           ],
           "defensesReceived": [],
