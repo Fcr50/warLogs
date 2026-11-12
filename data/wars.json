@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 54,
-        "destructionPercentage": 60
+        "stars": 55,
+        "destructionPercentage": 63.2
       },
       "sixHourNonAttackers": [
         {
@@ -168,11 +168,6 @@
         {
           "tag": "#29LP0VJV0",
           "name": "Warlord Raivon",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#29JQ2PCVL",
-          "name": "¥vini¥",
           "townhallLevel": 18
         },
         {
@@ -599,7 +594,14 @@
           "name": "¥vini¥",
           "townhallLevel": 18,
           "mapPosition": 18,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 1,
+              "destructionPercentage": 96,
+              "order": 30,
+              "defenderTag": "#2YL0RL8J"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },

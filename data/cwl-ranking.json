@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-12T00:30:25.086Z",
+  "generatedAt": "2026-11-12T00:45:26.062Z",
   "totalWars": 29,
   "liveWar": {
     "opponentName": "#Amagyarclan",
-    "totalAttacksDone": 22,
+    "totalAttacksDone": 23,
     "totalAttacksExpected": 60
   },
   "ranking": [
@@ -801,42 +801,6 @@
     },
     {
       "player": {
-        "tag": "#29JQ2PCVL",
-        "name": "¥vini¥",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 1.7092355327354882,
-        "rawScore": 1.7092355327354882,
-        "confidence": 1,
-        "tier": "B",
-        "attackScore": 2.6712499504953158,
-        "defenseScore": 0.22796635204085708,
-        "reliability": 0.5801724137931035,
-        "formScore": 1.2999999999999998,
-        "warsInRoster": 10,
-        "attacksUsed": 16,
-        "attacksAvailable": 19,
-        "avgDestruction": 95.9375,
-        "totalAttacks": 16,
-        "totalStars": 41,
-        "count3Stars": 12,
-        "avgStars": 2.5625,
-        "threeStarRate": 0.75,
-        "totalMissed": 1,
-        "avgPositionDiff": -3.8125,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
         "tag": "#GLV8G0LJ",
         "name": "Luiz",
         "townhallLevel": 18
@@ -933,6 +897,42 @@
         "threeStarRate": 0.6111111111111112,
         "totalMissed": 1,
         "avgPositionDiff": -5.666666666666667,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#29JQ2PCVL",
+        "name": "¥vini¥",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 1.6010293396961972,
+        "rawScore": 1.6010293396961972,
+        "confidence": 1,
+        "tier": "B",
+        "attackScore": 2.394568538497004,
+        "defenseScore": 0.22796635204085708,
+        "reliability": 0.5801724137931035,
+        "formScore": 1.38,
+        "warsInRoster": 10,
+        "attacksUsed": 17,
+        "attacksAvailable": 19,
+        "avgDestruction": 95.94117647058823,
+        "totalAttacks": 17,
+        "totalStars": 42,
+        "count3Stars": 12,
+        "avgStars": 2.4705882352941178,
+        "threeStarRate": 0.7058823529411765,
+        "totalMissed": 1,
+        "avgPositionDiff": -3.588235294117647,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1701,9 +1701,21 @@
       "totalAttacks": 35,
       "warsInRoster": 21,
       "totalMissed": 4,
-      "rank": 25,
+      "rank": 24,
       "prevRank": 25,
       "normalizedScore": 47.52
+    },
+    "#GLV8G0LJ": {
+      "tier": "B",
+      "score": 1.68477867637634,
+      "avgStars": 3,
+      "totalStars": 24,
+      "totalAttacks": 8,
+      "warsInRoster": 4,
+      "totalMissed": 0,
+      "rank": 23,
+      "prevRank": 24,
+      "normalizedScore": 48.14
     },
     "#QGQJGURCL": {
       "tier": "A",
@@ -1731,27 +1743,15 @@
     },
     "#29JQ2PCVL": {
       "tier": "B",
-      "score": 1.7092355327354882,
-      "avgStars": 2.5625,
-      "totalStars": 41,
-      "totalAttacks": 16,
+      "score": 1.6010293396961972,
+      "avgStars": 2.4705882352941178,
+      "totalStars": 42,
+      "totalAttacks": 17,
       "warsInRoster": 10,
       "totalMissed": 1,
-      "rank": 23,
+      "rank": 26,
       "prevRank": 23,
-      "normalizedScore": 48.84
-    },
-    "#GLV8G0LJ": {
-      "tier": "B",
-      "score": 1.68477867637634,
-      "avgStars": 3,
-      "totalStars": 24,
-      "totalAttacks": 8,
-      "warsInRoster": 4,
-      "totalMissed": 0,
-      "rank": 24,
-      "prevRank": 24,
-      "normalizedScore": 48.14
+      "normalizedScore": 45.74
     },
     "#VQYCURG0": {
       "tier": "B",
@@ -1785,7 +1785,7 @@
       "totalAttacks": 18,
       "warsInRoster": 11,
       "totalMissed": 1,
-      "rank": 26,
+      "rank": 25,
       "prevRank": 26,
       "normalizedScore": 47.18
     },
