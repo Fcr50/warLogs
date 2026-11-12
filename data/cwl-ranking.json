@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T06:15:29.461Z",
+  "generatedAt": "2026-11-12T06:30:27.265Z",
   "totalWars": 29,
   "liveWar": {
     "opponentName": "#Amagyarclan",
@@ -81,6 +81,42 @@
     },
     {
       "player": {
+        "tag": "#GGVCRYP8P",
+        "name": "gui",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.525674644388103,
+        "rawScore": 2.525674644388103,
+        "confidence": 1,
+        "tier": "A",
+        "attackScore": 3.089648934249714,
+        "defenseScore": 0.7520883680128907,
+        "reliability": 1,
+        "formScore": 3.5,
+        "warsInRoster": 43,
+        "attacksUsed": 85,
+        "attacksAvailable": 86,
+        "avgDestruction": 92.04705882352941,
+        "totalAttacks": 85,
+        "totalStars": 225,
+        "count3Stars": 60,
+        "avgStars": 2.6470588235294117,
+        "threeStarRate": 0.7058823529411765,
+        "totalMissed": 0,
+        "avgPositionDiff": -4.070588235294117,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#8YJYY92GC",
         "name": "RussiaN",
         "townhallLevel": 18
@@ -105,42 +141,6 @@
         "threeStarRate": 0.6097560975609756,
         "totalMissed": 0,
         "avgPositionDiff": -7.5,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#GGVCRYP8P",
-        "name": "gui",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.457773885633956,
-        "rawScore": 2.457773885633956,
-        "confidence": 1,
-        "tier": "A",
-        "attackScore": 3.089648934249714,
-        "defenseScore": 0.48048533299630436,
-        "reliability": 1,
-        "formScore": 3.5,
-        "warsInRoster": 43,
-        "attacksUsed": 85,
-        "attacksAvailable": 86,
-        "avgDestruction": 92.04705882352941,
-        "totalAttacks": 85,
-        "totalStars": 225,
-        "count3Stars": 60,
-        "avgStars": 2.6470588235294117,
-        "threeStarRate": 0.7058823529411765,
-        "totalMissed": 0,
-        "avgPositionDiff": -4.070588235294117,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -698,12 +698,12 @@
         "townhallLevel": 18
       },
       "data": {
-        "score": 1.9446540874196914,
-        "rawScore": 1.9446540874196914,
+        "score": 1.93972543664199,
+        "rawScore": 1.93972543664199,
         "confidence": 1,
         "tier": "B",
         "attackScore": 2.2818970128091456,
-        "defenseScore": 0.11802936815940092,
+        "defenseScore": 0.09831476504859517,
         "reliability": 1,
         "formScore": 2.6675,
         "warsInRoster": 45,
@@ -1686,7 +1686,7 @@
       "totalAttacks": 82,
       "warsInRoster": 41,
       "totalMissed": 0,
-      "rank": 3,
+      "rank": 4,
       "prevRank": 3,
       "normalizedScore": 71.03
     },
@@ -1914,15 +1914,15 @@
     },
     "#GGVCRYP8P": {
       "tier": "S",
-      "score": 2.457773885633956,
+      "score": 2.525674644388103,
       "avgStars": 2.6470588235294117,
       "totalStars": 225,
       "totalAttacks": 85,
       "warsInRoster": 43,
       "totalMissed": 0,
-      "rank": 4,
+      "rank": 3,
       "prevRank": 4,
-      "normalizedScore": 70.22
+      "normalizedScore": 72.16
     },
     "#JCRQGG9P": {
       "tier": "B",
@@ -1962,7 +1962,7 @@
     },
     "#LQQRGJ8VU": {
       "tier": "B",
-      "score": 1.9446540874196914,
+      "score": 1.93972543664199,
       "avgStars": 2.2413793103448274,
       "totalStars": 195,
       "totalAttacks": 87,
@@ -1970,7 +1970,7 @@
       "totalMissed": 0,
       "rank": 20,
       "prevRank": 20,
-      "normalizedScore": 55.56
+      "normalizedScore": 55.42
     },
     "#8CP8L22PY": {
       "tier": "F",
