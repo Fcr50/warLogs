@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T00:15:25.457Z",
+  "generatedAt": "2026-11-12T00:30:25.086Z",
   "totalWars": 29,
   "liveWar": {
     "opponentName": "#Amagyarclan",
@@ -1274,12 +1274,12 @@
         "townhallLevel": 18
       },
       "data": {
-        "score": 0,
-        "rawScore": 0,
+        "score": 0.127625,
+        "rawScore": 0.25525,
         "confidence": 0.5,
         "tier": "F",
         "attackScore": 0,
-        "defenseScore": 0,
+        "defenseScore": 1.021,
         "reliability": 0,
         "formScore": 0,
         "warsInRoster": 1,
@@ -1293,13 +1293,13 @@
         "threeStarRate": 0,
         "totalMissed": 0,
         "avgPositionDiff": 0,
-        "hasAnyDefense": false,
+        "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
-          "attack": 0.56,
-          "defense": 0,
-          "reliability": 0.3067,
-          "form": 0.1333
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
         }
       }
     },
@@ -1591,7 +1591,7 @@
     },
     "#2QLC0JUP0": {
       "tier": "F",
-      "score": 0,
+      "score": 0.127625,
       "avgStars": 0,
       "totalStars": 0,
       "totalAttacks": 0,
@@ -1741,6 +1741,18 @@
       "prevRank": 23,
       "normalizedScore": 48.84
     },
+    "#GLV8G0LJ": {
+      "tier": "B",
+      "score": 1.68477867637634,
+      "avgStars": 3,
+      "totalStars": 24,
+      "totalAttacks": 8,
+      "warsInRoster": 4,
+      "totalMissed": 0,
+      "rank": 24,
+      "prevRank": 24,
+      "normalizedScore": 48.14
+    },
     "#VQYCURG0": {
       "tier": "B",
       "score": 1.9838173346070964,
@@ -1800,18 +1812,6 @@
       "rank": 17,
       "prevRank": 17,
       "normalizedScore": 57.25
-    },
-    "#GLV8G0LJ": {
-      "tier": "B",
-      "score": 1.68477867637634,
-      "avgStars": 3,
-      "totalStars": 24,
-      "totalAttacks": 8,
-      "warsInRoster": 4,
-      "totalMissed": 0,
-      "rank": 24,
-      "prevRank": 24,
-      "normalizedScore": 48.14
     },
     "#29LP0VJV0": {
       "tier": "A",
