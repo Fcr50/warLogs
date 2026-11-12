@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 55,
-        "destructionPercentage": 63.2
+        "stars": 61,
+        "destructionPercentage": 69.86667
       },
       "sixHourNonAttackers": [
         {
@@ -158,11 +158,6 @@
         {
           "tag": "#GJ2LQVQJ",
           "name": "Fer",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#VPPQ8VLV",
-          "name": "GABRIEL LOBATO",
           "townhallLevel": 18
         },
         {
@@ -188,11 +183,6 @@
         {
           "tag": "#VQYCURG0",
           "name": "Edberg",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QJVQVRPU",
-          "name": "Frnnn",
           "townhallLevel": 18
         }
       ],
@@ -306,6 +296,12 @@
               "destructionPercentage": 100,
               "order": 5,
               "defenderTag": "#YPUJCQ0VP"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 32,
+              "defenderTag": "#GCQQR98V"
             }
           ],
           "defensesReceived": [],
@@ -560,7 +556,14 @@
           "name": "GABRIEL LOBATO",
           "townhallLevel": 18,
           "mapPosition": 17,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 1,
+              "destructionPercentage": 96,
+              "order": 31,
+              "defenderTag": "#GCQQR98V"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -669,7 +672,14 @@
           "name": "Frnnn",
           "townhallLevel": 18,
           "mapPosition": 5,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 33,
+              "defenderTag": "#JRUG8GL2"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         }
