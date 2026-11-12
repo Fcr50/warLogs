@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-12T18:00:29.136Z",
+  "generatedAt": "2026-11-12T18:15:30.129Z",
   "totalWars": 29,
   "liveWar": {
     "opponentName": "#Amagyarclan",
-    "totalAttacksDone": 49,
+    "totalAttacksDone": 51,
     "totalAttacksExpected": 60
   },
   "ranking": [
@@ -14,12 +14,12 @@
         "townhallLevel": 18
       },
       "data": {
-        "score": 2.5295360386324885,
-        "rawScore": 2.5295360386324885,
+        "score": 2.5359879592228256,
+        "rawScore": 2.5359879592228256,
         "confidence": 1,
         "tier": "S",
         "attackScore": 3.409681222344596,
-        "defenseScore": 0.22987970099103264,
+        "defenseScore": 0.2556873833523809,
         "reliability": 1,
         "formScore": 3.5,
         "warsInRoster": 44,
@@ -765,17 +765,53 @@
     },
     {
       "player": {
+        "tag": "#YRCLVY099",
+        "name": "GLADIADOR - SP",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 1.8351306229246793,
+        "rawScore": 1.8351306229246793,
+        "confidence": 1,
+        "tier": "C",
+        "attackScore": 2.645054849709727,
+        "defenseScore": 0.15916263258762936,
+        "reliability": 0.6426332288401254,
+        "formScore": 2.41,
+        "warsInRoster": 21,
+        "attacksUsed": 37,
+        "attacksAvailable": 42,
+        "avgDestruction": 91.83783783783784,
+        "totalAttacks": 37,
+        "totalStars": 87,
+        "count3Stars": 18,
+        "avgStars": 2.3513513513513513,
+        "threeStarRate": 0.4864864864864865,
+        "totalMissed": 4,
+        "avgPositionDiff": -4.648648648648648,
+        "hasAnyDefense": true,
+        "hadTh17": true,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#VPPQ8VLV",
         "name": "GABRIEL LOBATO",
         "townhallLevel": 18
       },
       "data": {
-        "score": 1.8039127755669762,
-        "rawScore": 1.8039127755669762,
+        "score": 1.7449668364014863,
+        "rawScore": 1.7449668364014863,
         "confidence": 1,
         "tier": "C",
         "attackScore": 2.3587832137736653,
-        "defenseScore": 0.5198405363938673,
+        "defenseScore": 0.2840567797319084,
         "reliability": 0.7815415821501014,
         "formScore": 1.44,
         "warsInRoster": 28,
@@ -827,42 +863,6 @@
         "avgPositionDiff": 6.5,
         "hasAnyDefense": true,
         "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#YRCLVY099",
-        "name": "GLADIADOR - SP",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 1.6434018260031409,
-        "rawScore": 1.6434018260031409,
-        "confidence": 1,
-        "tier": "C",
-        "attackScore": 2.7623672379917785,
-        "defenseScore": 0.15916263258762936,
-        "reliability": 0.6426332288401254,
-        "formScore": 0,
-        "warsInRoster": 21,
-        "attacksUsed": 35,
-        "attacksAvailable": 42,
-        "avgDestruction": 91.88571428571429,
-        "totalAttacks": 35,
-        "totalStars": 83,
-        "count3Stars": 18,
-        "avgStars": 2.3714285714285714,
-        "threeStarRate": 0.5142857142857142,
-        "totalMissed": 4,
-        "avgPositionDiff": -5.0285714285714285,
-        "hasAnyDefense": true,
-        "hadTh17": true,
         "weights": {
           "attack": 0.42,
           "defense": 0.25,
@@ -1517,7 +1517,7 @@
   "statsByTag": {
     "#2GP2JUU2": {
       "tier": "S",
-      "score": 2.5295360386324885,
+      "score": 2.5359879592228256,
       "avgStars": 2.8863636363636362,
       "totalStars": 254,
       "totalAttacks": 88,
@@ -1525,7 +1525,7 @@
       "totalMissed": 0,
       "rank": 1,
       "prevRank": 1,
-      "normalizedScore": 72.27
+      "normalizedScore": 72.46
     },
     "#G9Y2L9QJJ": {
       "tier": "S",
@@ -1667,8 +1667,8 @@
       "totalAttacks": 8,
       "warsInRoster": 4,
       "totalMissed": 0,
-      "rank": 23,
-      "prevRank": 24,
+      "rank": 24,
+      "prevRank": 23,
       "normalizedScore": 48.14
     },
     "#QGQJGURCL": {
@@ -1719,15 +1719,15 @@
     },
     "#YRCLVY099": {
       "tier": "B",
-      "score": 1.6434018260031409,
-      "avgStars": 2.3714285714285714,
-      "totalStars": 83,
-      "totalAttacks": 35,
+      "score": 1.8351306229246793,
+      "avgStars": 2.3513513513513513,
+      "totalStars": 87,
+      "totalAttacks": 37,
       "warsInRoster": 21,
       "totalMissed": 4,
-      "rank": 24,
-      "prevRank": 25,
-      "normalizedScore": 46.95
+      "rank": 22,
+      "prevRank": 24,
+      "normalizedScore": 52.43
     },
     "#QQC8P9C9R": {
       "tier": "B",
@@ -1786,7 +1786,7 @@
       "warsInRoster": 11,
       "totalMissed": 1,
       "rank": 25,
-      "prevRank": 23,
+      "prevRank": 25,
       "normalizedScore": 46.87
     },
     "#QJLQLUURY": {
@@ -1839,15 +1839,15 @@
     },
     "#VPPQ8VLV": {
       "tier": "B",
-      "score": 1.8039127755669762,
+      "score": 1.7449668364014863,
       "avgStars": 2.392156862745098,
       "totalStars": 122,
       "totalAttacks": 51,
       "warsInRoster": 28,
       "totalMissed": 3,
-      "rank": 22,
+      "rank": 23,
       "prevRank": 22,
-      "normalizedScore": 51.54
+      "normalizedScore": 49.86
     },
     "#GL2V9GYVC": {
       "tier": "C",
