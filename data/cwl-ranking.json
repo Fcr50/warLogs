@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-12T01:30:31.612Z",
+  "generatedAt": "2026-11-12T01:45:21.631Z",
   "totalWars": 29,
   "liveWar": {
     "opponentName": "#Amagyarclan",
-    "totalAttacksDone": 29,
+    "totalAttacksDone": 30,
     "totalAttacksExpected": 60
   },
   "ranking": [
@@ -1233,6 +1233,42 @@
     },
     {
       "player": {
+        "tag": "#2QLC0JUP0",
+        "name": "MarlonM",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 1.037625,
+        "rawScore": 2.07525,
+        "confidence": 0.5,
+        "tier": "B",
+        "attackScore": 3.5,
+        "defenseScore": 1.021,
+        "reliability": 0,
+        "formScore": 3.5,
+        "warsInRoster": 1,
+        "attacksUsed": 1,
+        "attacksAvailable": 2,
+        "avgDestruction": 100,
+        "totalAttacks": 1,
+        "totalStars": 3,
+        "count3Stars": 1,
+        "avgStars": 3,
+        "threeStarRate": 1,
+        "totalMissed": 0,
+        "avgPositionDiff": 0,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#GL2V9GYVC",
         "name": "biel",
         "townhallLevel": 18
@@ -1257,42 +1293,6 @@
         "threeStarRate": 0,
         "totalMissed": 0,
         "avgPositionDiff": 0.25,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#2QLC0JUP0",
-        "name": "MarlonM",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 0.127625,
-        "rawScore": 0.25525,
-        "confidence": 0.5,
-        "tier": "F",
-        "attackScore": 0,
-        "defenseScore": 1.021,
-        "reliability": 0,
-        "formScore": 0,
-        "warsInRoster": 1,
-        "attacksUsed": 0,
-        "attacksAvailable": 2,
-        "avgDestruction": 0,
-        "totalAttacks": 0,
-        "totalStars": 0,
-        "count3Stars": 0,
-        "avgStars": 0,
-        "threeStarRate": 0,
-        "totalMissed": 0,
-        "avgPositionDiff": 0,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1487,13 +1487,6 @@
   "noDataList": [
     {
       "player": {
-        "tag": "#2QLC0JUP0",
-        "name": "MarlonM",
-        "townhallLevel": 18
-      }
-    },
-    {
-      "player": {
         "tag": "#8PJUQCUV0",
         "name": "jean",
         "townhallLevel": 18
@@ -1574,7 +1567,7 @@
       "warsInRoster": 40,
       "totalMissed": 0,
       "rank": 17,
-      "prevRank": 16,
+      "prevRank": 17,
       "normalizedScore": 61.47
     },
     "#PLU2VCLG": {
@@ -1586,18 +1579,19 @@
       "warsInRoster": 42,
       "totalMissed": 1,
       "rank": 9,
-      "prevRank": 8,
+      "prevRank": 9,
       "normalizedScore": 66.45
     },
     "#2QLC0JUP0": {
-      "tier": "F",
-      "score": 0.127625,
-      "avgStars": 0,
-      "totalStars": 0,
-      "totalAttacks": 0,
+      "tier": "C",
+      "score": 1.037625,
+      "avgStars": 3,
+      "totalStars": 3,
+      "totalAttacks": 1,
       "warsInRoster": 1,
       "totalMissed": 0,
-      "normalizedScore": 0
+      "rank": 35,
+      "normalizedScore": 29.65
     },
     "#LRLC8GVJC": {
       "tier": "C",
@@ -1644,7 +1638,7 @@
       "warsInRoster": 10,
       "totalMissed": 0,
       "rank": 13,
-      "prevRank": 12,
+      "prevRank": 13,
       "normalizedScore": 64.08
     },
     "#L8RG2PV0G": {
@@ -1656,7 +1650,7 @@
       "warsInRoster": 27,
       "totalMissed": 6,
       "rank": 14,
-      "prevRank": 13,
+      "prevRank": 14,
       "normalizedScore": 62.46
     },
     "#YPVQVU982": {
@@ -1668,7 +1662,7 @@
       "warsInRoster": 30,
       "totalMissed": 9,
       "rank": 11,
-      "prevRank": 10,
+      "prevRank": 11,
       "normalizedScore": 65.47
     },
     "#8YJYY92GC": {
@@ -1726,7 +1720,7 @@
       "warsInRoster": 39,
       "totalMissed": 1,
       "rank": 10,
-      "prevRank": 9,
+      "prevRank": 10,
       "normalizedScore": 66.25
     },
     "#QQC8P9C9R": {
@@ -1738,7 +1732,7 @@
       "warsInRoster": 45,
       "totalMissed": 0,
       "rank": 12,
-      "prevRank": 11,
+      "prevRank": 12,
       "normalizedScore": 64.11
     },
     "#29JQ2PCVL": {
@@ -1762,7 +1756,7 @@
       "warsInRoster": 7,
       "totalMissed": 0,
       "rank": 8,
-      "prevRank": 19,
+      "prevRank": 8,
       "normalizedScore": 66.8
     },
     "#RC82GPG": {
@@ -1810,7 +1804,7 @@
       "warsInRoster": 44,
       "totalMissed": 0,
       "rank": 19,
-      "prevRank": 18,
+      "prevRank": 19,
       "normalizedScore": 57.25
     },
     "#29LP0VJV0": {
@@ -1857,7 +1851,7 @@
       "totalAttacks": 4,
       "warsInRoster": 3,
       "totalMissed": 0,
-      "rank": 35,
+      "rank": 36,
       "prevRank": 35,
       "normalizedScore": 22.7
     },
@@ -1894,7 +1888,7 @@
       "warsInRoster": 43,
       "totalMissed": 0,
       "rank": 18,
-      "prevRank": 17,
+      "prevRank": 18,
       "normalizedScore": 59.37
     },
     "#P9C0LVLU2": {
@@ -1938,7 +1932,7 @@
       "warsInRoster": 11,
       "totalMissed": 2,
       "rank": 15,
-      "prevRank": 14,
+      "prevRank": 15,
       "normalizedScore": 62.19
     },
     "#QRJG880R0": {
@@ -1962,7 +1956,7 @@
       "warsInRoster": 33,
       "totalMissed": 0,
       "rank": 16,
-      "prevRank": 15,
+      "prevRank": 16,
       "normalizedScore": 61.88
     },
     "#LQQRGJ8VU": {
@@ -2017,7 +2011,7 @@
       "totalAttacks": 4,
       "warsInRoster": 3,
       "totalMissed": 2,
-      "rank": 36,
+      "rank": 37,
       "prevRank": 36,
       "normalizedScore": 14.44
     },
@@ -2039,7 +2033,7 @@
       "totalAttacks": 1,
       "warsInRoster": 2,
       "totalMissed": 1,
-      "rank": 37,
+      "rank": 38,
       "prevRank": 37,
       "normalizedScore": 2.23
     },
