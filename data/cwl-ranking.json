@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-12T11:00:36.181Z",
+  "generatedAt": "2026-11-12T11:15:32.409Z",
   "totalWars": 29,
   "liveWar": {
     "opponentName": "#Amagyarclan",
-    "totalAttacksDone": 41,
+    "totalAttacksDone": 43,
     "totalAttacksExpected": 60
   },
   "ranking": [
@@ -1305,6 +1305,42 @@
     },
     {
       "player": {
+        "tag": "#2QP9JGYVG",
+        "name": "RickGrimes",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 0.4132594925140556,
+        "rawScore": 0.4861876382518301,
+        "confidence": 0.85,
+        "tier": "C",
+        "attackScore": 0.8741741797457367,
+        "defenseScore": 0,
+        "reliability": 0.027586206896551724,
+        "formScore": 1,
+        "warsInRoster": 4,
+        "attacksUsed": 2,
+        "attacksAvailable": 8,
+        "avgDestruction": 15.5,
+        "totalAttacks": 2,
+        "totalStars": 2,
+        "count3Stars": 0,
+        "avgStars": 1,
+        "threeStarRate": 0,
+        "totalMissed": 4,
+        "avgPositionDiff": -25,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#8PJUQCUV0",
         "name": "jean",
         "townhallLevel": 18
@@ -1444,42 +1480,6 @@
           "defense": 0,
           "reliability": 0.3067,
           "form": 0.1333
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#2QP9JGYVG",
-        "name": "RickGrimes",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": -0.5193206896551724,
-        "rawScore": -0.6109655172413794,
-        "confidence": 0.85,
-        "tier": "F",
-        "attackScore": -1.5000000000000002,
-        "defenseScore": 0,
-        "reliability": 0.027586206896551724,
-        "formScore": 0,
-        "warsInRoster": 4,
-        "attacksUsed": 0,
-        "attacksAvailable": 8,
-        "avgDestruction": 0,
-        "totalAttacks": 0,
-        "totalStars": 0,
-        "count3Stars": 0,
-        "avgStars": 0,
-        "threeStarRate": 0,
-        "totalMissed": 4,
-        "avgPositionDiff": 0,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
         }
       }
     }
@@ -1510,13 +1510,6 @@
       "player": {
         "tag": "#8CP8L22PY",
         "name": "arthur",
-        "townhallLevel": 18
-      }
-    },
-    {
-      "player": {
-        "tag": "#2QP9JGYVG",
-        "name": "RickGrimes",
         "townhallLevel": 18
       }
     }
@@ -1995,14 +1988,15 @@
       "normalizedScore": 55.24
     },
     "#2QP9JGYVG": {
-      "tier": "F",
-      "score": -0.5193206896551724,
-      "avgStars": 0,
-      "totalStars": 0,
-      "totalAttacks": 0,
+      "tier": "C",
+      "score": 0.4132594925140556,
+      "avgStars": 1,
+      "totalStars": 2,
+      "totalAttacks": 2,
       "warsInRoster": 4,
       "totalMissed": 4,
-      "normalizedScore": 0
+      "rank": 38,
+      "normalizedScore": 11.81
     },
     "#LR2U2PRP2": {
       "tier": "C",
@@ -2034,7 +2028,7 @@
       "totalAttacks": 1,
       "warsInRoster": 2,
       "totalMissed": 1,
-      "rank": 38,
+      "rank": 39,
       "prevRank": 38,
       "normalizedScore": 2.23
     },
