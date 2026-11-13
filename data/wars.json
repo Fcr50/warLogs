@@ -10,8 +10,8 @@
       "opponent": {
         "name": "IMMORTAL SOULS",
         "tag": "#2GQL8P2Q0",
-        "stars": 8,
-        "destructionPercentage": 9.9,
+        "stars": 17,
+        "destructionPercentage": 19.9,
         "members": [
           {
             "tag": "#PU2VUGJL",
@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 6,
-        "destructionPercentage": 6.6666665
+        "stars": 18,
+        "destructionPercentage": 22.8
       },
       "sixHourNonAttackers": [
         {
@@ -148,11 +148,6 @@
         {
           "tag": "#QQC8P9C9R",
           "name": "Gs.prieto",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#LRLC8GVJC",
-          "name": "Gus",
           "townhallLevel": 18
         },
         {
@@ -186,28 +181,13 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#2GP2JUU2",
-          "name": "Gustavo Lázaro",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#LQQRGJ8VU",
           "name": "i-Vinni",
           "townhallLevel": 18
         },
         {
-          "tag": "#G9Y2L9QJJ",
-          "name": "Micael",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#GLV8G0LJ",
           "name": "Luiz",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QGQJGURCL",
-          "name": "SAFONOV",
           "townhallLevel": 18
         },
         {
@@ -305,7 +285,20 @@
           "name": "Gus",
           "townhallLevel": 18,
           "mapPosition": 9,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 99,
+              "order": 7,
+              "defenderTag": "#QJQ90Y02"
+            },
+            {
+              "stars": 1,
+              "destructionPercentage": 85,
+              "order": 10,
+              "defenderTag": "#PGPLL9PG0"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -333,7 +326,14 @@
           "townhallLevel": 18,
           "mapPosition": 10,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#20CYR8V0",
+              "attackerMapPosition": 4
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -384,7 +384,14 @@
           "name": "Gustavo Lázaro",
           "townhallLevel": 18,
           "mapPosition": 1,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 6,
+              "defenderTag": "#PU2VUGJL"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -402,7 +409,14 @@
           "name": "Micael",
           "townhallLevel": 18,
           "mapPosition": 19,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 9,
+              "defenderTag": "#JGPPR29G"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -420,8 +434,22 @@
           "name": "SAFONOV",
           "townhallLevel": 18,
           "mapPosition": 2,
-          "attacks": [],
-          "defensesReceived": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 8,
+              "defenderTag": "#9Y0YYVQC"
+            }
+          ],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#2JVQ9Q9PR",
+              "attackerMapPosition": 15
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -523,7 +551,14 @@
           "townhallLevel": 18,
           "mapPosition": 4,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#JGPPR29G",
+              "attackerMapPosition": 19
+            }
+          ],
           "missedAttacks": 0
         },
         {
