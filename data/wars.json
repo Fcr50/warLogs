@@ -136,15 +136,10 @@
         ]
       },
       "clan": {
-        "stars": 26,
-        "destructionPercentage": 29.966667
+        "stars": 35,
+        "destructionPercentage": 39.966667
       },
       "sixHourNonAttackers": [
-        {
-          "tag": "#Y220QQ08",
-          "name": "Léo",
-          "townhallLevel": 18
-        },
         {
           "tag": "#QQC8P9C9R",
           "name": "Gs.prieto",
@@ -191,11 +186,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#URR0QLV",
-          "name": "Victor Daniel",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#GRLPU9R9",
           "name": "Eder",
           "townhallLevel": 18
@@ -216,11 +206,6 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#2QLC0JUP0",
-          "name": "MarlonM",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#GGVCRYP8P",
           "name": "gui",
           "townhallLevel": 18
@@ -228,11 +213,6 @@
         {
           "tag": "#YPVQVU982",
           "name": "亗 ＨＡＤＥＳ_０７ 亗",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#GQU9Y0CQ8",
-          "name": "Scok♤",
           "townhallLevel": 18
         },
         {
@@ -257,7 +237,14 @@
           "name": "Léo",
           "townhallLevel": 18,
           "mapPosition": 20,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 95,
+              "order": 20,
+              "defenderTag": "#208C9VRVC"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -499,7 +486,14 @@
           "name": "Victor Daniel",
           "townhallLevel": 18,
           "mapPosition": 27,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 21,
+              "defenderTag": "#80RURG0PL"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -573,7 +567,14 @@
           "name": "MarlonM",
           "townhallLevel": 18,
           "mapPosition": 4,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 19,
+              "defenderTag": "#20CYR8V0"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -607,7 +608,14 @@
           "name": "Scok♤",
           "townhallLevel": 18,
           "mapPosition": 30,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 22,
+              "defenderTag": "#208C9VRVC"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
