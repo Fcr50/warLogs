@@ -522,6 +522,12 @@
             },
             {
               "stars": 1,
+              "destructionPercentage": 35,
+              "attackerTag": "#909QQCG00",
+              "attackerMapPosition": 14
+            },
+            {
+              "stars": 1,
               "destructionPercentage": 8,
               "attackerTag": "#LCCURP2QL",
               "attackerMapPosition": 30
@@ -773,7 +779,20 @@
           "name": "Eder",
           "townhallLevel": 18,
           "mapPosition": 18,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 1,
+              "destructionPercentage": 90,
+              "order": 100,
+              "defenderTag": "#PU2VUGJL"
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 87,
+              "order": 101,
+              "defenderTag": "#9Y0YYVQC"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
