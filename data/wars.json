@@ -297,7 +297,20 @@
           "name": "FullOn",
           "townhallLevel": 18,
           "mapPosition": 21,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 53,
+              "order": 98,
+              "defenderTag": "#GL90CVLG"
+            },
+            {
+              "stars": 1,
+              "destructionPercentage": 43,
+              "order": 99,
+              "defenderTag": "#9Y0YYVQC"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
