@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-14T01:15:28.856Z",
+  "generatedAt": "2026-11-14T01:30:28.333Z",
   "totalWars": 29,
   "liveWar": {
     "opponentName": "IMMORTAL SOULS",
-    "totalAttacksDone": 24,
+    "totalAttacksDone": 26,
     "totalAttacksExpected": 60
   },
   "ranking": [
@@ -239,16 +239,16 @@
         "reliability": 1,
         "formScore": 3.175,
         "warsInRoster": 44,
-        "attacksUsed": 86,
+        "attacksUsed": 87,
         "attacksAvailable": 88,
-        "avgDestruction": 89.12790697674419,
-        "totalAttacks": 86,
-        "totalStars": 223,
-        "count3Stars": 64,
-        "avgStars": 2.5930232558139537,
-        "threeStarRate": 0.7441860465116279,
+        "avgDestruction": 89.25287356321839,
+        "totalAttacks": 87,
+        "totalStars": 226,
+        "count3Stars": 65,
+        "avgStars": 2.5977011494252875,
+        "threeStarRate": 0.7471264367816092,
         "totalMissed": 0,
-        "avgPositionDiff": -1.2906976744186047,
+        "avgPositionDiff": -1.264367816091954,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -657,42 +657,6 @@
     },
     {
       "player": {
-        "tag": "#YPVQVU982",
-        "name": "亗 ＨＡＤＥＳ_０７ 亗",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.111052119619244,
-        "rawScore": 2.111052119619244,
-        "confidence": 1,
-        "tier": "A",
-        "attackScore": 2.8678018671761976,
-        "defenseScore": 0.3450599623106196,
-        "reliability": 0.6816091954022988,
-        "formScore": 3.5,
-        "warsInRoster": 31,
-        "attacksUsed": 44,
-        "attacksAvailable": 61,
-        "avgDestruction": 97.97727272727273,
-        "totalAttacks": 44,
-        "totalStars": 125,
-        "count3Stars": 37,
-        "avgStars": 2.840909090909091,
-        "threeStarRate": 0.8409090909090909,
-        "totalMissed": 10,
-        "avgPositionDiff": 1.0227272727272727,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
         "tag": "#LQQRGJ8VU",
         "name": "i-Vinni",
         "townhallLevel": 18
@@ -717,6 +681,42 @@
         "threeStarRate": 0.5517241379310345,
         "totalMissed": 0,
         "avgPositionDiff": -5.850574712643678,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
+        "tag": "#YPVQVU982",
+        "name": "亗 ＨＡＤＥＳ_０７ 亗",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.0176084455667507,
+        "rawScore": 2.0176084455667507,
+        "confidence": 1,
+        "tier": "A",
+        "attackScore": 2.7810312146702607,
+        "defenseScore": 0.3450599623106196,
+        "reliability": 0.6816091954022988,
+        "formScore": 2.9299999999999997,
+        "warsInRoster": 31,
+        "attacksUsed": 45,
+        "attacksAvailable": 61,
+        "avgDestruction": 97.71111111111111,
+        "totalAttacks": 45,
+        "totalStars": 127,
+        "count3Stars": 37,
+        "avgStars": 2.8222222222222224,
+        "threeStarRate": 0.8222222222222222,
+        "totalMissed": 10,
+        "avgPositionDiff": 1,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1444,9 +1444,9 @@
     "#QJVQVRPU": {
       "tier": "A",
       "score": 2.378997114327358,
-      "avgStars": 2.5930232558139537,
-      "totalStars": 223,
-      "totalAttacks": 86,
+      "avgStars": 2.5977011494252875,
+      "totalStars": 226,
+      "totalAttacks": 87,
       "warsInRoster": 44,
       "totalMissed": 0,
       "rank": 7,
@@ -1525,6 +1525,18 @@
       "prevRank": 3,
       "normalizedScore": 69.46
     },
+    "#GJ2LQVQJ": {
+      "tier": "A",
+      "score": 2.4135447251470508,
+      "avgStars": 2.7011494252873565,
+      "totalStars": 235,
+      "totalAttacks": 87,
+      "warsInRoster": 44,
+      "totalMissed": 0,
+      "rank": 5,
+      "prevRank": 5,
+      "normalizedScore": 68.96
+    },
     "#8YJYY92GC": {
       "tier": "S",
       "score": 2.4880627970698743,
@@ -1549,18 +1561,6 @@
       "prevRank": 9,
       "normalizedScore": 67.89
     },
-    "#GJ2LQVQJ": {
-      "tier": "A",
-      "score": 2.4135447251470508,
-      "avgStars": 2.7011494252873565,
-      "totalStars": 235,
-      "totalAttacks": 87,
-      "warsInRoster": 44,
-      "totalMissed": 0,
-      "rank": 5,
-      "prevRank": 5,
-      "normalizedScore": 68.96
-    },
     "#GLV8G0LJ": {
       "tier": "B",
       "score": 1.6394067186430752,
@@ -1575,15 +1575,15 @@
     },
     "#YPVQVU982": {
       "tier": "B",
-      "score": 2.111052119619244,
-      "avgStars": 2.840909090909091,
-      "totalStars": 125,
-      "totalAttacks": 44,
+      "score": 2.0176084455667507,
+      "avgStars": 2.8222222222222224,
+      "totalStars": 127,
+      "totalAttacks": 45,
       "warsInRoster": 31,
       "totalMissed": 10,
-      "rank": 19,
+      "rank": 20,
       "prevRank": 19,
-      "normalizedScore": 60.32
+      "normalizedScore": 57.65
     },
     "#20CY00CU9": {
       "tier": "B",
@@ -1652,7 +1652,7 @@
       "warsInRoster": 11,
       "totalMissed": 3,
       "rank": 21,
-      "prevRank": 20,
+      "prevRank": 21,
       "normalizedScore": 54.77
     },
     "#VQYCURG0": {
@@ -1817,8 +1817,8 @@
       "totalAttacks": 87,
       "warsInRoster": 45,
       "totalMissed": 0,
-      "rank": 20,
-      "prevRank": 21,
+      "rank": 19,
+      "prevRank": 20,
       "normalizedScore": 57.91
     },
     "#GQU9Y0CQ8": {
