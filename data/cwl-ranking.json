@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T11:45:27.726Z",
+  "generatedAt": "2026-11-14T12:00:26.302Z",
   "totalWars": 29,
   "liveWar": {
     "opponentName": "IMMORTAL SOULS",
@@ -14,12 +14,12 @@
         "townhallLevel": 18
       },
       "data": {
-        "score": 2.5385402219585407,
-        "rawScore": 2.5385402219585407,
+        "score": 2.5511670738243644,
+        "rawScore": 2.5511670738243644,
         "confidence": 1,
         "tier": "S",
         "attackScore": 3.4249363943922555,
-        "defenseScore": 0.24026774525517205,
+        "defenseScore": 0.2907751527184669,
         "reliability": 1,
         "formScore": 3.5,
         "warsInRoster": 44,
@@ -369,6 +369,42 @@
     },
     {
       "player": {
+        "tag": "#QGQJGURCL",
+        "name": "SAFONOV",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.3508247176743087,
+        "rawScore": 2.3508247176743087,
+        "confidence": 1,
+        "tier": "A",
+        "attackScore": 3.081096689035883,
+        "defenseScore": 0.25245229518591644,
+        "reliability": 0.9328275862068965,
+        "formScore": 3.5,
+        "warsInRoster": 39,
+        "attacksUsed": 76,
+        "attacksAvailable": 78,
+        "avgDestruction": 97.40789473684211,
+        "totalAttacks": 76,
+        "totalStars": 208,
+        "count3Stars": 59,
+        "avgStars": 2.736842105263158,
+        "threeStarRate": 0.7763157894736842,
+        "totalMissed": 1,
+        "avgPositionDiff": 2.75,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#QJVQVRPU",
         "name": "Frnnn",
         "townhallLevel": 18
@@ -393,42 +429,6 @@
         "threeStarRate": 0.7471264367816092,
         "totalMissed": 0,
         "avgPositionDiff": -1.264367816091954,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#QGQJGURCL",
-        "name": "SAFONOV",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.3379423109498108,
-        "rawScore": 2.3379423109498108,
-        "confidence": 1,
-        "tier": "A",
-        "attackScore": 3.081096689035883,
-        "defenseScore": 0.20092266828792532,
-        "reliability": 0.9328275862068965,
-        "formScore": 3.5,
-        "warsInRoster": 39,
-        "attacksUsed": 76,
-        "attacksAvailable": 78,
-        "avgDestruction": 97.40789473684211,
-        "totalAttacks": 76,
-        "totalStars": 208,
-        "count3Stars": 59,
-        "avgStars": 2.736842105263158,
-        "threeStarRate": 0.7763157894736842,
-        "totalMissed": 1,
-        "avgPositionDiff": 2.75,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1395,7 +1395,7 @@
   "statsByTag": {
     "#2GP2JUU2": {
       "tier": "S",
-      "score": 2.5385402219585407,
+      "score": 2.5511670738243644,
       "avgStars": 2.896551724137931,
       "totalStars": 252,
       "totalAttacks": 87,
@@ -1403,7 +1403,7 @@
       "totalMissed": 0,
       "rank": 1,
       "prevRank": 1,
-      "normalizedScore": 72.53
+      "normalizedScore": 72.89
     },
     "#G9Y2L9QJJ": {
       "tier": "A",
@@ -1449,7 +1449,7 @@
       "totalAttacks": 87,
       "warsInRoster": 44,
       "totalMissed": 0,
-      "rank": 11,
+      "rank": 12,
       "prevRank": 11,
       "normalizedScore": 66.98
     },
@@ -1527,15 +1527,15 @@
     },
     "#QGQJGURCL": {
       "tier": "A",
-      "score": 2.3379423109498108,
+      "score": 2.3508247176743087,
       "avgStars": 2.736842105263158,
       "totalStars": 208,
       "totalAttacks": 76,
       "warsInRoster": 39,
       "totalMissed": 1,
-      "rank": 12,
+      "rank": 11,
       "prevRank": 12,
-      "normalizedScore": 66.8
+      "normalizedScore": 67.17
     },
     "#8YJYY92GC": {
       "tier": "S",
