@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-14T03:15:29.045Z",
+  "generatedAt": "2026-11-14T03:30:53.822Z",
   "totalWars": 29,
   "liveWar": {
     "opponentName": "IMMORTAL SOULS",
-    "totalAttacksDone": 28,
+    "totalAttacksDone": 30,
     "totalAttacksExpected": 60
   },
   "ranking": [
@@ -131,16 +131,16 @@
         "reliability": 0.9586206896551724,
         "formScore": 3.5,
         "warsInRoster": 42,
-        "attacksUsed": 83,
+        "attacksUsed": 84,
         "attacksAvailable": 83,
-        "avgDestruction": 96.50602409638554,
-        "totalAttacks": 83,
-        "totalStars": 223,
-        "count3Stars": 66,
-        "avgStars": 2.6867469879518073,
-        "threeStarRate": 0.7951807228915663,
+        "avgDestruction": 96.54761904761905,
+        "totalAttacks": 84,
+        "totalStars": 226,
+        "count3Stars": 67,
+        "avgStars": 2.6904761904761907,
+        "threeStarRate": 0.7976190476190477,
         "totalMissed": 0,
-        "avgPositionDiff": -1.9518072289156627,
+        "avgPositionDiff": -1.869047619047619,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -441,6 +441,42 @@
     },
     {
       "player": {
+        "tag": "#LVPLJVLVG",
+        "name": "zoldyck",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.247475388579059,
+        "rawScore": 2.247475388579059,
+        "confidence": 1,
+        "tier": "B",
+        "attackScore": 3.2311037169118797,
+        "defenseScore": 0.4163024823180706,
+        "reliability": 0.6689655172413793,
+        "formScore": 3.2475,
+        "warsInRoster": 11,
+        "attacksUsed": 22,
+        "attacksAvailable": 21,
+        "avgDestruction": 94.95454545454545,
+        "totalAttacks": 22,
+        "totalStars": 57,
+        "count3Stars": 16,
+        "avgStars": 2.590909090909091,
+        "threeStarRate": 0.7272727272727273,
+        "totalMissed": 0,
+        "avgPositionDiff": -6.863636363636363,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#2QL0VR9GU",
         "name": "Marcola",
         "townhallLevel": 18
@@ -465,42 +501,6 @@
         "threeStarRate": 0.6582278481012658,
         "totalMissed": 0,
         "avgPositionDiff": -2.8734177215189876,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#LVPLJVLVG",
-        "name": "zoldyck",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.1784442899229477,
-        "rawScore": 2.1784442899229477,
-        "confidence": 1,
-        "tier": "B",
-        "attackScore": 3.1268630058259004,
-        "defenseScore": 0.4163024823180706,
-        "reliability": 0.6689655172413793,
-        "formScore": 2.995,
-        "warsInRoster": 11,
-        "attacksUsed": 21,
-        "attacksAvailable": 21,
-        "avgDestruction": 94.71428571428571,
-        "totalAttacks": 21,
-        "totalStars": 54,
-        "count3Stars": 15,
-        "avgStars": 2.5714285714285716,
-        "threeStarRate": 0.7142857142857143,
-        "totalMissed": 0,
-        "avgPositionDiff": -6.857142857142857,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1461,7 +1461,7 @@
       "totalAttacks": 79,
       "warsInRoster": 41,
       "totalMissed": 0,
-      "rank": 13,
+      "rank": 14,
       "prevRank": 13,
       "normalizedScore": 62.93
     },
@@ -1611,15 +1611,15 @@
     },
     "#LVPLJVLVG": {
       "tier": "A",
-      "score": 2.1784442899229477,
-      "avgStars": 2.5714285714285716,
-      "totalStars": 54,
-      "totalAttacks": 21,
+      "score": 2.247475388579059,
+      "avgStars": 2.590909090909091,
+      "totalStars": 57,
+      "totalAttacks": 22,
       "warsInRoster": 11,
       "totalMissed": 0,
-      "rank": 14,
+      "rank": 13,
       "prevRank": 14,
-      "normalizedScore": 62.24
+      "normalizedScore": 64.21
     },
     "#8PJUQCUV0": {
       "tier": "F",
@@ -1694,9 +1694,9 @@
     "#29LP0VJV0": {
       "tier": "S",
       "score": 2.4177461164476433,
-      "avgStars": 2.6867469879518073,
-      "totalStars": 223,
-      "totalAttacks": 83,
+      "avgStars": 2.6904761904761907,
+      "totalStars": 226,
+      "totalAttacks": 84,
       "warsInRoster": 42,
       "totalMissed": 0,
       "rank": 4,
