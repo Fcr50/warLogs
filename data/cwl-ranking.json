@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T16:30:25.281Z",
+  "generatedAt": "2026-11-14T16:45:25.007Z",
   "totalWars": 29,
   "liveWar": {
     "opponentName": "IMMORTAL SOULS",
@@ -14,12 +14,12 @@
         "townhallLevel": 18
       },
       "data": {
-        "score": 2.5421478939202045,
-        "rawScore": 2.5421478939202045,
+        "score": 2.5416969349249965,
+        "rawScore": 2.5416969349249965,
         "confidence": 1,
         "tier": "S",
         "attackScore": 3.4249363943922555,
-        "defenseScore": 0.2546984331018277,
+        "defenseScore": 0.25289459712099577,
         "reliability": 1,
         "formScore": 3.5,
         "warsInRoster": 44,
@@ -657,6 +657,42 @@
     },
     {
       "player": {
+        "tag": "#GLV8G0LJ",
+        "name": "Luiz",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 1.9688163105164223,
+        "rawScore": 2.3162544829604967,
+        "confidence": 0.85,
+        "tier": "A",
+        "attackScore": 3.435013457412973,
+        "defenseScore": 0.4001263578709515,
+        "reliability": 0.6137931034482759,
+        "formScore": 3.5,
+        "warsInRoster": 5,
+        "attacksUsed": 9,
+        "attacksAvailable": 10,
+        "avgDestruction": 100,
+        "totalAttacks": 9,
+        "totalStars": 27,
+        "count3Stars": 9,
+        "avgStars": 3,
+        "threeStarRate": 1,
+        "totalMissed": 0,
+        "avgPositionDiff": 6.666666666666667,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#LQQRGJ8VU",
         "name": "i-Vinni",
         "townhallLevel": 18
@@ -681,42 +717,6 @@
         "threeStarRate": 0.5454545454545454,
         "totalMissed": 0,
         "avgPositionDiff": -5.681818181818182,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#GLV8G0LJ",
-        "name": "Luiz",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 1.940474741485257,
-        "rawScore": 2.2829114605708907,
-        "confidence": 0.85,
-        "tier": "A",
-        "attackScore": 3.435013457412973,
-        "defenseScore": 0.26675426831252774,
-        "reliability": 0.6137931034482759,
-        "formScore": 3.5,
-        "warsInRoster": 5,
-        "attacksUsed": 9,
-        "attacksAvailable": 10,
-        "avgDestruction": 100,
-        "totalAttacks": 9,
-        "totalStars": 27,
-        "count3Stars": 9,
-        "avgStars": 3,
-        "threeStarRate": 1,
-        "totalMissed": 0,
-        "avgPositionDiff": 6.666666666666667,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1395,7 +1395,7 @@
   "statsByTag": {
     "#2GP2JUU2": {
       "tier": "S",
-      "score": 2.5421478939202045,
+      "score": 2.5416969349249965,
       "avgStars": 2.896551724137931,
       "totalStars": 252,
       "totalAttacks": 87,
@@ -1403,7 +1403,7 @@
       "totalMissed": 0,
       "rank": 1,
       "prevRank": 1,
-      "normalizedScore": 72.63
+      "normalizedScore": 72.62
     },
     "#G9Y2L9QJJ": {
       "tier": "A",
@@ -1551,15 +1551,15 @@
     },
     "#GLV8G0LJ": {
       "tier": "B",
-      "score": 1.940474741485257,
+      "score": 1.9688163105164223,
       "avgStars": 3,
       "totalStars": 27,
       "totalAttacks": 9,
       "warsInRoster": 5,
       "totalMissed": 0,
-      "rank": 20,
+      "rank": 19,
       "prevRank": 20,
-      "normalizedScore": 55.44
+      "normalizedScore": 56.25
     },
     "#URR0QLV": {
       "tier": "A",
@@ -1817,7 +1817,7 @@
       "totalAttacks": 88,
       "warsInRoster": 45,
       "totalMissed": 0,
-      "rank": 19,
+      "rank": 20,
       "prevRank": 19,
       "normalizedScore": 55.94
     },
