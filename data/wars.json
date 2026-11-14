@@ -10,8 +10,8 @@
       "opponent": {
         "name": "IMMORTAL SOULS",
         "tag": "#2GQL8P2Q0",
-        "stars": 81,
-        "destructionPercentage": 90,
+        "stars": 84,
+        "destructionPercentage": 93.333336,
         "members": [
           {
             "tag": "#PU2VUGJL",
@@ -346,7 +346,14 @@
           "townhallLevel": 18,
           "mapPosition": 28,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#PPUGPU0P",
+              "attackerMapPosition": 3
+            }
+          ],
           "missedAttacks": 0
         },
         {
