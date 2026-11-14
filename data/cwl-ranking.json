@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-14T01:00:39.825Z",
+  "generatedAt": "2026-11-14T01:15:28.856Z",
   "totalWars": 29,
   "liveWar": {
     "opponentName": "IMMORTAL SOULS",
-    "totalAttacksDone": 23,
+    "totalAttacksDone": 24,
     "totalAttacksExpected": 60
   },
   "ranking": [
@@ -693,6 +693,42 @@
     },
     {
       "player": {
+        "tag": "#LQQRGJ8VU",
+        "name": "i-Vinni",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.026876611969497,
+        "rawScore": 2.026876611969497,
+        "confidence": 1,
+        "tier": "B",
+        "attackScore": 2.378677858995407,
+        "defenseScore": 0.09832764476570392,
+        "reliability": 1,
+        "formScore": 3.1325,
+        "warsInRoster": 45,
+        "attacksUsed": 87,
+        "attacksAvailable": 89,
+        "avgDestruction": 76.74712643678161,
+        "totalAttacks": 87,
+        "totalStars": 195,
+        "count3Stars": 48,
+        "avgStars": 2.2413793103448274,
+        "threeStarRate": 0.5517241379310345,
+        "totalMissed": 0,
+        "avgPositionDiff": -5.850574712643678,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#JCRQGG9P",
         "name": "Rodrigo-br",
         "townhallLevel": 18
@@ -717,42 +753,6 @@
         "threeStarRate": 1,
         "totalMissed": 3,
         "avgPositionDiff": -4.875,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#LQQRGJ8VU",
-        "name": "i-Vinni",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 1.9069210714211655,
-        "rawScore": 1.9069210714211655,
-        "confidence": 1,
-        "tier": "B",
-        "attackScore": 2.180569429118427,
-        "defenseScore": 0.09832764476570392,
-        "reliability": 1,
-        "formScore": 2.7649999999999997,
-        "warsInRoster": 45,
-        "attacksUsed": 86,
-        "attacksAvailable": 89,
-        "avgDestruction": 76.47674418604652,
-        "totalAttacks": 86,
-        "totalStars": 192,
-        "count3Stars": 47,
-        "avgStars": 2.2325581395348837,
-        "threeStarRate": 0.5465116279069767,
-        "totalMissed": 0,
-        "avgPositionDiff": -5.9186046511627906,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1651,7 +1651,7 @@
       "totalAttacks": 16,
       "warsInRoster": 11,
       "totalMissed": 3,
-      "rank": 20,
+      "rank": 21,
       "prevRank": 20,
       "normalizedScore": 54.77
     },
@@ -1691,18 +1691,6 @@
       "prevRank": 25,
       "normalizedScore": 48.11
     },
-    "#LRVCV2UP": {
-      "tier": "B",
-      "score": 1.5219853339108131,
-      "avgStars": 2.5,
-      "totalStars": 15,
-      "totalAttacks": 6,
-      "warsInRoster": 3,
-      "totalMissed": 0,
-      "rank": 29,
-      "prevRank": 29,
-      "normalizedScore": 43.49
-    },
     "#29LP0VJV0": {
       "tier": "S",
       "score": 2.4177461164476433,
@@ -1714,6 +1702,18 @@
       "rank": 4,
       "prevRank": 4,
       "normalizedScore": 69.08
+    },
+    "#LRVCV2UP": {
+      "tier": "B",
+      "score": 1.5219853339108131,
+      "avgStars": 2.5,
+      "totalStars": 15,
+      "totalAttacks": 6,
+      "warsInRoster": 3,
+      "totalMissed": 0,
+      "rank": 29,
+      "prevRank": 29,
+      "normalizedScore": 43.49
     },
     "#GRLPU9R9": {
       "tier": "C",
@@ -1811,15 +1811,15 @@
     },
     "#LQQRGJ8VU": {
       "tier": "B",
-      "score": 1.9069210714211655,
-      "avgStars": 2.2325581395348837,
-      "totalStars": 192,
-      "totalAttacks": 86,
+      "score": 2.026876611969497,
+      "avgStars": 2.2413793103448274,
+      "totalStars": 195,
+      "totalAttacks": 87,
       "warsInRoster": 45,
       "totalMissed": 0,
-      "rank": 21,
+      "rank": 20,
       "prevRank": 21,
-      "normalizedScore": 54.48
+      "normalizedScore": 57.91
     },
     "#GQU9Y0CQ8": {
       "tier": "B",
