@@ -10,8 +10,8 @@
       "opponent": {
         "name": "i vincitori",
         "tag": "#GRUL92Q",
-        "stars": 3,
-        "destructionPercentage": 3.3333333,
+        "stars": 6,
+        "destructionPercentage": 6.6666665,
         "members": [
           {
             "tag": "#QJLJVGRYQ",
@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 5,
-        "destructionPercentage": 6.5333333
+        "stars": 9,
+        "destructionPercentage": 10
       },
       "sixHourNonAttackers": [
         {
@@ -203,11 +203,6 @@
         {
           "tag": "#GJ2LQVQJ",
           "name": "Fer",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#L8RG2PV0G",
-          "name": "joaoaoaoao",
           "townhallLevel": 18
         },
         {
@@ -302,6 +297,12 @@
               "destructionPercentage": 100,
               "order": 3,
               "defenderTag": "#8P2QL82Y"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 4,
+              "defenderTag": "#RJ8RRJVL"
             }
           ],
           "defensesReceived": [],
@@ -376,7 +377,14 @@
           "townhallLevel": 18,
           "mapPosition": 19,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#L2U802CG",
+              "attackerMapPosition": 27
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -420,7 +428,14 @@
           "name": "joaoaoaoao",
           "townhallLevel": 18,
           "mapPosition": 16,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 5,
+              "defenderTag": "#PP98YJ2C"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
