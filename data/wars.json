@@ -10,8 +10,8 @@
       "opponent": {
         "name": "i vincitori",
         "tag": "#GRUL92Q",
-        "stars": 6,
-        "destructionPercentage": 6.6666665,
+        "stars": 9,
+        "destructionPercentage": 10,
         "members": [
           {
             "tag": "#QJLJVGRYQ",
@@ -136,15 +136,10 @@
         ]
       },
       "clan": {
-        "stars": 20,
-        "destructionPercentage": 23.3
+        "stars": 24,
+        "destructionPercentage": 26.666666
       },
       "sixHourNonAttackers": [
-        {
-          "tag": "#QQC8P9C9R",
-          "name": "Gs.prieto",
-          "townhallLevel": 18
-        },
         {
           "tag": "#2QP9JGYVG",
           "name": "RickGrimes",
@@ -262,7 +257,14 @@
           "name": "Gs.prieto",
           "townhallLevel": 18,
           "mapPosition": 13,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 11,
+              "defenderTag": "#2RQ822VG8"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -342,6 +344,12 @@
               "destructionPercentage": 100,
               "order": 10,
               "defenderTag": "#LGPCCCJC"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 12,
+              "defenderTag": "#2UQ0R2JC2"
             }
           ],
           "defensesReceived": [],
@@ -421,7 +429,14 @@
           "townhallLevel": 18,
           "mapPosition": 3,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#R2GUR029",
+              "attackerMapPosition": 14
+            }
+          ],
           "missedAttacks": 0
         },
         {
