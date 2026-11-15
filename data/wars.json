@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 36,
-        "destructionPercentage": 40
+        "stars": 42,
+        "destructionPercentage": 46.666668
       },
       "sixHourNonAttackers": [
         {
@@ -148,11 +148,6 @@
         {
           "tag": "#YRCLVY099",
           "name": "GLADIADOR - SP",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#8YJYY92GC",
-          "name": "RussiaN",
           "townhallLevel": 18
         },
         {
@@ -218,11 +213,6 @@
         {
           "tag": "#GQU9Y0CQ8",
           "name": "Scok♤",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#VQYCURG0",
-          "name": "Edberg",
           "townhallLevel": 18
         },
         {
@@ -323,7 +313,14 @@
           "name": "RussiaN",
           "townhallLevel": 18,
           "mapPosition": 25,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 29,
+              "defenderTag": "#20LYQLPJJ"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -660,7 +657,14 @@
           "name": "Edberg",
           "townhallLevel": 18,
           "mapPosition": 26,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 28,
+              "defenderTag": "#PRQRU9RL0"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
