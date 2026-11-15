@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 9,
-        "destructionPercentage": 10
+        "stars": 12,
+        "destructionPercentage": 13.333333
       },
       "sixHourNonAttackers": [
         {
@@ -263,11 +263,6 @@
         {
           "tag": "#VQYCURG0",
           "name": "Edberg",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QJVQVRPU",
-          "name": "Frnnn",
           "townhallLevel": 18
         },
         {
@@ -575,7 +570,14 @@
           "name": "Frnnn",
           "townhallLevel": 18,
           "mapPosition": 6,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 7,
+              "defenderTag": "#290VYYU99"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
