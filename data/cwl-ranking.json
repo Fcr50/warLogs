@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T22:00:33.737Z",
+  "generatedAt": "2026-11-15T22:15:28.965Z",
   "totalWars": 28,
   "liveWar": {
     "opponentName": "i vincitori",
@@ -837,6 +837,42 @@
     },
     {
       "player": {
+        "tag": "#YRCLVY099",
+        "name": "GLADIADOR - SP",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 1.6610170231255665,
+        "rawScore": 1.6610170231255665,
+        "confidence": 1,
+        "tier": "C",
+        "attackScore": 2.645054849709727,
+        "defenseScore": 0.3472330878470678,
+        "reliability": 0.6714285714285715,
+        "formScore": 0,
+        "warsInRoster": 23,
+        "attacksUsed": 37,
+        "attacksAvailable": 46,
+        "avgDestruction": 91.83783783783784,
+        "totalAttacks": 37,
+        "totalStars": 87,
+        "count3Stars": 18,
+        "avgStars": 2.3513513513513513,
+        "threeStarRate": 0.4864864864864865,
+        "totalMissed": 4,
+        "avgPositionDiff": -4.648648648648648,
+        "hasAnyDefense": true,
+        "hadTh17": true,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#GRLPU9R9",
         "name": "Eder",
         "townhallLevel": 18
@@ -863,42 +899,6 @@
         "avgPositionDiff": -4.071428571428571,
         "hasAnyDefense": true,
         "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#YRCLVY099",
-        "name": "GLADIADOR - SP",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 1.602770513324491,
-        "rawScore": 1.602770513324491,
-        "confidence": 1,
-        "tier": "C",
-        "attackScore": 2.645054849709727,
-        "defenseScore": 0.11424704864276505,
-        "reliability": 0.6714285714285715,
-        "formScore": 0,
-        "warsInRoster": 23,
-        "attacksUsed": 37,
-        "attacksAvailable": 46,
-        "avgDestruction": 91.83783783783784,
-        "totalAttacks": 37,
-        "totalStars": 87,
-        "count3Stars": 18,
-        "avgStars": 2.3513513513513513,
-        "threeStarRate": 0.4864864864864865,
-        "totalMissed": 4,
-        "avgPositionDiff": -4.648648648648648,
-        "hasAnyDefense": true,
-        "hadTh17": true,
         "weights": {
           "attack": 0.42,
           "defense": 0.25,
@@ -1734,15 +1734,15 @@
     },
     "#YRCLVY099": {
       "tier": "B",
-      "score": 1.602770513324491,
+      "score": 1.6610170231255665,
       "avgStars": 2.3513513513513513,
       "totalStars": 87,
       "totalAttacks": 37,
       "warsInRoster": 23,
       "totalMissed": 4,
-      "rank": 25,
+      "rank": 24,
       "prevRank": 25,
-      "normalizedScore": 45.79
+      "normalizedScore": 47.46
     },
     "#RC82GPG": {
       "tier": "C",
@@ -1800,7 +1800,7 @@
       "totalAttacks": 14,
       "warsInRoster": 8,
       "totalMissed": 0,
-      "rank": 24,
+      "rank": 25,
       "prevRank": 24,
       "normalizedScore": 46.13
     },
