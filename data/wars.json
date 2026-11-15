@@ -136,18 +136,13 @@
         ]
       },
       "clan": {
-        "stars": 12,
-        "destructionPercentage": 13.333333
+        "stars": 17,
+        "destructionPercentage": 19.966667
       },
       "sixHourNonAttackers": [
         {
           "tag": "#QQC8P9C9R",
           "name": "Gs.prieto",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#2QL0VR9GU",
-          "name": "Marcola",
           "townhallLevel": 18
         },
         {
@@ -193,11 +188,6 @@
         {
           "tag": "#JCRQGG9P",
           "name": "Rodrigo-br",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QGQJGURCL",
-          "name": "SAFONOV",
           "townhallLevel": 18
         },
         {
@@ -308,7 +298,14 @@
           "name": "Marcola",
           "townhallLevel": 18,
           "mapPosition": 10,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 99,
+              "order": 9,
+              "defenderTag": "#2UQ0R2JC2"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -405,7 +402,14 @@
           "name": "SAFONOV",
           "townhallLevel": 18,
           "mapPosition": 2,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 8,
+              "defenderTag": "#UGPL0J9"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
