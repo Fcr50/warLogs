@@ -10,8 +10,8 @@
       "opponent": {
         "name": "i vincitori",
         "tag": "#GRUL92Q",
-        "stars": 25,
-        "destructionPercentage": 28.766666,
+        "stars": 30,
+        "destructionPercentage": 34.933334,
         "members": [
           {
             "tag": "#QJLJVGRYQ",
@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 30,
-        "destructionPercentage": 33.333332
+        "stars": 33,
+        "destructionPercentage": 36.666668
       },
       "sixHourNonAttackers": [
         {
@@ -188,11 +188,6 @@
         {
           "tag": "#GRLPU9R9",
           "name": "Eder",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#PLU2VCLG",
-          "name": "Phoenix",
           "townhallLevel": 18
         },
         {
@@ -293,7 +288,14 @@
               "defenderTag": "#2UQ0R2JC2"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 85,
+              "attackerTag": "#R2GUR029",
+              "attackerMapPosition": 14
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -496,7 +498,14 @@
           "name": "Phoenix",
           "townhallLevel": 18,
           "mapPosition": 9,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 22,
+              "defenderTag": "#L889C9U2U"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -620,7 +629,14 @@
           "townhallLevel": 18,
           "mapPosition": 30,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#QJLJVGRYQ",
+              "attackerMapPosition": 28
+            }
+          ],
           "missedAttacks": 0
         },
         {
