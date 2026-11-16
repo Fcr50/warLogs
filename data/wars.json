@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 60,
-        "destructionPercentage": 66.666664
+        "stars": 63,
+        "destructionPercentage": 70
       },
       "sixHourNonAttackers": [
         {
@@ -178,11 +178,6 @@
         {
           "tag": "#GGVCRYP8P",
           "name": "gui",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#P9C0LVLU2",
-          "name": "VINGADOR⚡",
           "townhallLevel": 18
         },
         {
@@ -650,7 +645,14 @@
           "name": "VINGADOR⚡",
           "townhallLevel": 18,
           "mapPosition": 5,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 42,
+              "defenderTag": "#2PQ8CYUYL"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
