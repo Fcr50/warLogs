@@ -10,8 +10,8 @@
       "opponent": {
         "name": "i vincitori",
         "tag": "#GRUL92Q",
-        "stars": 53,
-        "destructionPercentage": 63.033333,
+        "stars": 60,
+        "destructionPercentage": 69.86667,
         "members": [
           {
             "tag": "#QJLJVGRYQ",
@@ -410,7 +410,14 @@
               "defenderTag": "#9L28LQGC8"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#290VYYU99",
+              "attackerMapPosition": 6
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -709,7 +716,14 @@
               "defenderTag": "#QPGCLVUGC"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#9L28LQGC8",
+              "attackerMapPosition": 3
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -791,6 +805,12 @@
               "destructionPercentage": 96,
               "order": 1,
               "defenderTag": "#RJ8RRJVL"
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 91,
+              "order": 65,
+              "defenderTag": "#LPQ99808"
             }
           ],
           "defensesReceived": [
@@ -866,6 +886,12 @@
               "destructionPercentage": 95,
               "attackerTag": "#2RQ822VG8",
               "attackerMapPosition": 13
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#L889C9U2U",
+              "attackerMapPosition": 9
             }
           ],
           "missedAttacks": 0
