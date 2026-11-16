@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T15:15:38.623Z",
+  "generatedAt": "2026-11-16T15:30:27.636Z",
   "totalWars": 27,
   "liveWar": {
     "opponentName": "i vincitori",
@@ -393,42 +393,6 @@
         "threeStarRate": 0.5306122448979592,
         "totalMissed": 3,
         "avgPositionDiff": -1.1224489795918366,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#JCRQGG9P",
-        "name": "Rodrigo-br",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 1.7592351588422264,
-        "rawScore": 1.7592351588422264,
-        "confidence": 1,
-        "tier": "A",
-        "attackScore": 2.6214278847508656,
-        "defenseScore": 0.11357670962237182,
-        "reliability": 0.5751322751322752,
-        "formScore": 2.33,
-        "warsInRoster": 13,
-        "attacksUsed": 17,
-        "attacksAvailable": 26,
-        "avgDestruction": 99,
-        "totalAttacks": 17,
-        "totalStars": 50,
-        "count3Stars": 16,
-        "avgStars": 2.9411764705882355,
-        "threeStarRate": 0.9411764705882353,
-        "totalMissed": 3,
-        "avgPositionDiff": -4.588235294117647,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -872,6 +836,18 @@
       "prevRank": 21,
       "normalizedScore": 56.42
     },
+    "#JCRQGG9P": {
+      "tier": "B",
+      "score": 1.7592351588422264,
+      "avgStars": 2.9411764705882355,
+      "totalStars": 50,
+      "totalAttacks": 17,
+      "warsInRoster": 13,
+      "totalMissed": 3,
+      "rank": 24,
+      "prevRank": 24,
+      "normalizedScore": 50.26
+    },
     "#QGQJGURCL": {
       "tier": "A",
       "score": 2.4141953467840005,
@@ -1107,18 +1083,6 @@
       "rank": 1,
       "prevRank": 1,
       "normalizedScore": 73.3
-    },
-    "#JCRQGG9P": {
-      "tier": "B",
-      "score": 1.7592351588422264,
-      "avgStars": 2.9411764705882355,
-      "totalStars": 50,
-      "totalAttacks": 17,
-      "warsInRoster": 13,
-      "totalMissed": 3,
-      "rank": 24,
-      "prevRank": 24,
-      "normalizedScore": 50.26
     },
     "#URR0QLV": {
       "tier": "A",
