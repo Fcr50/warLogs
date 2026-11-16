@@ -10,8 +10,8 @@
       "opponent": {
         "name": "i vincitori",
         "tag": "#GRUL92Q",
-        "stars": 60,
-        "destructionPercentage": 69.86667,
+        "stars": 63,
+        "destructionPercentage": 73.2,
         "members": [
           {
             "tag": "#QJLJVGRYQ",
@@ -552,7 +552,14 @@
               "defenderTag": "#PP98YJ2C"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#LYPRJCQ9",
+              "attackerMapPosition": 11
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -588,6 +595,12 @@
               "destructionPercentage": 100,
               "order": 49,
               "defenderTag": "#L8GL8UJ0"
+            },
+            {
+              "stars": 1,
+              "destructionPercentage": 75,
+              "order": 68,
+              "defenderTag": "#LPQ99808"
             }
           ],
           "defensesReceived": [
