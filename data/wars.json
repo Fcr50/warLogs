@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 63,
-        "destructionPercentage": 70
+        "stars": 69,
+        "destructionPercentage": 76.666664
       },
       "sixHourNonAttackers": [
         {
@@ -495,7 +495,14 @@
           "name": "Victor Daniel",
           "townhallLevel": 18,
           "mapPosition": 27,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 43,
+              "defenderTag": "#L2U802CG"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -519,6 +526,12 @@
               "destructionPercentage": 100,
               "order": 22,
               "defenderTag": "#L889C9U2U"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 44,
+              "defenderTag": "#R2GUR029"
             }
           ],
           "defensesReceived": [

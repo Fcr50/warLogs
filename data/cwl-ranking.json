@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-16T02:15:32.971Z",
+  "generatedAt": "2026-11-16T02:30:29.453Z",
   "totalWars": 28,
   "liveWar": {
     "opponentName": "i vincitori",
-    "totalAttacksDone": 26,
+    "totalAttacksDone": 28,
     "totalAttacksExpected": 60
   },
   "ranking": [
@@ -203,16 +203,16 @@
         "reliability": 0.9598901098901098,
         "formScore": 3.5,
         "warsInRoster": 42,
-        "attacksUsed": 81,
+        "attacksUsed": 82,
         "attacksAvailable": 83,
-        "avgDestruction": 96.75308641975309,
-        "totalAttacks": 81,
-        "totalStars": 221,
-        "count3Stars": 64,
-        "avgStars": 2.728395061728395,
-        "threeStarRate": 0.7901234567901234,
+        "avgDestruction": 96.79268292682927,
+        "totalAttacks": 82,
+        "totalStars": 224,
+        "count3Stars": 65,
+        "avgStars": 2.731707317073171,
+        "threeStarRate": 0.7926829268292683,
         "totalMissed": 1,
-        "avgPositionDiff": -0.7407407407407407,
+        "avgPositionDiff": -0.6707317073170732,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -261,6 +261,42 @@
     },
     {
       "player": {
+        "tag": "#URR0QLV",
+        "name": "Victor Daniel",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.3873837138109684,
+        "rawScore": 2.3873837138109684,
+        "confidence": 1,
+        "tier": "A",
+        "attackScore": 3.450243447014739,
+        "defenseScore": 0.07554603232633947,
+        "reliability": 0.8252100840336134,
+        "formScore": 3.5,
+        "warsInRoster": 31,
+        "attacksUsed": 60,
+        "attacksAvailable": 62,
+        "avgDestruction": 94.9,
+        "totalAttacks": 60,
+        "totalStars": 169,
+        "count3Stars": 53,
+        "avgStars": 2.816666666666667,
+        "threeStarRate": 0.8833333333333333,
+        "totalMissed": 1,
+        "avgPositionDiff": -2.316666666666667,
+        "hasAnyDefense": true,
+        "hadTh17": true,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#G9Y2L9QJJ",
         "name": "Micael",
         "townhallLevel": 18
@@ -287,42 +323,6 @@
         "avgPositionDiff": -5.3580246913580245,
         "hasAnyDefense": true,
         "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#URR0QLV",
-        "name": "Victor Daniel",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.3818191877504913,
-        "rawScore": 2.3818191877504913,
-        "confidence": 1,
-        "tier": "A",
-        "attackScore": 3.436994575442174,
-        "defenseScore": 0.07554603232633947,
-        "reliability": 0.8252100840336134,
-        "formScore": 3.5,
-        "warsInRoster": 31,
-        "attacksUsed": 59,
-        "attacksAvailable": 62,
-        "avgDestruction": 94.8135593220339,
-        "totalAttacks": 59,
-        "totalStars": 166,
-        "count3Stars": 52,
-        "avgStars": 2.8135593220338984,
-        "threeStarRate": 0.8813559322033898,
-        "totalMissed": 1,
-        "avgPositionDiff": -2.3559322033898304,
-        "hasAnyDefense": true,
-        "hadTh17": true,
         "weights": {
           "attack": 0.42,
           "defense": 0.25,
@@ -1456,7 +1456,7 @@
       "totalAttacks": 81,
       "warsInRoster": 44,
       "totalMissed": 3,
-      "rank": 8,
+      "rank": 9,
       "prevRank": 8,
       "normalizedScore": 68.11
     },
@@ -1508,18 +1508,6 @@
       "prevRank": 17,
       "normalizedScore": 59.82
     },
-    "#QJVQVRPU": {
-      "tier": "S",
-      "score": 2.4417159328865963,
-      "avgStars": 2.5930232558139537,
-      "totalStars": 223,
-      "totalAttacks": 86,
-      "warsInRoster": 44,
-      "totalMissed": 0,
-      "rank": 3,
-      "prevRank": 3,
-      "normalizedScore": 69.76
-    },
     "#YPVQVU982": {
       "tier": "B",
       "score": 2.0210447330366637,
@@ -1531,6 +1519,18 @@
       "rank": 19,
       "prevRank": 19,
       "normalizedScore": 57.74
+    },
+    "#QJVQVRPU": {
+      "tier": "S",
+      "score": 2.4417159328865963,
+      "avgStars": 2.5930232558139537,
+      "totalStars": 223,
+      "totalAttacks": 86,
+      "warsInRoster": 44,
+      "totalMissed": 0,
+      "rank": 3,
+      "prevRank": 3,
+      "normalizedScore": 69.76
     },
     "#QJLQLUURY": {
       "tier": "C",
@@ -1547,9 +1547,9 @@
     "#PLU2VCLG": {
       "tier": "A",
       "score": 2.4009238111965012,
-      "avgStars": 2.728395061728395,
-      "totalStars": 221,
-      "totalAttacks": 81,
+      "avgStars": 2.731707317073171,
+      "totalStars": 224,
+      "totalAttacks": 82,
       "warsInRoster": 42,
       "totalMissed": 1,
       "rank": 6,
@@ -1666,15 +1666,15 @@
     },
     "#URR0QLV": {
       "tier": "A",
-      "score": 2.3818191877504913,
-      "avgStars": 2.8135593220338984,
-      "totalStars": 166,
-      "totalAttacks": 59,
+      "score": 2.3873837138109684,
+      "avgStars": 2.816666666666667,
+      "totalStars": 169,
+      "totalAttacks": 60,
       "warsInRoster": 31,
       "totalMissed": 1,
-      "rank": 9,
+      "rank": 8,
       "prevRank": 9,
-      "normalizedScore": 68.05
+      "normalizedScore": 68.21
     },
     "#8YJYY92GC": {
       "tier": "S",
