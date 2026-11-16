@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-16T16:30:33.541Z",
+  "generatedAt": "2026-11-16T16:45:35.151Z",
   "totalWars": 27,
   "liveWar": {
     "opponentName": "i vincitori",
-    "totalAttacksDone": 51,
+    "totalAttacksDone": 54,
     "totalAttacksExpected": 60
   },
   "ranking": [
@@ -297,6 +297,42 @@
     },
     {
       "player": {
+        "tag": "#YRCLVY099",
+        "name": "GLADIADOR - SP",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 1.875054413286142,
+        "rawScore": 1.875054413286142,
+        "confidence": 1,
+        "tier": "C",
+        "attackScore": 2.5185690489633816,
+        "defenseScore": 0.5063549842194199,
+        "reliability": 0.6777777777777778,
+        "formScore": 2.23,
+        "warsInRoster": 24,
+        "attacksUsed": 39,
+        "attacksAvailable": 48,
+        "avgDestruction": 90.87179487179488,
+        "totalAttacks": 39,
+        "totalStars": 91,
+        "count3Stars": 18,
+        "avgStars": 2.3333333333333335,
+        "threeStarRate": 0.46153846153846156,
+        "totalMissed": 4,
+        "avgPositionDiff": -4.666666666666667,
+        "hasAnyDefense": true,
+        "hadTh17": true,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#VPPQ8VLV",
         "name": "GABRIEL LOBATO",
         "townhallLevel": 18
@@ -323,42 +359,6 @@
         "avgPositionDiff": -1.1224489795918366,
         "hasAnyDefense": true,
         "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#YRCLVY099",
-        "name": "GLADIADOR - SP",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 1.7051784495996076,
-        "rawScore": 1.7051784495996076,
-        "confidence": 1,
-        "tier": "C",
-        "attackScore": 2.645054849709729,
-        "defenseScore": 0.5063549842194199,
-        "reliability": 0.6777777777777778,
-        "formScore": 0,
-        "warsInRoster": 24,
-        "attacksUsed": 37,
-        "attacksAvailable": 48,
-        "avgDestruction": 91.83783783783784,
-        "totalAttacks": 37,
-        "totalStars": 87,
-        "count3Stars": 18,
-        "avgStars": 2.3513513513513513,
-        "threeStarRate": 0.4864864864864865,
-        "totalMissed": 4,
-        "avgPositionDiff": -4.648648648648648,
-        "hasAnyDefense": true,
-        "hadTh17": true,
         "weights": {
           "attack": 0.42,
           "defense": 0.25,
@@ -760,21 +760,21 @@
       "totalAttacks": 17,
       "warsInRoster": 13,
       "totalMissed": 3,
-      "rank": 24,
+      "rank": 25,
       "prevRank": 24,
       "normalizedScore": 50.26
     },
     "#QGQJGURCL": {
       "tier": "A",
-      "score": 2.4141953467840005,
-      "avgStars": 2.74025974025974,
-      "totalStars": 211,
-      "totalAttacks": 77,
+      "score": 2.414802207884961,
+      "avgStars": 2.7435897435897436,
+      "totalStars": 214,
+      "totalAttacks": 78,
       "warsInRoster": 40,
       "totalMissed": 1,
       "rank": 5,
       "prevRank": 5,
-      "normalizedScore": 68.98
+      "normalizedScore": 68.99
     },
     "#GJ2LQVQJ": {
       "tier": "S",
@@ -1032,7 +1032,7 @@
       "totalAttacks": 49,
       "warsInRoster": 27,
       "totalMissed": 3,
-      "rank": 23,
+      "rank": 24,
       "prevRank": 23,
       "normalizedScore": 52.21
     },
@@ -1084,15 +1084,15 @@
     },
     "#YRCLVY099": {
       "tier": "B",
-      "score": 1.7051784495996076,
-      "avgStars": 2.3513513513513513,
-      "totalStars": 87,
-      "totalAttacks": 37,
+      "score": 1.875054413286142,
+      "avgStars": 2.3333333333333335,
+      "totalStars": 91,
+      "totalAttacks": 39,
       "warsInRoster": 24,
       "totalMissed": 4,
-      "rank": 25,
+      "rank": 23,
       "prevRank": 25,
-      "normalizedScore": 48.72
+      "normalizedScore": 53.57
     },
     "#LUR09RUP2": {
       "tier": "F",
