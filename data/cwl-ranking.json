@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T13:30:30.062Z",
+  "generatedAt": "2026-11-16T13:45:29.355Z",
   "totalWars": 27,
   "liveWar": {
     "opponentName": "i vincitori",
@@ -585,6 +585,42 @@
     },
     {
       "player": {
+        "tag": "#QJLQLUURY",
+        "name": "NenemPJL",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 1.3759359925844832,
+        "rawScore": 1.3759359925844832,
+        "confidence": 1,
+        "tier": "C",
+        "attackScore": 1.5771985541998281,
+        "defenseScore": 0.421672621504444,
+        "reliability": 0.8812962962962962,
+        "formScore": 0,
+        "warsInRoster": 35,
+        "attacksUsed": 63,
+        "attacksAvailable": 70,
+        "avgDestruction": 62.888888888888886,
+        "totalAttacks": 63,
+        "totalStars": 110,
+        "count3Stars": 18,
+        "avgStars": 1.746031746031746,
+        "threeStarRate": 0.2857142857142857,
+        "totalMissed": 1,
+        "avgPositionDiff": -10.015873015873016,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#QRJG880R0",
         "name": "FullOn",
         "townhallLevel": 18
@@ -609,42 +645,6 @@
         "threeStarRate": 0.625,
         "totalMissed": 0,
         "avgPositionDiff": -6,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#QJLQLUURY",
-        "name": "NenemPJL",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 1.3313231812943473,
-        "rawScore": 1.3313231812943473,
-        "confidence": 1,
-        "tier": "C",
-        "attackScore": 1.5771985541998281,
-        "defenseScore": 0.24322137634390079,
-        "reliability": 0.8812962962962962,
-        "formScore": 0,
-        "warsInRoster": 35,
-        "attacksUsed": 63,
-        "attacksAvailable": 70,
-        "avgDestruction": 62.888888888888886,
-        "totalAttacks": 63,
-        "totalStars": 110,
-        "count3Stars": 18,
-        "avgStars": 1.746031746031746,
-        "threeStarRate": 0.2857142857142857,
-        "totalMissed": 1,
-        "avgPositionDiff": -10.015873015873016,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1196,15 +1196,15 @@
     },
     "#QJLQLUURY": {
       "tier": "C",
-      "score": 1.3313231812943473,
+      "score": 1.3759359925844832,
       "avgStars": 1.746031746031746,
       "totalStars": 110,
       "totalAttacks": 63,
       "warsInRoster": 35,
       "totalMissed": 1,
-      "rank": 33,
+      "rank": 32,
       "prevRank": 33,
-      "normalizedScore": 38.04
+      "normalizedScore": 39.31
     },
     "#VPPQ8VLV": {
       "tier": "B",
@@ -1238,7 +1238,7 @@
       "totalAttacks": 8,
       "warsInRoster": 4,
       "totalMissed": 0,
-      "rank": 32,
+      "rank": 33,
       "prevRank": 32,
       "normalizedScore": 38.43
     },
