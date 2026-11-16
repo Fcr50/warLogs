@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-16T04:30:34.954Z",
+  "generatedAt": "2026-11-16T04:45:30.461Z",
   "totalWars": 28,
   "liveWar": {
     "opponentName": "i vincitori",
-    "totalAttacksDone": 36,
+    "totalAttacksDone": 37,
     "totalAttacksExpected": 60
   },
   "ranking": [
@@ -513,6 +513,42 @@
     },
     {
       "player": {
+        "tag": "#GGVCRYP8P",
+        "name": "gui",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 2.205093889668415,
+        "rawScore": 2.205093889668415,
+        "confidence": 1,
+        "tier": "A",
+        "attackScore": 2.8492263118400203,
+        "defenseScore": 0.3736753547824251,
+        "reliability": 1,
+        "formScore": 2.25,
+        "warsInRoster": 43,
+        "attacksUsed": 84,
+        "attacksAvailable": 86,
+        "avgDestruction": 90.10714285714286,
+        "totalAttacks": 84,
+        "totalStars": 220,
+        "count3Stars": 59,
+        "avgStars": 2.619047619047619,
+        "threeStarRate": 0.7023809523809523,
+        "totalMissed": 0,
+        "avgPositionDiff": -4.2023809523809526,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#VQYCURG0",
         "name": "Edberg",
         "townhallLevel": 18
@@ -609,42 +645,6 @@
         "threeStarRate": 0.9090909090909091,
         "totalMissed": 0,
         "avgPositionDiff": 6.181818181818182,
-        "hasAnyDefense": true,
-        "hadTh17": false,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#GGVCRYP8P",
-        "name": "gui",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 2.0375430223140087,
-        "rawScore": 2.0375430223140087,
-        "confidence": 1,
-        "tier": "A",
-        "attackScore": 2.7479147229009584,
-        "defenseScore": 0.3736753547824251,
-        "reliability": 1,
-        "formScore": 1,
-        "warsInRoster": 43,
-        "attacksUsed": 83,
-        "attacksAvailable": 86,
-        "avgDestruction": 89.98795180722891,
-        "totalAttacks": 83,
-        "totalStars": 217,
-        "count3Stars": 58,
-        "avgStars": 2.6144578313253013,
-        "threeStarRate": 0.6987951807228916,
-        "totalMissed": 0,
-        "avgPositionDiff": -4.409638554216867,
         "hasAnyDefense": true,
         "hadTh17": false,
         "weights": {
@@ -1504,7 +1504,7 @@
       "totalAttacks": 11,
       "warsInRoster": 6,
       "totalMissed": 0,
-      "rank": 17,
+      "rank": 18,
       "prevRank": 17,
       "normalizedScore": 59.82
     },
@@ -1606,15 +1606,15 @@
     },
     "#GGVCRYP8P": {
       "tier": "B",
-      "score": 2.0375430223140087,
-      "avgStars": 2.6144578313253013,
-      "totalStars": 217,
-      "totalAttacks": 83,
+      "score": 2.205093889668415,
+      "avgStars": 2.619047619047619,
+      "totalStars": 220,
+      "totalAttacks": 84,
       "warsInRoster": 43,
       "totalMissed": 0,
-      "rank": 18,
+      "rank": 15,
       "prevRank": 18,
-      "normalizedScore": 58.22
+      "normalizedScore": 63
     },
     "#QGQJGURCL": {
       "tier": "A",
@@ -1724,6 +1724,18 @@
       "prevRank": 13,
       "normalizedScore": 64.61
     },
+    "#GRLPU9R9": {
+      "tier": "B",
+      "score": 1.828546441611392,
+      "avgStars": 2.066666666666667,
+      "totalStars": 31,
+      "totalAttacks": 15,
+      "warsInRoster": 8,
+      "totalMissed": 0,
+      "rank": 25,
+      "prevRank": 25,
+      "normalizedScore": 52.24
+    },
     "#JCRQGG9P": {
       "tier": "B",
       "score": 1.5692338433426376,
@@ -1800,21 +1812,9 @@
       "totalAttacks": 18,
       "warsInRoster": 9,
       "totalMissed": 0,
-      "rank": 15,
+      "rank": 16,
       "prevRank": 15,
       "normalizedScore": 61.99
-    },
-    "#GRLPU9R9": {
-      "tier": "B",
-      "score": 1.828546441611392,
-      "avgStars": 2.066666666666667,
-      "totalStars": 31,
-      "totalAttacks": 15,
-      "warsInRoster": 8,
-      "totalMissed": 0,
-      "rank": 25,
-      "prevRank": 25,
-      "normalizedScore": 52.24
     },
     "#QRJG880R0": {
       "tier": "C",
@@ -1848,7 +1848,7 @@
       "totalAttacks": 59,
       "warsInRoster": 31,
       "totalMissed": 0,
-      "rank": 16,
+      "rank": 17,
       "prevRank": 16,
       "normalizedScore": 61.54
     },
