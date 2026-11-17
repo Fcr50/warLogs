@@ -10,8 +10,8 @@
       "opponent": {
         "name": "Ninja Bakery",
         "tag": "#YJR0QJU2",
-        "stars": 37,
-        "destructionPercentage": 46.833332,
+        "stars": 40,
+        "destructionPercentage": 50.166668,
         "members": [
           {
             "tag": "#LQR2V8G",
@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 26,
-        "destructionPercentage": 29.866667
+        "stars": 33,
+        "destructionPercentage": 36.666668
       },
       "sixHourNonAttackers": [
         {
@@ -173,11 +173,6 @@
         {
           "tag": "#G9Y2L9QJJ",
           "name": "Micael",
-          "townhallLevel": 19
-        },
-        {
-          "tag": "#GLV8G0LJ",
-          "name": "Luiz",
           "townhallLevel": 19
         },
         {
@@ -223,11 +218,6 @@
         {
           "tag": "#20CY00CU9",
           "name": "-Bonb- ||",
-          "townhallLevel": 19
-        },
-        {
-          "tag": "#YPVQVU982",
-          "name": "亗 ＨＡＤＥＳ_０７ 亗",
           "townhallLevel": 19
         },
         {
@@ -332,7 +322,14 @@
           "townhallLevel": 18,
           "mapPosition": 28,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#GJRRYULU2",
+              "attackerMapPosition": 28
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -427,7 +424,14 @@
           "name": "Luiz",
           "townhallLevel": 19,
           "mapPosition": 20,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 29,
+              "defenderTag": "#GR0P099U"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -629,7 +633,20 @@
           "name": "亗 ＨＡＤＥＳ_０７ 亗",
           "townhallLevel": 19,
           "mapPosition": 2,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 27,
+              "defenderTag": "#J898JVU0"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 30,
+              "defenderTag": "#8RRYVGPQ"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
