@@ -10,8 +10,8 @@
       "opponent": {
         "name": "Ninja Bakery",
         "tag": "#YJR0QJU2",
-        "stars": 9,
-        "destructionPercentage": 14,
+        "stars": 14,
+        "destructionPercentage": 20.133333,
         "members": [
           {
             "tag": "#LQR2V8G",
@@ -136,18 +136,13 @@
         ]
       },
       "clan": {
-        "stars": 12,
-        "destructionPercentage": 13.333333
+        "stars": 21,
+        "destructionPercentage": 23.333334
       },
       "sixHourNonAttackers": [
         {
           "tag": "#8VCUUPPJP",
           "name": "Satsugai",
-          "townhallLevel": 19
-        },
-        {
-          "tag": "#QQC8P9C9R",
-          "name": "Gs.prieto",
           "townhallLevel": 19
         },
         {
@@ -164,11 +159,6 @@
           "tag": "#YRCLVY099",
           "name": "GLADIADOR - SP",
           "townhallLevel": 18
-        },
-        {
-          "tag": "#8CJ8YJY0P",
-          "name": "ChrolloLucilfer",
-          "townhallLevel": 19
         },
         {
           "tag": "#2GP2JUU2",
@@ -236,11 +226,6 @@
           "townhallLevel": 19
         },
         {
-          "tag": "#2QLC0JUP0",
-          "name": "MarlonM",
-          "townhallLevel": 19
-        },
-        {
           "tag": "#P9C0LVLU2",
           "name": "VINGADOR⚡",
           "townhallLevel": 19
@@ -286,7 +271,14 @@
           "name": "Gs.prieto",
           "townhallLevel": 19,
           "mapPosition": 16,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 12,
+              "defenderTag": "#20L2L90PR"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -361,7 +353,14 @@
           "name": "ChrolloLucilfer",
           "townhallLevel": 19,
           "mapPosition": 7,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 14,
+              "defenderTag": "#8ULRYC9Y"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 2,
@@ -524,7 +523,14 @@
           "name": "MarlonM",
           "townhallLevel": 19,
           "mapPosition": 3,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 10,
+              "defenderTag": "#9828Q9ULQ"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -550,7 +556,14 @@
           "townhallLevel": 19,
           "mapPosition": 1,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 84,
+              "attackerTag": "#8RRYVGPQ",
+              "attackerMapPosition": 1
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -559,7 +572,14 @@
           "townhallLevel": 19,
           "mapPosition": 2,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#8RRYVGPQ",
+              "attackerMapPosition": 1
+            }
+          ],
           "missedAttacks": 0
         },
         {
