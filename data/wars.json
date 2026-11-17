@@ -10,8 +10,8 @@
       "opponent": {
         "name": "Ninja Bakery",
         "tag": "#YJR0QJU2",
-        "stars": 7,
-        "destructionPercentage": 11.5,
+        "stars": 9,
+        "destructionPercentage": 14,
         "members": [
           {
             "tag": "#LQR2V8G",
@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 9,
-        "destructionPercentage": 10
+        "stars": 12,
+        "destructionPercentage": 13.333333
       },
       "sixHourNonAttackers": [
         {
@@ -193,11 +193,6 @@
         {
           "tag": "#JCRQGG9P",
           "name": "Rodrigo-br",
-          "townhallLevel": 19
-        },
-        {
-          "tag": "#QGQJGURCL",
-          "name": "SAFONOV",
           "townhallLevel": 19
         },
         {
@@ -367,7 +362,14 @@
           "townhallLevel": 19,
           "mapPosition": 7,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 75,
+              "attackerTag": "#88PQ9GR28",
+              "attackerMapPosition": 11
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -420,7 +422,14 @@
           "name": "SAFONOV",
           "townhallLevel": 19,
           "mapPosition": 6,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 9,
+              "defenderTag": "#PL20LYCJ"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
