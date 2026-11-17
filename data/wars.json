@@ -10,8 +10,8 @@
       "opponent": {
         "name": "Ninja Bakery",
         "tag": "#YJR0QJU2",
-        "stars": 40,
-        "destructionPercentage": 50.166668,
+        "stars": 41,
+        "destructionPercentage": 50.2,
         "members": [
           {
             "tag": "#LQR2V8G",
@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 33,
-        "destructionPercentage": 36.666668
+        "stars": 36,
+        "destructionPercentage": 40
       },
       "sixHourNonAttackers": [
         {
@@ -178,11 +178,6 @@
         {
           "tag": "#JCRQGG9P",
           "name": "Rodrigo-br",
-          "townhallLevel": 19
-        },
-        {
-          "tag": "#GJ2LQVQJ",
-          "name": "Fer",
           "townhallLevel": 19
         },
         {
@@ -465,7 +460,14 @@
           "name": "Fer",
           "townhallLevel": 19,
           "mapPosition": 13,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 31,
+              "defenderTag": "#LUVC22J0"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -532,6 +534,12 @@
           "mapPosition": 24,
           "attacks": [],
           "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#PLRLQQVPC",
+              "attackerMapPosition": 26
+            },
             {
               "stars": 2,
               "destructionPercentage": 99,
