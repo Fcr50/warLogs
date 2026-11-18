@@ -10,8 +10,8 @@
       "opponent": {
         "name": "Ninja Bakery",
         "tag": "#YJR0QJU2",
-        "stars": 49,
-        "destructionPercentage": 62.533333,
+        "stars": 53,
+        "destructionPercentage": 66.4,
         "members": [
           {
             "tag": "#LQR2V8G",
@@ -554,7 +554,14 @@
           "townhallLevel": 19,
           "mapPosition": 4,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#LUVC22J0",
+              "attackerMapPosition": 13
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -664,6 +671,12 @@
             }
           ],
           "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#LUVC22J0",
+              "attackerMapPosition": 13
+            },
             {
               "stars": 2,
               "destructionPercentage": 84,
