@@ -10,8 +10,8 @@
       "opponent": {
         "name": "Ninja Bakery",
         "tag": "#YJR0QJU2",
-        "stars": 57,
-        "destructionPercentage": 70.433334,
+        "stars": 62,
+        "destructionPercentage": 77.066666,
         "members": [
           {
             "tag": "#LQR2V8G",
@@ -136,15 +136,10 @@
         ]
       },
       "clan": {
-        "stars": 60,
-        "destructionPercentage": 66.666664
+        "stars": 66,
+        "destructionPercentage": 73.333336
       },
       "sixHourNonAttackers": [
-        {
-          "tag": "#LVPLJVLVG",
-          "name": "zoldyck",
-          "townhallLevel": 18
-        },
         {
           "tag": "#QRJG880R0",
           "name": "FullOn",
@@ -237,7 +232,14 @@
               "defenderTag": "#292URQYJ"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#YLV082QJP",
+              "attackerMapPosition": 30
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -245,7 +247,14 @@
           "name": "zoldyck",
           "townhallLevel": 18,
           "mapPosition": 25,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 54,
+              "defenderTag": "#89YQCYQV8"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -357,6 +366,12 @@
               "destructionPercentage": 100,
               "order": 14,
               "defenderTag": "#8ULRYC9Y"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 52,
+              "defenderTag": "#28P2GQVU2"
             }
           ],
           "defensesReceived": [
@@ -512,7 +527,14 @@
               "defenderTag": "#LUVC22J0"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 99,
+              "attackerTag": "#YLV082QJP",
+              "attackerMapPosition": 30
+            }
+          ],
           "missedAttacks": 0
         },
         {
