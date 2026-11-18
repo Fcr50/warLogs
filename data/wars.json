@@ -10,8 +10,8 @@
       "opponent": {
         "name": "Ninja Bakery",
         "tag": "#YJR0QJU2",
-        "stars": 43,
-        "destructionPercentage": 53.333332,
+        "stars": 45,
+        "destructionPercentage": 56.2,
         "members": [
           {
             "tag": "#LQR2V8G",
@@ -136,15 +136,10 @@
         ]
       },
       "clan": {
-        "stars": 46,
-        "destructionPercentage": 53.2
+        "stars": 49,
+        "destructionPercentage": 56.533333
       },
       "sixHourNonAttackers": [
-        {
-          "tag": "#8VCUUPPJP",
-          "name": "Satsugai",
-          "townhallLevel": 19
-        },
         {
           "tag": "#LVPLJVLVG",
           "name": "zoldyck",
@@ -217,7 +212,14 @@
           "name": "Satsugai",
           "townhallLevel": 19,
           "mapPosition": 8,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 39,
+              "defenderTag": "#YGGLVUV2"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -453,7 +455,14 @@
               "defenderTag": "#PL20LYCJ"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 86,
+              "attackerTag": "#PL20LYCJ",
+              "attackerMapPosition": 6
+            }
+          ],
           "missedAttacks": 0
         },
         {
