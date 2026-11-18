@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 72,
-        "destructionPercentage": 80
+        "stars": 73,
+        "destructionPercentage": 81.566666
       },
       "sixHourNonAttackers": [
         {
@@ -823,7 +823,14 @@
           "name": "NARNIA",
           "townhallLevel": 17,
           "mapPosition": 29,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 1,
+              "destructionPercentage": 47,
+              "order": 62,
+              "defenderTag": "#LQR2V8G"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
