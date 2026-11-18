@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-18T03:30:32.337Z",
+  "generatedAt": "2026-11-18T03:45:27.219Z",
   "totalWars": 27,
   "liveWar": {
     "opponentName": "Ninja Bakery",
-    "totalAttacksDone": 24,
+    "totalAttacksDone": 26,
     "totalAttacksExpected": 60
   },
   "ranking": [
@@ -153,6 +153,42 @@
     },
     {
       "player": {
+        "tag": "#GRLPU9R9",
+        "name": "Eder",
+        "townhallLevel": 18
+      },
+      "data": {
+        "score": 1.9166041954936028,
+        "rawScore": 1.9166041954936028,
+        "confidence": 1,
+        "tier": "C",
+        "attackScore": 2.64203486186645,
+        "defenseScore": 0.27413154737211,
+        "reliability": 0.6444444444444444,
+        "formScore": 2.9375,
+        "warsInRoster": 10,
+        "attacksUsed": 19,
+        "attacksAvailable": 20,
+        "avgDestruction": 88.10526315789474,
+        "totalAttacks": 19,
+        "totalStars": 39,
+        "count3Stars": 7,
+        "avgStars": 2.0526315789473686,
+        "threeStarRate": 0.3684210526315789,
+        "totalMissed": 0,
+        "avgPositionDiff": -4.7894736842105265,
+        "hasAnyDefense": true,
+        "hadTh17": false,
+        "weights": {
+          "attack": 0.42,
+          "defense": 0.25,
+          "reliability": 0.23,
+          "form": 0.1
+        }
+      }
+    },
+    {
+      "player": {
         "tag": "#VPPQ8VLV",
         "name": "GABRIEL LOBATO",
         "townhallLevel": 18
@@ -215,42 +251,6 @@
         "avgPositionDiff": -4.666666666666667,
         "hasAnyDefense": true,
         "hadTh17": true,
-        "weights": {
-          "attack": 0.42,
-          "defense": 0.25,
-          "reliability": 0.23,
-          "form": 0.1
-        }
-      }
-    },
-    {
-      "player": {
-        "tag": "#GRLPU9R9",
-        "name": "Eder",
-        "townhallLevel": 18
-      },
-      "data": {
-        "score": 1.7556574227691613,
-        "rawScore": 1.7556574227691613,
-        "confidence": 1,
-        "tier": "C",
-        "attackScore": 2.39275683157016,
-        "defenseScore": 0.27413154737211,
-        "reliability": 0.6444444444444444,
-        "formScore": 2.375,
-        "warsInRoster": 10,
-        "attacksUsed": 18,
-        "attacksAvailable": 20,
-        "avgDestruction": 87.44444444444444,
-        "totalAttacks": 18,
-        "totalStars": 36,
-        "count3Stars": 6,
-        "avgStars": 2,
-        "threeStarRate": 0.3333333333333333,
-        "totalMissed": 0,
-        "avgPositionDiff": -5.055555555555555,
-        "hasAnyDefense": true,
-        "hadTh17": false,
         "weights": {
           "attack": 0.42,
           "defense": 0.25,
@@ -520,7 +520,7 @@
       "totalAttacks": 9,
       "warsInRoster": 5,
       "totalMissed": 0,
-      "rank": 25,
+      "rank": 26,
       "prevRank": 25,
       "normalizedScore": 51.55
     },
@@ -664,7 +664,7 @@
       "totalAttacks": 13,
       "warsInRoster": 8,
       "totalMissed": 1,
-      "rank": 22,
+      "rank": 23,
       "prevRank": 22,
       "normalizedScore": 52.61
     },
@@ -779,9 +779,9 @@
     "#29LP0VJV0": {
       "tier": "S",
       "score": 2.4962892367021694,
-      "avgStars": 2.6941176470588237,
-      "totalStars": 229,
-      "totalAttacks": 85,
+      "avgStars": 2.697674418604651,
+      "totalStars": 232,
+      "totalAttacks": 86,
       "warsInRoster": 43,
       "totalMissed": 0,
       "rank": 3,
@@ -868,7 +868,7 @@
       "totalAttacks": 47,
       "warsInRoster": 27,
       "totalMissed": 3,
-      "rank": 23,
+      "rank": 24,
       "prevRank": 23,
       "normalizedScore": 52.19
     },
@@ -908,15 +908,15 @@
     },
     "#GRLPU9R9": {
       "tier": "B",
-      "score": 1.7556574227691613,
-      "avgStars": 2,
-      "totalStars": 36,
-      "totalAttacks": 18,
+      "score": 1.9166041954936028,
+      "avgStars": 2.0526315789473686,
+      "totalStars": 39,
+      "totalAttacks": 19,
       "warsInRoster": 10,
       "totalMissed": 0,
-      "rank": 26,
+      "rank": 22,
       "prevRank": 26,
-      "normalizedScore": 50.16
+      "normalizedScore": 54.76
     },
     "#YRCLVY099": {
       "tier": "B",
@@ -926,7 +926,7 @@
       "totalAttacks": 39,
       "warsInRoster": 25,
       "totalMissed": 4,
-      "rank": 24,
+      "rank": 25,
       "prevRank": 24,
       "normalizedScore": 52.11
     },
