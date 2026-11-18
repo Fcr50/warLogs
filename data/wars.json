@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 36,
-        "destructionPercentage": 40
+        "stars": 42,
+        "destructionPercentage": 46.666668
       },
       "sixHourNonAttackers": [
         {
@@ -211,11 +211,6 @@
           "townhallLevel": 19
         },
         {
-          "tag": "#20CY00CU9",
-          "name": "-Bonb- ||",
-          "townhallLevel": 19
-        },
-        {
           "tag": "#GQU9Y0CQ8",
           "name": "Scok♤",
           "townhallLevel": 18
@@ -224,11 +219,6 @@
           "tag": "#LR2U2PRP2",
           "name": "NARNIA",
           "townhallLevel": 17
-        },
-        {
-          "tag": "#QJLQLUURY",
-          "name": "NenemPJL",
-          "townhallLevel": 19
         }
       ],
       "members": [
@@ -570,7 +560,14 @@
           "name": "-Bonb- ||",
           "townhallLevel": 19,
           "mapPosition": 12,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 35,
+              "defenderTag": "#GR8PGQV8P"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 2,
@@ -718,7 +715,14 @@
           "name": "NenemPJL",
           "townhallLevel": 19,
           "mapPosition": 21,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 34,
+              "defenderTag": "#YU9Q2CL2"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 2,
