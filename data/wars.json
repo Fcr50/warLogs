@@ -10,8 +10,8 @@
       "opponent": {
         "name": "12 Mutineers",
         "tag": "#8YLC9R0R",
-        "stars": 3,
-        "destructionPercentage": 3.3333333,
+        "stars": 12,
+        "destructionPercentage": 13.333333,
         "members": [
           {
             "tag": "#LP2VP2JVC",
@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 0,
-        "destructionPercentage": 0
+        "stars": 6,
+        "destructionPercentage": 6.6666665
       },
       "sixHourNonAttackers": [
         {
@@ -178,11 +178,6 @@
         {
           "tag": "#8CJ8YJY0P",
           "name": "ChrolloLucilfer",
-          "townhallLevel": 19
-        },
-        {
-          "tag": "#2GP2JUU2",
-          "name": "Gustavo Lázaro",
           "townhallLevel": 19
         },
         {
@@ -263,11 +258,6 @@
         {
           "tag": "#P9C0LVLU2",
           "name": "VINGADOR⚡",
-          "townhallLevel": 19
-        },
-        {
-          "tag": "#YPVQVU982",
-          "name": "亗 ＨＡＤＥＳ_０７ 亗",
           "townhallLevel": 19
         },
         {
@@ -369,7 +359,14 @@
           "name": "Gustavo Lázaro",
           "townhallLevel": 19,
           "mapPosition": 6,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 6,
+              "defenderTag": "#CYP0Q8Y2"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -406,7 +403,14 @@
           "townhallLevel": 19,
           "mapPosition": 4,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#Q9U2RJLQ2",
+              "attackerMapPosition": 21
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -496,7 +500,14 @@
           "townhallLevel": 19,
           "mapPosition": 3,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#LP2VP2JVC",
+              "attackerMapPosition": 13
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -535,8 +546,34 @@
           "name": "亗 ＨＡＤＥＳ_０７ 亗",
           "townhallLevel": 19,
           "mapPosition": 2,
-          "attacks": [],
-          "defensesReceived": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 8,
+              "defenderTag": "#PQRCP222"
+            }
+          ],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#LP2VP2JVC",
+              "attackerMapPosition": 13
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 85,
+              "attackerTag": "#PJUJC99P9",
+              "attackerMapPosition": 11
+            },
+            {
+              "stars": 1,
+              "destructionPercentage": 95,
+              "attackerTag": "#V00GGGYC",
+              "attackerMapPosition": 10
+            }
+          ],
           "missedAttacks": 0
         },
         {
