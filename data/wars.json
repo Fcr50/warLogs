@@ -10,8 +10,8 @@
       "opponent": {
         "name": "12 Mutineers",
         "tag": "#8YLC9R0R",
-        "stars": 21,
-        "destructionPercentage": 23.333334,
+        "stars": 30,
+        "destructionPercentage": 33.333332,
         "members": [
           {
             "tag": "#LP2VP2JVC",
@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 9,
-        "destructionPercentage": 10
+        "stars": 15,
+        "destructionPercentage": 16.666666
       },
       "sixHourNonAttackers": [
         {
@@ -159,11 +159,6 @@
           "tag": "#QRJG880R0",
           "name": "FullOn",
           "townhallLevel": 18
-        },
-        {
-          "tag": "#2QL0VR9GU",
-          "name": "Marcola",
-          "townhallLevel": 19
         },
         {
           "tag": "#2QP9JGYVG",
@@ -193,11 +188,6 @@
         {
           "tag": "#JCRQGG9P",
           "name": "Rodrigo-br",
-          "townhallLevel": 19
-        },
-        {
-          "tag": "#QGQJGURCL",
-          "name": "SAFONOV",
           "townhallLevel": 19
         },
         {
@@ -283,7 +273,14 @@
           "townhallLevel": 19,
           "mapPosition": 10,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#U2GRGVU0",
+              "attackerMapPosition": 27
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -318,7 +315,14 @@
           "name": "Marcola",
           "townhallLevel": 19,
           "mapPosition": 14,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 17,
+              "defenderTag": "#8VR9P8GG"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -378,7 +382,14 @@
           "townhallLevel": 19,
           "mapPosition": 9,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#Q2Y02YG",
+              "attackerMapPosition": 24
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -404,7 +415,14 @@
           "name": "SAFONOV",
           "townhallLevel": 19,
           "mapPosition": 4,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 16,
+              "defenderTag": "#8998YQU2"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -496,7 +514,14 @@
           "townhallLevel": 19,
           "mapPosition": 8,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#Q2Y02YG",
+              "attackerMapPosition": 24
+            }
+          ],
           "missedAttacks": 0
         },
         {
