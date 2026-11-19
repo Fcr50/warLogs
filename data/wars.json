@@ -10,8 +10,8 @@
       "opponent": {
         "name": "12 Mutineers",
         "tag": "#8YLC9R0R",
-        "stars": 70,
-        "destructionPercentage": 81.3,
+        "stars": 73,
+        "destructionPercentage": 84.63333,
         "members": [
           {
             "tag": "#LP2VP2JVC",
@@ -330,7 +330,14 @@
           "townhallLevel": 19,
           "mapPosition": 28,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#CYP0Q8Y2",
+              "attackerMapPosition": 6
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -616,6 +623,12 @@
               "destructionPercentage": 81,
               "attackerTag": "#PU2JJYR9",
               "attackerMapPosition": 7
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 77,
+              "attackerTag": "#CYP0Q8Y2",
+              "attackerMapPosition": 6
             }
           ],
           "missedAttacks": 0
