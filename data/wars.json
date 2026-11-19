@@ -10,8 +10,8 @@
       "opponent": {
         "name": "12 Mutineers",
         "tag": "#8YLC9R0R",
-        "stars": 30,
-        "destructionPercentage": 33.333332,
+        "stars": 45,
+        "destructionPercentage": 50,
         "members": [
           {
             "tag": "#LP2VP2JVC",
@@ -136,18 +136,13 @@
         ]
       },
       "clan": {
-        "stars": 15,
-        "destructionPercentage": 16.666666
+        "stars": 17,
+        "destructionPercentage": 19.833334
       },
       "sixHourNonAttackers": [
         {
           "tag": "#8VCUUPPJP",
           "name": "Satsugai",
-          "townhallLevel": 19
-        },
-        {
-          "tag": "#QQC8P9C9R",
-          "name": "Gs.prieto",
           "townhallLevel": 19
         },
         {
@@ -288,7 +283,14 @@
           "name": "Gs.prieto",
           "townhallLevel": 19,
           "mapPosition": 16,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 95,
+              "order": 22,
+              "defenderTag": "#222P28U8U"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -350,7 +352,14 @@
           "townhallLevel": 19,
           "mapPosition": 11,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#U2GRGVU0",
+              "attackerMapPosition": 27
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -539,7 +548,14 @@
           "townhallLevel": 19,
           "mapPosition": 18,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#Q092L82C",
+              "attackerMapPosition": 19
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -564,7 +580,14 @@
           "townhallLevel": 19,
           "mapPosition": 12,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#QYQV20C8",
+              "attackerMapPosition": 25
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -648,7 +671,14 @@
           "townhallLevel": 19,
           "mapPosition": 19,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#Q092L82C",
+              "attackerMapPosition": 19
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -657,7 +687,14 @@
           "townhallLevel": 19,
           "mapPosition": 13,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#QYQV20C8",
+              "attackerMapPosition": 25
+            }
+          ],
           "missedAttacks": 0
         }
       ]
