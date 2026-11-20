@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 57,
-        "destructionPercentage": 63.333332
+        "stars": 60,
+        "destructionPercentage": 66.666664
       },
       "sixHourNonAttackers": [
         {
@@ -562,7 +562,14 @@
           "name": "Eder",
           "townhallLevel": 19,
           "mapPosition": 29,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 56,
+              "defenderTag": "#8C909VYCP"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 2,
