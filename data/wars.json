@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 48,
-        "destructionPercentage": 53.333332
+        "stars": 51,
+        "destructionPercentage": 56.666668
       },
       "sixHourNonAttackers": [
         {
@@ -169,11 +169,6 @@
           "tag": "#PLU2VCLG",
           "name": "Phoenix",
           "townhallLevel": 19
-        },
-        {
-          "tag": "#VPPQ8VLV",
-          "name": "GABRIEL LOBATO",
-          "townhallLevel": 18
         },
         {
           "tag": "#29LP0VJV0",
@@ -593,7 +588,14 @@
           "name": "GABRIEL LOBATO",
           "townhallLevel": 18,
           "mapPosition": 23,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 52,
+              "defenderTag": "#V2CPY082"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 2,
