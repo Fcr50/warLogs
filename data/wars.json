@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 77,
-        "destructionPercentage": 86.46667
+        "stars": 78,
+        "destructionPercentage": 86.666664
       },
       "sixHourNonAttackers": [
         {
@@ -465,7 +465,14 @@
           "name": "i-Vinni",
           "townhallLevel": 19,
           "mapPosition": 9,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 75,
+              "defenderTag": "#8YPJ9YP2J"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
