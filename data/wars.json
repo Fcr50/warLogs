@@ -10,8 +10,8 @@
       "opponent": {
         "name": "FRERES D'ARMES*",
         "tag": "#9LYPRQUQ",
-        "stars": 28,
-        "destructionPercentage": 34.166668,
+        "stars": 34,
+        "destructionPercentage": 40.833332,
         "members": [
           {
             "tag": "#9LP2PQ9J",
@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 30,
-        "destructionPercentage": 35.233334
+        "stars": 32,
+        "destructionPercentage": 38.466667
       },
       "sixHourNonAttackers": [
         {
@@ -216,11 +216,6 @@
           "townhallLevel": 19
         },
         {
-          "tag": "#VQYCURG0",
-          "name": "Edberg",
-          "townhallLevel": 18
-        },
-        {
           "tag": "#QJLQLUURY",
           "name": "NenemPJL",
           "townhallLevel": 19
@@ -286,7 +281,14 @@
               "defenderTag": "#PYVR98QCC"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#PYVR98QCC",
+              "attackerMapPosition": 25
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -470,7 +472,14 @@
               "defenderTag": "#289RRLUGQ"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#PYVR98QCC",
+              "attackerMapPosition": 25
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -639,7 +648,14 @@
           "name": "Edberg",
           "townhallLevel": 18,
           "mapPosition": 27,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 97,
+              "order": 27,
+              "defenderTag": "#2YR922YLP"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
