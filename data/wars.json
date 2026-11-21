@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 17,
-        "destructionPercentage": 19.533333
+        "stars": 21,
+        "destructionPercentage": 25.966667
       },
       "sixHourNonAttackers": [
         {
@@ -178,11 +178,6 @@
         {
           "tag": "#G9Y2L9QJJ",
           "name": "Micael",
-          "townhallLevel": 19
-        },
-        {
-          "tag": "#JCRQGG9P",
-          "name": "Rodrigo-br",
           "townhallLevel": 19
         },
         {
@@ -233,11 +228,6 @@
         {
           "tag": "#P9C0LVLU2",
           "name": "VINGADOR⚡",
-          "townhallLevel": 19
-        },
-        {
-          "tag": "#YPVQVU982",
-          "name": "亗 ＨＡＤＥＳ_０７ 亗",
           "townhallLevel": 19
         },
         {
@@ -429,7 +419,14 @@
           "name": "Rodrigo-br",
           "townhallLevel": 19,
           "mapPosition": 21,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 95,
+              "order": 19,
+              "defenderTag": "#PLYV0VQJ"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -596,7 +593,14 @@
           "name": "亗 ＨＡＤＥＳ_０７ 亗",
           "townhallLevel": 19,
           "mapPosition": 2,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 98,
+              "order": 20,
+              "defenderTag": "#9LP2PQ9J"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
