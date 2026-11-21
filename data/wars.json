@@ -10,8 +10,8 @@
       "opponent": {
         "name": "FRERES D'ARMES*",
         "tag": "#9LYPRQUQ",
-        "stars": 25,
-        "destructionPercentage": 30.833334,
+        "stars": 28,
+        "destructionPercentage": 34.166668,
         "members": [
           {
             "tag": "#9LP2PQ9J",
@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 14,
-        "destructionPercentage": 16.466667
+        "stars": 17,
+        "destructionPercentage": 19.533333
       },
       "sixHourNonAttackers": [
         {
@@ -154,11 +154,6 @@
           "tag": "#QRJG880R0",
           "name": "FullOn",
           "townhallLevel": 18
-        },
-        {
-          "tag": "#2QL0VR9GU",
-          "name": "Marcola",
-          "townhallLevel": 19
         },
         {
           "tag": "#2QP9JGYVG",
@@ -322,7 +317,14 @@
           "name": "Marcola",
           "townhallLevel": 19,
           "mapPosition": 15,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 86,
+              "order": 17,
+              "defenderTag": "#GYPG9J0"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -519,6 +521,12 @@
               "destructionPercentage": 100,
               "order": 9,
               "defenderTag": "#CVVQUQJC"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 18,
+              "defenderTag": "#289RRLUGQ"
             }
           ],
           "defensesReceived": [],
@@ -639,7 +647,14 @@
           "townhallLevel": 19,
           "mapPosition": 22,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#YLP0VVQL",
+              "attackerMapPosition": 23
+            }
+          ],
           "missedAttacks": 0
         }
       ]
