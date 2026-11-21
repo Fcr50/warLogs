@@ -10,8 +10,8 @@
       "opponent": {
         "name": "FRERES D'ARMES*",
         "tag": "#9LYPRQUQ",
-        "stars": 41,
-        "destructionPercentage": 49.5,
+        "stars": 45,
+        "destructionPercentage": 54.3,
         "members": [
           {
             "tag": "#9LP2PQ9J",
@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 33,
-        "destructionPercentage": 38.933334
+        "stars": 34,
+        "destructionPercentage": 41.833332
       },
       "sixHourNonAttackers": [
         {
@@ -208,11 +208,6 @@
         {
           "tag": "#GGVCRYP8P",
           "name": "gui",
-          "townhallLevel": 19
-        },
-        {
-          "tag": "#P9C0LVLU2",
-          "name": "VINGADOR⚡",
           "townhallLevel": 19
         },
         {
@@ -537,7 +532,14 @@
           "townhallLevel": 18,
           "mapPosition": 24,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 72,
+              "attackerTag": "#JVJ2GP9J",
+              "attackerMapPosition": 12
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -600,7 +602,14 @@
               "defenderTag": "#2GRYVUY8Q"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 72,
+              "attackerTag": "#JVJ2GP9J",
+              "attackerMapPosition": 12
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -626,7 +635,14 @@
           "name": "VINGADOR⚡",
           "townhallLevel": 19,
           "mapPosition": 1,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 1,
+              "destructionPercentage": 87,
+              "order": 34,
+              "defenderTag": "#LL9CQ92V"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 2,
