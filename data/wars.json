@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 21,
-        "destructionPercentage": 25.966667
+        "stars": 29,
+        "destructionPercentage": 35.166668
       },
       "sixHourNonAttackers": [
         {
@@ -148,11 +148,6 @@
         {
           "tag": "#LVPLJVLVG",
           "name": "zoldyck",
-          "townhallLevel": 18
-        },
-        {
-          "tag": "#QRJG880R0",
-          "name": "FullOn",
           "townhallLevel": 18
         },
         {
@@ -196,19 +191,9 @@
           "townhallLevel": 18
         },
         {
-          "tag": "#PLU2VCLG",
-          "name": "Phoenix",
-          "townhallLevel": 19
-        },
-        {
           "tag": "#VPPQ8VLV",
           "name": "GABRIEL LOBATO",
           "townhallLevel": 18
-        },
-        {
-          "tag": "#29LP0VJV0",
-          "name": "Warlord Raivon",
-          "townhallLevel": 19
         },
         {
           "tag": "#80LUCC9YV",
@@ -298,7 +283,14 @@
           "name": "FullOn",
           "townhallLevel": 18,
           "mapPosition": 25,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 76,
+              "order": 21,
+              "defenderTag": "#PYVR98QCC"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -485,7 +477,14 @@
           "name": "Phoenix",
           "townhallLevel": 19,
           "mapPosition": 4,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 22,
+              "defenderTag": "#2JCJYGJ2Q"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -503,7 +502,14 @@
           "name": "Warlord Raivon",
           "townhallLevel": 19,
           "mapPosition": 8,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 23,
+              "defenderTag": "#PVVQ2Q0Y"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
