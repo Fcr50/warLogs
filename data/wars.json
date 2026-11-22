@@ -10,8 +10,8 @@
       "opponent": {
         "name": "FRERES D'ARMES*",
         "tag": "#9LYPRQUQ",
-        "stars": 62,
-        "destructionPercentage": 75.03333,
+        "stars": 66,
+        "destructionPercentage": 79.566666,
         "members": [
           {
             "tag": "#9LP2PQ9J",
@@ -499,6 +499,12 @@
           ],
           "defensesReceived": [
             {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#YC9U8QV8",
+              "attackerMapPosition": 26
+            },
+            {
               "stars": 2,
               "destructionPercentage": 86,
               "attackerTag": "#RPJRR9UQ",
@@ -679,6 +685,12 @@
               "destructionPercentage": 72,
               "attackerTag": "#JVJ2GP9J",
               "attackerMapPosition": 12
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#YQU2UL2U",
+              "attackerMapPosition": 11
             }
           ],
           "missedAttacks": 0
@@ -800,6 +812,12 @@
               "destructionPercentage": 72,
               "attackerTag": "#JVJ2GP9J",
               "attackerMapPosition": 12
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 83,
+              "attackerTag": "#YQU2UL2U",
+              "attackerMapPosition": 11
             }
           ],
           "missedAttacks": 0
@@ -871,7 +889,14 @@
               "defenderTag": "#JQ8L0VYU"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 94,
+              "attackerTag": "#22C9YL9G0",
+              "attackerMapPosition": 9
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -908,6 +933,12 @@
               "destructionPercentage": 97,
               "order": 27,
               "defenderTag": "#2YR922YLP"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 75,
+              "defenderTag": "#LL9CQ92V"
             }
           ],
           "defensesReceived": [
