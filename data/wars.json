@@ -10,8 +10,8 @@
       "opponent": {
         "name": "FRERES D'ARMES*",
         "tag": "#9LYPRQUQ",
-        "stars": 70,
-        "destructionPercentage": 85.3,
+        "stars": 72,
+        "destructionPercentage": 87.8,
         "members": [
           {
             "tag": "#9LP2PQ9J",
@@ -728,7 +728,14 @@
               "defenderTag": "#PLYV0VQJ"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 75,
+              "attackerTag": "#2899LYGUV",
+              "attackerMapPosition": 28
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -832,6 +839,12 @@
               "destructionPercentage": 83,
               "attackerTag": "#YQU2UL2U",
               "attackerMapPosition": 11
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 77,
+              "attackerTag": "#CVVQUQJC",
+              "attackerMapPosition": 18
             }
           ],
           "missedAttacks": 0
