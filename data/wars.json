@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 75,
-        "destructionPercentage": 85.9
+        "stars": 80,
+        "destructionPercentage": 92.5
       },
       "sixHourNonAttackers": [
         {
@@ -477,7 +477,14 @@
           "name": "Micael",
           "townhallLevel": 19,
           "mapPosition": 17,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 67,
+              "defenderTag": "#2YRUGLYY"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 2,
@@ -736,6 +743,12 @@
               "destructionPercentage": 100,
               "order": 2,
               "defenderTag": "#2GRYVUY8Q"
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 98,
+              "order": 66,
+              "defenderTag": "#RPJRR9UQ"
             }
           ],
           "defensesReceived": [
