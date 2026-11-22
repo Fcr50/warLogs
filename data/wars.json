@@ -10,8 +10,8 @@
       "opponent": {
         "name": "FRERES D'ARMES*",
         "tag": "#9LYPRQUQ",
-        "stars": 72,
-        "destructionPercentage": 87.8,
+        "stars": 75,
+        "destructionPercentage": 90.8,
         "members": [
           {
             "tag": "#9LP2PQ9J",
@@ -579,6 +579,12 @@
           "attacks": [],
           "defensesReceived": [
             {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#CVVQUQJC",
+              "attackerMapPosition": 18
+            },
+            {
               "stars": 2,
               "destructionPercentage": 94,
               "attackerTag": "#20YL90PQQ",
@@ -691,6 +697,12 @@
               "destructionPercentage": 100,
               "order": 44,
               "defenderTag": "#2YRYR82J"
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 94,
+              "order": 86,
+              "defenderTag": "#YLP0VVQL"
             }
           ],
           "defensesReceived": [
@@ -829,6 +841,12 @@
               "attackerMapPosition": 19
             },
             {
+              "stars": 1,
+              "destructionPercentage": 89,
+              "attackerTag": "#PLYV0VQJ",
+              "attackerMapPosition": 21
+            },
+            {
               "stars": 2,
               "destructionPercentage": 72,
               "attackerTag": "#JVJ2GP9J",
@@ -855,7 +873,14 @@
           "townhallLevel": 19,
           "mapPosition": 5,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 84,
+              "attackerTag": "#RPJRR9UQ",
+              "attackerMapPosition": 17
+            }
+          ],
           "missedAttacks": 0
         },
         {
