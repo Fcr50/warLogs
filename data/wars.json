@@ -10,8 +10,8 @@
       "opponent": {
         "name": "TeamNL",
         "tag": "#2Q88QPR9R",
-        "stars": 35,
-        "destructionPercentage": 33.82857,
+        "stars": 41,
+        "destructionPercentage": 39.54286,
         "members": [
           {
             "tag": "#8QLV02QJ",
@@ -156,8 +156,8 @@
         ]
       },
       "clan": {
-        "stars": 33,
-        "destructionPercentage": 31.428572
+        "stars": 36,
+        "destructionPercentage": 34.285713
       },
       "sixHourNonAttackers": [
         {
@@ -209,11 +209,6 @@
           "tag": "#GJ2LQVQJ",
           "name": "Fer",
           "townhallLevel": 19
-        },
-        {
-          "tag": "#URR0QLV",
-          "name": "Victor Daniel",
-          "townhallLevel": 18
         },
         {
           "tag": "#GRLPU9R9",
@@ -297,7 +292,14 @@
           "townhallLevel": 19,
           "mapPosition": 11,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#L0YCJL8V",
+              "attackerMapPosition": 11
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -515,7 +517,14 @@
           "name": "Victor Daniel",
           "townhallLevel": 18,
           "mapPosition": 34,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 30,
+              "defenderTag": "#8G02YL892"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 2,
@@ -589,7 +598,14 @@
           "townhallLevel": 19,
           "mapPosition": 8,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#8LRYC2VR",
+              "attackerMapPosition": 5
+            }
+          ],
           "missedAttacks": 0
         },
         {
