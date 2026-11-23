@@ -10,8 +10,8 @@
       "opponent": {
         "name": "TeamNL",
         "tag": "#2Q88QPR9R",
-        "stars": 5,
-        "destructionPercentage": 5.714286,
+        "stars": 8,
+        "destructionPercentage": 8.571428,
         "members": [
           {
             "tag": "#8QLV02QJ",
@@ -156,8 +156,8 @@
         ]
       },
       "clan": {
-        "stars": 6,
-        "destructionPercentage": 5.714286
+        "stars": 12,
+        "destructionPercentage": 11.428572
       },
       "sixHourNonAttackers": [
         {
@@ -174,11 +174,6 @@
           "tag": "#QQC8P9C9R",
           "name": "Gs.prieto",
           "townhallLevel": 19
-        },
-        {
-          "tag": "#LVPLJVLVG",
-          "name": "zoldyck",
-          "townhallLevel": 18
         },
         {
           "tag": "#QRJG880R0",
@@ -286,11 +281,6 @@
           "townhallLevel": 19
         },
         {
-          "tag": "#P9C0LVLU2",
-          "name": "VINGADOR⚡",
-          "townhallLevel": 19
-        },
-        {
           "tag": "#YPVQVU982",
           "name": "亗 ＨＡＤＥＳ_０７ 亗",
           "townhallLevel": 19
@@ -359,7 +349,14 @@
           "name": "zoldyck",
           "townhallLevel": 18,
           "mapPosition": 32,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 6,
+              "defenderTag": "#YC9QP2JL2"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -603,7 +600,14 @@
           "name": "VINGADOR⚡",
           "townhallLevel": 19,
           "mapPosition": 1,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 8,
+              "defenderTag": "#2GVYCY80"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -613,7 +617,14 @@
           "townhallLevel": 19,
           "mapPosition": 2,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#LQ9PQ9L2R",
+              "attackerMapPosition": 28
+            }
+          ],
           "missedAttacks": 0
         },
         {
