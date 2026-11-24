@@ -156,8 +156,8 @@
         ]
       },
       "clan": {
-        "stars": 98,
-        "destructionPercentage": 94.25714
+        "stars": 104,
+        "destructionPercentage": 99.97143
       },
       "sixHourNonAttackers": [
         {
@@ -335,7 +335,20 @@
           "name": "FullOn",
           "townhallLevel": 18,
           "mapPosition": 30,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 75,
+              "defenderTag": "#LQ9PQ9L2R"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 76,
+              "defenderTag": "#G2JU88QCP"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
