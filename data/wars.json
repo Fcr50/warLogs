@@ -10,8 +10,8 @@
       "opponent": {
         "name": "TeamNL",
         "tag": "#2Q88QPR9R",
-        "stars": 57,
-        "destructionPercentage": 55.857143,
+        "stars": 61,
+        "destructionPercentage": 61.285713,
         "members": [
           {
             "tag": "#8QLV02QJ",
@@ -390,6 +390,12 @@
           ],
           "defensesReceived": [
             {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#8QJRYJUG",
+              "attackerMapPosition": 26
+            },
+            {
               "stars": 1,
               "destructionPercentage": 8,
               "attackerTag": "#G2JU88QCP",
@@ -517,7 +523,14 @@
               "defenderTag": "#8QLV02QJ"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 98,
+              "attackerTag": "#8QJRYJUG",
+              "attackerMapPosition": 26
+            }
+          ],
           "missedAttacks": 0
         },
         {
