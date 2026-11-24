@@ -156,8 +156,8 @@
         ]
       },
       "clan": {
-        "stars": 74,
-        "destructionPercentage": 71.11429
+        "stars": 77,
+        "destructionPercentage": 73.97143
       },
       "sixHourNonAttackers": [
         {
@@ -823,7 +823,14 @@
           "name": "jean",
           "townhallLevel": 18,
           "mapPosition": 31,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 55,
+              "defenderTag": "#LJCPR02VP"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
