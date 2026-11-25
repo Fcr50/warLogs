@@ -10,8 +10,8 @@
       "opponent": {
         "name": "AckerLight",
         "tag": "#9QQQ9CC8",
-        "stars": 44,
-        "destructionPercentage": 51.033333,
+        "stars": 49,
+        "destructionPercentage": 57.266666,
         "members": [
           {
             "tag": "#2RJ90LV8",
@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 21,
-        "destructionPercentage": 23.333334
+        "stars": 24,
+        "destructionPercentage": 26.666666
       },
       "sixHourNonAttackers": [
         {
@@ -226,11 +226,6 @@
           "townhallLevel": 19
         },
         {
-          "tag": "#2QLC0JUP0",
-          "name": "MarlonM",
-          "townhallLevel": 19
-        },
-        {
           "tag": "#GGVCRYP8P",
           "name": "gui",
           "townhallLevel": 19
@@ -295,7 +290,14 @@
           "townhallLevel": 19,
           "mapPosition": 17,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 87,
+              "attackerTag": "#VR08GGQV",
+              "attackerMapPosition": 25
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -363,7 +365,14 @@
           "townhallLevel": 19,
           "mapPosition": 23,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#2J8JGPQ2V",
+              "attackerMapPosition": 15
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -606,7 +615,14 @@
           "name": "MarlonM",
           "townhallLevel": 19,
           "mapPosition": 4,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 29,
+              "defenderTag": "#900JGRC22"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 2,
