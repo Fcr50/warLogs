@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 30,
-        "destructionPercentage": 33.333332
+        "stars": 33,
+        "destructionPercentage": 36.666668
       },
       "sixHourNonAttackers": [
         {
@@ -148,11 +148,6 @@
         {
           "tag": "#8VCUUPPJP",
           "name": "Satsugai",
-          "townhallLevel": 19
-        },
-        {
-          "tag": "#QQC8P9C9R",
-          "name": "Gs.prieto",
           "townhallLevel": 19
         },
         {
@@ -279,7 +274,14 @@
           "name": "Gs.prieto",
           "townhallLevel": 19,
           "mapPosition": 17,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 35,
+              "defenderTag": "#P0QQPGC28"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 2,
