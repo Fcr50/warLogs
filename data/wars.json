@@ -10,8 +10,8 @@
       "opponent": {
         "name": "AckerLight",
         "tag": "#9QQQ9CC8",
-        "stars": 9,
-        "destructionPercentage": 10,
+        "stars": 12,
+        "destructionPercentage": 13.333333,
         "members": [
           {
             "tag": "#2RJ90LV8",
@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 8,
-        "destructionPercentage": 9.533334
+        "stars": 11,
+        "destructionPercentage": 12.866667
       },
       "sixHourNonAttackers": [
         {
@@ -188,11 +188,6 @@
         {
           "tag": "#LQQRGJ8VU",
           "name": "i-Vinni",
-          "townhallLevel": 19
-        },
-        {
-          "tag": "#G9Y2L9QJJ",
-          "name": "Micael",
           "townhallLevel": 19
         },
         {
@@ -399,6 +394,12 @@
               "destructionPercentage": 100,
               "order": 5,
               "defenderTag": "#82L9992Q0"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 9,
+              "defenderTag": "#Y8YU8GRUY"
             }
           ],
           "defensesReceived": [],
@@ -418,7 +419,14 @@
           "name": "Micael",
           "townhallLevel": 19,
           "mapPosition": 13,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 91,
+              "order": 7,
+              "defenderTag": "#Y8YU8GRUY"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -471,7 +479,14 @@
               "defenderTag": "#LJ2RUQLJP"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#888JVGU2",
+              "attackerMapPosition": 28
+            }
+          ],
           "missedAttacks": 0
         },
         {
