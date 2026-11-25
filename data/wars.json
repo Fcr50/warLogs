@@ -10,8 +10,8 @@
       "opponent": {
         "name": "AckerLight",
         "tag": "#9QQQ9CC8",
-        "stars": 0,
-        "destructionPercentage": 0,
+        "stars": 9,
+        "destructionPercentage": 10,
         "members": [
           {
             "tag": "#2RJ90LV8",
@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 0,
-        "destructionPercentage": 0
+        "stars": 8,
+        "destructionPercentage": 9.533334
       },
       "sixHourNonAttackers": [
         {
@@ -186,16 +186,6 @@
           "townhallLevel": 19
         },
         {
-          "tag": "#8CJ8YJY0P",
-          "name": "ChrolloLucilfer",
-          "townhallLevel": 19
-        },
-        {
-          "tag": "#2GP2JUU2",
-          "name": "Gustavo Lázaro",
-          "townhallLevel": 19
-        },
-        {
           "tag": "#LQQRGJ8VU",
           "name": "i-Vinni",
           "townhallLevel": 19
@@ -224,11 +214,6 @@
           "tag": "#URR0QLV",
           "name": "Victor Daniel",
           "townhallLevel": 18
-        },
-        {
-          "tag": "#GRLPU9R9",
-          "name": "Eder",
-          "townhallLevel": 19
         },
         {
           "tag": "#PLU2VCLG",
@@ -298,7 +283,14 @@
           "townhallLevel": 19,
           "mapPosition": 24,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#9JYCV2JY2",
+              "attackerMapPosition": 16
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -343,7 +335,14 @@
           "townhallLevel": 19,
           "mapPosition": 12,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#82L9992Q0",
+              "attackerMapPosition": 5
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -378,7 +377,14 @@
           "name": "ChrolloLucilfer",
           "townhallLevel": 19,
           "mapPosition": 15,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 4,
+              "defenderTag": "#2J8JGPQ2V"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -387,7 +393,14 @@
           "name": "Gustavo Lázaro",
           "townhallLevel": 19,
           "mapPosition": 5,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 5,
+              "defenderTag": "#82L9992Q0"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -450,7 +463,14 @@
           "name": "Eder",
           "townhallLevel": 19,
           "mapPosition": 20,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 86,
+              "order": 2,
+              "defenderTag": "#LJ2RUQLJP"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -523,7 +543,14 @@
           "townhallLevel": 19,
           "mapPosition": 1,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#2PVGV8RCU",
+              "attackerMapPosition": 8
+            }
+          ],
           "missedAttacks": 0
         },
         {
