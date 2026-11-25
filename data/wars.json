@@ -10,8 +10,8 @@
       "opponent": {
         "name": "AckerLight",
         "tag": "#9QQQ9CC8",
-        "stars": 17,
-        "destructionPercentage": 19.3,
+        "stars": 28,
+        "destructionPercentage": 32,
         "members": [
           {
             "tag": "#2RJ90LV8",
@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 16,
-        "destructionPercentage": 18.9
+        "stars": 21,
+        "destructionPercentage": 23.333334
       },
       "sixHourNonAttackers": [
         {
@@ -198,11 +198,6 @@
         {
           "tag": "#GJ2LQVQJ",
           "name": "Fer",
-          "townhallLevel": 19
-        },
-        {
-          "tag": "#L8RG2PV0G",
-          "name": "joaoaoaoao",
           "townhallLevel": 19
         },
         {
@@ -415,6 +410,12 @@
               "destructionPercentage": 91,
               "order": 7,
               "defenderTag": "#Y8YU8GRUY"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 18,
+              "defenderTag": "#22QGQ288U"
             }
           ],
           "defensesReceived": [],
@@ -426,7 +427,14 @@
           "townhallLevel": 19,
           "mapPosition": 8,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 81,
+              "attackerTag": "#2RJ90LV8",
+              "attackerMapPosition": 1
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -443,8 +451,28 @@
           "name": "joaoaoaoao",
           "townhallLevel": 19,
           "mapPosition": 18,
-          "attacks": [],
-          "defensesReceived": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 14,
+              "defenderTag": "#YUYPUCPVU"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 15,
+              "defenderTag": "#LJ2RUQLJP"
+            }
+          ],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#2V90URL8",
+              "attackerMapPosition": 26
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -508,7 +536,14 @@
           "townhallLevel": 18,
           "mapPosition": 25,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#P0QQPGC28",
+              "attackerMapPosition": 17
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -517,7 +552,14 @@
           "townhallLevel": 19,
           "mapPosition": 6,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#Y8YU8GRUY",
+              "attackerMapPosition": 13
+            }
+          ],
           "missedAttacks": 0
         },
         {
