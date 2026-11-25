@@ -10,8 +10,8 @@
       "opponent": {
         "name": "AckerLight",
         "tag": "#9QQQ9CC8",
-        "stars": 31,
-        "destructionPercentage": 35.333332,
+        "stars": 36,
+        "destructionPercentage": 41.233334,
         "members": [
           {
             "tag": "#2RJ90LV8",
@@ -602,7 +602,14 @@
           "townhallLevel": 19,
           "mapPosition": 16,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 77,
+              "attackerTag": "#8RQQYQPG9",
+              "attackerMapPosition": 24
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -668,7 +675,14 @@
           "townhallLevel": 19,
           "mapPosition": 21,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#J90C9VL",
+              "attackerMapPosition": 29
+            }
+          ],
           "missedAttacks": 0
         }
       ]
