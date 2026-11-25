@@ -136,18 +136,13 @@
         ]
       },
       "clan": {
-        "stars": 33,
-        "destructionPercentage": 36.666668
+        "stars": 36,
+        "destructionPercentage": 40
       },
       "sixHourNonAttackers": [
         {
           "tag": "#VCPY8PG0",
           "name": "LCdr",
-          "townhallLevel": 19
-        },
-        {
-          "tag": "#8VCUUPPJP",
-          "name": "Satsugai",
           "townhallLevel": 19
         },
         {
@@ -258,7 +253,14 @@
           "name": "Satsugai",
           "townhallLevel": 19,
           "mapPosition": 11,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 36,
+              "defenderTag": "#R9LYLUVC"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
