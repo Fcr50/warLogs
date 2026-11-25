@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 14,
-        "destructionPercentage": 16.2
+        "stars": 16,
+        "destructionPercentage": 18.9
       },
       "sixHourNonAttackers": [
         {
@@ -209,11 +209,6 @@
           "tag": "#URR0QLV",
           "name": "Victor Daniel",
           "townhallLevel": 18
-        },
-        {
-          "tag": "#PLU2VCLG",
-          "name": "Phoenix",
-          "townhallLevel": 19
         },
         {
           "tag": "#VPPQ8VLV",
@@ -489,7 +484,14 @@
           "name": "Phoenix",
           "townhallLevel": 19,
           "mapPosition": 7,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 81,
+              "order": 13,
+              "defenderTag": "#22QGQ288U"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 2,
