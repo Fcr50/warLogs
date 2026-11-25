@@ -10,8 +10,8 @@
       "opponent": {
         "name": "AckerLight",
         "tag": "#9QQQ9CC8",
-        "stars": 12,
-        "destructionPercentage": 13.333333,
+        "stars": 17,
+        "destructionPercentage": 19.3,
         "members": [
           {
             "tag": "#2RJ90LV8",
@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 11,
-        "destructionPercentage": 12.866667
+        "stars": 14,
+        "destructionPercentage": 16.2
       },
       "sixHourNonAttackers": [
         {
@@ -243,11 +243,6 @@
         {
           "tag": "#GGVCRYP8P",
           "name": "gui",
-          "townhallLevel": 19
-        },
-        {
-          "tag": "#P9C0LVLU2",
-          "name": "VINGADOR⚡",
           "townhallLevel": 19
         },
         {
@@ -495,7 +490,14 @@
           "townhallLevel": 19,
           "mapPosition": 7,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 79,
+              "attackerTag": "#Q2PVPPV98",
+              "attackerMapPosition": 14
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -557,7 +559,14 @@
           "name": "VINGADOR⚡",
           "townhallLevel": 19,
           "mapPosition": 1,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 10,
+              "defenderTag": "#2RJ90LV8"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -592,7 +601,14 @@
           "townhallLevel": 19,
           "mapPosition": 10,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#JYYVQC82",
+              "attackerMapPosition": 3
+            }
+          ],
           "missedAttacks": 0
         },
         {
