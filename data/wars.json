@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 50,
-        "destructionPercentage": 56.466667
+        "stars": 53,
+        "destructionPercentage": 59.8
       },
       "sixHourNonAttackers": [
         {
@@ -159,11 +159,6 @@
           "tag": "#YRCLVY099",
           "name": "GLADIADOR - SP",
           "townhallLevel": 18
-        },
-        {
-          "tag": "#8YJYY92GC",
-          "name": "RussiaN",
-          "townhallLevel": 19
         },
         {
           "tag": "#LRVCV2UP",
@@ -338,7 +333,14 @@
           "name": "RussiaN",
           "townhallLevel": 19,
           "mapPosition": 22,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 43,
+              "defenderTag": "#2LVQLR8L0"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
