@@ -381,7 +381,20 @@
           "name": "GLADIADOR - SP",
           "townhallLevel": 18,
           "mapPosition": 29,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 72,
+              "order": 91,
+              "defenderTag": "#9L92QJV29"
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 91,
+              "order": 93,
+              "defenderTag": "#P8L0YJG2G"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
@@ -945,10 +958,22 @@
           ],
           "defensesReceived": [
             {
+              "stars": 2,
+              "destructionPercentage": 95,
+              "attackerTag": "#8YGGJ8J8",
+              "attackerMapPosition": 2
+            },
+            {
               "stars": 3,
               "destructionPercentage": 100,
               "attackerTag": "#2PVGV8RCU",
               "attackerMapPosition": 8
+            },
+            {
+              "stars": 2,
+              "destructionPercentage": 96,
+              "attackerTag": "#2Q8GRVLCU",
+              "attackerMapPosition": 10
             }
           ],
           "missedAttacks": 0
