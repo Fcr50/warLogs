@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 0,
-        "destructionPercentage": 0
+        "stars": 6,
+        "destructionPercentage": 6.6666665
       },
       "sixHourNonAttackers": [
         {
@@ -164,11 +164,6 @@
           "tag": "#QRJG880R0",
           "name": "FullOn",
           "townhallLevel": 18
-        },
-        {
-          "tag": "#2QL0VR9GU",
-          "name": "Marcola",
-          "townhallLevel": 19
         },
         {
           "tag": "#YRCLVY099",
@@ -198,11 +193,6 @@
         {
           "tag": "#LQQRGJ8VU",
           "name": "i-Vinni",
-          "townhallLevel": 19
-        },
-        {
-          "tag": "#G9Y2L9QJJ",
-          "name": "Micael",
           "townhallLevel": 19
         },
         {
@@ -342,7 +332,14 @@
           "name": "Marcola",
           "townhallLevel": 19,
           "mapPosition": 12,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 1,
+              "defenderTag": "#2LGJYLYV"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -405,7 +402,14 @@
           "name": "Micael",
           "townhallLevel": 19,
           "mapPosition": 13,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 2,
+              "defenderTag": "#8UG2LUUY"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
