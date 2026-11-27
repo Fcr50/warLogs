@@ -10,8 +10,8 @@
       "opponent": {
         "name": "불혹만세",
         "tag": "#YRCUGJCJ",
-        "stars": 18,
-        "destructionPercentage": 24.1,
+        "stars": 22,
+        "destructionPercentage": 27.733334,
         "members": [
           {
             "tag": "#2P0QLJPPG",
@@ -302,7 +302,14 @@
           "townhallLevel": 18,
           "mapPosition": 27,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#2P0QLJPPG",
+              "attackerMapPosition": 18
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -538,6 +545,12 @@
           "defensesReceived": [
             {
               "stars": 2,
+              "destructionPercentage": 89,
+              "attackerTag": "#2R8QGPQU",
+              "attackerMapPosition": 5
+            },
+            {
+              "stars": 2,
               "destructionPercentage": 99,
               "attackerTag": "#9VC92JG2P",
               "attackerMapPosition": 3
@@ -605,6 +618,12 @@
               "destructionPercentage": 91,
               "attackerTag": "#2YJ082Q22",
               "attackerMapPosition": 6
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#9VC92JG2P",
+              "attackerMapPosition": 3
             }
           ],
           "missedAttacks": 0
