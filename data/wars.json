@@ -10,8 +10,8 @@
       "opponent": {
         "name": "불혹만세",
         "tag": "#YRCUGJCJ",
-        "stars": 12,
-        "destructionPercentage": 15.3,
+        "stars": 18,
+        "destructionPercentage": 24.1,
         "members": [
           {
             "tag": "#2P0QLJPPG",
@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 20,
-        "destructionPercentage": 23
+        "stars": 26,
+        "destructionPercentage": 29.666666
       },
       "sixHourNonAttackers": [
         {
@@ -196,11 +196,6 @@
           "townhallLevel": 19
         },
         {
-          "tag": "#QGQJGURCL",
-          "name": "SAFONOV",
-          "townhallLevel": 19
-        },
-        {
           "tag": "#GJ2LQVQJ",
           "name": "Fer",
           "townhallLevel": 19
@@ -241,11 +236,6 @@
           "townhallLevel": 19
         },
         {
-          "tag": "#GGVCRYP8P",
-          "name": "gui",
-          "townhallLevel": 19
-        },
-        {
           "tag": "#YPVQVU982",
           "name": "亗 ＨＡＤＥＳ_０７ 亗",
           "townhallLevel": 19
@@ -279,7 +269,14 @@
           "townhallLevel": 19,
           "mapPosition": 11,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 1,
+              "destructionPercentage": 65,
+              "attackerTag": "#2982P029U",
+              "attackerMapPosition": 10
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -338,7 +335,14 @@
           "townhallLevel": 18,
           "mapPosition": 29,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#GYRC0R2J8",
+              "attackerMapPosition": 29
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -423,7 +427,14 @@
           "name": "SAFONOV",
           "townhallLevel": 19,
           "mapPosition": 7,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 14,
+              "defenderTag": "#JR9RYU0P"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
@@ -500,7 +511,14 @@
           "townhallLevel": 19,
           "mapPosition": 21,
           "attacks": [],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 2,
+              "destructionPercentage": 99,
+              "attackerTag": "#2982P029U",
+              "attackerMapPosition": 10
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -549,7 +567,14 @@
           "name": "gui",
           "townhallLevel": 19,
           "mapPosition": 17,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 16,
+              "defenderTag": "#G2802PYU"
+            }
+          ],
           "defensesReceived": [],
           "missedAttacks": 0
         },
