@@ -10,8 +10,8 @@
       "opponent": {
         "name": "불혹만세",
         "tag": "#YRCUGJCJ",
-        "stars": 63,
-        "destructionPercentage": 74.76667,
+        "stars": 70,
+        "destructionPercentage": 81.933334,
         "members": [
           {
             "tag": "#2P0QLJPPG",
@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 60,
-        "destructionPercentage": 66.666664
+        "stars": 65,
+        "destructionPercentage": 72.933334
       },
       "sixHourNonAttackers": [
         {
@@ -501,7 +501,14 @@
               "defenderTag": "#JR9RYU0P"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#QVV0PURCR",
+              "attackerMapPosition": 1
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -608,6 +615,12 @@
           ],
           "defensesReceived": [
             {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#QLVU9VL8L",
+              "attackerMapPosition": 2
+            },
+            {
               "stars": 2,
               "destructionPercentage": 85,
               "attackerTag": "#2GRG2VC0L",
@@ -629,7 +642,14 @@
               "defenderTag": "#28UV2LQ2Y"
             }
           ],
-          "defensesReceived": [],
+          "defensesReceived": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "attackerTag": "#QVV0PURCR",
+              "attackerMapPosition": 1
+            }
+          ],
           "missedAttacks": 0
         },
         {
@@ -729,7 +749,20 @@
           "name": "MarlonM",
           "townhallLevel": 19,
           "mapPosition": 5,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 2,
+              "destructionPercentage": 88,
+              "order": 57,
+              "defenderTag": "#VCUYQV0Y"
+            },
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 59,
+              "defenderTag": "#VGY9UVG9"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
