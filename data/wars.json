@@ -136,8 +136,8 @@
         ]
       },
       "clan": {
-        "stars": 29,
-        "destructionPercentage": 33
+        "stars": 32,
+        "destructionPercentage": 36.333332
       },
       "sixHourNonAttackers": [
         {
@@ -178,11 +178,6 @@
         {
           "tag": "#8CJ8YJY0P",
           "name": "ChrolloLucilfer",
-          "townhallLevel": 19
-        },
-        {
-          "tag": "#2GP2JUU2",
-          "name": "Gustavo Lázaro",
           "townhallLevel": 19
         },
         {
@@ -392,7 +387,14 @@
           "name": "Gustavo Lázaro",
           "townhallLevel": 19,
           "mapPosition": 6,
-          "attacks": [],
+          "attacks": [
+            {
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 29,
+              "defenderTag": "#2YJ082Q22"
+            }
+          ],
           "defensesReceived": [
             {
               "stars": 3,
